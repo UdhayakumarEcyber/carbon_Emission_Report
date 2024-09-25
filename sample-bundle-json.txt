@@ -1,0 +1,37 @@
+{
+    "id": "427cd041-70a1-4b6d-8326-e526c7b2f554",
+    "author": "",
+    "widgets": [
+        {
+            "id": "Carbon_Emission_Calc_Report",
+            "name": "Carbon_Emission_Calc_Report",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "Carbon_Emission_Calc_ReportLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "Carbon_Emission_Calc_ReportLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "Carbon_Emission_Calc_ReportLink",
+            "title": "Carbon_Emission_Calc_Report"
+        }
+    ]
+}

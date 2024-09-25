@@ -1,0 +1,46 @@
+{
+    "id": "b2ba44dd-d99b-4c0d-f768-1c6b186720c1",
+    "author": "",
+    "widgets": [
+        {
+            "id": "emission_Calc_Report",
+            "name": "Carbon Emission Calc Report",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        },
+        {
+            "id": "scopewise_Breakdown",
+            "name": "Scope Wise Total Breakdown Chart",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        },
+        {
+            "id": "categorywise_Breakdown",
+            "name": "Category Wise Total Breakdown Chart",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }, 
+        {
+            "id": "scope1_Breakdown",
+            "name": "Scope1 Breakdown Chart",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+        
+        
+        
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
