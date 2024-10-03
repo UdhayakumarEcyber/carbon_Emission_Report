@@ -1,6 +1,6 @@
 {
     "id": "b2ba44dd-d99b-4c0d-f768-1c6b186720c1",
-    "author": "",
+    "author": "eutech",
     "widgets": [
         {
             "id": "emission_Calc_Report",
@@ -29,7 +29,23 @@
             "description": "A sample widget",
             "icon": "",
             "tags":[]
+        },
+        {
+            "id": "carbon_Detailed_Analysis",
+            "name": "Carbon Detailed Analysist",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }, 
+        {
+            "id": "emissions_Category_Breakdown",
+            "name": "Emissions Category Breakdown",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
         }
+
+        
         
         
         

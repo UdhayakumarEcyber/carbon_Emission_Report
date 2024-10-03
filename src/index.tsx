@@ -18,7 +18,11 @@ import Scopewise_Breakdown from './components/scopewise_breakdown';
 import Categorywise_Breakdown from './components/categorywise_breakdown'; 
 import Scope1_Breakdown from './components/scope1_breakdown'; 
 
+import  Carbon_Detailed_Analysis from './components/carbon_detailed_analysis'; 
 
+import Emissions_Category_Breakdown from './components/carbon_emissions_category_breakdown'
+
+ 
 /**
  * Register as a Widget
  */
@@ -27,10 +31,10 @@ registerWidget({
     widget: Emission_Calc_Report,
     configs: {
         layout: {
-            // w: 12,
-            // h: 12,
-            // minH: 12,
-            // minW: 12
+            w: 12,
+            h: 21,
+            minH: 21,
+            minW: 12
         }
     }
 });
@@ -66,6 +70,34 @@ registerWidget({
 registerWidget({
     id: "scope1_Breakdown",
     widget: Scope1_Breakdown,
+    configs: {
+        layout: {
+            // w: 12,
+            // h: 12,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+
+
+
+registerWidget({
+    id: "carbon_Detailed_Analysis",
+    widget: Carbon_Detailed_Analysis,
+    configs: {
+        layout: {
+            // w: 12,
+            // h: 12,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+
+registerWidget({
+    id: "emissions_Category_Breakdown",
+    widget: Emissions_Category_Breakdown,
     configs: {
         layout: {
             // w: 12,
