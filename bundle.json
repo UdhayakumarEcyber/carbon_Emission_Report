@@ -3,33 +3,13 @@
     "author": "eutech",
     "widgets": [
         {
-            "id": "emission_Calc_Report",
-            "name": "Carbon Emission Calc Report",
+            "id": "emission_Overview",
+            "name": "Carbon Emission Overview",
             "description": "A sample widget",
             "icon": "",
             "tags":[]
-        },
-        {
-            "id": "scopewise_Breakdown",
-            "name": "Scope Wise Total Breakdown Chart",
-            "description": "A sample widget",
-            "icon": "",
-            "tags":[]
-        },
-        {
-            "id": "categorywise_Breakdown",
-            "name": "Category Wise Total Breakdown Chart",
-            "description": "A sample widget",
-            "icon": "",
-            "tags":[]
-        }, 
-        {
-            "id": "scope1_Breakdown",
-            "name": "Scope1 Breakdown Chart",
-            "description": "A sample widget",
-            "icon": "",
-            "tags":[]
-        },
+        },  
+
         {
             "id": "carbon_Detailed_Analysis",
             "name": "Carbon Detailed Analysist",
@@ -43,10 +23,43 @@
             "description": "A sample widget",
             "icon": "",
             "tags":[]
+        }, 
+        {
+            "id": "emissions_Ranking",
+            "name": "Emissions Ranking",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }, 
+        {
+            "id": "resource_Consumption_Overview",
+            "name": "Resource Consumption Overview",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }, 
+        {
+            "id": "carbon_Trends_Overview",
+            "name": "Carbon Trends Overview",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }, 
+        {
+            "id": "business_Level_Carbon_Emissions_Overview",
+            "name": "Business-Level Carbon Emissions Overview",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }, 
+        {
+            "id": "business_Level_Carbon_Trends_Overview",
+            "name": "Business-Level Carbon Trends Overview",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
         }
-
-        
-        
+         
         
         
     ],

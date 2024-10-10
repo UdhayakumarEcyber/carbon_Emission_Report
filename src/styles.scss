@@ -1,44 +1,78 @@
-.top-filter{
-    display: inline-flex;
-    width: 100%;
-    .select-filter{
+.action-section{
+    // width: 70%;
+    //   width: 56%;
+   // width: 48%;
+
+    .top-filter{
         display: inline-flex;
-       
-        .uxp-form-select{
-            margin-right: 1.5em;
-        }
-        .uxp-form-group{
-            margin-right: 1.5em;
+        width: 100%;
+        .select-filter{
+            display: inline-flex;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            color: #424242;
+        
+            .uxp-form-select{
+                margin-right: 1.5em;
+
+                &:nth-child(even){
+                    margin-right: 0em;
+                }
+            }
+            .uxp-form-group{
+                margin-right: 1.5em;
+            }
         }
     }
 }
+.uxp-toggle-filter{
+    background-color: transparent;
+}
 
+.no-data-available{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.uxp-select-dropdown-container .uxp-select-dropdown .uxp-select-option{  
+    color: #424242; 
+}
+.uxp-form-select .uxp-select-placeholder.valid::before { 
+      filter:none;
+}
+.uxp-form-select .uxp-select-placeholder.valid .selected {
+    color: #424242; 
+}
 .uxp-form-select {
-    min-width: 200px; 
+    min-width: 140px; 
+   
 }
 
 .uxp-emi-dropdown{ 
     display: inline-flex;
-    width: 55%;
+    width: 100%;
     margin-right: 1em;
 
     label{
         font-size: 12px;
-        /* width: 4em; */
-        /* text-align: center; */
+          width: 4em; 
+          text-align: center; 
         display: inline-block;
         // padding: 1.5em 2em 0em 1em;
-        padding: 1.5em 1em 0em 0.5em;
-        color: #52c9a9;
+        padding: 1.5em 0em 0em 0em;
+        color: #424242;
     }
 
     .uxp-emi-select-sec{
         display: inline-flex;
-        width: 45%;
+        width: 48%;
 
         .select-box{
             border: none;
-            color: #52c9a9;
+            color: #424242;
             display: inline-block;
             width: 45%;
             height: auto;
@@ -47,7 +81,7 @@
             z-index: 0;
             border-radius: 10px;
             overflow: hidden;
-            padding: 15px 5px 15px 5px;
+            padding: 12px 5px 12px 5px;
             transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
             box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
             outline: none;
@@ -83,12 +117,11 @@
     .scope-box{ 
 
         display: inline-block;
-        // width: 18%;
         width: 33%;
-        padding: 4.6em 2%;
+        padding: 2.5em 2%;
         border-radius: 15px;
         margin: 0 0 0 1%;
-        height: 13em;
+        height: 9em;
         position: relative;
 
         &.green-scope-box{
@@ -259,79 +292,76 @@
                 display: inline-flex;
                 width: 96%;
                //  width: 100%;
-                padding: 25px 15px;
+                padding: 15px 10px;
                 border-radius: 10px;
                 margin-top: 0.8em; 
                 margin: 0.8em 2% 0;
                 background-color: #fff;
 
-                a{
-                    color: #424242;
-                    text-decoration: none;
-                    width: 100%;
-                    cursor: pointer;
+                .list_category{ 
                     display: inline-flex;
-                }
-
-                label{
-                    display: inline-block;
-                    width: 55%;
-                    font-size: 12px;
-                    text-align: left;
-                    padding: 0;
-                    margin: 0;
-                    cursor: pointer;
-                    line-height: 1.5em; 
-                }
-                span{
-                    display: inline-block;
-                    width: 20%;
-                    font-size: 11px;
-                    text-align: right;
-                    .arrow{ 
-                            background-repeat: no-repeat;
-                            background-position: center center;
-                            background-size: auto 100%;
-                            width: 14px;
-                            display: inline-block;
-                            height: 14px;
-                            margin: 0px 0 0 5px;
-                            vertical-align: bottom;
-                            transform: rotate(180deg);
-                            &.up-arrow{
-                                background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);
-                            }
-                            &.down-arrow{
-                                background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);
-                            
-                            }
+                    width: 100%;
+                    label{
+                        display: inline-block;
+                        width: 55%;
+                        font-size: 11px;
+                        text-align: left;
+                        padding: 0;
+                        margin: 0;
+                        cursor: pointer;
+                        line-height: 1.5em; 
                     }
-                } 
-                em.years{
-                    display: inline-block;
-                    font-size: 18px;
-                    vertical-align: top;
-                    font-style: normal;
-                    font-size: 11px;
-                } 
-                .uxp-button {
-                    color: #fff;
-                    margin: 0;
-                    vertical-align: top;
-                    font-size: 11px;
-
-                    &.analysis_greenbtn{
-                        background-color: #3fa711e0;
-                    }
-                    &.analysis_redbtn{
-                        background-color: #e4261ef2;
+                    span{
+                        display: inline-block;
+                        width: 20%;
+                        font-size: 11px;
+                        text-align: right;
+                        .arrow{ 
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                                background-size: auto 100%;
+                                width: 14px;
+                                display: inline-block;
+                                height: 14px;
+                                margin: 0px 0 0 5px;
+                                vertical-align: bottom;
+                                transform: rotate(180deg);
+                                &.up-arrow{
+                                    background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);
+                                }
+                                &.down-arrow{
+                                    background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);
+                                
+                                }
+                        }
                     } 
-                    &.analysis_yellowbtn{
-                        background-color: #ebd728e8;
+                    em.years{
+                        display: inline-block;
+                        font-size: 18px;
+                        vertical-align: top;
+                        font-style: normal;
+                        font-size: 11px;
+                    } 
+                    .uxp-button {
+                        color: #fff;
+                        margin: 0;
+                        vertical-align: top;
+                        font-size: 10px;
+
+                        &.analysis_greenbtn{
+                            background-color: #3fa711e0;
+                        }
+                        &.analysis_redbtn{
+                            background-color: #e4261ef2;
+                        } 
+                        &.analysis_yellowbtn{
+                            background-color: #ebd728e8;
+                        }
                     }
                 }
-            }
-        } 
+        }
+        
+    } 
        
     }
 
@@ -348,7 +378,11 @@
 
 }
 
-
+.emi-breakdown{
+    .title-section{
+        width: 100%;
+    }
+}
  
 
 .modal-container.popup{ 
@@ -380,28 +414,39 @@
 
       
 
-        .modal-body{
-
-            .top-filter {
-                display: inline-block;
-                width: 100%;
-                margin: 0em 0em 1.2em 0em;
-
-                .select-filter{
+        .modal-body{ 
+            
+                .top-filter{
+                    display: inline-flex;
+                    // width: 64%;
+                    width: 47%;
                     float: right;
+                    margin-bottom: 2em;
 
-                    .uxp-form-group, .uxp-form-select{
-                        margin: 0 0 0 1.5em;
+                    
+
+                    .select-filter{
+                        display: inline-flex;
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        color: #424242;
+                    
+                        .uxp-form-select{
+                            margin-right: 1.5em;
+            
+                            &:nth-child(even){
+                                margin-right: 0em;
+                            }
+                        }
+                        .uxp-form-group{
+                            margin-right: 1.5em;
+                        }
                     }
-                }
-            }
-           
-            .recharts-responsive-container{
-                // width: 76% !important;
-                // height: 100% !important;
-                // overflow: auto;
-                // margin: 3% 12%;
+                } 
 
+            .recharts-responsive-container{ 
+                float: left;
                 height: 425px!important;
                 background: #fff;  
                 box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);
@@ -450,7 +495,7 @@
                     left: 0;
                     right: 0;
                     bottom: 0;
-                    background-color: #4c99a2;
+                    background-color: #4f805d;
                     transition: 0.4s;
                     border-radius: 34px;
                 }
@@ -468,7 +513,7 @@
                 }
                 
                 input:checked + .slider {
-                    background-color: #4f805d;
+                    background-color: #4c99a2;
                 }
                 
                 input:checked + .slider:before {
@@ -478,7 +523,7 @@
                 .chart_label{
                     font-size: 11px;
                     font-style: normal;
-                    padding: 12px 10px 0px 10px;
+                    padding: 12px 5px 0px 5px;
                     vertical-align: top;
                     display: inline-block;
  
@@ -489,6 +534,7 @@
                 width: 60%;
                 padding: 0;
                 margin: 0;
+                background-color: transparent;
                 
                 .uxp-toggle-option{  
                     padding: 10px 18px;
@@ -502,3 +548,166 @@
         }
     }
 }
+
+//resource_consumption_overview
+.resource_consumption_overview{
+     display:inline-flex;
+     padding: 1em 2em; 
+
+     .emi-breakdown{
+        display: inline-block;
+        height: 38em;
+
+        .energy_consumption-intensity{ 
+                background-color: #000;
+                display: inline-block;
+                border-radius: 10px;
+                padding: 2px 20px;
+                margin-left: 1.5em;
+          
+            p{
+                font-size: 11px;
+                color: #fff;
+            }
+        }
+     }
+
+     .consuption_composition{
+        display: inline-block; 
+        width: 100%;  
+     }
+}
+
+
+
+//resource_consumption_overview
+.resource_consumption_overview{
+    display:inline-flex;
+    padding: 1em 2em; 
+
+    .emi-breakdown{
+       display: inline-block;
+       height: 38em;
+
+       .energy_consumption-intensity{ 
+               background-color: #000;
+               display: inline-block;
+               border-radius: 10px;
+               padding: 2px 20px;
+               margin-left: 1.5em;
+         
+           p{
+               font-size: 11px;
+               color: #fff;
+           }
+       }
+    }
+
+    .consuption_composition{
+       display: inline-block; 
+       width: 100%;  
+    }
+}
+
+//ORGANIZATIONAL CARBON TRENDS OVERVIEW
+.carbon-trends-overview{
+    .resource_consumption_overview{
+        .emi-breakdown{
+            width: 49%;
+            height: 28em;
+            margin-right: 2%;
+
+            &:last-child{
+                margin-right: 0;
+            }
+
+            .widget-wrapper{
+                background-color: rgb(129 129 129 / 17%);
+                box-shadow: none;
+                border: 1px solid #d4d4d4;
+                
+                .uxp-widget-title-bar{
+                    background-color: transparent;
+                }
+           
+            .trends-overall{
+                padding: 0 3%;
+                display: inline-flex;
+                width: 100%;
+
+                .trends-box{
+
+                       width: 31%;
+                        display: inline-block;
+                        border-radius: 10px;
+                        margin: 0em 3% 0em 0em;
+                        vertical-align: top;
+                        // min-height: 20em;
+                         height: 20em;
+                         position: relative;
+
+                        &:nth-child(3){
+                            margin-right: 0;
+                        }
+
+                    .showcase-checkbox{
+                        display: inline-block;
+                        width: 100%!important;
+                        border-radius: 10px;
+
+                        label{
+                            font-size: 11px;
+                            margin: 0;
+                            padding: 4px 0;
+                        }
+                    } 
+                    .trends-box-cont{
+                        display: inline-block;
+                        width: 100%;
+                        text-align: center; 
+                        position: absolute;
+                        bottom: 1em;
+                        left: 0;
+
+                        h5{
+                            font-size: 2.2em;
+                            padding: 0 0 0 0;
+                            margin: 0;
+                            color: #424242;
+                            sub{
+                                font-size: 0.5em;
+                            }
+                        }
+                        p{
+                            font-size: 1em;
+                            padding: 10px 0 10px 0;
+                            margin: 0;
+                            color: #424242;
+                        }
+                    }
+
+                    &.white-box{
+                        background-color: #ffffff;
+                    }
+                    &.light-red-box{
+                        background-color: rgb(255 0 0 / 34%);
+
+                        .trends-box-cont{ 
+                            position: absolute;
+                            bottom: 50%;
+                            left: 50%;
+                            transform: translate(-50%, 50%);
+                        }
+                    }
+
+                }
+            }
+        }
+        }
+    }
+    .uxp-emi-dropdown{
+        margin-right: 0;
+    }
+}
+
+

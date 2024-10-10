@@ -13,74 +13,35 @@ interface IWidgetProps {
     instanceId?: string
 }
 
-import Emission_Calc_Report from './components/emissions_overview'; 
-import Scopewise_Breakdown from './components/scopewise_breakdown'; 
-import Categorywise_Breakdown from './components/categorywise_breakdown'; 
-import Scope1_Breakdown from './components/scope1_breakdown'; 
-
-import  Carbon_Detailed_Analysis from './components/carbon_detailed_analysis'; 
-
+import Emission_Overview from './components/emissions_overview';   
+import Carbon_Detailed_Analysis from './components/carbon_detailed_analysis';  
 import Emissions_Category_Breakdown from './components/carbon_emissions_category_breakdown'
+import Emissions_Ranking from './components/carbon_emissions_ranking' 
+import Resource_Consumption_Overview from './components/resource_consumption_overview'
+
+import Carbon_Trends_Overview from './components/carbon_trends_overview'
+import Business_Level_Carbon_Trends_Overview from './components/business-level-carbon-trends-overview'
+import Business_Level_Carbon_Emissions_Overview from './components/business-level-carbon-emissions-overview'
 
  
 /**
  * Register as a Widget
  */
+ 
+ 
 registerWidget({
-    id: "emission_Calc_Report",
-    widget: Emission_Calc_Report,
+    id: "emission_Overview",
+    widget: Emission_Overview,
     configs: {
         layout: {
-            w: 12,
-            h: 21,
-            minH: 21,
+            w: 26,
+            h: 18,
+            minH: 12,
             minW: 12
         }
     }
 });
-
-registerWidget({
-    id: "scopewise_Breakdown",
-    widget: Scopewise_Breakdown,
-    configs: {
-        layout: {
-            // w: 12,
-            // h: 12,
-            // minH: 12,
-            // minW: 12
-        }
-    }
-});
-
-
-registerWidget({
-    id: "categorywise_Breakdown",
-    widget: Categorywise_Breakdown,
-    configs: {
-        layout: {
-            // w: 12,
-            // h: 12,
-            // minH: 12,
-            // minW: 12
-        }
-    }
-});
-
-
-registerWidget({
-    id: "scope1_Breakdown",
-    widget: Scope1_Breakdown,
-    configs: {
-        layout: {
-            // w: 12,
-            // h: 12,
-            // minH: 12,
-            // minW: 12
-        }
-    }
-});
-
-
+ 
 
 registerWidget({
     id: "carbon_Detailed_Analysis",
@@ -108,6 +69,77 @@ registerWidget({
     }
 });
 
+registerWidget({
+    id: "emissions_Ranking",
+    widget: Emissions_Ranking,
+    configs: {
+        layout: {
+            // w: 12,
+            // h: 12,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+
+
+
+registerWidget({
+    id: "resource_Consumption_Overview",
+    widget: Resource_Consumption_Overview,
+    configs: {
+        layout: {
+            w: 30,
+            h: 18,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+
+
+registerWidget({
+    id: "carbon_Trends_Overview",
+    widget: Carbon_Trends_Overview,
+    configs: {
+        layout: {
+            w: 30,
+            h: 18,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+
+
+
+registerWidget({
+    id: "business_Level_Carbon_Trends_Overview",
+    widget: Business_Level_Carbon_Trends_Overview,
+    configs: {
+        layout: {
+            w: 30,
+            h: 18,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+
+
+
+registerWidget({
+    id: "business_Level_Carbon_Emissions_Overview",
+    widget: Business_Level_Carbon_Emissions_Overview,
+    configs: {
+        layout: {
+            w: 30,
+            h: 18,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
 
 
 

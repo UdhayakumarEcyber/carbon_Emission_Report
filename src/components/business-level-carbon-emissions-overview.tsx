@@ -40,7 +40,7 @@ interface IDataItem {
     color?: string;  
   }
 
-const Emission_Overview: React.FunctionComponent<IWidgetProps> = (props) => { 
+const Business_Level_Carbon_Emissions_Overview  : React.FunctionComponent<IWidgetProps> = (props) => { 
 
 let toast = useToast();
  
@@ -463,7 +463,7 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
 
     return (
         <WidgetWrapper>
-            <TitleBar title='Organizational Carbon Emissions Overview' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
+            <TitleBar title='Business-Level Carbon Emissions Overview' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
  
                             <div className="top-filter">
                                 <div className="select-filter">  
@@ -919,8 +919,13 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
     )
 }; 
 
-export default Emission_Overview;
+export default Business_Level_Carbon_Emissions_Overview;
 
 
-  
+ 
+
+
+
+
+
  
