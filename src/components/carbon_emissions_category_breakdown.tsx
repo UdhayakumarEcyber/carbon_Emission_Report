@@ -248,6 +248,13 @@ const transformedData = categorywiseEmissionSummaryData.map((entry, index) => ({
 
 const hasData = categorywiseEmissionSummaryData.some((item) => item.value > 0);
 
+
+
+const barformattedData = categorywiseEmissionSummaryData.map(item => ({
+  ...item,
+  label: parseFloat(item.label).toFixed(2),  // Format label to two decimal places
+}));
+
   return (
     <WidgetWrapper>
 
@@ -397,7 +404,7 @@ const hasData = categorywiseEmissionSummaryData.some((item) => item.value > 0);
 <div className="scopewise-chart" style={{height:"400px"}}>
       <div className="chart">
       {hasData ? (
-          <ResponsiveContainer width="100%" height={380}>
+          <ResponsiveContainer width="98%" height={380}>
             {isPieChart ? (
               <ResponsivePie
                 data={transformedData}
@@ -439,7 +446,7 @@ const hasData = categorywiseEmissionSummaryData.some((item) => item.value > 0);
                 />
                 <Tooltip />
                 <Legend />
-                <Bar
+                  <Bar
                   dataKey="value"
                   fill="#4f805d"
                   barSize={20}
@@ -455,8 +462,63 @@ const hasData = categorywiseEmissionSummaryData.some((item) => item.value > 0);
                       {props.label}
                     </text>
                   )}
+                /> 
+                <Bar
+                  dataKey="value"
+                  fill="#4f805d"
+                  barSize={20}
+                  label={(props: any) => (
+                    <text
+                      x={props.x + props.width + 10}
+                      y={props.y + props.height / 2}
+                      textAnchor="end"
+                      dominantBaseline="middle"
+                      fontSize="12"
+                      fill="#f00"
+                    >
+                      {parseFloat(props.value).toFixed(2)} {/* Format to two decimal places */}
+                    </text>
+                  )}
                 />
+
               </BarChart>
+
+            //   <BarChart
+            //   data={barformattedData}  // Use formatted data
+            //   layout="vertical"
+            //   margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
+            // >
+            //   <CartesianGrid strokeDasharray="3 3" />
+            //   <XAxis type="number" />
+            //   <YAxis type="category" dataKey="name" width={280} />
+            //   <YAxis
+            //     type="category"
+            //     yAxisId="right"
+            //     orientation="right"
+            //     dataKey="label"
+            //     width={100}
+            //   />
+            //   <Tooltip />
+            //   <Legend />
+            //   <Bar
+            //     dataKey="value"
+            //     fill="#4f805d"
+            //     barSize={20}
+            //     label={(props: any) => (
+            //       <text
+            //         x={props.x + props.width + 10}
+            //         y={props.y + props.height / 2}
+            //         textAnchor="end"
+            //         dominantBaseline="middle"
+            //         fontSize="12"
+            //         fill="#f00"
+            //       >
+            //         {props.value.toFixed(2)} {/* Format bar label to two decimal places */}
+            //       </text>
+            //     )}
+            //   />
+            // </BarChart>
+
             )}
           </ResponsiveContainer>
         ) : (

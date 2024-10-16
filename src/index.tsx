@@ -23,6 +23,13 @@ import Carbon_Trends_Overview from './components/carbon_trends_overview'
 import Business_Level_Carbon_Trends_Overview from './components/business-level-carbon-trends-overview'
 import Business_Level_Carbon_Emissions_Overview from './components/business-level-carbon-emissions-overview'
 
+
+import Test_Emission from './components/test_emission'
+
+//Test
+// import Test from './components/test'
+
+
  
 /**
  * Register as a Widget
@@ -129,8 +136,8 @@ registerWidget({
 
 
 registerWidget({
-    id: "business_Level_Carbon_Emissions_Overview",
-    widget: Business_Level_Carbon_Emissions_Overview,
+    id: "test_Emission",
+    widget: Test_Emission,
     configs: {
         layout: {
             w: 30,

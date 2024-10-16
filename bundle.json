@@ -58,6 +58,13 @@
             "description": "A sample widget",
             "icon": "",
             "tags":[]
+        }, 
+        {
+            "id": "test_Emission",
+            "name": "Test Emission",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
         }
          
         

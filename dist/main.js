@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".action-section .top-filter {\n  display: inline-flex;\n  width: 100%;\n}\n.action-section .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.action-section .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.action-section .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.action-section .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n\n.uxp-toggle-filter {\n  background-color: transparent;\n}\n\n.no-data-available {\n  transform: translate(-50%, -50%);\n  position: absolute;\n  left: 50%;\n  top: 50%;\n}\n\n.uxp-select-dropdown-container .uxp-select-dropdown .uxp-select-option {\n  color: #424242;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid::before {\n  filter: none;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid .selected {\n  color: #424242;\n}\n\n.uxp-form-select {\n  min-width: 140px;\n}\n\n.uxp-emi-dropdown {\n  display: inline-flex;\n  width: 100%;\n  margin-right: 1em;\n}\n.uxp-emi-dropdown label {\n  font-size: 12px;\n  width: 4em;\n  text-align: center;\n  display: inline-block;\n  padding: 1.5em 0em 0em 0em;\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec {\n  display: inline-flex;\n  width: 48%;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box {\n  border: none;\n  color: #424242;\n  display: inline-block;\n  width: 45%;\n  height: auto;\n  padding: 0;\n  background-color: #ffffff;\n  z-index: 0;\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 12px 5px 12px 5px;\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);\n  outline: none;\n  margin-right: 0.5em;\n  /* font-size: 8px; */\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option {\n  background-color: white;\n  color: #333;\n  padding: 5px;\n  display: inline-block;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option:hover {\n  background-color: rgba(82, 196, 201, 0.2901960784);\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box:focus {\n  border-color: #666; /* Add a border color on focus */\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */\n}\n\n.scope-overall {\n  display: inline-flex;\n  width: 100%;\n  padding: 0px 2%;\n}\n.scope-overall .scope-box {\n  display: inline-block;\n  width: 33%;\n  padding: 2.5em 2%;\n  border-radius: 15px;\n  margin: 0 0 0 1%;\n  height: 9em;\n  position: relative;\n}\n.scope-overall .scope-box.green-scope-box {\n  background: #6b9459;\n  margin-left: 0;\n}\n.scope-overall .scope-box.blue-scope-box {\n  background: #4c99a2;\n}\n.scope-overall .scope-box.orange-scope-box {\n  background: #dea76b;\n}\n.scope-overall .scope-box.green_blue-scope-box {\n  background: rgb(107, 148, 89);\n  background: -moz-linear-gradient(90deg, rgb(107, 148, 89) 15%, rgb(104, 149, 97) 40%, rgb(76, 153, 162) 78%);\n  background: -webkit-linear-gradient(90deg, rgb(107, 148, 89) 15%, rgb(104, 149, 97) 40%, rgb(76, 153, 162) 78%);\n  background: linear-gradient(90deg, rgb(107, 148, 89) 15%, rgb(104, 149, 97) 40%, rgb(76, 153, 162) 78%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#6b9459\",endColorstr=\"#4c99a2\",GradientType=1);\n  width: 40%;\n}\n.scope-overall .scope-box.green_blue_orange-scope-box {\n  background: rgb(107, 148, 89);\n  background: -moz-linear-gradient(90deg, rgb(107, 148, 89) 16%, rgb(76, 153, 162) 51%, rgb(222, 167, 107) 100%);\n  background: -webkit-linear-gradient(90deg, rgb(107, 148, 89) 16%, rgb(76, 153, 162) 51%, rgb(222, 167, 107) 100%);\n  background: linear-gradient(90deg, rgb(107, 148, 89) 16%, rgb(76, 153, 162) 51%, rgb(222, 167, 107) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#6b9459\",endColorstr=\"#dea76b\",GradientType=1);\n  width: 46%;\n}\n.scope-overall .scope-box h4 {\n  font-size: 1em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  color: #fff;\n}\n.scope-overall .scope-box h3 {\n  font-size: 2em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin-top: 7px;\n  color: #fff;\n  font-weight: normal;\n}\n.scope-overall .scope-box .scope-bottom {\n  position: absolute;\n  bottom: 1.5em;\n  right: 1em;\n}\n.scope-overall .scope-box .scope-bottom em {\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  color: #fff;\n}\n.scope-overall .scope-box .scope-bottom span {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.scope-overall .scope-box .scope-bottom span.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.scope-overall .scope-box .scope-bottom span.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n\n.scope1_breakdown_widget {\n  display: inline-block;\n  width: 100%;\n  padding: 3em 2% 0;\n}\n\n.scopewise-chart {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n}\n.scopewise-chart .chart {\n  width: 100%;\n  height: 80%;\n}\n.scopewise-chart .view-more {\n  position: absolute;\n  bottom: 2em;\n  right: 2em;\n}\n.scopewise-chart .view-more .uxp-button {\n  color: #424242;\n  text-decoration: none;\n  background: #ddd;\n  padding: 9px 2em;\n  text-align: center;\n  box-shadow: none;\n  font-size: 1em;\n}\n.scopewise-chart.scope1_breakdown {\n  display: inline-block;\n  width: 100%;\n}\n.scopewise-chart.scope1_breakdown .chart {\n  width: 98%;\n  height: 100%;\n}\n\n.assets-widget-list {\n  display: inline-flex;\n  padding: 6em 2em 2em 2em;\n  position: relative;\n  width: 100%;\n}\n.assets-widget-list .list-top-filter {\n  position: absolute;\n  right: 2em;\n  top: 2em;\n}\n.assets-widget-list .item-list {\n  padding: 1em 0% 1em 0%;\n  width: 33%;\n  overflow: auto;\n  border-radius: 10px;\n  margin-left: 1%;\n}\n.assets-widget-list .item-list.green-item-list {\n  background-color: rgba(107, 148, 89, 0.3411764706);\n  margin-left: 0;\n}\n.assets-widget-list .item-list.blue-item-list {\n  background-color: rgba(76, 153, 162, 0.3411764706);\n}\n.assets-widget-list .item-list.orange-item-list {\n  background-color: rgba(222, 167, 107, 0.3411764706);\n}\n.assets-widget-list .item-list ul {\n  list-style: none;\n  margin: 0em 0em 1em;\n  padding: 0em 0em 0em;\n}\n.assets-widget-list .item-list ul li {\n  display: inline-flex;\n  width: 96%;\n  padding: 15px 10px;\n  border-radius: 10px;\n  margin-top: 0.8em;\n  margin: 0.8em 2% 0;\n  background-color: #fff;\n}\n.assets-widget-list .item-list ul li .list_category {\n  display: inline-flex;\n  width: 100%;\n}\n.assets-widget-list .item-list ul li .list_category label {\n  display: inline-block;\n  width: 55%;\n  font-size: 11px;\n  text-align: left;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  line-height: 1.5em;\n}\n.assets-widget-list .item-list ul li .list_category span {\n  display: inline-block;\n  width: 20%;\n  font-size: 11px;\n  text-align: right;\n}\n.assets-widget-list .item-list ul li .list_category span .arrow {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.assets-widget-list .item-list ul li .list_category span .arrow.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.assets-widget-list .item-list ul li .list_category span .arrow.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n.assets-widget-list .item-list ul li .list_category em.years {\n  display: inline-block;\n  font-size: 18px;\n  vertical-align: top;\n  font-style: normal;\n  font-size: 11px;\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button {\n  color: #fff;\n  margin: 0;\n  vertical-align: top;\n  font-size: 10px;\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_greenbtn {\n  background-color: rgba(63, 167, 17, 0.8784313725);\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_redbtn {\n  background-color: rgba(228, 38, 30, 0.9490196078);\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_yellowbtn {\n  background-color: rgba(235, 215, 40, 0.9098039216);\n}\n.assets-widget-list .uxp-item-list-card {\n  padding: 0 0%;\n  border: 1px solid #ddd;\n  margin: 0 1%;\n  width: 98%;\n}\n.assets-widget-list .uxp-item-list-card .header {\n  padding: 0px 15px;\n}\n\n.emi-breakdown .title-section {\n  width: 100%;\n}\n\n.modal-container.popup .modal-panel {\n  min-width: 100%;\n  min-height: 100%;\n  border-radius: 0;\n}\n.modal-container.popup .modal-panel .modal-header {\n  position: relative;\n  padding: 30px;\n}\n.modal-container.popup .modal-panel .modal-header .modal-title {\n  text-align: left;\n  display: inline-block;\n  width: 30%;\n  position: absolute;\n  z-index: 1;\n  left: 5%;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close {\n  position: absolute;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close .close-btn {\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==);\n  background-size: 40%;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter {\n  display: inline-flex;\n  width: 47%;\n  float: right;\n  margin-bottom: 2em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .recharts-responsive-container {\n  float: left;\n  height: 425px !important;\n  background: #fff;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n}\n\n/* Style for the toggle switch */\n.scope1_breakdown_widget .action-section {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #4f805d;\n  transition: 0.4s;\n  border-radius: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  border-radius: 50%;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: 0.4s;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider {\n  background-color: #4c99a2;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider:before {\n  transform: translateX(26px);\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .chart_label {\n  font-size: 11px;\n  font-style: normal;\n  padding: 12px 5px 0px 5px;\n  vertical-align: top;\n  display: inline-block;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter {\n  width: 60%;\n  padding: 0;\n  margin: 0;\n  background-color: transparent;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option {\n  padding: 10px 18px;\n  font-size: 11px;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option.selected {\n  background-color: #4c99a2;\n  color: #ffffff;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown {\n  width: 49%;\n  height: 28em;\n  margin-right: 2%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown:last-child {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper {\n  background-color: rgba(129, 129, 129, 0.17);\n  box-shadow: none;\n  border: 1px solid #d4d4d4;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .uxp-widget-title-bar {\n  background-color: transparent;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall {\n  padding: 0 3%;\n  display: inline-flex;\n  width: 100%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box {\n  width: 31%;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 0em 3% 0em 0em;\n  vertical-align: top;\n  height: 20em;\n  position: relative;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box:nth-child(3) {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox {\n  display: inline-block;\n  width: 100% !important;\n  border-radius: 10px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox label {\n  font-size: 11px;\n  margin: 0;\n  padding: 4px 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont {\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  position: absolute;\n  bottom: 1em;\n  left: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 {\n  font-size: 2.2em;\n  padding: 0 0 0 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 sub {\n  font-size: 0.5em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont p {\n  font-size: 1em;\n  padding: 10px 0 10px 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.white-box {\n  background-color: #ffffff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box {\n  background-color: rgba(255, 0, 0, 0.34);\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont {\n  position: absolute;\n  bottom: 50%;\n  left: 50%;\n  transform: translate(-50%, 50%);\n}\n.carbon-trends-overview .uxp-emi-dropdown {\n  margin-right: 0;\n}", ""]);
+exports.push([module.id, ".action-section .top-filter {\n  display: inline-flex;\n  width: 100%;\n}\n.action-section .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.action-section .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.action-section .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.action-section .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n\n.uxp-toggle-filter {\n  background-color: transparent;\n}\n\n.no-data-available {\n  transform: translate(-50%, -50%);\n  position: absolute;\n  left: 50%;\n  top: 50%;\n}\n\n.uxp-select-dropdown-container .uxp-select-dropdown .uxp-select-option {\n  color: #424242;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid::before {\n  filter: none;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid .selected {\n  color: #424242;\n}\n\n.uxp-form-select {\n  min-width: 140px;\n}\n\n.uxp-emi-dropdown {\n  display: inline-flex;\n  width: 100%;\n  margin-right: 1em;\n}\n.uxp-emi-dropdown label {\n  font-size: 12px;\n  width: 4em;\n  text-align: center;\n  display: inline-block;\n  padding: 1.5em 0em 0em 0em;\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec {\n  display: inline-flex;\n  width: 48%;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box {\n  border: none;\n  color: #424242;\n  display: inline-block;\n  width: 45%;\n  height: auto;\n  padding: 0;\n  background-color: #ffffff;\n  z-index: 0;\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 12px 5px 12px 5px;\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);\n  outline: none;\n  margin-right: 0.5em;\n  /* font-size: 8px; */\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option {\n  background-color: white;\n  color: #333;\n  padding: 5px;\n  display: inline-block;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option:hover {\n  background-color: rgba(82, 196, 201, 0.2901960784);\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box:focus {\n  border-color: #666; /* Add a border color on focus */\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */\n}\n\n.scope-overall {\n  display: inline-flex;\n  width: 100%;\n  padding: 0px 2%;\n}\n.scope-overall .scope-box {\n  display: inline-block;\n  width: 33%;\n  padding: 2.5em 2%;\n  border-radius: 15px;\n  margin: 0 0 0 1%;\n  height: 9em;\n  position: relative;\n}\n.scope-overall .scope-box.green-scope-box {\n  background-color: rgb(83, 116, 83);\n  margin-left: 0;\n}\n.scope-overall .scope-box.blue-scope-box {\n  background-color: rgb(72, 110, 118);\n}\n.scope-overall .scope-box.orange-scope-box {\n  background-color: rgb(185, 128, 86);\n}\n.scope-overall .scope-box.green_blue-scope-box {\n  background: rgb(83, 116, 83);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 40%;\n}\n.scope-overall .scope-box.green_blue_orange-scope-box {\n  background: rgb(72, 110, 118);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 46%;\n}\n.scope-overall .scope-box h4 {\n  font-size: 1em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  color: #fff;\n}\n.scope-overall .scope-box h3 {\n  font-size: 1.7em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin-top: 7px;\n  color: #fff;\n  font-weight: normal;\n}\n.scope-overall .scope-box .scope-bottom {\n  position: absolute;\n  bottom: 1.5em;\n  right: 1em;\n}\n.scope-overall .scope-box .scope-bottom em {\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  color: #fff;\n}\n.scope-overall .scope-box .scope-bottom span {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.scope-overall .scope-box .scope-bottom span.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.scope-overall .scope-box .scope-bottom span.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n\n.scope1_breakdown_widget {\n  display: inline-block;\n  width: 100%;\n  padding: 3em 2% 0;\n}\n\n.scopewise-chart {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n}\n.scopewise-chart .chart {\n  width: 100%;\n  height: 80%;\n}\n.scopewise-chart .view-more {\n  position: absolute;\n  bottom: 2em;\n  right: 2em;\n}\n.scopewise-chart .view-more .uxp-button {\n  color: #424242;\n  text-decoration: none;\n  background: #ddd;\n  padding: 9px 2em;\n  text-align: center;\n  box-shadow: none;\n  font-size: 1em;\n}\n.scopewise-chart.scope1_breakdown {\n  display: inline-block;\n  width: 100%;\n}\n.scopewise-chart.scope1_breakdown .chart {\n  width: 98%;\n  height: 100%;\n}\n\n.assets-widget-list {\n  display: inline-flex;\n  padding: 6em 2em 2em 2em;\n  position: relative;\n  width: 100%;\n}\n.assets-widget-list .list-top-filter {\n  position: absolute;\n  right: 2em;\n  top: 2em;\n}\n.assets-widget-list .item-list {\n  padding: 1em 0% 1em 0%;\n  width: 33%;\n  overflow: auto;\n  border-radius: 10px;\n  margin-left: 1%;\n}\n.assets-widget-list .item-list.green-item-list {\n  background-color: rgba(107, 148, 89, 0.3411764706);\n  margin-left: 0;\n}\n.assets-widget-list .item-list.blue-item-list {\n  background-color: rgba(76, 153, 162, 0.3411764706);\n}\n.assets-widget-list .item-list.orange-item-list {\n  background-color: rgba(222, 167, 107, 0.3411764706);\n}\n.assets-widget-list .item-list ul {\n  list-style: none;\n  margin: 0em 0em 1em;\n  padding: 0em 0em 0em;\n}\n.assets-widget-list .item-list ul li {\n  display: inline-flex;\n  width: 96%;\n  padding: 15px 10px;\n  border-radius: 10px;\n  margin-top: 0.8em;\n  margin: 0.8em 2% 0;\n  background-color: #fff;\n}\n.assets-widget-list .item-list ul li .list_category {\n  display: inline-flex;\n  width: 100%;\n}\n.assets-widget-list .item-list ul li .list_category label {\n  display: inline-block;\n  width: 55%;\n  font-size: 11px;\n  text-align: left;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  line-height: 1.5em;\n}\n.assets-widget-list .item-list ul li .list_category span {\n  display: inline-block;\n  width: 20%;\n  font-size: 11px;\n  text-align: right;\n}\n.assets-widget-list .item-list ul li .list_category span .arrow {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.assets-widget-list .item-list ul li .list_category span .arrow.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.assets-widget-list .item-list ul li .list_category span .arrow.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n.assets-widget-list .item-list ul li .list_category em.years {\n  display: inline-block;\n  font-size: 18px;\n  vertical-align: top;\n  font-style: normal;\n  font-size: 11px;\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button {\n  color: #fff;\n  margin: 0;\n  vertical-align: top;\n  font-size: 10px;\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_greenbtn {\n  background-color: rgba(63, 167, 17, 0.8784313725);\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_redbtn {\n  background-color: rgba(228, 38, 30, 0.9490196078);\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_yellowbtn {\n  background-color: rgba(235, 215, 40, 0.9098039216);\n}\n.assets-widget-list .uxp-item-list-card {\n  padding: 0 0%;\n  border: 1px solid #ddd;\n  margin: 0 1%;\n  width: 98%;\n}\n.assets-widget-list .uxp-item-list-card .header {\n  padding: 0px 15px;\n}\n\n.emi-breakdown .title-section {\n  width: 100%;\n}\n\n.modal-container.popup .modal-panel {\n  min-width: 100%;\n  min-height: 100%;\n  border-radius: 0;\n}\n.modal-container.popup .modal-panel .modal-header {\n  position: relative;\n  padding: 30px;\n}\n.modal-container.popup .modal-panel .modal-header .modal-title {\n  text-align: left;\n  display: inline-block;\n  width: 30%;\n  position: absolute;\n  z-index: 1;\n  left: 5%;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close {\n  position: absolute;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close .close-btn {\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==);\n  background-size: 40%;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter {\n  display: inline-flex;\n  width: 47%;\n  float: right;\n  margin-bottom: 2em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .recharts-responsive-container {\n  float: left;\n  height: 425px !important;\n  background: #fff;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n}\n\n/* Style for the toggle switch */\n.scope1_breakdown_widget .action-section {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #4f805d;\n  transition: 0.4s;\n  border-radius: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  border-radius: 50%;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: 0.4s;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider {\n  background-color: #4c99a2;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider:before {\n  transform: translateX(26px);\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .chart_label {\n  font-size: 11px;\n  font-style: normal;\n  padding: 12px 5px 0px 5px;\n  vertical-align: top;\n  display: inline-block;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter {\n  width: 60%;\n  padding: 0;\n  margin: 0;\n  background-color: transparent;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option {\n  padding: 10px 18px;\n  font-size: 11px;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option.selected {\n  background-color: #4c99a2;\n  color: #ffffff;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown {\n  width: 49%;\n  height: 28em;\n  margin-right: 2%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown:last-child {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper {\n  background-color: rgba(129, 129, 129, 0.17);\n  box-shadow: none;\n  border: 1px solid #d4d4d4;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .uxp-widget-title-bar {\n  background-color: transparent;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall {\n  padding: 0 3%;\n  display: inline-flex;\n  width: 100%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box {\n  width: 31%;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 0em 3% 0em 0em;\n  vertical-align: top;\n  height: 20em;\n  position: relative;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box:nth-child(3) {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox {\n  display: inline-block;\n  width: 100% !important;\n  border-radius: 10px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox label {\n  font-size: 11px;\n  margin: 0;\n  padding: 4px 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont {\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  position: absolute;\n  bottom: 1em;\n  left: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 {\n  font-size: 2.2em;\n  padding: 0 0 0 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 sub {\n  font-size: 0.5em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont p {\n  font-size: 1em;\n  padding: 10px 0 10px 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.white-box {\n  background-color: #ffffff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box {\n  background-color: rgba(255, 0, 0, 0.34);\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont {\n  position: absolute;\n  bottom: 50%;\n  left: 50%;\n  transform: translate(-50%, 50%);\n}\n.carbon-trends-overview .uxp-emi-dropdown {\n  margin-right: 0;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -10515,502 +10515,6 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./src/components/business-level-carbon-emissions-overview.tsx":
-/*!*********************************************************************!*\
-  !*** ./src/components/business-level-carbon-emissions-overview.tsx ***!
-  \*********************************************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
-const recharts_1 = __webpack_require__(/*! recharts */ "recharts");
-const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
-const pie_1 = __webpack_require__(/*! @nivo/pie */ "./node_modules/@nivo/pie/dist/nivo-pie.es.js");
-const highcharts_1 = __importDefault(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
-const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
-const Business_Level_Carbon_Emissions_Overview = (props) => {
-    let toast = (0, components_1.useToast)();
-    let [ClientFilter, setClientFilter] = react_1.default.useState('0');
-    let [MainUnitFilter, setMainUnitFilter] = react_1.default.useState('0');
-    let [SubUnitFilter, setSubUnitFilter] = react_1.default.useState('0');
-    let [ClientFilterList, setClientFilterList] = react_1.default.useState([]);
-    let [MainUnitFilterList, setMainUnitFilterList] = react_1.default.useState([]);
-    let [SubUnitFilterList, setSubUnitFilterList] = react_1.default.useState([]);
-    react_1.default.useEffect(() => {
-        getClientListFilter();
-    }, []);
-    function getClientListFilter() {
-        var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true }).then(res => {
-            let result = res;
-            //debugger
-            setClientFilterList(result);
-            setClientFilter(result[0].ClientKey);
-        }).catch(e => {
-            console.log("except: ", e);
-            toast.error("Something went wrong" + e);
-        });
-    }
-    react_1.default.useEffect(() => {
-        if (ClientFilter != '0') {
-            getBusinessUnitsFilter();
-        }
-    }, [ClientFilter]);
-    function getBusinessUnitsFilter() {
-        var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: '0' }, { json: true }).then(res => {
-            let result = res;
-            var filteredArray = result.filter(function (itm) {
-                return itm.ParentKey == '';
-            });
-            setMainUnitFilterList(filteredArray);
-            setMainUnitFilter(filteredArray[0].BusinessUnitKey);
-            //debugger
-        }).catch(e => {
-            console.log("except: ", e);
-            toast.error("Something went wrong" + e);
-        });
-    }
-    react_1.default.useEffect(() => {
-        if (MainUnitFilter != '0') {
-            getSubBusinessUnitsFilter();
-        }
-    }, [MainUnitFilter]);
-    function getSubBusinessUnitsFilter() {
-        var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: MainUnitFilter }, { json: true }).then(res => {
-            let result = res;
-            if (result.length > 0) {
-                setSubUnitFilterList(result);
-                setSubUnitFilter(result[0].BusinessUnitKey);
-            }
-            else {
-                setSubUnitFilterList([]);
-                setSubUnitFilter("0");
-            }
-        }).catch(e => {
-            console.log("except: ", e);
-            toast.error("Something went wrong" + e);
-        });
-    }
-    const [startYear, setStartYear] = (0, react_1.useState)(2024);
-    const [startMonth, setStartMonth] = (0, react_1.useState)(7);
-    const [endYear, setEndYear] = (0, react_1.useState)(2024);
-    const [endMonth, setEndMonth] = (0, react_1.useState)(12);
-    const Years = GetYears();
-    function GetYears() {
-        const currentYear = new Date().getFullYear();
-        const yearList = [];
-        for (let year = currentYear - 5; year <= currentYear + 5; year++) {
-            yearList.push({ Label: year, Value: year });
-        }
-        return yearList;
-    }
-    ;
-    const months = [
-        { Value: '1', Label: 'January' },
-        { Value: '2', Label: 'February' },
-        { Value: '3', Label: 'March' },
-        { Value: '4', Label: 'April' },
-        { Value: '5', Label: 'May' },
-        { Value: '6', Label: 'June' },
-        { Value: '7', Label: 'July' },
-        { Value: '8', Label: 'August' },
-        { Value: '9', Label: 'September' },
-        { Value: '10', Label: 'October' },
-        { Value: '11', Label: 'November' },
-        { Value: '12', Label: 'December' }
-    ];
-    let [scopedata, setScopeData] = (0, react_1.useState)([]);
-    (0, react_1.useEffect)(() => {
-        getScopeData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
-        getScopeEmissionBreakdownData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
-        getScopewisePopUpData(SubUnitFilter !== '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth); // Correct function call
-        // scopewisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
-        getCategorywiseEmissionOverview(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
-        getcategorywisePopUpData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
-    }, [startYear, startMonth, endYear, endMonth, SubUnitFilter, MainUnitFilter]);
-    function getScopeData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
-        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseOverview", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
-            .then((res) => {
-            console.log("response", res);
-            setScopeData(res);
-        })
-            .catch((e) => {
-            console.error("Error fetching scope data", e);
-        });
-    }
-    const getClassName = (scopeKey) => {
-        switch (scopeKey) {
-            case "1":
-                return "green-scope-box";
-            case "2":
-                return "blue-scope-box";
-            case "3":
-                return "orange-scope-box";
-            case "4":
-                return "green_blue-scope-box";
-            case "5":
-                return "green_blue_orange-scope-box";
-            default:
-                return "scope-box";
-        }
-    };
-    let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = (0, react_1.useState)([]); // Initialized as an empty array since the data is an array
-    function getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
-        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
-            .then((res) => {
-            console.log("response", res);
-            setScopeEmissionBreakdowndata(res);
-        })
-            .catch((e) => {
-            console.error("Error fetching scope data", e);
-        });
-    }
-    const groupedScopeEmissionBreakdowndata = (0, react_1.useMemo)(() => {
-        const groupedData = scopeEmissionBreakdowndata.reduce((acc, item) => {
-            if (item.CarbonEmission && Number(item.CarbonEmission) > 0) { // Skip empty or zero values
-                if (acc[item.ScopeName]) {
-                    acc[item.ScopeName] += Number(item.CarbonEmission); // Add to existing scope
-                }
-                else {
-                    acc[item.ScopeName] = Number(item.CarbonEmission); // Initialize new scope
-                }
-            }
-            return acc;
-        }, {});
-        return Object.keys(groupedData).map(scope => ({
-            id: scope,
-            value: groupedData[scope],
-            label: scope
-        }));
-    }, [scopeEmissionBreakdowndata]);
-    let [showModal, setShowModal] = react_1.default.useState(false);
-    let [modelData, setModelData] = react_1.default.useState(null);
-    function handleClick() {
-        console.log("Button clicked");
-        setShowModal(true);
-        setModelData({});
-    }
-    const handleCloseModal = () => {
-        setShowModal(false);
-        setModelData(null);
-    };
-    const [scopewisePopUpData, setScopewisePopUpData] = (0, react_1.useState)([]);
-    const getScopewisePopUpData = (BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) => {
-        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdownPopup", {
-            BusinessUnitKey,
-            StartYear,
-            StartMonth,
-            EndYear,
-            EndMonth
-        }, { json: true }).then(res => {
-            console.log("data", res);
-            setScopewisePopUpData(processScopeData(res)); // Process the data after fetching
-        }).catch(e => {
-            console.error("Error fetching data", e);
-        });
-    };
-    // Process the fetched data
-    const processScopeData = (data) => {
-        const groupedScopePopupData = {};
-        data.forEach(item => {
-            const month = item.MonthString;
-            if (!groupedScopePopupData[month]) {
-                groupedScopePopupData[month] = { MonthString: month, Scope1: 0, Scope2: 0, Scope3: 0 };
-            }
-            const emission = parseFloat(item.CarbonEmission);
-            if (item.ScopeKey === "1") {
-                groupedScopePopupData[month].Scope1 += emission;
-            }
-            else if (item.ScopeKey === "2") {
-                groupedScopePopupData[month].Scope2 += emission;
-            }
-            else if (item.ScopeKey === "3") {
-                groupedScopePopupData[month].Scope3 += emission;
-            }
-        });
-        return Object.values(groupedScopePopupData);
-    };
-    let [selected, setSelected] = react_1.default.useState("op-1");
-    let [selected1, setSelected1] = react_1.default.useState("op-1");
-    let [selected2, setSelected2] = react_1.default.useState("op-1");
-    // categorywisedata//
-    let [showModal1, setShowModal1] = react_1.default.useState(false);
-    let [modelData1, setModelData1] = react_1.default.useState(null);
-    function handleClick1() {
-        console.log("Button clicked");
-        setShowModal1(true);
-        setModelData1({});
-    }
-    const handleCloseModal1 = () => {
-        setShowModal1(false);
-        setModelData1(null);
-    };
-    let [categorywiseEmissionOverviewdata, setCategorywiseEmissionOverviewdata] = (0, react_1.useState)([]);
-    // Fetch category-wise emission data
-    function getCategorywiseEmissionOverview(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
-        var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true }).then((res) => {
-            console.log("response", res);
-            setCategorywiseEmissionOverviewdata(res);
-        }).catch((e) => {
-            console.error("Error fetching scope data", e);
-        });
-    }
-    // Define color map for ScopeKey to ensure consistency across inner and outer series
-    const colorMap = {
-        'Scope 1': '#4c6a48',
-        'Scope 2': '#466f81',
-        'Scope 3': '#b97244',
-    };
-    // Group data by scope and subcategories
-    const groupedData = categorywiseEmissionOverviewdata.reduce((acc, item) => {
-        const scopeIndex = acc.findIndex((scope) => scope.name === item.ScopeName);
-        const emissionValue = Number(item.CarbonEmission) > 0 ? Number(item.CarbonEmission) : 0;
-        if (scopeIndex !== -1) {
-            // Add to existing scope
-            acc[scopeIndex].children.push({
-                name: item.ActivityCategorytableName,
-                value: emissionValue,
-                color: colorMap[item.ScopeName], // Assign color based on ScopeName
-            });
-        }
-        else {
-            // Create new scope group
-            acc.push({
-                name: item.ScopeName,
-                ScopeKey: item.ScopeKey,
-                children: [
-                    {
-                        name: item.ActivityCategorytableName,
-                        value: emissionValue,
-                        color: colorMap[item.ScopeName], // Assign color based on ScopeName
-                    },
-                ],
-            });
-        }
-        return acc;
-    }, []);
-    // Check if all values are zero
-    const CategorywiseValueZero = groupedData.every((scope) => scope.children.every((child) => child.value === 0));
-    // Prepare inner and outer series data with colors matching ScopeKey
-    const innerSeriesData = groupedData.map((scope) => ({
-        name: scope.name,
-        y: scope.children.reduce((acc, child) => acc + child.value, 0),
-        color: colorMap[scope.name], // Use the same color for inner part
-    }));
-    const outerSeriesData = groupedData.reduce((acc, scope) => {
-        return acc.concat(scope.children.map((child) => ({
-            name: child.name,
-            y: child.value,
-            color: colorMap[scope.name], // Use the same color for outer part
-        })));
-    }, []);
-    // Highcharts options for donut chart with color matching
-    const options = {
-        chart: {
-            type: "pie",
-            height: "50%",
-            margin: [0, 0, 0, 0],
-        },
-        title: {
-            text: "",
-        },
-        plotOptions: {
-            pie: {
-                innerSize: "40%",
-                dataLabels: {
-                    enabled: true,
-                    format: "{point.name}: {point.y:.1f}",
-                    filter: {
-                        property: 'y',
-                        operator: '>',
-                        value: 0, // Show labels only if value > 0
-                    },
-                },
-            },
-        },
-        series: [
-            {
-                name: "Scopes",
-                colorByPoint: false,
-                size: '60%',
-                data: innerSeriesData,
-                dataLabels: {
-                    distance: -30, // Position inside the donut
-                },
-            },
-            {
-                name: "Subcategories",
-                colorByPoint: false,
-                innerSize: '60%',
-                size: '95%',
-                data: outerSeriesData,
-                dataLabels: {
-                    distance: 10,
-                    filter: {
-                        property: 'y',
-                        operator: '>',
-                        value: 0, // Show labels only if value > 0
-                    },
-                },
-            },
-        ],
-        tooltip: {
-            pointFormat: "<b>{point.name}</b>: {point.y}",
-        },
-        credits: {
-            enabled: false,
-        },
-    };
-    let [categorywisePopUpData, setCategorywisePopUpData] = react_1.default.useState([]);
-    function getcategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
-        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionBreakdown", { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth }, { json: true }).then(res => {
-            console.log("data", res);
-            setCategorywisePopUpData(res);
-        }).catch(e => {
-            // console.log("hi", e);
-        });
-    }
-    return (react_1.default.createElement(components_1.WidgetWrapper, null,
-        react_1.default.createElement(components_1.TitleBar, { title: 'Business-Level Carbon Emissions Overview', icon: "https://static.iviva.com/images/Udhayimages/alert-trends.png" },
-            react_1.default.createElement("div", { className: "top-filter" },
-                react_1.default.createElement("div", { className: "select-filter" },
-                    react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
-                        react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                            react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                            react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
-                        react_1.default.createElement("label", null, "To"),
-                        react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                            react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                            react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
-                react_1.default.createElement(components_1.FilterPanel, null,
-                    react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                    react_1.default.createElement("br", null),
-                    react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
-                    react_1.default.createElement("br", null),
-                    react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null })))),
-        react_1.default.createElement("div", { className: "scope-overall" }, scopedata.length > 0 ? (scopedata.map((scope, index) => (react_1.default.createElement("div", { key: index, className: `scope-box ${getClassName(scope.ScopeKey)}` },
-            react_1.default.createElement("h4", null,
-                " ",
-                scope.ScopeName,
-                " "),
-            react_1.default.createElement("h3", null,
-                Number(scope.CurrentEmission).toFixed(2),
-                " tCO",
-                react_1.default.createElement("em", null, "2"),
-                "e"),
-            react_1.default.createElement("div", { className: "scope-bottom" },
-                react_1.default.createElement("em", null, Number(scope.PrevEmission).toFixed(2) ? `${Number(scope.PrevEmission).toFixed(2)} %` : 0),
-                react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` })))))) : (react_1.default.createElement("p", null, "Loading data..."))),
-        react_1.default.createElement("div", { style: { display: "inline-flex", padding: "3em 3em" } },
-            react_1.default.createElement("div", { className: "emi-breakdown", style: { display: "inline-block", width: "40%", height: "38em", margin: "0 1.5em 0 0" } },
-                react_1.default.createElement(components_1.WidgetWrapper, null,
-                    react_1.default.createElement(components_1.TitleBar, { title: 'Scope-wise Total Emission Breakdown' }),
-                    react_1.default.createElement("div", { className: "scopewise-chart" },
-                        react_1.default.createElement("div", { className: "chart" },
-                            react_1.default.createElement(recharts_1.ResponsiveContainer, null, groupedScopeEmissionBreakdowndata.length === 0 || groupedScopeEmissionBreakdowndata.every(item => item.value === 0) ? (react_1.default.createElement("div", { style: { textAlign: "center", padding: "30% 0" } },
-                                react_1.default.createElement("h3", null, "No Data Available"))) : (react_1.default.createElement(react_1.default.Fragment, null,
-                                react_1.default.createElement(pie_1.ResponsivePie, { data: groupedScopeEmissionBreakdowndata, margin: { top: 5, right: 20, bottom: 20, left: 20 }, innerRadius: 0.75, padAngle: 0, cornerRadius: 3, colors: ["#466f81", "#b97244", "#4c6a48"], borderWidth: 1, borderColor: { from: "color", modifiers: [["darker", 0.2]] }, animate: false, value: "value", activeOuterRadiusOffset: 8, arcLinkLabelsSkipAngle: 10, arcLinkLabelsTextColor: "#333333", arcLinkLabelsThickness: 2, arcLinkLabelsColor: { from: 'color' }, arcLabelsSkipAngle: 1, arcLabelsTextColor: "#ffffff", arcLabelsRadiusOffset: 0.5, arcLabel: d => `${d.value.toFixed(2)}%` }),
-                                react_1.default.createElement("div", { className: "view-more" },
-                                    react_1.default.createElement(components_1.Button, { title: "View More", onClick: handleClick })))))),
-                        react_1.default.createElement(components_1.Modal, { className: "popup", title: "Scope-Wise Operational Carbon Emissions Overview", show: showModal, onClose: handleCloseModal },
-                            react_1.default.createElement("div", { id: "my_Popup" },
-                                react_1.default.createElement("div", { className: "top-filter" },
-                                    react_1.default.createElement("div", { className: "select-filter" },
-                                        react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
-                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                                                react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                                                react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
-                                            react_1.default.createElement("label", null, "To"),
-                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                                                react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                                                react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
-                                    react_1.default.createElement(components_1.FilterPanel, null,
-                                        react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                                        react_1.default.createElement("br", null),
-                                        react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
-                                        react_1.default.createElement("br", null),
-                                        react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null }))),
-                                react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 400 },
-                                    react_1.default.createElement(recharts_1.BarChart, { data: scopewisePopUpData, margin: { top: 20, right: 30, left: 0, bottom: 0 } },
-                                        react_1.default.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3" }),
-                                        react_1.default.createElement(recharts_1.XAxis, { dataKey: "MonthString" }),
-                                        react_1.default.createElement(recharts_1.YAxis, null),
-                                        react_1.default.createElement(recharts_1.Tooltip, null),
-                                        react_1.default.createElement(recharts_1.Legend, null),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "Scope1", stackId: "a", fill: "#4c6a48" }),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "Scope2", stackId: "a", fill: "#466f81" }),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "Scope3", stackId: "a", fill: "#b97244" })))))))),
-            react_1.default.createElement("div", { className: "emi-breakdown", style: { display: "inline-block", width: "60%", height: "38em", margin: "0 0 0 1.5em" } },
-                react_1.default.createElement(components_1.WidgetWrapper, null,
-                    react_1.default.createElement(components_1.TitleBar, { title: 'Category-wise Total Emission Breakdown' }),
-                    react_1.default.createElement("div", { className: "scopewise-chart" },
-                        react_1.default.createElement("div", { className: "chart" }, CategorywiseValueZero ? (react_1.default.createElement("h3", { style: { textAlign: "center" } }, "No Data Available")) : (react_1.default.createElement(react_1.default.Fragment, null,
-                            react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: options }),
-                            react_1.default.createElement("div", { className: "view-more" },
-                                react_1.default.createElement(components_1.Button, { title: "View More", onClick: handleClick1 }))))),
-                        react_1.default.createElement(components_1.Modal, { className: "popup", title: "Scope-Wise Operational Carbon Emissions Overview", show: showModal1, onClose: handleCloseModal1 },
-                            react_1.default.createElement("div", { id: "my_Popup" },
-                                react_1.default.createElement("div", { className: "top-filter" },
-                                    react_1.default.createElement("div", { className: "select-filter" },
-                                        react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
-                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                                                react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                                                react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
-                                            react_1.default.createElement("label", null, "To"),
-                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                                                react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                                                react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
-                                    react_1.default.createElement(components_1.FilterPanel, null,
-                                        react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                                        react_1.default.createElement("br", null),
-                                        react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
-                                        react_1.default.createElement("br", null),
-                                        react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null }))),
-                                react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 400 },
-                                    react_1.default.createElement(recharts_1.BarChart, { data: categorywisePopUpData, margin: { top: 20, right: 30, left: 0, bottom: 0 } },
-                                        react_1.default.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3" }),
-                                        react_1.default.createElement(recharts_1.XAxis, { dataKey: "ActivityCategorytableName" }),
-                                        react_1.default.createElement(recharts_1.YAxis, null),
-                                        react_1.default.createElement(recharts_1.Tooltip, null),
-                                        react_1.default.createElement(recharts_1.Legend, null),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "CarbonEmission", stackId: "a", fill: "#4c6a48" })))))))))));
-};
-exports["default"] = Business_Level_Carbon_Emissions_Overview;
-
-
-/***/ }),
-
 /***/ "./src/components/business-level-carbon-trends-overview.tsx":
 /*!******************************************************************!*\
   !*** ./src/components/business-level-carbon-trends-overview.tsx ***!
@@ -12705,10 +12209,10 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
 const recharts_1 = __webpack_require__(/*! recharts */ "recharts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
-const pie_1 = __webpack_require__(/*! @nivo/pie */ "./node_modules/@nivo/pie/dist/nivo-pie.es.js");
 const highcharts_1 = __importDefault(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
 const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
 const Emission_Overview = (props) => {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
     let toast = (0, components_1.useToast)();
     let [ClientFilter, setClientFilter] = react_1.default.useState('0');
     let [MainUnitFilter, setMainUnitFilter] = react_1.default.useState('0');
@@ -12810,6 +12314,11 @@ const Emission_Overview = (props) => {
         getCategorywiseEmissionOverview(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
         getcategorywisePopUpData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
     }, [startYear, startMonth, endYear, endMonth, SubUnitFilter, MainUnitFilter]);
+    const colorMap = {
+        'Scope 1': '#537453',
+        'Scope 2': '#486e76',
+        'Scope 3': '#b98056',
+    };
     function getScopeData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
         props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseOverview", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
             .then((res) => {
@@ -12836,7 +12345,8 @@ const Emission_Overview = (props) => {
                 return "scope-box";
         }
     };
-    let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = (0, react_1.useState)([]); // Initialized as an empty array since the data is an array
+    let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = (0, react_1.useState)([]);
+    //let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
     function getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
         props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
             .then((res) => {
@@ -12847,24 +12357,78 @@ const Emission_Overview = (props) => {
             console.error("Error fetching scope data", e);
         });
     }
+    // Group data and calculate total CarbonEmission for each Scope with rounding
     const groupedScopeEmissionBreakdowndata = (0, react_1.useMemo)(() => {
         const groupedData = scopeEmissionBreakdowndata.reduce((acc, item) => {
-            if (item.CarbonEmission && Number(item.CarbonEmission) > 0) { // Skip empty or zero values
-                if (acc[item.ScopeName]) {
-                    acc[item.ScopeName] += Number(item.CarbonEmission); // Add to existing scope
+            const scopeKey = item.ScopeKey;
+            const carbonEmission = parseFloat(item.CarbonEmission) || 0;
+            if (scopeKey && carbonEmission > 0) {
+                if (acc[scopeKey]) {
+                    acc[scopeKey] += carbonEmission;
                 }
                 else {
-                    acc[item.ScopeName] = Number(item.CarbonEmission); // Initialize new scope
+                    acc[scopeKey] = carbonEmission;
                 }
             }
             return acc;
         }, {});
-        return Object.keys(groupedData).map(scope => ({
-            id: scope,
-            value: groupedData[scope],
-            label: scope
+        // Convert grouped data to chart format, round values, and apply colors
+        return Object.keys(groupedData).map(scopeKey => ({
+            name: `Scope ${scopeKey}`,
+            y: parseFloat(groupedData[scopeKey].toFixed(2)),
+            color: colorMap[`Scope ${scopeKey}`] // Apply corresponding color
         }));
     }, [scopeEmissionBreakdowndata]);
+    const chartData = groupedScopeEmissionBreakdowndata;
+    const scope_options = {
+        // chart: {
+        //     type: 'pie',
+        //     options3d: {
+        //         enabled: true,
+        //         alpha: 40,
+        //         beta: 0
+        //     }
+        // },
+        chart: {
+            type: "pie",
+            height: "80%",
+            margin: [20, 10, 0, 10],
+        },
+        title: {
+            text: "",
+        },
+        tooltip: {
+            //   pointFormat: "<b>{point.name}</b>: {point.y}",
+            pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e"
+        },
+        plotOptions: {
+            pie: {
+                innerSize: '60%',
+                depth: 40,
+                dataLabels: {
+                    enabled: true,
+                    // format: '{point.name}: <b>{point.y:.1f}</b>',
+                    format: "{point.name}: {point.y:.2f} kgCO2e",
+                },
+                showInLegend: true
+            }
+        },
+        legend: {
+            enabled: true,
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            itemMarginTop: 1,
+        },
+        credits: {
+            enabled: false,
+        },
+        series: [{
+                name: 'Emissions',
+                colorByPoint: true,
+                data: chartData // Use the grouped data for chart
+            }]
+    };
     let [showModal, setShowModal] = react_1.default.useState(false);
     let [modelData, setModelData] = react_1.default.useState(null);
     function handleClick() {
@@ -12939,10 +12503,15 @@ const Emission_Overview = (props) => {
         });
     }
     // Define color map for ScopeKey to ensure consistency across inner and outer series
-    const colorMap = {
-        'Scope 1': '#4c6a48',
-        'Scope 2': '#466f81',
-        'Scope 3': '#b97244',
+    // Function to lighten a given color
+    const lightenColor = (hex, percent) => {
+        let r = parseInt(hex.slice(1, 3), 16);
+        let g = parseInt(hex.slice(3, 5), 16);
+        let b = parseInt(hex.slice(5, 7), 16);
+        r = Math.min(255, Math.floor(r + (255 - r) * percent));
+        g = Math.min(255, Math.floor(g + (255 - g) * percent));
+        b = Math.min(255, Math.floor(b + (255 - b) * percent));
+        return `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
     };
     // Group data by scope and subcategories
     const groupedData = categorywiseEmissionOverviewdata.reduce((acc, item) => {
@@ -12965,15 +12534,13 @@ const Emission_Overview = (props) => {
                     {
                         name: item.ActivityCategorytableName,
                         value: emissionValue,
-                        color: colorMap[item.ScopeName], // Assign color based on ScopeName
+                        color: lightenColor(colorMap[item.ScopeName], 0.3), // Call lightenColor function
                     },
                 ],
             });
         }
         return acc;
     }, []);
-    // Check if all values are zero
-    const CategorywiseValueZero = groupedData.every((scope) => scope.children.every((child) => child.value === 0));
     // Prepare inner and outer series data with colors matching ScopeKey
     const innerSeriesData = groupedData.map((scope) => ({
         name: scope.name,
@@ -12981,18 +12548,25 @@ const Emission_Overview = (props) => {
         color: colorMap[scope.name], // Use the same color for inner part
     }));
     const outerSeriesData = groupedData.reduce((acc, scope) => {
-        return acc.concat(scope.children.map((child) => ({
-            name: child.name,
-            y: child.value,
-            color: colorMap[scope.name], // Use the same color for outer part
-        })));
+        const childrenCount = scope.children.length; // Total number of children for this scope
+        return acc.concat(scope.children.map((child, index) => {
+            const lighteningFactor = (index / (childrenCount - 1)) * 0.5; // Adjust lightening factor (0 to 0.5)
+            const childColor = lightenColor(colorMap[scope.name], lighteningFactor); // Lighten based on index
+            return {
+                name: child.name,
+                y: child.value,
+                color: childColor, // Use the lightened color for outer part
+            };
+        }));
     }, []);
+    // Check if all values are zero
+    const CategorywiseValueZero = groupedData.every((scope) => scope.children.every((child) => child.value === 0));
     // Highcharts options for donut chart with color matching
     const options = {
         chart: {
             type: "pie",
             height: "50%",
-            margin: [0, 0, 0, 0],
+            margin: [10, 10, 0, 10],
         },
         title: {
             text: "",
@@ -13002,7 +12576,8 @@ const Emission_Overview = (props) => {
                 innerSize: "40%",
                 dataLabels: {
                     enabled: true,
-                    format: "{point.name}: {point.y:.1f}",
+                    //format: "{point.name}: {point.y:.1f}", // Show name and value
+                    format: "{point.name}: {point.y:.2f} kgCO2e",
                     filter: {
                         property: 'y',
                         operator: '>',
@@ -13038,7 +12613,8 @@ const Emission_Overview = (props) => {
             },
         ],
         tooltip: {
-            pointFormat: "<b>{point.name}</b>: {point.y}",
+            //   pointFormat: "<b>{point.name}</b>: {point.y}",
+            pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e" // Format y value to 2 decimal places
         },
         credits: {
             enabled: false,
@@ -13046,7 +12622,7 @@ const Emission_Overview = (props) => {
     };
     let [categorywisePopUpData, setCategorywisePopUpData] = react_1.default.useState([]);
     function getcategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
-        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionBreakdown", { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth }, { json: true }).then(res => {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionOverview", { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth }, { json: true }).then(res => {
             console.log("data", res);
             setCategorywisePopUpData(res);
         }).catch(e => {
@@ -13071,28 +12647,50 @@ const Emission_Overview = (props) => {
                     react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
                     react_1.default.createElement("br", null),
                     react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null })))),
-        react_1.default.createElement("div", { className: "scope-overall" }, scopedata.length > 0 ? (scopedata.map((scope, index) => (react_1.default.createElement("div", { key: index, className: `scope-box ${getClassName(scope.ScopeKey)}` },
-            react_1.default.createElement("h4", null,
-                " ",
-                scope.ScopeName,
-                " "),
-            react_1.default.createElement("h3", null,
-                Number(scope.CurrentEmission).toFixed(2),
-                " tCO",
-                react_1.default.createElement("em", null, "2"),
-                "e"),
-            react_1.default.createElement("div", { className: "scope-bottom" },
-                react_1.default.createElement("em", null, Number(scope.PrevEmission).toFixed(2) ? `${Number(scope.PrevEmission).toFixed(2)} %` : 0),
-                react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` })))))) : (react_1.default.createElement("p", null, "Loading data..."))),
+        react_1.default.createElement("div", { className: "scope-overall" }, scopedata.length > 0 ? (react_1.default.createElement(react_1.default.Fragment, null,
+            scopedata.map((scope, index) => (react_1.default.createElement("div", { key: index, className: `scope-box ${getClassName(scope.ScopeKey)}` },
+                react_1.default.createElement("h4", null, scope.ScopeName),
+                react_1.default.createElement("h3", null,
+                    Number(scope.CurrentEmission || 0).toFixed(2),
+                    " tCO",
+                    react_1.default.createElement("em", null, "2"),
+                    "e"),
+                react_1.default.createElement("div", { className: "scope-bottom" },
+                    react_1.default.createElement("em", null, scope.PrevEmission ? `${Number(scope.PrevEmission).toFixed(2)} %` : "0%"),
+                    react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` }))))),
+            react_1.default.createElement("div", { className: "scope-box green_blue-scope-box" },
+                react_1.default.createElement("h4", null, "Scope 1 + 2"),
+                react_1.default.createElement("h3", null,
+                    (Number(((_a = scopedata[0]) === null || _a === void 0 ? void 0 : _a.CurrentEmission) || 0) + Number(((_b = scopedata[1]) === null || _b === void 0 ? void 0 : _b.CurrentEmission) || 0)).toFixed(2),
+                    " tCO",
+                    react_1.default.createElement("em", null, "2"),
+                    "e"),
+                react_1.default.createElement("div", { className: "scope-bottom" },
+                    react_1.default.createElement("em", null,
+                        ((Number(((_c = scopedata[0]) === null || _c === void 0 ? void 0 : _c.PrevEmission) || 0) + Number(((_d = scopedata[1]) === null || _d === void 0 ? void 0 : _d.PrevEmission) || 0)) || 0).toFixed(2),
+                        "%"),
+                    react_1.default.createElement("span", { className: `arrow ${((Number(((_e = scopedata[0]) === null || _e === void 0 ? void 0 : _e.PrevEmission) || 0) + Number(((_f = scopedata[1]) === null || _f === void 0 ? void 0 : _f.PrevEmission) || 0)) > 0) ? 'up-arrow' : 'down-arrow'}` }))),
+            react_1.default.createElement("div", { className: "scope-box green_blue_orange-scope-box" },
+                react_1.default.createElement("h4", null, "Scope 1 + 2 + 3"),
+                react_1.default.createElement("h3", null,
+                    (Number(((_g = scopedata[0]) === null || _g === void 0 ? void 0 : _g.CurrentEmission) || 0) + Number(((_h = scopedata[1]) === null || _h === void 0 ? void 0 : _h.CurrentEmission) || 0) + Number(((_j = scopedata[2]) === null || _j === void 0 ? void 0 : _j.CurrentEmission) || 0)).toFixed(2),
+                    " tCO",
+                    react_1.default.createElement("em", null, "2"),
+                    "e"),
+                react_1.default.createElement("div", { className: "scope-bottom" },
+                    react_1.default.createElement("em", null,
+                        ((Number(((_k = scopedata[0]) === null || _k === void 0 ? void 0 : _k.PrevEmission) || 0) + Number(((_l = scopedata[1]) === null || _l === void 0 ? void 0 : _l.PrevEmission) || 0) + Number(((_m = scopedata[2]) === null || _m === void 0 ? void 0 : _m.PrevEmission) || 0)) || 0).toFixed(2),
+                        "%"),
+                    react_1.default.createElement("span", { className: `arrow ${((Number(((_o = scopedata[0]) === null || _o === void 0 ? void 0 : _o.PrevEmission) || 0) + Number(((_p = scopedata[1]) === null || _p === void 0 ? void 0 : _p.PrevEmission) || 0) + Number(((_q = scopedata[2]) === null || _q === void 0 ? void 0 : _q.PrevEmission) || 0)) > 0) ? 'up-arrow' : 'down-arrow'}` }))))) : (react_1.default.createElement("p", null, "Loading data..."))),
         react_1.default.createElement("div", { style: { display: "inline-flex", padding: "3em 3em" } },
             react_1.default.createElement("div", { className: "emi-breakdown", style: { display: "inline-block", width: "40%", height: "38em", margin: "0 1.5em 0 0" } },
                 react_1.default.createElement(components_1.WidgetWrapper, null,
                     react_1.default.createElement(components_1.TitleBar, { title: 'Scope-wise Total Emission Breakdown' }),
                     react_1.default.createElement("div", { className: "scopewise-chart" },
                         react_1.default.createElement("div", { className: "chart" },
-                            react_1.default.createElement(recharts_1.ResponsiveContainer, null, groupedScopeEmissionBreakdowndata.length === 0 || groupedScopeEmissionBreakdowndata.every(item => item.value === 0) ? (react_1.default.createElement("div", { style: { textAlign: "center", padding: "30% 0" } },
+                            react_1.default.createElement(react_1.default.Fragment, null, groupedScopeEmissionBreakdowndata.length === 0 || groupedScopeEmissionBreakdowndata.every(item => item.y === 0) ? (react_1.default.createElement("div", { style: { textAlign: "center", padding: "30% 0" } },
                                 react_1.default.createElement("h3", null, "No Data Available"))) : (react_1.default.createElement(react_1.default.Fragment, null,
-                                react_1.default.createElement(pie_1.ResponsivePie, { data: groupedScopeEmissionBreakdowndata, margin: { top: 5, right: 20, bottom: 20, left: 20 }, innerRadius: 0.75, padAngle: 0, cornerRadius: 3, colors: ["#466f81", "#b97244", "#4c6a48"], borderWidth: 1, borderColor: { from: "color", modifiers: [["darker", 0.2]] }, animate: false, value: "value", activeOuterRadiusOffset: 8, arcLinkLabelsSkipAngle: 10, arcLinkLabelsTextColor: "#333333", arcLinkLabelsThickness: 2, arcLinkLabelsColor: { from: 'color' }, arcLabelsSkipAngle: 1, arcLabelsTextColor: "#ffffff", arcLabelsRadiusOffset: 0.5, arcLabel: d => `${d.value.toFixed(2)}%` }),
+                                react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: scope_options }),
                                 react_1.default.createElement("div", { className: "view-more" },
                                     react_1.default.createElement(components_1.Button, { title: "View More", onClick: handleClick })))))),
                         react_1.default.createElement(components_1.Modal, { className: "popup", title: "Scope-Wise Operational Carbon Emissions Overview", show: showModal, onClose: handleCloseModal },
@@ -13127,7 +12725,7 @@ const Emission_Overview = (props) => {
                 react_1.default.createElement(components_1.WidgetWrapper, null,
                     react_1.default.createElement(components_1.TitleBar, { title: 'Category-wise Total Emission Breakdown' }),
                     react_1.default.createElement("div", { className: "scopewise-chart" },
-                        react_1.default.createElement("div", { className: "chart" }, CategorywiseValueZero ? (react_1.default.createElement("h3", { style: { textAlign: "center" } }, "No Data Available")) : (react_1.default.createElement(react_1.default.Fragment, null,
+                        react_1.default.createElement("div", { className: "chart" }, CategorywiseValueZero ? (react_1.default.createElement("h3", { style: { textAlign: "center", padding: "23% 0px" } }, "No Data Available")) : (react_1.default.createElement(react_1.default.Fragment, null,
                             react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: options }),
                             react_1.default.createElement("div", { className: "view-more" },
                                 react_1.default.createElement(components_1.Button, { title: "View More", onClick: handleClick1 }))))),
@@ -13555,6 +13153,445 @@ exports["default"] = Resource_Consumption_Overview;
 
 /***/ }),
 
+/***/ "./src/components/test_emission.tsx":
+/*!******************************************!*\
+  !*** ./src/components/test_emission.tsx ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
+const highcharts_1 = __importDefault(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
+const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const Test_Emission = (props) => {
+    // State to store the emission breakdown data
+    let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = (0, react_1.useState)([]);
+    // Function to get scope emission breakdown data
+    function getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
+            .then((res) => {
+            console.log("response", res);
+            setScopeEmissionBreakdowndata(res);
+        })
+            .catch((e) => {
+            console.error("Error fetching scope data", e);
+        });
+    }
+    // Effect to call the data fetching function when the component mounts
+    (0, react_1.useEffect)(() => {
+        // Example parameters for BusinessUnitKey and dates
+        const BusinessUnitKey = "5";
+        const StartYear = 2023;
+        const StartMonth = 1;
+        const EndYear = 2023;
+        const EndMonth = 12;
+        // Call the function to get data
+        getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
+    }, []); // Empty dependency array means it only runs once when the component mounts
+    // Aggregate the data for the chart
+    const aggregateData = (data) => {
+        const aggregated = {}; // Use a record type to specify the key as a string and value as a number
+        data.forEach(item => {
+            const scopeName = item.ScopeName;
+            const carbonEmission = parseFloat(item.CarbonEmission) || 0;
+            if (aggregated[scopeName]) {
+                aggregated[scopeName] += carbonEmission;
+            }
+            else {
+                aggregated[scopeName] = carbonEmission;
+            }
+        });
+        return Object.entries(aggregated).map(([name, value]) => ({
+            name,
+            y: value,
+        }));
+    };
+    // Prepare the chart data
+    const chartData = aggregateData(scopeEmissionBreakdowndata);
+    const options = {
+        chart: {
+            type: 'pie',
+            options3d: {
+                enabled: true,
+                alpha: 45,
+                beta: 0,
+            },
+        },
+        title: {
+            text: 'Carbon Emissions by Scope',
+        },
+        plotOptions: {
+            pie: {
+                innerSize: '50%',
+                depth: 45,
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.name}: <b>{point.y:.1f}</b>',
+                },
+                showInLegend: true,
+            },
+        },
+        legend: {
+            enabled: true,
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            itemMarginTop: 5,
+        },
+        series: [{
+                name: 'Carbon Emissions',
+                data: chartData,
+                showInLegend: true,
+            }],
+    };
+    return (react_1.default.createElement(components_1.WidgetWrapper, null,
+        react_1.default.createElement(components_1.TitleBar, { title: 'Test Emissions', icon: "https://static.iviva.com/images/Udhayimages/alert-trends.png" }),
+        react_1.default.createElement("div", { style: { display: "inline-flex", padding: "3em 3em" } },
+            react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: options }))));
+};
+exports["default"] = Test_Emission;
+// import React, { useEffect, useState, useMemo  } from "react";
+// import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';  
+// import {  AreaChart, Area, ResponsiveContainer,  LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,  } from 'recharts';
+// import { useToast, DataList, WidgetWrapper, Button, DynamicSelect, SearchBox, Modal, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
+// import { ResponsivePie } from '@nivo/pie'; 
+// import { ResponsiveSunburst } from "@nivo/sunburst";  
+// import Highcharts from "highcharts";
+// import HighchartsReact from "highcharts-react-official";
+// import Sunburst from "highcharts/modules/sunburst";
+// interface IWidgetProps {
+//     uxpContext?: IContextProvider,
+//     instanceId?: string
+// }   
+// interface EmissionData {
+//     Year: string;
+//     Month: string;
+//     MonthString: string;
+//     ScopeKey: string;
+//     ScopeName: string;
+//     CarbonEmission: string;
+// } 
+// interface ScopePopupData {
+//     MonthString: string;
+//     Scope1: number;
+//     Scope2: number;
+//     Scope3: number;
+// } 
+// interface IDataItem {
+//     name: string;
+//     value: number;
+//     color?: string;  
+//   }
+// const Test_Emission: React.FunctionComponent<IWidgetProps> = (props) => { 
+// let toast = useToast();
+//     let [ClientFilter,setClientFilter] =  React.useState<string>('0');
+//     let [MainUnitFilter,setMainUnitFilter] =  React.useState<string>('0');
+//     let [SubUnitFilter,setSubUnitFilter] =  React.useState<string>('0');
+// let [ClientFilterList,setClientFilterList] =  React.useState<any[]>([]);
+//     let [MainUnitFilterList,setMainUnitFilterList] =  React.useState<any[]>([]);
+//     let [SubUnitFilterList,setSubUnitFilterList] =  React.useState<any[]>([]); 
+//     React.useEffect(()=>{
+//         getClientListFilter();
+//     },[])
+// function getClientListFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             //debugger
+//             setClientFilterList(result)
+//             setClientFilter(result[0].ClientKey)
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }
+//     React.useEffect(()=>{
+//         if(ClientFilter!='0'){
+//             getBusinessUnitsFilter()
+//         }
+//     },[ClientFilter])
+//     function getBusinessUnitsFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:'0'}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             var filteredArray = result.filter(function(itm:any){
+//                 return itm.ParentKey=='';
+//               });
+//             setMainUnitFilterList(filteredArray);
+//             setMainUnitFilter(filteredArray[0].BusinessUnitKey);
+//             //debugger
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }
+//     React.useEffect(()=>{
+//         if(MainUnitFilter!='0'){
+//             getSubBusinessUnitsFilter();
+//         }
+//     },[MainUnitFilter])
+//     function getSubBusinessUnitsFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:MainUnitFilter}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             if(result.length>0){
+//                 setSubUnitFilterList(result);
+//                 setSubUnitFilter(result[0].BusinessUnitKey);
+//             }else{
+//                 setSubUnitFilterList([]);
+//                 setSubUnitFilter("0");
+//             } 
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }  
+//     const [startYear, setStartYear] = useState(2024);
+//     const [startMonth, setStartMonth] = useState(7);
+//     const [endYear, setEndYear] = useState(2024);
+//     const [endMonth, setEndMonth] = useState(12);
+//     const Years = GetYears();
+//     function GetYears(){
+//         const currentYear = new Date().getFullYear();
+//         const yearList = [];
+//         for (let year = currentYear - 5; year <= currentYear + 5; year++) {
+//             yearList.push({ Label: year, Value: year });
+//         }
+//         return yearList;
+//      }; 
+//     const months=[
+//         {Value:'1',Label:'January'},
+//         {Value:'2',Label:'February'},
+//         {Value:'3',Label:'March'},
+//         {Value:'4',Label:'April'},
+//         {Value:'5',Label:'May'},
+//         {Value:'6',Label:'June'},
+//         {Value:'7',Label:'July'},
+//         {Value:'8',Label:'August'},
+//         {Value:'9',Label:'September'},
+//         {Value:'10',Label:'October'},
+//         {Value:'11',Label:'November'},
+//         {Value:'12',Label:'December'}
+//      ]
+//     useEffect(() => { 
+//         getScopeEmissionBreakdownData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth); 
+//     },[startYear,startMonth,endYear,endMonth,SubUnitFilter,MainUnitFilter ]) 
+//   let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
+//   function getScopeEmissionBreakdownData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//     props.uxpContext.executeAction(
+//       "OrganizationalEmissionOverview-Dataprovider",
+//       "GetScopewiseEmissionBreakdown",
+//       { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
+//       { json: true }
+//     )
+//     .then((res: any) => {
+//       console.log("response", res);
+//       setScopeEmissionBreakdowndata(res);  
+//     })
+//     .catch((e: any) => {
+//       console.error("Error fetching scope data", e);
+//     });
+//   }  
+// const groupedScopeEmissionBreakdowndata = useMemo(() => { 
+//     const groupedData = scopeEmissionBreakdowndata.reduce((acc, item) => {
+//         if (item.CarbonEmission && Number(item.CarbonEmission) > 0) { // Skip empty or zero values
+//             if (acc[item.ScopeName]) {
+//                 acc[item.ScopeName] += Number(item.CarbonEmission); // Add to existing scope
+//             } else {
+//                 acc[item.ScopeName] = Number(item.CarbonEmission); // Initialize new scope
+//             }
+//         }
+//         return acc;
+//     }, {}); 
+//     return Object.keys(groupedData).map(scope => ({
+//         id: scope,
+//         value: groupedData[scope],
+//         label: scope
+//     }));
+// }, [scopeEmissionBreakdowndata]);    
+//     let [showModal, setShowModal] = React.useState(false);
+//     let [modelData, setModelData] = React.useState<any>(null); 
+//     function handleClick() {
+//         console.log("Button clicked");  
+//         setShowModal(true);  
+//         setModelData({}); 
+//     } 
+//     const handleCloseModal = () => {
+//         setShowModal(false);  
+//         setModelData(null);  
+//     };  
+//     let [selected, setSelected] = React.useState<string | null>("op-1");
+//     let [selected1, setSelected1] = React.useState<string | null>("op-1");
+//     let [selected2, setSelected2] = React.useState<string | null>("op-1");  
+//     return (
+//         <WidgetWrapper>
+//             <TitleBar title='Test Emission' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
+//                             <div className="top-filter">
+//                                 <div className="select-filter">  
+//                                         <div className="uxp-emi-dropdown"> 
+//                                             <div className="uxp-emi-select-sec no-padding mb-only">
+//                                                     <Select
+//                                                         selected={startYear.toString()}
+//                                                         options={Years}
+//                                                         labelField="Label"
+//                                                         valueField="Value"
+//                                                         onChange={(value) => { setStartYear(Number(value)) }}
+//                                                         placeholder=" -- select --"
+//                                                         isValid={selected ? selected?.length > 0 : null}
+//                                                     /> 
+//                                                     <Select
+//                                                         selected={startMonth.toString()}
+//                                                         options={months}
+//                                                         labelField="Label"
+//                                                         valueField="Value"
+//                                                         onChange={(value) => { setStartMonth(Number(value)) }}
+//                                                         placeholder=" -- select --"
+//                                                         isValid={selected ? selected?.length > 0 : null}
+//                                                     />  
+//                                             </div> 
+//                                             <label>To</label>
+//                                             <div className="uxp-emi-select-sec no-padding mb-only"> 
+//                                             <Select
+//                                                 selected={endYear.toString()}
+//                                                 options={Years}
+//                                                 labelField="Label"
+//                                                 valueField="Value"
+//                                                 onChange={(value) => { setEndYear(Number(value)) }}
+//                                                 placeholder=" -- select --"
+//                                                 isValid={selected ? selected?.length > 0 : null}
+//                                             /> 
+//                                             <Select
+//                                                 selected={endMonth.toString()}
+//                                                 options={months}
+//                                                 labelField="Label"
+//                                                 valueField="Value"
+//                                                 onChange={(value) => { setEndMonth(Number(value)) }}
+//                                                 placeholder=" -- select --"
+//                                                 isValid={selected ? selected?.length > 0 : null}
+//                                             />   
+//                                            </div>  
+//                                         </div> 
+//                                 </div> 
+//                             <FilterPanel>
+//                                     <Select
+//                                         selected={ClientFilter}
+//                                         options={ClientFilterList}
+//                                         labelField="ClientID"
+//                                         valueField="ClientKey"
+//                                         onChange={(value) => { setClientFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected ? selected?.length > 0 : null}
+//                                     /> 
+//                                     <br/>
+//                                     <Select
+//                                         selected={MainUnitFilter}
+//                                         options={MainUnitFilterList}
+//                                         labelField="BusinessUnitName"
+//                                         valueField="BusinessUnitKey"
+//                                         onChange={(value) => { setMainUnitFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected1 ? selected1?.length > 0 : null}
+//                                     />    
+//                                     <br/>
+//                                     <Select
+//                                             selected={SubUnitFilter}
+//                                             options={SubUnitFilterList}
+//                                              labelField="BusinessUnitName"
+//                                             valueField="BusinessUnitKey"
+//                                             onChange={(value) => { setSubUnitFilter(value) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected2 ? selected2?.length > 0 : null}
+//                                         /> 
+//                             </FilterPanel>
+//                         </div>
+//             </TitleBar> 
+//                 <div style={{display:"inline-flex", padding:"3em 3em"}}>
+//                     <div className="emi-breakdown" style={{display:"inline-block", width:"40%", height: "38em", margin:"0 1.5em 0 0"}}>  
+//                         {/* <Scopewise_Breakdown/> */}
+//                 <WidgetWrapper>
+//                         <TitleBar title='Scope-wise Total Emission Breakdown'>  
+//                         </TitleBar>
+//                         <div className="scopewise-chart">
+//                             <div className="chart">  
+//                                 <ResponsiveContainer>   
+//                                 {groupedScopeEmissionBreakdowndata.length === 0 || groupedScopeEmissionBreakdowndata.every(item => item.value === 0) ? (
+//                                     <div style={{ textAlign: "center", padding: "30% 0" }}>
+//                                         <h3>No Data Available</h3>
+//                                     </div>
+//                                 ) : (
+//                                     <>
+//                                      <ResponsivePie
+//                                         data={groupedScopeEmissionBreakdowndata}
+//                                         margin={{ top: 5, right: 20, bottom: 20, left: 20 }}
+//                                         innerRadius={0.75}
+//                                         padAngle={0}
+//                                         cornerRadius={3}
+//                                         colors={["#537453", "#486e76", "#b98056"]}
+//                                         borderWidth={1}
+//                                         borderColor={{ from: "color", modifiers: [["darker", 0.2]] }}
+//                                         animate={false}
+//                                         value="value"
+//                                         activeOuterRadiusOffset={8}
+//                                         arcLinkLabelsSkipAngle={10}
+//                                         arcLinkLabelsTextColor="#333333"
+//                                         arcLinkLabelsThickness={2}
+//                                         arcLinkLabelsColor={{ from: 'color' }}
+//                                         arcLabelsSkipAngle={1}
+//                                         arcLabelsTextColor="#ffffff"
+//                                         arcLabelsRadiusOffset={0.5}
+//                                         arcLabel={d => `${d.value.toFixed(2)}%`} 
+//                                     />  
+//                                     <div className="view-more"> 
+//                                         <Button title="View More" onClick={handleClick} />
+//                                     </div>
+//                                     </>
+//                                 )}
+//                                 </ResponsiveContainer>      
+//                             </div>   
+//                         </div>
+//                     </WidgetWrapper>
+//                      </div>
+//                 </div> 
+//         </WidgetWrapper>
+//     )
+// }; 
+// export default Test_Emission;
+
+
+/***/ }),
+
 /***/ "./src/index.tsx":
 /*!***********************!*\
   !*** ./src/index.tsx ***!
@@ -13577,7 +13614,9 @@ const carbon_emissions_ranking_1 = __importDefault(__webpack_require__(/*! ./com
 const resource_consumption_overview_1 = __importDefault(__webpack_require__(/*! ./components/resource_consumption_overview */ "./src/components/resource_consumption_overview.tsx"));
 const carbon_trends_overview_1 = __importDefault(__webpack_require__(/*! ./components/carbon_trends_overview */ "./src/components/carbon_trends_overview.tsx"));
 const business_level_carbon_trends_overview_1 = __importDefault(__webpack_require__(/*! ./components/business-level-carbon-trends-overview */ "./src/components/business-level-carbon-trends-overview.tsx"));
-const business_level_carbon_emissions_overview_1 = __importDefault(__webpack_require__(/*! ./components/business-level-carbon-emissions-overview */ "./src/components/business-level-carbon-emissions-overview.tsx"));
+const test_emission_1 = __importDefault(__webpack_require__(/*! ./components/test_emission */ "./src/components/test_emission.tsx"));
+//Test
+// import Test from './components/test'
 /**
  * Register as a Widget
  */
@@ -13666,8 +13705,8 @@ const business_level_carbon_emissions_overview_1 = __importDefault(__webpack_req
     }
 });
 (0, uxp_1.registerWidget)({
-    id: "business_Level_Carbon_Emissions_Overview",
-    widget: business_level_carbon_emissions_overview_1.default,
+    id: "test_Emission",
+    widget: test_emission_1.default,
     configs: {
         layout: {
             w: 30,
@@ -24523,7 +24562,7 @@ function keyof(value) {
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"id":"b2ba44dd-d99b-4c0d-f768-1c6b186720c1","author":"eutech","widgets":[{"id":"emission_Overview","name":"Carbon Emission Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Detailed_Analysis","name":"Carbon Detailed Analysist","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Category_Breakdown","name":"Emissions Category Breakdown","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Ranking","name":"Emissions Ranking","description":"A sample widget","icon":"","tags":[]},{"id":"resource_Consumption_Overview","name":"Resource Consumption Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Trends_Overview","name":"Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Emissions_Overview","name":"Business-Level Carbon Emissions Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Trends_Overview","name":"Business-Level Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
+module.exports = /*#__PURE__*/JSON.parse('{"id":"b2ba44dd-d99b-4c0d-f768-1c6b186720c1","author":"eutech","widgets":[{"id":"emission_Overview","name":"Carbon Emission Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Detailed_Analysis","name":"Carbon Detailed Analysist","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Category_Breakdown","name":"Emissions Category Breakdown","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Ranking","name":"Emissions Ranking","description":"A sample widget","icon":"","tags":[]},{"id":"resource_Consumption_Overview","name":"Resource Consumption Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Trends_Overview","name":"Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Emissions_Overview","name":"Business-Level Carbon Emissions Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Trends_Overview","name":"Business-Level Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]},{"id":"test_Emission","name":"Test Emission","description":"A sample widget","icon":"","tags":[]}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
 
 /***/ })
 
