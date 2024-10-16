@@ -28,6 +28,7 @@ interface IWidgetProps {
 //     CarbonEmission: string;
 // } 
 interface EmissionData {
+    [x: string]: any;
     ScopeKey: string;
     ScopeName: string;
     CarbonEmission: string; // This can also be a number if you always get numbers
@@ -335,54 +336,437 @@ const scope_options = {
 
 
 
- const [scopewisePopUpData, setScopewisePopUpData] = useState<ScopePopupData[]>([]); 
+//  const [scopewisePopUpData, setScopewisePopUpData] = useState<ScopePopupData[]>([]); 
 
+// const getScopewisePopUpData = (BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) => {
+//     props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdownPopup", {
+//         BusinessUnitKey,
+//         StartYear,
+//         StartMonth,
+//         EndYear,
+//         EndMonth
+//     }, { json: true }).then(res => {
+//         console.log("data", res);
+//         setScopewisePopUpData(processScopeData(res)); // Process the data after fetching
+//     }).catch(e => {
+//         console.error("Error fetching data", e);
+//     });
+// };
+//  // Process the fetched data
+//  const processScopeData = (data: any[]): ScopePopupData[] => {
+//     const groupedScopePopupData: Record<string, ScopePopupData> = {};
+
+//     data.forEach(item => {
+//         const month = item.MonthString;
+//         if (!groupedScopePopupData[month]) {
+//             groupedScopePopupData[month] = { MonthString: month, Scope1: 0, Scope2: 0, Scope3: 0 };
+//         }
+
+//         const emission = parseFloat(item.CarbonEmission);
+//         if (item.ScopeKey === "1") {
+//             groupedScopePopupData[month].Scope1 += emission;
+//         } else if (item.ScopeKey === "2") {
+//             groupedScopePopupData[month].Scope2 += emission;
+//         } else if (item.ScopeKey === "3") {
+//             groupedScopePopupData[month].Scope3 += emission;
+//         }
+//     });
+
+//     return Object.values(groupedScopePopupData);
+// }; 
+
+
+
+
+
+// [
+//     {
+//       "Year": "2021",
+//       "Month": "7",
+//       "MonthString": "July",
+//       "ScopeKey": "1",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2021",
+//       "Month": "8",
+//       "MonthString": "August",
+//       "ScopeKey": "1",
+//       "ScopeName": "",
+//       "CarbonEmission": "568"
+//     },
+//     {
+//       "Year": "2021",
+//       "Month": "9",
+//       "MonthString": "September",
+//       "ScopeKey": "1",
+//       "ScopeName": "",
+//       "CarbonEmission": "879"
+//     },
+//     {
+//       "Year": "2021",
+//       "Month": "10",
+//       "MonthString": "October",
+//       "ScopeKey": "2",
+//       "ScopeName": "",
+//       "CarbonEmission": "687"
+//     },
+//     {
+//       "Year": "2021",
+//       "Month": "11",
+//       "MonthString": "November",
+//       "ScopeKey": "2",
+//       "ScopeName": "",
+//       "CarbonEmission": "457"
+//     },
+//     {
+//       "Year": "2021",
+//       "Month": "12",
+//       "MonthString": "December",
+//       "ScopeKey": "2",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "1",
+//       "MonthString": "January",
+//       "ScopeKey": "2",
+//       "ScopeName": "",
+//       "CarbonEmission": "987"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "2",
+//       "MonthString": "February",
+//       "ScopeKey": "3",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "3",
+//       "MonthString": "March",
+//       "ScopeKey": "3",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "3",
+//       "MonthString": "March",
+//       "ScopeKey": "3",
+//       "ScopeName": "Scope 3",
+//       "CarbonEmission": "59284.168652329594"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "4",
+//       "MonthString": "April",
+//       "ScopeKey": "",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "5",
+//       "MonthString": "May",
+//       "ScopeKey": "",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "6",
+//       "MonthString": "June",
+//       "ScopeKey": "",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "7",
+//       "MonthString": "July",
+//       "ScopeKey": "",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     },
+//     {
+//       "Year": "2022",
+//       "Month": "8",
+//       "MonthString": "August",
+//       "ScopeKey": "",
+//       "ScopeName": "",
+//       "CarbonEmission": "0"
+//     }, 
+//   ]
+
+
+
+
+const [scopewisePopUpData, setScopewisePopUpData] = useState<EmissionData[]>([]);
+ 
 const getScopewisePopUpData = (BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) => {
-    props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdownPopup", {
-        BusinessUnitKey,
-        StartYear,
-        StartMonth,
-        EndYear,
-        EndMonth
-    }, { json: true }).then(res => {
-        console.log("data", res);
-        setScopewisePopUpData(processScopeData(res)); // Process the data after fetching
-    }).catch(e => {
-        console.error("Error fetching data", e);
-    });
+  props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdownPopup", {
+    BusinessUnitKey,
+    StartYear,
+    StartMonth,
+    EndYear,
+    EndMonth
+  }, { json: true }).then(res => {
+    setScopewisePopUpData(processScopeData(res));
+  }).catch(e => {
+    console.error("Error fetching data", e);
+  });
 };
- // Process the fetched data
- const processScopeData = (data: any[]): ScopePopupData[] => {
-    const groupedScopePopupData: Record<string, ScopePopupData> = {};
+  
+  
+
+// const processScopeData = (data: EmissionData[]): EmissionData[] => {
+//     const groupedData: Record<string, { Scope1: number; Scope2: number; Scope3: number }> = {};
+  
+//     data.forEach(item => {
+//       const month = item.MonthString;
+  
+//       if (!groupedData[month]) {
+//         groupedData[month] = { Scope1: 0, Scope2: 0, Scope3: 0 };
+//       }
+  
+//       const emission = parseFloat(item.CarbonEmission);
+//       if (item.ScopeKey === "1") {
+//         groupedData[month].Scope1 += emission;
+//       } else if (item.ScopeKey === "2") {
+//         groupedData[month].Scope2 += emission;
+//       } else if (item.ScopeKey === "3") {
+//         groupedData[month].Scope3 += emission;
+//       }
+//     });
+  
+//     // Convert the grouped data back into an array of EmissionData
+//     return Object.keys(groupedData).map(month => ({
+//       Year: "",  // Add appropriate values if necessary
+//       Month: "", // Add appropriate values if necessary
+//       MonthString: month,
+//       ScopeKey: "",  // This can be left blank since we're aggregating
+//       ScopeName: "", // This can be left blank or set based on your logic
+//       CarbonEmission: (
+//         groupedData[month].Scope1 +
+//         groupedData[month].Scope2 +
+//         groupedData[month].Scope3
+//       ).toFixed(2), // Summing the emissions for each scope
+//       Scope1: groupedData[month].Scope1.toFixed(2),  // Store Scope 1
+//       Scope2: groupedData[month].Scope2.toFixed(2),  // Store Scope 2
+//       Scope3: groupedData[month].Scope3.toFixed(2)   // Store Scope 3
+//     }));
+//   }; 
+   
+//   const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]; 
+   
+// const categories = scopewisePopUpData.map(data => data.MonthString); // Month names
+// const scope1Data = scopewisePopUpData.map(data => parseFloat(data.Scope1) || 0);
+// const scope2Data = scopewisePopUpData.map(data => parseFloat(data.Scope2) || 0);
+// const scope3Data = scopewisePopUpData.map(data => parseFloat(data.Scope3) || 0);
+
+// const chartScopeBarOptions = {
+//   chart: {
+//     type: 'column' // Use 'column' for vertical stacked bars
+//   },
+//   title: {
+//     text: 'Carbon Emissions by Scope'
+//   },
+//   xAxis: {
+//     categories: categories, // Set month names as categories
+//     //categories: monthNames, // Set month names as categories
+//     title: {
+//       text: "Month"
+//     }
+//   },
+//   yAxis: {
+//     min: 0,
+//     title: {
+//       text: 'Carbon Emissions (kgCO2e)',
+//       align: 'high'
+//     },
+//     labels: {
+//       overflow: 'justify'
+//     }
+//   },
+//   tooltip: {
+//     pointFormat: "<b>{series.name}</b>: {point.y:.2f} kgCO2e<br/>Total: {point.stackTotal:.2f} kgCO2e"
+//   },
+//   credits: {
+//     enabled: false,
+//   },
+//   plotOptions: {
+//     column: {
+//       stacking: 'normal', // Enable stacking
+//       dataLabels: {
+//         enabled: true,
+//         format: "{point.y:.2f} kgCO2e"  // Show values with 2 decimal places
+//       }
+//     }
+//   },
+//   series: [
+//     {
+//       name: 'Scope 1',
+//       data: scope1Data,
+//       color: '#4c6a48' // Color for Scope 1
+//     },
+//     {
+//       name: 'Scope 2',
+//       data: scope2Data,
+//       color: '#466f81' // Color for Scope 2
+//     },
+//     {
+//       name: 'Scope 3',
+//       data: scope3Data,
+//       color: '#b97244' // Color for Scope 3
+//     }
+//   ]
+// };
+
+
+
+
+
+
+
+
+
+const processScopeData = (data: EmissionData[]): EmissionData[] => {
+    const groupedData: Record<string, { Scope1: number; Scope2: number; Scope3: number }> = {};
 
     data.forEach(item => {
         const month = item.MonthString;
-        if (!groupedScopePopupData[month]) {
-            groupedScopePopupData[month] = { MonthString: month, Scope1: 0, Scope2: 0, Scope3: 0 };
+
+        if (!groupedData[month]) {
+            groupedData[month] = { Scope1: 0, Scope2: 0, Scope3: 0 };
         }
 
         const emission = parseFloat(item.CarbonEmission);
         if (item.ScopeKey === "1") {
-            groupedScopePopupData[month].Scope1 += emission;
+            groupedData[month].Scope1 += emission;
         } else if (item.ScopeKey === "2") {
-            groupedScopePopupData[month].Scope2 += emission;
+            groupedData[month].Scope2 += emission;
         } else if (item.ScopeKey === "3") {
-            groupedScopePopupData[month].Scope3 += emission;
+            groupedData[month].Scope3 += emission;
         }
     });
 
-    return Object.values(groupedScopePopupData);
-}; 
+    // Convert the grouped data back into an array of EmissionData
+    return Object.keys(groupedData).map(month => ({
+        Year: "",  // Add appropriate values if necessary
+        Month: "", // Add appropriate values if necessary
+        MonthString: month,
+        ScopeKey: "",  // This can be left blank since we're aggregating
+        ScopeName: "", // This can be left blank or set based on your logic
+        CarbonEmission: (
+            groupedData[month].Scope1 +
+            groupedData[month].Scope2 +
+            groupedData[month].Scope3
+        ).toFixed(2), // Summing the emissions for each scope
+        Scope1: groupedData[month].Scope1.toFixed(2),  // Store Scope 1
+        Scope2: groupedData[month].Scope2.toFixed(2),  // Store Scope 2
+        Scope3: groupedData[month].Scope3.toFixed(2)   // Store Scope 3
+    })).filter(item => {
+        // Filter out items with total emissions of 0
+        return parseFloat(item.CarbonEmission) > 0;
+    });
+};
 
+const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
+// Prepare categories and scope data, ensuring to filter out zero emissions
+const filteredData = scopewisePopUpData.filter(data => parseFloat(data.CarbonEmission) > 0);
+
+const categories = monthNames.filter((_, index) => 
+    filteredData.some(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index)
+); // Get month names for only those months that have data
+
+const scope1Data = monthNames.map((_, index) => {
+    const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+    return dataForMonth ? parseFloat(dataForMonth.Scope1) : 0;
+}).filter(value => value > 0); // Filter out zero values
+
+const scope2Data = monthNames.map((_, index) => {
+    const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+    return dataForMonth ? parseFloat(dataForMonth.Scope2) : 0;
+}).filter(value => value > 0); // Filter out zero values
+
+const scope3Data = monthNames.map((_, index) => {
+    const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+    return dataForMonth ? parseFloat(dataForMonth.Scope3) : 0;
+}).filter(value => value > 0); // Filter out zero values
+
+// Define the chart options
+const chartScopeBarOptions = {
+    chart: {
+        type: 'column' // Use 'column' for vertical stacked bars
+    },
+    title: {
+        text: 'Carbon Emissions by Scope'
+    },
+    xAxis: {
+        categories: categories.length > 0 ? categories : ['No Data'], // Ensure there are categories to show
+        title: {
+            text: ""
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Carbon Emissions (kgCO2e)',
+            align: 'high'
+        },
+        labels: {
+            overflow: 'justify'
+        }
+    },
+    tooltip: {
+        pointFormat: "<b>{series.name}</b>: {point.y:.2f} kgCO2e<br/>Total: {point.stackTotal:.2f} kgCO2e"
+    },
+    credits: {
+        enabled: false,
+    },
+    plotOptions: {
+        column: {
+            stacking: 'normal', // Enable stacking
+            dataLabels: {
+                enabled: true,
+                format: "{point.y:.2f} kgCO2e"  // Show values with 2 decimal places
+            }
+        }
+    },
+    series: [
+        {
+            name: 'Scope 1',
+            data: scope1Data,
+            color: '#4c6a48' // Color for Scope 1
+        },
+        {
+            name: 'Scope 2',
+            data: scope2Data,
+            color: '#466f81' // Color for Scope 2
+        },
+        {
+            name: 'Scope 3',
+            data: scope3Data,
+            color: '#b97244' // Color for Scope 3
+        }
+    ]
+};
+ 
+
+ 
 
 
 
 
    
-    let [selected, setSelected] = React.useState<string | null>("op-1");
-    let [selected1, setSelected1] = React.useState<string | null>("op-1");
-    let [selected2, setSelected2] = React.useState<string | null>("op-1");  
+let [selected, setSelected] = React.useState<string | null>("op-1");
+let [selected1, setSelected1] = React.useState<string | null>("op-1");
+let [selected2, setSelected2] = React.useState<string | null>("op-1");  
 
 // categorywisedata//
 
@@ -868,7 +1252,7 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
 
                                     <ResponsiveContainer width="100%" height={400}>  
 
-                                        <BarChart data={scopewisePopUpData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+                                        {/* <BarChart data={scopewisePopUpData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
                                             <CartesianGrid strokeDasharray="3 3" />
                                             <XAxis dataKey="MonthString" />
                                             <YAxis />
@@ -877,7 +1261,9 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
                                             <Bar barSize={10} dataKey="Scope1" stackId="a" fill="#4c6a48" />
                                             <Bar barSize={10} dataKey="Scope2" stackId="a" fill="#466f81" />
                                             <Bar barSize={10} dataKey="Scope3" stackId="a" fill="#b97244" />
-                                        </BarChart> 
+                                        </BarChart>  */}
+
+                                        <HighchartsReact highcharts={Highcharts} options={chartScopeBarOptions} />
 
                                     </ResponsiveContainer>
 

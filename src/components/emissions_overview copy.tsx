@@ -217,10 +217,7 @@ function getClientListFilter(){
 
 
   let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<EmissionData[]>([]);
-
- 
-  //let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
-
+  
   function getScopeEmissionBreakdownData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
     props.uxpContext.executeAction(
       "OrganizationalEmissionOverview-Dataprovider",
