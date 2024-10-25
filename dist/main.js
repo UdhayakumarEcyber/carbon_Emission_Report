@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".action-section .top-filter {\n  display: inline-flex;\n  width: 100%;\n}\n.action-section .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.action-section .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.action-section .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.action-section .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n\n.uxp-toggle-filter {\n  background-color: transparent;\n}\n\n.no-data-available {\n  transform: translate(-50%, -50%);\n  position: absolute;\n  left: 50%;\n  top: 50%;\n}\n\n.uxp-select-dropdown-container .uxp-select-dropdown .uxp-select-option {\n  color: #424242;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid::before {\n  filter: none;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid .selected {\n  color: #424242;\n}\n\n.uxp-form-select {\n  min-width: 140px;\n}\n\n.uxp-emi-dropdown {\n  display: inline-flex;\n  width: 100%;\n  margin-right: 1em;\n}\n.uxp-emi-dropdown label {\n  font-size: 12px;\n  width: 4em;\n  text-align: center;\n  display: inline-block;\n  padding: 1.5em 0em 0em 0em;\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec {\n  display: inline-flex;\n  width: 48%;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box {\n  border: none;\n  color: #424242;\n  display: inline-block;\n  width: 45%;\n  height: auto;\n  padding: 0;\n  background-color: #ffffff;\n  z-index: 0;\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 12px 5px 12px 5px;\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);\n  outline: none;\n  margin-right: 0.5em;\n  /* font-size: 8px; */\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option {\n  background-color: white;\n  color: #333;\n  padding: 5px;\n  display: inline-block;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option:hover {\n  background-color: rgba(82, 196, 201, 0.2901960784);\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box:focus {\n  border-color: #666; /* Add a border color on focus */\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */\n}\n\n.scope-overall {\n  display: inline-flex;\n  width: 100%;\n  padding: 0px 2%;\n}\n.scope-overall .scope-box {\n  display: inline-block;\n  width: 33%;\n  padding: 2.5em 2%;\n  border-radius: 15px;\n  margin: 0 0 0 1%;\n  height: 9em;\n  position: relative;\n}\n.scope-overall .scope-box.green-scope-box {\n  background-color: rgb(83, 116, 83);\n  margin-left: 0;\n}\n.scope-overall .scope-box.blue-scope-box {\n  background-color: rgb(72, 110, 118);\n}\n.scope-overall .scope-box.orange-scope-box {\n  background-color: rgb(185, 128, 86);\n}\n.scope-overall .scope-box.green_blue-scope-box {\n  background: rgb(83, 116, 83);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 40%;\n}\n.scope-overall .scope-box.green_blue_orange-scope-box {\n  background: rgb(72, 110, 118);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 46%;\n}\n.scope-overall .scope-box h4 {\n  font-size: 1em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  color: #fff;\n}\n.scope-overall .scope-box h3 {\n  font-size: 1.65em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin-top: 7px;\n  color: #171717;\n  font-weight: normal;\n}\n.scope-overall .scope-box h3 span {\n  color: #303130;\n  font-size: 0.6em;\n  font-weight: 600;\n}\n.scope-overall .scope-box h3 span em {\n  font-style: normal;\n  font-size: 0.7em;\n}\n.scope-overall .scope-box .scope-bottom {\n  position: absolute;\n  bottom: 1.5em;\n  right: 1em;\n}\n.scope-overall .scope-box .scope-bottom em {\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  color: #fff;\n}\n.scope-overall .scope-box .scope-bottom span {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.scope-overall .scope-box .scope-bottom span.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.scope-overall .scope-box .scope-bottom span.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n\n.scope1_breakdown_widget {\n  display: inline-block;\n  width: 100%;\n  padding: 3em 2% 0;\n}\n\n.scopewise-chart {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n}\n.scopewise-chart .chart {\n  width: 100%;\n  height: 80%;\n}\n.scopewise-chart .view-more {\n  position: absolute;\n  bottom: 2em;\n  right: 2em;\n}\n.scopewise-chart .view-more .uxp-button {\n  color: #424242;\n  text-decoration: none;\n  background: #ddd;\n  padding: 9px 2em;\n  text-align: center;\n  box-shadow: none;\n  font-size: 1em;\n}\n.scopewise-chart.scope1_breakdown {\n  display: inline-block;\n  width: 100%;\n}\n.scopewise-chart.scope1_breakdown .chart {\n  width: 98%;\n  height: 100%;\n}\n\n.assets-widget-list {\n  display: inline-flex;\n  padding: 6em 2em 2em 2em;\n  position: relative;\n  width: 100%;\n}\n.assets-widget-list .list-top-filter {\n  position: absolute;\n  right: 2em;\n  top: 2em;\n}\n.assets-widget-list .item-list {\n  padding: 1em 0% 1em 0%;\n  width: 33%;\n  overflow: auto;\n  border-radius: 10px;\n  margin-left: 1%;\n}\n.assets-widget-list .item-list.green-item-list {\n  background-color: rgba(107, 148, 89, 0.3411764706);\n  margin-left: 0;\n}\n.assets-widget-list .item-list.blue-item-list {\n  background-color: rgba(76, 153, 162, 0.3411764706);\n}\n.assets-widget-list .item-list.orange-item-list {\n  background-color: rgba(222, 167, 107, 0.3411764706);\n}\n.assets-widget-list .item-list ul {\n  list-style: none;\n  margin: 0em 0em 1em;\n  padding: 0em 0em 0em;\n}\n.assets-widget-list .item-list ul li {\n  display: inline-flex;\n  width: 96%;\n  padding: 15px 10px;\n  border-radius: 10px;\n  margin-top: 0.8em;\n  margin: 0 2% 0.8em;\n  background-color: #fff;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item {\n  display: inline-flex;\n  width: 100%;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item label {\n  display: inline-block;\n  width: 60%;\n  font-size: 11px;\n  text-align: left;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  line-height: 1.5em;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span {\n  display: inline-block;\n  width: 26%;\n  font-size: 11px;\n  text-align: right;\n  margin-top: 0.7em;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item em.years {\n  display: inline-block;\n  font-size: 18px;\n  vertical-align: top;\n  font-style: normal;\n  font-size: 11px;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button {\n  color: #fff;\n  margin: 0;\n  vertical-align: top;\n  font-size: 10px;\n  width: 19%;\n  text-align: center;\n  padding: 9px 0px;\n  display: inline-block;\n  height: fit-content;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button.analysis_greenbtn {\n  background-color: rgba(63, 167, 17, 0.8784313725);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button.analysis_redbtn {\n  background-color: rgba(228, 38, 30, 0.9490196078);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button.analysis_yellowbtn {\n  background-color: rgba(235, 215, 40, 0.9098039216);\n}\n.assets-widget-list .uxp-item-list-card {\n  padding: 0 0%;\n  border: 1px solid #ddd;\n  margin: 0 1%;\n  width: 98%;\n}\n.assets-widget-list .uxp-item-list-card .header {\n  padding: 0px 15px;\n}\n\n.emi-breakdown .title-section {\n  width: 100%;\n}\n\n.modal-container.popup .modal-panel {\n  min-width: 100%;\n  min-height: 100%;\n  border-radius: 0;\n}\n.modal-container.popup .modal-panel .modal-header {\n  position: relative;\n  padding: 30px;\n}\n.modal-container.popup .modal-panel .modal-header .modal-title {\n  text-align: left;\n  display: inline-block;\n  width: 30%;\n  position: absolute;\n  z-index: 1;\n  left: 5%;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close {\n  position: absolute;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close .close-btn {\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==);\n  background-size: 40%;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter {\n  display: inline-flex;\n  width: 47%;\n  float: right;\n  margin-bottom: 2em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .recharts-responsive-container {\n  float: left;\n  height: 425px !important;\n  background: #fff;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n}\n\n/* Style for the toggle switch */\n.scope1_breakdown_widget .action-section {\n  display: inline-block;\n  width: 48%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #4f805d;\n  transition: 0.4s;\n  border-radius: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  border-radius: 50%;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: 0.4s;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider {\n  background-color: #4c99a2;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider:before {\n  transform: translateX(26px);\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .chart_label {\n  font-size: 11px;\n  font-style: normal;\n  padding: 12px 5px 0px 5px;\n  vertical-align: top;\n  display: inline-block;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter {\n  width: 60%;\n  padding: 0;\n  margin: 0;\n  background-color: transparent;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option {\n  padding: 10px 18px;\n  font-size: 10px;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option.selected {\n  background-color: #4c99a2;\n  color: #ffffff;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown {\n  width: 49%;\n  height: 28em;\n  margin-right: 2%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown:last-child {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper {\n  background-color: rgba(129, 129, 129, 0.17);\n  box-shadow: none;\n  border: 1px solid #d4d4d4;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .uxp-widget-title-bar {\n  background-color: transparent;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall {\n  padding: 0 3%;\n  display: inline-flex;\n  width: 100%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box {\n  width: 31%;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 0em 3% 0em 0em;\n  vertical-align: top;\n  height: 20em;\n  position: relative;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box:nth-child(3) {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box label {\n  line-height: 1.7em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox {\n  display: inline-block;\n  width: 100% !important;\n  border-radius: 10px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox label {\n  font-size: 11px;\n  margin: 0;\n  padding: 4px 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont {\n  display: inline-block;\n  width: 92%;\n  text-align: center;\n  position: absolute;\n  bottom: 1em;\n  left: 4%;\n  border-radius: 10px;\n  padding: 10px 0px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont.green-trends-box-cont {\n  background: #c1eed0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont.purple-trends-box-cont {\n  background: #edc5ff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 {\n  font-size: 2em;\n  padding: 0 0 0 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 sub {\n  font-size: 0.5em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont p {\n  font-size: 1em;\n  padding: 5px 0 5px 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont span {\n  font-size: 0.8em;\n  padding: 0 0 7px 0;\n  display: inline-block;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.white-box {\n  background-color: #ffffff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box {\n  background-color: rgba(255, 0, 0, 0.34);\n  border-radius: 50%;\n  height: 17em;\n  width: 17em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont {\n  position: absolute;\n  bottom: 50%;\n  left: 50%;\n  transform: translate(-50%, 50%);\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont h5 {\n  font-size: 2.5em;\n}\n.carbon-trends-overview .uxp-emi-dropdown {\n  margin-right: 0;\n}", ""]);
+exports.push([module.id, ".action-section .top-filter {\n  display: inline-flex;\n  width: 100%;\n}\n.action-section .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.action-section .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.action-section .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.action-section .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n\n.uxp-toggle-filter {\n  background-color: transparent;\n}\n\n.no-data-available {\n  transform: translate(-50%, -50%);\n  position: absolute;\n  left: 50%;\n  top: 50%;\n}\n\n.uxp-select-dropdown-container .uxp-select-dropdown .uxp-select-option {\n  color: #424242;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid::before {\n  filter: none;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid .selected {\n  color: #424242;\n}\n\n.uxp-form-select {\n  min-width: 140px;\n}\n\n.uxp-emi-dropdown {\n  display: inline-flex;\n  width: 100%;\n  margin-right: 1em;\n}\n.uxp-emi-dropdown label {\n  font-size: 12px;\n  width: 4em;\n  text-align: center;\n  display: inline-block;\n  padding: 1.5em 0em 0em 0em;\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec {\n  display: inline-flex;\n  width: 48%;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box {\n  border: none;\n  color: #424242;\n  display: inline-block;\n  width: 45%;\n  height: auto;\n  padding: 0;\n  background-color: #ffffff;\n  z-index: 0;\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 12px 5px 12px 5px;\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);\n  outline: none;\n  margin-right: 0.5em;\n  /* font-size: 8px; */\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option {\n  background-color: white;\n  color: #333;\n  padding: 5px;\n  display: inline-block;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option:hover {\n  background-color: rgba(82, 196, 201, 0.2901960784);\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box:focus {\n  border-color: #666; /* Add a border color on focus */\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */\n}\n\n.scope-overall {\n  display: inline-flex;\n  width: 100%;\n  padding: 0px 2%;\n}\n.scope-overall .scope-box {\n  display: inline-block;\n  width: 33%;\n  padding: 2.5em 2%;\n  border-radius: 15px;\n  margin: 0 0 0 1%;\n  height: 9em;\n  position: relative;\n}\n.scope-overall .scope-box.green-scope-box {\n  background-color: rgb(83, 116, 83);\n  margin-left: 0;\n}\n.scope-overall .scope-box.blue-scope-box {\n  background-color: rgb(72, 110, 118);\n}\n.scope-overall .scope-box.orange-scope-box {\n  background-color: rgb(185, 128, 86);\n}\n.scope-overall .scope-box.green_blue-scope-box {\n  background: rgb(83, 116, 83);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 40%;\n}\n.scope-overall .scope-box.green_blue_orange-scope-box {\n  background: rgb(72, 110, 118);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 46%;\n}\n.scope-overall .scope-box h4 {\n  font-size: 1em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  color: #fff;\n}\n.scope-overall .scope-box h3 {\n  font-size: 1.65em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin-top: 7px;\n  color: #171717;\n  font-weight: normal;\n}\n.scope-overall .scope-box h3 span {\n  color: #303130;\n  font-size: 0.6em;\n  font-weight: 600;\n}\n.scope-overall .scope-box h3 span em {\n  font-style: normal;\n  font-size: 0.7em;\n}\n.scope-overall .scope-box .scope-bottom {\n  position: absolute;\n  bottom: 1.5em;\n  right: 1em;\n}\n.scope-overall .scope-box .scope-bottom em {\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  color: #fff;\n}\n.scope-overall .scope-box .scope-bottom span {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.scope-overall .scope-box .scope-bottom span.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.scope-overall .scope-box .scope-bottom span.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n\n.scope1_breakdown_widget {\n  display: inline-block;\n  width: 100%;\n  padding: 3em 2% 0;\n}\n\n.scopewise-chart {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n}\n.scopewise-chart .chart {\n  width: 100%;\n  height: 80%;\n}\n.scopewise-chart .view-more {\n  position: absolute;\n  bottom: 2em;\n  right: 2em;\n}\n.scopewise-chart .view-more .uxp-button {\n  color: #424242;\n  text-decoration: none;\n  background: #ddd;\n  padding: 9px 2em;\n  text-align: center;\n  box-shadow: none;\n  font-size: 1em;\n}\n.scopewise-chart.scope1_breakdown {\n  display: inline-block;\n  width: 100%;\n}\n.scopewise-chart.scope1_breakdown .chart {\n  width: 98%;\n  height: 100%;\n}\n\n.assets-widget-list {\n  display: inline-flex;\n  padding: 6em 2em 2em 2em;\n  position: relative;\n  width: 100%;\n}\n.assets-widget-list .list-top-filter {\n  position: absolute;\n  right: 2em;\n  top: 2em;\n}\n.assets-widget-list .item-list {\n  padding: 1em 0% 1em 0%;\n  width: 33%;\n  overflow: auto;\n  border-radius: 10px;\n  margin-left: 1%;\n}\n.assets-widget-list .item-list.green-item-list {\n  background-color: rgba(107, 148, 89, 0.3411764706);\n  margin-left: 0;\n}\n.assets-widget-list .item-list.blue-item-list {\n  background-color: rgba(76, 153, 162, 0.3411764706);\n}\n.assets-widget-list .item-list.orange-item-list {\n  background-color: rgba(222, 167, 107, 0.3411764706);\n}\n.assets-widget-list .item-list ul {\n  list-style: none;\n  margin: 0em 0em 1em;\n  padding: 0em 0em 0em;\n}\n.assets-widget-list .item-list ul li {\n  display: inline-flex;\n  width: 96%;\n  padding: 15px 10px;\n  border-radius: 10px;\n  margin-top: 0.8em;\n  margin: 0 2% 0.8em;\n  background-color: #fff;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item {\n  display: inline-flex;\n  width: 100%;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item label {\n  display: inline-block;\n  width: 60%;\n  font-size: 11px;\n  text-align: left;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  line-height: 1.5em;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .item-value {\n  width: 20%;\n  position: relative;\n  height: 2.6em;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .item-value .uxp-button {\n  color: #fff;\n  margin: 0;\n  vertical-align: top;\n  font-size: 10px;\n  width: 100%;\n  text-align: center;\n  padding: 9px 0px;\n  display: inline-block;\n  height: fit-content;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .item-value .uxp-button.analysis_greenbtn {\n  background-color: rgba(63, 167, 17, 0.8784313725);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .item-value .uxp-button.analysis_redbtn {\n  background-color: rgba(228, 38, 30, 0.9490196078);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .item-value .uxp-button.analysis_yellowbtn {\n  background-color: rgba(235, 215, 40, 0.9098039216);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .item-value em {\n  font-size: 8px;\n  position: absolute;\n  bottom: -12px;\n  left: 0;\n  text-align: center;\n  width: 100%;\n  font-style: normal;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span {\n  display: inline-block;\n  width: 26%;\n  font-size: 11px;\n  text-align: right;\n  margin-top: 0.7em;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item em.years {\n  display: inline-block;\n  font-size: 18px;\n  vertical-align: top;\n  font-style: normal;\n  font-size: 11px;\n}\n.assets-widget-list .uxp-item-list-card {\n  padding: 0 0%;\n  border: 1px solid #ddd;\n  margin: 0 1%;\n  width: 98%;\n}\n.assets-widget-list .uxp-item-list-card .header {\n  padding: 0px 15px;\n}\n\n.emi-breakdown .title-section {\n  width: 100%;\n}\n\n.modal-container.popup .modal-panel {\n  min-width: 100%;\n  min-height: 100%;\n  border-radius: 0;\n}\n.modal-container.popup .modal-panel .modal-header {\n  position: relative;\n  padding: 30px;\n}\n.modal-container.popup .modal-panel .modal-header .modal-title {\n  text-align: left;\n  display: inline-block;\n  width: 30%;\n  position: absolute;\n  z-index: 1;\n  left: 5%;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close {\n  position: absolute;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close .close-btn {\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==);\n  background-size: 40%;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter {\n  display: inline-flex;\n  width: 47%;\n  float: right;\n  margin-bottom: 2em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .recharts-responsive-container {\n  float: left;\n  height: 425px !important;\n  background: #fff;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n}\n\n/* Style for the toggle switch */\n.scope1_breakdown_widget .action-section {\n  display: inline-block;\n  width: 48%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #4f805d;\n  transition: 0.4s;\n  border-radius: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  border-radius: 50%;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: 0.4s;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider {\n  background-color: #4c99a2;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider:before {\n  transform: translateX(26px);\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .chart_label {\n  font-size: 11px;\n  font-style: normal;\n  padding: 12px 5px 0px 5px;\n  vertical-align: top;\n  display: inline-block;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter {\n  width: 60%;\n  padding: 0;\n  margin: 0;\n  background-color: transparent;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option {\n  padding: 10px 18px;\n  font-size: 10px;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option.selected {\n  background-color: #4c99a2;\n  color: #ffffff;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown {\n  width: 49%;\n  height: 28em;\n  margin-right: 2%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown:last-child {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper {\n  background-color: rgba(129, 129, 129, 0.17);\n  box-shadow: none;\n  border: 1px solid #d4d4d4;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .uxp-widget-title-bar {\n  background-color: transparent;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall {\n  padding: 0 3%;\n  display: inline-flex;\n  width: 100%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box {\n  width: 31%;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 0em 3% 0em 0em;\n  vertical-align: top;\n  height: 20em;\n  position: relative;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box:nth-child(3) {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box label {\n  line-height: 1.7em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox {\n  display: inline-block;\n  width: 100% !important;\n  border-radius: 10px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox label {\n  font-size: 11px;\n  margin: 0;\n  padding: 4px 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont {\n  display: inline-block;\n  width: 92%;\n  text-align: center;\n  position: absolute;\n  bottom: 1em;\n  left: 4%;\n  border-radius: 10px;\n  padding: 10px 0px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont.green-trends-box-cont {\n  background: #c1eed0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont.purple-trends-box-cont {\n  background: #edc5ff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 {\n  font-size: 2em;\n  padding: 0 0 0 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 sub {\n  font-size: 0.5em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont p {\n  font-size: 1em;\n  padding: 5px 0 5px 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont span {\n  font-size: 0.8em;\n  padding: 0 0 7px 0;\n  display: inline-block;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.white-box {\n  background-color: #ffffff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box {\n  background-color: rgba(255, 0, 0, 0.34);\n  border-radius: 50%;\n  height: 17em;\n  width: 17em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont {\n  position: absolute;\n  bottom: 50%;\n  left: 50%;\n  transform: translate(-50%, 50%);\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont h5 {\n  font-size: 2.5em;\n}\n.carbon-trends-overview .uxp-emi-dropdown {\n  margin-right: 0;\n}\n\n.configuration-overall {\n  display: inline-flex;\n  width: 98%;\n  margin: 0em 1% 0em 1%;\n  height: 65vh;\n  border: 1px solid #ecebeb;\n  border-radius: 15px;\n  overflow: hidden;\n}\n.configuration-overall .configuration-sidebar {\n  padding: 0;\n  display: inline-block;\n  width: 20%;\n  background-color: #104657;\n  height: 100%;\n}\n.configuration-overall .configuration-sidebar .sidebar-list {\n  display: inline-block;\n  width: 100%;\n  padding: 17px 15px;\n  background: #02516a;\n  font-size: 12px;\n  color: #ffffff;\n  font-weight: bold;\n  border-bottom: 1px solid #548594;\n  cursor: pointer;\n}\n.configuration-overall .configuration-sidebar .sidebar-list.active {\n  background-color: #013849;\n  color: #fff;\n  position: relative;\n}\n.configuration-overall .configuration-sidebar .sidebar-list.active:after {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-top: 10px solid transparent;\n  border-left: 20px solid #013849;\n  border-bottom: 10px solid transparent;\n  position: absolute;\n  right: -15px;\n  top: 50%;\n  transform: translateY(-50%);\n}\n.configuration-overall .content {\n  display: inline-block;\n  width: 80%;\n  padding-left: 2%;\n  padding-right: 2%;\n  height: 100%;\n  background: rgba(196, 222, 230, 0.89);\n}\n.configuration-overall .content .uxp-button {\n  background-color: #104657;\n  color: #ffffff;\n}\n.configuration-overall .content .data-list {\n  border: 1px solid #d1d1d1;\n}\n.configuration-overall .content .data-list .data-table thead th {\n  background: #104657;\n  text-align: left;\n  color: #ffffff;\n}\n.configuration-overall .content .data-list .data-table tbody .data-list-item td .item-card {\n  padding: 0px 0px;\n  min-height: 50px;\n}\n.configuration-overall .content .data-list .data-table tbody .data-list-item td .item-card .content {\n  background: transparent;\n}\n.configuration-overall .content .data-list .data-table tbody .data-list-item td .edit-icon {\n  display: inline-block;\n  width: 18px;\n  height: 18px;\n  background-image: url(https://static.iviva.com/images/edit-icon.svg);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: auto 100%;\n  cursor: pointer;\n}\n.configuration-overall .content .business-top-list {\n  display: inline-flex;\n  width: 80%;\n  margin-bottom: 2em;\n}\n.configuration-overall .content .business-top-list label {\n  font-size: 13px;\n  display: inline-block;\n  width: 30%;\n}\n.configuration-overall .content .business-top-list span {\n  display: inline-block;\n  width: 70%;\n}\n.configuration-overall .content .baseline-content {\n  display: inline-block;\n  width: 100%;\n}\n.configuration-overall .content .baseline-content .baseline-list {\n  display: inline-flex;\n  width: 60%;\n  margin-bottom: 1.5em;\n}\n.configuration-overall .content .baseline-content .baseline-list label {\n  font-size: 13px;\n  display: inline-block;\n  width: 30%;\n  margin-top: 10px;\n}\n.configuration-overall .content .baseline-content .baseline-list span {\n  display: inline-block;\n  width: 70%;\n}\n\n.congig-popup .modal-panel {\n  min-width: 40%;\n  min-height: 55%;\n  max-width: 50%;\n}\n.congig-popup .modal-panel .congig-popup-cont {\n  width: 80%;\n  /* display: inline-block; */\n  margin: 0 auto;\n}\n.congig-popup .modal-panel .congig-popup-cont ul {\n  margin: 0;\n  padding: 0;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li {\n  margin: 0;\n  padding: 10px 0 10px 0;\n  list-style: none;\n  display: inline-flex;\n  width: 100%;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li .uxp-button {\n  background-color: #104657;\n  color: #ffffff;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li label {\n  font-size: 13px;\n  display: inline-block;\n  width: 30%;\n  margin-top: 10px;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li span {\n  display: inline-block;\n  width: 70%;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li span input {\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);\n  outline: none;\n  border: none;\n  background-color: #ffffff;\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n  padding: 15px 35px 15px 20px;\n  font-size: 13px;\n  width: 100%;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li .showcase-checkbox {\n  display: inline-flex;\n  width: 100% !important;\n  margin: 0;\n  padding: 0;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li .showcase-checkbox .uxp-form-checkbox {\n  width: 30%;\n  display: inline-block;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li .showcase-checkbox .uxp-form-checkbox label {\n  display: inline-flex;\n  width: 100%;\n  padding: 0;\n  margin: 0;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li button.save-btn {\n  background-color: #4c99a2;\n  color: #ffffff;\n}\n.congig-popup .modal-panel .congig-popup-cont ul li.save-list {\n  float: right;\n  width: 13%;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -12574,7 +12574,12 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
                     react_1.default.createElement("ul", { style: { scrollBehavior: 'smooth', height: '550px' } }, Scope1_Data.map((item) => (react_1.default.createElement("li", null,
                         react_1.default.createElement("a", { className: "carbon-emission-item" },
                             react_1.default.createElement("label", null, item.ActivityCategorytableName),
-                            react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                            react_1.default.createElement("div", { className: "item-value" },
+                                react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                                react_1.default.createElement("em", null,
+                                    "kgCO",
+                                    react_1.default.createElement("sub", null, "2"),
+                                    "e")),
                             react_1.default.createElement("span", null,
                                 Number(item.PrevEmission).toFixed(2) ?
                                     `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, {
@@ -12588,7 +12593,12 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
                     react_1.default.createElement("ul", { style: { scrollBehavior: 'smooth', height: '550px' } }, Scope2_Data.map((item) => (react_1.default.createElement("li", null,
                         react_1.default.createElement("a", { className: "carbon-emission-item" },
                             react_1.default.createElement("label", null, item.ActivityCategorytableName),
-                            react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                            react_1.default.createElement("div", { className: "item-value" },
+                                react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                                react_1.default.createElement("em", null,
+                                    "kgCO",
+                                    react_1.default.createElement("sub", null, "2"),
+                                    "e")),
                             react_1.default.createElement("span", null,
                                 Number(item.PrevEmission).toFixed(2) ?
                                     `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, {
@@ -12602,7 +12612,12 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
                     react_1.default.createElement("ul", { style: { scrollBehavior: 'smooth', height: '550px' } }, Scope3_Data.map((item) => (react_1.default.createElement("li", null,
                         react_1.default.createElement("a", { className: "carbon-emission-item" },
                             react_1.default.createElement("label", null, item.ActivityCategorytableName),
-                            react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                            react_1.default.createElement("div", { className: "item-value" },
+                                react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                                react_1.default.createElement("em", null,
+                                    "kgCO",
+                                    react_1.default.createElement("sub", null, "2"),
+                                    "e")),
                             react_1.default.createElement("span", null,
                                 Number(item.PrevEmission).toFixed(2) ?
                                     `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, {
@@ -13789,475 +13804,470 @@ const Carbon_Trends_Overview = (props) => {
                                 react_1.default.createElement(recharts_1.Line, { type: "monotone", dataKey: "Business as usual", stroke: "#424242", strokeDasharray: "3 3", dot: true, name: "Business as usual" })))))))));
 };
 exports["default"] = Carbon_Trends_Overview;
-// import React, { useEffect, useState, useMemo  } from "react"; 
-// import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';  
-// import {  AreaChart, Area, ResponsiveContainer,Scatter, LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,PieChart, Pie  } from 'recharts';
-// import { useToast, DataList, WidgetWrapper, Button, DynamicSelect, SearchBox, Modal, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
-// import { ResponsivePie } from '@nivo/pie';  
+
+
+/***/ }),
+
+/***/ "./src/components/configuration.tsx":
+/*!******************************************!*\
+  !*** ./src/components/configuration.tsx ***!
+  \******************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const Configuration = (props) => {
+    const [activeItem, setActiveItem] = (0, react_1.useState)(0);
+    const [showModal1, setShowModal1] = (0, react_1.useState)(false);
+    const [showModal2, setShowModal2] = (0, react_1.useState)(false);
+    const [editingRow1, setEditingRow1] = (0, react_1.useState)(null);
+    const [editingRow2, setEditingRow2] = (0, react_1.useState)(null);
+    const [tableData1, setTableData1] = (0, react_1.useState)([
+        { id: 1, client: 'Pruksha', year: 2025, goal: '2500', long_term: 'No', index: 0 },
+        { id: 2, client: 'Pruksha', year: 2030, goal: '2500', long_term: 'No Active', index: 1 },
+        { id: 3, client: 'Pruksha', year: 2050, goal: '2500', long_term: 'Yes Active', index: 2 },
+    ]);
+    const [tableData2, setTableData2] = (0, react_1.useState)([
+        { id: 1, client: 'Pruksha', year: 2025, goal: '2500', long_term: 'No', index: 0 },
+        { id: 2, client: 'Pruksha', year: 2030, goal: '2500', long_term: 'No Active', index: 1 },
+        { id: 3, client: 'Pruksha', year: 2050, goal: '2500', long_term: 'Yes Active', index: 2 },
+    ]);
+    const [modalInputValues, setModalInputValues] = (0, react_1.useState)({ client: "", year: "", goal: "" });
+    const [modalCheckboxes, setModalCheckboxes] = (0, react_1.useState)({ longTerm: false, active: false });
+    const editClick1 = (rowIndex) => {
+        const row = tableData1[rowIndex];
+        setModalInputValues({ client: row.client, year: row.year.toString(), goal: row.goal });
+        setModalCheckboxes({
+            longTerm: row.long_term.includes("Yes"),
+            active: row.long_term.includes("Active"),
+        });
+        setEditingRow1(rowIndex);
+        setShowModal1(true);
+    };
+    const editClick2 = (rowIndex) => {
+        const row = tableData2[rowIndex];
+        setModalInputValues({ client: row.client, year: row.year.toString(), goal: row.goal });
+        setModalCheckboxes({
+            longTerm: row.long_term.includes("Yes"),
+            active: row.long_term.includes("Active"),
+        });
+        setEditingRow2(rowIndex);
+        setShowModal2(true);
+    };
+    const handleSaveModal1 = () => {
+        if (editingRow1 !== null) {
+            const updatedData = [...tableData1];
+            updatedData[editingRow1] = Object.assign(Object.assign({}, updatedData[editingRow1]), { client: modalInputValues.client, year: parseInt(modalInputValues.year), goal: modalInputValues.goal, long_term: `${modalCheckboxes.longTerm ? "Yes" : "No"} ${modalCheckboxes.active ? "Active" : ""}`.trim() });
+            setTableData1(updatedData);
+        }
+        setShowModal1(false);
+    };
+    const handleSaveModal2 = () => {
+        if (editingRow2 !== null) {
+            const updatedData = [...tableData2];
+            updatedData[editingRow2] = Object.assign(Object.assign({}, updatedData[editingRow2]), { client: modalInputValues.client, year: parseInt(modalInputValues.year), goal: modalInputValues.goal, long_term: `${modalCheckboxes.longTerm ? "Yes" : "No"} ${modalCheckboxes.active ? "Active" : ""}`.trim() });
+            setTableData2(updatedData);
+        }
+        setShowModal2(false);
+    };
+    const handleItemClick = (index) => {
+        setActiveItem(index);
+    };
+    const renderTableData = (data, editClick) => {
+        return (react_1.default.createElement("div", { className: "data-list-container has-footer" },
+            react_1.default.createElement("div", { className: "data-list" },
+                react_1.default.createElement("table", { className: "data-table" },
+                    react_1.default.createElement("thead", null,
+                        react_1.default.createElement("tr", null,
+                            react_1.default.createElement("th", null, "Client"),
+                            react_1.default.createElement("th", null, "Year"),
+                            react_1.default.createElement("th", null, "Goal"),
+                            react_1.default.createElement("th", null, "Long Term"),
+                            react_1.default.createElement("th", null))),
+                    react_1.default.createElement("tbody", null, data.map(({ id, client, year, goal, long_term }, index) => (react_1.default.createElement("tr", { key: id, className: "data-list-item" },
+                        react_1.default.createElement("td", null,
+                            react_1.default.createElement("div", { className: "item-card" }, client)),
+                        react_1.default.createElement("td", null,
+                            react_1.default.createElement("div", { className: "item-card" }, year)),
+                        react_1.default.createElement("td", null,
+                            react_1.default.createElement("div", { className: "item-card" },
+                                goal,
+                                " kgCO2e")),
+                        react_1.default.createElement("td", null,
+                            react_1.default.createElement("div", { className: "item-card" }, long_term)),
+                        react_1.default.createElement("td", null,
+                            react_1.default.createElement("div", { className: "item-card" },
+                                react_1.default.createElement("div", { className: "edit-icon", onClick: () => editClick(index) })))))))))));
+    };
+    const renderContent = () => {
+        switch (activeItem) {
+            case 0: return react_1.default.createElement("div", { style: { marginTop: "2em" } }, renderTableData(tableData1, editClick1));
+            case 1: return (react_1.default.createElement("div", { style: { marginTop: "2em" } }, renderTableData(tableData2, editClick2)));
+            case 2: return (react_1.default.createElement("div", { className: "baseline-content", style: { marginTop: "2em" } },
+                react_1.default.createElement(components_1.FormField, { className: "no-padding mb-only" },
+                    react_1.default.createElement("div", { className: "baseline-list" },
+                        react_1.default.createElement(components_1.Label, null, "Client"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { type: "text", value: modalInputValues.client, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { client: val })) }))),
+                    react_1.default.createElement("div", { className: "baseline-list" },
+                        react_1.default.createElement(components_1.Label, null, "Baseline Year"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { type: "number", value: modalInputValues.year, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { year: val })) }))),
+                    react_1.default.createElement("div", { className: "baseline-list", style: { float: "right", width: "87%" } },
+                        react_1.default.createElement(components_1.Button, { title: "Save", onClick: () => alert("clicked") })))));
+            default: return null;
+        }
+    };
+    return (react_1.default.createElement(react_1.default.Fragment, null,
+        react_1.default.createElement(components_1.WidgetWrapper, null,
+            react_1.default.createElement(components_1.TitleBar, { title: "Configuration" }),
+            react_1.default.createElement("div", { className: "configuration-overall" },
+                react_1.default.createElement("div", { className: "configuration-sidebar" },
+                    react_1.default.createElement("div", { className: `sidebar-list ${activeItem === 0 ? 'active' : ''}`, onClick: () => handleItemClick(0) }, "Carbon Goals"),
+                    react_1.default.createElement("div", { className: `sidebar-list ${activeItem === 1 ? 'active' : ''}`, onClick: () => handleItemClick(1) }, "Business as Usual"),
+                    react_1.default.createElement("div", { className: `sidebar-list ${activeItem === 2 ? 'active' : ''}`, onClick: () => handleItemClick(2) }, "Carbon Baselines")),
+                react_1.default.createElement("div", { className: "content" }, renderContent()))),
+        react_1.default.createElement(components_1.Modal, { title: "Edit Carbon Goal", className: "congig-popup", show: showModal1, onClose: () => setShowModal1(false) },
+            react_1.default.createElement("div", { className: "congig-popup-cont" },
+                react_1.default.createElement("ul", null,
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.Label, null, "Client"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { value: modalInputValues.client, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { client: val })) }))),
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.Label, null, "Year"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { type: "number", value: modalInputValues.year, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { year: val })) }))),
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.Label, null, "Goal"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { type: "number", value: modalInputValues.goal, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { goal: val })) }))),
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
+                            react_1.default.createElement(components_1.Checkbox, { checked: modalCheckboxes.longTerm, onChange: (checked) => setModalCheckboxes(Object.assign(Object.assign({}, modalCheckboxes), { longTerm: checked })), label: "Long Term" }),
+                            react_1.default.createElement(components_1.Checkbox, { checked: modalCheckboxes.active, onChange: (checked) => setModalCheckboxes(Object.assign(Object.assign({}, modalCheckboxes), { active: checked })), label: "Active" }))),
+                    react_1.default.createElement("li", { className: "save-list" },
+                        react_1.default.createElement(components_1.Button, { title: "Save", onClick: handleSaveModal1 }))))),
+        react_1.default.createElement(components_1.Modal, { title: "Edit Business Goal", className: "congig-popup", show: showModal2, onClose: () => setShowModal2(false) },
+            react_1.default.createElement("div", { className: "congig-popup-cont" },
+                react_1.default.createElement("ul", null,
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.Label, null, "Client"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { value: modalInputValues.client, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { client: val })) }))),
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.Label, null, "Year"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { type: "number", value: modalInputValues.year, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { year: val })) }))),
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.Label, null, "Goal"),
+                        react_1.default.createElement("span", null,
+                            react_1.default.createElement(components_1.Input, { type: "number", value: modalInputValues.goal, onChange: (val) => setModalInputValues(Object.assign(Object.assign({}, modalInputValues), { goal: val })) }))),
+                    react_1.default.createElement("li", null,
+                        react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
+                            react_1.default.createElement(components_1.Checkbox, { checked: modalCheckboxes.longTerm, onChange: (checked) => setModalCheckboxes(Object.assign(Object.assign({}, modalCheckboxes), { longTerm: checked })), label: "Long Term" }),
+                            react_1.default.createElement(components_1.Checkbox, { checked: modalCheckboxes.active, onChange: (checked) => setModalCheckboxes(Object.assign(Object.assign({}, modalCheckboxes), { active: checked })), label: "Active" }))),
+                    react_1.default.createElement("li", { className: "save-list" },
+                        react_1.default.createElement(components_1.Button, { title: "Save", onClick: handleSaveModal2 })))))));
+};
+exports["default"] = Configuration;
+// import React, { useState } from "react";  
+// import { WidgetWrapper, TitleBar, DataTable, ItemCard, Modal, Input, Checkbox, FormField, Label, Button } from "uxp/components";  
+// import { registerWidget, registerLink, registerUI, IContextProvider } from '../uxp';  
 // interface IWidgetProps {
 //     uxpContext?: IContextProvider,
 //     instanceId?: string
-// }    
-// interface ScopePopupData {
-//     MonthString: string;
-//     Scope1: number;
-//     Scope2: number;
-//     Scope3: number;
-// }  
-// const Carbon_Trends_Overview: React.FunctionComponent<IWidgetProps> = (props) => { 
-// let toast = useToast();
-//     let [ClientFilter,setClientFilter] =  React.useState<string>('0');
-//     let [MainUnitFilter,setMainUnitFilter] =  React.useState<string>('0');
-//     let [SubUnitFilter,setSubUnitFilter] =  React.useState<string>('0');
-// let [ClientFilterList,setClientFilterList] =  React.useState<any[]>([]);
-//     let [MainUnitFilterList,setMainUnitFilterList] =  React.useState<any[]>([]);
-//     let [SubUnitFilterList,setSubUnitFilterList] =  React.useState<any[]>([]); 
-//     let [autoClose, setAutoClose] = React.useState(true);
-//     React.useEffect(()=>{
-//         getClientListFilter();
-//     },[])
-// function getClientListFilter(){
-//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             //debugger
-//             setClientFilterList(result)
-//             setClientFilter(result[0].ClientKey)
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
+// }
+// const Configuration: React.FunctionComponent<IWidgetProps> = (props) => { 
+//     const [activeItem, setActiveItem] = useState(0);
+//     const [showModal1, setShowModal1] = useState(false);
+//     const [showModal2, setShowModal2] = useState(false);
+//     const [editingRow1, setEditingRow1] = useState<number | null>(null);
+//     const [editingRow2, setEditingRow2] = useState<number | null>(null);
+//     let [inputValue, setInputValue] = React.useState<string | null>("");
+//     const [tableData1, setTableData1] = useState([
+//         { id: 1, client: 'Pruksha', year: 2025, goal: '2500', long_term: 'No', index: 0 },
+//         { id: 2, client: 'Pruksha', year: 2030, goal: '2500', long_term: 'No Active', index: 1 },
+//         { id: 3, client: 'Pruksha', year: 2050, goal: '2500', long_term: 'Yes Active', index: 2 },
+//     ]);
+//     const [tableData2, setTableData2] = useState([
+//         { id: 1, client: 'Pruksha', year: 2025, goal: '2500', long_term: 'No', index: 0 },
+//         { id: 2, client: 'Pruksha', year: 2030, goal: '2500', long_term: 'No Active', index: 1 },
+//         { id: 3, client: 'Pruksha', year: 2050, goal: '2500', long_term: 'Yes Active', index: 2 },
+//     ]);
+//     const [modalInputValues, setModalInputValues] = useState({ client: "", year: "", goal: "" });
+//     const [modalCheckboxes, setModalCheckboxes] = useState({ longTerm: false, active: false });
+//     const editClick1 = (rowIndex: number) => {
+//         const row = tableData1[rowIndex];
+//         setModalInputValues({ client: row.client, year: row.year.toString(), goal: row.goal });
+//         setModalCheckboxes({
+//             longTerm: row.long_term.includes("Yes"),
+//             active: row.long_term.includes("Active"),
 //         });
-//     }
-//     React.useEffect(()=>{
-//         if(ClientFilter!='0'){
-//             getBusinessUnitsFilter()
+//         setEditingRow1(rowIndex);
+//         setShowModal1(true);
+//     };
+//     const editClick2 = (rowIndex: number) => {
+//         const row = tableData2[rowIndex];
+//         setModalInputValues({ client: row.client, year: row.year.toString(), goal: row.goal });
+//         setModalCheckboxes({
+//             longTerm: row.long_term.includes("Yes"),
+//             active: row.long_term.includes("Active"),
+//         });
+//         setEditingRow2(rowIndex);
+//         setShowModal2(true);
+//     };
+//     const handleSaveModal1 = () => {
+//         if (editingRow1 !== null) {
+//             const updatedData = [...tableData1];
+//             updatedData[editingRow1] = {
+//                 ...updatedData[editingRow1],
+//                 client: modalInputValues.client,
+//                 year: parseInt(modalInputValues.year),
+//                 goal: modalInputValues.goal,
+//                 long_term: `${modalCheckboxes.longTerm ? "Yes" : "No"} ${modalCheckboxes.active ? "Active" : ""}`.trim()
+//             };
+//             setTableData1(updatedData);
 //         }
-//     },[ClientFilter])
-//     function getBusinessUnitsFilter(){
-//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:'0'}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             var filteredArray = result.filter(function(itm:any){
-//                 return itm.ParentKey=='';
-//               });
-//             setMainUnitFilterList(filteredArray);
-//             setMainUnitFilter(filteredArray[0].BusinessUnitKey);
-//             //debugger
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     }
-//     React.useEffect(()=>{
-//         if(MainUnitFilter!='0'){
-//             getSubBusinessUnitsFilter();
+//         setShowModal1(false);
+//     };
+//     const handleSaveModal2 = () => {
+//         if (editingRow2 !== null) {
+//             const updatedData = [...tableData2];
+//             updatedData[editingRow2] = {
+//                 ...updatedData[editingRow2],
+//                 client: modalInputValues.client,
+//                 year: parseInt(modalInputValues.year),
+//                 goal: modalInputValues.goal,
+//                 long_term: `${modalCheckboxes.longTerm ? "Yes" : "No"} ${modalCheckboxes.active ? "Active" : ""}`.trim()
+//             };
+//             setTableData2(updatedData);
 //         }
-//     },[MainUnitFilter])
-//     function getSubBusinessUnitsFilter(){
-//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:MainUnitFilter}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             if(result.length>0){
-//                 setSubUnitFilterList(result);
-//                 setSubUnitFilter(result[0].BusinessUnitKey);
-//             }else{
-//                 setSubUnitFilterList([]);
-//                 setSubUnitFilter("0");
-//             } 
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     }  
-//     useEffect(() => { 
-//        // getScopeEmissionBreakdownData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter);
-//        // getScopewisePopUpData(SubUnitFilter !== '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth); // Correct function call
-//        // scopewisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
-//        // getCategorywiseEmissionOverview(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
-//        // getcategorywisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
-//     },[SubUnitFilter,MainUnitFilter ]) 
-//   let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
-//   function getScopeEmissionBreakdownData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
-//     props.uxpContext.executeAction(
-//       "OrganizationalEmissionOverview-Dataprovider",
-//       "GetScopewiseEmissionBreakdown",
-//       { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
-//       { json: true }
-//     )
-//     .then((res: any) => {
-//       console.log("response", res);
-//       setScopeEmissionBreakdowndata(res);  
-//     })
-//     .catch((e: any) => {
-//       console.error("Error fetching scope data", e);
-//     });
-//   }   
-//     let [selected, setSelected] = React.useState<string | null>("op-1"); 
-// let [categorywisePopUpData,setCategorywisePopUpData] = React.useState<any>([]) 
-// function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,StartMonth:number,EndYear:number,EndMonth:number) {  
-//     props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider","GetCategorywiseEmissionBreakdown",{BusinessUnitKey:BusinessUnitKey,StartYear:StartYear,StartMonth:StartMonth,EndYear:EndYear,EndMonth:EndMonth},{json:true}).then(res=>{ 
-//         console.log("data",res);
-//         setCategorywisePopUpData(res);
-//     }).catch(e=>{
-//         // console.log("hi", e);
-//     }); 
-// } 
-// const consumptionCompositionData = [
-//     { 
-//       "years": 2021,
-//       "Scope 1": 4000,
-//       "Scope 2": 2400,
-//       "Scope 3": 2400,
-//       "Baseline": 587,
-//       "Carbon Reduction Goals": 758,
-//       "Trend Forecast": 368
-//     },
-//     { 
-//       "years": 2022,
-//       "Scope 1": 3000,
-//       "Scope 2": 1398,
-//       "Scope 3": 2210,
-//       "Baseline": 2543,
-//       "Carbon Reduction Goals": 254,
-//       "Trend Forecast": 457
-//     },
-//     { 
-//       "years": 2023,
-//       "Scope 1": 2000,
-//       "Scope 2": 9800,
-//       "Scope 3": 2290,
-//       "Baseline": 1570,
-//       "Carbon Reduction Goals": 758,
-//       "Trend Forecast": 498
-//     },
-//     { 
-//       "years": 2024,
-//       "Scope 1": 2780,
-//       "Scope 2": 3908,
-//       "Scope 3": 2000,
-//       "Baseline": 1690,
-//       "Carbon Reduction Goals": 657,
-//       "Trend Forecast": 462
-//     },
-//     { 
-//       "years": 2025,
-//       "Scope 1": 1890,
-//       "Scope 2": 4800,
-//       "Scope 3": 2181,
-//       "Baseline": 1247,
-//       "Carbon Reduction Goals": 854,
-//       "Trend Forecast": 357
-//     },
-//     { 
-//       "years": 2026,
-//       "Scope 1": 2390,
-//       "Scope 2": 3800,
-//       "Scope 3": 2500,
-//       "Baseline": 1658,
-//       "Carbon Reduction Goals": 654,
-//       "Trend Forecast": 124
-//     },
-//     { 
-//       "years": 2027,
-//       "Scope 1": 3490,
-//       "Scope 2": 4300,
-//       "Scope 3": 2100,
-//       "Baseline": 1520,
-//       "Carbon Reduction Goals": 365,
-//       "Trend Forecast": 784
-//     }
-//   ]; 
-//     const initialCheckStates = [true, false, false, true, false, true, false, false, true];
-//     const [checkedCheckStates, setCheckedCheckStates] = React.useState<boolean[]>(initialCheckStates);
-//     const onChangeCheckbox = (index: number, checked: boolean) => {
-//         const updatedCheckStates = [...checkedCheckStates];
-//         updatedCheckStates[index] = checked;
-//         setCheckedCheckStates(updatedCheckStates);
+//         setShowModal2(false);
+//     };
+//     const handleItemClick = (index: number) => {
+//         setActiveItem(index);
+//     };
+//     const renderTableData = (data: any[], editClick: (rowIndex: number) => void) => {
+//         return (
+//             <>
+//             <DataTable
+//                 data={() => new Promise(resolve => resolve({ items: data, pageToken: "" }))}
+//                 pageSize={5}
+//                 columns={[
+//                     { title: "Client", width: "20%", renderColumn: (item) => <ItemCard item={item} subTitleField="client" /> },
+//                     { title: "Year", width: "20%", renderColumn: (item) => <ItemCard item={item} subTitleField="year" /> },
+//                     { title: "Goal", width: "30%", renderColumn: (item) => <ItemCard item={{ ...item, goal: `${item.goal} kgCO2e` }} subTitleField="goal" /> },
+//                     { title: "Long Term", width: "20%", renderColumn: (item) => <ItemCard item={{ ...item, long_term: `${item.long_term}` }} subTitleField="long_term" /> },
+//                     {
+//                         title: "",
+//                         width: "10%",
+//                         renderColumn: (item) => (
+//                             <div className="edit-icon" onClick={() => editClick(item.index)}> 
+//                             </div>
+//                         )
+//                     }
+//                 ]}
+//             />
+//             <div className="data-list-container has-footer">
+//                 <div className="data-list">
+//                         <table className="data-table">
+//                 <thead>
+//                     <tr>
+//                         <th>Client</th>
+//                         <th>Year</th>
+//                         <th>Goal</th>
+//                         <th>Long Term</th>
+//                         <th></th>
+//                     </tr>
+//                 </thead>
+//                 <tbody>
+//                     {tableData1.map(({ id, client, year, goal, long_term }, index) => (
+//                         <tr key={id} className="data-list-item">
+//                             <td>
+//                                 <div className="item-card">{client}</div>
+//                             </td>
+//                             <td>
+//                                 <div className="item-card">{year}</div>
+//                             </td>
+//                             <td>
+//                                 <div className="item-card">{goal} kgCO2e</div>
+//                             </td>
+//                             <td>
+//                                 <div className="item-card">{long_term}</div>
+//                             </td>
+//                             <td>
+//                                 <div className="item-card">
+//                                     <div className="edit-icon"  onClick={() => editClick(index)}></div>
+//                                 </div>
+//                             </td>
+//                         </tr>
+//                     ))}
+//                 </tbody>
+//             </table>
+//             </div> 
+//             </div>
+// </>
+//         );
+//     };
+//     const renderContent = () => {
+//         switch (activeItem) {
+//             case 0: return <div style={{marginTop:"2em"}}>{renderTableData(tableData1, editClick1)}</div>;
+//             case 1: return (
+//                 <div  style={{marginTop:"2em"}}>
+//                     <div className="business-top-list">
+//                         <Label>Business growth % (AVG) p.a.</Label>
+//                         <span style={{width:"35%", margin:"0 2% 0 0%"}}>
+//                         <Input
+//                                     type="number"
+//                                     value={inputValue}
+//                                     onChange={(value) => { setInputValue(value) }}
+//                                     isValid={inputValue ? inputValue.trim().length > 0 : null}
+//                                     placeholder="10%"
+//                                 />
+//                         </span>
+//                         <span style={{width:"30%", marginTop:"0.5em"}}>
+//                             <Button className="calculate-btn" title="Calculate Business as usual" onClick={() => alert("clicked")} />
+//                         </span>
+//                     </div>
+//                     {renderTableData(tableData2, editClick2)}
+//                 </div>
+//             );
+//             case 2: return (
+//                 <div className="baseline-content" style={{marginTop:"2em"}}>
+//                     <FormField className="no-padding mb-only">
+//                         <div className="baseline-list">
+//                             <Label>Client</Label>
+//                             <span>
+//                                 <Input type="text" value={modalInputValues.client} onChange={(val) => setModalInputValues({ ...modalInputValues, client: val })} />
+//                             </span>
+//                         </div>
+//                         <div className="baseline-list">
+//                             <Label>Baseline Year</Label>
+//                             <span>
+//                                 <Input type="number" value={modalInputValues.year} onChange={(val) => setModalInputValues({ ...modalInputValues, year: val })} />
+//                             </span>
+//                         </div>
+//                         <div className="baseline-list" style={{ float: "right", width: "87%" }}>
+//                             <Button title="Save" onClick={() => alert("clicked")} />
+//                         </div>
+//                     </FormField>
+//                 </div>
+//             );
+//             default: return null;
+//         }
 //     };
 //     return (
-//         <WidgetWrapper className="carbon-trends-overview">
-//             <TitleBar title='ORGANIZATIONAL CARBON TRENDS OVERVIEW' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
-//                             <div className="top-filter">
-//                                 <div className="select-filter">  
-//                                         <div className="uxp-emi-dropdown">  
-//                                            <Select
-//                                                 selected={ClientFilter}
-//                                                 options={ClientFilterList}
-//                                                 labelField="ClientID"
-//                                                 valueField="ClientKey"
-//                                                 onChange={(value) => { setClientFilter(value) }}
-//                                                 placeholder=" -- select --"
-//                                                 isValid={selected ? selected?.length > 0 : null}
-//                                             />  
-//                                         </div> 
-//                                 </div>  
-//                         </div> 
-//             </TitleBar>  
-//                 {/* <div className="resource_consumption_overview">  
-//                     <div className="emi-breakdown">  
-//                         <WidgetWrapper>
-//                             <TitleBar title='CURRENT EMISSION DEVIATION'/> 
-//                             <div className="trends-overall">
-//                                 <div className="trends-box white-box">  
-//                                     <FormField inline className="showcase-checkbox">
-//                                     <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(0, checked)}  
-//                                             checked={checkedCheckStates[0]}
-//                                             label="Current Emission"
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(1, checked)}
-//                                             checked={checkedCheckStates[1]}
-//                                             label="Trend Forecast"
-//                                             isValid
-//                                         />
-//                                     </FormField>  
-//                                     <div className="trends-box-cont">
-//                                         <h5>100 tCO<sub>2</sub>e</h5>
-//                                         <p>CURRENT EMISSION</p>
-//                                     </div>
-//                                 </div>
-//                                   <div className="trends-box white-box">  
-//                                     <FormField inline className="showcase-checkbox">
-//                                     <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(2, checked)}   
-//                                             checked={checkedCheckStates[2]}
-//                                             label='Business as Usual'
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(3, checked)}
-//                                             checked={checkedCheckStates[3]}
-//                                            label='Baseline (2022)'
-//                                             isValid
-//                                         />
-//                                          <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(4, checked)}
-//                                             checked={checkedCheckStates[4]}
-//                                             label='Carbon Goals (2030)'
-//                                             isValid
-//                                         /> 
-//                                     </FormField>  
-//                                     <div className="trends-box-cont">
-//                                         <h5>120  tCO<sub>2</sub>e</h5>
-//                                         <p>BASELINE (2022)</p>
-//                                     </div>
-//                                 </div>  
-//                                 <div className="trends-box light-red-box">  
-//                                     <div className="trends-box-cont">
-//                                         <h5>20 tCO<sub>2</sub>e</h5>
-//                                         <p>DEVIATION</p>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                          </WidgetWrapper>
-//                      </div> 
-//                        <div className="emi-breakdown">  
-//                          <WidgetWrapper>
-//                              <TitleBar title='CURRENT OFFSET REQUIREMENT'/> 
-//                              <div className="trends-overall">
-//                                  <div className="trends-box white-box">  
-//                                      <FormField inline className="showcase-checkbox">
-//                                      <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(5, checked)}   
-//                                             checked={checkedCheckStates[5]}
-//                                             label="Current Emission"
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(6, checked)}
-//                                             checked={checkedCheckStates[6]}
-//                                             label="Trend Forecast"
-//                                             isValid
-//                                         /> 
-//                                      </FormField>  
-//                                      <div className="trends-box-cont">
-//                                          <h5>100 tCO<sub>2</sub>e</h5>
-//                                          <p>CURRENT EMISSION</p>
-//                                      </div>
-//                                  </div>
-//                                  <div className="trends-box white-box">  
-//                                      <FormField inline className="showcase-checkbox">
-//                                      <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(7, checked)}  
-//                                             checked={checkedCheckStates[7]}
-//                                            label='Business as Usual'
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(8, checked)}
-//                                             checked={checkedCheckStates[8]}
-//                                             label='Carbon Goals (2050)'
-//                                             isValid
-//                                         />
-//                                      </FormField>  
-//                                      <div className="trends-box-cont">
-//                                          <h5>0  tCO<sub>2</sub>e</h5>
-//                                          <p>CARBON GOALS (2050)</p>
-//                                      </div>
-//                                  </div>
-//                                  <div className="trends-box light-red-box">  
-//                                      <div className="trends-box-cont">
-//                                      <h5>20 tCO<sub>2</sub>e</h5>
-//                                          <p>REQUIRED OFFSET</p>
-//                                      </div>
-//                                  </div>
-//                              </div>
-//                           </WidgetWrapper>
-//                       </div>  
-//                 </div> */}
-//                     <div className="resource_consumption_overview">  
-//                     <div className="emi-breakdown">  
-//                         <WidgetWrapper>
-//                             <TitleBar title='CURRENT EMISSION DEVIATION'/> 
-//                             <div className="trends-overall">
-//                                 <div className="trends-box white-box">  
-//                                     <FormField inline className="showcase-checkbox">
-//                                     <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(0, checked)}  
-//                                             checked={checkedCheckStates[0]}
-//                                             label="Current Emission"
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(1, checked)}
-//                                             checked={checkedCheckStates[1]}
-//                                             label="Trend Forecast"
-//                                             isValid
-//                                         />
-//                                     </FormField>  
-//                                     <div className="trends-box-cont">
-//                                         <h5>100 tCO<sub>2</sub>e</h5>
-//                                         <p>CURRENT EMISSION</p>
-//                                     </div>
-//                                 </div>
-//                                 <div className="trends-box white-box">  
-//                                     <FormField inline className="showcase-checkbox">
-//                                     <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(2, checked)}   
-//                                             checked={checkedCheckStates[2]}
-//                                             label='Business as Usual'
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(3, checked)}
-//                                             checked={checkedCheckStates[3]}
-//                                         label='Baseline (2022)'
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(4, checked)}
-//                                             checked={checkedCheckStates[4]}
-//                                             label='Carbon Goals (2030)'
-//                                             isValid
-//                                         /> 
-//                                     </FormField>  
-//                                     <div className="trends-box-cont">
-//                                         <h5>120  tCO<sub>2</sub>e</h5>
-//                                         <p>BASELINE (2022)</p>
-//                                     </div>
-//                                 </div>  
-//                                 <div className="trends-box light-red-box">  
-//                                     <div className="trends-box-cont">
-//                                         <h5>20 tCO<sub>2</sub>e</h5>
-//                                         <p>DEVIATION</p>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                         </WidgetWrapper>
-//                     </div> 
-//                     <div className="emi-breakdown">  
-//                         <WidgetWrapper>
-//                             <TitleBar title='CURRENT OFFSET REQUIREMENT'/> 
-//                             <div className="trends-overall">
-//                                 <div className="trends-box white-box">  
-//                                     <FormField inline className="showcase-checkbox">
-//                                     <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(5, checked)}   
-//                                             checked={checkedCheckStates[5]}
-//                                             label="Current Emission"
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(6, checked)}
-//                                             checked={checkedCheckStates[6]}
-//                                             label="Trend Forecast"
-//                                             isValid
-//                                         /> 
-//                                     </FormField>  
-//                                     <div className="trends-box-cont">
-//                                         <h5>100 tCO<sub>2</sub>e</h5>
-//                                         <p>CURRENT EMISSION</p>
-//                                     </div>
-//                                 </div>
-//                                 <div className="trends-box white-box">  
-//                                     <FormField inline className="showcase-checkbox">
-//                                     <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(7, checked)}  
-//                                             checked={checkedCheckStates[7]}
-//                                         label='Business as Usual'
-//                                             isValid
-//                                         />
-//                                         <Checkbox
-//                                             onChange={(checked) => onChangeCheckbox(8, checked)}
-//                                             checked={checkedCheckStates[8]}
-//                                             label='Carbon Goals (2050)'
-//                                             isValid
-//                                         />
-//                                     </FormField>  
-//                                     <div className="trends-box-cont">
-//                                         <h5>0  tCO<sub>2</sub>e</h5>
-//                                         <p>CARBON GOALS (2050)</p>
-//                                     </div>
-//                                 </div>
-//                                 <div className="trends-box light-red-box">  
-//                                     <div className="trends-box-cont">
-//                                     <h5>20 tCO<sub>2</sub>e</h5>
-//                                         <p>REQUIRED OFFSET</p>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                         </WidgetWrapper>
-//                     </div>  
+//         <>
+//             <WidgetWrapper>
+//                 <TitleBar title="Configuration" />
+//                 <div className="configuration-overall">
+//                     <div className="configuration-sidebar"> 
+//                         <div className={`sidebar-list ${activeItem === 0 ? 'active' : ''}`} onClick={() => handleItemClick(0)}>Carbon Goals</div>  
+//                         <div className={`sidebar-list ${activeItem === 1 ? 'active' : ''}`} onClick={() => handleItemClick(1)}>Business as Usual</div>  
+//                         <div className={`sidebar-list ${activeItem === 2 ? 'active' : ''}`} onClick={() => handleItemClick(2)}>Carbon Baselines</div>  
 //                     </div>
-// "           <div className="resource_consumption_overview"> 
-//                 <div  className="consuption_composition" >
-//                     <WidgetWrapper>
-//                             <TitleBar title='CARBON TREND'/> 
-//                             <div className="scopewise-chart">  
-//                                 <ResponsiveContainer width="100%" height={400}> 
-//                                     <ComposedChart 
-//                                     data={consumptionCompositionData.map((entry) => ({
-//                                         ...entry,
-//                                         "Business as usual": (entry["Scope 1"] + entry["Scope 2"] + entry["Scope 3"]) / 3, // Calculating average inline
-//                                     }))} 
-//                                     margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
-//                                     <CartesianGrid strokeDasharray="3 3" />
-//                                     <XAxis dataKey="years" />
-//                                     <YAxis />
-//                                     <Tooltip />
-//                                     <Legend />
-//                                     <Bar barSize={10} dataKey="Scope 1" stackId="a" fill="#4c6a48" />
-//                                     <Bar barSize={10} dataKey="Scope 2" stackId="a" fill="#466f81" />
-//                                     <Bar barSize={10} dataKey="Scope 3" stackId="a" fill="#b97244" />
-//                                     <Line type="monotone" dataKey="Baseline" stroke="#4c6a48" />
-//                                     <Line type="monotone" dataKey="Carbon Reduction Goals" stroke="#ff7300" />
-//                                     <Line type="monotone" dataKey="Trend Forecast" stroke="#b97244" />
-//                                     <Line type="monotone" dataKey="Business as usual" stroke="#424242" strokeDasharray="3 3" dot={true} name="Business as usual" />
-//                                     </ComposedChart> 
-//                                 </ResponsiveContainer> 
-//                             </div>
-//                          </WidgetWrapper>
-//                 </div> 
-//             </div>
-//         </WidgetWrapper>
-//     )
-// }; 
-// export default Carbon_Trends_Overview;
+//                     <div className="content">{renderContent()}</div>
+//                 </div>
+//             </WidgetWrapper>
+//             {/* Modal for Editing Table 1 */}
+//             <Modal title="Edit Carbon Goal" className="congig-popup" show={showModal1} onClose={() => setShowModal1(false)}>
+//                 <div className="congig-popup-cont">
+//                     <ul>
+//                         <li>
+//                             <Label>Client</Label>
+//                             <span>
+//                                 <Input value={modalInputValues.client} onChange={(val) => setModalInputValues({ ...modalInputValues, client: val })} />
+//                             </span>
+//                         </li>
+//                         <li>
+//                             <Label>Year</Label>
+//                             <span>
+//                                 <Input type="number" value={modalInputValues.year} onChange={(val) => setModalInputValues({ ...modalInputValues, year: val })} />
+//                             </span>
+//                         </li>
+//                         <li>
+//                             <Label>Goal</Label>
+//                             <span>
+//                                 <Input type="number" value={modalInputValues.goal} onChange={(val) => setModalInputValues({ ...modalInputValues, goal: val })} />
+//                             </span>
+//                         </li>
+//                         <li>
+//                             <FormField inline className="showcase-checkbox">
+//                                 <Checkbox checked={modalCheckboxes.longTerm} onChange={(checked) => setModalCheckboxes({ ...modalCheckboxes, longTerm: checked })} label="Long Term" />
+//                                 <Checkbox checked={modalCheckboxes.active} onChange={(checked) => setModalCheckboxes({ ...modalCheckboxes, active: checked })} label="Active" />
+//                             </FormField>
+//                         </li>
+//                         <li className="save-list">
+//                             <Button title="Save" onClick={handleSaveModal1} />
+//                         </li>
+//                     </ul>
+//                 </div>
+//             </Modal>
+//             {/* Modal for Editing Table 2 */}
+//             <Modal title="Edit Business Goal" className="congig-popup" show={showModal2} onClose={() => setShowModal2(false)}>
+//                 <div className="congig-popup-cont">
+//                     <ul>
+//                         <li>
+//                             <Label>Client</Label>
+//                             <span>
+//                                 <Input value={modalInputValues.client} onChange={(val) => setModalInputValues({ ...modalInputValues, client: val })} />
+//                             </span>
+//                         </li>
+//                         <li>
+//                             <Label>Year</Label>
+//                             <span>
+//                                 <Input type="number" value={modalInputValues.year} onChange={(val) => setModalInputValues({ ...modalInputValues, year: val })} />
+//                             </span>
+//                         </li>
+//                         <li>
+//                             <Label>Goal</Label>
+//                             <span>
+//                                 <Input type="number" value={modalInputValues.goal} onChange={(val) => setModalInputValues({ ...modalInputValues, goal: val })} />
+//                             </span>
+//                         </li>
+//                         <li>
+//                             <FormField inline className="showcase-checkbox">
+//                                 <Checkbox checked={modalCheckboxes.longTerm} onChange={(checked) => setModalCheckboxes({ ...modalCheckboxes, longTerm: checked })} label="Long Term" />
+//                                 <Checkbox checked={modalCheckboxes.active} onChange={(checked) => setModalCheckboxes({ ...modalCheckboxes, active: checked })} label="Active" />
+//                             </FormField>
+//                         </li>
+//                         <li className="save-list">
+//                             <Button title="Save" onClick={handleSaveModal2} />
+//                         </li>
+//                     </ul>
+//                 </div>
+//             </Modal>
+//         </>
+//     );
+// };
+// export default Configuration;
 
 
 /***/ }),
@@ -14821,122 +14831,8 @@ const Emission_Overview = (props) => {
             enabled: false,
         },
     };
-    /********************  Uk  *********************/
-    //  const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData[]>([]);
-    // function getcategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
-    //     props.uxpContext.executeAction(
-    //         "OrganizationalEmissionOverview-Dataprovider",
-    //         "GetCategorywiseEmissionOverview",
-    //         { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth },
-    //         { json: true }
-    //     ).then(res => {
-    //         console.log("data", res);
-    //         setCategorywisePopUpData(res);
-    //     }).catch(e => {
-    //         // console.log("error", e);
-    //     });
-    // }   
-    // const groupedCategoryData = categorywisePopUpData.reduce<Record<string, { categories: string[], data: number[], name: string }>>((acc, item) => {
-    //     const scopeKey = item.ScopeKey;
-    //     const emissionValue = parseFloat(item.CarbonEmission); 
-    //     if (emissionValue !== 0) {  
-    //         if (!acc[scopeKey]) {
-    //             acc[scopeKey] = {
-    //                 name: item.ScopeName,
-    //                 categories: [],
-    //                 data: []
-    //             };
-    //         }
-    //         acc[scopeKey].categories.push(item.ActivityCategorytableName);
-    //         acc[scopeKey].data.push(emissionValue);
-    //     }
-    //     return acc;
-    // }, {});
-    // const filteredCategories = Object.values(groupedCategoryData).flatMap(scope => scope.categories); 
-    // const uniqueCategories = [...new Set(filteredCategories)]; 
-    // const seriesData = Object.values(groupedCategoryData).map(scope => {
-    //     const emissionsData = uniqueCategories.map(category => {
-    //         const index = scope.categories.indexOf(category);
-    //         return index !== -1 ? scope.data[index] : 0; // Include categories, use 0 if no data
-    //     });
-    //     return {
-    //         name: scope.name,
-    //         data: emissionsData,  
-    //         color: scope.name === "Scope 1" ? "#4c6a48" : scope.name === "Scope 2" ? "#466f81" : "#b97244"
-    //     };
-    // });
-    // const chartCategorywiseOptions = {
-    //     chart: {
-    //         type: "column"
-    //     },
-    //     title: {
-    //         text: ""
-    //     },
-    //     xAxis: {
-    //         min: 0,
-    //         categories: uniqueCategories, // Only categories with non-zero emissions
-    //         title: {
-    //               text: ""
-    //         }
-    //     },
-    //     yAxis: {
-    //          min: 0,
-    //         title: {
-    //             text: "Carbon Emissions (kgCO2e)"
-    //         },
-    //         labels: {
-    //             format: "{value} kgCO2e"
-    //         }
-    //     },
-    //     tooltip: {
-    //         formatter: function () {
-    //             // Show tooltip only for non-zero values
-    //             if (this.y > 0) {
-    //                 return `<b>${this.series.name}</b>: ${this.y.toLocaleString(undefined, {
-    //                     minimumFractionDigits: 2,
-    //                     maximumFractionDigits: 2
-    //                 })} kgCO2e`;  // Formatting tooltip value
-    //             } 
-    //             return false; // Do not display tooltip for zero values
-    //         }
-    //     },
-    //     series: seriesData, // Only non-zero emissions data
-    //     plotOptions: {
-    //         column: {
-    //             dataLabels: {
-    //                 enabled: true,
-    //                 formatter: function () {
-    //                     // Show data label only for values greater than 0
-    //                     if (this.y > 0) {
-    //                         return `${this.y.toLocaleString(undefined, {
-    //                             minimumFractionDigits: 2,
-    //                             maximumFractionDigits: 2
-    //                         })} kgCO2e`;  // Using toLocaleString for data labels
-    //                     }
-    //                     return null; // Do not display label for zero values
-    //                 }
-    //             }
-    //         }
-    //     },
-    //     legend: {
-    //         enabled: true
-    //     }, 
-    //     credits: {
-    //         enabled: false
-    //     }
-    // };
-    // Example hardcoded data for testing 
-    // Set this as the categorywisePopUpData for testing
     const [chartCategorywiseOptions, setChartCategorywiseOptions] = (0, react_1.useState)({});
-    const [categorywisePopUpData, setCategorywisePopUpData] = (0, react_1.useState)([]); // State for fetched data
-    // useEffect(() => {
-    //   const BusinessUnitKey = "5";
-    //   const StartYear = 2019;
-    //   const StartMonth = 1;
-    //   const EndYear = 2024;
-    //   const EndMonth = 12;
-    //   getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
-    // }, []);
+    const [categorywisePopUpData, setCategorywisePopUpData] = (0, react_1.useState)([]); // State for fetched data 
     function getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
         props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionOverview", {
             BusinessUnitKey,
@@ -16166,6 +16062,7 @@ const resource_consumption_overview_1 = __importDefault(__webpack_require__(/*! 
 const carbon_trends_overview_1 = __importDefault(__webpack_require__(/*! ./components/carbon_trends_overview */ "./src/components/carbon_trends_overview.tsx"));
 const business_level_carbon_trends_overview_1 = __importDefault(__webpack_require__(/*! ./components/business-level-carbon-trends-overview */ "./src/components/business-level-carbon-trends-overview.tsx"));
 const business_level_carbon_emissions_overview_1 = __importDefault(__webpack_require__(/*! ./components/business-level-carbon-emissions-overview */ "./src/components/business-level-carbon-emissions-overview.tsx"));
+const configuration_1 = __importDefault(__webpack_require__(/*! ./components/configuration */ "./src/components/configuration.tsx"));
 const test_emission_1 = __importDefault(__webpack_require__(/*! ./components/test_emission */ "./src/components/test_emission.tsx"));
 //Test
 // import Test from './components/test'
@@ -16271,6 +16168,18 @@ const test_emission_1 = __importDefault(__webpack_require__(/*! ./components/tes
 (0, uxp_1.registerWidget)({
     id: "test_Emission",
     widget: test_emission_1.default,
+    configs: {
+        layout: {
+            w: 30,
+            h: 18,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+(0, uxp_1.registerWidget)({
+    id: "configuration",
+    widget: configuration_1.default,
     configs: {
         layout: {
             w: 30,
@@ -27126,7 +27035,7 @@ function keyof(value) {
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"id":"b2ba44dd-d99b-4c0d-f768-1c6b186720c1","author":"eutech","widgets":[{"id":"emission_Overview","name":"Carbon Emission Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Detailed_Analysis","name":"Carbon Detailed Analysist","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Category_Breakdown","name":"Emissions Category Breakdown","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Ranking","name":"Emissions Ranking","description":"A sample widget","icon":"","tags":[]},{"id":"resource_Consumption_Overview","name":"Resource Consumption Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Trends_Overview","name":"Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Emissions_Overview","name":"Business-Level Carbon Emissions Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Trends_Overview","name":"Business-Level Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]},{"id":"test_Emission","name":"Test Emission","description":"A sample widget","icon":"","tags":[]}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
+module.exports = /*#__PURE__*/JSON.parse('{"id":"b2ba44dd-d99b-4c0d-f768-1c6b186720c1","author":"eutech","widgets":[{"id":"emission_Overview","name":"Carbon Emission Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Detailed_Analysis","name":"Carbon Detailed Analysist","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Category_Breakdown","name":"Emissions Category Breakdown","description":"A sample widget","icon":"","tags":[]},{"id":"emissions_Ranking","name":"Emissions Ranking","description":"A sample widget","icon":"","tags":[]},{"id":"resource_Consumption_Overview","name":"Resource Consumption Overview","description":"A sample widget","icon":"","tags":[]},{"id":"carbon_Trends_Overview","name":"Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Emissions_Overview","name":"Business-Level Carbon Emissions Overview","description":"A sample widget","icon":"","tags":[]},{"id":"business_Level_Carbon_Trends_Overview","name":"Business-Level Carbon Trends Overview","description":"A sample widget","icon":"","tags":[]},{"id":"test_Emission","name":"Test Emission","description":"A sample widget","icon":"","tags":[]},{"id":"configuration","name":"Organizational Configuration","description":"A sample widget","icon":"","tags":[]}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
 
 /***/ })
 

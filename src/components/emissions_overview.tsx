@@ -706,147 +706,11 @@ function getCategorywiseEmissionOverview(BusinessUnitKey: string, StartYear: num
     credits: {
       enabled: false,
     },
-  };
-  
-  
-
-
-
-/********************  Uk  *********************/
-
-
-//  const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData[]>([]);
-
-// function getcategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
-//     props.uxpContext.executeAction(
-//         "OrganizationalEmissionOverview-Dataprovider",
-//         "GetCategorywiseEmissionOverview",
-//         { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth },
-//         { json: true }
-//     ).then(res => {
-//         console.log("data", res);
-//         setCategorywisePopUpData(res);
-//     }).catch(e => {
-//         // console.log("error", e);
-//     });
-// }   
- 
-// const groupedCategoryData = categorywisePopUpData.reduce<Record<string, { categories: string[], data: number[], name: string }>>((acc, item) => {
-//     const scopeKey = item.ScopeKey;
-//     const emissionValue = parseFloat(item.CarbonEmission); 
- 
-//     if (emissionValue !== 0) {  
-//         if (!acc[scopeKey]) {
-//             acc[scopeKey] = {
-//                 name: item.ScopeName,
-//                 categories: [],
-//                 data: []
-//             };
-//         }
-
-//         acc[scopeKey].categories.push(item.ActivityCategorytableName);
-//         acc[scopeKey].data.push(emissionValue);
-//     }
-
-//     return acc;
-// }, {});
-
- 
-// const filteredCategories = Object.values(groupedCategoryData).flatMap(scope => scope.categories); 
-// const uniqueCategories = [...new Set(filteredCategories)]; 
- 
-// const seriesData = Object.values(groupedCategoryData).map(scope => {
-    
-//     const emissionsData = uniqueCategories.map(category => {
-//         const index = scope.categories.indexOf(category);
-//         return index !== -1 ? scope.data[index] : 0; // Include categories, use 0 if no data
-//     });
-
-//     return {
-//         name: scope.name,
-//         data: emissionsData,  
-//         color: scope.name === "Scope 1" ? "#4c6a48" : scope.name === "Scope 2" ? "#466f81" : "#b97244"
-//     };
-// });
-
-// const chartCategorywiseOptions = {
-//     chart: {
-//         type: "column"
-//     },
-//     title: {
-//         text: ""
-//     },
-//     xAxis: {
-//         min: 0,
-//         categories: uniqueCategories, // Only categories with non-zero emissions
-//         title: {
-//               text: ""
-//         }
-//     },
-//     yAxis: {
-//          min: 0,
-//         title: {
-//             text: "Carbon Emissions (kgCO2e)"
-//         },
-//         labels: {
-//             format: "{value} kgCO2e"
-//         }
-//     },
-//     tooltip: {
-//         formatter: function () {
-//             // Show tooltip only for non-zero values
-//             if (this.y > 0) {
-//                 return `<b>${this.series.name}</b>: ${this.y.toLocaleString(undefined, {
-//                     minimumFractionDigits: 2,
-//                     maximumFractionDigits: 2
-//                 })} kgCO2e`;  // Formatting tooltip value
-//             } 
-//             return false; // Do not display tooltip for zero values
-//         }
-//     },
-//     series: seriesData, // Only non-zero emissions data
-//     plotOptions: {
-//         column: {
-//             dataLabels: {
-//                 enabled: true,
-//                 formatter: function () {
-//                     // Show data label only for values greater than 0
-//                     if (this.y > 0) {
-//                         return `${this.y.toLocaleString(undefined, {
-//                             minimumFractionDigits: 2,
-//                             maximumFractionDigits: 2
-//                         })} kgCO2e`;  // Using toLocaleString for data labels
-//                     }
-//                     return null; // Do not display label for zero values
-//                 }
-//             }
-//         }
-//     },
-//     legend: {
-//         enabled: true
-//     }, 
-//     credits: {
-//         enabled: false
-//     }
-// };
- 
-  
-// Example hardcoded data for testing 
-
-// Set this as the categorywisePopUpData for testing
+  }; 
+   
  
 const [chartCategorywiseOptions, setChartCategorywiseOptions] = useState({});  
-const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData1[]>([]); // State for fetched data
-
-// useEffect(() => {
-//   const BusinessUnitKey = "5";
-//   const StartYear = 2019;
-//   const StartMonth = 1;
-//   const EndYear = 2024;
-//   const EndMonth = 12;
-
-//   getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
-// }, []);
+const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData1[]>([]); // State for fetched data 
 
 function getCategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
   props.uxpContext.executeAction(
@@ -1047,27 +911,7 @@ function updateChart(data: EmissionData1[]) {
                                         /> 
                             </FilterPanel>
                         </div>
-            </TitleBar> 
-
-                        {/* <div className="scope-overall">    
-                            {scopedata.length > 0 ? (
-                                scopedata.map((scope, index) => (   
-                                     <div key={index} className={`scope-box ${getClassName(scope.ScopeKey)}`}>
-                                    <h4> {scope.ScopeName} </h4> 
-                                    <h3>{Number(scope.CurrentEmission).toFixed(2)} tCO<em>2</em>e</h3>
-                                    <div className="scope-bottom">
-                                    <em>{Number(scope.PrevEmission).toFixed(2) ? `${Number(scope.PrevEmission).toFixed(2)} %` : 0}</em>
-                                    <span className={`arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}`}></span>
-                                    </div>
-                                </div>
-                                ))
-                            ) : (
-                                <p>Loading data...</p> 
-                            )}  
-                        </div>     */}
-
-
-
+            </TitleBar>  
 
 
 <div className="scope-overall">
@@ -1075,8 +919,7 @@ function updateChart(data: EmissionData1[]) {
         <>
             {scopedata.map((scope, index) => (
                 <div key={index} className={`scope-box ${getClassName(scope.ScopeKey)}`}>
-                    <h4>{scope.ScopeName}</h4>
-                    {/* <h3>{Number(scope.CurrentEmission || 0).toFixed(2)} <span>tCO<em>2</em>e</span></h3> */}
+                    <h4>{scope.ScopeName}</h4> 
                 <h3>{Number(scope.CurrentEmission || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} <span>tCO<em>2</em>e</span></h3>  
 
                     <div className="scope-bottom">
@@ -1085,11 +928,9 @@ function updateChart(data: EmissionData1[]) {
                     </div>
                 </div>
             ))}
-
-            {/* 4th Div: Scope 1 + Scope 2 */} 
+ 
             <div className="scope-box green_blue-scope-box">
-                <h4>Scope 1 + 2</h4>
-                {/* <h3>{(Number(scopedata[0]?.CurrentEmission || 0) + Number(scopedata[1]?.CurrentEmission || 0)).toFixed(2)} <span>tCO<em>2</em>e</span></h3> */}
+                <h4>Scope 1 + 2</h4> 
                 <h3>
                     {(Number(scopedata[0]?.CurrentEmission || 0) + Number(scopedata[1]?.CurrentEmission || 0))
                         .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} 
@@ -1101,8 +942,7 @@ function updateChart(data: EmissionData1[]) {
                         <span className={`arrow ${((Number(scopedata[0]?.PrevEmission || 0) + Number(scopedata[1]?.PrevEmission || 0)) > 0) ? 'up-arrow' : 'down-arrow'}`}></span>
                 </div>
             </div>
-
-            {/* 5th Div: Scope 1 + Scope 2 + Scope 3 */}
+ 
             <div className="scope-box green_blue_orange-scope-box">
                 <h4>Scope 1 + 2 + 3</h4> 
                 <h3>
@@ -1127,8 +967,7 @@ function updateChart(data: EmissionData1[]) {
                 <div style={{display:"inline-flex", padding:"3em 3em"}}>
 
                     <div className="emi-breakdown" style={{display:"inline-block", width:"40%", height: "38em", margin:"0 1.5em 0 0"}}>  
-                        
-                        {/* <Scopewise_Breakdown/> */}
+                         
 
                 <WidgetWrapper>
                         <TitleBar title='Scope-wise Total Emission Breakdown'>  

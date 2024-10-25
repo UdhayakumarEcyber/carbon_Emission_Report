@@ -68,7 +68,7 @@
         },
         {
             "id": "configuration",
-            "name": "Configuration",
+            "name": "Organizational Configuration",
             "description": "A sample widget",
             "icon": "",
             "tags":[]

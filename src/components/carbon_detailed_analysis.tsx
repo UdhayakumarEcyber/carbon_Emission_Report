@@ -497,7 +497,10 @@ function FilterEmissionData(){
                             <li> 
                                 <a className="carbon-emission-item" >
                                     <label>{item.ActivityCategorytableName}</label>
-                                    <button className={`uxp-button ${getbutnclass(item.CurrentEmission , item.PrevEmission)}`}>{Number(item.CurrentEmission).toFixed(2)}</button>
+                                    <div className="item-value">
+                                        <button className={`uxp-button ${getbutnclass(item.CurrentEmission , item.PrevEmission)}`}>{Number(item.CurrentEmission).toFixed(2)}</button>
+                                        <em>kgCO<sub>2</sub>e</em>
+                                    </div>
                                     {/* <span>{Number(item.PrevEmission).toFixed(2) ? `${CalPercentage(item.CurrentEmission , item.PrevEmission )} ` : 0} % <em className={`arrow ${Number(item.PrevEmission).toFixed(2)<Number(item.CurrentEmission).toFixed(2) ? 'up-arrow' : 'down-arrow'}`}></em></span>  */}
                                     <span>
                                         {Number(item.PrevEmission).toFixed(2) ? 
@@ -520,9 +523,10 @@ function FilterEmissionData(){
                             <li> 
                                 <a className="carbon-emission-item" >
                                     <label>{item.ActivityCategorytableName}</label>
-                                    <button className={`uxp-button ${getbutnclass(item.CurrentEmission , item.PrevEmission)}`}>{Number(item.CurrentEmission).toFixed(2)}</button>
-                                    {/* <span>{Number(item.PrevEmission).toFixed(2) ? `${CalPercentage(item.CurrentEmission , item.PrevEmission )} ` : 0} % <em className={`arrow ${Number(item.PrevEmission).toFixed(2)<Number(item.CurrentEmission).toFixed(2) ? 'up-arrow' : 'down-arrow'}`}></em></span>  */}
-
+                                    <div className="item-value">
+                                        <button className={`uxp-button ${getbutnclass(item.CurrentEmission , item.PrevEmission)}`}>{Number(item.CurrentEmission).toFixed(2)}</button>
+                                        <em>kgCO<sub>2</sub>e</em>
+                                    </div>
                                     <span>
                                         {Number(item.PrevEmission).toFixed(2) ? 
                                             `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, { 
@@ -544,9 +548,10 @@ function FilterEmissionData(){
                             <li> 
                                 <a className="carbon-emission-item" >
                                     <label>{item.ActivityCategorytableName}</label>
-                                    <button className={`uxp-button ${getbutnclass(item.CurrentEmission , item.PrevEmission)}`}>{Number(item.CurrentEmission).toFixed(2)}</button>
-                                    {/* <span>{Number(item.PrevEmission).toFixed(2) ? `${CalPercentage(item.CurrentEmission , item.PrevEmission )} ` : 0} % <em className={`arrow ${Number(item.PrevEmission).toFixed(2)<Number(item.CurrentEmission).toFixed(2) ? 'up-arrow' : 'down-arrow'}`}></em></span>  */}
-                                
+                                    <div className="item-value">
+                                        <button className={`uxp-button ${getbutnclass(item.CurrentEmission , item.PrevEmission)}`}>{Number(item.CurrentEmission).toFixed(2)}</button>
+                                        <em>kgCO<sub>2</sub>e</em>
+                                    </div>
                                     <span>
                                         {Number(item.PrevEmission).toFixed(2) ? 
                                             `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, { 
