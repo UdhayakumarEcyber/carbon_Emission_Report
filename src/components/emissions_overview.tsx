@@ -14,6 +14,11 @@ import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import Sunburst from "highcharts/modules/sunburst";
 
+import Accessibility from 'highcharts/modules/accessibility';
+
+Accessibility(Highcharts); // Initialize the accessibility module
+
+
 
 interface IWidgetProps {
     uxpContext?: IContextProvider,
@@ -32,6 +37,7 @@ interface EmissionData {
     ScopeKey: string;
     ScopeName: string;
     CarbonEmission: string; // This can also be a number if you always get numbers
+ 
 }
 interface ScopePopupData {
     MonthString: string;
@@ -49,6 +55,24 @@ interface IDataItem {
     name: string;
     y: number; // This will hold the aggregated carbon emissions
 }
+
+
+interface SeriesData {
+    name: string;
+    data: number[];
+    color: string;
+    visible: boolean; 
+}
+
+interface EmissionData1 {  
+  ActivityCategoryTableKey: string;  
+  ActivityCategorytableName: string;  
+  ScopeKey: string;  
+  ScopeName: string;  
+  CarbonEmission: string;  
+}  
+
+
 const Emission_Overview: React.FunctionComponent<IWidgetProps> = (props) => { 
 
 let toast = useToast();
@@ -170,7 +194,9 @@ function getClientListFilter(){
         getScopewisePopUpData(SubUnitFilter !== '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth); // Correct function call
        // scopewisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
         getCategorywiseEmissionOverview(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
-        getcategorywisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+       // getcategorywisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+
+        getCategorywisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
     },[startYear,startMonth,endYear,endMonth,SubUnitFilter,MainUnitFilter ]) 
  
 
@@ -259,65 +285,79 @@ const groupedScopeEmissionBreakdowndata = useMemo(() => {
     }));
 }, [scopeEmissionBreakdowndata]); 
 const chartData = groupedScopeEmissionBreakdowndata; 
+ 
 
 
+const formatCO2e = function () {
+    return `${this.point.name}: ${(this.y || 0).toLocaleString(undefined, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    })} kgCO2e`;
+  };
 
-const scope_options = {
-    // chart: {
-    //     type: 'pie',
-    //     options3d: {
-    //         enabled: true,
-    //         alpha: 40,
-    //         beta: 0
-    //     }
-    // },
+  
+
+const scope_options = { 
     chart: {
-        type: "pie",
-        height: "80%",
-        margin: [20,10, 0, 10],
-      },
+      type: "pie",
+      height: "78%",
+      margin: [20, 10, 0, 10],
+    },
     
     title: {
       text: "",
     },
-    tooltip: {
-        //   pointFormat: "<b>{point.name}</b>: {point.y}",
-            pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e"  
-        },
+  
+    tooltip: { 
+    //   formatter: function () {
+    //     return `<b>${this.point.name}</b>: ${(this.y || 0).toLocaleString(undefined, {
+    //       minimumFractionDigits: 2,
+    //       maximumFractionDigits: 2
+    //     })} kgCO2e`;   
+    //   }
+    formatter: formatCO2e,  // Reuse the formatter function
+    },
+    
     plotOptions: {
-        pie: {
-            innerSize: '60%',
-            depth: 40,
-            dataLabels: {
-                enabled: true,
-               // format: '{point.name}: <b>{point.y:.1f}</b>',
-                format: "{point.name}: {point.y:.2f} kgCO2e",
-            },
-            showInLegend: true
-        }
+      pie: {
+        innerSize: '60%',
+        depth: 40,
+        dataLabels: {
+          enabled: true,
+        //   formatter: function () {
+        //     return `${this.point.name}: ${(this.y || 0).toLocaleString(undefined, {
+        //       minimumFractionDigits: 2,
+        //       maximumFractionDigits: 2
+        //     })} kgCO2e`;   
+        //   },
+        formatter: formatCO2e,  // Reuse the formatter function 
+
+
+        },
+        showInLegend: true
+      }
     },
+    
     legend: {
-        enabled: true,
-        layout: 'vertical',
-        align: 'right',
-        verticalAlign: 'middle',
-        itemMarginTop: 1,
+      enabled: true,
+      layout: 'vertical',
+      align: 'right',
+      verticalAlign: 'middle',
+      itemMarginTop: 1,
     },
+  
     credits: {
-        enabled: false,
-      },
+      enabled: false,
+    },
+    
     series: [{
-        name: 'Emissions',
-        colorByPoint: true,
-        data: chartData // Use the grouped data for chart
+      name: 'Emissions',
+      colorByPoint: true,
+      data: chartData 
     }]
-};
-
-
-
-
-
-
+  };
+  
+   
  
     let [showModal, setShowModal] = React.useState(false);
     let [modelData, setModelData] = React.useState<any>(null); 
@@ -331,179 +371,7 @@ const scope_options = {
     const handleCloseModal = () => {
         setShowModal(false);  
         setModelData(null);  
-    }; 
-
-
-
-
-//  const [scopewisePopUpData, setScopewisePopUpData] = useState<ScopePopupData[]>([]); 
-
-// const getScopewisePopUpData = (BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) => {
-//     props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdownPopup", {
-//         BusinessUnitKey,
-//         StartYear,
-//         StartMonth,
-//         EndYear,
-//         EndMonth
-//     }, { json: true }).then(res => {
-//         console.log("data", res);
-//         setScopewisePopUpData(processScopeData(res)); // Process the data after fetching
-//     }).catch(e => {
-//         console.error("Error fetching data", e);
-//     });
-// };
-//  // Process the fetched data
-//  const processScopeData = (data: any[]): ScopePopupData[] => {
-//     const groupedScopePopupData: Record<string, ScopePopupData> = {};
-
-//     data.forEach(item => {
-//         const month = item.MonthString;
-//         if (!groupedScopePopupData[month]) {
-//             groupedScopePopupData[month] = { MonthString: month, Scope1: 0, Scope2: 0, Scope3: 0 };
-//         }
-
-//         const emission = parseFloat(item.CarbonEmission);
-//         if (item.ScopeKey === "1") {
-//             groupedScopePopupData[month].Scope1 += emission;
-//         } else if (item.ScopeKey === "2") {
-//             groupedScopePopupData[month].Scope2 += emission;
-//         } else if (item.ScopeKey === "3") {
-//             groupedScopePopupData[month].Scope3 += emission;
-//         }
-//     });
-
-//     return Object.values(groupedScopePopupData);
-// }; 
-
-
-
-
-
-// [
-//     {
-//       "Year": "2021",
-//       "Month": "7",
-//       "MonthString": "July",
-//       "ScopeKey": "1",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2021",
-//       "Month": "8",
-//       "MonthString": "August",
-//       "ScopeKey": "1",
-//       "ScopeName": "",
-//       "CarbonEmission": "568"
-//     },
-//     {
-//       "Year": "2021",
-//       "Month": "9",
-//       "MonthString": "September",
-//       "ScopeKey": "1",
-//       "ScopeName": "",
-//       "CarbonEmission": "879"
-//     },
-//     {
-//       "Year": "2021",
-//       "Month": "10",
-//       "MonthString": "October",
-//       "ScopeKey": "2",
-//       "ScopeName": "",
-//       "CarbonEmission": "687"
-//     },
-//     {
-//       "Year": "2021",
-//       "Month": "11",
-//       "MonthString": "November",
-//       "ScopeKey": "2",
-//       "ScopeName": "",
-//       "CarbonEmission": "457"
-//     },
-//     {
-//       "Year": "2021",
-//       "Month": "12",
-//       "MonthString": "December",
-//       "ScopeKey": "2",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "1",
-//       "MonthString": "January",
-//       "ScopeKey": "2",
-//       "ScopeName": "",
-//       "CarbonEmission": "987"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "2",
-//       "MonthString": "February",
-//       "ScopeKey": "3",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "3",
-//       "MonthString": "March",
-//       "ScopeKey": "3",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "3",
-//       "MonthString": "March",
-//       "ScopeKey": "3",
-//       "ScopeName": "Scope 3",
-//       "CarbonEmission": "59284.168652329594"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "4",
-//       "MonthString": "April",
-//       "ScopeKey": "",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "5",
-//       "MonthString": "May",
-//       "ScopeKey": "",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "6",
-//       "MonthString": "June",
-//       "ScopeKey": "",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "7",
-//       "MonthString": "July",
-//       "ScopeKey": "",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     },
-//     {
-//       "Year": "2022",
-//       "Month": "8",
-//       "MonthString": "August",
-//       "ScopeKey": "",
-//       "ScopeName": "",
-//       "CarbonEmission": "0"
-//     }, 
-//   ]
-
-
-
+    };  
 
 const [scopewisePopUpData, setScopewisePopUpData] = useState<EmissionData[]>([]);
  
@@ -519,120 +387,7 @@ const getScopewisePopUpData = (BusinessUnitKey: string, StartYear: number, Start
   }).catch(e => {
     console.error("Error fetching data", e);
   });
-};
-  
-  
-
-// const processScopeData = (data: EmissionData[]): EmissionData[] => {
-//     const groupedData: Record<string, { Scope1: number; Scope2: number; Scope3: number }> = {};
-  
-//     data.forEach(item => {
-//       const month = item.MonthString;
-  
-//       if (!groupedData[month]) {
-//         groupedData[month] = { Scope1: 0, Scope2: 0, Scope3: 0 };
-//       }
-  
-//       const emission = parseFloat(item.CarbonEmission);
-//       if (item.ScopeKey === "1") {
-//         groupedData[month].Scope1 += emission;
-//       } else if (item.ScopeKey === "2") {
-//         groupedData[month].Scope2 += emission;
-//       } else if (item.ScopeKey === "3") {
-//         groupedData[month].Scope3 += emission;
-//       }
-//     });
-  
-//     // Convert the grouped data back into an array of EmissionData
-//     return Object.keys(groupedData).map(month => ({
-//       Year: "",  // Add appropriate values if necessary
-//       Month: "", // Add appropriate values if necessary
-//       MonthString: month,
-//       ScopeKey: "",  // This can be left blank since we're aggregating
-//       ScopeName: "", // This can be left blank or set based on your logic
-//       CarbonEmission: (
-//         groupedData[month].Scope1 +
-//         groupedData[month].Scope2 +
-//         groupedData[month].Scope3
-//       ).toFixed(2), // Summing the emissions for each scope
-//       Scope1: groupedData[month].Scope1.toFixed(2),  // Store Scope 1
-//       Scope2: groupedData[month].Scope2.toFixed(2),  // Store Scope 2
-//       Scope3: groupedData[month].Scope3.toFixed(2)   // Store Scope 3
-//     }));
-//   }; 
-   
-//   const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]; 
-   
-// const categories = scopewisePopUpData.map(data => data.MonthString); // Month names
-// const scope1Data = scopewisePopUpData.map(data => parseFloat(data.Scope1) || 0);
-// const scope2Data = scopewisePopUpData.map(data => parseFloat(data.Scope2) || 0);
-// const scope3Data = scopewisePopUpData.map(data => parseFloat(data.Scope3) || 0);
-
-// const chartScopeBarOptions = {
-//   chart: {
-//     type: 'column' // Use 'column' for vertical stacked bars
-//   },
-//   title: {
-//     text: 'Carbon Emissions by Scope'
-//   },
-//   xAxis: {
-//     categories: categories, // Set month names as categories
-//     //categories: monthNames, // Set month names as categories
-//     title: {
-//       text: "Month"
-//     }
-//   },
-//   yAxis: {
-//     min: 0,
-//     title: {
-//       text: 'Carbon Emissions (kgCO2e)',
-//       align: 'high'
-//     },
-//     labels: {
-//       overflow: 'justify'
-//     }
-//   },
-//   tooltip: {
-//     pointFormat: "<b>{series.name}</b>: {point.y:.2f} kgCO2e<br/>Total: {point.stackTotal:.2f} kgCO2e"
-//   },
-//   credits: {
-//     enabled: false,
-//   },
-//   plotOptions: {
-//     column: {
-//       stacking: 'normal', // Enable stacking
-//       dataLabels: {
-//         enabled: true,
-//         format: "{point.y:.2f} kgCO2e"  // Show values with 2 decimal places
-//       }
-//     }
-//   },
-//   series: [
-//     {
-//       name: 'Scope 1',
-//       data: scope1Data,
-//       color: '#4c6a48' // Color for Scope 1
-//     },
-//     {
-//       name: 'Scope 2',
-//       data: scope2Data,
-//       color: '#466f81' // Color for Scope 2
-//     },
-//     {
-//       name: 'Scope 3',
-//       data: scope3Data,
-//       color: '#b97244' // Color for Scope 3
-//     }
-//   ]
-// };
-
-
-
-
-
-
-
-
+}; 
 
 const processScopeData = (data: EmissionData[]): EmissionData[] => {
     const groupedData: Record<string, { Scope1: number; Scope2: number; Scope3: number }> = {};
@@ -699,69 +454,79 @@ const scope3Data = monthNames.map((_, index) => {
     return dataForMonth ? parseFloat(dataForMonth.Scope3) : 0;
 }).filter(value => value > 0); // Filter out zero values
 
-// Define the chart options
+
 const chartScopeBarOptions = {
     chart: {
-        type: 'column' // Use 'column' for vertical stacked bars
+      type: 'column' // Use 'column' for vertical stacked bars
     },
     title: {
-        text: 'Carbon Emissions by Scope'
+      text: 'Carbon Emissions by Scope'
     },
     xAxis: {
-        categories: categories.length > 0 ? categories : ['No Data'], // Ensure there are categories to show
-        title: {
-            text: ""
-        }
+      categories: categories.length > 0 ? categories : ['No Data'], // Ensure there are categories to show
+      title: {
+        text: ""
+      }
     },
     yAxis: {
-        min: 0,
-        title: {
-            text: 'Carbon Emissions (kgCO2e)',
-            align: 'high'
-        },
-        labels: {
-            overflow: 'justify'
-        }
+      min: 0,
+      title: {
+        text: '',
+        align: 'high'
+      },
+      labels: {
+        overflow: 'justify'
+      }
     },
+    // tooltip: {
+    //   pointFormat: "<b>{series.name}</b>: {point.y:.2f} kgCO2e<br/>Total: {point.stackTotal:.2f} kgCO2e"
+    // },
+
     tooltip: {
-        pointFormat: "<b>{series.name}</b>: {point.y:.2f} kgCO2e<br/>Total: {point.stackTotal:.2f} kgCO2e"
-    },
+        formatter: function () {
+            return `<b>${this.series.name}</b>: ${(this.y || 0).toLocaleString(undefined, {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            })} kgCO2e`;  // Formatting tooltip value
+        }
+    }, 
+
     credits: {
-        enabled: false,
+      enabled: false,
     },
     plotOptions: {
-        column: {
-            stacking: 'normal', // Enable stacking
-            dataLabels: {
-                enabled: true,
-                format: "{point.y:.2f} kgCO2e"  // Show values with 2 decimal places
-            }
+      column: {
+        stacking: 'normal',
+        dataLabels: {
+          enabled: true,
+          formatter: function () {
+            return `${this.series.name}: ${(this.y || 0).toLocaleString(undefined, {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2
+            })} kgCO2e`; // Using toLocaleString for data labels
+          }
         }
+      }
     },
     series: [
-        {
-            name: 'Scope 1',
-            data: scope1Data,
-            color: '#4c6a48' // Color for Scope 1
-        },
-        {
-            name: 'Scope 2',
-            data: scope2Data,
-            color: '#466f81' // Color for Scope 2
-        },
-        {
-            name: 'Scope 3',
-            data: scope3Data,
-            color: '#b97244' // Color for Scope 3
-        }
+      {
+        name: 'Scope 1',
+        data: scope1Data,
+        color: '#4c6a48' // Color for Scope 1
+      },
+      {
+        name: 'Scope 2',
+        data: scope2Data,
+        color: '#466f81' // Color for Scope 2
+      },
+      {
+        name: 'Scope 3',
+        data: scope3Data,
+        color: '#b97244' // Color for Scope 3
+      }
     ]
-};
- 
-
- 
-
-
-
+  };
+  
 
    
 let [selected, setSelected] = React.useState<string | null>("op-1");
@@ -803,9 +568,6 @@ function getCategorywiseEmissionOverview(BusinessUnitKey: string, StartYear: num
     console.error("Error fetching scope data", e);
   });
 }
- 
-// Define color map for ScopeKey to ensure consistency across inner and outer series
-
   
   // Function to lighten a given color
   const lightenColor = (hex: string, percent: number): string => {
@@ -850,111 +612,344 @@ function getCategorywiseEmissionOverview(BusinessUnitKey: string, StartYear: num
     return acc;
   }, []);
   
-  // Prepare inner and outer series data with colors matching ScopeKey
+ 
   const innerSeriesData = groupedData.map((scope: any) => ({
     name: scope.name,
     y: scope.children.reduce((acc: any, child: any) => acc + child.value, 0),
-    color: colorMap[scope.name], // Use the same color for inner part
+    color: colorMap[scope.name],  
   }));
   
   const outerSeriesData = groupedData.reduce((acc: any, scope: any) => {
-    const childrenCount = scope.children.length; // Total number of children for this scope
+    const childrenCount = scope.children.length; 
   
     return acc.concat(
       scope.children.map((child: any, index: number) => {
-        const lighteningFactor = (index / (childrenCount - 1)) * 0.5; // Adjust lightening factor (0 to 0.5)
-        const childColor = lightenColor(colorMap[scope.name], lighteningFactor); // Lighten based on index
+        const lighteningFactor = (index / (childrenCount - 1)) * 0.5;  
+        const childColor = lightenColor(colorMap[scope.name], lighteningFactor);  
         
         return {
           name: child.name,
           y: child.value,
-          color: childColor, // Use the lightened color for outer part
+          color: childColor, 
         };
       })
     );
   }, []);
   
-
-  // Check if all values are zero
+ 
   const CategorywiseValueZero = groupedData.every((scope: any) => 
     scope.children.every((child: any) => child.value === 0)
-  );
-  // Highcharts options for donut chart with color matching
+  ); 
+ 
+  
 
-  const options = {
+  
+  const cateMainOptions = {
     chart: {
       type: "pie",
       height: "50%",
-      margin: [10,10, 0, 10],
+      margin: [10, 10, 0, 10],
     },
     title: {
       text: "",
     },
     plotOptions: {
       pie: {
-        innerSize: "40%", // Create the donut shape
+        innerSize: "40%",
         dataLabels: {
           enabled: true,
-          //format: "{point.name}: {point.y:.1f}", // Show name and value
-          format: "{point.name}: {point.y:.2f} kgCO2e",
+          formatter: formatCO2e,  // Reuse the formatter function
           filter: {
             property: 'y',
             operator: '>',
-            value: 0, // Show labels only if value > 0
+            value: 0,
           },
         },
-        
       },
     },
     series: [
       {
         name: "Scopes",
-        colorByPoint: false, // Use color from data instead of generating random colors
-        size: '60%', // Inner radius size
+        colorByPoint: false,
+        size: '60%',
         data: innerSeriesData,
         dataLabels: {
-          distance: -30, // Position inside the donut
+          distance: -30,
+          formatter: formatCO2e,  // Reuse the formatter function
         },
       },
       {
         name: "Subcategories",
-        colorByPoint: false, // Use color from data instead of generating random colors
-        innerSize: '60%', // Outer radius size starts here
-        size: '95%', // Outer ring size
+        colorByPoint: false,
+        innerSize: '60%',
+        size: '95%',
         data: outerSeriesData,
         dataLabels: {
-          distance: 10, // Position outside the donut
+          distance: 10,
+          formatter: formatCO2e,  // Reuse the formatter function
           filter: {
             property: 'y',
             operator: '>',
-            value: 0, // Show labels only if value > 0
+            value: 0,
           },
         },
       },
     ],
     tooltip: {
-    //   pointFormat: "<b>{point.name}</b>: {point.y}",
-        pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e"  // Format y value to 2 decimal places
+      formatter: function () {
+        return `<b>${this.point.name}</b>: ${(this.y || 0).toLocaleString(undefined, {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2
+        })} kgCO2e`;
+      },
     },
     credits: {
       enabled: false,
     },
   };
- 
- 
-let [categorywisePopUpData,setCategorywisePopUpData] = React.useState<any>([]) 
-function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,StartMonth:number,EndYear:number,EndMonth:number) {  
-    props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider","GetCategorywiseEmissionOverview",{BusinessUnitKey:BusinessUnitKey,StartYear:StartYear,StartMonth:StartMonth,EndYear:EndYear,EndMonth:EndMonth},{json:true}).then(res=>{ 
-        console.log("data",res);
-        setCategorywisePopUpData(res);
-    }).catch(e=>{
-        // console.log("hi", e);
-    }); 
-} 
- 
+  
+  
 
 
 
+/********************  Uk  *********************/
+
+
+//  const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData[]>([]);
+
+// function getcategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//     props.uxpContext.executeAction(
+//         "OrganizationalEmissionOverview-Dataprovider",
+//         "GetCategorywiseEmissionOverview",
+//         { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth },
+//         { json: true }
+//     ).then(res => {
+//         console.log("data", res);
+//         setCategorywisePopUpData(res);
+//     }).catch(e => {
+//         // console.log("error", e);
+//     });
+// }   
+ 
+// const groupedCategoryData = categorywisePopUpData.reduce<Record<string, { categories: string[], data: number[], name: string }>>((acc, item) => {
+//     const scopeKey = item.ScopeKey;
+//     const emissionValue = parseFloat(item.CarbonEmission); 
+ 
+//     if (emissionValue !== 0) {  
+//         if (!acc[scopeKey]) {
+//             acc[scopeKey] = {
+//                 name: item.ScopeName,
+//                 categories: [],
+//                 data: []
+//             };
+//         }
+
+//         acc[scopeKey].categories.push(item.ActivityCategorytableName);
+//         acc[scopeKey].data.push(emissionValue);
+//     }
+
+//     return acc;
+// }, {});
+
+ 
+// const filteredCategories = Object.values(groupedCategoryData).flatMap(scope => scope.categories); 
+// const uniqueCategories = [...new Set(filteredCategories)]; 
+ 
+// const seriesData = Object.values(groupedCategoryData).map(scope => {
+    
+//     const emissionsData = uniqueCategories.map(category => {
+//         const index = scope.categories.indexOf(category);
+//         return index !== -1 ? scope.data[index] : 0; // Include categories, use 0 if no data
+//     });
+
+//     return {
+//         name: scope.name,
+//         data: emissionsData,  
+//         color: scope.name === "Scope 1" ? "#4c6a48" : scope.name === "Scope 2" ? "#466f81" : "#b97244"
+//     };
+// });
+
+// const chartCategorywiseOptions = {
+//     chart: {
+//         type: "column"
+//     },
+//     title: {
+//         text: ""
+//     },
+//     xAxis: {
+//         min: 0,
+//         categories: uniqueCategories, // Only categories with non-zero emissions
+//         title: {
+//               text: ""
+//         }
+//     },
+//     yAxis: {
+//          min: 0,
+//         title: {
+//             text: "Carbon Emissions (kgCO2e)"
+//         },
+//         labels: {
+//             format: "{value} kgCO2e"
+//         }
+//     },
+//     tooltip: {
+//         formatter: function () {
+//             // Show tooltip only for non-zero values
+//             if (this.y > 0) {
+//                 return `<b>${this.series.name}</b>: ${this.y.toLocaleString(undefined, {
+//                     minimumFractionDigits: 2,
+//                     maximumFractionDigits: 2
+//                 })} kgCO2e`;  // Formatting tooltip value
+//             } 
+//             return false; // Do not display tooltip for zero values
+//         }
+//     },
+//     series: seriesData, // Only non-zero emissions data
+//     plotOptions: {
+//         column: {
+//             dataLabels: {
+//                 enabled: true,
+//                 formatter: function () {
+//                     // Show data label only for values greater than 0
+//                     if (this.y > 0) {
+//                         return `${this.y.toLocaleString(undefined, {
+//                             minimumFractionDigits: 2,
+//                             maximumFractionDigits: 2
+//                         })} kgCO2e`;  // Using toLocaleString for data labels
+//                     }
+//                     return null; // Do not display label for zero values
+//                 }
+//             }
+//         }
+//     },
+//     legend: {
+//         enabled: true
+//     }, 
+//     credits: {
+//         enabled: false
+//     }
+// };
+ 
+  
+// Example hardcoded data for testing 
+
+// Set this as the categorywisePopUpData for testing
+ 
+const [chartCategorywiseOptions, setChartCategorywiseOptions] = useState({});  
+const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData1[]>([]); // State for fetched data
+
+// useEffect(() => {
+//   const BusinessUnitKey = "5";
+//   const StartYear = 2019;
+//   const StartMonth = 1;
+//   const EndYear = 2024;
+//   const EndMonth = 12;
+
+//   getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
+// }, []);
+
+function getCategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+  props.uxpContext.executeAction(
+    "OrganizationalEmissionOverview-Dataprovider",
+    "GetCategorywiseEmissionOverview",
+    {
+      BusinessUnitKey,
+      StartYear,
+      StartMonth,
+      EndYear,
+      EndMonth
+    },
+    { json: true }
+  )
+  .then((res: EmissionData1[]) => {
+    setCategorywisePopUpData(res); // Store fetched data in state
+    updateChart(res); // Update the chart with fetched data
+  })
+  .catch(e => {
+    console.error("Error fetching data:", e);
+  });
+}
+
+function updateChart(data: EmissionData1[]) {
+  const scopeData = data.reduce((acc: { [key: string]: any }, current) => {   
+    const carbonEmissionValue = parseFloat(current.CarbonEmission); 
+    // Filter out values less than or equal to 0.01
+    if (carbonEmissionValue > 0.01) {  
+      if (!acc[current.ScopeKey]) {   
+        acc[current.ScopeKey] = {   
+          name: current.ScopeName,   
+          data: []   
+        };   
+      }   
+      acc[current.ScopeKey].data.push({  
+        name: current.ActivityCategorytableName,  
+        y: carbonEmissionValue  
+      });   
+    }   
+    return acc;   
+  }, {});   
+    
+  const seriesData = Object.values(scopeData).map(scope => ({   
+    name: scope.name,   
+    data: scope.data,  
+    color: getScopeColor(scope.name)  
+  }));  
+
+  function getScopeColor(scopeName: string) {  
+    switch (scopeName) {  
+      case 'Scope 1':  
+        return '#4c6a48';  
+      case 'Scope 2':  
+        return '#466f81';  
+      case 'Scope 3':  
+        return '#b97244';  
+      default:  
+        return 'gray';  
+    }  
+  }
+
+  setChartCategorywiseOptions({  
+    chart: {   
+      type: 'column'   
+    },   
+    title: {   
+      text: ''   
+    },   
+    xAxis: {   
+      type: 'category',  
+      title: {  
+        text: ''  
+      }  
+    },   
+    yAxis: {   
+      title: {   
+        text: 'Carbon Emissions (kgCO2e)'   
+      }   
+    },  
+    series: seriesData.map(scope => ({ 
+      ...scope, 
+      data: scope.data.map((point: { name: any; y: any; }) => ({ 
+        name: point.name, 
+        y: point.y, 
+        dataLabels: { 
+          enabled: true, 
+          format: '{point.y:,.2f} kgCO2e'  // Format for data labels with commas and two decimal points
+        } 
+      })), 
+      tooltip: {  // Tooltip formatting
+        pointFormat: '<b>{point.y:,.2f} kgCO2e</b>' // Format for tooltip with commas and two decimal points
+      }
+    })), 
+    legend: {
+      enabled: true
+    },  
+    credits: { enabled: false }, 
+  });
+}
+
+
+
+ 
 
 
     return (
@@ -1081,7 +1076,9 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
             {scopedata.map((scope, index) => (
                 <div key={index} className={`scope-box ${getClassName(scope.ScopeKey)}`}>
                     <h4>{scope.ScopeName}</h4>
-                    <h3>{Number(scope.CurrentEmission || 0).toFixed(2)} tCO<em>2</em>e</h3>
+                    {/* <h3>{Number(scope.CurrentEmission || 0).toFixed(2)} <span>tCO<em>2</em>e</span></h3> */}
+                <h3>{Number(scope.CurrentEmission || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} <span>tCO<em>2</em>e</span></h3>  
+
                     <div className="scope-bottom">
                         <em>{scope.PrevEmission ? `${Number(scope.PrevEmission).toFixed(2)} %` : "0%"}</em>
                         <span className={`arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}`}></span>
@@ -1092,17 +1089,28 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
             {/* 4th Div: Scope 1 + Scope 2 */} 
             <div className="scope-box green_blue-scope-box">
                 <h4>Scope 1 + 2</h4>
-                <h3>{(Number(scopedata[0]?.CurrentEmission || 0) + Number(scopedata[1]?.CurrentEmission || 0)).toFixed(2)} tCO<em>2</em>e</h3>
+                {/* <h3>{(Number(scopedata[0]?.CurrentEmission || 0) + Number(scopedata[1]?.CurrentEmission || 0)).toFixed(2)} <span>tCO<em>2</em>e</span></h3> */}
+                <h3>
+                    {(Number(scopedata[0]?.CurrentEmission || 0) + Number(scopedata[1]?.CurrentEmission || 0))
+                        .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} 
+                    <span> tCO<em>2</em>e</span>
+                </h3>
+
                 <div className="scope-bottom">
                     <em>{((Number(scopedata[0]?.PrevEmission || 0) + Number(scopedata[1]?.PrevEmission || 0)) || 0).toFixed(2)}%</em>
-                    <span className={`arrow ${((Number(scopedata[0]?.PrevEmission || 0) + Number(scopedata[1]?.PrevEmission || 0)) > 0) ? 'up-arrow' : 'down-arrow'}`}></span>
+                        <span className={`arrow ${((Number(scopedata[0]?.PrevEmission || 0) + Number(scopedata[1]?.PrevEmission || 0)) > 0) ? 'up-arrow' : 'down-arrow'}`}></span>
                 </div>
             </div>
 
             {/* 5th Div: Scope 1 + Scope 2 + Scope 3 */}
             <div className="scope-box green_blue_orange-scope-box">
-                <h4>Scope 1 + 2 + 3</h4>
-                <h3>{(Number(scopedata[0]?.CurrentEmission || 0) + Number(scopedata[1]?.CurrentEmission || 0) + Number(scopedata[2]?.CurrentEmission || 0)).toFixed(2)} tCO<em>2</em>e</h3>
+                <h4>Scope 1 + 2 + 3</h4> 
+                <h3>
+                    {(Number(scopedata[0]?.CurrentEmission || 0) + Number(scopedata[1]?.CurrentEmission || 0) + Number(scopedata[2]?.CurrentEmission || 0))
+                        .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}  
+                        <span> tCO<em>2</em>e</span>
+                </h3>
+
                 <div className="scope-bottom">
                     <em>{((Number(scopedata[0]?.PrevEmission || 0) + Number(scopedata[1]?.PrevEmission || 0) + Number(scopedata[2]?.PrevEmission || 0)) || 0).toFixed(2)}%</em>
                     <span className={`arrow ${((Number(scopedata[0]?.PrevEmission || 0) + Number(scopedata[1]?.PrevEmission || 0) + Number(scopedata[2]?.PrevEmission || 0)) > 0) ? 'up-arrow' : 'down-arrow'}`}></span>
@@ -1252,17 +1260,6 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
 
                                     <ResponsiveContainer width="100%" height={400}>  
 
-                                        {/* <BarChart data={scopewisePopUpData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
-                                            <CartesianGrid strokeDasharray="3 3" />
-                                            <XAxis dataKey="MonthString" />
-                                            <YAxis />
-                                            <Tooltip />
-                                            <Legend />
-                                            <Bar barSize={10} dataKey="Scope1" stackId="a" fill="#4c6a48" />
-                                            <Bar barSize={10} dataKey="Scope2" stackId="a" fill="#466f81" />
-                                            <Bar barSize={10} dataKey="Scope3" stackId="a" fill="#b97244" />
-                                        </BarChart>  */}
-
                                         <HighchartsReact highcharts={Highcharts} options={chartScopeBarOptions} />
 
                                     </ResponsiveContainer>
@@ -1291,7 +1288,7 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
                             <h3 style={{textAlign:"center", padding:"23% 0px"}}>No Data Available</h3>
                         ) : (
                         <>
-                            <HighchartsReact highcharts={Highcharts} options={options} />
+                            <HighchartsReact highcharts={Highcharts} options={cateMainOptions} />
 
                             <div className="view-more"> 
                                 <Button title="View More" onClick={handleClick1} />
@@ -1304,7 +1301,7 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
                         
                       
         
-                        <Modal className="popup"  title="Scope-Wise Operational Carbon Emissions Overview" show={showModal1} onClose={handleCloseModal1}>
+                        <Modal className="popup"  title="Category-wise  operational carbon emissions overview" show={showModal1} onClose={handleCloseModal1}>
                             
                             <div id="my_Popup"> 
 
@@ -1403,24 +1400,11 @@ function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,Start
 
                                     </div> 
                                                 
-                                    <ResponsiveContainer width="100%" height={400}>
-                                <BarChart 
-                                    data={categorywisePopUpData}  
-                                    margin={{ top: 20, right: 30, left: 0, bottom: 0 }}
-                                >
-                                    <CartesianGrid strokeDasharray="3 3" />
-                                    <XAxis  dataKey="ActivityCategorytableName"/>  
-                                    <YAxis />
-                                    <Tooltip />
-                                    <Legend />
-                                    <Bar 
-                                    barSize={10} 
-                                    dataKey="CarbonEmission"  
-                                    stackId="a" 
-                                    fill="#4c6a48" 
-                                    />
-                                </BarChart>
-                            </ResponsiveContainer> 
+                                    <ResponsiveContainer width="100%" > 
+
+                                    <HighchartsReact highcharts={Highcharts} options={chartCategorywiseOptions} />
+
+                                     </ResponsiveContainer> 
 
                             </div>
                         </Modal> 

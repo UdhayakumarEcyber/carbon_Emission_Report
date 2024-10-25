@@ -6,7 +6,7 @@ import './styles.scss';
 import { AreaChart, Area, ResponsiveContainer,  LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,  } from 'recharts';
   
 import { DataList, WidgetWrapper, DynamicSelect, SearchBox, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
-   
+    
 
 interface IWidgetProps {
     uxpContext?: IContextProvider,
@@ -23,6 +23,7 @@ import Carbon_Trends_Overview from './components/carbon_trends_overview'
 import Business_Level_Carbon_Trends_Overview from './components/business-level-carbon-trends-overview'
 import Business_Level_Carbon_Emissions_Overview from './components/business-level-carbon-emissions-overview'
 
+import Configuration from './components/configuration'
 
 import Test_Emission from './components/test_emission'
 
@@ -121,6 +122,21 @@ registerWidget({
 
 
 registerWidget({
+    id: "business_Level_Carbon_Emissions_Overview",
+    widget: Business_Level_Carbon_Emissions_Overview,
+    configs: {
+        layout: {
+            w: 26,
+            h: 18,
+            minH: 12,
+            minW: 12
+        }
+    }
+});
+
+
+
+registerWidget({
     id: "business_Level_Carbon_Trends_Overview",
     widget: Business_Level_Carbon_Trends_Overview,
     configs: {
@@ -147,6 +163,23 @@ registerWidget({
         }
     }
 });
+
+
+
+registerWidget({
+    id: "configuration",
+    widget: Configuration,
+    configs: {
+        layout: {
+            w: 30,
+            h: 18,
+            // minH: 12,
+            // minW: 12
+        }
+    }
+});
+
+
 
 
 

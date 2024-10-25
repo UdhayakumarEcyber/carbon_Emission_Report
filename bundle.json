@@ -65,7 +65,15 @@
             "description": "A sample widget",
             "icon": "",
             "tags":[]
+        },
+        {
+            "id": "configuration",
+            "name": "Configuration",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
         }
+        
          
         
         

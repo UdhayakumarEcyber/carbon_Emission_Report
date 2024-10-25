@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".action-section .top-filter {\n  display: inline-flex;\n  width: 100%;\n}\n.action-section .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.action-section .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.action-section .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.action-section .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n\n.uxp-toggle-filter {\n  background-color: transparent;\n}\n\n.no-data-available {\n  transform: translate(-50%, -50%);\n  position: absolute;\n  left: 50%;\n  top: 50%;\n}\n\n.uxp-select-dropdown-container .uxp-select-dropdown .uxp-select-option {\n  color: #424242;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid::before {\n  filter: none;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid .selected {\n  color: #424242;\n}\n\n.uxp-form-select {\n  min-width: 140px;\n}\n\n.uxp-emi-dropdown {\n  display: inline-flex;\n  width: 100%;\n  margin-right: 1em;\n}\n.uxp-emi-dropdown label {\n  font-size: 12px;\n  width: 4em;\n  text-align: center;\n  display: inline-block;\n  padding: 1.5em 0em 0em 0em;\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec {\n  display: inline-flex;\n  width: 48%;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box {\n  border: none;\n  color: #424242;\n  display: inline-block;\n  width: 45%;\n  height: auto;\n  padding: 0;\n  background-color: #ffffff;\n  z-index: 0;\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 12px 5px 12px 5px;\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);\n  outline: none;\n  margin-right: 0.5em;\n  /* font-size: 8px; */\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option {\n  background-color: white;\n  color: #333;\n  padding: 5px;\n  display: inline-block;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option:hover {\n  background-color: rgba(82, 196, 201, 0.2901960784);\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box:focus {\n  border-color: #666; /* Add a border color on focus */\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */\n}\n\n.scope-overall {\n  display: inline-flex;\n  width: 100%;\n  padding: 0px 2%;\n}\n.scope-overall .scope-box {\n  display: inline-block;\n  width: 33%;\n  padding: 2.5em 2%;\n  border-radius: 15px;\n  margin: 0 0 0 1%;\n  height: 9em;\n  position: relative;\n}\n.scope-overall .scope-box.green-scope-box {\n  background-color: rgb(83, 116, 83);\n  margin-left: 0;\n}\n.scope-overall .scope-box.blue-scope-box {\n  background-color: rgb(72, 110, 118);\n}\n.scope-overall .scope-box.orange-scope-box {\n  background-color: rgb(185, 128, 86);\n}\n.scope-overall .scope-box.green_blue-scope-box {\n  background: rgb(83, 116, 83);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 40%;\n}\n.scope-overall .scope-box.green_blue_orange-scope-box {\n  background: rgb(72, 110, 118);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 46%;\n}\n.scope-overall .scope-box h4 {\n  font-size: 1em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  color: #fff;\n}\n.scope-overall .scope-box h3 {\n  font-size: 1.7em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin-top: 7px;\n  color: #fff;\n  font-weight: normal;\n}\n.scope-overall .scope-box .scope-bottom {\n  position: absolute;\n  bottom: 1.5em;\n  right: 1em;\n}\n.scope-overall .scope-box .scope-bottom em {\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  color: #fff;\n}\n.scope-overall .scope-box .scope-bottom span {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.scope-overall .scope-box .scope-bottom span.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.scope-overall .scope-box .scope-bottom span.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n\n.scope1_breakdown_widget {\n  display: inline-block;\n  width: 100%;\n  padding: 3em 2% 0;\n}\n\n.scopewise-chart {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n}\n.scopewise-chart .chart {\n  width: 100%;\n  height: 80%;\n}\n.scopewise-chart .view-more {\n  position: absolute;\n  bottom: 2em;\n  right: 2em;\n}\n.scopewise-chart .view-more .uxp-button {\n  color: #424242;\n  text-decoration: none;\n  background: #ddd;\n  padding: 9px 2em;\n  text-align: center;\n  box-shadow: none;\n  font-size: 1em;\n}\n.scopewise-chart.scope1_breakdown {\n  display: inline-block;\n  width: 100%;\n}\n.scopewise-chart.scope1_breakdown .chart {\n  width: 98%;\n  height: 100%;\n}\n\n.assets-widget-list {\n  display: inline-flex;\n  padding: 6em 2em 2em 2em;\n  position: relative;\n  width: 100%;\n}\n.assets-widget-list .list-top-filter {\n  position: absolute;\n  right: 2em;\n  top: 2em;\n}\n.assets-widget-list .item-list {\n  padding: 1em 0% 1em 0%;\n  width: 33%;\n  overflow: auto;\n  border-radius: 10px;\n  margin-left: 1%;\n}\n.assets-widget-list .item-list.green-item-list {\n  background-color: rgba(107, 148, 89, 0.3411764706);\n  margin-left: 0;\n}\n.assets-widget-list .item-list.blue-item-list {\n  background-color: rgba(76, 153, 162, 0.3411764706);\n}\n.assets-widget-list .item-list.orange-item-list {\n  background-color: rgba(222, 167, 107, 0.3411764706);\n}\n.assets-widget-list .item-list ul {\n  list-style: none;\n  margin: 0em 0em 1em;\n  padding: 0em 0em 0em;\n}\n.assets-widget-list .item-list ul li {\n  display: inline-flex;\n  width: 96%;\n  padding: 15px 10px;\n  border-radius: 10px;\n  margin-top: 0.8em;\n  margin: 0.8em 2% 0;\n  background-color: #fff;\n}\n.assets-widget-list .item-list ul li .list_category {\n  display: inline-flex;\n  width: 100%;\n}\n.assets-widget-list .item-list ul li .list_category label {\n  display: inline-block;\n  width: 55%;\n  font-size: 11px;\n  text-align: left;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  line-height: 1.5em;\n}\n.assets-widget-list .item-list ul li .list_category span {\n  display: inline-block;\n  width: 20%;\n  font-size: 11px;\n  text-align: right;\n}\n.assets-widget-list .item-list ul li .list_category span .arrow {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.assets-widget-list .item-list ul li .list_category span .arrow.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.assets-widget-list .item-list ul li .list_category span .arrow.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n.assets-widget-list .item-list ul li .list_category em.years {\n  display: inline-block;\n  font-size: 18px;\n  vertical-align: top;\n  font-style: normal;\n  font-size: 11px;\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button {\n  color: #fff;\n  margin: 0;\n  vertical-align: top;\n  font-size: 10px;\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_greenbtn {\n  background-color: rgba(63, 167, 17, 0.8784313725);\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_redbtn {\n  background-color: rgba(228, 38, 30, 0.9490196078);\n}\n.assets-widget-list .item-list ul li .list_category .uxp-button.analysis_yellowbtn {\n  background-color: rgba(235, 215, 40, 0.9098039216);\n}\n.assets-widget-list .uxp-item-list-card {\n  padding: 0 0%;\n  border: 1px solid #ddd;\n  margin: 0 1%;\n  width: 98%;\n}\n.assets-widget-list .uxp-item-list-card .header {\n  padding: 0px 15px;\n}\n\n.emi-breakdown .title-section {\n  width: 100%;\n}\n\n.modal-container.popup .modal-panel {\n  min-width: 100%;\n  min-height: 100%;\n  border-radius: 0;\n}\n.modal-container.popup .modal-panel .modal-header {\n  position: relative;\n  padding: 30px;\n}\n.modal-container.popup .modal-panel .modal-header .modal-title {\n  text-align: left;\n  display: inline-block;\n  width: 30%;\n  position: absolute;\n  z-index: 1;\n  left: 5%;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close {\n  position: absolute;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close .close-btn {\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==);\n  background-size: 40%;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter {\n  display: inline-flex;\n  width: 47%;\n  float: right;\n  margin-bottom: 2em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .recharts-responsive-container {\n  float: left;\n  height: 425px !important;\n  background: #fff;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n}\n\n/* Style for the toggle switch */\n.scope1_breakdown_widget .action-section {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #4f805d;\n  transition: 0.4s;\n  border-radius: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  border-radius: 50%;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: 0.4s;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider {\n  background-color: #4c99a2;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider:before {\n  transform: translateX(26px);\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .chart_label {\n  font-size: 11px;\n  font-style: normal;\n  padding: 12px 5px 0px 5px;\n  vertical-align: top;\n  display: inline-block;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter {\n  width: 60%;\n  padding: 0;\n  margin: 0;\n  background-color: transparent;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option {\n  padding: 10px 18px;\n  font-size: 11px;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option.selected {\n  background-color: #4c99a2;\n  color: #ffffff;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown {\n  width: 49%;\n  height: 28em;\n  margin-right: 2%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown:last-child {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper {\n  background-color: rgba(129, 129, 129, 0.17);\n  box-shadow: none;\n  border: 1px solid #d4d4d4;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .uxp-widget-title-bar {\n  background-color: transparent;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall {\n  padding: 0 3%;\n  display: inline-flex;\n  width: 100%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box {\n  width: 31%;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 0em 3% 0em 0em;\n  vertical-align: top;\n  height: 20em;\n  position: relative;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box:nth-child(3) {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox {\n  display: inline-block;\n  width: 100% !important;\n  border-radius: 10px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox label {\n  font-size: 11px;\n  margin: 0;\n  padding: 4px 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont {\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  position: absolute;\n  bottom: 1em;\n  left: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 {\n  font-size: 2.2em;\n  padding: 0 0 0 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 sub {\n  font-size: 0.5em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont p {\n  font-size: 1em;\n  padding: 10px 0 10px 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.white-box {\n  background-color: #ffffff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box {\n  background-color: rgba(255, 0, 0, 0.34);\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont {\n  position: absolute;\n  bottom: 50%;\n  left: 50%;\n  transform: translate(-50%, 50%);\n}\n.carbon-trends-overview .uxp-emi-dropdown {\n  margin-right: 0;\n}", ""]);
+exports.push([module.id, ".action-section .top-filter {\n  display: inline-flex;\n  width: 100%;\n}\n.action-section .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.action-section .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.action-section .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.action-section .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n\n.uxp-toggle-filter {\n  background-color: transparent;\n}\n\n.no-data-available {\n  transform: translate(-50%, -50%);\n  position: absolute;\n  left: 50%;\n  top: 50%;\n}\n\n.uxp-select-dropdown-container .uxp-select-dropdown .uxp-select-option {\n  color: #424242;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid::before {\n  filter: none;\n}\n\n.uxp-form-select .uxp-select-placeholder.valid .selected {\n  color: #424242;\n}\n\n.uxp-form-select {\n  min-width: 140px;\n}\n\n.uxp-emi-dropdown {\n  display: inline-flex;\n  width: 100%;\n  margin-right: 1em;\n}\n.uxp-emi-dropdown label {\n  font-size: 12px;\n  width: 4em;\n  text-align: center;\n  display: inline-block;\n  padding: 1.5em 0em 0em 0em;\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec {\n  display: inline-flex;\n  width: 48%;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box {\n  border: none;\n  color: #424242;\n  display: inline-block;\n  width: 45%;\n  height: auto;\n  padding: 0;\n  background-color: #ffffff;\n  z-index: 0;\n  border-radius: 10px;\n  overflow: hidden;\n  padding: 12px 5px 12px 5px;\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);\n  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);\n  outline: none;\n  margin-right: 0.5em;\n  /* font-size: 8px; */\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option {\n  background-color: white;\n  color: #333;\n  padding: 5px;\n  display: inline-block;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box option:hover {\n  background-color: rgba(82, 196, 201, 0.2901960784);\n  color: #424242;\n}\n.uxp-emi-dropdown .uxp-emi-select-sec .select-box:focus {\n  border-color: #666; /* Add a border color on focus */\n  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */\n}\n\n.scope-overall {\n  display: inline-flex;\n  width: 100%;\n  padding: 0px 2%;\n}\n.scope-overall .scope-box {\n  display: inline-block;\n  width: 33%;\n  padding: 2.5em 2%;\n  border-radius: 15px;\n  margin: 0 0 0 1%;\n  height: 9em;\n  position: relative;\n}\n.scope-overall .scope-box.green-scope-box {\n  background-color: rgb(83, 116, 83);\n  margin-left: 0;\n}\n.scope-overall .scope-box.blue-scope-box {\n  background-color: rgb(72, 110, 118);\n}\n.scope-overall .scope-box.orange-scope-box {\n  background-color: rgb(185, 128, 86);\n}\n.scope-overall .scope-box.green_blue-scope-box {\n  background: rgb(83, 116, 83);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 15%, rgb(83, 116, 83) 40%, rgb(74, 121, 131) 78%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 40%;\n}\n.scope-overall .scope-box.green_blue_orange-scope-box {\n  background: rgb(72, 110, 118);\n  background: -moz-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: -webkit-linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  background: linear-gradient(90deg, rgb(98, 137, 98) 16%, rgb(74, 121, 131) 51%, rgb(185, 128, 86) 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#537453\",endColorstr=\"#486e76\",GradientType=1);\n  width: 46%;\n}\n.scope-overall .scope-box h4 {\n  font-size: 1em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  color: #fff;\n}\n.scope-overall .scope-box h3 {\n  font-size: 1.65em;\n  display: inline-block;\n  width: 100%;\n  text-align: left;\n  margin-top: 7px;\n  color: #171717;\n  font-weight: normal;\n}\n.scope-overall .scope-box h3 span {\n  color: #303130;\n  font-size: 0.6em;\n  font-weight: 600;\n}\n.scope-overall .scope-box h3 span em {\n  font-style: normal;\n  font-size: 0.7em;\n}\n.scope-overall .scope-box .scope-bottom {\n  position: absolute;\n  bottom: 1.5em;\n  right: 1em;\n}\n.scope-overall .scope-box .scope-bottom em {\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 600;\n  color: #fff;\n}\n.scope-overall .scope-box .scope-bottom span {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.scope-overall .scope-box .scope-bottom span.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.scope-overall .scope-box .scope-bottom span.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n\n.scope1_breakdown_widget {\n  display: inline-block;\n  width: 100%;\n  padding: 3em 2% 0;\n}\n\n.scopewise-chart {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n}\n.scopewise-chart .chart {\n  width: 100%;\n  height: 80%;\n}\n.scopewise-chart .view-more {\n  position: absolute;\n  bottom: 2em;\n  right: 2em;\n}\n.scopewise-chart .view-more .uxp-button {\n  color: #424242;\n  text-decoration: none;\n  background: #ddd;\n  padding: 9px 2em;\n  text-align: center;\n  box-shadow: none;\n  font-size: 1em;\n}\n.scopewise-chart.scope1_breakdown {\n  display: inline-block;\n  width: 100%;\n}\n.scopewise-chart.scope1_breakdown .chart {\n  width: 98%;\n  height: 100%;\n}\n\n.assets-widget-list {\n  display: inline-flex;\n  padding: 6em 2em 2em 2em;\n  position: relative;\n  width: 100%;\n}\n.assets-widget-list .list-top-filter {\n  position: absolute;\n  right: 2em;\n  top: 2em;\n}\n.assets-widget-list .item-list {\n  padding: 1em 0% 1em 0%;\n  width: 33%;\n  overflow: auto;\n  border-radius: 10px;\n  margin-left: 1%;\n}\n.assets-widget-list .item-list.green-item-list {\n  background-color: rgba(107, 148, 89, 0.3411764706);\n  margin-left: 0;\n}\n.assets-widget-list .item-list.blue-item-list {\n  background-color: rgba(76, 153, 162, 0.3411764706);\n}\n.assets-widget-list .item-list.orange-item-list {\n  background-color: rgba(222, 167, 107, 0.3411764706);\n}\n.assets-widget-list .item-list ul {\n  list-style: none;\n  margin: 0em 0em 1em;\n  padding: 0em 0em 0em;\n}\n.assets-widget-list .item-list ul li {\n  display: inline-flex;\n  width: 96%;\n  padding: 15px 10px;\n  border-radius: 10px;\n  margin-top: 0.8em;\n  margin: 0 2% 0.8em;\n  background-color: #fff;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item {\n  display: inline-flex;\n  width: 100%;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item label {\n  display: inline-block;\n  width: 60%;\n  font-size: 11px;\n  text-align: left;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  line-height: 1.5em;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span {\n  display: inline-block;\n  width: 26%;\n  font-size: 11px;\n  text-align: right;\n  margin-top: 0.7em;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow {\n  background-repeat: no-repeat;\n  background-position: center center;\n  background-size: auto 100%;\n  width: 14px;\n  display: inline-block;\n  height: 14px;\n  margin: 0px 0 0 5px;\n  vertical-align: bottom;\n  transform: rotate(180deg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow.up-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-down-red.svg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item span .arrow.down-arrow {\n  background-image: url(https://static.iviva.com/images/Muthuimages/awesome-arrow-circle-up-green.svg);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item em.years {\n  display: inline-block;\n  font-size: 18px;\n  vertical-align: top;\n  font-style: normal;\n  font-size: 11px;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button {\n  color: #fff;\n  margin: 0;\n  vertical-align: top;\n  font-size: 10px;\n  width: 19%;\n  text-align: center;\n  padding: 9px 0px;\n  display: inline-block;\n  height: fit-content;\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button.analysis_greenbtn {\n  background-color: rgba(63, 167, 17, 0.8784313725);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button.analysis_redbtn {\n  background-color: rgba(228, 38, 30, 0.9490196078);\n}\n.assets-widget-list .item-list ul li .carbon-emission-item .uxp-button.analysis_yellowbtn {\n  background-color: rgba(235, 215, 40, 0.9098039216);\n}\n.assets-widget-list .uxp-item-list-card {\n  padding: 0 0%;\n  border: 1px solid #ddd;\n  margin: 0 1%;\n  width: 98%;\n}\n.assets-widget-list .uxp-item-list-card .header {\n  padding: 0px 15px;\n}\n\n.emi-breakdown .title-section {\n  width: 100%;\n}\n\n.modal-container.popup .modal-panel {\n  min-width: 100%;\n  min-height: 100%;\n  border-radius: 0;\n}\n.modal-container.popup .modal-panel .modal-header {\n  position: relative;\n  padding: 30px;\n}\n.modal-container.popup .modal-panel .modal-header .modal-title {\n  text-align: left;\n  display: inline-block;\n  width: 30%;\n  position: absolute;\n  z-index: 1;\n  left: 5%;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close {\n  position: absolute;\n}\n.modal-container.popup .modal-panel .modal-header .modal-close .close-btn {\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4zMjUiIGhlaWdodD0iMTAuMDYzIiB2aWV3Qm94PSIwIDAgMTAuMzI1IDEwLjA2MyI+PGRlZnM+PHN0eWxlPi5he29wYWNpdHk6MC4yNDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImEiIGQ9Ik01LjkzMSwxMi4wMzZsLS41MTIuNTEyYS41NTEuNTUxLDAsMCwxLS43ODEsMEwuMTU5LDguMDcxYS41NTEuNTUxLDAsMCwxLDAtLjc4MWw0LjQ4LTQuNDhhLjU1MS41NTEsMCwwLDEsLjc4MSwwbC41MTIuNTEyYS41NTQuNTU0LDAsMCwxLS4wMDkuNzlMMy4xNDUsNi43NTdIOS43NjhhLjU1Mi41NTIsMCwwLDEsLjU1My41NTN2LjczN2EuNTUyLjU1MiwwLDAsMS0uNTUzLjU1M0gzLjE0NWwyLjc3NywyLjY0NUEuNTUuNTUsMCwwLDEsNS45MzEsMTIuMDM2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDQgLTIuNjQ3KSIvPjwvc3ZnPg==);\n  background-size: 40%;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter {\n  display: inline-flex;\n  width: 47%;\n  float: right;\n  margin-bottom: 2em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter {\n  display: inline-flex;\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  color: #424242;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-select:nth-child(even) {\n  margin-right: 0em;\n}\n.modal-container.popup .modal-panel .modal-body .top-filter .select-filter .uxp-form-group {\n  margin-right: 1.5em;\n}\n.modal-container.popup .modal-panel .modal-body .recharts-responsive-container {\n  float: left;\n  height: 425px !important;\n  background: #fff;\n  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.12);\n  border-radius: 10px;\n}\n\n/* Style for the toggle switch */\n.scope1_breakdown_widget .action-section {\n  display: inline-block;\n  width: 48%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn {\n  display: inline-block;\n  width: 40%;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #4f805d;\n  transition: 0.4s;\n  border-radius: 34px;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  border-radius: 50%;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: 0.4s;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider {\n  background-color: #4c99a2;\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn input:checked + .slider:before {\n  transform: translateX(26px);\n}\n.scope1_breakdown_widget .action-section .top-filter .toggle-btn .chart_label {\n  font-size: 11px;\n  font-style: normal;\n  padding: 12px 5px 0px 5px;\n  vertical-align: top;\n  display: inline-block;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter {\n  width: 60%;\n  padding: 0;\n  margin: 0;\n  background-color: transparent;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option {\n  padding: 10px 18px;\n  font-size: 10px;\n}\n.scope1_breakdown_widget .action-section .top-filter .uxp-toggle-filter .uxp-toggle-option.selected {\n  background-color: #4c99a2;\n  color: #ffffff;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.resource_consumption_overview {\n  display: inline-flex;\n  padding: 1em 2em;\n}\n.resource_consumption_overview .emi-breakdown {\n  display: inline-block;\n  height: 38em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity {\n  background-color: #000;\n  display: inline-block;\n  border-radius: 10px;\n  padding: 2px 20px;\n  margin-left: 1.5em;\n}\n.resource_consumption_overview .emi-breakdown .energy_consumption-intensity p {\n  font-size: 11px;\n  color: #fff;\n}\n.resource_consumption_overview .consuption_composition {\n  display: inline-block;\n  width: 100%;\n}\n\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown {\n  width: 49%;\n  height: 28em;\n  margin-right: 2%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown:last-child {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper {\n  background-color: rgba(129, 129, 129, 0.17);\n  box-shadow: none;\n  border: 1px solid #d4d4d4;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .uxp-widget-title-bar {\n  background-color: transparent;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall {\n  padding: 0 3%;\n  display: inline-flex;\n  width: 100%;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box {\n  width: 31%;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 0em 3% 0em 0em;\n  vertical-align: top;\n  height: 20em;\n  position: relative;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box:nth-child(3) {\n  margin-right: 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box label {\n  line-height: 1.7em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox {\n  display: inline-block;\n  width: 100% !important;\n  border-radius: 10px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .showcase-checkbox label {\n  font-size: 11px;\n  margin: 0;\n  padding: 4px 0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont {\n  display: inline-block;\n  width: 92%;\n  text-align: center;\n  position: absolute;\n  bottom: 1em;\n  left: 4%;\n  border-radius: 10px;\n  padding: 10px 0px;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont.green-trends-box-cont {\n  background: #c1eed0;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont.purple-trends-box-cont {\n  background: #edc5ff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 {\n  font-size: 2em;\n  padding: 0 0 0 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont h5 sub {\n  font-size: 0.5em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont p {\n  font-size: 1em;\n  padding: 5px 0 5px 0;\n  margin: 0;\n  color: #424242;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box .trends-box-cont span {\n  font-size: 0.8em;\n  padding: 0 0 7px 0;\n  display: inline-block;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.white-box {\n  background-color: #ffffff;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box {\n  background-color: rgba(255, 0, 0, 0.34);\n  border-radius: 50%;\n  height: 17em;\n  width: 17em;\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont {\n  position: absolute;\n  bottom: 50%;\n  left: 50%;\n  transform: translate(-50%, 50%);\n}\n.carbon-trends-overview .resource_consumption_overview .emi-breakdown .widget-wrapper .trends-overall .trends-box.light-red-box .trends-box-cont h5 {\n  font-size: 2.5em;\n}\n.carbon-trends-overview .uxp-emi-dropdown {\n  margin-right: 0;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -2341,6 +2341,26 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!/**
  */function(t,e){ true&&module.exports?(e.default=e,module.exports=t&&t.document?e(t):e): true?!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(){return e(t)}).call(exports, __webpack_require__, exports, module),
 		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):(0)}("undefined"!=typeof window?window:this,function(t){"use strict";var e={};function i(e,i,s,r){!e.hasOwnProperty(i)&&(e[i]=r.apply(null,s),t&&"function"==typeof CustomEvent&&t.dispatchEvent(new CustomEvent("HighchartsModuleLoaded",{detail:{path:i,module:e[i]}})))}return i(e,"Core/Globals.js",[],function(){var e,i;return(i=e||(e={})).SVG_NS="http://www.w3.org/2000/svg",i.product="Highcharts",i.version="11.4.8",i.win=void 0!==t?t:{},i.doc=i.win.document,i.svg=i.doc&&i.doc.createElementNS&&!!i.doc.createElementNS(i.SVG_NS,"svg").createSVGRect,i.userAgent=i.win.navigator&&i.win.navigator.userAgent||"",i.isChrome=i.win.chrome,i.isFirefox=-1!==i.userAgent.indexOf("Firefox"),i.isMS=/(edge|msie|trident)/i.test(i.userAgent)&&!i.win.opera,i.isSafari=!i.isChrome&&-1!==i.userAgent.indexOf("Safari"),i.isTouchDevice=/(Mobile|Android|Windows Phone)/.test(i.userAgent),i.isWebKit=-1!==i.userAgent.indexOf("AppleWebKit"),i.deg2rad=2*Math.PI/360,i.hasBidiBug=i.isFirefox&&4>parseInt(i.userAgent.split("Firefox/")[1],10),i.marginNames=["plotTop","marginRight","marginBottom","plotLeft"],i.noop=function(){},i.supportsPassiveEvents=function(){let t=!1;if(!i.isMS){let e=Object.defineProperty({},"passive",{get:function(){t=!0}});i.win.addEventListener&&i.win.removeEventListener&&(i.win.addEventListener("testPassive",i.noop,e),i.win.removeEventListener("testPassive",i.noop,e))}return t}(),i.charts=[],i.composed=[],i.dateFormats={},i.seriesTypes={},i.symbolSizes={},i.chartCount=0,e}),i(e,"Core/Utilities.js",[e["Core/Globals.js"]],function(t){let e;let{charts:i,doc:s,win:r}=t;function o(e,i,s,n){let a=i?"Highcharts error":"Highcharts warning";32===e&&(e=`${a}: Deprecated member`);let h=p(e),l=h?`${a} #${e}: www.highcharts.com/errors/${e}/`:e.toString();if(void 0!==n){let t="";h&&(l+="?"),C(n,function(e,i){t+=`
  - ${i}: ${e}`,h&&(l+=encodeURI(i)+"="+encodeURI(e))}),l+=t}M(t,"displayError",{chart:s,code:e,message:l,params:n},function(){if(i)throw Error(l);r.console&&-1===o.messages.indexOf(l)&&console.warn(l)}),o.messages.push(l)}function n(t,e){return parseInt(t,e||10)}function a(t){return"string"==typeof t}function h(t){let e=Object.prototype.toString.call(t);return"[object Array]"===e||"[object Array Iterator]"===e}function l(t,e){return!!t&&"object"==typeof t&&(!e||!h(t))}function d(t){return l(t)&&"number"==typeof t.nodeType}function c(t){let e=t&&t.constructor;return!!(l(t,!0)&&!d(t)&&e&&e.name&&"Object"!==e.name)}function p(t){return"number"==typeof t&&!isNaN(t)&&t<1/0&&t>-1/0}function u(t){return null!=t}function g(t,e,i){let s;let r=a(e)&&!u(i),o=(e,i)=>{u(e)?t.setAttribute(i,e):r?(s=t.getAttribute(i))||"class"!==i||(s=t.getAttribute(i+"Name")):t.removeAttribute(i)};return a(e)?o(i,e):C(e,o),s}function f(t){return h(t)?t:[t]}function m(t,e){let i;for(i in t||(t={}),e)t[i]=e[i];return t}function x(){let t=arguments,e=t.length;for(let i=0;i<e;i++){let e=t[i];if(null!=e)return e}}function y(t,e){m(t.style,e)}function b(t){return Math.pow(10,Math.floor(Math.log(t)/Math.LN10))}function v(t,e){return t>1e14?t:parseFloat(t.toPrecision(e||14))}(o||(o={})).messages=[],Math.easeInOutSine=function(t){return -.5*(Math.cos(Math.PI*t)-1)};let S=Array.prototype.find?function(t,e){return t.find(e)}:function(t,e){let i;let s=t.length;for(i=0;i<s;i++)if(e(t[i],i))return t[i]};function C(t,e,i){for(let s in t)Object.hasOwnProperty.call(t,s)&&e.call(i||t[s],t[s],s,t)}function k(t,e,i){function s(e,i){let s=t.removeEventListener;s&&s.call(t,e,i,!1)}function r(i){let r,o;t.nodeName&&(e?(r={})[e]=!0:r=i,C(r,function(t,e){if(i[e])for(o=i[e].length;o--;)s(e,i[e][o].fn)}))}let o="function"==typeof t&&t.prototype||t;if(Object.hasOwnProperty.call(o,"hcEvents")){let t=o.hcEvents;if(e){let o=t[e]||[];i?(t[e]=o.filter(function(t){return i!==t.fn}),s(e,i)):(r(t),t[e]=[])}else r(t),delete o.hcEvents}}function M(e,i,r,o){if(r=r||{},s.createEvent&&(e.dispatchEvent||e.fireEvent&&e!==t)){let t=s.createEvent("Events");t.initEvent(i,!0,!0),r=m(t,r),e.dispatchEvent?e.dispatchEvent(r):e.fireEvent(i,r)}else if(e.hcEvents){r.target||m(r,{preventDefault:function(){r.defaultPrevented=!0},target:e,type:i});let t=[],s=e,o=!1;for(;s.hcEvents;)Object.hasOwnProperty.call(s,"hcEvents")&&s.hcEvents[i]&&(t.length&&(o=!0),t.unshift.apply(t,s.hcEvents[i])),s=Object.getPrototypeOf(s);o&&t.sort((t,e)=>t.order-e.order),t.forEach(t=>{!1===t.fn.call(e,r)&&r.preventDefault()})}o&&!r.defaultPrevented&&o.call(e,r)}C({map:"map",each:"forEach",grep:"filter",reduce:"reduce",some:"some"},function(e,i){t[i]=function(t){return o(32,!1,void 0,{[`Highcharts.${i}`]:`use Array.${e}`}),Array.prototype[e].apply(t,[].slice.call(arguments,1))}});let w=function(){let t=Math.random().toString(36).substring(2,9)+"-",i=0;return function(){return"highcharts-"+(e?"":t)+i++}}();return r.jQuery&&(r.jQuery.fn.highcharts=function(){let e=[].slice.call(arguments);if(this[0])return e[0]?(new t[a(e[0])?e.shift():"Chart"](this[0],e[0],e[1]),this):i[g(this[0],"data-highcharts-chart")]}),{addEvent:function(e,i,s,r={}){let o="function"==typeof e&&e.prototype||e;Object.hasOwnProperty.call(o,"hcEvents")||(o.hcEvents={});let n=o.hcEvents;t.Point&&e instanceof t.Point&&e.series&&e.series.chart&&(e.series.chart.runTrackerClick=!0);let a=e.addEventListener;a&&a.call(e,i,s,!!t.supportsPassiveEvents&&{passive:void 0===r.passive?-1!==i.indexOf("touch"):r.passive,capture:!1}),n[i]||(n[i]=[]);let h={fn:s,order:"number"==typeof r.order?r.order:1/0};return n[i].push(h),n[i].sort((t,e)=>t.order-e.order),function(){k(e,i,s)}},arrayMax:function(t){let e=t.length,i=t[0];for(;e--;)t[e]>i&&(i=t[e]);return i},arrayMin:function(t){let e=t.length,i=t[0];for(;e--;)t[e]<i&&(i=t[e]);return i},attr:g,clamp:function(t,e,i){return t>e?t<i?t:i:e},clearTimeout:function(t){u(t)&&clearTimeout(t)},correctFloat:v,createElement:function(t,e,i,r,o){let n=s.createElement(t);return e&&m(n,e),o&&y(n,{padding:"0",border:"none",margin:"0"}),i&&y(n,i),r&&r.appendChild(n),n},crisp:(t,e=0,i)=>{let s=e%2/2,r=i?-1:1;return(Math.round(t*r-s)+s)*r},css:y,defined:u,destroyObjectProperties:function(t,e,i){C(t,function(s,r){s!==e&&s?.destroy&&s.destroy(),(s?.destroy||!i)&&delete t[r]})},diffObjects:function(t,e,i,s){let r={};return function t(e,r,o,n){let a=i?r:e;C(e,function(i,d){if(!n&&s&&s.indexOf(d)>-1&&r[d]){i=f(i),o[d]=[];for(let e=0;e<Math.max(i.length,r[d].length);e++)r[d][e]&&(void 0===i[e]?o[d][e]=r[d][e]:(o[d][e]={},t(i[e],r[d][e],o[d][e],n+1)))}else l(i,!0)&&!i.nodeType?(o[d]=h(i)?[]:{},t(i,r[d]||{},o[d],n+1),0!==Object.keys(o[d]).length||"colorAxis"===d&&0===n||delete o[d]):(e[d]!==r[d]||d in e&&!(d in r))&&"__proto__"!==d&&"constructor"!==d&&(o[d]=a[d])})}(t,e,r,0),r},discardElement:function(t){t&&t.parentElement&&t.parentElement.removeChild(t)},erase:function(t,e){let i=t.length;for(;i--;)if(t[i]===e){t.splice(i,1);break}},error:o,extend:m,extendClass:function(t,e){let i=function(){};return i.prototype=new t,m(i.prototype,e),i},find:S,fireEvent:M,getClosestDistance:function(t,e){let i,s,r,o;let n=!e;return t.forEach(t=>{if(t.length>1)for(o=s=t.length-1;o>0;o--)(r=t[o]-t[o-1])<0&&!n?(e?.(),e=void 0):r&&(void 0===i||r<i)&&(i=r)}),i},getMagnitude:b,getNestedProperty:function(t,e){let i=t.split(".");for(;i.length&&u(e);){let t=i.shift();if(void 0===t||"__proto__"===t)return;if("this"===t){let t;return l(e)&&(t=e["@this"]),t??e}let s=e[t];if(!u(s)||"function"==typeof s||"number"==typeof s.nodeType||s===r)return;e=s}return e},getStyle:function t(e,i,s){let o;if("width"===i){let i=Math.min(e.offsetWidth,e.scrollWidth),s=e.getBoundingClientRect&&e.getBoundingClientRect().width;return s<i&&s>=i-1&&(i=Math.floor(s)),Math.max(0,i-(t(e,"padding-left",!0)||0)-(t(e,"padding-right",!0)||0))}if("height"===i)return Math.max(0,Math.min(e.offsetHeight,e.scrollHeight)-(t(e,"padding-top",!0)||0)-(t(e,"padding-bottom",!0)||0));let a=r.getComputedStyle(e,void 0);return a&&(o=a.getPropertyValue(i),x(s,"opacity"!==i)&&(o=n(o))),o},inArray:function(t,e,i){return o(32,!1,void 0,{"Highcharts.inArray":"use Array.indexOf"}),e.indexOf(t,i)},insertItem:function(t,e){let i;let s=t.options.index,r=e.length;for(i=t.options.isInternal?r:0;i<r+1;i++)if(!e[i]||p(s)&&s<x(e[i].options.index,e[i]._i)||e[i].options.isInternal){e.splice(i,0,t);break}return i},isArray:h,isClass:c,isDOMElement:d,isFunction:function(t){return"function"==typeof t},isNumber:p,isObject:l,isString:a,keys:function(t){return o(32,!1,void 0,{"Highcharts.keys":"use Object.keys"}),Object.keys(t)},merge:function(){let t,e=arguments,i={},s=function(t,e){return"object"!=typeof t&&(t={}),C(e,function(i,r){"__proto__"!==r&&"constructor"!==r&&(!l(i,!0)||c(i)||d(i)?t[r]=e[r]:t[r]=s(t[r]||{},i))}),t};!0===e[0]&&(i=e[1],e=Array.prototype.slice.call(e,2));let r=e.length;for(t=0;t<r;t++)i=s(i,e[t]);return i},normalizeTickInterval:function(t,e,i,s,r){let o,n=t;i=x(i,b(t));let a=t/i;for(!e&&(e=r?[1,1.2,1.5,2,2.5,3,4,5,6,8,10]:[1,2,2.5,5,10],!1===s&&(1===i?e=e.filter(function(t){return t%1==0}):i<=.1&&(e=[1/i]))),o=0;o<e.length&&(n=e[o],(!r||!(n*i>=t))&&(r||!(a<=(e[o]+(e[o+1]||e[o]))/2)));o++);return v(n*i,-Math.round(Math.log(.001)/Math.LN10))},objectEach:C,offset:function(t){let e=s.documentElement,i=t.parentElement||t.parentNode?t.getBoundingClientRect():{top:0,left:0,width:0,height:0};return{top:i.top+(r.pageYOffset||e.scrollTop)-(e.clientTop||0),left:i.left+(r.pageXOffset||e.scrollLeft)-(e.clientLeft||0),width:i.width,height:i.height}},pad:function(t,e,i){return Array((e||2)+1-String(t).replace("-","").length).join(i||"0")+t},pick:x,pInt:n,pushUnique:function(t,e){return 0>t.indexOf(e)&&!!t.push(e)},relativeLength:function(t,e,i){return/%$/.test(t)?e*parseFloat(t)/100+(i||0):parseFloat(t)},removeEvent:k,replaceNested:function(t,...e){let i,s;do for(s of(i=t,e))t=t.replace(s[0],s[1]);while(t!==i);return t},splat:f,stableSort:function(t,e){let i,s;let r=t.length;for(s=0;s<r;s++)t[s].safeI=s;for(t.sort(function(t,s){return 0===(i=e(t,s))?t.safeI-s.safeI:i}),s=0;s<r;s++)delete t[s].safeI},syncTimeout:function(t,e,i){return e>0?setTimeout(t,e,i):(t.call(0,i),-1)},timeUnits:{millisecond:1,second:1e3,minute:6e4,hour:36e5,day:864e5,week:6048e5,month:24192e5,year:314496e5},uniqueKey:w,useSerialIds:function(t){return e=x(t,e)},wrap:function(t,e,i){let s=t[e];t[e]=function(){let t=arguments,e=this;return i.apply(this,[function(){return s.apply(e,arguments.length?arguments:t)}].concat([].slice.call(arguments)))}}}}),i(e,"Core/Chart/ChartDefaults.js",[],function(){return{alignThresholds:!1,panning:{enabled:!1,type:"x"},styledMode:!1,borderRadius:0,colorCount:10,allowMutatingData:!0,ignoreHiddenSeries:!0,spacing:[10,10,15,10],resetZoomButton:{theme:{},position:{}},reflow:!0,type:"line",zooming:{singleTouch:!1,resetButton:{theme:{zIndex:6},position:{align:"right",x:-10,y:10}}},width:null,height:null,borderColor:"#334eff",backgroundColor:"#ffffff",plotBorderColor:"#cccccc"}}),i(e,"Core/Color/Palettes.js",[],function(){return{colors:["#2caffe","#544fc5","#00e272","#fe6a35","#6b8abc","#d568fb","#2ee0ca","#fa4b42","#feb56a","#91e8e1"]}}),i(e,"Core/Time.js",[e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e){let{win:i}=t,{defined:s,error:r,extend:o,isNumber:n,isObject:a,merge:h,objectEach:l,pad:d,pick:c,splat:p,timeUnits:u}=e,g=t.isSafari&&i.Intl&&i.Intl.DateTimeFormat.prototype.formatRange,f=t.isSafari&&i.Intl&&!i.Intl.DateTimeFormat.prototype.formatRange;class m{constructor(t){this.options={},this.useUTC=!1,this.variableTimezone=!1,this.Date=i.Date,this.getTimezoneOffset=this.timezoneOffsetFunction(),this.update(t)}get(t,e){if(this.variableTimezone||this.timezoneOffset){let i=e.getTime(),s=i-this.getTimezoneOffset(e);e.setTime(s);let r=e["getUTC"+t]();return e.setTime(i),r}return this.useUTC?e["getUTC"+t]():e["get"+t]()}set(t,e,i){if(this.variableTimezone||this.timezoneOffset){if("Milliseconds"===t||"Seconds"===t||"Minutes"===t&&this.getTimezoneOffset(e)%36e5==0)return e["setUTC"+t](i);let s=this.getTimezoneOffset(e),r=e.getTime()-s;e.setTime(r),e["setUTC"+t](i);let o=this.getTimezoneOffset(e);return r=e.getTime()+o,e.setTime(r)}return this.useUTC||g&&"FullYear"===t?e["setUTC"+t](i):e["set"+t](i)}update(t={}){let e=c(t.useUTC,!0);this.options=t=h(!0,this.options,t),this.Date=t.Date||i.Date||Date,this.useUTC=e,this.timezoneOffset=e&&t.timezoneOffset||void 0,this.getTimezoneOffset=this.timezoneOffsetFunction(),this.variableTimezone=e&&!!(t.getTimezoneOffset||t.timezone)}makeTime(t,e,i,s,r,o){let n,a,h;return this.useUTC?(n=this.Date.UTC.apply(0,arguments),a=this.getTimezoneOffset(n),n+=a,a!==(h=this.getTimezoneOffset(n))?n+=h-a:a-36e5!==this.getTimezoneOffset(n-36e5)||f||(n-=36e5)):n=new this.Date(t,e,c(i,1),c(s,0),c(r,0),c(o,0)).getTime(),n}timezoneOffsetFunction(){let t=this,e=this.options,i=e.getTimezoneOffset;return this.useUTC?e.timezone?t=>{try{let i=`shortOffset,${e.timezone||""}`,[s,r,o,a,h=0]=(m.formatCache[i]=m.formatCache[i]||Intl.DateTimeFormat("en",{timeZone:e.timezone,timeZoneName:"shortOffset"})).format(t).split(/(GMT|:)/).map(Number),l=-(36e5*(o+h/60));if(n(l))return l}catch(t){r(34)}return 0}:this.useUTC&&i?t=>6e4*i(t.valueOf()):()=>6e4*(t.timezoneOffset||0):t=>6e4*new Date(t.toString()).getTimezoneOffset()}dateFormat(e,i,r){if(!s(i)||isNaN(i))return t.defaultOptions.lang&&t.defaultOptions.lang.invalidDate||"";e=c(e,"%Y-%m-%d %H:%M:%S");let n=this,a=new this.Date(i),h=this.get("Hours",a),p=this.get("Day",a),u=this.get("Date",a),g=this.get("Month",a),f=this.get("FullYear",a),m=t.defaultOptions.lang,x=m&&m.weekdays,y=m&&m.shortWeekdays;return l(o({a:y?y[p]:x[p].substr(0,3),A:x[p],d:d(u),e:d(u,2," "),w:p,b:m.shortMonths[g],B:m.months[g],m:d(g+1),o:g+1,y:f.toString().substr(2,2),Y:f,H:d(h),k:h,I:d(h%12||12),l:h%12||12,M:d(this.get("Minutes",a)),p:h<12?"AM":"PM",P:h<12?"am":"pm",S:d(this.get("Seconds",a)),L:d(Math.floor(i%1e3),3)},t.dateFormats),function(t,s){for(;-1!==e.indexOf("%"+s);)e=e.replace("%"+s,"function"==typeof t?t.call(n,i):t)}),r?e.substr(0,1).toUpperCase()+e.substr(1):e}resolveDTLFormat(t){return a(t,!0)?t:{main:(t=p(t))[0],from:t[1],to:t[2]}}getTimeTicks(t,e,i,r){let n,a,h,l;let d=this,p=d.Date,g=[],f={},m=new p(e),x=t.unitRange,y=t.count||1;if(r=c(r,1),s(e)){d.set("Milliseconds",m,x>=u.second?0:y*Math.floor(d.get("Milliseconds",m)/y)),x>=u.second&&d.set("Seconds",m,x>=u.minute?0:y*Math.floor(d.get("Seconds",m)/y)),x>=u.minute&&d.set("Minutes",m,x>=u.hour?0:y*Math.floor(d.get("Minutes",m)/y)),x>=u.hour&&d.set("Hours",m,x>=u.day?0:y*Math.floor(d.get("Hours",m)/y)),x>=u.day&&d.set("Date",m,x>=u.month?1:Math.max(1,y*Math.floor(d.get("Date",m)/y))),x>=u.month&&(d.set("Month",m,x>=u.year?0:y*Math.floor(d.get("Month",m)/y)),a=d.get("FullYear",m)),x>=u.year&&(a-=a%y,d.set("FullYear",m,a)),x===u.week&&(l=d.get("Day",m),d.set("Date",m,d.get("Date",m)-l+r+(l<r?-7:0))),a=d.get("FullYear",m);let t=d.get("Month",m),o=d.get("Date",m),c=d.get("Hours",m);e=m.getTime(),(d.variableTimezone||!d.useUTC)&&s(i)&&(h=i-e>4*u.month||d.getTimezoneOffset(e)!==d.getTimezoneOffset(i));let p=m.getTime();for(n=1;p<i;)g.push(p),x===u.year?p=d.makeTime(a+n*y,0):x===u.month?p=d.makeTime(a,t+n*y):h&&(x===u.day||x===u.week)?p=d.makeTime(a,t,o+n*y*(x===u.day?1:7)):h&&x===u.hour&&y>1?p=d.makeTime(a,t,o,c+n*y):p+=x*y,n++;g.push(p),x<=u.hour&&g.length<1e4&&g.forEach(function(t){t%18e5==0&&"000000000"===d.dateFormat("%H%M%S%L",t)&&(f[t]="day")})}return g.info=o(t,{higherRanks:f,totalRange:x*y}),g}getDateFormat(t,e,i,s){let r=this.dateFormat("%m-%d %H:%M:%S.%L",e),o="01-01 00:00:00.000",n={millisecond:15,second:12,minute:9,hour:6,day:3},a="millisecond",h=a;for(a in u){if(t===u.week&&+this.dateFormat("%w",e)===i&&r.substr(6)===o.substr(6)){a="week";break}if(u[a]>t){a=h;break}if(n[a]&&r.substr(n[a])!==o.substr(n[a]))break;"week"!==a&&(h=a)}return this.resolveDTLFormat(s[a]).main}}return m.formatCache={},m}),i(e,"Core/Defaults.js",[e["Core/Chart/ChartDefaults.js"],e["Core/Globals.js"],e["Core/Color/Palettes.js"],e["Core/Time.js"],e["Core/Utilities.js"]],function(t,e,i,s,r){let{isTouchDevice:o}=e,{fireEvent:n,merge:a}=r,h={colors:i.colors,symbols:["circle","diamond","square","triangle","triangle-down"],lang:{loading:"Loading...",months:["January","February","March","April","May","June","July","August","September","October","November","December"],shortMonths:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],weekdays:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],decimalPoint:".",numericSymbols:["k","M","G","T","P","E"],resetZoom:"Reset zoom",resetZoomTitle:"Reset zoom level 1:1",thousandsSep:" "},global:{buttonTheme:{fill:"#f7f7f7",padding:8,r:2,stroke:"#cccccc","stroke-width":1,style:{color:"#333333",cursor:"pointer",fontSize:"0.8em",fontWeight:"normal"},states:{hover:{fill:"#e6e6e6"},select:{fill:"#e6e9ff",style:{color:"#000000",fontWeight:"bold"}},disabled:{style:{color:"#cccccc"}}}}},time:{Date:void 0,getTimezoneOffset:void 0,timezone:void 0,timezoneOffset:0,useUTC:!0},chart:t,title:{style:{color:"#333333",fontWeight:"bold"},text:"Chart title",align:"center",margin:15,widthAdjust:-44},subtitle:{style:{color:"#666666",fontSize:"0.8em"},text:"",align:"center",widthAdjust:-44},caption:{margin:15,style:{color:"#666666",fontSize:"0.8em"},text:"",align:"left",verticalAlign:"bottom"},plotOptions:{},legend:{enabled:!0,align:"center",alignColumns:!0,className:"highcharts-no-tooltip",events:{},layout:"horizontal",itemMarginBottom:2,itemMarginTop:2,labelFormatter:function(){return this.name},borderColor:"#999999",borderRadius:0,navigation:{style:{fontSize:"0.8em"},activeColor:"#0022ff",inactiveColor:"#cccccc"},itemStyle:{color:"#333333",cursor:"pointer",fontSize:"0.8em",textDecoration:"none",textOverflow:"ellipsis"},itemHoverStyle:{color:"#000000"},itemHiddenStyle:{color:"#666666",textDecoration:"line-through"},shadow:!1,itemCheckboxStyle:{position:"absolute",width:"13px",height:"13px"},squareSymbol:!0,symbolPadding:5,verticalAlign:"bottom",x:0,y:0,title:{style:{fontSize:"0.8em",fontWeight:"bold"}}},loading:{labelStyle:{fontWeight:"bold",position:"relative",top:"45%"},style:{position:"absolute",backgroundColor:"#ffffff",opacity:.5,textAlign:"center"}},tooltip:{enabled:!0,animation:{duration:300,easing:t=>Math.sqrt(1-Math.pow(t-1,2))},borderRadius:3,dateTimeLabelFormats:{millisecond:"%A, %e %b, %H:%M:%S.%L",second:"%A, %e %b, %H:%M:%S",minute:"%A, %e %b, %H:%M",hour:"%A, %e %b, %H:%M",day:"%A, %e %b %Y",week:"Week from %A, %e %b %Y",month:"%B %Y",year:"%Y"},footerFormat:"",headerShape:"callout",hideDelay:500,padding:8,shape:"callout",shared:!1,snap:o?25:10,headerFormat:'<span style="font-size: 0.8em">{point.key}</span><br/>',pointFormat:'<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}</b><br/>',backgroundColor:"#ffffff",borderWidth:void 0,shadow:!0,stickOnContact:!1,style:{color:"#333333",cursor:"default",fontSize:"0.8em"},useHTML:!1},credits:{enabled:!0,href:"https://www.highcharts.com?credits",position:{align:"right",x:-10,verticalAlign:"bottom",y:-5},style:{cursor:"pointer",color:"#999999",fontSize:"0.6em"},text:"Highcharts.com"}};h.chart.styledMode=!1;let l=new s(h.time);return{defaultOptions:h,defaultTime:l,getOptions:function(){return h},setOptions:function(t){return n(e,"setOptions",{options:t}),a(!0,h,t),(t.time||t.global)&&(e.time?e.time.update(a(h.global,h.time,t.global,t.time)):e.time=l),h}}}),i(e,"Core/Color/Color.js",[e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e){let{isNumber:i,merge:s,pInt:r}=e;class o{static parse(t){return t?new o(t):o.None}constructor(e){let i,s,r,n;this.rgba=[NaN,NaN,NaN,NaN],this.input=e;let a=t.Color;if(a&&a!==o)return new a(e);if("object"==typeof e&&void 0!==e.stops)this.stops=e.stops.map(t=>new o(t[1]));else if("string"==typeof e){if(this.input=e=o.names[e.toLowerCase()]||e,"#"===e.charAt(0)){let t=e.length,i=parseInt(e.substr(1),16);7===t?s=[(16711680&i)>>16,(65280&i)>>8,255&i,1]:4===t&&(s=[(3840&i)>>4|(3840&i)>>8,(240&i)>>4|240&i,(15&i)<<4|15&i,1])}if(!s)for(r=o.parsers.length;r--&&!s;)(i=(n=o.parsers[r]).regex.exec(e))&&(s=n.parse(i))}s&&(this.rgba=s)}get(t){let e=this.input,r=this.rgba;if("object"==typeof e&&void 0!==this.stops){let i=s(e);return i.stops=[].slice.call(i.stops),this.stops.forEach((e,s)=>{i.stops[s]=[i.stops[s][0],e.get(t)]}),i}return r&&i(r[0])?"rgb"!==t&&(t||1!==r[3])?"a"===t?`${r[3]}`:"rgba("+r.join(",")+")":"rgb("+r[0]+","+r[1]+","+r[2]+")":e}brighten(t){let e=this.rgba;if(this.stops)this.stops.forEach(function(e){e.brighten(t)});else if(i(t)&&0!==t)for(let i=0;i<3;i++)e[i]+=r(255*t),e[i]<0&&(e[i]=0),e[i]>255&&(e[i]=255);return this}setOpacity(t){return this.rgba[3]=t,this}tweenTo(t,e){let s=this.rgba,r=t.rgba;if(!i(s[0])||!i(r[0]))return t.input||"none";let o=1!==r[3]||1!==s[3];return(o?"rgba(":"rgb(")+Math.round(r[0]+(s[0]-r[0])*(1-e))+","+Math.round(r[1]+(s[1]-r[1])*(1-e))+","+Math.round(r[2]+(s[2]-r[2])*(1-e))+(o?","+(r[3]+(s[3]-r[3])*(1-e)):"")+")"}}return o.names={white:"#ffffff",black:"#000000"},o.parsers=[{regex:/rgba\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d?(?:\.\d+)?)\s*\)/,parse:function(t){return[r(t[1]),r(t[2]),r(t[3]),parseFloat(t[4],10)]}},{regex:/rgb\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*\)/,parse:function(t){return[r(t[1]),r(t[2]),r(t[3]),1]}}],o.None=new o(""),o}),i(e,"Core/Animation/Fx.js",[e["Core/Color/Color.js"],e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e,i){let{parse:s}=t,{win:r}=e,{isNumber:o,objectEach:n}=i;class a{constructor(t,e,i){this.pos=NaN,this.options=e,this.elem=t,this.prop=i}dSetter(){let t=this.paths,e=t&&t[0],i=t&&t[1],s=this.now||0,r=[];if(1!==s&&e&&i){if(e.length===i.length&&s<1)for(let t=0;t<i.length;t++){let n=e[t],a=i[t],h=[];for(let t=0;t<a.length;t++){let e=n[t],i=a[t];o(e)&&o(i)&&!("A"===a[0]&&(4===t||5===t))?h[t]=e+s*(i-e):h[t]=i}r.push(h)}else r=i}else r=this.toD||[];this.elem.attr("d",r,void 0,!0)}update(){let t=this.elem,e=this.prop,i=this.now,s=this.options.step;this[e+"Setter"]?this[e+"Setter"]():t.attr?t.element&&t.attr(e,i,null,!0):t.style[e]=i+this.unit,s&&s.call(t,i,this)}run(t,e,i){let s=this,o=s.options,n=function(t){return!n.stopped&&s.step(t)},h=r.requestAnimationFrame||function(t){setTimeout(t,13)},l=function(){for(let t=0;t<a.timers.length;t++)a.timers[t]()||a.timers.splice(t--,1);a.timers.length&&h(l)};t!==e||this.elem["forceAnimate:"+this.prop]?(this.startTime=+new Date,this.start=t,this.end=e,this.unit=i,this.now=this.start,this.pos=0,n.elem=this.elem,n.prop=this.prop,n()&&1===a.timers.push(n)&&h(l)):(delete o.curAnim[this.prop],o.complete&&0===Object.keys(o.curAnim).length&&o.complete.call(this.elem))}step(t){let e,i;let s=+new Date,r=this.options,o=this.elem,a=r.complete,h=r.duration,l=r.curAnim;return o.attr&&!o.element?e=!1:t||s>=h+this.startTime?(this.now=this.end,this.pos=1,this.update(),l[this.prop]=!0,i=!0,n(l,function(t){!0!==t&&(i=!1)}),i&&a&&a.call(o),e=!1):(this.pos=r.easing((s-this.startTime)/h),this.now=this.start+(this.end-this.start)*this.pos,this.update(),e=!0),e}initPath(t,e,i){let s=t.startX,r=t.endX,n=i.slice(),a=t.isArea,h=a?2:1,l=e&&i.length>e.length&&i.hasStackedCliffs,d,c,p,u,g=e&&e.slice();if(!g||l)return[n,n];function f(t,e){for(;t.length<c;){let i=t[0],s=e[c-t.length];if(s&&"M"===i[0]&&("C"===s[0]?t[0]=["C",i[1],i[2],i[1],i[2],i[1],i[2]]:t[0]=["L",i[1],i[2]]),t.unshift(i),a){let e=t.pop();t.push(t[t.length-1],e)}}}function m(t){for(;t.length<c;){let e=t[Math.floor(t.length/h)-1].slice();if("C"===e[0]&&(e[1]=e[5],e[2]=e[6]),a){let i=t[Math.floor(t.length/h)].slice();t.splice(t.length/2,0,e,i)}else t.push(e)}}if(s&&r&&r.length){for(p=0;p<s.length;p++){if(s[p]===r[0]){d=p;break}if(s[0]===r[r.length-s.length+p]){d=p,u=!0;break}if(s[s.length-1]===r[r.length-s.length+p]){d=s.length-p;break}}void 0===d&&(g=[])}return g.length&&o(d)&&(c=n.length+d*h,u?(f(g,n),m(n)):(f(n,g),m(g))),[g,n]}fillSetter(){a.prototype.strokeSetter.apply(this,arguments)}strokeSetter(){this.elem.attr(this.prop,s(this.start).tweenTo(s(this.end),this.pos),void 0,!0)}}return a.timers=[],a}),i(e,"Core/Animation/AnimationUtilities.js",[e["Core/Animation/Fx.js"],e["Core/Utilities.js"]],function(t,e){let{defined:i,getStyle:s,isArray:r,isNumber:o,isObject:n,merge:a,objectEach:h,pick:l}=e;function d(t){return n(t)?a({duration:500,defer:0},t):{duration:t?500:0,defer:0}}function c(e,i){let s=t.timers.length;for(;s--;)t.timers[s].elem!==e||i&&i!==t.timers[s].prop||(t.timers[s].stopped=!0)}return{animate:function(e,i,l){let d,p="",u,g,f;n(l)||(f=arguments,l={duration:f[2],easing:f[3],complete:f[4]}),o(l.duration)||(l.duration=400),l.easing="function"==typeof l.easing?l.easing:Math[l.easing]||Math.easeInOutSine,l.curAnim=a(i),h(i,function(o,n){c(e,n),g=new t(e,l,n),u=void 0,"d"===n&&r(i.d)?(g.paths=g.initPath(e,e.pathArray,i.d),g.toD=i.d,d=0,u=1):e.attr?d=e.attr(n):(d=parseFloat(s(e,n))||0,"opacity"!==n&&(p="px")),u||(u=o),"string"==typeof u&&u.match("px")&&(u=u.replace(/px/g,"")),g.run(d,u,p)})},animObject:d,getDeferredAnimation:function(t,e,s){let r=d(e),o=s?[s]:t.series,a=0,h=0;return o.forEach(t=>{let s=d(t.options.animation);a=n(e)&&i(e.defer)?r.defer:Math.max(a,s.duration+s.defer),h=Math.min(r.duration,s.duration)}),t.renderer.forExport&&(a=0),{defer:Math.max(0,a-h),duration:Math.min(a,h)}},setAnimation:function(t,e){e.renderer.globalAnimation=l(t,e.options.chart.animation,!0)},stop:c}}),i(e,"Core/Renderer/HTML/AST.js",[e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e){let{SVG_NS:i,win:s}=t,{attr:r,createElement:o,css:n,error:a,isFunction:h,isString:l,objectEach:d,splat:c}=e,{trustedTypes:p}=s,u=p&&h(p.createPolicy)&&p.createPolicy("highcharts",{createHTML:t=>t}),g=u?u.createHTML(""):"",f=function(){try{return!!new DOMParser().parseFromString(g,"text/html")}catch(t){return!1}}();class m{static filterUserAttributes(t){return d(t,(e,i)=>{let s=!0;-1===m.allowedAttributes.indexOf(i)&&(s=!1),-1!==["background","dynsrc","href","lowsrc","src"].indexOf(i)&&(s=l(e)&&m.allowedReferences.some(t=>0===e.indexOf(t))),s||(a(33,!1,void 0,{"Invalid attribute in config":`${i}`}),delete t[i]),l(e)&&t[i]&&(t[i]=e.replace(/</g,"&lt;"))}),t}static parseStyle(t){return t.split(";").reduce((t,e)=>{let i=e.split(":").map(t=>t.trim()),s=i.shift();return s&&i.length&&(t[s.replace(/-([a-z])/g,t=>t[1].toUpperCase())]=i.join(":")),t},{})}static setElementHTML(t,e){t.innerHTML=m.emptyHTML,e&&new m(e).addToDOM(t)}constructor(t){this.nodes="string"==typeof t?this.parseMarkup(t):t}addToDOM(e){return function e(s,o){let h;return c(s).forEach(function(s){let l;let c=s.tagName,p=s.textContent?t.doc.createTextNode(s.textContent):void 0,u=m.bypassHTMLFiltering;if(c){if("#text"===c)l=p;else if(-1!==m.allowedTags.indexOf(c)||u){let a="svg"===c?i:o.namespaceURI||i,h=t.doc.createElementNS(a,c),g=s.attributes||{};d(s,function(t,e){"tagName"!==e&&"attributes"!==e&&"children"!==e&&"style"!==e&&"textContent"!==e&&(g[e]=t)}),r(h,u?g:m.filterUserAttributes(g)),s.style&&n(h,s.style),p&&h.appendChild(p),e(s.children||[],h),l=h}else a(33,!1,void 0,{"Invalid tagName in config":c})}l&&o.appendChild(l),h=l}),h}(this.nodes,e)}parseMarkup(t){let e;let i=[];if(t=t.trim().replace(/ style=(["'])/g," data-style=$1"),f)e=new DOMParser().parseFromString(u?u.createHTML(t):t,"text/html");else{let i=o("div");i.innerHTML=t,e={body:i}}let s=(t,e)=>{let i=t.nodeName.toLowerCase(),r={tagName:i};"#text"===i&&(r.textContent=t.textContent||"");let o=t.attributes;if(o){let t={};[].forEach.call(o,e=>{"data-style"===e.name?r.style=m.parseStyle(e.value):t[e.name]=e.value}),r.attributes=t}if(t.childNodes.length){let e=[];[].forEach.call(t.childNodes,t=>{s(t,e)}),e.length&&(r.children=e)}e.push(r)};return[].forEach.call(e.body.childNodes,t=>s(t,i)),i}}return m.allowedAttributes=["alt","aria-controls","aria-describedby","aria-expanded","aria-haspopup","aria-hidden","aria-label","aria-labelledby","aria-live","aria-pressed","aria-readonly","aria-roledescription","aria-selected","class","clip-path","color","colspan","cx","cy","d","dx","dy","disabled","fill","filterUnits","flood-color","flood-opacity","height","href","id","in","in2","markerHeight","markerWidth","offset","opacity","operator","orient","padding","paddingLeft","paddingRight","patternUnits","r","radius","refX","refY","role","scope","slope","src","startOffset","stdDeviation","stroke","stroke-linecap","stroke-width","style","tableValues","result","rowspan","summary","target","tabindex","text-align","text-anchor","textAnchor","textLength","title","type","valign","width","x","x1","x2","xlink:href","y","y1","y2","zIndex"],m.allowedReferences=["https://","http://","mailto:","/","../","./","#"],m.allowedTags=["a","abbr","b","br","button","caption","circle","clipPath","code","dd","defs","div","dl","dt","em","feComponentTransfer","feComposite","feDropShadow","feFlood","feFuncA","feFuncB","feFuncG","feFuncR","feGaussianBlur","feMorphology","feOffset","feMerge","feMergeNode","filter","h1","h2","h3","h4","h5","h6","hr","i","img","li","linearGradient","marker","ol","p","path","pattern","pre","rect","small","span","stop","strong","style","sub","sup","svg","table","text","textPath","thead","title","tbody","tspan","td","th","tr","u","ul","#text"],m.emptyHTML=g,m.bypassHTMLFiltering=!1,m}),i(e,"Core/Templating.js",[e["Core/Defaults.js"],e["Core/Utilities.js"]],function(t,e){let{defaultOptions:i,defaultTime:s}=t,{extend:r,getNestedProperty:o,isArray:n,isNumber:a,isObject:h,pick:l,pInt:d}=e,c={add:(t,e)=>t+e,divide:(t,e)=>0!==e?t/e:"",eq:(t,e)=>t==e,each:function(t){let e=arguments[arguments.length-1];return!!n(t)&&t.map((i,s)=>p(e.body,r(h(i)?i:{"@this":i},{"@index":s,"@first":0===s,"@last":s===t.length-1}))).join("")},ge:(t,e)=>t>=e,gt:(t,e)=>t>e,if:t=>!!t,le:(t,e)=>t<=e,lt:(t,e)=>t<e,multiply:(t,e)=>t*e,ne:(t,e)=>t!=e,subtract:(t,e)=>t-e,unless:t=>!t};function p(t="",e,r){let n=/\{([\w\:\.\,;\-\/<>%@"'’= #\(\)]+)\}/g,a=/\(([\w\:\.\,;\-\/<>%@"'= ]+)\)/g,h=[],d=/f$/,g=/\.(\d)/,f=i.lang,m=r&&r.time||s,x=r&&r.numberFormatter||u,y=(t="")=>{let i;return"true"===t||"false"!==t&&((i=Number(t)).toString()===t?i:o(t,e))},b,v,S=0,C;for(;null!==(b=n.exec(t));){let i=a.exec(b[1]);i&&(b=i,C=!0),v&&v.isBlock||(v={ctx:e,expression:b[1],find:b[0],isBlock:"#"===b[1].charAt(0),start:b.index,startInner:b.index+b[0].length,length:b[0].length});let s=b[1].split(" ")[0].replace("#","");c[s]&&(v.isBlock&&s===v.fn&&S++,v.fn||(v.fn=s));let r="else"===b[1];if(v.isBlock&&v.fn&&(b[1]===`/${v.fn}`||r)){if(S)!r&&S--;else{let e=v.startInner,i=t.substr(e,b.index-e);void 0===v.body?(v.body=i,v.startInner=b.index+b[0].length):v.elseBody=i,v.find+=i+b[0],r||(h.push(v),v=void 0)}}else v.isBlock||h.push(v);if(i&&!v?.isBlock)break}return h.forEach(i=>{let s,o;let{body:n,elseBody:a,expression:h,fn:u}=i;if(u){let t=[i],l=h.split(" ");for(o=c[u].length;o--;)t.unshift(y(l[o+1]));s=c[u].apply(e,t),i.isBlock&&"boolean"==typeof s&&(s=p(s?n:a,e,r))}else{let t=h.split(":");if(s=y(t.shift()||""),t.length&&"number"==typeof s){let e=t.join(":");if(d.test(e)){let t=parseInt((e.match(g)||["","-1"])[1],10);null!==s&&(s=x(s,t,f.decimalPoint,e.indexOf(",")>-1?f.thousandsSep:""))}else s=m.dateFormat(e,s)}}t=t.replace(i.find,l(s,""))}),C?p(t,e,r):t}function u(t,e,s,r){let o,n;t=+t||0,e=+e;let h=i.lang,c=(t.toString().split(".")[1]||"").split("e")[0].length,p=t.toString().split("e"),u=e;-1===e?e=Math.min(c,20):a(e)?e&&p[1]&&p[1]<0&&((n=e+ +p[1])>=0?(p[0]=(+p[0]).toExponential(n).split("e")[0],e=n):(p[0]=p[0].split(".")[0]||0,t=e<20?(p[0]*Math.pow(10,p[1])).toFixed(e):0,p[1]=0)):e=2;let g=(Math.abs(p[1]?p[0]:t)+Math.pow(10,-Math.max(e,c)-1)).toFixed(e),f=String(d(g)),m=f.length>3?f.length%3:0;return s=l(s,h.decimalPoint),r=l(r,h.thousandsSep),o=(t<0?"-":"")+(m?f.substr(0,m)+r:""),0>+p[1]&&!u?o="0":o+=f.substr(m).replace(/(\d{3})(?=\d)/g,"$1"+r),e?o+=s+g.slice(-e):0==+o&&(o="0"),p[1]&&0!=+o&&(o+="e"+p[1]),o}return{dateFormat:function(t,e,i){return s.dateFormat(t,e,i)},format:p,helpers:c,numberFormat:u}}),i(e,"Core/Renderer/RendererRegistry.js",[e["Core/Globals.js"]],function(t){var e,i;let s;return(i=e||(e={})).rendererTypes={},i.getRendererType=function(t=s){return i.rendererTypes[t]||i.rendererTypes[s]},i.registerRendererType=function(e,r,o){i.rendererTypes[e]=r,(!s||o)&&(s=e,t.Renderer=r)},e}),i(e,"Core/Renderer/RendererUtilities.js",[e["Core/Utilities.js"]],function(t){var e;let{clamp:i,pick:s,pushUnique:r,stableSort:o}=t;return(e||(e={})).distribute=function t(e,n,a){let h=e,l=h.reducedLen||n,d=(t,e)=>t.target-e.target,c=[],p=e.length,u=[],g=c.push,f,m,x,y=!0,b,v,S=0,C;for(f=p;f--;)S+=e[f].size;if(S>l){for(o(e,(t,e)=>(e.rank||0)-(t.rank||0)),x=(C=e[0].rank===e[e.length-1].rank)?p/2:-1,m=C?x:p-1;x&&S>l;)b=e[f=Math.floor(m)],r(u,f)&&(S-=b.size),m+=x,C&&m>=e.length&&(x/=2,m=x);u.sort((t,e)=>e-t).forEach(t=>g.apply(c,e.splice(t,1)))}for(o(e,d),e=e.map(t=>({size:t.size,targets:[t.target],align:s(t.align,.5)}));y;){for(f=e.length;f--;)b=e[f],v=(Math.min.apply(0,b.targets)+Math.max.apply(0,b.targets))/2,b.pos=i(v-b.size*b.align,0,n-b.size);for(f=e.length,y=!1;f--;)f>0&&e[f-1].pos+e[f-1].size>e[f].pos&&(e[f-1].size+=e[f].size,e[f-1].targets=e[f-1].targets.concat(e[f].targets),e[f-1].align=.5,e[f-1].pos+e[f-1].size>n&&(e[f-1].pos=n-e[f-1].size),e.splice(f,1),y=!0)}return g.apply(h,c),f=0,e.some(e=>{let i=0;return(e.targets||[]).some(()=>(h[f].pos=e.pos+i,void 0!==a&&Math.abs(h[f].pos-h[f].target)>a)?(h.slice(0,f+1).forEach(t=>delete t.pos),h.reducedLen=(h.reducedLen||n)-.1*n,h.reducedLen>.1*n&&t(h,n,a),!0):(i+=h[f].size,f++,!1))}),o(h,d),h},e}),i(e,"Core/Renderer/SVG/SVGElement.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Color/Color.js"],e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e,i,s){let{animate:r,animObject:o,stop:n}=t,{deg2rad:a,doc:h,svg:l,SVG_NS:d,win:c}=i,{addEvent:p,attr:u,createElement:g,crisp:f,css:m,defined:x,erase:y,extend:b,fireEvent:v,isArray:S,isFunction:C,isObject:k,isString:M,merge:w,objectEach:T,pick:A,pInt:P,pushUnique:L,replaceNested:O,syncTimeout:D,uniqueKey:E}=s;class I{_defaultGetter(t){let e=A(this[t+"Value"],this[t],this.element?this.element.getAttribute(t):null,0);return/^-?[\d\.]+$/.test(e)&&(e=parseFloat(e)),e}_defaultSetter(t,e,i){i.setAttribute(e,t)}add(t){let e;let i=this.renderer,s=this.element;return t&&(this.parentGroup=t),void 0!==this.textStr&&"text"===this.element.nodeName&&i.buildText(this),this.added=!0,(!t||t.handleZ||this.zIndex)&&(e=this.zIndexSetter()),e||(t?t.element:i.box).appendChild(s),this.onAdd&&this.onAdd(),this}addClass(t,e){let i=e?"":this.attr("class")||"";return(t=(t||"").split(/ /g).reduce(function(t,e){return -1===i.indexOf(e)&&t.push(e),t},i?[i]:[]).join(" "))!==i&&this.attr("class",t),this}afterSetters(){this.doTransform&&(this.updateTransform(),this.doTransform=!1)}align(t,e,i,s=!0){let r,o,n,a;let h={},l=this.renderer,d=l.alignedObjects,c=!!t;t?(this.alignOptions=t,this.alignByTranslate=e,this.alignTo=i):(t=this.alignOptions||{},e=this.alignByTranslate,i=this.alignTo);let p=!i||M(i)?i||"renderer":void 0;p&&(c&&L(d,this),i=void 0);let u=A(i,l[p],l),g=t.align,f=t.verticalAlign;return r=(u.x||0)+(t.x||0),o=(u.y||0)+(t.y||0),"right"===g?n=1:"center"===g&&(n=2),n&&(r+=((u.width||0)-(t.width||0))/n),h[e?"translateX":"x"]=Math.round(r),"bottom"===f?a=1:"middle"===f&&(a=2),a&&(o+=((u.height||0)-(t.height||0))/a),h[e?"translateY":"y"]=Math.round(o),s&&(this[this.placed?"animate":"attr"](h),this.placed=!0),this.alignAttr=h,this}alignSetter(t){let e={left:"start",center:"middle",right:"end"};e[t]&&(this.alignValue=t,this.element.setAttribute("text-anchor",e[t]))}animate(t,e,i){let s=o(A(e,this.renderer.globalAnimation,!0)),n=s.defer;return h.hidden&&(s.duration=0),0!==s.duration?(i&&(s.complete=i),D(()=>{this.element&&r(this,t,s)},n)):(this.attr(t,void 0,i||s.complete),T(t,function(t,e){s.step&&s.step.call(this,t,{prop:e,pos:1,elem:this})},this)),this}applyTextOutline(t){let e=this.element;-1!==t.indexOf("contrast")&&(t=t.replace(/contrast/g,this.renderer.getContrast(e.style.fill)));let s=t.split(" "),r=s[s.length-1],o=s[0];if(o&&"none"!==o&&i.svg){this.fakeTS=!0,o=o.replace(/(^[\d\.]+)(.*?)$/g,function(t,e,i){return 2*Number(e)+i}),this.removeTextOutline();let t=h.createElementNS(d,"tspan");u(t,{class:"highcharts-text-outline",fill:r,stroke:r,"stroke-width":o,"stroke-linejoin":"round"});let i=e.querySelector("textPath")||e;[].forEach.call(i.childNodes,e=>{let i=e.cloneNode(!0);i.removeAttribute&&["fill","stroke","stroke-width","stroke"].forEach(t=>i.removeAttribute(t)),t.appendChild(i)});let s=0;[].forEach.call(i.querySelectorAll("text tspan"),t=>{s+=Number(t.getAttribute("dy"))});let n=h.createElementNS(d,"tspan");n.textContent="​",u(n,{x:Number(e.getAttribute("x")),dy:-s}),t.appendChild(n),i.insertBefore(t,i.firstChild)}}attr(t,e,i,s){let{element:r}=this,o=I.symbolCustomAttribs,a,h,l=this,d;return"string"==typeof t&&void 0!==e&&(a=t,(t={})[a]=e),"string"==typeof t?l=(this[t+"Getter"]||this._defaultGetter).call(this,t,r):(T(t,function(e,i){d=!1,s||n(this,i),this.symbolName&&-1!==o.indexOf(i)&&(h||(this.symbolAttr(t),h=!0),d=!0),this.rotation&&("x"===i||"y"===i)&&(this.doTransform=!0),d||(this[i+"Setter"]||this._defaultSetter).call(this,e,i,r)},this),this.afterSetters()),i&&i.call(this),l}clip(t){if(t&&!t.clipPath){let e=E()+"-",i=this.renderer.createElement("clipPath").attr({id:e}).add(this.renderer.defs);b(t,{clipPath:i,id:e,count:0}),t.add(i)}return this.attr("clip-path",t?`url(${this.renderer.url}#${t.id})`:"none")}crisp(t,e){e=Math.round(e||t.strokeWidth||0);let i=t.x||this.x||0,s=t.y||this.y||0,r=(t.width||this.width||0)+i,o=(t.height||this.height||0)+s,n=f(i,e),a=f(s,e);return b(t,{x:n,y:a,width:f(r,e)-n,height:f(o,e)-a}),x(t.strokeWidth)&&(t.strokeWidth=e),t}complexColor(t,i,s){let r=this.renderer,o,n,a,h,l,d,c,p,u,g,f=[],m;v(this.renderer,"complexColor",{args:arguments},function(){if(t.radialGradient?n="radialGradient":t.linearGradient&&(n="linearGradient"),n){if(a=t[n],l=r.gradients,d=t.stops,u=s.radialReference,S(a)&&(t[n]=a={x1:a[0],y1:a[1],x2:a[2],y2:a[3],gradientUnits:"userSpaceOnUse"}),"radialGradient"===n&&u&&!x(a.gradientUnits)&&(h=a,a=w(a,r.getRadialAttr(u,h),{gradientUnits:"userSpaceOnUse"})),T(a,function(t,e){"id"!==e&&f.push(e,t)}),T(d,function(t){f.push(t)}),l[f=f.join(",")])g=l[f].attr("id");else{a.id=g=E();let t=l[f]=r.createElement(n).attr(a).add(r.defs);t.radAttr=h,t.stops=[],d.forEach(function(i){0===i[1].indexOf("rgba")?(c=(o=e.parse(i[1])).get("rgb"),p=o.get("a")):(c=i[1],p=1);let s=r.createElement("stop").attr({offset:i[0],"stop-color":c,"stop-opacity":p}).add(t);t.stops.push(s)})}m="url("+r.url+"#"+g+")",s.setAttribute(i,m),s.gradient=f,t.toString=function(){return m}}})}css(t){let e=this.styles,i={},s=this.element,r,o=!e;if(e&&T(t,function(t,s){e&&e[s]!==t&&(i[s]=t,o=!0)}),o){e&&(t=b(e,i)),null===t.width||"auto"===t.width?delete this.textWidth:"text"===s.nodeName.toLowerCase()&&t.width&&(r=this.textWidth=P(t.width)),b(this.styles,t),r&&!l&&this.renderer.forExport&&delete t.width;let o=w(t);s.namespaceURI===this.SVG_NS&&(["textOutline","textOverflow","width"].forEach(t=>o&&delete o[t]),o.color&&(o.fill=o.color)),m(s,o)}return this.added&&("text"===this.element.nodeName&&this.renderer.buildText(this),t.textOutline&&this.applyTextOutline(t.textOutline)),this}dashstyleSetter(t){let e,i=this["stroke-width"];if("inherit"===i&&(i=1),t=t&&t.toLowerCase()){let s=t.replace("shortdashdotdot","3,1,1,1,1,1,").replace("shortdashdot","3,1,1,1").replace("shortdot","1,1,").replace("shortdash","3,1,").replace("longdash","8,3,").replace(/dot/g,"1,3,").replace("dash","4,3,").replace(/,$/,"").split(",");for(e=s.length;e--;)s[e]=""+P(s[e])*A(i,NaN);t=s.join(",").replace(/NaN/g,"none"),this.element.setAttribute("stroke-dasharray",t)}}destroy(){let t=this,e=t.element||{},i=t.renderer,s=e.ownerSVGElement,r="SPAN"===e.nodeName&&t.parentGroup||void 0,o,a;if(e.onclick=e.onmouseout=e.onmouseover=e.onmousemove=e.point=null,n(t),t.clipPath&&s){let e=t.clipPath;[].forEach.call(s.querySelectorAll("[clip-path],[CLIP-PATH]"),function(t){t.getAttribute("clip-path").indexOf(e.element.id)>-1&&t.removeAttribute("clip-path")}),t.clipPath=e.destroy()}if(t.connector=t.connector?.destroy(),t.stops){for(a=0;a<t.stops.length;a++)t.stops[a].destroy();t.stops.length=0,t.stops=void 0}for(t.safeRemoveChild(e);r&&r.div&&0===r.div.childNodes.length;)o=r.parentGroup,t.safeRemoveChild(r.div),delete r.div,r=o;t.alignOptions&&y(i.alignedObjects,t),T(t,function(e,i){t[i]&&t[i].parentGroup===t&&t[i].destroy&&t[i].destroy(),delete t[i]})}dSetter(t,e,i){S(t)&&("string"==typeof t[0]&&(t=this.renderer.pathToSegments(t)),this.pathArray=t,t=t.reduce((t,e,i)=>e&&e.join?(i?t+" ":"")+e.join(" "):(e||"").toString(),"")),/(NaN| {2}|^$)/.test(t)&&(t="M 0 0"),this[e]!==t&&(i.setAttribute(e,t),this[e]=t)}fillSetter(t,e,i){"string"==typeof t?i.setAttribute(e,t):t&&this.complexColor(t,e,i)}hrefSetter(t,e,i){i.setAttributeNS("http://www.w3.org/1999/xlink",e,t)}getBBox(t,e){let i,s,r,o;let{alignValue:n,element:a,renderer:h,styles:l,textStr:d}=this,{cache:c,cacheKeys:p}=h,u=a.namespaceURI===this.SVG_NS,g=A(e,this.rotation,0),f=h.styledMode?a&&I.prototype.getStyle.call(a,"font-size"):l.fontSize;if(x(d)&&(-1===(o=d.toString()).indexOf("<")&&(o=o.replace(/\d/g,"0")),o+=["",h.rootFontSize,f,g,this.textWidth,n,l.textOverflow,l.fontWeight].join(",")),o&&!t&&(i=c[o]),!i||i.polygon){if(u||h.forExport){try{r=this.fakeTS&&function(t){let e=a.querySelector(".highcharts-text-outline");e&&m(e,{display:t})},C(r)&&r("none"),i=a.getBBox?b({},a.getBBox()):{width:a.offsetWidth,height:a.offsetHeight,x:0,y:0},C(r)&&r("")}catch(t){}(!i||i.width<0)&&(i={x:0,y:0,width:0,height:0})}else i=this.htmlGetBBox();s=i.height,u&&(i.height=s=({"11px,17":14,"13px,20":16})[`${f||""},${Math.round(s)}`]||s),g&&(i=this.getRotatedBox(i,g));let t={bBox:i};v(this,"afterGetBBox",t),i=t.bBox}if(o&&(""===d||i.height>0)){for(;p.length>250;)delete c[p.shift()];c[o]||p.push(o),c[o]=i}return i}getRotatedBox(t,e){let{x:i,y:s,width:r,height:o}=t,{alignValue:n,translateY:h,rotationOriginX:l=0,rotationOriginY:d=0}=this,c={right:1,center:.5}[n||0]||0,p=Number(this.element.getAttribute("y")||0)-(h?0:s),u=e*a,g=(e-90)*a,f=Math.cos(u),m=Math.sin(u),x=r*f,y=r*m,b=Math.cos(g),v=Math.sin(g),[[S,C],[k,M]]=[l,d].map(t=>[t-t*f,t*m]),w=i+c*(r-x)+S+M+p*b,T=w+x,A=T-o*b,P=A-x,L=s+p-c*y-C+k+p*v,O=L+y,D=O-o*v,E=D-y,I=Math.min(w,T,A,P),j=Math.min(L,O,D,E),B=Math.max(w,T,A,P)-I,R=Math.max(L,O,D,E)-j;return{x:I,y:j,width:B,height:R,polygon:[[w,L],[T,O],[A,D],[P,E]]}}getStyle(t){return c.getComputedStyle(this.element||this,"").getPropertyValue(t)}hasClass(t){return -1!==(""+this.attr("class")).split(" ").indexOf(t)}hide(){return this.attr({visibility:"hidden"})}htmlGetBBox(){return{height:0,width:0,x:0,y:0}}constructor(t,e){this.onEvents={},this.opacity=1,this.SVG_NS=d,this.element="span"===e||"body"===e?g(e):h.createElementNS(this.SVG_NS,e),this.renderer=t,this.styles={},v(this,"afterInit")}on(t,e){let{onEvents:i}=this;return i[t]&&i[t](),i[t]=p(this.element,t,e),this}opacitySetter(t,e,i){let s=Number(Number(t).toFixed(3));this.opacity=s,i.setAttribute(e,s)}reAlign(){this.alignOptions?.width&&"left"!==this.alignOptions.align&&(this.alignOptions.width=this.getBBox().width,this.placed=!1,this.align())}removeClass(t){return this.attr("class",(""+this.attr("class")).replace(M(t)?RegExp(`(^| )${t}( |$)`):t," ").replace(/ +/g," ").trim())}removeTextOutline(){let t=this.element.querySelector("tspan.highcharts-text-outline");t&&this.safeRemoveChild(t)}safeRemoveChild(t){let e=t.parentNode;e&&e.removeChild(t)}setRadialReference(t){let e=this.element.gradient&&this.renderer.gradients[this.element.gradient];return this.element.radialReference=t,e&&e.radAttr&&e.animate(this.renderer.getRadialAttr(t,e.radAttr)),this}shadow(t){let{renderer:e}=this,i=w(this.parentGroup?.rotation===90?{offsetX:-1,offsetY:-1}:{},k(t)?t:{}),s=e.shadowDefinition(i);return this.attr({filter:t?`url(${e.url}#${s})`:"none"})}show(t=!0){return this.attr({visibility:t?"inherit":"visible"})}"stroke-widthSetter"(t,e,i){this[e]=t,i.setAttribute(e,t)}strokeWidth(){if(!this.renderer.styledMode)return this["stroke-width"]||0;let t=this.getStyle("stroke-width"),e=0,i;return/px$/.test(t)?e=P(t):""!==t&&(u(i=h.createElementNS(d,"rect"),{width:t,"stroke-width":0}),this.element.parentNode.appendChild(i),e=i.getBBox().width,i.parentNode.removeChild(i)),e}symbolAttr(t){let e=this;I.symbolCustomAttribs.forEach(function(i){e[i]=A(t[i],e[i])}),e.attr({d:e.renderer.symbols[e.symbolName](e.x,e.y,e.width,e.height,e)})}textSetter(t){t!==this.textStr&&(delete this.textPxLength,this.textStr=t,this.added&&this.renderer.buildText(this),this.reAlign())}titleSetter(t){let e=this.element,i=e.getElementsByTagName("title")[0]||h.createElementNS(this.SVG_NS,"title");e.insertBefore?e.insertBefore(i,e.firstChild):e.appendChild(i),i.textContent=O(A(t,""),[/<[^>]*>/g,""]).replace(/&lt;/g,"<").replace(/&gt;/g,">")}toFront(){let t=this.element;return t.parentNode.appendChild(t),this}translate(t,e){return this.attr({translateX:t,translateY:e})}updateTransform(t="transform"){let{element:e,matrix:i,rotation:s=0,rotationOriginX:r,rotationOriginY:o,scaleX:n,scaleY:a,translateX:h=0,translateY:l=0}=this,d=["translate("+h+","+l+")"];x(i)&&d.push("matrix("+i.join(",")+")"),s&&(d.push("rotate("+s+" "+A(r,e.getAttribute("x"),0)+" "+A(o,e.getAttribute("y")||0)+")"),this.text?.element.tagName==="SPAN"&&this.text.attr({rotation:s,rotationOriginX:(r||0)-this.padding,rotationOriginY:(o||0)-this.padding})),(x(n)||x(a))&&d.push("scale("+A(n,1)+" "+A(a,1)+")"),d.length&&!(this.text||this).textPath&&e.setAttribute(t,d.join(" "))}visibilitySetter(t,e,i){"inherit"===t?i.removeAttribute(e):this[e]!==t&&i.setAttribute(e,t),this[e]=t}xGetter(t){return"circle"===this.element.nodeName&&("x"===t?t="cx":"y"===t&&(t="cy")),this._defaultGetter(t)}zIndexSetter(t,e){let i=this.renderer,s=this.parentGroup,r=(s||i).element||i.box,o=this.element,n=r===i.box,a,h,l,d=!1,c,p=this.added,u;if(x(t)?(o.setAttribute("data-z-index",t),t=+t,this[e]===t&&(p=!1)):x(this[e])&&o.removeAttribute("data-z-index"),this[e]=t,p){for((t=this.zIndex)&&s&&(s.handleZ=!0),u=(a=r.childNodes).length-1;u>=0&&!d;u--)c=!x(l=(h=a[u]).getAttribute("data-z-index")),h!==o&&(t<0&&c&&!n&&!u?(r.insertBefore(o,a[u]),d=!0):(P(l)<=t||c&&(!x(t)||t>=0))&&(r.insertBefore(o,a[u+1]),d=!0));d||(r.insertBefore(o,a[n?3:0]),d=!0)}return d}}return I.symbolCustomAttribs=["anchorX","anchorY","clockwise","end","height","innerR","r","start","width","x","y"],I.prototype.strokeSetter=I.prototype.fillSetter,I.prototype.yGetter=I.prototype.xGetter,I.prototype.matrixSetter=I.prototype.rotationOriginXSetter=I.prototype.rotationOriginYSetter=I.prototype.rotationSetter=I.prototype.scaleXSetter=I.prototype.scaleYSetter=I.prototype.translateXSetter=I.prototype.translateYSetter=I.prototype.verticalAlignSetter=function(t,e){this[e]=t,this.doTransform=!0},I}),i(e,"Core/Renderer/SVG/SVGLabel.js",[e["Core/Renderer/SVG/SVGElement.js"],e["Core/Utilities.js"]],function(t,e){let{defined:i,extend:s,isNumber:r,merge:o,pick:n,removeEvent:a}=e;class h extends t{constructor(t,e,i,s,r,o,n,a,l,d){let c;super(t,"g"),this.paddingLeftSetter=this.paddingSetter,this.paddingRightSetter=this.paddingSetter,this.doUpdate=!1,this.textStr=e,this.x=i,this.y=s,this.anchorX=o,this.anchorY=n,this.baseline=l,this.className=d,this.addClass("button"===d?"highcharts-no-tooltip":"highcharts-label"),d&&this.addClass("highcharts-"+d),this.text=t.text(void 0,0,0,a).attr({zIndex:1}),"string"==typeof r&&((c=/^url\((.*?)\)$/.test(r))||this.renderer.symbols[r])&&(this.symbolKey=r),this.bBox=h.emptyBBox,this.padding=3,this.baselineOffset=0,this.needsBox=t.styledMode||c,this.deferredAttr={},this.alignFactor=0}alignSetter(t){let e={left:0,center:.5,right:1}[t];e!==this.alignFactor&&(this.alignFactor=e,this.bBox&&r(this.xSetting)&&this.attr({x:this.xSetting}))}anchorXSetter(t,e){this.anchorX=t,this.boxAttr(e,Math.round(t)-this.getCrispAdjust()-this.xSetting)}anchorYSetter(t,e){this.anchorY=t,this.boxAttr(e,t-this.ySetting)}boxAttr(t,e){this.box?this.box.attr(t,e):this.deferredAttr[t]=e}css(e){if(e){let t={};e=o(e),h.textProps.forEach(i=>{void 0!==e[i]&&(t[i]=e[i],delete e[i])}),this.text.css(t),"fontSize"in t||"fontWeight"in t?this.updateTextPadding():("width"in t||"textOverflow"in t)&&this.updateBoxSize()}return t.prototype.css.call(this,e)}destroy(){a(this.element,"mouseenter"),a(this.element,"mouseleave"),this.text&&this.text.destroy(),this.box&&(this.box=this.box.destroy()),t.prototype.destroy.call(this)}fillSetter(t,e){t&&(this.needsBox=!0),this.fill=t,this.boxAttr(e,t)}getBBox(t,e){this.textStr&&0===this.bBox.width&&0===this.bBox.height&&this.updateBoxSize();let{padding:i,height:s=0,translateX:r=0,translateY:o=0,width:a=0}=this,h=n(this.paddingLeft,i),l=e??(this.rotation||0),d={width:a,height:s,x:r+this.bBox.x-h,y:o+this.bBox.y-i+this.baselineOffset};return l&&(d=this.getRotatedBox(d,l)),d}getCrispAdjust(){return(this.renderer.styledMode&&this.box?this.box.strokeWidth():this["stroke-width"]?parseInt(this["stroke-width"],10):0)%2/2}heightSetter(t){this.heightSetting=t,this.doUpdate=!0}afterSetters(){super.afterSetters(),this.doUpdate&&(this.updateBoxSize(),this.doUpdate=!1)}onAdd(){this.text.add(this),this.attr({text:n(this.textStr,""),x:this.x||0,y:this.y||0}),this.box&&i(this.anchorX)&&this.attr({anchorX:this.anchorX,anchorY:this.anchorY})}paddingSetter(t,e){r(t)?t!==this[e]&&(this[e]=t,this.updateTextPadding()):this[e]=void 0}rSetter(t,e){this.boxAttr(e,t)}strokeSetter(t,e){this.stroke=t,this.boxAttr(e,t)}"stroke-widthSetter"(t,e){t&&(this.needsBox=!0),this["stroke-width"]=t,this.boxAttr(e,t)}"text-alignSetter"(t){this.textAlign=t}textSetter(t){void 0!==t&&this.text.attr({text:t}),this.updateTextPadding(),this.reAlign()}updateBoxSize(){let t;let e=this.text,o={},n=this.padding,a=this.bBox=(!r(this.widthSetting)||!r(this.heightSetting)||this.textAlign)&&i(e.textStr)?e.getBBox(void 0,0):h.emptyBBox;this.width=this.getPaddedWidth(),this.height=(this.heightSetting||a.height||0)+2*n;let l=this.renderer.fontMetrics(e);if(this.baselineOffset=n+Math.min((this.text.firstLineMetrics||l).b,a.height||1/0),this.heightSetting&&(this.baselineOffset+=(this.heightSetting-l.h)/2),this.needsBox&&!e.textPath){if(!this.box){let t=this.box=this.symbolKey?this.renderer.symbol(this.symbolKey):this.renderer.rect();t.addClass(("button"===this.className?"":"highcharts-label-box")+(this.className?" highcharts-"+this.className+"-box":"")),t.add(this)}t=this.getCrispAdjust(),o.x=t,o.y=(this.baseline?-this.baselineOffset:0)+t,o.width=Math.round(this.width),o.height=Math.round(this.height),this.box.attr(s(o,this.deferredAttr)),this.deferredAttr={}}}updateTextPadding(){let t=this.text;if(!t.textPath){this.updateBoxSize();let e=this.baseline?0:this.baselineOffset,s=n(this.paddingLeft,this.padding);i(this.widthSetting)&&this.bBox&&("center"===this.textAlign||"right"===this.textAlign)&&(s+=({center:.5,right:1})[this.textAlign]*(this.widthSetting-this.bBox.width)),(s!==t.x||e!==t.y)&&(t.attr("x",s),t.hasBoxWidthChanged&&(this.bBox=t.getBBox(!0)),void 0!==e&&t.attr("y",e)),t.x=s,t.y=e}}widthSetter(t){this.widthSetting=r(t)?t:void 0,this.doUpdate=!0}getPaddedWidth(){let t=this.padding,e=n(this.paddingLeft,t),i=n(this.paddingRight,t);return(this.widthSetting||this.bBox.width||0)+e+i}xSetter(t){this.x=t,this.alignFactor&&(t-=this.alignFactor*this.getPaddedWidth(),this["forceAnimate:x"]=!0),this.xSetting=Math.round(t),this.attr("translateX",this.xSetting)}ySetter(t){this.ySetting=this.y=Math.round(t),this.attr("translateY",this.ySetting)}}return h.emptyBBox={width:0,height:0,x:0,y:0},h.textProps=["color","direction","fontFamily","fontSize","fontStyle","fontWeight","lineHeight","textAlign","textDecoration","textOutline","textOverflow","whiteSpace","width"],h}),i(e,"Core/Renderer/SVG/Symbols.js",[e["Core/Utilities.js"]],function(t){let{defined:e,isNumber:i,pick:s}=t;function r(t,i,r,o,n){let a=[];if(n){let h=n.start||0,l=s(n.r,r),d=s(n.r,o||r),c=2e-4/(n.borderRadius?1:Math.max(l,1)),p=Math.abs((n.end||0)-h-2*Math.PI)<c,u=(n.end||0)-(p?c:0),g=n.innerR,f=s(n.open,p),m=Math.cos(h),x=Math.sin(h),y=Math.cos(u),b=Math.sin(u),v=s(n.longArc,u-h-Math.PI<c?0:1),S=["A",l,d,0,v,s(n.clockwise,1),t+l*y,i+d*b];S.params={start:h,end:u,cx:t,cy:i},a.push(["M",t+l*m,i+d*x],S),e(g)&&((S=["A",g,g,0,v,e(n.clockwise)?1-n.clockwise:0,t+g*m,i+g*x]).params={start:u,end:h,cx:t,cy:i},a.push(f?["M",t+g*y,i+g*b]:["L",t+g*y,i+g*b],S)),f||a.push(["Z"])}return a}function o(t,e,i,s,r){return r&&r.r?n(t,e,i,s,r):[["M",t,e],["L",t+i,e],["L",t+i,e+s],["L",t,e+s],["Z"]]}function n(t,e,i,s,r){let o=r?.r||0;return[["M",t+o,e],["L",t+i-o,e],["A",o,o,0,0,1,t+i,e+o],["L",t+i,e+s-o],["A",o,o,0,0,1,t+i-o,e+s],["L",t+o,e+s],["A",o,o,0,0,1,t,e+s-o],["L",t,e+o],["A",o,o,0,0,1,t+o,e],["Z"]]}return{arc:r,callout:function(t,e,s,r,o){let a=Math.min(o&&o.r||0,s,r),h=a+6,l=o&&o.anchorX,d=o&&o.anchorY||0,c=n(t,e,s,r,{r:a});if(!i(l)||l<s&&l>0&&d<r&&d>0)return c;if(t+l>s-h){if(d>e+h&&d<e+r-h)c.splice(3,1,["L",t+s,d-6],["L",t+s+6,d],["L",t+s,d+6],["L",t+s,e+r-a]);else if(l<s){let i=d<e+h,o=i?e:e+r;c.splice(i?2:5,0,["L",l,d],["L",t+s-a,o])}else c.splice(3,1,["L",t+s,r/2],["L",l,d],["L",t+s,r/2],["L",t+s,e+r-a])}else if(t+l<h){if(d>e+h&&d<e+r-h)c.splice(7,1,["L",t,d+6],["L",t-6,d],["L",t,d-6],["L",t,e+a]);else if(l>0){let i=d<e+h,s=i?e:e+r;c.splice(i?1:6,0,["L",l,d],["L",t+a,s])}else c.splice(7,1,["L",t,r/2],["L",l,d],["L",t,r/2],["L",t,e+a])}else d>r&&l<s-h?c.splice(5,1,["L",l+6,e+r],["L",l,e+r+6],["L",l-6,e+r],["L",t+a,e+r]):d<0&&l>h&&c.splice(1,1,["L",l-6,e],["L",l,e-6],["L",l+6,e],["L",s-a,e]);return c},circle:function(t,e,i,s){return r(t+i/2,e+s/2,i/2,s/2,{start:.5*Math.PI,end:2.5*Math.PI,open:!1})},diamond:function(t,e,i,s){return[["M",t+i/2,e],["L",t+i,e+s/2],["L",t+i/2,e+s],["L",t,e+s/2],["Z"]]},rect:o,roundedRect:n,square:o,triangle:function(t,e,i,s){return[["M",t+i/2,e],["L",t+i,e+s],["L",t,e+s],["Z"]]},"triangle-down":function(t,e,i,s){return[["M",t,e],["L",t+i,e],["L",t+i/2,e+s],["Z"]]}}}),i(e,"Core/Renderer/SVG/TextBuilder.js",[e["Core/Renderer/HTML/AST.js"],e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e,i){let{doc:s,SVG_NS:r,win:o}=e,{attr:n,extend:a,fireEvent:h,isString:l,objectEach:d,pick:c}=i;return class{constructor(t){let e=t.styles;this.renderer=t.renderer,this.svgElement=t,this.width=t.textWidth,this.textLineHeight=e&&e.lineHeight,this.textOutline=e&&e.textOutline,this.ellipsis=!!(e&&"ellipsis"===e.textOverflow),this.noWrap=!!(e&&"nowrap"===e.whiteSpace)}buildSVG(){let e=this.svgElement,i=e.element,r=e.renderer,o=c(e.textStr,"").toString(),n=-1!==o.indexOf("<"),a=i.childNodes,h=!e.added&&r.box,d=[o,this.ellipsis,this.noWrap,this.textLineHeight,this.textOutline,e.getStyle("font-size"),this.width].join(",");if(d!==e.textCache){e.textCache=d,delete e.actualWidth;for(let t=a.length;t--;)i.removeChild(a[t]);if(n||this.ellipsis||this.width||e.textPath||-1!==o.indexOf(" ")&&(!this.noWrap||/<br.*?>/g.test(o))){if(""!==o){h&&h.appendChild(i);let s=new t(o);this.modifyTree(s.nodes),s.addToDOM(i),this.modifyDOM(),this.ellipsis&&-1!==(i.textContent||"").indexOf("…")&&e.attr("title",this.unescapeEntities(e.textStr||"",["&lt;","&gt;"])),h&&h.removeChild(i)}}else i.appendChild(s.createTextNode(this.unescapeEntities(o)));l(this.textOutline)&&e.applyTextOutline&&e.applyTextOutline(this.textOutline)}}modifyDOM(){let t;let e=this.svgElement,i=n(e.element,"x");for(e.firstLineMetrics=void 0;t=e.element.firstChild;)if(/^[\s\u200B]*$/.test(t.textContent||" "))e.element.removeChild(t);else break;[].forEach.call(e.element.querySelectorAll("tspan.highcharts-br"),(t,s)=>{t.nextSibling&&t.previousSibling&&(0===s&&1===t.previousSibling.nodeType&&(e.firstLineMetrics=e.renderer.fontMetrics(t.previousSibling)),n(t,{dy:this.getLineHeight(t.nextSibling),x:i}))});let a=this.width||0;if(!a)return;let h=(t,o)=>{let h=t.textContent||"",l=h.replace(/([^\^])-/g,"$1- ").split(" "),d=!this.noWrap&&(l.length>1||e.element.childNodes.length>1),c=this.getLineHeight(o),p=0,u=e.actualWidth;if(this.ellipsis)h&&this.truncate(t,h,void 0,0,Math.max(0,a-.8*c),(t,e)=>t.substring(0,e)+"…");else if(d){let h=[],d=[];for(;o.firstChild&&o.firstChild!==t;)d.push(o.firstChild),o.removeChild(o.firstChild);for(;l.length;)l.length&&!this.noWrap&&p>0&&(h.push(t.textContent||""),t.textContent=l.join(" ").replace(/- /g,"-")),this.truncate(t,void 0,l,0===p&&u||0,a,(t,e)=>l.slice(0,e).join(" ").replace(/- /g,"-")),u=e.actualWidth,p++;d.forEach(e=>{o.insertBefore(e,t)}),h.forEach(e=>{o.insertBefore(s.createTextNode(e),t);let a=s.createElementNS(r,"tspan");a.textContent="​",n(a,{dy:c,x:i}),o.insertBefore(a,t)})}},l=t=>{[].slice.call(t.childNodes).forEach(i=>{i.nodeType===o.Node.TEXT_NODE?h(i,t):(-1!==i.className.baseVal.indexOf("highcharts-br")&&(e.actualWidth=0),l(i))})};l(e.element)}getLineHeight(t){let e=t.nodeType===o.Node.TEXT_NODE?t.parentElement:t;return this.textLineHeight?parseInt(this.textLineHeight.toString(),10):this.renderer.fontMetrics(e||this.svgElement.element).h}modifyTree(t){let e=(i,s)=>{let{attributes:r={},children:o,style:n={},tagName:h}=i,l=this.renderer.styledMode;if("b"===h||"strong"===h?l?r.class="highcharts-strong":n.fontWeight="bold":("i"===h||"em"===h)&&(l?r.class="highcharts-emphasized":n.fontStyle="italic"),n&&n.color&&(n.fill=n.color),"br"===h){r.class="highcharts-br",i.textContent="​";let e=t[s+1];e&&e.textContent&&(e.textContent=e.textContent.replace(/^ +/gm,""))}else"a"===h&&o&&o.some(t=>"#text"===t.tagName)&&(i.children=[{children:o,tagName:"tspan"}]);"#text"!==h&&"a"!==h&&(i.tagName="tspan"),a(i,{attributes:r,style:n}),o&&o.filter(t=>"#text"!==t.tagName).forEach(e)};t.forEach(e),h(this.svgElement,"afterModifyTree",{nodes:t})}truncate(t,e,i,s,r,o){let n,a;let h=this.svgElement,{rotation:l}=h,d=[],c=i?1:0,p=(e||i||"").length,u=p,g=function(e,r){let o=r||e,n=t.parentNode;if(n&&void 0===d[o]&&n.getSubStringLength)try{d[o]=s+n.getSubStringLength(0,i?o+1:o)}catch(t){}return d[o]};if(h.rotation=0,s+(a=g(t.textContent.length))>r){for(;c<=p;)u=Math.ceil((c+p)/2),i&&(n=o(i,u)),a=g(u,n&&n.length-1),c===p?c=p+1:a>r?p=u-1:c=u;0===p?t.textContent="":e&&p===e.length-1||(t.textContent=n||o(e||i,u))}i&&i.splice(0,u),h.actualWidth=a,h.rotation=l}unescapeEntities(t,e){return d(this.renderer.escapes,function(i,s){e&&-1!==e.indexOf(i)||(t=t.toString().replace(RegExp(i,"g"),s))}),t}}}),i(e,"Core/Renderer/SVG/SVGRenderer.js",[e["Core/Renderer/HTML/AST.js"],e["Core/Defaults.js"],e["Core/Color/Color.js"],e["Core/Globals.js"],e["Core/Renderer/RendererRegistry.js"],e["Core/Renderer/SVG/SVGElement.js"],e["Core/Renderer/SVG/SVGLabel.js"],e["Core/Renderer/SVG/Symbols.js"],e["Core/Renderer/SVG/TextBuilder.js"],e["Core/Utilities.js"]],function(t,e,i,s,r,o,n,a,h,l){let d;let{defaultOptions:c}=e,{charts:p,deg2rad:u,doc:g,isFirefox:f,isMS:m,isWebKit:x,noop:y,SVG_NS:b,symbolSizes:v,win:S}=s,{addEvent:C,attr:k,createElement:M,crisp:w,css:T,defined:A,destroyObjectProperties:P,extend:L,isArray:O,isNumber:D,isObject:E,isString:I,merge:j,pick:B,pInt:R,replaceNested:z,uniqueKey:N}=l;class W{constructor(t,e,i,s,r,o,n){let a,h;let l=this.createElement("svg").attr({version:"1.1",class:"highcharts-root"}),d=l.element;n||l.css(this.getStyle(s||{})),t.appendChild(d),k(t,"dir","ltr"),-1===t.innerHTML.indexOf("xmlns")&&k(d,"xmlns",this.SVG_NS),this.box=d,this.boxWrapper=l,this.alignedObjects=[],this.url=this.getReferenceURL(),this.createElement("desc").add().element.appendChild(g.createTextNode("Created with Highcharts 11.4.8")),this.defs=this.createElement("defs").add(),this.allowHTML=o,this.forExport=r,this.styledMode=n,this.gradients={},this.cache={},this.cacheKeys=[],this.imgCount=0,this.rootFontSize=l.getStyle("font-size"),this.setSize(e,i,!1),f&&t.getBoundingClientRect&&((a=function(){T(t,{left:0,top:0}),h=t.getBoundingClientRect(),T(t,{left:Math.ceil(h.left)-h.left+"px",top:Math.ceil(h.top)-h.top+"px"})})(),this.unSubPixelFix=C(S,"resize",a))}definition(e){return new t([e]).addToDOM(this.defs.element)}getReferenceURL(){if((f||x)&&g.getElementsByTagName("base").length){if(!A(d)){let e=N(),i=new t([{tagName:"svg",attributes:{width:8,height:8},children:[{tagName:"defs",children:[{tagName:"clipPath",attributes:{id:e},children:[{tagName:"rect",attributes:{width:4,height:4}}]}]},{tagName:"rect",attributes:{id:"hitme",width:8,height:8,"clip-path":`url(#${e})`,fill:"rgba(0,0,0,0.001)"}}]}]).addToDOM(g.body);T(i,{position:"fixed",top:0,left:0,zIndex:9e5});let s=g.elementFromPoint(6,6);d="hitme"===(s&&s.id),g.body.removeChild(i)}if(d)return z(S.location.href.split("#")[0],[/<[^>]*>/g,""],[/([\('\)])/g,"\\$1"],[/ /g,"%20"])}return""}getStyle(t){return this.style=L({fontFamily:"Helvetica, Arial, sans-serif",fontSize:"1rem"},t),this.style}setStyle(t){this.boxWrapper.css(this.getStyle(t))}isHidden(){return!this.boxWrapper.getBBox().width}destroy(){let t=this.defs;return this.box=null,this.boxWrapper=this.boxWrapper.destroy(),P(this.gradients||{}),this.gradients=null,this.defs=t.destroy(),this.unSubPixelFix&&this.unSubPixelFix(),this.alignedObjects=null,null}createElement(t){return new this.Element(this,t)}getRadialAttr(t,e){return{cx:t[0]-t[2]/2+(e.cx||0)*t[2],cy:t[1]-t[2]/2+(e.cy||0)*t[2],r:(e.r||0)*t[2]}}shadowDefinition(t){let e=[`highcharts-drop-shadow-${this.chartIndex}`,...Object.keys(t).map(e=>`${e}-${t[e]}`)].join("-").toLowerCase().replace(/[^a-z\d\-]/g,""),i=j({color:"#000000",offsetX:1,offsetY:1,opacity:.15,width:5},t);return this.defs.element.querySelector(`#${e}`)||this.definition({tagName:"filter",attributes:{id:e,filterUnits:i.filterUnits},children:this.getShadowFilterContent(i)}),e}getShadowFilterContent(t){return[{tagName:"feDropShadow",attributes:{dx:t.offsetX,dy:t.offsetY,"flood-color":t.color,"flood-opacity":Math.min(5*t.opacity,1),stdDeviation:t.width/2}}]}buildText(t){new h(t).buildSVG()}getContrast(t){let e=i.parse(t).rgba.map(t=>{let e=t/255;return e<=.03928?e/12.92:Math.pow((e+.055)/1.055,2.4)}),s=.2126*e[0]+.7152*e[1]+.0722*e[2];return 1.05/(s+.05)>(s+.05)/.05?"#FFFFFF":"#000000"}button(e,i,s,r,o={},n,a,h,l,d){let p=this.label(e,i,s,l,void 0,void 0,d,void 0,"button"),u=this.styledMode,g=arguments,f=0;o=j(c.global.buttonTheme,o),u&&(delete o.fill,delete o.stroke,delete o["stroke-width"]);let x=o.states||{},y=o.style||{};delete o.states,delete o.style;let b=[t.filterUserAttributes(o)],v=[y];return u||["hover","select","disabled"].forEach((e,i)=>{b.push(j(b[0],t.filterUserAttributes(g[i+5]||x[e]||{}))),v.push(b[i+1].style),delete b[i+1].style}),C(p.element,m?"mouseover":"mouseenter",function(){3!==f&&p.setState(1)}),C(p.element,m?"mouseout":"mouseleave",function(){3!==f&&p.setState(f)}),p.setState=(t=0)=>{if(1!==t&&(p.state=f=t),p.removeClass(/highcharts-button-(normal|hover|pressed|disabled)/).addClass("highcharts-button-"+["normal","hover","pressed","disabled"][t]),!u){p.attr(b[t]);let e=v[t];E(e)&&p.css(e)}},p.attr(b[0]),!u&&(p.css(L({cursor:"default"},y)),d&&p.text.css({pointerEvents:"none"})),p.on("touchstart",t=>t.stopPropagation()).on("click",function(t){3!==f&&r.call(p,t)})}crispLine(t,e){let[i,s]=t;return A(i[1])&&i[1]===s[1]&&(i[1]=s[1]=w(i[1],e)),A(i[2])&&i[2]===s[2]&&(i[2]=s[2]=w(i[2],e)),t}path(t){let e=this.styledMode?{}:{fill:"none"};return O(t)?e.d=t:E(t)&&L(e,t),this.createElement("path").attr(e)}circle(t,e,i){let s=E(t)?t:void 0===t?{}:{x:t,y:e,r:i},r=this.createElement("circle");return r.xSetter=r.ySetter=function(t,e,i){i.setAttribute("c"+e,t)},r.attr(s)}arc(t,e,i,s,r,o){let n;E(t)?(e=(n=t).y,i=n.r,s=n.innerR,r=n.start,o=n.end,t=n.x):n={innerR:s,start:r,end:o};let a=this.symbol("arc",t,e,i,i,n);return a.r=i,a}rect(t,e,i,s,r,o){let n=E(t)?t:void 0===t?{}:{x:t,y:e,r,width:Math.max(i||0,0),height:Math.max(s||0,0)},a=this.createElement("rect");return this.styledMode||(void 0!==o&&(n["stroke-width"]=o,L(n,a.crisp(n))),n.fill="none"),a.rSetter=function(t,e,i){a.r=t,k(i,{rx:t,ry:t})},a.rGetter=function(){return a.r||0},a.attr(n)}roundedRect(t){return this.symbol("roundedRect").attr(t)}setSize(t,e,i){this.width=t,this.height=e,this.boxWrapper.animate({width:t,height:e},{step:function(){this.attr({viewBox:"0 0 "+this.attr("width")+" "+this.attr("height")})},duration:B(i,!0)?void 0:0}),this.alignElements()}g(t){let e=this.createElement("g");return t?e.attr({class:"highcharts-"+t}):e}image(t,e,i,s,r,o){let n={preserveAspectRatio:"none"};D(e)&&(n.x=e),D(i)&&(n.y=i),D(s)&&(n.width=s),D(r)&&(n.height=r);let a=this.createElement("image").attr(n),h=function(e){a.attr({href:t}),o.call(a,e)};if(o){a.attr({href:"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="});let e=new S.Image;C(e,"load",h),e.src=t,e.complete&&h({})}else a.attr({href:t});return a}symbol(t,e,i,s,r,o){let n,a,h,l;let d=this,c=/^url\((.*?)\)$/,u=c.test(t),f=!u&&(this.symbols[t]?t:"circle"),m=f&&this.symbols[f];if(m)"number"==typeof e&&(a=m.call(this.symbols,e||0,i||0,s||0,r||0,o)),n=this.path(a),d.styledMode||n.attr("fill","none"),L(n,{symbolName:f||void 0,x:e,y:i,width:s,height:r}),o&&L(n,o);else if(u){h=t.match(c)[1];let s=n=this.image(h);s.imgwidth=B(o&&o.width,v[h]&&v[h].width),s.imgheight=B(o&&o.height,v[h]&&v[h].height),l=t=>t.attr({width:t.width,height:t.height}),["width","height"].forEach(t=>{s[`${t}Setter`]=function(t,e){this[e]=t;let{alignByTranslate:i,element:s,width:r,height:n,imgwidth:a,imgheight:h}=this,l="width"===e?a:h,d=1;o&&"within"===o.backgroundSize&&r&&n&&a&&h?(d=Math.min(r/a,n/h),k(s,{width:Math.round(a*d),height:Math.round(h*d)})):s&&l&&s.setAttribute(e,l),!i&&a&&h&&this.translate(((r||0)-a*d)/2,((n||0)-h*d)/2)}}),A(e)&&s.attr({x:e,y:i}),s.isImg=!0,s.symbolUrl=t,A(s.imgwidth)&&A(s.imgheight)?l(s):(s.attr({width:0,height:0}),M("img",{onload:function(){let t=p[d.chartIndex];0===this.width&&(T(this,{position:"absolute",top:"-999em"}),g.body.appendChild(this)),v[h]={width:this.width,height:this.height},s.imgwidth=this.width,s.imgheight=this.height,s.element&&l(s),this.parentNode&&this.parentNode.removeChild(this),d.imgCount--,d.imgCount||!t||t.hasLoaded||t.onload()},src:h}),this.imgCount++)}return n}clipRect(t,e,i,s){return this.rect(t,e,i,s,0)}text(t,e,i,s){let r={};if(s&&(this.allowHTML||!this.forExport))return this.html(t,e,i);r.x=Math.round(e||0),i&&(r.y=Math.round(i)),A(t)&&(r.text=t);let o=this.createElement("text").attr(r);return s&&(!this.forExport||this.allowHTML)||(o.xSetter=function(t,e,i){let s=i.getElementsByTagName("tspan"),r=i.getAttribute(e);for(let i=0,o;i<s.length;i++)(o=s[i]).getAttribute(e)===r&&o.setAttribute(e,t);i.setAttribute(e,t)}),o}fontMetrics(t){let e=R(o.prototype.getStyle.call(t,"font-size")||0),i=e<24?e+3:Math.round(1.2*e),s=Math.round(.8*i);return{h:i,b:s,f:e}}rotCorr(t,e,i){let s=t;return e&&i&&(s=Math.max(s*Math.cos(e*u),4)),{x:-t/3*Math.sin(e*u),y:s}}pathToSegments(t){let e=[],i=[],s={A:8,C:7,H:2,L:3,M:3,Q:5,S:5,T:3,V:2};for(let r=0;r<t.length;r++)I(i[0])&&D(t[r])&&i.length===s[i[0].toUpperCase()]&&t.splice(r,0,i[0].replace("M","L").replace("m","l")),"string"==typeof t[r]&&(i.length&&e.push(i.slice(0)),i.length=0),i.push(t[r]);return e.push(i.slice(0)),e}label(t,e,i,s,r,o,a,h,l){return new n(this,t,e,i,s,r,o,a,h,l)}alignElements(){this.alignedObjects.forEach(t=>t.align())}}return L(W.prototype,{Element:o,SVG_NS:b,escapes:{"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"},symbols:a,draw:y}),r.registerRendererType("svg",W,!0),W}),i(e,"Core/Renderer/HTML/HTMLElement.js",[e["Core/Renderer/HTML/AST.js"],e["Core/Globals.js"],e["Core/Renderer/SVG/SVGElement.js"],e["Core/Utilities.js"]],function(t,e,i,s){let{composed:r}=e,{attr:o,css:n,createElement:a,defined:h,extend:l,pInt:d,pushUnique:c}=s;function p(t,e,s){let r=this.div?.style||s.style;i.prototype[`${e}Setter`].call(this,t,e,s),r&&(r[e]=t)}let u=(t,e)=>{if(!t.div){let s=o(t.element,"class"),r=t.css,n=a("div",s?{className:s}:void 0,{position:"absolute",left:`${t.translateX||0}px`,top:`${t.translateY||0}px`,...t.styles,display:t.display,opacity:t.opacity,visibility:t.visibility},t.parentGroup?.div||e);t.classSetter=(t,e,i)=>{i.setAttribute("class",t),n.className=t},t.translateXSetter=t.translateYSetter=(e,i)=>{t[i]=e,n.style["translateX"===i?"left":"top"]=`${e}px`,t.doTransform=!0},t.opacitySetter=t.visibilitySetter=p,t.css=e=>(r.call(t,e),e.cursor&&(n.style.cursor=e.cursor),e.pointerEvents&&(n.style.pointerEvents=e.pointerEvents),t),t.on=function(){return i.prototype.on.apply({element:n,onEvents:t.onEvents},arguments),t},t.div=n}return t.div};class g extends i{static compose(t){c(r,this.compose)&&(t.prototype.html=function(t,e,i){return new g(this,"span").attr({text:t,x:Math.round(e),y:Math.round(i)})})}constructor(t,e){super(t,e),this.css({position:"absolute",...t.styledMode?{}:{fontFamily:t.style.fontFamily,fontSize:t.style.fontSize}}),this.element.style.whiteSpace="nowrap"}getSpanCorrection(t,e,i){this.xCorr=-t*i,this.yCorr=-e}css(t){let e;let{element:i}=this,s="SPAN"===i.tagName&&t&&"width"in t,r=s&&t.width;return s&&(delete t.width,this.textWidth=d(r)||void 0,e=!0),t?.textOverflow==="ellipsis"&&(t.whiteSpace="nowrap",t.overflow="hidden"),l(this.styles,t),n(i,t),e&&this.updateTransform(),this}htmlGetBBox(){let{element:t}=this;return{x:t.offsetLeft,y:t.offsetTop,width:t.offsetWidth,height:t.offsetHeight}}updateTransform(){if(!this.added){this.alignOnAdd=!0;return}let{element:t,renderer:e,rotation:i,rotationOriginX:s,rotationOriginY:r,styles:o,textAlign:a="left",textWidth:l,translateX:d=0,translateY:c=0,x:p=0,y:u=0}=this,g={left:0,center:.5,right:1}[a],f=o.whiteSpace;if(n(t,{marginLeft:`${d}px`,marginTop:`${c}px`}),"SPAN"===t.tagName){let o=[i,a,t.innerHTML,l,this.textAlign].join(","),d=-(this.parentGroup?.padding*1)||0,c,m=!1;if(l!==this.oldTextWidth){let e=this.textPxLength?this.textPxLength:(n(t,{width:"",whiteSpace:f||"nowrap"}),t.offsetWidth),s=l||0;(s>this.oldTextWidth||e>s)&&(/[ \-]/.test(t.textContent||t.innerText)||"ellipsis"===t.style.textOverflow)&&(n(t,{width:e>s||i?l+"px":"auto",display:"block",whiteSpace:f||"normal"}),this.oldTextWidth=l,m=!0)}this.hasBoxWidthChanged=m,o!==this.cTT&&(c=e.fontMetrics(t).b,h(i)&&(i!==(this.oldRotation||0)||a!==this.oldAlign)&&this.setSpanRotation(i,d,d),this.getSpanCorrection(!h(i)&&this.textPxLength||t.offsetWidth,c,g));let{xCorr:x=0,yCorr:y=0}=this,b=(s??p)-x-p-d,v=(r??u)-y-u-d;n(t,{left:`${p+x}px`,top:`${u+y}px`,transformOrigin:`${b}px ${v}px`}),this.cTT=o,this.oldRotation=i,this.oldAlign=a}}setSpanRotation(t,e,i){n(this.element,{transform:`rotate(${t}deg)`,transformOrigin:`${e}% ${i}px`})}add(t){let e;let i=this.renderer.box.parentNode,s=[];if(this.parentGroup=t,t&&!(e=t.div)){let r=t;for(;r;)s.push(r),r=r.parentGroup;for(let t of s.reverse())e=u(t,i)}return(e||i).appendChild(this.element),this.added=!0,this.alignOnAdd&&this.updateTransform(),this}textSetter(e){e!==this.textStr&&(delete this.bBox,delete this.oldTextWidth,t.setElementHTML(this.element,e??""),this.textStr=e,this.doTransform=!0)}alignSetter(t){this.alignValue=this.textAlign=t,this.doTransform=!0}xSetter(t,e){this[e]=t,this.doTransform=!0}}let f=g.prototype;return f.visibilitySetter=f.opacitySetter=p,f.ySetter=f.rotationSetter=f.rotationOriginXSetter=f.rotationOriginYSetter=f.xSetter,g}),i(e,"Core/Axis/AxisDefaults.js",[],function(){var t,e;return(e=t||(t={})).xAxis={alignTicks:!0,allowDecimals:void 0,panningEnabled:!0,zIndex:2,zoomEnabled:!0,dateTimeLabelFormats:{millisecond:{main:"%H:%M:%S.%L",range:!1},second:{main:"%H:%M:%S",range:!1},minute:{main:"%H:%M",range:!1},hour:{main:"%H:%M",range:!1},day:{main:"%e %b"},week:{main:"%e %b"},month:{main:"%b '%y"},year:{main:"%Y"}},endOnTick:!1,gridLineDashStyle:"Solid",gridZIndex:1,labels:{autoRotationLimit:80,distance:15,enabled:!0,indentation:10,overflow:"justify",reserveSpace:void 0,rotation:void 0,staggerLines:0,step:0,useHTML:!1,zIndex:7,style:{color:"#333333",cursor:"default",fontSize:"0.8em"}},maxPadding:.01,minorGridLineDashStyle:"Solid",minorTickLength:2,minorTickPosition:"outside",minorTicksPerMajor:5,minPadding:.01,offset:void 0,reversed:void 0,reversedStacks:!1,showEmpty:!0,showFirstLabel:!0,showLastLabel:!0,startOfWeek:1,startOnTick:!1,tickLength:10,tickPixelInterval:100,tickmarkPlacement:"between",tickPosition:"outside",title:{align:"middle",useHTML:!1,x:0,y:0,style:{color:"#666666",fontSize:"0.8em"}},visible:!0,minorGridLineColor:"#f2f2f2",minorGridLineWidth:1,minorTickColor:"#999999",lineColor:"#333333",lineWidth:1,gridLineColor:"#e6e6e6",gridLineWidth:void 0,tickColor:"#333333"},e.yAxis={reversedStacks:!0,endOnTick:!0,maxPadding:.05,minPadding:.05,tickPixelInterval:72,showLastLabel:!0,labels:{x:void 0},startOnTick:!0,title:{text:"Values"},stackLabels:{animation:{},allowOverlap:!1,enabled:!1,crop:!0,overflow:"justify",formatter:function(){let{numberFormatter:t}=this.axis.chart;return t(this.total||0,-1)},style:{color:"#000000",fontSize:"0.7em",fontWeight:"bold",textOutline:"1px contrast"}},gridLineWidth:1,lineWidth:0},t}),i(e,"Core/Foundation.js",[e["Core/Utilities.js"]],function(t){var e;let{addEvent:i,isFunction:s,objectEach:r,removeEvent:o}=t;return(e||(e={})).registerEventOptions=function(t,e){t.eventOptions=t.eventOptions||{},r(e.events,function(e,r){t.eventOptions[r]!==e&&(t.eventOptions[r]&&(o(t,r,t.eventOptions[r]),delete t.eventOptions[r]),s(e)&&(t.eventOptions[r]=e,i(t,r,e,{order:0})))})},e}),i(e,"Core/Axis/Tick.js",[e["Core/Templating.js"],e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e,i){let{deg2rad:s}=e,{clamp:r,correctFloat:o,defined:n,destroyObjectProperties:a,extend:h,fireEvent:l,isNumber:d,merge:c,objectEach:p,pick:u}=i;return class{constructor(t,e,i,s,r){this.isNew=!0,this.isNewLabel=!0,this.axis=t,this.pos=e,this.type=i||"",this.parameters=r||{},this.tickmarkOffset=this.parameters.tickmarkOffset,this.options=this.parameters.options,l(this,"init"),i||s||this.addLabel()}addLabel(){let e=this,i=e.axis,s=i.options,r=i.chart,a=i.categories,c=i.logarithmic,p=i.names,g=e.pos,f=u(e.options&&e.options.labels,s.labels),m=i.tickPositions,x=g===m[0],y=g===m[m.length-1],b=(!f.step||1===f.step)&&1===i.tickInterval,v=m.info,S=e.label,C,k,M,w=this.parameters.category||(a?u(a[g],p[g],g):g);c&&d(w)&&(w=o(c.lin2log(w))),i.dateTime&&(v?C=(k=r.time.resolveDTLFormat(s.dateTimeLabelFormats[!s.grid&&v.higherRanks[g]||v.unitName])).main:d(w)&&(C=i.dateTime.getXDateFormat(w,s.dateTimeLabelFormats||{}))),e.isFirst=x,e.isLast=y;let T={axis:i,chart:r,dateTimeLabelFormat:C,isFirst:x,isLast:y,pos:g,tick:e,tickPositionInfo:v,value:w};l(this,"labelFormat",T);let A=e=>f.formatter?f.formatter.call(e,e):f.format?(e.text=i.defaultLabelFormatter.call(e),t.format(f.format,e,r)):i.defaultLabelFormatter.call(e),P=A.call(T,T),L=k&&k.list;L?e.shortenLabel=function(){for(M=0;M<L.length;M++)if(h(T,{dateTimeLabelFormat:L[M]}),S.attr({text:A.call(T,T)}),S.getBBox().width<i.getSlotWidth(e)-2*(f.padding||0))return;S.attr({text:""})}:e.shortenLabel=void 0,b&&i._addedPlotLB&&e.moveLabel(P,f),n(S)||e.movedLabel?S&&S.textStr!==P&&!b&&(!S.textWidth||f.style.width||S.styles.width||S.css({width:null}),S.attr({text:P}),S.textPxLength=S.getBBox().width):(e.label=S=e.createLabel(P,f),e.rotation=0)}createLabel(t,e,i){let s=this.axis,r=s.chart,o=n(t)&&e.enabled?r.renderer.text(t,i?.x,i?.y,e.useHTML).add(s.labelGroup):void 0;return o&&(r.styledMode||o.css(c(e.style)),o.textPxLength=o.getBBox().width),o}destroy(){a(this,this.axis)}getPosition(t,e,i,s){let n=this.axis,a=n.chart,h=s&&a.oldChartHeight||a.chartHeight,d={x:t?o(n.translate(e+i,void 0,void 0,s)+n.transB):n.left+n.offset+(n.opposite?(s&&a.oldChartWidth||a.chartWidth)-n.right-n.left:0),y:t?h-n.bottom+n.offset-(n.opposite?n.height:0):o(h-n.translate(e+i,void 0,void 0,s)-n.transB)};return d.y=r(d.y,-1e9,1e9),l(this,"afterGetPosition",{pos:d}),d}getLabelPosition(t,e,i,r,o,a,h,d){let c,p;let g=this.axis,f=g.transA,m=g.isLinked&&g.linkedParent?g.linkedParent.reversed:g.reversed,x=g.staggerLines,y=g.tickRotCorr||{x:0,y:0},b=r||g.reserveSpaceDefault?0:-g.labelOffset*("center"===g.labelAlign?.5:1),v=o.distance,S={};return c=0===g.side?i.rotation?-v:-i.getBBox().height:2===g.side?y.y+v:Math.cos(i.rotation*s)*(y.y-i.getBBox(!1,0).height/2),n(o.y)&&(c=0===g.side&&g.horiz?o.y+c:o.y),t=t+u(o.x,[0,1,0,-1][g.side]*v)+b+y.x-(a&&r?a*f*(m?-1:1):0),e=e+c-(a&&!r?a*f*(m?1:-1):0),x&&(p=h/(d||1)%x,g.opposite&&(p=x-p-1),e+=p*(g.labelOffset/x)),S.x=t,S.y=Math.round(e),l(this,"afterGetLabelPosition",{pos:S,tickmarkOffset:a,index:h}),S}getLabelSize(){return this.label?this.label.getBBox()[this.axis.horiz?"height":"width"]:0}getMarkPath(t,e,i,s,r=!1,o){return o.crispLine([["M",t,e],["L",t+(r?0:-i),e+(r?i:0)]],s)}handleOverflow(t){let e=this.axis,i=e.options.labels,r=t.x,o=e.chart.chartWidth,n=e.chart.spacing,a=u(e.labelLeft,Math.min(e.pos,n[3])),h=u(e.labelRight,Math.max(e.isRadial?0:e.pos+e.len,o-n[1])),l=this.label,d=this.rotation,c={left:0,center:.5,right:1}[e.labelAlign||l.attr("align")],p=l.getBBox().width,g=e.getSlotWidth(this),f={},m=g,x=1,y,b,v;d||"justify"!==i.overflow?d<0&&r-c*p<a?v=Math.round(r/Math.cos(d*s)-a):d>0&&r+c*p>h&&(v=Math.round((o-r)/Math.cos(d*s))):(y=r-c*p,b=r+(1-c)*p,y<a?m=t.x+m*(1-c)-a:b>h&&(m=h-t.x+m*c,x=-1),(m=Math.min(g,m))<g&&"center"===e.labelAlign&&(t.x+=x*(g-m-c*(g-Math.min(p,m)))),(p>m||e.autoRotation&&(l.styles||{}).width)&&(v=m)),v&&(this.shortenLabel?this.shortenLabel():(f.width=Math.floor(v)+"px",(i.style||{}).textOverflow||(f.textOverflow="ellipsis"),l.css(f)))}moveLabel(t,e){let i=this,s=i.label,r=i.axis,o=!1,n;s&&s.textStr===t?(i.movedLabel=s,o=!0,delete i.label):p(r.ticks,function(e){o||e.isNew||e===i||!e.label||e.label.textStr!==t||(i.movedLabel=e.label,o=!0,e.labelPos=i.movedLabel.xy,delete e.label)}),!o&&(i.labelPos||s)&&(n=i.labelPos||s.xy,i.movedLabel=i.createLabel(t,e,n),i.movedLabel&&i.movedLabel.attr({opacity:0}))}render(t,e,i){let s=this.axis,r=s.horiz,n=this.pos,a=u(this.tickmarkOffset,s.tickmarkOffset),h=this.getPosition(r,n,a,e),d=h.x,c=h.y,p=s.pos,g=p+s.len,f=r?d:c;!s.chart.polar&&this.isNew&&(o(f)<p||f>g)&&(i=0);let m=u(i,this.label&&this.label.newOpacity,1);i=u(i,1),this.isActive=!0,this.renderGridLine(e,i),this.renderMark(h,i),this.renderLabel(h,e,m,t),this.isNew=!1,l(this,"afterRender")}renderGridLine(t,e){let i=this.axis,s=i.options,r={},o=this.pos,n=this.type,a=u(this.tickmarkOffset,i.tickmarkOffset),h=i.chart.renderer,l=this.gridLine,d,c=s.gridLineWidth,p=s.gridLineColor,g=s.gridLineDashStyle;"minor"===this.type&&(c=s.minorGridLineWidth,p=s.minorGridLineColor,g=s.minorGridLineDashStyle),l||(i.chart.styledMode||(r.stroke=p,r["stroke-width"]=c||0,r.dashstyle=g),n||(r.zIndex=1),t&&(e=0),this.gridLine=l=h.path().attr(r).addClass("highcharts-"+(n?n+"-":"")+"grid-line").add(i.gridGroup)),l&&(d=i.getPlotLinePath({value:o+a,lineWidth:l.strokeWidth(),force:"pass",old:t,acrossPanes:!1}))&&l[t||this.isNew?"attr":"animate"]({d:d,opacity:e})}renderMark(t,e){let i=this.axis,s=i.options,r=i.chart.renderer,o=this.type,n=i.tickSize(o?o+"Tick":"tick"),a=t.x,h=t.y,l=u(s["minor"!==o?"tickWidth":"minorTickWidth"],!o&&i.isXAxis?1:0),d=s["minor"!==o?"tickColor":"minorTickColor"],c=this.mark,p=!c;n&&(i.opposite&&(n[0]=-n[0]),c||(this.mark=c=r.path().addClass("highcharts-"+(o?o+"-":"")+"tick").add(i.axisGroup),i.chart.styledMode||c.attr({stroke:d,"stroke-width":l})),c[p?"attr":"animate"]({d:this.getMarkPath(a,h,n[0],c.strokeWidth(),i.horiz,r),opacity:e}))}renderLabel(t,e,i,s){let r=this.axis,o=r.horiz,n=r.options,a=this.label,h=n.labels,l=h.step,c=u(this.tickmarkOffset,r.tickmarkOffset),p=t.x,g=t.y,f=!0;a&&d(p)&&(a.xy=t=this.getLabelPosition(p,g,a,o,h,c,s,l),(!this.isFirst||this.isLast||n.showFirstLabel)&&(!this.isLast||this.isFirst||n.showLastLabel)?!o||h.step||h.rotation||e||0===i||this.handleOverflow(t):f=!1,l&&s%l&&(f=!1),f&&d(t.y)?(t.opacity=i,a[this.isNewLabel?"attr":"animate"](t).show(!0),this.isNewLabel=!1):(a.hide(),this.isNewLabel=!0))}replaceMovedLabel(){let t=this.label,e=this.axis;t&&!this.isNew&&(t.animate({opacity:0},void 0,t.destroy),delete this.label),e.isDirty=!0,this.label=this.movedLabel,delete this.movedLabel}}}),i(e,"Core/Axis/Axis.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Axis/AxisDefaults.js"],e["Core/Color/Color.js"],e["Core/Defaults.js"],e["Core/Foundation.js"],e["Core/Globals.js"],e["Core/Axis/Tick.js"],e["Core/Utilities.js"]],function(t,e,i,s,r,o,n,a){let{animObject:h}=t,{xAxis:l,yAxis:d}=e,{defaultOptions:c}=s,{registerEventOptions:p}=r,{deg2rad:u}=o,{arrayMax:g,arrayMin:f,clamp:m,correctFloat:x,defined:y,destroyObjectProperties:b,erase:v,error:S,extend:C,fireEvent:k,getClosestDistance:M,insertItem:w,isArray:T,isNumber:A,isString:P,merge:L,normalizeTickInterval:O,objectEach:D,pick:E,relativeLength:I,removeEvent:j,splat:B,syncTimeout:R}=a,z=(t,e)=>O(e,void 0,void 0,E(t.options.allowDecimals,e<.5||void 0!==t.tickAmount),!!t.tickAmount);C(c,{xAxis:l,yAxis:L(l,d)});class N{constructor(t,e,i){this.init(t,e,i)}init(t,e,i=this.coll){let s="xAxis"===i,r=this.isZAxis||(t.inverted?!s:s);this.chart=t,this.horiz=r,this.isXAxis=s,this.coll=i,k(this,"init",{userOptions:e}),this.opposite=E(e.opposite,this.opposite),this.side=E(e.side,this.side,r?this.opposite?0:2:this.opposite?1:3),this.setOptions(e);let o=this.options,n=o.labels;this.type??(this.type=o.type||"linear"),this.uniqueNames??(this.uniqueNames=o.uniqueNames??!0),k(this,"afterSetType"),this.userOptions=e,this.minPixelPadding=0,this.reversed=E(o.reversed,this.reversed),this.visible=o.visible,this.zoomEnabled=o.zoomEnabled,this.hasNames="category"===this.type||!0===o.categories,this.categories=T(o.categories)&&o.categories||(this.hasNames?[]:void 0),this.names||(this.names=[],this.names.keys={}),this.plotLinesAndBandsGroups={},this.positiveValuesOnly=!!this.logarithmic,this.isLinked=y(o.linkedTo),this.ticks={},this.labelEdge=[],this.minorTicks={},this.plotLinesAndBands=[],this.alternateBands={},this.len??(this.len=0),this.minRange=this.userMinRange=o.minRange||o.maxZoom,this.range=o.range,this.offset=o.offset||0,this.max=void 0,this.min=void 0;let a=E(o.crosshair,B(t.options.tooltip.crosshairs)[s?0:1]);this.crosshair=!0===a?{}:a,-1===t.axes.indexOf(this)&&(s?t.axes.splice(t.xAxis.length,0,this):t.axes.push(this),w(this,t[this.coll])),t.orderItems(this.coll),this.series=this.series||[],t.inverted&&!this.isZAxis&&s&&!y(this.reversed)&&(this.reversed=!0),this.labelRotation=A(n.rotation)?n.rotation:void 0,p(this,o),k(this,"afterInit")}setOptions(t){let e=this.horiz?{labels:{autoRotation:[-45],padding:4},margin:15}:{labels:{padding:1},title:{rotation:90*this.side}};this.options=L(e,c[this.coll],t),k(this,"afterSetOptions",{userOptions:t})}defaultLabelFormatter(){let t=this.axis,{numberFormatter:e}=this.chart,i=A(this.value)?this.value:NaN,s=t.chart.time,r=t.categories,o=this.dateTimeLabelFormat,n=c.lang,a=n.numericSymbols,h=n.numericSymbolMagnitude||1e3,l=t.logarithmic?Math.abs(i):t.tickInterval,d=a&&a.length,p,u;if(r)u=`${this.value}`;else if(o)u=s.dateFormat(o,i);else if(d&&a&&l>=1e3)for(;d--&&void 0===u;)l>=(p=Math.pow(h,d+1))&&10*i%p==0&&null!==a[d]&&0!==i&&(u=e(i/p,-1)+a[d]);return void 0===u&&(u=Math.abs(i)>=1e4?e(i,-1):e(i,-1,void 0,"")),u}getSeriesExtremes(){let t;let e=this;k(this,"getSeriesExtremes",null,function(){e.hasVisibleSeries=!1,e.dataMin=e.dataMax=e.threshold=void 0,e.softThreshold=!e.isXAxis,e.series.forEach(i=>{if(i.reserveSpace()){let s=i.options,r,o=s.threshold,n,a;if(e.hasVisibleSeries=!0,e.positiveValuesOnly&&0>=(o||0)&&(o=void 0),e.isXAxis)(r=i.xData)&&r.length&&(r=e.logarithmic?r.filter(t=>t>0):r,n=(t=i.getXExtremes(r)).min,a=t.max,A(n)||n instanceof Date||(r=r.filter(A),n=(t=i.getXExtremes(r)).min,a=t.max),r.length&&(e.dataMin=Math.min(E(e.dataMin,n),n),e.dataMax=Math.max(E(e.dataMax,a),a)));else{let t=i.applyExtremes();A(t.dataMin)&&(n=t.dataMin,e.dataMin=Math.min(E(e.dataMin,n),n)),A(t.dataMax)&&(a=t.dataMax,e.dataMax=Math.max(E(e.dataMax,a),a)),y(o)&&(e.threshold=o),(!s.softThreshold||e.positiveValuesOnly)&&(e.softThreshold=!1)}}})}),k(this,"afterGetSeriesExtremes")}translate(t,e,i,s,r,o){let n=this.linkedParent||this,a=s&&n.old?n.old.min:n.min;if(!A(a))return NaN;let h=n.minPixelPadding,l=(n.isOrdinal||n.brokenAxis?.hasBreaks||n.logarithmic&&r)&&n.lin2val,d=1,c=0,p=s&&n.old?n.old.transA:n.transA,u=0;return p||(p=n.transA),i&&(d*=-1,c=n.len),n.reversed&&(d*=-1,c-=d*(n.sector||n.len)),e?(u=(t=t*d+c-h)/p+a,l&&(u=n.lin2val(u))):(l&&(t=n.val2lin(t)),u=d*(t-a)*p+c+d*h+(A(o)?p*o:0),n.isRadial||(u=x(u))),u}toPixels(t,e){return this.translate(t,!1,!this.horiz,void 0,!0)+(e?0:this.pos)}toValue(t,e){return this.translate(t-(e?0:this.pos),!0,!this.horiz,void 0,!0)}getPlotLinePath(t){let e=this,i=e.chart,s=e.left,r=e.top,o=t.old,n=t.value,a=t.lineWidth,h=o&&i.oldChartHeight||i.chartHeight,l=o&&i.oldChartWidth||i.chartWidth,d=e.transB,c=t.translatedValue,p=t.force,u,g,f,x,y;function b(t,e,i){return"pass"!==p&&(t<e||t>i)&&(p?t=m(t,e,i):y=!0),t}let v={value:n,lineWidth:a,old:o,force:p,acrossPanes:t.acrossPanes,translatedValue:c};return k(this,"getPlotLinePath",v,function(t){u=f=(c=m(c=E(c,e.translate(n,void 0,void 0,o)),-1e9,1e9))+d,g=x=h-c-d,A(c)?e.horiz?(g=r,x=h-e.bottom+(e.options.isInternal?0:i.scrollablePixelsY||0),u=f=b(u,s,s+e.width)):(u=s,f=l-e.right+(i.scrollablePixelsX||0),g=x=b(g,r,r+e.height)):(y=!0,p=!1),t.path=y&&!p?void 0:i.renderer.crispLine([["M",u,g],["L",f,x]],a||1)}),v.path}getLinearTickPositions(t,e,i){let s,r,o;let n=x(Math.floor(e/t)*t),a=x(Math.ceil(i/t)*t),h=[];if(x(n+t)===n&&(o=20),this.single)return[e];for(s=n;s<=a&&(h.push(s),(s=x(s+t,o))!==r);)r=s;return h}getMinorTickInterval(){let{minorTicks:t,minorTickInterval:e}=this.options;return!0===t?E(e,"auto"):!1!==t?e:void 0}getMinorTickPositions(){let t=this.options,e=this.tickPositions,i=this.minorTickInterval,s=this.pointRangePadding||0,r=(this.min||0)-s,o=(this.max||0)+s,n=o-r,a=[],h;if(n&&n/i<this.len/3){let s=this.logarithmic;if(s)this.paddedTicks.forEach(function(t,e,r){e&&a.push.apply(a,s.getLogTickPositions(i,r[e-1],r[e],!0))});else if(this.dateTime&&"auto"===this.getMinorTickInterval())a=a.concat(this.getTimeTicks(this.dateTime.normalizeTimeTickInterval(i),r,o,t.startOfWeek));else for(h=r+(e[0]-r)%i;h<=o&&h!==a[0];h+=i)a.push(h)}return 0!==a.length&&this.trimTicks(a),a}adjustForMinRange(){let t=this.options,e=this.logarithmic,{max:i,min:s,minRange:r}=this,o,n,a,h;this.isXAxis&&void 0===r&&!e&&(r=y(t.min)||y(t.max)||y(t.floor)||y(t.ceiling)?null:Math.min(5*(M(this.series.map(t=>(t.xIncrement?t.xData?.slice(0,2):t.xData)||[]))||0),this.dataMax-this.dataMin)),A(i)&&A(s)&&A(r)&&i-s<r&&(n=this.dataMax-this.dataMin>=r,o=(r-i+s)/2,a=[s-o,E(t.min,s-o)],n&&(a[2]=e?e.log2lin(this.dataMin):this.dataMin),h=[(s=g(a))+r,E(t.max,s+r)],n&&(h[2]=e?e.log2lin(this.dataMax):this.dataMax),(i=f(h))-s<r&&(a[0]=i-r,a[1]=E(t.min,i-r),s=g(a))),this.minRange=r,this.min=s,this.max=i}getClosest(){let t,e;if(this.categories)e=1;else{let i=[];this.series.forEach(function(t){let s=t.closestPointRange;t.xData?.length===1?i.push(t.xData[0]):!t.noSharedTooltip&&y(s)&&t.reserveSpace()&&(e=y(e)?Math.min(e,s):s)}),i.length&&(i.sort((t,e)=>t-e),t=M([i]))}return t&&e?Math.min(t,e):t||e}nameToX(t){let e=T(this.options.categories),i=e?this.categories:this.names,s=t.options.x,r;return t.series.requireSorting=!1,y(s)||(s=this.uniqueNames&&i?e?i.indexOf(t.name):E(i.keys[t.name],-1):t.series.autoIncrement()),-1===s?!e&&i&&(r=i.length):r=s,void 0!==r?(this.names[r]=t.name,this.names.keys[t.name]=r):t.x&&(r=t.x),r}updateNames(){let t=this,e=this.names;e.length>0&&(Object.keys(e.keys).forEach(function(t){delete e.keys[t]}),e.length=0,this.minRange=this.userMinRange,(this.series||[]).forEach(e=>{e.xIncrement=null,(!e.points||e.isDirtyData)&&(t.max=Math.max(t.max,e.xData.length-1),e.processData(),e.generatePoints()),e.data.forEach(function(i,s){let r;i?.options&&void 0!==i.name&&void 0!==(r=t.nameToX(i))&&r!==i.x&&(i.x=r,e.xData[s]=r)})}))}setAxisTranslation(){let t=this,e=t.max-t.min,i=t.linkedParent,s=!!t.categories,r=t.isXAxis,o=t.axisPointRange||0,n,a=0,h=0,l,d=t.transA;(r||s||o)&&(n=t.getClosest(),i?(a=i.minPointOffset,h=i.pointRangePadding):t.series.forEach(function(e){let i=s?1:r?E(e.options.pointRange,n,0):t.axisPointRange||0,l=e.options.pointPlacement;if(o=Math.max(o,i),!t.single||s){let t=e.is("xrange")?!r:r;a=Math.max(a,t&&P(l)?0:i/2),h=Math.max(h,t&&"on"===l?0:i)}}),l=t.ordinal&&t.ordinal.slope&&n?t.ordinal.slope/n:1,t.minPointOffset=a*=l,t.pointRangePadding=h*=l,t.pointRange=Math.min(o,t.single&&s?1:e),r&&n&&(t.closestPointRange=n)),t.translationSlope=t.transA=d=t.staticScale||t.len/(e+h||1),t.transB=t.horiz?t.left:t.bottom,t.minPixelPadding=d*a,k(this,"afterSetAxisTranslation")}minFromRange(){let{max:t,min:e}=this;return A(t)&&A(e)&&t-e||void 0}setTickInterval(t){let{categories:e,chart:i,dataMax:s,dataMin:r,dateTime:o,isXAxis:n,logarithmic:a,options:h,softThreshold:l}=this,d=A(this.threshold)?this.threshold:void 0,c=this.minRange||0,{ceiling:p,floor:u,linkedTo:g,softMax:f,softMin:m}=h,b=A(g)&&i[this.coll]?.[g],v=h.tickPixelInterval,C=h.maxPadding,M=h.minPadding,w=0,T,P=A(h.tickInterval)&&h.tickInterval>=0?h.tickInterval:void 0,L,O,D,I;if(o||e||b||this.getTickAmount(),D=E(this.userMin,h.min),I=E(this.userMax,h.max),b?(this.linkedParent=b,T=b.getExtremes(),this.min=E(T.min,T.dataMin),this.max=E(T.max,T.dataMax),this.type!==b.type&&S(11,!0,i)):(l&&y(d)&&A(s)&&A(r)&&(r>=d?(L=d,M=0):s<=d&&(O=d,C=0)),this.min=E(D,L,r),this.max=E(I,O,s)),A(this.max)&&A(this.min)&&(a&&(this.positiveValuesOnly&&!t&&0>=Math.min(this.min,E(r,this.min))&&S(10,!0,i),this.min=x(a.log2lin(this.min),16),this.max=x(a.log2lin(this.max),16)),this.range&&A(r)&&(this.userMin=this.min=D=Math.max(r,this.minFromRange()||0),this.userMax=I=this.max,this.range=void 0)),k(this,"foundExtremes"),this.adjustForMinRange(),A(this.min)&&A(this.max)){if(!A(this.userMin)&&A(m)&&m<this.min&&(this.min=D=m),!A(this.userMax)&&A(f)&&f>this.max&&(this.max=I=f),e||this.axisPointRange||this.stacking?.usePercentage||b||!(w=this.max-this.min)||(!y(D)&&M&&(this.min-=w*M),y(I)||!C||(this.max+=w*C)),!A(this.userMin)&&A(u)&&(this.min=Math.max(this.min,u)),!A(this.userMax)&&A(p)&&(this.max=Math.min(this.max,p)),l&&A(r)&&A(s)){let t=d||0;!y(D)&&this.min<t&&r>=t?this.min=h.minRange?Math.min(t,this.max-c):t:!y(I)&&this.max>t&&s<=t&&(this.max=h.minRange?Math.max(t,this.min+c):t)}!i.polar&&this.min>this.max&&(y(h.min)?this.max=this.min:y(h.max)&&(this.min=this.max)),w=this.max-this.min}if(this.min!==this.max&&A(this.min)&&A(this.max)?b&&!P&&v===b.options.tickPixelInterval?this.tickInterval=P=b.tickInterval:this.tickInterval=E(P,this.tickAmount?w/Math.max(this.tickAmount-1,1):void 0,e?1:w*v/Math.max(this.len,v)):this.tickInterval=1,n&&!t){let t=this.min!==this.old?.min||this.max!==this.old?.max;this.series.forEach(function(e){e.forceCrop=e.forceCropping?.(),e.processData(t)}),k(this,"postProcessData",{hasExtremesChanged:t})}this.setAxisTranslation(),k(this,"initialAxisTranslation"),this.pointRange&&!P&&(this.tickInterval=Math.max(this.pointRange,this.tickInterval));let j=E(h.minTickInterval,o&&!this.series.some(t=>t.noSharedTooltip)?this.closestPointRange:0);!P&&this.tickInterval<j&&(this.tickInterval=j),o||a||P||(this.tickInterval=z(this,this.tickInterval)),this.tickAmount||(this.tickInterval=this.unsquish()),this.setTickPositions()}setTickPositions(){let t=this.options,e=t.tickPositions,i=t.tickPositioner,s=this.getMinorTickInterval(),r=!this.isPanning,o=r&&t.startOnTick,n=r&&t.endOnTick,a=[],h;if(this.tickmarkOffset=this.categories&&"between"===t.tickmarkPlacement&&1===this.tickInterval?.5:0,this.single=this.min===this.max&&y(this.min)&&!this.tickAmount&&(this.min%1==0||!1!==t.allowDecimals),e)a=e.slice();else if(A(this.min)&&A(this.max)){if(!this.ordinal?.positions&&(this.max-this.min)/this.tickInterval>Math.max(2*this.len,200))a=[this.min,this.max],S(19,!1,this.chart);else if(this.dateTime)a=this.getTimeTicks(this.dateTime.normalizeTimeTickInterval(this.tickInterval,t.units),this.min,this.max,t.startOfWeek,this.ordinal?.positions,this.closestPointRange,!0);else if(this.logarithmic)a=this.logarithmic.getLogTickPositions(this.tickInterval,this.min,this.max);else{let t=this.tickInterval,e=t;for(;e<=2*t;)if(a=this.getLinearTickPositions(this.tickInterval,this.min,this.max),this.tickAmount&&a.length>this.tickAmount)this.tickInterval=z(this,e*=1.1);else break}a.length>this.len&&(a=[a[0],a[a.length-1]])[0]===a[1]&&(a.length=1),i&&(this.tickPositions=a,(h=i.apply(this,[this.min,this.max]))&&(a=h))}this.tickPositions=a,this.minorTickInterval="auto"===s&&this.tickInterval?this.tickInterval/t.minorTicksPerMajor:s,this.paddedTicks=a.slice(0),this.trimTicks(a,o,n),!this.isLinked&&A(this.min)&&A(this.max)&&(this.single&&a.length<2&&!this.categories&&!this.series.some(t=>t.is("heatmap")&&"between"===t.options.pointPlacement)&&(this.min-=.5,this.max+=.5),e||h||this.adjustTickAmount()),k(this,"afterSetTickPositions")}trimTicks(t,e,i){let s=t[0],r=t[t.length-1],o=!this.isOrdinal&&this.minPointOffset||0;if(k(this,"trimTicks"),!this.isLinked){if(e&&s!==-1/0)this.min=s;else for(;this.min-o>t[0];)t.shift();if(i)this.max=r;else for(;this.max+o<t[t.length-1];)t.pop();0===t.length&&y(s)&&!this.options.tickPositions&&t.push((r+s)/2)}}alignToOthers(){let t;let e=this,i=e.chart,s=[this],r=e.options,o=i.options.chart,n="yAxis"===this.coll&&o.alignThresholds,a=[];if(e.thresholdAlignment=void 0,(!1!==o.alignTicks&&r.alignTicks||n)&&!1!==r.startOnTick&&!1!==r.endOnTick&&!e.logarithmic){let r=t=>{let{horiz:e,options:i}=t;return[e?i.left:i.top,i.width,i.height,i.pane].join(",")},o=r(this);i[this.coll].forEach(function(i){let{series:n}=i;n.length&&n.some(t=>t.visible)&&i!==e&&r(i)===o&&(t=!0,s.push(i))})}if(t&&n){s.forEach(t=>{let i=t.getThresholdAlignment(e);A(i)&&a.push(i)});let t=a.length>1?a.reduce((t,e)=>t+=e,0)/a.length:void 0;s.forEach(e=>{e.thresholdAlignment=t})}return t}getThresholdAlignment(t){if((!A(this.dataMin)||this!==t&&this.series.some(t=>t.isDirty||t.isDirtyData))&&this.getSeriesExtremes(),A(this.threshold)){let t=m((this.threshold-(this.dataMin||0))/((this.dataMax||0)-(this.dataMin||0)),0,1);return this.options.reversed&&(t=1-t),t}}getTickAmount(){let t=this.options,e=t.tickPixelInterval,i=t.tickAmount;y(t.tickInterval)||i||!(this.len<e)||this.isRadial||this.logarithmic||!t.startOnTick||!t.endOnTick||(i=2),!i&&this.alignToOthers()&&(i=Math.ceil(this.len/e)+1),i<4&&(this.finalTickAmt=i,i=5),this.tickAmount=i}adjustTickAmount(){let t=this,{finalTickAmt:e,max:i,min:s,options:r,tickPositions:o,tickAmount:n,thresholdAlignment:a}=t,h=o?.length,l=E(t.threshold,t.softThreshold?0:null),d,c,p=t.tickInterval,u,g=()=>o.push(x(o[o.length-1]+p)),f=()=>o.unshift(x(o[0]-p));if(A(a)&&(u=a<.5?Math.ceil(a*(n-1)):Math.floor(a*(n-1)),r.reversed&&(u=n-1-u)),t.hasData()&&A(s)&&A(i)){let a=()=>{t.transA*=(h-1)/(n-1),t.min=r.startOnTick?o[0]:Math.min(s,o[0]),t.max=r.endOnTick?o[o.length-1]:Math.max(i,o[o.length-1])};if(A(u)&&A(t.threshold)){for(;o[u]!==l||o.length!==n||o[0]>s||o[o.length-1]<i;){for(o.length=0,o.push(t.threshold);o.length<n;)void 0===o[u]||o[u]>t.threshold?f():g();if(p>8*t.tickInterval)break;p*=2}a()}else if(h<n){for(;o.length<n;)o.length%2||s===l?g():f();a()}if(y(e)){for(c=d=o.length;c--;)(3===e&&c%2==1||e<=2&&c>0&&c<d-1)&&o.splice(c,1);t.finalTickAmt=void 0}}}setScale(){let{coll:t,stacking:e}=this,i=!1,s=!1;this.series.forEach(t=>{i=i||t.isDirtyData||t.isDirty,s=s||t.xAxis&&t.xAxis.isDirty||!1}),this.setAxisSize();let r=this.len!==(this.old&&this.old.len);r||i||s||this.isLinked||this.forceRedraw||this.userMin!==(this.old&&this.old.userMin)||this.userMax!==(this.old&&this.old.userMax)||this.alignToOthers()?(e&&"yAxis"===t&&e.buildStacks(),this.forceRedraw=!1,this.userMinRange||(this.minRange=void 0),this.getSeriesExtremes(),this.setTickInterval(),e&&"xAxis"===t&&e.buildStacks(),this.isDirty||(this.isDirty=r||this.min!==this.old?.min||this.max!==this.old?.max)):e&&e.cleanStacks(),i&&delete this.allExtremes,k(this,"afterSetScale")}setExtremes(t,e,i=!0,s,r){this.series.forEach(t=>{delete t.kdTree}),k(this,"setExtremes",r=C(r,{min:t,max:e}),t=>{this.userMin=t.min,this.userMax=t.max,this.eventArgs=t,i&&this.chart.redraw(s)})}setAxisSize(){let t=this.chart,e=this.options,i=e.offsets||[0,0,0,0],s=this.horiz,r=this.width=Math.round(I(E(e.width,t.plotWidth-i[3]+i[1]),t.plotWidth)),o=this.height=Math.round(I(E(e.height,t.plotHeight-i[0]+i[2]),t.plotHeight)),n=this.top=Math.round(I(E(e.top,t.plotTop+i[0]),t.plotHeight,t.plotTop)),a=this.left=Math.round(I(E(e.left,t.plotLeft+i[3]),t.plotWidth,t.plotLeft));this.bottom=t.chartHeight-o-n,this.right=t.chartWidth-r-a,this.len=Math.max(s?r:o,0),this.pos=s?a:n}getExtremes(){let t=this.logarithmic;return{min:t?x(t.lin2log(this.min)):this.min,max:t?x(t.lin2log(this.max)):this.max,dataMin:this.dataMin,dataMax:this.dataMax,userMin:this.userMin,userMax:this.userMax}}getThreshold(t){let e=this.logarithmic,i=e?e.lin2log(this.min):this.min,s=e?e.lin2log(this.max):this.max;return null===t||t===-1/0?t=i:t===1/0?t=s:i>t?t=i:s<t&&(t=s),this.translate(t,0,1,0,1)}autoLabelAlign(t){let e=(E(t,0)-90*this.side+720)%360,i={align:"center"};return k(this,"autoLabelAlign",i,function(t){e>15&&e<165?t.align="right":e>195&&e<345&&(t.align="left")}),i.align}tickSize(t){let e=this.options,i=E(e["tick"===t?"tickWidth":"minorTickWidth"],"tick"===t&&this.isXAxis&&!this.categories?1:0),s=e["tick"===t?"tickLength":"minorTickLength"],r;i&&s&&("inside"===e[t+"Position"]&&(s=-s),r=[s,i]);let o={tickSize:r};return k(this,"afterTickSize",o),o.tickSize}labelMetrics(){let t=this.chart.renderer,e=this.ticks,i=e[Object.keys(e)[0]]||{};return this.chart.renderer.fontMetrics(i.label||i.movedLabel||t.box)}unsquish(){let t=this.options.labels,e=t.padding||0,i=this.horiz,s=this.tickInterval,r=this.len/(((this.categories?1:0)+this.max-this.min)/s),o=t.rotation,n=x(.8*this.labelMetrics().h),a=Math.max(this.max-this.min,0),h=function(t){let i=(t+2*e)/(r||1);return(i=i>1?Math.ceil(i):1)*s>a&&t!==1/0&&r!==1/0&&a&&(i=Math.ceil(a/s)),x(i*s)},l=s,d,c=Number.MAX_VALUE,p;if(i){if(!t.staggerLines&&(A(o)?p=[o]:r<t.autoRotationLimit&&(p=t.autoRotation)),p){let t,e;for(let i of p)(i===o||i&&i>=-90&&i<=90)&&(e=(t=h(Math.abs(n/Math.sin(u*i))))+Math.abs(i/360))<c&&(c=e,d=i,l=t)}}else l=h(.75*n);return this.autoRotation=p,this.labelRotation=E(d,A(o)?o:0),t.step?s:l}getSlotWidth(t){let e=this.chart,i=this.horiz,s=this.options.labels,r=Math.max(this.tickPositions.length-(this.categories?0:1),1),o=e.margin[3];if(t&&A(t.slotWidth))return t.slotWidth;if(i&&s.step<2)return s.rotation?0:(this.staggerLines||1)*this.len/r;if(!i){let t=s.style.width;if(void 0!==t)return parseInt(String(t),10);if(o)return o-e.spacing[3]}return .33*e.chartWidth}renderUnsquish(){let t=this.chart,e=t.renderer,i=this.tickPositions,s=this.ticks,r=this.options.labels,o=r.style,n=this.horiz,a=this.getSlotWidth(),h=Math.max(1,Math.round(a-(n?2*(r.padding||0):r.distance||0))),l={},d=this.labelMetrics(),c=o.textOverflow,p,u,g=0,f,m;if(P(r.rotation)||(l.rotation=r.rotation||0),i.forEach(function(t){let e=s[t];e.movedLabel&&e.replaceMovedLabel(),e&&e.label&&e.label.textPxLength>g&&(g=e.label.textPxLength)}),this.maxLabelLength=g,this.autoRotation)g>h&&g>d.h?l.rotation=this.labelRotation:this.labelRotation=0;else if(a&&(p=h,!c))for(u="clip",m=i.length;!n&&m--;)(f=s[i[m]].label)&&("ellipsis"===f.styles.textOverflow?f.css({textOverflow:"clip"}):f.textPxLength>a&&f.css({width:a+"px"}),f.getBBox().height>this.len/i.length-(d.h-d.f)&&(f.specificTextOverflow="ellipsis"));l.rotation&&(p=g>.5*t.chartHeight?.33*t.chartHeight:g,c||(u="ellipsis")),this.labelAlign=r.align||this.autoLabelAlign(this.labelRotation),this.labelAlign&&(l.align=this.labelAlign),i.forEach(function(t){let e=s[t],i=e&&e.label,r=o.width,n={};i&&(i.attr(l),e.shortenLabel?e.shortenLabel():p&&!r&&"nowrap"!==o.whiteSpace&&(p<i.textPxLength||"SPAN"===i.element.tagName)?(n.width=p+"px",c||(n.textOverflow=i.specificTextOverflow||u),i.css(n)):!i.styles.width||n.width||r||i.css({width:null}),delete i.specificTextOverflow,e.rotation=l.rotation)},this),this.tickRotCorr=e.rotCorr(d.b,this.labelRotation||0,0!==this.side)}hasData(){return this.series.some(function(t){return t.hasData()})||this.options.showEmpty&&y(this.min)&&y(this.max)}addTitle(t){let e;let i=this.chart.renderer,s=this.horiz,r=this.opposite,o=this.options.title,n=this.chart.styledMode;this.axisTitle||((e=o.textAlign)||(e=(s?{low:"left",middle:"center",high:"right"}:{low:r?"right":"left",middle:"center",high:r?"left":"right"})[o.align]),this.axisTitle=i.text(o.text||"",0,0,o.useHTML).attr({zIndex:7,rotation:o.rotation||0,align:e}).addClass("highcharts-axis-title"),n||this.axisTitle.css(L(o.style)),this.axisTitle.add(this.axisGroup),this.axisTitle.isNew=!0),n||o.style.width||this.isRadial||this.axisTitle.css({width:this.len+"px"}),this.axisTitle[t?"show":"hide"](t)}generateTick(t){let e=this.ticks;e[t]?e[t].addLabel():e[t]=new n(this,t)}createGroups(){let{axisParent:t,chart:e,coll:i,options:s}=this,r=e.renderer,o=(e,o,n)=>r.g(e).attr({zIndex:n}).addClass(`highcharts-${i.toLowerCase()}${o} `+(this.isRadial?`highcharts-radial-axis${o} `:"")+(s.className||"")).add(t);this.axisGroup||(this.gridGroup=o("grid","-grid",s.gridZIndex),this.axisGroup=o("axis","",s.zIndex),this.labelGroup=o("axis-labels","-labels",s.labels.zIndex))}getOffset(){let t=this,{chart:e,horiz:i,options:s,side:r,ticks:o,tickPositions:n,coll:a}=t,h=e.inverted&&!t.isZAxis?[1,0,3,2][r]:r,l=t.hasData(),d=s.title,c=s.labels,p=A(s.crossing),u=e.axisOffset,g=e.clipOffset,f=[-1,1,1,-1][r],m,x=0,b,v=0,S=0,C,M;if(t.showAxis=m=l||s.showEmpty,t.staggerLines=t.horiz&&c.staggerLines||void 0,t.createGroups(),l||t.isLinked?(n.forEach(function(e){t.generateTick(e)}),t.renderUnsquish(),t.reserveSpaceDefault=0===r||2===r||({1:"left",3:"right"})[r]===t.labelAlign,E(c.reserveSpace,!p&&null,"center"===t.labelAlign||null,t.reserveSpaceDefault)&&n.forEach(function(t){S=Math.max(o[t].getLabelSize(),S)}),t.staggerLines&&(S*=t.staggerLines),t.labelOffset=S*(t.opposite?-1:1)):D(o,function(t,e){t.destroy(),delete o[e]}),d?.text&&!1!==d.enabled&&(t.addTitle(m),m&&!p&&!1!==d.reserveSpace&&(t.titleOffset=x=t.axisTitle.getBBox()[i?"height":"width"],v=y(b=d.offset)?0:E(d.margin,i?5:10))),t.renderLine(),t.offset=f*E(s.offset,u[r]?u[r]+(s.margin||0):0),t.tickRotCorr=t.tickRotCorr||{x:0,y:0},M=0===r?-t.labelMetrics().h:2===r?t.tickRotCorr.y:0,C=Math.abs(S)+v,S&&(C-=M,C+=f*(i?E(c.y,t.tickRotCorr.y+f*c.distance):E(c.x,f*c.distance))),t.axisTitleMargin=E(b,C),t.getMaxLabelDimensions&&(t.maxLabelDimensions=t.getMaxLabelDimensions(o,n)),"colorAxis"!==a&&g){let e=this.tickSize("tick");u[r]=Math.max(u[r],(t.axisTitleMargin||0)+x+f*t.offset,C,n&&n.length&&e?e[0]+f*t.offset:0);let i=!t.axisLine||s.offset?0:t.axisLine.strokeWidth()/2;g[h]=Math.max(g[h],i)}k(this,"afterGetOffset")}getLinePath(t){let e=this.chart,i=this.opposite,s=this.offset,r=this.horiz,o=this.left+(i?this.width:0)+s,n=e.chartHeight-this.bottom-(i?this.height:0)+s;return i&&(t*=-1),e.renderer.crispLine([["M",r?this.left:o,r?n:this.top],["L",r?e.chartWidth-this.right:o,r?n:e.chartHeight-this.bottom]],t)}renderLine(){this.axisLine||(this.axisLine=this.chart.renderer.path().addClass("highcharts-axis-line").add(this.axisGroup),this.chart.styledMode||this.axisLine.attr({stroke:this.options.lineColor,"stroke-width":this.options.lineWidth,zIndex:7}))}getTitlePosition(t){let e=this.horiz,i=this.left,s=this.top,r=this.len,o=this.options.title,n=e?i:s,a=this.opposite,h=this.offset,l=o.x,d=o.y,c=this.chart.renderer.fontMetrics(t),p=t?Math.max(t.getBBox(!1,0).height-c.h-1,0):0,u={low:n+(e?0:r),middle:n+r/2,high:n+(e?r:0)}[o.align],g=(e?s+this.height:i)+(e?1:-1)*(a?-1:1)*(this.axisTitleMargin||0)+[-p,p,c.f,-p][this.side],f={x:e?u+l:g+(a?this.width:0)+h+l,y:e?g+d-(a?this.height:0)+h:u+d};return k(this,"afterGetTitlePosition",{titlePosition:f}),f}renderMinorTick(t,e){let i=this.minorTicks;i[t]||(i[t]=new n(this,t,"minor")),e&&i[t].isNew&&i[t].render(null,!0),i[t].render(null,!1,1)}renderTick(t,e,i){let s=this.isLinked,r=this.ticks;(!s||t>=this.min&&t<=this.max||this.grid&&this.grid.isColumn)&&(r[t]||(r[t]=new n(this,t)),i&&r[t].isNew&&r[t].render(e,!0,-1),r[t].render(e))}render(){let t,e;let i=this,s=i.chart,r=i.logarithmic,a=s.renderer,l=i.options,d=i.isLinked,c=i.tickPositions,p=i.axisTitle,u=i.ticks,g=i.minorTicks,f=i.alternateBands,m=l.stackLabels,x=l.alternateGridColor,y=l.crossing,b=i.tickmarkOffset,v=i.axisLine,S=i.showAxis,C=h(a.globalAnimation);if(i.labelEdge.length=0,i.overlap=!1,[u,g,f].forEach(function(t){D(t,function(t){t.isActive=!1})}),A(y)){let t=this.isXAxis?s.yAxis[0]:s.xAxis[0],e=[1,-1,-1,1][this.side];if(t){let s=t.toPixels(y,!0);i.horiz&&(s=t.len-s),i.offset=e*s}}if(i.hasData()||d){let a=i.chart.hasRendered&&i.old&&A(i.old.min);i.minorTickInterval&&!i.categories&&i.getMinorTickPositions().forEach(function(t){i.renderMinorTick(t,a)}),c.length&&(c.forEach(function(t,e){i.renderTick(t,e,a)}),b&&(0===i.min||i.single)&&(u[-1]||(u[-1]=new n(i,-1,null,!0)),u[-1].render(-1))),x&&c.forEach(function(n,a){e=void 0!==c[a+1]?c[a+1]+b:i.max-b,a%2==0&&n<i.max&&e<=i.max+(s.polar?-b:b)&&(f[n]||(f[n]=new o.PlotLineOrBand(i,{})),t=n+b,f[n].options={from:r?r.lin2log(t):t,to:r?r.lin2log(e):e,color:x,className:"highcharts-alternate-grid"},f[n].render(),f[n].isActive=!0)}),i._addedPlotLB||(i._addedPlotLB=!0,(l.plotLines||[]).concat(l.plotBands||[]).forEach(function(t){i.addPlotBandOrLine(t)}))}[u,g,f].forEach(function(t){let e=[],i=C.duration;D(t,function(t,i){t.isActive||(t.render(i,!1,0),t.isActive=!1,e.push(i))}),R(function(){let i=e.length;for(;i--;)t[e[i]]&&!t[e[i]].isActive&&(t[e[i]].destroy(),delete t[e[i]])},t!==f&&s.hasRendered&&i?i:0)}),v&&(v[v.isPlaced?"animate":"attr"]({d:this.getLinePath(v.strokeWidth())}),v.isPlaced=!0,v[S?"show":"hide"](S)),p&&S&&(p[p.isNew?"attr":"animate"](i.getTitlePosition(p)),p.isNew=!1),m&&m.enabled&&i.stacking&&i.stacking.renderStackTotals(),i.old={len:i.len,max:i.max,min:i.min,transA:i.transA,userMax:i.userMax,userMin:i.userMin},i.isDirty=!1,k(this,"afterRender")}redraw(){this.visible&&(this.render(),this.plotLinesAndBands.forEach(function(t){t.render()})),this.series.forEach(function(t){t.isDirty=!0})}getKeepProps(){return this.keepProps||N.keepProps}destroy(t){let e=this,i=e.plotLinesAndBands,s=this.eventOptions;if(k(this,"destroy",{keepEvents:t}),t||j(e),[e.ticks,e.minorTicks,e.alternateBands].forEach(function(t){b(t)}),i){let t=i.length;for(;t--;)i[t].destroy()}for(let t in["axisLine","axisTitle","axisGroup","gridGroup","labelGroup","cross","scrollbar"].forEach(function(t){e[t]&&(e[t]=e[t].destroy())}),e.plotLinesAndBandsGroups)e.plotLinesAndBandsGroups[t]=e.plotLinesAndBandsGroups[t].destroy();D(e,function(t,i){-1===e.getKeepProps().indexOf(i)&&delete e[i]}),this.eventOptions=s}drawCrosshair(t,e){let s=this.crosshair,r=E(s&&s.snap,!0),o=this.chart,n,a,h,l=this.cross,d;if(k(this,"drawCrosshair",{e:t,point:e}),t||(t=this.cross&&this.cross.e),s&&!1!==(y(e)||!r)){if(r?y(e)&&(a=E("colorAxis"!==this.coll?e.crosshairPos:null,this.isXAxis?e.plotX:this.len-e.plotY)):a=t&&(this.horiz?t.chartX-this.pos:this.len-t.chartY+this.pos),y(a)&&(d={value:e&&(this.isXAxis?e.x:E(e.stackY,e.y)),translatedValue:a},o.polar&&C(d,{isCrosshair:!0,chartX:t&&t.chartX,chartY:t&&t.chartY,point:e}),n=this.getPlotLinePath(d)||null),!y(n)){this.hideCrosshair();return}h=this.categories&&!this.isRadial,l||(this.cross=l=o.renderer.path().addClass("highcharts-crosshair highcharts-crosshair-"+(h?"category ":"thin ")+(s.className||"")).attr({zIndex:E(s.zIndex,2)}).add(),!o.styledMode&&(l.attr({stroke:s.color||(h?i.parse("#ccd3ff").setOpacity(.25).get():"#cccccc"),"stroke-width":E(s.width,1)}).css({"pointer-events":"none"}),s.dashStyle&&l.attr({dashstyle:s.dashStyle}))),l.show().attr({d:n}),h&&!s.width&&l.attr({"stroke-width":this.transA}),this.cross.e=t}else this.hideCrosshair();k(this,"afterDrawCrosshair",{e:t,point:e})}hideCrosshair(){this.cross&&this.cross.hide(),k(this,"afterHideCrosshair")}update(t,e){let i=this.chart;t=L(this.userOptions,t),this.destroy(!0),this.init(i,t),i.isDirtyBox=!0,E(e,!0)&&i.redraw()}remove(t){let e=this.chart,i=this.coll,s=this.series,r=s.length;for(;r--;)s[r]&&s[r].remove(!1);v(e.axes,this),v(e[i]||[],this),e.orderItems(i),this.destroy(),e.isDirtyBox=!0,E(t,!0)&&e.redraw()}setTitle(t,e){this.update({title:t},e)}setCategories(t,e){this.update({categories:t},e)}}return N.keepProps=["coll","extKey","hcEvents","len","names","series","userMax","userMin"],N}),i(e,"Core/Axis/DateTimeAxis.js",[e["Core/Utilities.js"]],function(t){var e;let{addEvent:i,getMagnitude:s,normalizeTickInterval:r,timeUnits:o}=t;return function(t){function e(){return this.chart.time.getTimeTicks.apply(this.chart.time,arguments)}function n(){if("datetime"!==this.type){this.dateTime=void 0;return}this.dateTime||(this.dateTime=new a(this))}t.compose=function(t){return t.keepProps.includes("dateTime")||(t.keepProps.push("dateTime"),t.prototype.getTimeTicks=e,i(t,"afterSetType",n)),t};class a{constructor(t){this.axis=t}normalizeTimeTickInterval(t,e){let i=e||[["millisecond",[1,2,5,10,20,25,50,100,200,500]],["second",[1,2,5,10,15,30]],["minute",[1,2,5,10,15,30]],["hour",[1,2,3,4,6,8,12]],["day",[1,2]],["week",[1,2]],["month",[1,2,3,4,6]],["year",null]],n=i[i.length-1],a=o[n[0]],h=n[1],l;for(l=0;l<i.length&&(a=o[(n=i[l])[0]],h=n[1],!i[l+1]||!(t<=(a*h[h.length-1]+o[i[l+1][0]])/2));l++);a===o.year&&t<5*a&&(h=[1,2,5]);let d=r(t/a,h,"year"===n[0]?Math.max(s(t/a),1):1);return{unitRange:a,count:d,unitName:n[0]}}getXDateFormat(t,e){let{axis:i}=this,s=i.chart.time;return i.closestPointRange?s.getDateFormat(i.closestPointRange,t,i.options.startOfWeek,e)||s.resolveDTLFormat(e.year).main:s.resolveDTLFormat(e.day).main}}t.Additions=a}(e||(e={})),e}),i(e,"Core/Axis/LogarithmicAxis.js",[e["Core/Utilities.js"]],function(t){var e;let{addEvent:i,normalizeTickInterval:s,pick:r}=t;return function(t){function e(){"logarithmic"!==this.type?this.logarithmic=void 0:this.logarithmic??(this.logarithmic=new n(this))}function o(){let t=this.logarithmic;t&&(this.lin2val=function(e){return t.lin2log(e)},this.val2lin=function(e){return t.log2lin(e)})}t.compose=function(t){return t.keepProps.includes("logarithmic")||(t.keepProps.push("logarithmic"),i(t,"afterSetType",e),i(t,"afterInit",o)),t};class n{constructor(t){this.axis=t}getLogTickPositions(t,e,i,o){let n=this.axis,a=n.len,h=n.options,l=[];if(o||(this.minorAutoInterval=void 0),t>=.5)t=Math.round(t),l=n.getLinearTickPositions(t,e,i);else if(t>=.08){let s,r,n,a,h,d,c;let p=Math.floor(e);for(s=t>.3?[1,2,4]:t>.15?[1,2,4,6,8]:[1,2,3,4,5,6,7,8,9],r=p;r<i+1&&!c;r++)for(n=0,a=s.length;n<a&&!c;n++)(h=this.log2lin(this.lin2log(r)*s[n]))>e&&(!o||d<=i)&&void 0!==d&&l.push(d),d>i&&(c=!0),d=h}else{let d=this.lin2log(e),c=this.lin2log(i),p=o?n.getMinorTickInterval():h.tickInterval,u=h.tickPixelInterval/(o?5:1),g=o?a/n.tickPositions.length:a;t=s(t=r("auto"===p?null:p,this.minorAutoInterval,(c-d)*u/(g||1))),l=n.getLinearTickPositions(t,d,c).map(this.log2lin),o||(this.minorAutoInterval=t/5)}return o||(n.tickInterval=t),l}lin2log(t){return Math.pow(10,t)}log2lin(t){return Math.log(t)/Math.LN10}}t.Additions=n}(e||(e={})),e}),i(e,"Core/Axis/PlotLineOrBand/PlotLineOrBandAxis.js",[e["Core/Utilities.js"]],function(t){var e;let{erase:i,extend:s,isNumber:r}=t;return function(t){let e;function o(t){return this.addPlotBandOrLine(t,"plotBands")}function n(t,i){let s=this.userOptions,r=new e(this,t);if(this.visible&&(r=r.render()),r){if(this._addedPlotLB||(this._addedPlotLB=!0,(s.plotLines||[]).concat(s.plotBands||[]).forEach(t=>{this.addPlotBandOrLine(t)})),i){let e=s[i]||[];e.push(t),s[i]=e}this.plotLinesAndBands.push(r)}return r}function a(t){return this.addPlotBandOrLine(t,"plotLines")}function h(t,e,i){i=i||this.options;let s=this.getPlotLinePath({value:e,force:!0,acrossPanes:i.acrossPanes}),o=[],n=this.horiz,a=!r(this.min)||!r(this.max)||t<this.min&&e<this.min||t>this.max&&e>this.max,h=this.getPlotLinePath({value:t,force:!0,acrossPanes:i.acrossPanes}),l,d=1,c;if(h&&s)for(a&&(c=h.toString()===s.toString(),d=0),l=0;l<h.length;l+=2){let t=h[l],e=h[l+1],i=s[l],r=s[l+1];("M"===t[0]||"L"===t[0])&&("M"===e[0]||"L"===e[0])&&("M"===i[0]||"L"===i[0])&&("M"===r[0]||"L"===r[0])&&(n&&i[1]===t[1]?(i[1]+=d,r[1]+=d):n||i[2]!==t[2]||(i[2]+=d,r[2]+=d),o.push(["M",t[1],t[2]],["L",e[1],e[2]],["L",r[1],r[2]],["L",i[1],i[2]],["Z"])),o.isFlat=c}return o}function l(t){this.removePlotBandOrLine(t)}function d(t){let e=this.plotLinesAndBands,s=this.options,r=this.userOptions;if(e){let o=e.length;for(;o--;)e[o].id===t&&e[o].destroy();[s.plotLines||[],r.plotLines||[],s.plotBands||[],r.plotBands||[]].forEach(function(e){for(o=e.length;o--;)(e[o]||{}).id===t&&i(e,e[o])})}}function c(t){this.removePlotBandOrLine(t)}t.compose=function(t,i){let r=i.prototype;return r.addPlotBand||(e=t,s(r,{addPlotBand:o,addPlotLine:a,addPlotBandOrLine:n,getPlotBandPath:h,removePlotBand:l,removePlotLine:c,removePlotBandOrLine:d})),i}}(e||(e={})),e}),i(e,"Core/Axis/PlotLineOrBand/PlotLineOrBand.js",[e["Core/Axis/PlotLineOrBand/PlotLineOrBandAxis.js"],e["Core/Utilities.js"]],function(t,e){let{addEvent:i,arrayMax:s,arrayMin:r,defined:o,destroyObjectProperties:n,erase:a,fireEvent:h,merge:l,objectEach:d,pick:c}=e;class p{static compose(e,s){return i(e,"afterInit",function(){this.labelCollectors.push(()=>{let t=[];for(let e of this.axes)for(let{label:i,options:s}of e.plotLinesAndBands)i&&!s?.label?.allowOverlap&&t.push(i);return t})}),t.compose(p,s)}constructor(t,e){this.axis=t,this.options=e,this.id=e.id}render(){h(this,"render");let{axis:t,options:e}=this,{horiz:i,logarithmic:s}=t,{color:r,events:n,zIndex:a=0}=e,p={},u=t.chart.renderer,g=e.to,f=e.from,m=e.value,x=e.borderWidth,y=e.label,{label:b,svgElem:v}=this,S=[],C,k=o(f)&&o(g),M=o(m),w=!v,T={class:"highcharts-plot-"+(k?"band ":"line ")+(e.className||"")},A=k?"bands":"lines";if(!t.chart.styledMode&&(M?(T.stroke=r||"#999999",T["stroke-width"]=c(e.width,1),e.dashStyle&&(T.dashstyle=e.dashStyle)):k&&(T.fill=r||"#e6e9ff",x&&(T.stroke=e.borderColor,T["stroke-width"]=x))),p.zIndex=a,A+="-"+a,(C=t.plotLinesAndBandsGroups[A])||(t.plotLinesAndBandsGroups[A]=C=u.g("plot-"+A).attr(p).add()),v||(this.svgElem=v=u.path().attr(T).add(C)),o(m))S=t.getPlotLinePath({value:s?.log2lin(m)??m,lineWidth:v.strokeWidth(),acrossPanes:e.acrossPanes});else{if(!(o(f)&&o(g)))return;S=t.getPlotBandPath(s?.log2lin(f)??f,s?.log2lin(g)??g,e)}return!this.eventsAdded&&n&&(d(n,(t,e)=>{v?.on(e,t=>{n[e].apply(this,[t])})}),this.eventsAdded=!0),(w||!v.d)&&S?.length?v.attr({d:S}):v&&(S?(v.show(),v.animate({d:S})):v.d&&(v.hide(),b&&(this.label=b=b.destroy()))),y&&(o(y.text)||o(y.formatter))&&S?.length&&t.width>0&&t.height>0&&!S.isFlat?(y=l({align:i&&k?"center":void 0,x:i?!k&&4:10,verticalAlign:!i&&k?"middle":void 0,y:i?k?16:10:k?6:-4,rotation:i&&!k?90:0,...k?{inside:!0}:{}},y),this.renderLabel(y,S,k,a)):b&&b.hide(),this}renderLabel(t,e,i,n){let a=this.axis,h=a.chart.renderer,d=t.inside,c=this.label;c||(this.label=c=h.text(this.getLabelText(t),0,0,t.useHTML).attr({align:t.textAlign||t.align,rotation:t.rotation,class:"highcharts-plot-"+(i?"band":"line")+"-label "+(t.className||""),zIndex:n}),a.chart.styledMode||c.css(l({fontSize:"0.8em",textOverflow:i&&!d?"":"ellipsis"},t.style)),c.add());let p=e.xBounds||[e[0][1],e[1][1],i?e[2][1]:e[0][1]],u=e.yBounds||[e[0][2],e[1][2],i?e[2][2]:e[0][2]],g=r(p),f=r(u),m=s(p)-g;c.align(t,!1,{x:g,y:f,width:m,height:s(u)-f}),(!c.alignValue||"left"===c.alignValue||o(d))&&c.css({width:(t.style?.width||(i&&d?m:90===c.rotation?a.height-(c.alignAttr.y-a.top):(t.clip?a.width:a.chart.chartWidth)-(c.alignAttr.x-a.left)))+"px"}),c.show(!0)}getLabelText(t){return o(t.formatter)?t.formatter.call(this):t.text}destroy(){a(this.axis.plotLinesAndBands,this),delete this.axis,n(this)}}return p}),i(e,"Core/Tooltip.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Templating.js"],e["Core/Globals.js"],e["Core/Renderer/RendererUtilities.js"],e["Core/Renderer/RendererRegistry.js"],e["Core/Utilities.js"]],function(t,e,i,s,r,o){var n;let{animObject:a}=t,{format:h}=e,{composed:l,doc:d,isSafari:c}=i,{distribute:p}=s,{addEvent:u,clamp:g,css:f,discardElement:m,extend:x,fireEvent:y,isArray:b,isNumber:v,isString:S,merge:C,pick:k,pushUnique:M,splat:w,syncTimeout:T}=o;class A{constructor(t,e,i){this.allowShared=!0,this.crosshairs=[],this.distance=0,this.isHidden=!0,this.isSticky=!1,this.options={},this.outside=!1,this.chart=t,this.init(t,e),this.pointer=i}bodyFormatter(t){return t.map(function(t){let e=t.series.tooltipOptions;return(e[(t.point.formatPrefix||"point")+"Formatter"]||t.point.tooltipFormatter).call(t.point,e[(t.point.formatPrefix||"point")+"Format"]||"")})}cleanSplit(t){this.chart.series.forEach(function(e){let i=e&&e.tt;i&&(!i.isActive||t?e.tt=i.destroy():i.isActive=!1)})}defaultFormatter(t){let e;let i=this.points||w(this);return(e=(e=[t.tooltipFooterHeaderFormatter(i[0])]).concat(t.bodyFormatter(i))).push(t.tooltipFooterHeaderFormatter(i[0],!0)),e}destroy(){this.label&&(this.label=this.label.destroy()),this.split&&(this.cleanSplit(!0),this.tt&&(this.tt=this.tt.destroy())),this.renderer&&(this.renderer=this.renderer.destroy(),m(this.container)),o.clearTimeout(this.hideTimer)}getAnchor(t,e){let i;let{chart:s,pointer:r}=this,o=s.inverted,n=s.plotTop,a=s.plotLeft;if((t=w(t))[0].series&&t[0].series.yAxis&&!t[0].series.yAxis.options.reversedStacks&&(t=t.slice().reverse()),this.followPointer&&e)void 0===e.chartX&&(e=r.normalize(e)),i=[e.chartX-a,e.chartY-n];else if(t[0].tooltipPos)i=t[0].tooltipPos;else{let s=0,r=0;t.forEach(function(t){let e=t.pos(!0);e&&(s+=e[0],r+=e[1])}),s/=t.length,r/=t.length,this.shared&&t.length>1&&e&&(o?s=e.chartX:r=e.chartY),i=[s-a,r-n]}return i.map(Math.round)}getClassName(t,e,i){let s=this.options,r=t.series,o=r.options;return[s.className,"highcharts-label",i&&"highcharts-tooltip-header",e?"highcharts-tooltip-box":"highcharts-tooltip",!i&&"highcharts-color-"+k(t.colorIndex,r.colorIndex),o&&o.className].filter(S).join(" ")}getLabel({anchorX:t,anchorY:e}={anchorX:0,anchorY:0}){let s=this,o=this.chart.styledMode,n=this.options,a=this.split&&this.allowShared,h=this.container,l=this.chart.renderer;if(this.label){let t=!this.label.hasClass("highcharts-label");(!a&&t||a&&!t)&&this.destroy()}if(!this.label){if(this.outside){let t=this.chart.options.chart.style,e=r.getRendererType();this.container=h=i.doc.createElement("div"),h.className="highcharts-tooltip-container",f(h,{position:"absolute",top:"1px",pointerEvents:"none",zIndex:Math.max(this.options.style.zIndex||0,(t&&t.zIndex||0)+3)}),this.renderer=l=new e(h,0,0,t,void 0,void 0,l.styledMode)}if(a?this.label=l.g("tooltip"):(this.label=l.label("",t,e,n.shape,void 0,void 0,n.useHTML,void 0,"tooltip").attr({padding:n.padding,r:n.borderRadius}),o||this.label.attr({fill:n.backgroundColor,"stroke-width":n.borderWidth||0}).css(n.style).css({pointerEvents:n.style.pointerEvents||(this.shouldStickOnContact()?"auto":"none")})),s.outside){let t=this.label;[t.xSetter,t.ySetter].forEach((e,i)=>{t[i?"ySetter":"xSetter"]=r=>{e.call(t,s.distance),t[i?"y":"x"]=r,h&&(h.style[i?"top":"left"]=`${r}px`)}})}this.label.attr({zIndex:8}).shadow(n.shadow).add()}return h&&!h.parentElement&&i.doc.body.appendChild(h),this.label}getPlayingField(){let{body:t,documentElement:e}=d,{chart:i,distance:s,outside:r}=this;return{width:r?Math.max(t.scrollWidth,e.scrollWidth,t.offsetWidth,e.offsetWidth,e.clientWidth)-2*s:i.chartWidth,height:r?Math.max(t.scrollHeight,e.scrollHeight,t.offsetHeight,e.offsetHeight,e.clientHeight):i.chartHeight}}getPosition(t,e,i){let{distance:s,chart:r,outside:o,pointer:n}=this,{inverted:a,plotLeft:h,plotTop:l,polar:d}=r,{plotX:c=0,plotY:p=0}=i,u={},g=a&&i.h||0,{height:f,width:m}=this.getPlayingField(),x=n.getChartPosition(),y=t=>t*x.scaleX,b=t=>t*x.scaleY,v=i=>{let n="x"===i;return[i,n?m:f,n?t:e].concat(o?[n?y(t):b(e),n?x.left-s+y(c+h):x.top-s+b(p+l),0,n?m:f]:[n?t:e,n?c+h:p+l,n?h:l,n?h+r.plotWidth:l+r.plotHeight])},S=v("y"),C=v("x"),M,w=!!i.negative;!d&&r.hoverSeries?.yAxis?.reversed&&(w=!w);let T=!this.followPointer&&k(i.ttBelow,!d&&!a===w),A=function(t,e,i,r,n,a,h){let l=o?"y"===t?b(s):y(s):s,d=(i-r)/2,c=r<n-s,p=n+s+r<e,f=n-l-i+d,m=n+l-d;if(T&&p)u[t]=m;else if(!T&&c)u[t]=f;else if(c)u[t]=Math.min(h-r,f-g<0?f:f-g);else{if(!p)return!1;u[t]=Math.max(a,m+g+i>e?m:m+g)}},P=function(t,e,i,r,o){if(o<s||o>e-s)return!1;o<i/2?u[t]=1:o>e-r/2?u[t]=e-r-2:u[t]=o-i/2},L=function(t){[S,C]=[C,S],M=t},O=()=>{!1!==A.apply(0,S)?!1!==P.apply(0,C)||M||(L(!0),O()):M?u.x=u.y=0:(L(!0),O())};return(a&&!d||this.len>1)&&L(),O(),u}hide(t){let e=this;o.clearTimeout(this.hideTimer),t=k(t,this.options.hideDelay),this.isHidden||(this.hideTimer=T(function(){let i=e.getLabel();e.getLabel().animate({opacity:0},{duration:t?150:t,complete:()=>{i.hide(),e.container&&e.container.remove()}}),e.isHidden=!0},t))}init(t,e){this.chart=t,this.options=e,this.crosshairs=[],this.isHidden=!0,this.split=e.split&&!t.inverted&&!t.polar,this.shared=e.shared||this.split,this.outside=k(e.outside,!!(t.scrollablePixelsX||t.scrollablePixelsY))}shouldStickOnContact(t){return!!(!this.followPointer&&this.options.stickOnContact&&(!t||this.pointer.inClass(t.target,"highcharts-tooltip")))}move(t,e,i,s){let r=this,o=a(!r.isHidden&&r.options.animation),n=r.followPointer||(r.len||0)>1,h={x:t,y:e};n||(h.anchorX=i,h.anchorY=s),o.step=()=>r.drawTracker(),r.getLabel().animate(h,o)}refresh(t,e){let{chart:i,options:s,pointer:r,shared:n}=this,a=w(t),l=a[0],d=[],c=s.format,p=s.formatter||this.defaultFormatter,u=i.styledMode,f={},m=this.allowShared;if(!s.enabled||!l.series)return;o.clearTimeout(this.hideTimer),this.allowShared=!(!b(t)&&t.series&&t.series.noSharedTooltip),m=m&&!this.allowShared,this.followPointer=!this.split&&l.series.tooltipOptions.followPointer;let x=this.getAnchor(t,e),v=x[0],C=x[1];n&&this.allowShared?(r.applyInactiveState(a),a.forEach(function(t){t.setState("hover"),d.push(t.getLabelConfig())}),(f=l.getLabelConfig()).points=d):f=l.getLabelConfig(),this.len=d.length;let M=S(c)?h(c,f,i):p.call(f,this),T=l.series;if(this.distance=k(T.tooltipOptions.distance,16),!1===M)this.hide();else{if(this.split&&this.allowShared)this.renderSplit(M,a);else{let t=v,o=C;if(e&&r.isDirectTouch&&(t=e.chartX-i.plotLeft,o=e.chartY-i.plotTop),i.polar||!1===T.options.clip||a.some(e=>r.isDirectTouch||e.series.shouldShowTooltip(t,o))){let t=this.getLabel(m&&this.tt||{});(!s.style.width||u)&&t.css({width:(this.outside?this.getPlayingField():i.spacingBox).width+"px"}),t.attr({class:this.getClassName(l),text:M&&M.join?M.join(""):M}),this.outside&&t.attr({x:g(t.x||0,0,this.getPlayingField().width-(t.width||0))}),u||t.attr({stroke:s.borderColor||l.color||T.color||"#666666"}),this.updatePosition({plotX:v,plotY:C,negative:l.negative,ttBelow:l.ttBelow,h:x[2]||0})}else{this.hide();return}}this.isHidden&&this.label&&this.label.attr({opacity:1}).show(),this.isHidden=!1}y(this,"refresh")}renderSplit(t,e){let i=this,{chart:s,chart:{chartWidth:r,chartHeight:o,plotHeight:n,plotLeft:a,plotTop:h,scrollablePixelsY:l=0,scrollablePixelsX:u,styledMode:f},distance:m,options:y,options:{positioner:b},pointer:v}=i,{scrollLeft:C=0,scrollTop:M=0}=s.scrollablePlotArea?.scrollingContainer||{},w=i.outside&&"number"!=typeof u?d.documentElement.getBoundingClientRect():{left:C,right:C+r,top:M,bottom:M+o},T=i.getLabel(),A=this.renderer||s.renderer,P=!!(s.xAxis[0]&&s.xAxis[0].opposite),{left:L,top:O}=v.getChartPosition(),D=h+M,E=0,I=n-l;function j(t,e,s,r,o=!0){let n,a;return s?(n=P?0:I,a=g(t-r/2,w.left,w.right-r-(i.outside?L:0))):(n=e-D,a=g(a=o?t-r-m:t+m,o?a:w.left,w.right)),{x:a,y:n}}S(t)&&(t=[!1,t]);let B=t.slice(0,e.length+1).reduce(function(t,s,r){if(!1!==s&&""!==s){let o=e[r-1]||{isHeader:!0,plotX:e[0].plotX,plotY:n,series:{}},l=o.isHeader,d=l?i:o.series,c=d.tt=function(t,e,s){let r=t,{isHeader:o,series:n}=e;if(!r){let t={padding:y.padding,r:y.borderRadius};f||(t.fill=y.backgroundColor,t["stroke-width"]=y.borderWidth??1),r=A.label("",0,0,y[o?"headerShape":"shape"],void 0,void 0,y.useHTML).addClass(i.getClassName(e,!0,o)).attr(t).add(T)}return r.isActive=!0,r.attr({text:s}),f||r.css(y.style).attr({stroke:y.borderColor||e.color||n.color||"#333333"}),r}(d.tt,o,s.toString()),p=c.getBBox(),u=p.width+c.strokeWidth();l&&(E=p.height,I+=E,P&&(D-=E));let{anchorX:x,anchorY:v}=function(t){let e,i;let{isHeader:s,plotX:r=0,plotY:o=0,series:l}=t;if(s)e=Math.max(a+r,a),i=h+n/2;else{let{xAxis:t,yAxis:s}=l;e=t.pos+g(r,-m,t.len+m),l.shouldShowTooltip(0,s.pos-h+o,{ignoreX:!0})&&(i=s.pos+o)}return{anchorX:e=g(e,w.left-m,w.right+m),anchorY:i}}(o);if("number"==typeof v){let e=p.height+1,s=b?b.call(i,u,e,o):j(x,v,l,u);t.push({align:b?0:void 0,anchorX:x,anchorY:v,boxWidth:u,point:o,rank:k(s.rank,l?1:0),size:e,target:s.y,tt:c,x:s.x})}else c.isActive=!1}return t},[]);!b&&B.some(t=>{let{outside:e}=i,s=(e?L:0)+t.anchorX;return s<w.left&&s+t.boxWidth<w.right||s<L-w.left+t.boxWidth&&w.right-s>s})&&(B=B.map(t=>{let{x:e,y:i}=j(t.anchorX,t.anchorY,t.point.isHeader,t.boxWidth,!1);return x(t,{target:i,x:e})})),i.cleanSplit(),p(B,I);let R={left:L,right:L};B.forEach(function(t){let{x:e,boxWidth:s,isHeader:r}=t;!r&&(i.outside&&L+e<R.left&&(R.left=L+e),!r&&i.outside&&R.left+s>R.right&&(R.right=L+e))}),B.forEach(function(t){let{x:e,anchorX:s,anchorY:r,pos:o,point:{isHeader:n}}=t,a={visibility:void 0===o?"hidden":"inherit",x:e,y:(o||0)+D,anchorX:s,anchorY:r};if(i.outside&&e<s){let t=L-R.left;t>0&&(n||(a.x=e+t,a.anchorX=s+t),n&&(a.x=(R.right-R.left)/2,a.anchorX=s+t))}t.tt.attr(a)});let{container:z,outside:N,renderer:W}=i;if(N&&z&&W){let{width:t,height:e,x:i,y:s}=T.getBBox();W.setSize(t+i,e+s,!1),z.style.left=R.left+"px",z.style.top=O+"px"}c&&T.attr({opacity:1===T.opacity?.999:1})}drawTracker(){if(!this.shouldStickOnContact()){this.tracker&&(this.tracker=this.tracker.destroy());return}let t=this.chart,e=this.label,i=this.shared?t.hoverPoints:t.hoverPoint;if(!e||!i)return;let s={x:0,y:0,width:0,height:0},r=this.getAnchor(i),o=e.getBBox();r[0]+=t.plotLeft-(e.translateX||0),r[1]+=t.plotTop-(e.translateY||0),s.x=Math.min(0,r[0]),s.y=Math.min(0,r[1]),s.width=r[0]<0?Math.max(Math.abs(r[0]),o.width-r[0]):Math.max(Math.abs(r[0]),o.width),s.height=r[1]<0?Math.max(Math.abs(r[1]),o.height-Math.abs(r[1])):Math.max(Math.abs(r[1]),o.height),this.tracker?this.tracker.attr(s):(this.tracker=e.renderer.rect(s).addClass("highcharts-tracker").add(e),t.styledMode||this.tracker.attr({fill:"rgba(0,0,0,0)"}))}styledModeFormat(t){return t.replace('style="font-size: 0.8em"','class="highcharts-header"').replace(/style="color:{(point|series)\.color}"/g,'class="highcharts-color-{$1.colorIndex} {series.options.className} {point.options.className}"')}tooltipFooterHeaderFormatter(t,e){let i=t.series,s=i.tooltipOptions,r=i.xAxis,o=r&&r.dateTime,n={isFooter:e,labelConfig:t},a=s.xDateFormat,l=s[e?"footerFormat":"headerFormat"];return y(this,"headerFormatter",n,function(e){o&&!a&&v(t.key)&&(a=o.getXDateFormat(t.key,s.dateTimeLabelFormats)),o&&a&&(t.point&&t.point.tooltipDateKeys||["key"]).forEach(function(t){l=l.replace("{point."+t+"}","{point."+t+":"+a+"}")}),i.chart.styledMode&&(l=this.styledModeFormat(l)),e.text=h(l,{point:t,series:i},this.chart)}),n.text}update(t){this.destroy(),this.init(this.chart,C(!0,this.options,t))}updatePosition(t){let{chart:e,container:i,distance:s,options:r,pointer:o,renderer:n}=this,{height:a=0,width:h=0}=this.getLabel(),{left:l,top:d,scaleX:c,scaleY:p}=o.getChartPosition(),u=(r.positioner||this.getPosition).call(this,h,a,t),g=(t.plotX||0)+e.plotLeft,m=(t.plotY||0)+e.plotTop,x;n&&i&&(r.positioner&&(u.x+=l-s,u.y+=d-s),x=(r.borderWidth||0)+2*s+2,n.setSize(h+x,a+x,!1),(1!==c||1!==p)&&(f(i,{transform:`scale(${c}, ${p})`}),g*=c,m*=p),g+=l-u.x,m+=d-u.y),this.move(Math.round(u.x),Math.round(u.y||0),g,m)}}return(n=A||(A={})).compose=function(t){M(l,"Core.Tooltip")&&u(t,"afterInit",function(){let t=this.chart;t.options.tooltip&&(t.tooltip=new n(t,t.options.tooltip,this))})},A}),i(e,"Core/Series/Point.js",[e["Core/Renderer/HTML/AST.js"],e["Core/Animation/AnimationUtilities.js"],e["Core/Defaults.js"],e["Core/Templating.js"],e["Core/Utilities.js"]],function(t,e,i,s,r){let{animObject:o}=e,{defaultOptions:n}=i,{format:a}=s,{addEvent:h,crisp:l,erase:d,extend:c,fireEvent:p,getNestedProperty:u,isArray:g,isFunction:f,isNumber:m,isObject:x,merge:y,pick:b,syncTimeout:v,removeEvent:S,uniqueKey:C}=r;class k{animateBeforeDestroy(){let t=this,e={x:t.startXPos,opacity:0},i=t.getGraphicalProps();i.singular.forEach(function(i){t[i]=t[i].animate("dataLabel"===i?{x:t[i].startXPos,y:t[i].startYPos,opacity:0}:e)}),i.plural.forEach(function(e){t[e].forEach(function(e){e.element&&e.animate(c({x:t.startXPos},e.startYPos?{x:e.startXPos,y:e.startYPos}:{}))})})}applyOptions(t,e){let i=this.series,s=i.options.pointValKey||i.pointValKey;return c(this,t=k.prototype.optionsToObject.call(this,t)),this.options=this.options?c(this.options,t):t,t.group&&delete this.group,t.dataLabels&&delete this.dataLabels,s&&(this.y=k.prototype.getNestedProperty.call(this,s)),this.selected&&(this.state="select"),"name"in this&&void 0===e&&i.xAxis&&i.xAxis.hasNames&&(this.x=i.xAxis.nameToX(this)),void 0===this.x&&i?this.x=e??i.autoIncrement():m(t.x)&&i.options.relativeXValue&&(this.x=i.autoIncrement(t.x)),this.isNull=this.isValid&&!this.isValid(),this.formatPrefix=this.isNull?"null":"point",this}destroy(){if(!this.destroyed){let t=this,e=t.series,i=e.chart,s=e.options.dataSorting,r=i.hoverPoints,n=o(t.series.chart.renderer.globalAnimation),a=()=>{for(let e in(t.graphic||t.graphics||t.dataLabel||t.dataLabels)&&(S(t),t.destroyElements()),t)delete t[e]};t.legendItem&&i.legend.destroyItem(t),r&&(t.setState(),d(r,t),r.length||(i.hoverPoints=null)),t===i.hoverPoint&&t.onMouseOut(),s&&s.enabled?(this.animateBeforeDestroy(),v(a,n.duration)):a(),i.pointCount--}this.destroyed=!0}destroyElements(t){let e=this,i=e.getGraphicalProps(t);i.singular.forEach(function(t){e[t]=e[t].destroy()}),i.plural.forEach(function(t){e[t].forEach(function(t){t&&t.element&&t.destroy()}),delete e[t]})}firePointEvent(t,e,i){let s=this,r=this.series.options;s.manageEvent(t),"click"===t&&r.allowPointSelect&&(i=function(t){!s.destroyed&&s.select&&s.select(null,t.ctrlKey||t.metaKey||t.shiftKey)}),p(s,t,e,i)}getClassName(){return"highcharts-point"+(this.selected?" highcharts-point-select":"")+(this.negative?" highcharts-negative":"")+(this.isNull?" highcharts-null-point":"")+(void 0!==this.colorIndex?" highcharts-color-"+this.colorIndex:"")+(this.options.className?" "+this.options.className:"")+(this.zone&&this.zone.className?" "+this.zone.className.replace("highcharts-negative",""):"")}getGraphicalProps(t){let e,i;let s=this,r=[],o={singular:[],plural:[]};for((t=t||{graphic:1,dataLabel:1}).graphic&&r.push("graphic","connector"),t.dataLabel&&r.push("dataLabel","dataLabelPath","dataLabelUpper"),i=r.length;i--;)s[e=r[i]]&&o.singular.push(e);return["graphic","dataLabel"].forEach(function(e){let i=e+"s";t[e]&&s[i]&&o.plural.push(i)}),o}getLabelConfig(){return{x:this.category,y:this.y,color:this.color,colorIndex:this.colorIndex,key:this.name||this.category,series:this.series,point:this,percentage:this.percentage,total:this.total||this.stackTotal}}getNestedProperty(t){return t?0===t.indexOf("custom.")?u(t,this.options):this[t]:void 0}getZone(){let t=this.series,e=t.zones,i=t.zoneAxis||"y",s,r=0;for(s=e[0];this[i]>=s.value;)s=e[++r];return this.nonZonedColor||(this.nonZonedColor=this.color),s&&s.color&&!this.options.color?this.color=s.color:this.color=this.nonZonedColor,s}hasNewShapeType(){return(this.graphic&&(this.graphic.symbolName||this.graphic.element.nodeName))!==this.shapeType}constructor(t,e,i){this.formatPrefix="point",this.visible=!0,this.series=t,this.applyOptions(e,i),this.id??(this.id=C()),this.resolveColor(),t.chart.pointCount++,p(this,"afterInit")}isValid(){return(m(this.x)||this.x instanceof Date)&&m(this.y)}optionsToObject(t){let e=this.series,i=e.options.keys,s=i||e.pointArrayMap||["y"],r=s.length,o={},n,a=0,h=0;if(m(t)||null===t)o[s[0]]=t;else if(g(t))for(!i&&t.length>r&&("string"==(n=typeof t[0])?o.name=t[0]:"number"===n&&(o.x=t[0]),a++);h<r;)i&&void 0===t[a]||(s[h].indexOf(".")>0?k.prototype.setNestedProperty(o,t[a],s[h]):o[s[h]]=t[a]),a++,h++;else"object"==typeof t&&(o=t,t.dataLabels&&(e.hasDataLabels=()=>!0),t.marker&&(e._hasPointMarkers=!0));return o}pos(t,e=this.plotY){if(!this.destroyed){let{plotX:i,series:s}=this,{chart:r,xAxis:o,yAxis:n}=s,a=0,h=0;if(m(i)&&m(e))return t&&(a=o?o.pos:r.plotLeft,h=n?n.pos:r.plotTop),r.inverted&&o&&n?[n.len-e+h,o.len-i+a]:[i+a,e+h]}}resolveColor(){let t=this.series,e=t.chart.options.chart,i=t.chart.styledMode,s,r,o=e.colorCount,n;delete this.nonZonedColor,t.options.colorByPoint?(i||(s=(r=t.options.colors||t.chart.options.colors)[t.colorCounter],o=r.length),n=t.colorCounter,t.colorCounter++,t.colorCounter===o&&(t.colorCounter=0)):(i||(s=t.color),n=t.colorIndex),this.colorIndex=b(this.options.colorIndex,n),this.color=b(this.options.color,s)}setNestedProperty(t,e,i){return i.split(".").reduce(function(t,i,s,r){let o=r.length-1===s;return t[i]=o?e:x(t[i],!0)?t[i]:{},t[i]},t),t}shouldDraw(){return!this.isNull}tooltipFormatter(t){let e=this.series,i=e.tooltipOptions,s=b(i.valueDecimals,""),r=i.valuePrefix||"",o=i.valueSuffix||"";return e.chart.styledMode&&(t=e.chart.tooltip.styledModeFormat(t)),(e.pointArrayMap||["y"]).forEach(function(e){e="{point."+e,(r||o)&&(t=t.replace(RegExp(e+"}","g"),r+e+"}"+o)),t=t.replace(RegExp(e+"}","g"),e+":,."+s+"f}")}),a(t,{point:this,series:this.series},e.chart)}update(t,e,i,s){let r;let o=this,n=o.series,a=o.graphic,h=n.chart,l=n.options;function d(){o.applyOptions(t);let s=a&&o.hasMockGraphic,d=null===o.y?!s:s;a&&d&&(o.graphic=a.destroy(),delete o.hasMockGraphic),x(t,!0)&&(a&&a.element&&t&&t.marker&&void 0!==t.marker.symbol&&(o.graphic=a.destroy()),t?.dataLabels&&o.dataLabel&&(o.dataLabel=o.dataLabel.destroy())),r=o.index,n.updateParallelArrays(o,r),l.data[r]=x(l.data[r],!0)||x(t,!0)?o.options:b(t,l.data[r]),n.isDirty=n.isDirtyData=!0,!n.fixedBox&&n.hasCartesianSeries&&(h.isDirtyBox=!0),"point"===l.legendType&&(h.isDirtyLegend=!0),e&&h.redraw(i)}e=b(e,!0),!1===s?d():o.firePointEvent("update",{options:t},d)}remove(t,e){this.series.removePoint(this.series.data.indexOf(this),t,e)}select(t,e){let i=this,s=i.series,r=s.chart;t=b(t,!i.selected),this.selectedStaging=t,i.firePointEvent(t?"select":"unselect",{accumulate:e},function(){i.selected=i.options.selected=t,s.options.data[s.data.indexOf(i)]=i.options,i.setState(t&&"select"),e||r.getSelectedPoints().forEach(function(t){let e=t.series;t.selected&&t!==i&&(t.selected=t.options.selected=!1,e.options.data[e.data.indexOf(t)]=t.options,t.setState(r.hoverPoints&&e.options.inactiveOtherPoints?"inactive":""),t.firePointEvent("unselect"))})}),delete this.selectedStaging}onMouseOver(t){let{inverted:e,pointer:i}=this.series.chart;i&&(t=t?i.normalize(t):i.getChartCoordinatesFromPoint(this,e),i.runPointActions(t,this))}onMouseOut(){let t=this.series.chart;this.firePointEvent("mouseOut"),this.series.options.inactiveOtherPoints||(t.hoverPoints||[]).forEach(function(t){t.setState()}),t.hoverPoints=t.hoverPoint=null}manageEvent(t){let e=y(this.series.options.point,this.options),i=e.events?.[t];f(i)&&(!this.hcEvents?.[t]||this.hcEvents?.[t]?.map(t=>t.fn).indexOf(i)===-1)?(this.importedUserEvent?.(),this.importedUserEvent=h(this,t,i)):this.importedUserEvent&&!i&&this.hcEvents?.[t]&&(S(this,t),delete this.hcEvents[t],Object.keys(this.hcEvents)||delete this.importedUserEvent)}setState(e,i){let s=this.series,r=this.state,o=s.options.states[e||"normal"]||{},a=n.plotOptions[s.type].marker&&s.options.marker,h=a&&!1===a.enabled,l=a&&a.states&&a.states[e||"normal"]||{},d=!1===l.enabled,u=this.marker||{},g=s.chart,f=a&&s.markerAttribs,x=s.halo,y,v,S,C=s.stateMarkerGraphic,k;if((e=e||"")===this.state&&!i||this.selected&&"select"!==e||!1===o.enabled||e&&(d||h&&!1===l.enabled)||e&&u.states&&u.states[e]&&!1===u.states[e].enabled)return;if(this.state=e,f&&(y=s.markerAttribs(this,e)),this.graphic&&!this.hasMockGraphic){if(r&&this.graphic.removeClass("highcharts-point-"+r),e&&this.graphic.addClass("highcharts-point-"+e),!g.styledMode){v=s.pointAttribs(this,e),S=b(g.options.chart.animation,o.animation);let t=v.opacity;s.options.inactiveOtherPoints&&m(t)&&(this.dataLabels||[]).forEach(function(e){e&&!e.hasClass("highcharts-data-label-hidden")&&(e.animate({opacity:t},S),e.connector&&e.connector.animate({opacity:t},S))}),this.graphic.animate(v,S)}y&&this.graphic.animate(y,b(g.options.chart.animation,l.animation,a.animation)),C&&C.hide()}else e&&l&&(k=u.symbol||s.symbol,C&&C.currentSymbol!==k&&(C=C.destroy()),y&&(C?C[i?"animate":"attr"]({x:y.x,y:y.y}):k&&(s.stateMarkerGraphic=C=g.renderer.symbol(k,y.x,y.y,y.width,y.height).add(s.markerGroup),C.currentSymbol=k)),!g.styledMode&&C&&"inactive"!==this.state&&C.attr(s.pointAttribs(this,e))),C&&(C[e&&this.isInside?"show":"hide"](),C.element.point=this,C.addClass(this.getClassName(),!0));let M=o.halo,w=this.graphic||C,T=w&&w.visibility||"inherit";M&&M.size&&w&&"hidden"!==T&&!this.isCluster?(x||(s.halo=x=g.renderer.path().add(w.parentGroup)),x.show()[i?"animate":"attr"]({d:this.haloPath(M.size)}),x.attr({class:"highcharts-halo highcharts-color-"+b(this.colorIndex,s.colorIndex)+(this.className?" "+this.className:""),visibility:T,zIndex:-1}),x.point=this,g.styledMode||x.attr(c({fill:this.color||s.color,"fill-opacity":M.opacity},t.filterUserAttributes(M.attributes||{})))):x?.point?.haloPath&&!x.point.destroyed&&x.animate({d:x.point.haloPath(0)},null,x.hide),p(this,"afterSetState",{state:e})}haloPath(t){let e=this.pos();return e?this.series.chart.renderer.symbols.circle(l(e[0],1)-t,e[1]-t,2*t,2*t):[]}}return k}),i(e,"Core/Pointer.js",[e["Core/Color/Color.js"],e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e,i){var s;let{parse:r}=t,{charts:o,composed:n,isTouchDevice:a}=e,{addEvent:h,attr:l,css:d,extend:c,find:p,fireEvent:u,isNumber:g,isObject:f,objectEach:m,offset:x,pick:y,pushUnique:b,splat:v}=i;class S{applyInactiveState(t){let e=[],i;(t||[]).forEach(function(t){i=t.series,e.push(i),i.linkedParent&&e.push(i.linkedParent),i.linkedSeries&&(e=e.concat(i.linkedSeries)),i.navigatorSeries&&e.push(i.navigatorSeries)}),this.chart.series.forEach(function(t){-1===e.indexOf(t)?t.setState("inactive",!0):t.options.inactiveOtherPoints&&t.setAllPointsToState("inactive")})}destroy(){let t=this;this.eventsToUnbind.forEach(t=>t()),this.eventsToUnbind=[],!e.chartCount&&(S.unbindDocumentMouseUp&&S.unbindDocumentMouseUp.forEach(t=>t()),S.unbindDocumentTouchEnd&&(S.unbindDocumentTouchEnd=S.unbindDocumentTouchEnd())),clearInterval(t.tooltipTimeout),m(t,function(e,i){t[i]=void 0})}getSelectionMarkerAttrs(t,e){let i={args:{chartX:t,chartY:e},attrs:{},shapeType:"rect"};return u(this,"getSelectionMarkerAttrs",i,i=>{let s;let{chart:r,zoomHor:o,zoomVert:n}=this,{mouseDownX:a=0,mouseDownY:h=0}=r,l=i.attrs;l.x=r.plotLeft,l.y=r.plotTop,l.width=o?1:r.plotWidth,l.height=n?1:r.plotHeight,o&&(s=t-a,l.width=Math.max(1,Math.abs(s)),l.x=(s>0?0:s)+a),n&&(s=e-h,l.height=Math.max(1,Math.abs(s)),l.y=(s>0?0:s)+h)}),i}drag(t){let{chart:e}=this,{mouseDownX:i=0,mouseDownY:s=0}=e,{panning:o,panKey:n,selectionMarkerFill:a}=e.options.chart,h=e.plotLeft,l=e.plotTop,d=e.plotWidth,c=e.plotHeight,p=f(o)?o.enabled:o,u=n&&t[`${n}Key`],g=t.chartX,m=t.chartY,x,y=this.selectionMarker;if((!y||!y.touch)&&(g<h?g=h:g>h+d&&(g=h+d),m<l?m=l:m>l+c&&(m=l+c),this.hasDragged=Math.sqrt(Math.pow(i-g,2)+Math.pow(s-m,2)),this.hasDragged>10)){x=e.isInsidePlot(i-h,s-l,{visiblePlotOnly:!0});let{shapeType:n,attrs:d}=this.getSelectionMarkerAttrs(g,m);(e.hasCartesianSeries||e.mapView)&&this.hasZoom&&x&&!u&&!y&&(this.selectionMarker=y=e.renderer[n](),y.attr({class:"highcharts-selection-marker",zIndex:7}).add(),e.styledMode||y.attr({fill:a||r("#334eff").setOpacity(.25).get()})),y&&y.attr(d),x&&!y&&p&&e.pan(t,o)}}dragStart(t){let e=this.chart;e.mouseIsDown=t.type,e.cancelClick=!1,e.mouseDownX=t.chartX,e.mouseDownY=t.chartY}getSelectionBox(t){let e={args:{marker:t},result:t.getBBox()};return u(this,"getSelectionBox",e),e.result}drop(t){let e;let{chart:i,selectionMarker:s}=this;for(let t of i.axes)t.isPanning&&(t.isPanning=!1,(t.options.startOnTick||t.options.endOnTick||t.series.some(t=>t.boosted))&&(t.forceRedraw=!0,t.setExtremes(t.userMin,t.userMax,!1),e=!0));if(e&&i.redraw(),s&&t){if(this.hasDragged){let e=this.getSelectionBox(s);i.transform({axes:i.axes.filter(t=>t.zoomEnabled&&("xAxis"===t.coll&&this.zoomX||"yAxis"===t.coll&&this.zoomY)),selection:{originalEvent:t,xAxis:[],yAxis:[],...e},from:e})}g(i.index)&&(this.selectionMarker=s.destroy())}i&&g(i.index)&&(d(i.container,{cursor:i._cursor}),i.cancelClick=this.hasDragged>10,i.mouseIsDown=!1,this.hasDragged=0,this.pinchDown=[])}findNearestKDPoint(t,e,i){let s;return t.forEach(function(t){let r=!(t.noSharedTooltip&&e)&&0>t.options.findNearestPointBy.indexOf("y"),o=t.searchPoint(i,r);f(o,!0)&&o.series&&(!f(s,!0)||function(t,i){let s=t.distX-i.distX,r=t.dist-i.dist,o=i.series.group?.zIndex-t.series.group?.zIndex;return 0!==s&&e?s:0!==r?r:0!==o?o:t.series.index>i.series.index?-1:1}(s,o)>0)&&(s=o)}),s}getChartCoordinatesFromPoint(t,e){let{xAxis:i,yAxis:s}=t.series,r=t.shapeArgs;if(i&&s){let o=t.clientX??t.plotX??0,n=t.plotY||0;return t.isNode&&r&&g(r.x)&&g(r.y)&&(o=r.x,n=r.y),e?{chartX:s.len+s.pos-n,chartY:i.len+i.pos-o}:{chartX:o+i.pos,chartY:n+s.pos}}if(r&&r.x&&r.y)return{chartX:r.x,chartY:r.y}}getChartPosition(){if(this.chartPosition)return this.chartPosition;let{container:t}=this.chart,e=x(t);this.chartPosition={left:e.left,top:e.top,scaleX:1,scaleY:1};let{offsetHeight:i,offsetWidth:s}=t;return s>2&&i>2&&(this.chartPosition.scaleX=e.width/s,this.chartPosition.scaleY=e.height/i),this.chartPosition}getCoordinates(t){let e={xAxis:[],yAxis:[]};for(let i of this.chart.axes)e[i.isXAxis?"xAxis":"yAxis"].push({axis:i,value:i.toValue(t[i.horiz?"chartX":"chartY"])});return e}getHoverData(t,e,i,s,r,o){let n=[],a=function(t){return t.visible&&!(!r&&t.directTouch)&&y(t.options.enableMouseTracking,!0)},h=e,l,d={chartX:o?o.chartX:void 0,chartY:o?o.chartY:void 0,shared:r};u(this,"beforeGetHoverData",d),l=h&&!h.stickyTracking?[h]:i.filter(t=>t.stickyTracking&&(d.filter||a)(t));let c=s&&t||!o?t:this.findNearestKDPoint(l,r,o);return h=c&&c.series,c&&(r&&!h.noSharedTooltip?(l=i.filter(function(t){return d.filter?d.filter(t):a(t)&&!t.noSharedTooltip})).forEach(function(t){let e=p(t.points,function(t){return t.x===c.x&&!t.isNull});f(e)&&(t.boosted&&t.boost&&(e=t.boost.getPoint(e)),n.push(e))}):n.push(c)),u(this,"afterGetHoverData",d={hoverPoint:c}),{hoverPoint:d.hoverPoint,hoverSeries:h,hoverPoints:n}}getPointFromEvent(t){let e=t.target,i;for(;e&&!i;)i=e.point,e=e.parentNode;return i}onTrackerMouseOut(t){let e=this.chart,i=t.relatedTarget,s=e.hoverSeries;this.isDirectTouch=!1,!s||!i||s.stickyTracking||this.inClass(i,"highcharts-tooltip")||this.inClass(i,"highcharts-series-"+s.index)&&this.inClass(i,"highcharts-tracker")||s.onMouseOut()}inClass(t,e){let i=t,s;for(;i;){if(s=l(i,"class")){if(-1!==s.indexOf(e))return!0;if(-1!==s.indexOf("highcharts-container"))return!1}i=i.parentElement}}constructor(t,e){this.hasDragged=0,this.pointerCaptureEventsToUnbind=[],this.eventsToUnbind=[],this.options=e,this.chart=t,this.runChartClick=!!e.chart.events?.click,this.pinchDown=[],this.setDOMEvents(),u(this,"afterInit")}normalize(t,e){let i=t.touches,s=i?i.length?i.item(0):y(i.changedTouches,t.changedTouches)[0]:t;e||(e=this.getChartPosition());let r=s.pageX-e.left,o=s.pageY-e.top;return c(t,{chartX:Math.round(r/=e.scaleX),chartY:Math.round(o/=e.scaleY)})}onContainerClick(t){let e=this.chart,i=e.hoverPoint,s=this.normalize(t),r=e.plotLeft,o=e.plotTop;!e.cancelClick&&(i&&this.inClass(s.target,"highcharts-tracker")?(u(i.series,"click",c(s,{point:i})),e.hoverPoint&&i.firePointEvent("click",s)):(c(s,this.getCoordinates(s)),e.isInsidePlot(s.chartX-r,s.chartY-o,{visiblePlotOnly:!0})&&u(e,"click",s)))}onContainerMouseDown(t){let i=(1&(t.buttons||t.button))==1;t=this.normalize(t),e.isFirefox&&0!==t.button&&this.onContainerMouseMove(t),(void 0===t.button||i)&&(this.zoomOption(t),i&&t.preventDefault?.(),this.dragStart(t))}onContainerMouseLeave(t){let{pointer:e}=o[y(S.hoverChartIndex,-1)]||{};t=this.normalize(t),this.onContainerMouseMove(t),e&&!this.inClass(t.relatedTarget,"highcharts-tooltip")&&(e.reset(),e.chartPosition=void 0)}onContainerMouseEnter(){delete this.chartPosition}onContainerMouseMove(t){let e=this.chart,i=e.tooltip,s=this.normalize(t);this.setHoverChartIndex(t),("mousedown"===e.mouseIsDown||this.touchSelect(s))&&this.drag(s),!e.openMenu&&(this.inClass(s.target,"highcharts-tracker")||e.isInsidePlot(s.chartX-e.plotLeft,s.chartY-e.plotTop,{visiblePlotOnly:!0}))&&!(i&&i.shouldStickOnContact(s))&&(this.inClass(s.target,"highcharts-no-tooltip")?this.reset(!1,0):this.runPointActions(s))}onDocumentTouchEnd(t){this.onDocumentMouseUp(t)}onContainerTouchMove(t){this.touchSelect(t)?this.onContainerMouseMove(t):this.touch(t)}onContainerTouchStart(t){this.touchSelect(t)?this.onContainerMouseDown(t):(this.zoomOption(t),this.touch(t,!0))}onDocumentMouseMove(t){let e=this.chart,i=e.tooltip,s=this.chartPosition,r=this.normalize(t,s);!s||e.isInsidePlot(r.chartX-e.plotLeft,r.chartY-e.plotTop,{visiblePlotOnly:!0})||i&&i.shouldStickOnContact(r)||r.target!==e.container.ownerDocument&&this.inClass(r.target,"highcharts-tracker")||this.reset()}onDocumentMouseUp(t){o[y(S.hoverChartIndex,-1)]?.pointer?.drop(t)}pinch(t){let e=this,{chart:i,hasZoom:s,lastTouches:r}=e,o=[].map.call(t.touches||[],t=>e.normalize(t)),n=o.length,a=1===n&&(e.inClass(t.target,"highcharts-tracker")&&i.runTrackerClick||e.runChartClick),h=i.tooltip,l=1===n&&y(h?.options.followTouchMove,!0);n>1?e.initiated=!0:l&&(e.initiated=!1),s&&e.initiated&&!a&&!1!==t.cancelable&&t.preventDefault(),"touchstart"===t.type?(e.pinchDown=o,e.res=!0,i.mouseDownX=t.chartX):l?this.runPointActions(e.normalize(t)):r&&(u(i,"touchpan",{originalEvent:t,touches:o},()=>{let e=t=>{let e=t[0],i=t[1]||e;return{x:e.chartX,y:e.chartY,width:i.chartX-e.chartX,height:i.chartY-e.chartY}};i.transform({axes:i.axes.filter(t=>t.zoomEnabled&&(this.zoomHor&&t.horiz||this.zoomVert&&!t.horiz)),to:e(o),from:e(r),trigger:t.type})}),e.res&&(e.res=!1,this.reset(!1,0))),e.lastTouches=o}reset(t,e){let i=this.chart,s=i.hoverSeries,r=i.hoverPoint,o=i.hoverPoints,n=i.tooltip,a=n&&n.shared?o:r;t&&a&&v(a).forEach(function(e){e.series.isCartesian&&void 0===e.plotX&&(t=!1)}),t?n&&a&&v(a).length&&(n.refresh(a),n.shared&&o?o.forEach(function(t){t.setState(t.state,!0),t.series.isCartesian&&(t.series.xAxis.crosshair&&t.series.xAxis.drawCrosshair(null,t),t.series.yAxis.crosshair&&t.series.yAxis.drawCrosshair(null,t))}):r&&(r.setState(r.state,!0),i.axes.forEach(function(t){t.crosshair&&r.series[t.coll]===t&&t.drawCrosshair(null,r)}))):(r&&r.onMouseOut(),o&&o.forEach(function(t){t.setState()}),s&&s.onMouseOut(),n&&n.hide(e),this.unDocMouseMove&&(this.unDocMouseMove=this.unDocMouseMove()),i.axes.forEach(function(t){t.hideCrosshair()}),i.hoverPoints=i.hoverPoint=void 0)}runPointActions(t,e,i){let s=this.chart,r=s.series,n=s.tooltip&&s.tooltip.options.enabled?s.tooltip:void 0,a=!!n&&n.shared,l=e||s.hoverPoint,d=l&&l.series||s.hoverSeries,c=(!t||"touchmove"!==t.type)&&(!!e||d&&d.directTouch&&this.isDirectTouch),u=this.getHoverData(l,d,r,c,a,t);l=u.hoverPoint,d=u.hoverSeries;let g=u.hoverPoints,f=d&&d.tooltipOptions.followPointer&&!d.tooltipOptions.split,m=a&&d&&!d.noSharedTooltip;if(l&&(i||l!==s.hoverPoint||n&&n.isHidden)){if((s.hoverPoints||[]).forEach(function(t){-1===g.indexOf(t)&&t.setState()}),s.hoverSeries!==d&&d.onMouseOver(),this.applyInactiveState(g),(g||[]).forEach(function(t){t.setState("hover")}),s.hoverPoint&&s.hoverPoint.firePointEvent("mouseOut"),!l.series)return;s.hoverPoints=g,s.hoverPoint=l,l.firePointEvent("mouseOver",void 0,()=>{n&&l&&n.refresh(m?g:l,t)})}else if(f&&n&&!n.isHidden){let e=n.getAnchor([{}],t);s.isInsidePlot(e[0],e[1],{visiblePlotOnly:!0})&&n.updatePosition({plotX:e[0],plotY:e[1]})}this.unDocMouseMove||(this.unDocMouseMove=h(s.container.ownerDocument,"mousemove",t=>o[S.hoverChartIndex??-1]?.pointer?.onDocumentMouseMove(t)),this.eventsToUnbind.push(this.unDocMouseMove)),s.axes.forEach(function(e){let i;let r=y((e.crosshair||{}).snap,!0);!r||(i=s.hoverPoint)&&i.series[e.coll]===e||(i=p(g,t=>t.series&&t.series[e.coll]===e)),i||!r?e.drawCrosshair(t,i):e.hideCrosshair()})}setDOMEvents(){let t=this.chart.container,e=t.ownerDocument;t.onmousedown=this.onContainerMouseDown.bind(this),t.onmousemove=this.onContainerMouseMove.bind(this),t.onclick=this.onContainerClick.bind(this),this.eventsToUnbind.push(h(t,"mouseenter",this.onContainerMouseEnter.bind(this)),h(t,"mouseleave",this.onContainerMouseLeave.bind(this))),S.unbindDocumentMouseUp||(S.unbindDocumentMouseUp=[]),S.unbindDocumentMouseUp.push(h(e,"mouseup",this.onDocumentMouseUp.bind(this)));let i=this.chart.renderTo.parentElement;for(;i&&"BODY"!==i.tagName;)this.eventsToUnbind.push(h(i,"scroll",()=>{delete this.chartPosition})),i=i.parentElement;this.eventsToUnbind.push(h(t,"touchstart",this.onContainerTouchStart.bind(this),{passive:!1}),h(t,"touchmove",this.onContainerTouchMove.bind(this),{passive:!1})),S.unbindDocumentTouchEnd||(S.unbindDocumentTouchEnd=h(e,"touchend",this.onDocumentTouchEnd.bind(this),{passive:!1})),this.setPointerCapture(),h(this.chart,"redraw",this.setPointerCapture.bind(this))}setPointerCapture(){if(!a)return;let t=this.pointerCaptureEventsToUnbind,e=this.chart,i=e.container,s=y(e.options.tooltip?.followTouchMove,!0)&&e.series.some(t=>t.options.findNearestPointBy.indexOf("y")>-1);!this.hasPointerCapture&&s?(t.push(h(i,"pointerdown",t=>{t.target?.hasPointerCapture(t.pointerId)&&t.target?.releasePointerCapture(t.pointerId)}),h(i,"pointermove",t=>{e.pointer?.getPointFromEvent(t)?.onMouseOver(t)})),e.styledMode||d(i,{"touch-action":"none"}),i.className+=" highcharts-no-touch-action",this.hasPointerCapture=!0):this.hasPointerCapture&&!s&&(t.forEach(t=>t()),t.length=0,e.styledMode||d(i,{"touch-action":y(e.options.chart.style?.["touch-action"],"manipulation")}),i.className=i.className.replace(" highcharts-no-touch-action",""),this.hasPointerCapture=!1)}setHoverChartIndex(t){let i=this.chart,s=e.charts[y(S.hoverChartIndex,-1)];if(s&&s!==i){let e={relatedTarget:i.container};t&&!t?.relatedTarget&&(t={...e,...t}),s.pointer?.onContainerMouseLeave(t||e)}s&&s.mouseIsDown||(S.hoverChartIndex=i.index)}touch(t,e){let i;let{chart:s,pinchDown:r=[]}=this;this.setHoverChartIndex(),1===(t=this.normalize(t)).touches.length?s.isInsidePlot(t.chartX-s.plotLeft,t.chartY-s.plotTop,{visiblePlotOnly:!0})&&!s.openMenu?(e&&this.runPointActions(t),"touchmove"===t.type&&(i=!!r[0]&&Math.pow(r[0].chartX-t.chartX,2)+Math.pow(r[0].chartY-t.chartY,2)>=16),y(i,!0)&&this.pinch(t)):e&&this.reset():2===t.touches.length&&this.pinch(t)}touchSelect(t){return!!(this.chart.zooming.singleTouch&&t.touches&&1===t.touches.length)}zoomOption(t){let e=this.chart,i=e.inverted,s=e.zooming.type||"",r,o;/touch/.test(t.type)&&(s=y(e.zooming.pinchType,s)),this.zoomX=r=/x/.test(s),this.zoomY=o=/y/.test(s),this.zoomHor=r&&!i||o&&i,this.zoomVert=o&&!i||r&&i,this.hasZoom=r||o}}return(s=S||(S={})).compose=function(t){b(n,"Core.Pointer")&&h(t,"beforeRender",function(){this.pointer=new s(this,this.options)})},S}),i(e,"Core/Legend/LegendSymbol.js",[e["Core/Utilities.js"]],function(t){var e;let{extend:i,merge:s,pick:r}=t;return function(t){function e(t,e,o){let n=this.legendItem=this.legendItem||{},{chart:a,options:h}=this,{baseline:l=0,symbolWidth:d,symbolHeight:c}=t,p=this.symbol||"circle",u=c/2,g=a.renderer,f=n.group,m=l-Math.round((t.fontMetrics?.b||c)*(o?.4:.3)),x={},y,b=h.marker,v=0;if(a.styledMode||(x["stroke-width"]=Math.min(h.lineWidth||0,24),h.dashStyle?x.dashstyle=h.dashStyle:"square"===h.linecap||(x["stroke-linecap"]="round")),n.line=g.path().addClass("highcharts-graph").attr(x).add(f),o&&(n.area=g.path().addClass("highcharts-area").add(f)),x["stroke-linecap"]&&(v=Math.min(n.line.strokeWidth(),d)/2),d){let t=[["M",v,m],["L",d-v,m]];n.line.attr({d:t}),n.area?.attr({d:[...t,["L",d-v,l],["L",v,l]]})}if(b&&!1!==b.enabled&&d){let t=Math.min(r(b.radius,u),u);0===p.indexOf("url")&&(b=s(b,{width:c,height:c}),t=0),n.symbol=y=g.symbol(p,d/2-t,m-t,2*t,2*t,i({context:"legend"},b)).addClass("highcharts-point").add(f),y.isMarker=!0}}t.areaMarker=function(t,i){e.call(this,t,i,!0)},t.lineMarker=e,t.rectangle=function(t,e){let i=e.legendItem||{},s=t.options,o=t.symbolHeight,n=s.squareSymbol,a=n?o:t.symbolWidth;i.symbol=this.chart.renderer.rect(n?(t.symbolWidth-o)/2:0,t.baseline-o+1,a,o,r(t.options.symbolRadius,o/2)).addClass("highcharts-point").attr({zIndex:3}).add(i.group)}}(e||(e={})),e}),i(e,"Core/Series/SeriesDefaults.js",[],function(){return{lineWidth:2,allowPointSelect:!1,crisp:!0,showCheckbox:!1,animation:{duration:1e3},enableMouseTracking:!0,events:{},marker:{enabledThreshold:2,lineColor:"#ffffff",lineWidth:0,radius:4,states:{normal:{animation:!0},hover:{animation:{duration:150},enabled:!0,radiusPlus:2,lineWidthPlus:1},select:{fillColor:"#cccccc",lineColor:"#000000",lineWidth:2}}},point:{events:{}},dataLabels:{animation:{},align:"center",borderWidth:0,defer:!0,formatter:function(){let{numberFormatter:t}=this.series.chart;return"number"!=typeof this.y?"":t(this.y,-1)},padding:5,style:{fontSize:"0.7em",fontWeight:"bold",color:"contrast",textOutline:"1px contrast"},verticalAlign:"bottom",x:0,y:0},cropThreshold:300,opacity:1,pointRange:0,softThreshold:!0,states:{normal:{animation:!0},hover:{animation:{duration:150},lineWidthPlus:1,marker:{},halo:{size:10,opacity:.25}},select:{animation:{duration:0}},inactive:{animation:{duration:150},opacity:.2}},stickyTracking:!0,turboThreshold:1e3,findNearestPointBy:"x"}}),i(e,"Core/Series/SeriesRegistry.js",[e["Core/Globals.js"],e["Core/Defaults.js"],e["Core/Series/Point.js"],e["Core/Utilities.js"]],function(t,e,i,s){var r;let{defaultOptions:o}=e,{extend:n,extendClass:a,merge:h}=s;return function(e){function s(t,s){let r=o.plotOptions||{},n=s.defaultOptions,a=s.prototype;return a.type=t,a.pointClass||(a.pointClass=i),!e.seriesTypes[t]&&(n&&(r[t]=n),e.seriesTypes[t]=s,!0)}e.seriesTypes=t.seriesTypes,e.registerSeriesType=s,e.seriesType=function(t,r,l,d,c){let p=o.plotOptions||{};if(r=r||"",p[t]=h(p[r],l),delete e.seriesTypes[t],s(t,a(e.seriesTypes[r]||function(){},d)),e.seriesTypes[t].prototype.type=t,c){class s extends i{}n(s.prototype,c),e.seriesTypes[t].prototype.pointClass=s}return e.seriesTypes[t]}}(r||(r={})),r}),i(e,"Core/Series/Series.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Defaults.js"],e["Core/Foundation.js"],e["Core/Globals.js"],e["Core/Legend/LegendSymbol.js"],e["Core/Series/Point.js"],e["Core/Series/SeriesDefaults.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Renderer/SVG/SVGElement.js"],e["Core/Utilities.js"]],function(t,e,i,s,r,o,n,a,h,l){let{animObject:d,setAnimation:c}=t,{defaultOptions:p}=e,{registerEventOptions:u}=i,{svg:g,win:f}=s,{seriesTypes:m}=a,{arrayMax:x,arrayMin:y,clamp:b,correctFloat:v,crisp:S,defined:C,destroyObjectProperties:k,diffObjects:M,erase:w,error:T,extend:A,find:P,fireEvent:L,getClosestDistance:O,getNestedProperty:D,insertItem:E,isArray:I,isNumber:j,isString:B,merge:R,objectEach:z,pick:N,removeEvent:W,splat:G,syncTimeout:H}=l;class X{constructor(){this.zoneAxis="y"}init(t,e){let i;L(this,"init",{options:e});let s=this,r=t.series;this.eventsToUnbind=[],s.chart=t,s.options=s.setOptions(e);let o=s.options,n=!1!==o.visible;s.linkedSeries=[],s.bindAxes(),A(s,{name:o.name,state:"",visible:n,selected:!0===o.selected}),u(this,o);let a=o.events;(a&&a.click||o.point&&o.point.events&&o.point.events.click||o.allowPointSelect)&&(t.runTrackerClick=!0),s.getColor(),s.getSymbol(),s.parallelArrays.forEach(function(t){s[t+"Data"]||(s[t+"Data"]=[])}),s.isCartesian&&(t.hasCartesianSeries=!0),r.length&&(i=r[r.length-1]),s._i=N(i&&i._i,-1)+1,s.opacity=s.options.opacity,t.orderItems("series",E(this,r)),o.dataSorting&&o.dataSorting.enabled?s.setDataSortingOptions():s.points||s.data||s.setData(o.data,!1),L(this,"afterInit")}is(t){return m[t]&&this instanceof m[t]}bindAxes(){let t;let e=this,i=e.options,s=e.chart;L(this,"bindAxes",null,function(){(e.axisTypes||[]).forEach(function(r){(s[r]||[]).forEach(function(s){t=s.options,(N(i[r],0)===s.index||void 0!==i[r]&&i[r]===t.id)&&(E(e,s.series),e[r]=s,s.isDirty=!0)}),e[r]||e.optionalAxis===r||T(18,!0,s)})}),L(this,"afterBindAxes")}updateParallelArrays(t,e,i){let s=t.series,r=j(e)?function(i){let r="y"===i&&s.toYData?s.toYData(t):t[i];s[i+"Data"][e]=r}:function(t){Array.prototype[e].apply(s[t+"Data"],i)};s.parallelArrays.forEach(r)}hasData(){return this.visible&&void 0!==this.dataMax&&void 0!==this.dataMin||this.visible&&this.yData&&this.yData.length>0}hasMarkerChanged(t,e){let i=t.marker,s=e.marker||{};return i&&(s.enabled&&!i.enabled||s.symbol!==i.symbol||s.height!==i.height||s.width!==i.width)}autoIncrement(t){let e=this.options,i=e.pointIntervalUnit,s=e.relativeXValue,r=this.chart.time,o=this.xIncrement,n,a;return(o=N(o,e.pointStart,0),this.pointInterval=a=N(this.pointInterval,e.pointInterval,1),s&&j(t)&&(a*=t),i&&(n=new r.Date(o),"day"===i?r.set("Date",n,r.get("Date",n)+a):"month"===i?r.set("Month",n,r.get("Month",n)+a):"year"===i&&r.set("FullYear",n,r.get("FullYear",n)+a),a=n.getTime()-o),s&&j(t))?o+a:(this.xIncrement=o+a,o)}setDataSortingOptions(){let t=this.options;A(this,{requireSorting:!1,sorted:!1,enabledDataSorting:!0,allowDG:!1}),C(t.pointRange)||(t.pointRange=1)}setOptions(t){let e;let i=this.chart,s=i.options.plotOptions,r=i.userOptions||{},o=R(t),n=i.styledMode,a={plotOptions:s,userOptions:o};L(this,"setOptions",a);let h=a.plotOptions[this.type],l=r.plotOptions||{},d=l.series||{},c=p.plotOptions[this.type]||{},u=l[this.type]||{};this.userOptions=a.userOptions;let g=R(h,s.series,u,o);this.tooltipOptions=R(p.tooltip,p.plotOptions.series?.tooltip,c?.tooltip,i.userOptions.tooltip,l.series?.tooltip,u.tooltip,o.tooltip),this.stickyTracking=N(o.stickyTracking,u.stickyTracking,d.stickyTracking,!!this.tooltipOptions.shared&&!this.noSharedTooltip||g.stickyTracking),null===h.marker&&delete g.marker,this.zoneAxis=g.zoneAxis||"y";let f=this.zones=(g.zones||[]).map(t=>({...t}));return(g.negativeColor||g.negativeFillColor)&&!g.zones&&(e={value:g[this.zoneAxis+"Threshold"]||g.threshold||0,className:"highcharts-negative"},n||(e.color=g.negativeColor,e.fillColor=g.negativeFillColor),f.push(e)),f.length&&C(f[f.length-1].value)&&f.push(n?{}:{color:this.color,fillColor:this.fillColor}),L(this,"afterSetOptions",{options:g}),g}getName(){return N(this.options.name,"Series "+(this.index+1))}getCyclic(t,e,i){let s,r;let o=this.chart,n=`${t}Index`,a=`${t}Counter`,h=i?.length||o.options.chart.colorCount;!e&&(C(r=N("color"===t?this.options.colorIndex:void 0,this[n]))?s=r:(o.series.length||(o[a]=0),s=o[a]%h,o[a]+=1),i&&(e=i[s])),void 0!==s&&(this[n]=s),this[t]=e}getColor(){this.chart.styledMode?this.getCyclic("color"):this.options.colorByPoint?this.color="#cccccc":this.getCyclic("color",this.options.color||p.plotOptions[this.type].color,this.chart.options.colors)}getPointsCollection(){return(this.hasGroupedData?this.points:this.data)||[]}getSymbol(){let t=this.options.marker;this.getCyclic("symbol",t.symbol,this.chart.options.symbols)}findPointIndex(t,e){let i,s,r;let n=t.id,a=t.x,h=this.points,l=this.options.dataSorting;if(n){let t=this.chart.get(n);t instanceof o&&(i=t)}else if(this.linkedParent||this.enabledDataSorting||this.options.relativeXValue){let e=e=>!e.touched&&e.index===t.index;if(l&&l.matchByName?e=e=>!e.touched&&e.name===t.name:this.options.relativeXValue&&(e=e=>!e.touched&&e.options.x===t.x),!(i=P(h,e)))return}return i&&void 0!==(r=i&&i.index)&&(s=!0),void 0===r&&j(a)&&(r=this.xData.indexOf(a,e)),-1!==r&&void 0!==r&&this.cropped&&(r=r>=this.cropStart?r-this.cropStart:r),!s&&j(r)&&h[r]&&h[r].touched&&(r=void 0),r}updateData(t,e){let i=this.options,s=i.dataSorting,r=this.points,o=[],n=this.requireSorting,a=t.length===r.length,h,l,d,c,p=!0;if(this.xIncrement=null,t.forEach(function(t,e){let l;let d=C(t)&&this.pointClass.prototype.optionsToObject.call({series:this},t)||{},p=d.x;d.id||j(p)?(-1===(l=this.findPointIndex(d,c))||void 0===l?o.push(t):r[l]&&t!==i.data[l]?(r[l].update(t,!1,null,!1),r[l].touched=!0,n&&(c=l+1)):r[l]&&(r[l].touched=!0),(!a||e!==l||s&&s.enabled||this.hasDerivedData)&&(h=!0)):o.push(t)},this),h)for(l=r.length;l--;)(d=r[l])&&!d.touched&&d.remove&&d.remove(!1,e);else!a||s&&s.enabled?p=!1:(t.forEach(function(t,e){t===r[e].y||r[e].destroyed||r[e].update(t,!1,null,!1)}),o.length=0);return r.forEach(function(t){t&&(t.touched=!1)}),!!p&&(o.forEach(function(t){this.addPoint(t,!1,null,null,!1)},this),null===this.xIncrement&&this.xData&&this.xData.length&&(this.xIncrement=x(this.xData),this.autoIncrement()),!0)}setData(t,e=!0,i,s){let r=this,o=r.points,n=o&&o.length||0,a=r.options,h=r.chart,l=a.dataSorting,d=r.xAxis,c=a.turboThreshold,p=this.xData,u=this.yData,g=r.pointArrayMap,f=g&&g.length,m=a.keys,x,y,b,v=0,S=1,C;h.options.chart.allowMutatingData||(a.data&&delete r.options.data,r.userOptions.data&&delete r.userOptions.data,C=R(!0,t));let k=(t=C||t||[]).length;if(l&&l.enabled&&(t=this.sortData(t)),h.options.chart.allowMutatingData&&!1!==s&&k&&n&&!r.cropped&&!r.hasGroupedData&&r.visible&&!r.boosted&&(b=this.updateData(t,i)),!b){r.xIncrement=null,r.colorCounter=0,this.parallelArrays.forEach(function(t){r[t+"Data"].length=0});let e=c&&k>c;if(e){let i=r.getFirstValidPoint(t),s=r.getFirstValidPoint(t,k-1,-1),o=t=>!!(I(t)&&(m||j(t[0])));if(j(i)&&j(s))for(x=0;x<k;x++)p[x]=this.autoIncrement(),u[x]=t[x];else if(o(i)&&o(s)){if(f){if(i.length===f)for(x=0;x<k;x++)p[x]=this.autoIncrement(),u[x]=t[x];else for(x=0;x<k;x++)y=t[x],p[x]=y[0],u[x]=y.slice(1,f+1)}else if(m&&(v=m.indexOf("x"),S=m.indexOf("y"),v=v>=0?v:0,S=S>=0?S:1),1===i.length&&(S=0),v===S)for(x=0;x<k;x++)p[x]=this.autoIncrement(),u[x]=t[x][S];else for(x=0;x<k;x++)y=t[x],p[x]=y[v],u[x]=y[S]}else e=!1}if(!e)for(x=0;x<k;x++)y={series:r},r.pointClass.prototype.applyOptions.apply(y,[t[x]]),r.updateParallelArrays(y,x);for(u&&B(u[0])&&T(14,!0,h),r.data=[],r.options.data=r.userOptions.data=t,x=n;x--;)o[x]?.destroy();d&&(d.minRange=d.userMinRange),r.isDirty=h.isDirtyBox=!0,r.isDirtyData=!!o,i=!1}"point"===a.legendType&&(this.processData(),this.generatePoints()),e&&h.redraw(i)}sortData(t){let e=this,i=e.options.dataSorting.sortKey||"y",s=function(t,e){return C(e)&&t.pointClass.prototype.optionsToObject.call({series:t},e)||{}};return t.forEach(function(i,r){t[r]=s(e,i),t[r].index=r},this),t.concat().sort((t,e)=>{let s=D(i,t),r=D(i,e);return r<s?-1:r>s?1:0}).forEach(function(t,e){t.x=e},this),e.linkedSeries&&e.linkedSeries.forEach(function(e){let i=e.options,r=i.data;i.dataSorting&&i.dataSorting.enabled||!r||(r.forEach(function(i,o){r[o]=s(e,i),t[o]&&(r[o].x=t[o].x,r[o].index=o)}),e.setData(r,!1))}),t}getProcessedData(t){let e=this,i=e.xAxis,s=e.options.cropThreshold,r=i?.logarithmic,o=e.isCartesian,n,a,h=0,l,d,c,p=e.xData,u=e.yData,g=!1,f=p.length;i&&(d=(l=i.getExtremes()).min,c=l.max,g=!!(i.categories&&!i.names.length)),o&&e.sorted&&!t&&(!s||f>s||e.forceCrop)&&(p[f-1]<d||p[0]>c?(p=[],u=[]):e.yData&&(p[0]<d||p[f-1]>c)&&(p=(n=this.cropData(e.xData,e.yData,d,c)).xData,u=n.yData,h=n.start,a=!0));let m=O([r?p.map(r.log2lin):p],()=>e.requireSorting&&!g&&T(15,!1,e.chart));return{xData:p,yData:u,cropped:a,cropStart:h,closestPointRange:m}}processData(t){let e=this.xAxis;if(this.isCartesian&&!this.isDirty&&!e.isDirty&&!this.yAxis.isDirty&&!t)return!1;let i=this.getProcessedData();this.cropped=i.cropped,this.cropStart=i.cropStart,this.processedXData=i.xData,this.processedYData=i.yData,this.closestPointRange=this.basePointRange=i.closestPointRange,L(this,"afterProcessData")}cropData(t,e,i,s){let r=t.length,o,n,a=0,h=r;for(o=0;o<r;o++)if(t[o]>=i){a=Math.max(0,o-1);break}for(n=o;n<r;n++)if(t[n]>s){h=n+1;break}return{xData:t.slice(a,h),yData:e.slice(a,h),start:a,end:h}}generatePoints(){let t=this.options,e=this.processedData||t.data,i=this.processedXData,s=this.processedYData,r=this.pointClass,o=i.length,n=this.cropStart||0,a=this.hasGroupedData,h=t.keys,l=[],d=t.dataGrouping&&t.dataGrouping.groupAll?n:0,c,p,u,g,f=this.data;if(!f&&!a){let t=[];t.length=e.length,f=this.data=t}for(h&&a&&(this.options.keys=!1),g=0;g<o;g++)p=n+g,a?((u=new r(this,[i[g]].concat(G(s[g])))).dataGroup=this.groupMap[d+g],u.dataGroup.options&&(u.options=u.dataGroup.options,A(u,u.dataGroup.options),delete u.dataLabels)):(u=f[p])||void 0===e[p]||(f[p]=u=new r(this,e[p],i[g])),u&&(u.index=a?d+g:p,l[g]=u);if(this.options.keys=h,f&&(o!==(c=f.length)||a))for(g=0;g<c;g++)g!==n||a||(g+=o),f[g]&&(f[g].destroyElements(),f[g].plotX=void 0);this.data=f,this.points=l,L(this,"afterGeneratePoints")}getXExtremes(t){return{min:y(t),max:x(t)}}getExtremes(t,e){let i=this.xAxis,s=this.yAxis,r=[],o=this.requireSorting&&!this.is("column")?1:0,n=!!s&&s.positiveValuesOnly,a=e||this.getExtremesFromAll||this.options.getExtremesFromAll,{processedXData:h,processedYData:l}=this,d,c,p,u,g,f,m,b=0,v=0,S=0;if(this.cropped&&a){let t=this.getProcessedData(!0);h=t.xData,l=t.yData}let C=(t=t||this.stackedYData||l||[]).length,k=h||this.xData;for(i&&(b=(d=i.getExtremes()).min,v=d.max),f=0;f<C;f++)if(u=k[f],c=(j(g=t[f])||I(g))&&((j(g)?g>0:g.length)||!n),p=e||this.getExtremesFromAll||this.options.getExtremesFromAll||this.cropped||!i||(k[f+o]||u)>=b&&(k[f-o]||u)<=v,c&&p){if(m=g.length)for(;m--;)j(g[m])&&(r[S++]=g[m]);else r[S++]=g}let M={activeYData:r,dataMin:y(r),dataMax:x(r)};return L(this,"afterGetExtremes",{dataExtremes:M}),M}applyExtremes(){let t=this.getExtremes();return this.dataMin=t.dataMin,this.dataMax=t.dataMax,t}getFirstValidPoint(t,e=0,i=1){let s=t.length,r=e;for(;r>=0&&r<s;){if(C(t[r]))return t[r];r+=i}}translate(){this.processedXData||this.processData(),this.generatePoints();let t=this.options,e=t.stacking,i=this.xAxis,s=i.categories,r=this.enabledDataSorting,o=this.yAxis,n=this.points,a=n.length,h=this.pointPlacementToXValue(),l=!!h,d=t.threshold,c=t.startFromThreshold?d:0,p,u,g,f,m=Number.MAX_VALUE;function x(t){return b(t,-1e9,1e9)}for(p=0;p<a;p++){let t;let a=n[p],y=a.x,b,S,k=a.y,M=a.low,w=e&&o.stacking?.stacks[(this.negStacks&&k<(c?0:d)?"-":"")+this.stackKey];u=i.translate(y,!1,!1,!1,!0,h),a.plotX=j(u)?v(x(u)):void 0,e&&this.visible&&w&&w[y]&&(f=this.getStackIndicator(f,y,this.index),!a.isNull&&f.key&&(S=(b=w[y]).points[f.key]),b&&I(S)&&(M=S[0],k=S[1],M===c&&f.key===w[y].base&&(M=N(j(d)?d:o.min)),o.positiveValuesOnly&&C(M)&&M<=0&&(M=void 0),a.total=a.stackTotal=N(b.total),a.percentage=C(a.y)&&b.total?a.y/b.total*100:void 0,a.stackY=k,this.irregularWidths||b.setOffset(this.pointXOffset||0,this.barW||0,void 0,void 0,void 0,this.xAxis))),a.yBottom=C(M)?x(o.translate(M,!1,!0,!1,!0)):void 0,this.dataModify&&(k=this.dataModify.modifyValue(k,p)),j(k)&&void 0!==a.plotX&&(t=j(t=o.translate(k,!1,!0,!1,!0))?x(t):void 0),a.plotY=t,a.isInside=this.isPointInside(a),a.clientX=l?v(i.translate(y,!1,!1,!1,!0,h)):u,a.negative=(a.y||0)<(d||0),a.category=N(s&&s[a.x],a.x),a.isNull||!1===a.visible||(void 0!==g&&(m=Math.min(m,Math.abs(u-g))),g=u),a.zone=this.zones.length?a.getZone():void 0,!a.graphic&&this.group&&r&&(a.isNew=!0)}this.closestPointRangePx=m,L(this,"afterTranslate")}getValidPoints(t,e,i){let s=this.chart;return(t||this.points||[]).filter(function(t){let{plotX:r,plotY:o}=t;return!!((i||!t.isNull&&j(o))&&(!e||s.isInsidePlot(r,o,{inverted:s.inverted})))&&!1!==t.visible})}getClipBox(){let{chart:t,xAxis:e,yAxis:i}=this,{x:s,y:r,width:o,height:n}=R(t.clipBox);return e&&e.len!==t.plotSizeX&&(o=e.len),i&&i.len!==t.plotSizeY&&(n=i.len),t.inverted&&!this.invertible&&([o,n]=[n,o]),{x:s,y:r,width:o,height:n}}getSharedClipKey(){return this.sharedClipKey=(this.options.xAxis||0)+","+(this.options.yAxis||0),this.sharedClipKey}setClip(){let{chart:t,group:e,markerGroup:i}=this,s=t.sharedClips,r=t.renderer,o=this.getClipBox(),n=this.getSharedClipKey(),a=s[n];a?a.animate(o):s[n]=a=r.clipRect(o),e&&e.clip(!1===this.options.clip?void 0:a),i&&i.clip()}animate(t){let{chart:e,group:i,markerGroup:s}=this,r=e.inverted,o=d(this.options.animation),n=[this.getSharedClipKey(),o.duration,o.easing,o.defer].join(","),a=e.sharedClips[n],h=e.sharedClips[n+"m"];if(t&&i){let t=this.getClipBox();if(a)a.attr("height",t.height);else{t.width=0,r&&(t.x=e.plotHeight),a=e.renderer.clipRect(t),e.sharedClips[n]=a;let i={x:-99,y:-99,width:r?e.plotWidth+199:99,height:r?99:e.plotHeight+199};h=e.renderer.clipRect(i),e.sharedClips[n+"m"]=h}i.clip(a),s?.clip(h)}else if(a&&!a.hasClass("highcharts-animating")){let t=this.getClipBox(),i=o.step;(s?.element.childNodes.length||e.series.length>1)&&(o.step=function(t,e){i&&i.apply(e,arguments),"width"===e.prop&&h?.element&&h.attr(r?"height":"width",t+99)}),a.addClass("highcharts-animating").animate(t,o)}}afterAnimate(){this.setClip(),z(this.chart.sharedClips,(t,e,i)=>{t&&!this.chart.container.querySelector(`[clip-path="url(#${t.id})"]`)&&(t.destroy(),delete i[e])}),this.finishedAnimating=!0,L(this,"afterAnimate")}drawPoints(t=this.points){let e,i,s,r,o,n,a;let h=this.chart,l=h.styledMode,{colorAxis:d,options:c}=this,p=c.marker,u=this[this.specialGroup||"markerGroup"],g=this.xAxis,f=N(p.enabled,!g||!!g.isRadial||null,this.closestPointRangePx>=p.enabledThreshold*p.radius);if(!1!==p.enabled||this._hasPointMarkers)for(e=0;e<t.length;e++)if(r=(s=(i=t[e]).graphic)?"animate":"attr",o=i.marker||{},n=!!i.marker,(f&&void 0===o.enabled||o.enabled)&&!i.isNull&&!1!==i.visible){let t=N(o.symbol,this.symbol,"rect");a=this.markerAttribs(i,i.selected&&"select"),this.enabledDataSorting&&(i.startXPos=g.reversed?-(a.width||0):g.width);let e=!1!==i.isInside;if(!s&&e&&((a.width||0)>0||i.hasImage)&&(i.graphic=s=h.renderer.symbol(t,a.x,a.y,a.width,a.height,n?o:p).add(u),this.enabledDataSorting&&h.hasRendered&&(s.attr({x:i.startXPos}),r="animate")),s&&"animate"===r&&s[e?"show":"hide"](e).animate(a),s){let t=this.pointAttribs(i,l||!i.selected?void 0:"select");l?d&&s.css({fill:t.fill}):s[r](t)}s&&s.addClass(i.getClassName(),!0)}else s&&(i.graphic=s.destroy())}markerAttribs(t,e){let i=this.options,s=i.marker,r=t.marker||{},o=r.symbol||s.symbol,n={},a,h,l=N(r.radius,s&&s.radius);e&&(a=s.states[e],l=N((h=r.states&&r.states[e])&&h.radius,a&&a.radius,l&&l+(a&&a.radiusPlus||0))),t.hasImage=o&&0===o.indexOf("url"),t.hasImage&&(l=0);let d=t.pos();return j(l)&&d&&(i.crisp&&(d[0]=S(d[0],t.hasImage?0:"rect"===o?s?.lineWidth||0:1)),n.x=d[0]-l,n.y=d[1]-l),l&&(n.width=n.height=2*l),n}pointAttribs(t,e){let i=this.options.marker,s=t&&t.options,r=s&&s.marker||{},o=s&&s.color,n=t&&t.color,a=t&&t.zone&&t.zone.color,h,l,d=this.color,c,p,u=N(r.lineWidth,i.lineWidth),g=1;return d=o||a||n||d,c=r.fillColor||i.fillColor||d,p=r.lineColor||i.lineColor||d,e=e||"normal",h=i.states[e]||{},u=N((l=r.states&&r.states[e]||{}).lineWidth,h.lineWidth,u+N(l.lineWidthPlus,h.lineWidthPlus,0)),c=l.fillColor||h.fillColor||c,{stroke:p=l.lineColor||h.lineColor||p,"stroke-width":u,fill:c,opacity:g=N(l.opacity,h.opacity,g)}}destroy(t){let e,i,s;let r=this,o=r.chart,n=/AppleWebKit\/533/.test(f.navigator.userAgent),a=r.data||[];for(L(r,"destroy",{keepEventsForUpdate:t}),this.removeEvents(t),(r.axisTypes||[]).forEach(function(t){(s=r[t])&&s.series&&(w(s.series,r),s.isDirty=s.forceRedraw=!0)}),r.legendItem&&r.chart.legend.destroyItem(r),e=a.length;e--;)(i=a[e])&&i.destroy&&i.destroy();for(let t of r.zones)k(t,void 0,!0);l.clearTimeout(r.animationTimeout),z(r,function(t,e){t instanceof h&&!t.survive&&t[n&&"group"===e?"hide":"destroy"]()}),o.hoverSeries===r&&(o.hoverSeries=void 0),w(o.series,r),o.orderItems("series"),z(r,function(e,i){t&&"hcEvents"===i||delete r[i]})}applyZones(){let{area:t,chart:e,graph:i,zones:s,points:r,xAxis:o,yAxis:n,zoneAxis:a}=this,{inverted:h,renderer:l}=e,d=this[`${a}Axis`],{isXAxis:c,len:p=0}=d||{},u=(i?.strokeWidth()||0)/2+1,g=(t,e=0,i=0)=>{h&&(i=p-i);let{translated:s=0,lineClip:r}=t,o=i-s;r?.push(["L",e,Math.abs(o)<u?i-u*(o<=0?-1:1):s])};if(s.length&&(i||t)&&d&&j(d.min)){let e=d.getExtremes().max,u=t=>{t.forEach((e,i)=>{("M"===e[0]||"L"===e[0])&&(t[i]=[e[0],c?p-e[1]:e[1],c?e[2]:p-e[2]])})};if(s.forEach(t=>{t.lineClip=[],t.translated=b(d.toPixels(N(t.value,e),!0)||0,0,p)}),i&&!this.showLine&&i.hide(),t&&t.hide(),"y"===a&&r.length<o.len)for(let t of r){let{plotX:e,plotY:i,zone:r}=t,o=r&&s[s.indexOf(r)-1];r&&g(r,e,i),o&&g(o,e,i)}let f=[],m=d.toPixels(d.getExtremes().min,!0);s.forEach(e=>{let s=e.lineClip||[],r=Math.round(e.translated||0);o.reversed&&s.reverse();let{clip:a,simpleClip:d}=e,p=0,g=0,x=o.len,y=n.len;c?(p=r,x=m):(g=r,y=m);let b=[["M",p,g],["L",x,g],["L",x,y],["L",p,y],["Z"]],v=[b[0],...s,b[1],b[2],...f,b[3],b[4]];f=s.reverse(),m=r,h&&(u(v),t&&u(b)),a?(a.animate({d:v}),d?.animate({d:b})):(a=e.clip=l.path(v),t&&(d=e.simpleClip=l.path(b))),i&&e.graph?.clip(a),t&&e.area?.clip(d)})}else this.visible&&(i&&i.show(),t&&t.show())}plotGroup(t,e,i,s,r){let o=this[t],n=!o,a={visibility:i,zIndex:s||.1};return C(this.opacity)&&!this.chart.styledMode&&"inactive"!==this.state&&(a.opacity=this.opacity),o||(this[t]=o=this.chart.renderer.g().add(r)),o.addClass("highcharts-"+e+" highcharts-series-"+this.index+" highcharts-"+this.type+"-series "+(C(this.colorIndex)?"highcharts-color-"+this.colorIndex+" ":"")+(this.options.className||"")+(o.hasClass("highcharts-tracker")?" highcharts-tracker":""),!0),o.attr(a)[n?"attr":"animate"](this.getPlotBox(e)),o}getPlotBox(t){let e=this.xAxis,i=this.yAxis,s=this.chart,r=s.inverted&&!s.polar&&e&&this.invertible&&"series"===t;return s.inverted&&(e=i,i=this.xAxis),{translateX:e?e.left:s.plotLeft,translateY:i?i.top:s.plotTop,rotation:r?90:0,rotationOriginX:r?(e.len-i.len)/2:0,rotationOriginY:r?(e.len+i.len)/2:0,scaleX:r?-1:1,scaleY:1}}removeEvents(t){let{eventsToUnbind:e}=this;t||W(this),e.length&&(e.forEach(t=>{t()}),e.length=0)}render(){let t=this,{chart:e,options:i,hasRendered:s}=t,r=d(i.animation),o=t.visible?"inherit":"hidden",n=i.zIndex,a=e.seriesGroup,h=t.finishedAnimating?0:r.duration;L(this,"render"),t.plotGroup("group","series",o,n,a),t.markerGroup=t.plotGroup("markerGroup","markers",o,n,a),!1!==i.clip&&t.setClip(),h&&t.animate?.(!0),t.drawGraph&&(t.drawGraph(),t.applyZones()),t.visible&&t.drawPoints(),t.drawDataLabels?.(),t.redrawPoints?.(),i.enableMouseTracking&&t.drawTracker?.(),h&&t.animate?.(),s||(h&&r.defer&&(h+=r.defer),t.animationTimeout=H(()=>{t.afterAnimate()},h||0)),t.isDirty=!1,t.hasRendered=!0,L(t,"afterRender")}redraw(){let t=this.isDirty||this.isDirtyData;this.translate(),this.render(),t&&delete this.kdTree}reserveSpace(){return this.visible||!this.chart.options.chart.ignoreHiddenSeries}searchPoint(t,e){let{xAxis:i,yAxis:s}=this,r=this.chart.inverted;return this.searchKDTree({clientX:r?i.len-t.chartY+i.pos:t.chartX-i.pos,plotY:r?s.len-t.chartX+s.pos:t.chartY-s.pos},e,t)}buildKDTree(t){this.buildingKdTree=!0;let e=this,i=e.options.findNearestPointBy.indexOf("y")>-1?2:1;delete e.kdTree,H(function(){e.kdTree=function t(i,s,r){let o,n;let a=i?.length;if(a)return o=e.kdAxisArray[s%r],i.sort((t,e)=>(t[o]||0)-(e[o]||0)),{point:i[n=Math.floor(a/2)],left:t(i.slice(0,n),s+1,r),right:t(i.slice(n+1),s+1,r)}}(e.getValidPoints(void 0,!e.directTouch),i,i),e.buildingKdTree=!1},e.options.kdNow||t?.type==="touchstart"?0:1)}searchKDTree(t,e,i){let s=this,[r,o]=this.kdAxisArray,n=e?"distX":"dist",a=(s.options.findNearestPointBy||"").indexOf("y")>-1?2:1,h=!!s.isBubble;if(this.kdTree||this.buildingKdTree||this.buildKDTree(i),this.kdTree)return function t(e,i,a,l){let d=i.point,c=s.kdAxisArray[a%l],p,u,g=d;!function(t,e){let i=t[r],s=e[r],n=C(i)&&C(s)?i-s:null,a=t[o],l=e[o],d=C(a)&&C(l)?a-l:0,c=h&&e.marker?.radius||0;e.dist=Math.sqrt((n&&n*n||0)+d*d)-c,e.distX=C(n)?Math.abs(n)-c:Number.MAX_VALUE}(e,d);let f=(e[c]||0)-(d[c]||0)+(h&&d.marker?.radius||0),m=f<0?"left":"right",x=f<0?"right":"left";return i[m]&&(g=(p=t(e,i[m],a+1,l))[n]<g[n]?p:d),i[x]&&Math.sqrt(f*f)<g[n]&&(g=(u=t(e,i[x],a+1,l))[n]<g[n]?u:g),g}(t,this.kdTree,a,a)}pointPlacementToXValue(){let{options:t,xAxis:e}=this,i=t.pointPlacement;return"between"===i&&(i=e.reversed?-.5:.5),j(i)?i*(t.pointRange||e.pointRange):0}isPointInside(t){let{chart:e,xAxis:i,yAxis:s}=this,{plotX:r=-1,plotY:o=-1}=t;return o>=0&&o<=(s?s.len:e.plotHeight)&&r>=0&&r<=(i?i.len:e.plotWidth)}drawTracker(){let t=this,e=t.options,i=e.trackByArea,s=[].concat((i?t.areaPath:t.graphPath)||[]),r=t.chart,o=r.pointer,n=r.renderer,a=r.options.tooltip?.snap||0,h=()=>{e.enableMouseTracking&&r.hoverSeries!==t&&t.onMouseOver()},l="rgba(192,192,192,"+(g?1e-4:.002)+")",d=t.tracker;d?d.attr({d:s}):t.graph&&(t.tracker=d=n.path(s).attr({visibility:t.visible?"inherit":"hidden",zIndex:2}).addClass(i?"highcharts-tracker-area":"highcharts-tracker-line").add(t.group),r.styledMode||d.attr({"stroke-linecap":"round","stroke-linejoin":"round",stroke:l,fill:i?l:"none","stroke-width":t.graph.strokeWidth()+(i?0:2*a)}),[t.tracker,t.markerGroup,t.dataLabelsGroup].forEach(t=>{t&&(t.addClass("highcharts-tracker").on("mouseover",h).on("mouseout",t=>{o?.onTrackerMouseOut(t)}),e.cursor&&!r.styledMode&&t.css({cursor:e.cursor}),t.on("touchstart",h))})),L(this,"afterDrawTracker")}addPoint(t,e,i,s,r){let o,n;let a=this.options,h=this.data,l=this.chart,d=this.xAxis,c=d&&d.hasNames&&d.names,p=a.data,u=this.xData;e=N(e,!0);let g={series:this};this.pointClass.prototype.applyOptions.apply(g,[t]);let f=g.x;if(n=u.length,this.requireSorting&&f<u[n-1])for(o=!0;n&&u[n-1]>f;)n--;this.updateParallelArrays(g,"splice",[n,0,0]),this.updateParallelArrays(g,n),c&&g.name&&(c[f]=g.name),p.splice(n,0,t),(o||this.processedData)&&(this.data.splice(n,0,null),this.processData()),"point"===a.legendType&&this.generatePoints(),i&&(h[0]&&h[0].remove?h[0].remove(!1):(h.shift(),this.updateParallelArrays(g,"shift"),p.shift())),!1!==r&&L(this,"addPoint",{point:g}),this.isDirty=!0,this.isDirtyData=!0,e&&l.redraw(s)}removePoint(t,e,i){let s=this,r=s.data,o=r[t],n=s.points,a=s.chart,h=function(){n&&n.length===r.length&&n.splice(t,1),r.splice(t,1),s.options.data.splice(t,1),s.updateParallelArrays(o||{series:s},"splice",[t,1]),o&&o.destroy(),s.isDirty=!0,s.isDirtyData=!0,e&&a.redraw()};c(i,a),e=N(e,!0),o?o.firePointEvent("remove",null,h):h()}remove(t,e,i,s){let r=this,o=r.chart;function n(){r.destroy(s),o.isDirtyLegend=o.isDirtyBox=!0,o.linkSeries(s),N(t,!0)&&o.redraw(e)}!1!==i?L(r,"remove",null,n):n()}update(t,e){L(this,"update",{options:t=M(t,this.userOptions)});let i=this,s=i.chart,r=i.userOptions,o=i.initialType||i.type,n=s.options.plotOptions,a=m[o].prototype,h=i.finishedAnimating&&{animation:!1},l={},d,c,p=["colorIndex","eventOptions","navigatorSeries","symbolIndex","baseSeries"],u=t.type||r.type||s.options.chart.type,g=!(this.hasDerivedData||u&&u!==this.type||void 0!==t.pointStart||void 0!==t.pointInterval||void 0!==t.relativeXValue||t.joinBy||t.mapData||["dataGrouping","pointStart","pointInterval","pointIntervalUnit","keys"].some(t=>i.hasOptionChanged(t)));u=u||o,g&&(p.push("data","isDirtyData","isDirtyCanvas","points","processedData","processedXData","processedYData","xIncrement","cropped","_hasPointMarkers","hasDataLabels","nodes","layout","level","mapMap","mapData","minY","maxY","minX","maxX","transformGroups"),!1!==t.visible&&p.push("area","graph"),i.parallelArrays.forEach(function(t){p.push(t+"Data")}),t.data&&(t.dataSorting&&A(i.options.dataSorting,t.dataSorting),this.setData(t.data,!1))),t=R(r,{index:void 0===r.index?i.index:r.index,pointStart:n?.series?.pointStart??r.pointStart??i.xData?.[0]},!g&&{data:i.options.data},t,h),g&&t.data&&(t.data=i.options.data),(p=["group","markerGroup","dataLabelsGroup","transformGroup"].concat(p)).forEach(function(t){p[t]=i[t],delete i[t]});let f=!1;if(m[u]){if(f=u!==i.type,i.remove(!1,!1,!1,!0),f){if(s.propFromSeries(),Object.setPrototypeOf)Object.setPrototypeOf(i,m[u].prototype);else{let t=Object.hasOwnProperty.call(i,"hcEvents")&&i.hcEvents;for(c in a)i[c]=void 0;A(i,m[u].prototype),t?i.hcEvents=t:delete i.hcEvents}}}else T(17,!0,s,{missingModuleFor:u});if(p.forEach(function(t){i[t]=p[t]}),i.init(s,t),g&&this.points)for(let t of(!1===(d=i.options).visible?(l.graphic=1,l.dataLabel=1):(this.hasMarkerChanged(d,r)&&(l.graphic=1),i.hasDataLabels?.()||(l.dataLabel=1)),this.points))t&&t.series&&(t.resolveColor(),Object.keys(l).length&&t.destroyElements(l),!1===d.showInLegend&&t.legendItem&&s.legend.destroyItem(t));i.initialType=o,s.linkSeries(),s.setSortedData(),f&&i.linkedSeries.length&&(i.isDirtyData=!0),L(this,"afterUpdate"),N(e,!0)&&s.redraw(!!g&&void 0)}setName(t){this.name=this.options.name=this.userOptions.name=t,this.chart.isDirtyLegend=!0}hasOptionChanged(t){let e=this.chart,i=this.options[t],s=e.options.plotOptions,r=this.userOptions[t],o=N(s?.[this.type]?.[t],s?.series?.[t]);return r&&!C(o)?i!==r:i!==N(o,i)}onMouseOver(){let t=this.chart,e=t.hoverSeries,i=t.pointer;i?.setHoverChartIndex(),e&&e!==this&&e.onMouseOut(),this.options.events.mouseOver&&L(this,"mouseOver"),this.setState("hover"),t.hoverSeries=this}onMouseOut(){let t=this.options,e=this.chart,i=e.tooltip,s=e.hoverPoint;e.hoverSeries=null,s&&s.onMouseOut(),this&&t.events.mouseOut&&L(this,"mouseOut"),i&&!this.stickyTracking&&(!i.shared||this.noSharedTooltip)&&i.hide(),e.series.forEach(function(t){t.setState("",!0)})}setState(t,e){let i=this,s=i.options,r=i.graph,o=s.inactiveOtherPoints,n=s.states,a=N(n[t||"normal"]&&n[t||"normal"].animation,i.chart.options.chart.animation),h=s.lineWidth,l=s.opacity;if(t=t||"",i.state!==t&&([i.group,i.markerGroup,i.dataLabelsGroup].forEach(function(e){e&&(i.state&&e.removeClass("highcharts-series-"+i.state),t&&e.addClass("highcharts-series-"+t))}),i.state=t,!i.chart.styledMode)){if(n[t]&&!1===n[t].enabled)return;if(t&&(h=n[t].lineWidth||h+(n[t].lineWidthPlus||0),l=N(n[t].opacity,l)),r&&!r.dashstyle&&j(h))for(let t of[r,...this.zones.map(t=>t.graph)])t?.animate({"stroke-width":h},a);o||[i.group,i.markerGroup,i.dataLabelsGroup,i.labelBySeries].forEach(function(t){t&&t.animate({opacity:l},a)})}e&&o&&i.points&&i.setAllPointsToState(t||void 0)}setAllPointsToState(t){this.points.forEach(function(e){e.setState&&e.setState(t)})}setVisible(t,e){let i=this,s=i.chart,r=s.options.chart.ignoreHiddenSeries,o=i.visible;i.visible=t=i.options.visible=i.userOptions.visible=void 0===t?!o:t;let n=t?"show":"hide";["group","dataLabelsGroup","markerGroup","tracker","tt"].forEach(t=>{i[t]?.[n]()}),(s.hoverSeries===i||s.hoverPoint?.series===i)&&i.onMouseOut(),i.legendItem&&s.legend.colorizeItem(i,t),i.isDirty=!0,i.options.stacking&&s.series.forEach(t=>{t.options.stacking&&t.visible&&(t.isDirty=!0)}),i.linkedSeries.forEach(e=>{e.setVisible(t,!1)}),r&&(s.isDirtyBox=!0),L(i,n),!1!==e&&s.redraw()}show(){this.setVisible(!0)}hide(){this.setVisible(!1)}select(t){this.selected=t=this.options.selected=void 0===t?!this.selected:t,this.checkbox&&(this.checkbox.checked=t),L(this,t?"select":"unselect")}shouldShowTooltip(t,e,i={}){return i.series=this,i.visiblePlotOnly=!0,this.chart.isInsidePlot(t,e,i)}drawLegendSymbol(t,e){r[this.options.legendSymbol||"rectangle"]?.call(this,t,e)}}return X.defaultOptions=n,X.types=a.seriesTypes,X.registerType=a.registerSeriesType,A(X.prototype,{axisTypes:["xAxis","yAxis"],coll:"series",colorCounter:0,directTouch:!1,invertible:!0,isCartesian:!0,kdAxisArray:["clientX","plotY"],parallelArrays:["x","y"],pointClass:o,requireSorting:!0,sorted:!0}),a.series=X,X}),i(e,"Core/Legend/Legend.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Foundation.js"],e["Core/Globals.js"],e["Core/Series/Series.js"],e["Core/Series/Point.js"],e["Core/Renderer/RendererUtilities.js"],e["Core/Templating.js"],e["Core/Utilities.js"]],function(t,e,i,s,r,o,n,a){var h;let{animObject:l,setAnimation:d}=t,{registerEventOptions:c}=e,{composed:p,marginNames:u}=i,{distribute:g}=o,{format:f}=n,{addEvent:m,createElement:x,css:y,defined:b,discardElement:v,find:S,fireEvent:C,isNumber:k,merge:M,pick:w,pushUnique:T,relativeLength:A,stableSort:P,syncTimeout:L}=a;class O{constructor(t,e){this.allItems=[],this.initialItemY=0,this.itemHeight=0,this.itemMarginBottom=0,this.itemMarginTop=0,this.itemX=0,this.itemY=0,this.lastItemY=0,this.lastLineHeight=0,this.legendHeight=0,this.legendWidth=0,this.maxItemWidth=0,this.maxLegendWidth=0,this.offsetWidth=0,this.padding=0,this.pages=[],this.symbolHeight=0,this.symbolWidth=0,this.titleHeight=0,this.totalItemWidth=0,this.widthOption=0,this.chart=t,this.setOptions(e),e.enabled&&(this.render(),c(this,e),m(this.chart,"endResize",function(){this.legend.positionCheckboxes()})),m(this.chart,"render",()=>{this.options.enabled&&this.proximate&&(this.proximatePositions(),this.positionItems())})}setOptions(t){let e=w(t.padding,8);this.options=t,this.chart.styledMode||(this.itemStyle=t.itemStyle,this.itemHiddenStyle=M(this.itemStyle,t.itemHiddenStyle)),this.itemMarginTop=t.itemMarginTop,this.itemMarginBottom=t.itemMarginBottom,this.padding=e,this.initialItemY=e-5,this.symbolWidth=w(t.symbolWidth,16),this.pages=[],this.proximate="proximate"===t.layout&&!this.chart.inverted,this.baseline=void 0}update(t,e){let i=this.chart;this.setOptions(M(!0,this.options,t)),"events"in this.options&&c(this,this.options),this.destroy(),i.isDirtyLegend=i.isDirtyBox=!0,w(e,!0)&&i.redraw(),C(this,"afterUpdate",{redraw:e})}colorizeItem(t,e){let{area:i,group:s,label:r,line:o,symbol:n}=t.legendItem||{};if(s?.[e?"removeClass":"addClass"]("highcharts-legend-item-hidden"),!this.chart.styledMode){let{itemHiddenStyle:s={}}=this,a=s.color,{fillColor:h,fillOpacity:l,lineColor:d,marker:c}=t.options,p=t=>(!e&&(t.fill&&(t.fill=a),t.stroke&&(t.stroke=a)),t);r?.css(M(e?this.itemStyle:s)),o?.attr(p({stroke:d||t.color})),n&&n.attr(p(c&&n.isMarker?t.pointAttribs():{fill:t.color})),i?.attr(p({fill:h||t.color,"fill-opacity":h?1:l??.75}))}C(this,"afterColorizeItem",{item:t,visible:e})}positionItems(){this.allItems.forEach(this.positionItem,this),this.chart.isResizing||this.positionCheckboxes()}positionItem(t){let{group:e,x:i=0,y:s=0}=t.legendItem||{},r=this.options,o=r.symbolPadding,n=!r.rtl,a=t.checkbox;if(e&&e.element){let r={translateX:n?i:this.legendWidth-i-2*o-4,translateY:s};e[b(e.translateY)?"animate":"attr"](r,void 0,()=>{C(this,"afterPositionItem",{item:t})})}a&&(a.x=i,a.y=s)}destroyItem(t){let e=t.checkbox,i=t.legendItem||{};for(let t of["group","label","line","symbol"])i[t]&&(i[t]=i[t].destroy());e&&v(e),t.legendItem=void 0}destroy(){for(let t of this.getAllItems())this.destroyItem(t);for(let t of["clipRect","up","down","pager","nav","box","title","group"])this[t]&&(this[t]=this[t].destroy());this.display=null}positionCheckboxes(){let t;let e=this.group&&this.group.alignAttr,i=this.clipHeight||this.legendHeight,s=this.titleHeight;e&&(t=e.translateY,this.allItems.forEach(function(r){let o;let n=r.checkbox;n&&(o=t+s+n.y+(this.scrollOffset||0)+3,y(n,{left:e.translateX+r.checkboxOffset+n.x-20+"px",top:o+"px",display:this.proximate||o>t-6&&o<t+i-6?"":"none"}))},this))}renderTitle(){let t=this.options,e=this.padding,i=t.title,s,r=0;i.text&&(this.title||(this.title=this.chart.renderer.label(i.text,e-3,e-4,void 0,void 0,void 0,t.useHTML,void 0,"legend-title").attr({zIndex:1}),this.chart.styledMode||this.title.css(i.style),this.title.add(this.group)),i.width||this.title.css({width:this.maxLegendWidth+"px"}),r=(s=this.title.getBBox()).height,this.offsetWidth=s.width,this.contentGroup.attr({translateY:r})),this.titleHeight=r}setText(t){let e=this.options;t.legendItem.label.attr({text:e.labelFormat?f(e.labelFormat,t,this.chart):e.labelFormatter.call(t)})}renderItem(t){let e=t.legendItem=t.legendItem||{},i=this.chart,s=i.renderer,r=this.options,o="horizontal"===r.layout,n=this.symbolWidth,a=r.symbolPadding||0,h=this.itemStyle,l=this.itemHiddenStyle,d=o?w(r.itemDistance,20):0,c=!r.rtl,p=!t.series,u=!p&&t.series.drawLegendSymbol?t.series:t,g=u.options,f=!!this.createCheckboxForItem&&g&&g.showCheckbox,m=r.useHTML,x=t.options.className,y=e.label,b=n+a+d+(f?20:0);!y&&(e.group=s.g("legend-item").addClass("highcharts-"+u.type+"-series highcharts-color-"+t.colorIndex+(x?" "+x:"")+(p?" highcharts-series-"+t.index:"")).attr({zIndex:1}).add(this.scrollGroup),e.label=y=s.text("",c?n+a:-a,this.baseline||0,m),i.styledMode||y.css(M(t.visible?h:l)),y.attr({align:c?"left":"right",zIndex:2}).add(e.group),!this.baseline&&(this.fontMetrics=s.fontMetrics(y),this.baseline=this.fontMetrics.f+3+this.itemMarginTop,y.attr("y",this.baseline),this.symbolHeight=w(r.symbolHeight,this.fontMetrics.f),r.squareSymbol&&(this.symbolWidth=w(r.symbolWidth,Math.max(this.symbolHeight,16)),b=this.symbolWidth+a+d+(f?20:0),c&&y.attr("x",this.symbolWidth+a))),u.drawLegendSymbol(this,t),this.setItemEvents&&this.setItemEvents(t,y,m)),f&&!t.checkbox&&this.createCheckboxForItem&&this.createCheckboxForItem(t),this.colorizeItem(t,t.visible),(i.styledMode||!h.width)&&y.css({width:(r.itemWidth||this.widthOption||i.spacingBox.width)-b+"px"}),this.setText(t);let v=y.getBBox(),S=this.fontMetrics&&this.fontMetrics.h||0;t.itemWidth=t.checkboxOffset=r.itemWidth||e.labelWidth||v.width+b,this.maxItemWidth=Math.max(this.maxItemWidth,t.itemWidth),this.totalItemWidth+=t.itemWidth,this.itemHeight=t.itemHeight=Math.round(e.labelHeight||(v.height>1.5*S?v.height:S))}layoutItem(t){let e=this.options,i=this.padding,s="horizontal"===e.layout,r=t.itemHeight,o=this.itemMarginBottom,n=this.itemMarginTop,a=s?w(e.itemDistance,20):0,h=this.maxLegendWidth,l=e.alignColumns&&this.totalItemWidth>h?this.maxItemWidth:t.itemWidth,d=t.legendItem||{};s&&this.itemX-i+l>h&&(this.itemX=i,this.lastLineHeight&&(this.itemY+=n+this.lastLineHeight+o),this.lastLineHeight=0),this.lastItemY=n+this.itemY+o,this.lastLineHeight=Math.max(r,this.lastLineHeight),d.x=this.itemX,d.y=this.itemY,s?this.itemX+=l:(this.itemY+=n+r+o,this.lastLineHeight=r),this.offsetWidth=this.widthOption||Math.max((s?this.itemX-i-(t.checkbox?0:a):l)+i,this.offsetWidth)}getAllItems(){let t=[];return this.chart.series.forEach(function(e){let i=e&&e.options;e&&w(i.showInLegend,!b(i.linkedTo)&&void 0,!0)&&(t=t.concat((e.legendItem||{}).labels||("point"===i.legendType?e.data:e)))}),C(this,"afterGetAllItems",{allItems:t}),t}getAlignment(){let t=this.options;return this.proximate?t.align.charAt(0)+"tv":t.floating?"":t.align.charAt(0)+t.verticalAlign.charAt(0)+t.layout.charAt(0)}adjustMargins(t,e){let i=this.chart,s=this.options,r=this.getAlignment();r&&[/(lth|ct|rth)/,/(rtv|rm|rbv)/,/(rbh|cb|lbh)/,/(lbv|lm|ltv)/].forEach(function(o,n){o.test(r)&&!b(t[n])&&(i[u[n]]=Math.max(i[u[n]],i.legend[(n+1)%2?"legendHeight":"legendWidth"]+[1,-1,-1,1][n]*s[n%2?"x":"y"]+w(s.margin,12)+e[n]+(i.titleOffset[n]||0)))})}proximatePositions(){let t;let e=this.chart,i=[],s="left"===this.options.align;for(let r of(this.allItems.forEach(function(t){let r,o,n=s,a,h;t.yAxis&&(t.xAxis.options.reversed&&(n=!n),t.points&&(r=S(n?t.points:t.points.slice(0).reverse(),function(t){return k(t.plotY)})),o=this.itemMarginTop+t.legendItem.label.getBBox().height+this.itemMarginBottom,h=t.yAxis.top-e.plotTop,a=t.visible?(r?r.plotY:t.yAxis.height)+(h-.3*o):h+t.yAxis.height,i.push({target:a,size:o,item:t}))},this),g(i,e.plotHeight)))t=r.item.legendItem||{},k(r.pos)&&(t.y=e.plotTop-e.spacing[0]+r.pos)}render(){let t=this.chart,e=t.renderer,i=this.options,s=this.padding,r=this.getAllItems(),o,n,a,h=this.group,l,d=this.box;this.itemX=s,this.itemY=this.initialItemY,this.offsetWidth=0,this.lastItemY=0,this.widthOption=A(i.width,t.spacingBox.width-s),l=t.spacingBox.width-2*s-i.x,["rm","lm"].indexOf(this.getAlignment().substring(0,2))>-1&&(l/=2),this.maxLegendWidth=this.widthOption||l,h||(this.group=h=e.g("legend").addClass(i.className||"").attr({zIndex:7}).add(),this.contentGroup=e.g().attr({zIndex:1}).add(h),this.scrollGroup=e.g().add(this.contentGroup)),this.renderTitle(),P(r,(t,e)=>(t.options&&t.options.legendIndex||0)-(e.options&&e.options.legendIndex||0)),i.reversed&&r.reverse(),this.allItems=r,this.display=o=!!r.length,this.lastLineHeight=0,this.maxItemWidth=0,this.totalItemWidth=0,this.itemHeight=0,r.forEach(this.renderItem,this),r.forEach(this.layoutItem,this),n=(this.widthOption||this.offsetWidth)+s,a=this.lastItemY+this.lastLineHeight+this.titleHeight,a=this.handleOverflow(a)+s,d||(this.box=d=e.rect().addClass("highcharts-legend-box").attr({r:i.borderRadius}).add(h)),t.styledMode||d.attr({stroke:i.borderColor,"stroke-width":i.borderWidth||0,fill:i.backgroundColor||"none"}).shadow(i.shadow),n>0&&a>0&&d[d.placed?"animate":"attr"](d.crisp.call({},{x:0,y:0,width:n,height:a},d.strokeWidth())),h[o?"show":"hide"](),t.styledMode&&"none"===h.getStyle("display")&&(n=a=0),this.legendWidth=n,this.legendHeight=a,o&&this.align(),this.proximate||this.positionItems(),C(this,"afterRender")}align(t=this.chart.spacingBox){let e=this.chart,i=this.options,s=t.y;/(lth|ct|rth)/.test(this.getAlignment())&&e.titleOffset[0]>0?s+=e.titleOffset[0]:/(lbh|cb|rbh)/.test(this.getAlignment())&&e.titleOffset[2]>0&&(s-=e.titleOffset[2]),s!==t.y&&(t=M(t,{y:s})),e.hasRendered||(this.group.placed=!1),this.group.align(M(i,{width:this.legendWidth,height:this.legendHeight,verticalAlign:this.proximate?"top":i.verticalAlign}),!0,t)}handleOverflow(t){let e=this,i=this.chart,s=i.renderer,r=this.options,o=r.y,n="top"===r.verticalAlign,a=this.padding,h=r.maxHeight,l=r.navigation,d=w(l.animation,!0),c=l.arrowSize||12,p=this.pages,u=this.allItems,g=function(t){"number"==typeof t?S.attr({height:t}):S&&(e.clipRect=S.destroy(),e.contentGroup.clip()),e.contentGroup.div&&(e.contentGroup.div.style.clip=t?"rect("+a+"px,9999px,"+(a+t)+"px,0)":"auto")},f=function(t){return e[t]=s.circle(0,0,1.3*c).translate(c/2,c/2).add(v),i.styledMode||e[t].attr("fill","rgba(0,0,0,0.0001)"),e[t]},m,x,y,b=i.spacingBox.height+(n?-o:o)-a,v=this.nav,S=this.clipRect;return"horizontal"!==r.layout||"middle"===r.verticalAlign||r.floating||(b/=2),h&&(b=Math.min(b,h)),p.length=0,t&&b>0&&t>b&&!1!==l.enabled?(this.clipHeight=m=Math.max(b-20-this.titleHeight-a,0),this.currentPage=w(this.currentPage,1),this.fullHeight=t,u.forEach((t,e)=>{let i=(y=t.legendItem||{}).y||0,s=Math.round(y.label.getBBox().height),r=p.length;(!r||i-p[r-1]>m&&(x||i)!==p[r-1])&&(p.push(x||i),r++),y.pageIx=r-1,x&&((u[e-1].legendItem||{}).pageIx=r-1),e===u.length-1&&i+s-p[r-1]>m&&i>p[r-1]&&(p.push(i),y.pageIx=r),i!==x&&(x=i)}),S||(S=e.clipRect=s.clipRect(0,a-2,9999,0),e.contentGroup.clip(S)),g(m),v||(this.nav=v=s.g().attr({zIndex:1}).add(this.group),this.up=s.symbol("triangle",0,0,c,c).add(v),f("upTracker").on("click",function(){e.scroll(-1,d)}),this.pager=s.text("",15,10).addClass("highcharts-legend-navigation"),!i.styledMode&&l.style&&this.pager.css(l.style),this.pager.add(v),this.down=s.symbol("triangle-down",0,0,c,c).add(v),f("downTracker").on("click",function(){e.scroll(1,d)})),e.scroll(0),t=b):v&&(g(),this.nav=v.destroy(),this.scrollGroup.attr({translateY:1}),this.clipHeight=0),t}scroll(t,e){let i=this.chart,s=this.pages,r=s.length,o=this.clipHeight,n=this.options.navigation,a=this.pager,h=this.padding,c=this.currentPage+t;c>r&&(c=r),c>0&&(void 0!==e&&d(e,i),this.nav.attr({translateX:h,translateY:o+this.padding+7+this.titleHeight,visibility:"inherit"}),[this.up,this.upTracker].forEach(function(t){t.attr({class:1===c?"highcharts-legend-nav-inactive":"highcharts-legend-nav-active"})}),a.attr({text:c+"/"+r}),[this.down,this.downTracker].forEach(function(t){t.attr({x:18+this.pager.getBBox().width,class:c===r?"highcharts-legend-nav-inactive":"highcharts-legend-nav-active"})},this),i.styledMode||(this.up.attr({fill:1===c?n.inactiveColor:n.activeColor}),this.upTracker.css({cursor:1===c?"default":"pointer"}),this.down.attr({fill:c===r?n.inactiveColor:n.activeColor}),this.downTracker.css({cursor:c===r?"default":"pointer"})),this.scrollOffset=-s[c-1]+this.initialItemY,this.scrollGroup.animate({translateY:this.scrollOffset}),this.currentPage=c,this.positionCheckboxes(),L(()=>{C(this,"afterScroll",{currentPage:c})},l(w(e,i.renderer.globalAnimation,!0)).duration))}setItemEvents(t,e,i){let o=this,n=t.legendItem||{},a=o.chart.renderer.boxWrapper,h=t instanceof r,l=t instanceof s,d="highcharts-legend-"+(h?"point":"series")+"-active",c=o.chart.styledMode,p=i?[e,n.symbol]:[n.group],u=e=>{o.allItems.forEach(i=>{t!==i&&[i].concat(i.linkedSeries||[]).forEach(t=>{t.setState(e,!h)})})};for(let i of p)i&&i.on("mouseover",function(){t.visible&&u("inactive"),t.setState("hover"),t.visible&&a.addClass(d),c||e.css(o.options.itemHoverStyle)}).on("mouseout",function(){o.chart.styledMode||e.css(M(t.visible?o.itemStyle:o.itemHiddenStyle)),u(""),a.removeClass(d),t.setState()}).on("click",function(e){let i=function(){t.setVisible&&t.setVisible(),u(t.visible?"inactive":"")};a.removeClass(d),C(o,"itemClick",{browserEvent:e,legendItem:t},i),h?t.firePointEvent("legendItemClick",{browserEvent:e}):l&&C(t,"legendItemClick",{browserEvent:e})})}createCheckboxForItem(t){t.checkbox=x("input",{type:"checkbox",className:"highcharts-legend-checkbox",checked:t.selected,defaultChecked:t.selected},this.options.itemCheckboxStyle,this.chart.container),m(t.checkbox,"click",function(e){let i=e.target;C(t.series||t,"checkboxClick",{checked:i.checked,item:t},function(){t.select()})})}}return(h=O||(O={})).compose=function(t){T(p,"Core.Legend")&&m(t,"beforeMargins",function(){this.legend=new h(this,this.options.legend)})},O}),i(e,"Core/Chart/Chart.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Axis/Axis.js"],e["Core/Defaults.js"],e["Core/Templating.js"],e["Core/Foundation.js"],e["Core/Globals.js"],e["Core/Renderer/RendererRegistry.js"],e["Core/Series/Series.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Renderer/SVG/SVGRenderer.js"],e["Core/Time.js"],e["Core/Utilities.js"],e["Core/Renderer/HTML/AST.js"],e["Core/Axis/Tick.js"]],function(t,e,i,s,r,o,n,a,h,l,d,c,p,u){let{animate:g,animObject:f,setAnimation:m}=t,{defaultOptions:x,defaultTime:y}=i,{numberFormat:b}=s,{registerEventOptions:v}=r,{charts:S,doc:C,marginNames:k,svg:M,win:w}=o,{seriesTypes:T}=h,{addEvent:A,attr:P,createElement:L,css:O,defined:D,diffObjects:E,discardElement:I,erase:j,error:B,extend:R,find:z,fireEvent:N,getStyle:W,isArray:G,isNumber:H,isObject:X,isString:F,merge:Y,objectEach:U,pick:V,pInt:$,relativeLength:Z,removeEvent:_,splat:q,syncTimeout:K,uniqueKey:J}=c;class Q{static chart(t,e,i){return new Q(t,e,i)}constructor(t,e,i){this.sharedClips={};let s=[...arguments];(F(t)||t.nodeName)&&(this.renderTo=s.shift()),this.init(s[0],s[1])}setZoomOptions(){let t=this.options.chart,e=t.zooming;this.zooming={...e,type:V(t.zoomType,e.type),key:V(t.zoomKey,e.key),pinchType:V(t.pinchType,e.pinchType),singleTouch:V(t.zoomBySingleTouch,e.singleTouch,!1),resetButton:Y(e.resetButton,t.resetZoomButton)}}init(t,e){N(this,"init",{args:arguments},function(){let i=Y(x,t),s=i.chart;this.userOptions=R({},t),this.margin=[],this.spacing=[],this.labelCollectors=[],this.callback=e,this.isResizing=0,this.options=i,this.axes=[],this.series=[],this.time=t.time&&Object.keys(t.time).length?new d(t.time):o.time,this.numberFormatter=s.numberFormatter||b,this.styledMode=s.styledMode,this.hasCartesianSeries=s.showAxes,this.index=S.length,S.push(this),o.chartCount++,v(this,s),this.xAxis=[],this.yAxis=[],this.pointCount=this.colorCounter=this.symbolCounter=0,this.setZoomOptions(),N(this,"afterInit"),this.firstRender()})}initSeries(t){let e=this.options.chart,i=t.type||e.type,s=T[i];s||B(17,!0,this,{missingModuleFor:i});let r=new s;return"function"==typeof r.init&&r.init(this,t),r}setSortedData(){this.getSeriesOrderByLinks().forEach(function(t){t.points||t.data||!t.enabledDataSorting||t.setData(t.options.data,!1)})}getSeriesOrderByLinks(){return this.series.concat().sort(function(t,e){return t.linkedSeries.length||e.linkedSeries.length?e.linkedSeries.length-t.linkedSeries.length:0})}orderItems(t,e=0){let i=this[t],s=this.options[t]=q(this.options[t]).slice(),r=this.userOptions[t]=this.userOptions[t]?q(this.userOptions[t]).slice():[];if(this.hasRendered&&(s.splice(e),r.splice(e)),i)for(let t=e,o=i.length;t<o;++t){let e=i[t];e&&(e.index=t,e instanceof a&&(e.name=e.getName()),e.options.isInternal||(s[t]=e.options,r[t]=e.userOptions))}}isInsidePlot(t,e,i={}){let{inverted:s,plotBox:r,plotLeft:o,plotTop:n,scrollablePlotBox:a}=this,{scrollLeft:h=0,scrollTop:l=0}=i.visiblePlotOnly&&this.scrollablePlotArea?.scrollingContainer||{},d=i.series,c=i.visiblePlotOnly&&a||r,p=i.inverted?e:t,u=i.inverted?t:e,g={x:p,y:u,isInsidePlot:!0,options:i};if(!i.ignoreX){let t=d&&(s&&!this.polar?d.yAxis:d.xAxis)||{pos:o,len:1/0},e=i.paneCoordinates?t.pos+p:o+p;e>=Math.max(h+o,t.pos)&&e<=Math.min(h+o+c.width,t.pos+t.len)||(g.isInsidePlot=!1)}if(!i.ignoreY&&g.isInsidePlot){let t=!s&&i.axis&&!i.axis.isXAxis&&i.axis||d&&(s?d.xAxis:d.yAxis)||{pos:n,len:1/0},e=i.paneCoordinates?t.pos+u:n+u;e>=Math.max(l+n,t.pos)&&e<=Math.min(l+n+c.height,t.pos+t.len)||(g.isInsidePlot=!1)}return N(this,"afterIsInsidePlot",g),g.isInsidePlot}redraw(t){N(this,"beforeRedraw");let e=this.hasCartesianSeries?this.axes:this.colorAxis||[],i=this.series,s=this.pointer,r=this.legend,o=this.userOptions.legend,n=this.renderer,a=n.isHidden(),h=[],l,d,c,p=this.isDirtyBox,u=this.isDirtyLegend,g;for(n.rootFontSize=n.boxWrapper.getStyle("font-size"),this.setResponsive&&this.setResponsive(!1),m(!!this.hasRendered&&t,this),a&&this.temporaryDisplay(),this.layOutTitles(!1),c=i.length;c--;)if(((g=i[c]).options.stacking||g.options.centerInCategory)&&(d=!0,g.isDirty)){l=!0;break}if(l)for(c=i.length;c--;)(g=i[c]).options.stacking&&(g.isDirty=!0);i.forEach(function(t){t.isDirty&&("point"===t.options.legendType?("function"==typeof t.updateTotals&&t.updateTotals(),u=!0):o&&(o.labelFormatter||o.labelFormat)&&(u=!0)),t.isDirtyData&&N(t,"updatedData")}),u&&r&&r.options.enabled&&(r.render(),this.isDirtyLegend=!1),d&&this.getStacks(),e.forEach(function(t){t.updateNames(),t.setScale()}),this.getMargins(),e.forEach(function(t){t.isDirty&&(p=!0)}),e.forEach(function(t){let e=t.min+","+t.max;t.extKey!==e&&(t.extKey=e,h.push(function(){N(t,"afterSetExtremes",R(t.eventArgs,t.getExtremes())),delete t.eventArgs})),(p||d)&&t.redraw()}),p&&this.drawChartBox(),N(this,"predraw"),i.forEach(function(t){(p||t.isDirty)&&t.visible&&t.redraw(),t.isDirtyData=!1}),s&&s.reset(!0),n.draw(),N(this,"redraw"),N(this,"render"),a&&this.temporaryDisplay(!0),h.forEach(function(t){t.call()})}get(t){let e=this.series;function i(e){return e.id===t||e.options&&e.options.id===t}let s=z(this.axes,i)||z(this.series,i);for(let t=0;!s&&t<e.length;t++)s=z(e[t].points||[],i);return s}getAxes(){let t=this.userOptions;for(let i of(N(this,"getAxes"),["xAxis","yAxis"]))for(let s of t[i]=q(t[i]||{}))new e(this,s,i);N(this,"afterGetAxes")}getSelectedPoints(){return this.series.reduce((t,e)=>(e.getPointsCollection().forEach(e=>{V(e.selectedStaging,e.selected)&&t.push(e)}),t),[])}getSelectedSeries(){return this.series.filter(function(t){return t.selected})}setTitle(t,e,i){this.applyDescription("title",t),this.applyDescription("subtitle",e),this.applyDescription("caption",void 0),this.layOutTitles(i)}applyDescription(t,e){let i=this,s=this.options[t]=Y(this.options[t],e),r=this[t];r&&e&&(this[t]=r=r.destroy()),s&&!r&&((r=this.renderer.text(s.text,0,0,s.useHTML).attr({align:s.align,class:"highcharts-"+t,zIndex:s.zIndex||4}).add()).update=function(e,s){i.applyDescription(t,e),i.layOutTitles(s)},this.styledMode||r.css(R("title"===t?{fontSize:this.options.isStock?"1em":"1.2em"}:{},s.style)),this[t]=r)}layOutTitles(t=!0){let e=[0,0,0],i=this.renderer,s=this.spacingBox;["title","subtitle","caption"].forEach(function(t){let r=this[t],o=this.options[t],n=o.verticalAlign||"top",a="title"===t?"top"===n?-3:0:"top"===n?e[0]+2:0;if(r){r.css({width:(o.width||s.width+(o.widthAdjust||0))+"px"});let t=i.fontMetrics(r).b,h=Math.round(r.getBBox(o.useHTML).height);r.align(R({y:"bottom"===n?t:a+t,height:h},o),!1,"spacingBox"),o.floating||("top"===n?e[0]=Math.ceil(e[0]+h):"bottom"===n&&(e[2]=Math.ceil(e[2]+h)))}},this),e[0]&&"top"===(this.options.title.verticalAlign||"top")&&(e[0]+=this.options.title.margin),e[2]&&"bottom"===this.options.caption.verticalAlign&&(e[2]+=this.options.caption.margin);let r=!this.titleOffset||this.titleOffset.join(",")!==e.join(",");this.titleOffset=e,N(this,"afterLayOutTitles"),!this.isDirtyBox&&r&&(this.isDirtyBox=this.isDirtyLegend=r,this.hasRendered&&t&&this.isDirtyBox&&this.redraw())}getContainerBox(){let t=[].map.call(this.renderTo.children,t=>{if(t!==this.container){let e=t.style.display;return t.style.display="none",[t,e]}}),e={width:W(this.renderTo,"width",!0)||0,height:W(this.renderTo,"height",!0)||0};return t.filter(Boolean).forEach(([t,e])=>{t.style.display=e}),e}getChartSize(){let t=this.options.chart,e=t.width,i=t.height,s=this.getContainerBox(),r=s.height>1&&!(!this.renderTo.parentElement?.style.height&&"100%"===this.renderTo.style.height);this.chartWidth=Math.max(0,e||s.width||600),this.chartHeight=Math.max(0,Z(i,this.chartWidth)||(r?s.height:400)),this.containerBox=s}temporaryDisplay(t){let e=this.renderTo,i;if(t)for(;e&&e.style;)e.hcOrigStyle&&(O(e,e.hcOrigStyle),delete e.hcOrigStyle),e.hcOrigDetached&&(C.body.removeChild(e),e.hcOrigDetached=!1),e=e.parentNode;else for(;e&&e.style&&(C.body.contains(e)||e.parentNode||(e.hcOrigDetached=!0,C.body.appendChild(e)),("none"===W(e,"display",!1)||e.hcOricDetached)&&(e.hcOrigStyle={display:e.style.display,height:e.style.height,overflow:e.style.overflow},i={display:"block",overflow:"hidden"},e!==this.renderTo&&(i.height=0),O(e,i),e.offsetWidth||e.style.setProperty("display","block","important")),(e=e.parentNode)!==C.body););}setClassName(t){this.container.className="highcharts-container "+(t||"")}getContainer(){let t=this.options,e=t.chart,i="data-highcharts-chart",s=J(),r,o=this.renderTo;o||(this.renderTo=o=e.renderTo),F(o)&&(this.renderTo=o=C.getElementById(o)),o||B(13,!0,this);let a=$(P(o,i));H(a)&&S[a]&&S[a].hasRendered&&S[a].destroy(),P(o,i,this.index),o.innerHTML=p.emptyHTML,e.skipClone||o.offsetWidth||this.temporaryDisplay(),this.getChartSize();let h=this.chartHeight,d=this.chartWidth;O(o,{overflow:"hidden"}),this.styledMode||(r=R({position:"relative",overflow:"hidden",width:d+"px",height:h+"px",textAlign:"left",lineHeight:"normal",zIndex:0,"-webkit-tap-highlight-color":"rgba(0,0,0,0)",userSelect:"none","touch-action":"manipulation",outline:"none",padding:"0px"},e.style||{}));let c=L("div",{id:s},r,o);this.container=c,this.getChartSize(),d===this.chartWidth||(d=this.chartWidth,this.styledMode||O(c,{width:V(e.style?.width,d+"px")})),this.containerBox=this.getContainerBox(),this._cursor=c.style.cursor;let u=e.renderer||!M?n.getRendererType(e.renderer):l;if(this.renderer=new u(c,d,h,void 0,e.forExport,t.exporting&&t.exporting.allowHTML,this.styledMode),m(void 0,this),this.setClassName(e.className),this.styledMode)for(let e in t.defs)this.renderer.definition(t.defs[e]);else this.renderer.setStyle(e.style);this.renderer.chartIndex=this.index,N(this,"afterGetContainer")}getMargins(t){let{spacing:e,margin:i,titleOffset:s}=this;this.resetMargins(),s[0]&&!D(i[0])&&(this.plotTop=Math.max(this.plotTop,s[0]+e[0])),s[2]&&!D(i[2])&&(this.marginBottom=Math.max(this.marginBottom,s[2]+e[2])),this.legend&&this.legend.display&&this.legend.adjustMargins(i,e),N(this,"getMargins"),t||this.getAxisMargins()}getAxisMargins(){let t=this,e=t.axisOffset=[0,0,0,0],i=t.colorAxis,s=t.margin,r=function(t){t.forEach(function(t){t.visible&&t.getOffset()})};t.hasCartesianSeries?r(t.axes):i&&i.length&&r(i),k.forEach(function(i,r){D(s[r])||(t[i]+=e[r])}),t.setChartSize()}getOptions(){return E(this.userOptions,x)}reflow(t){let e=this,i=e.containerBox,s=e.getContainerBox();delete e.pointer?.chartPosition,!e.isPrinting&&!e.isResizing&&i&&s.width&&((s.width!==i.width||s.height!==i.height)&&(c.clearTimeout(e.reflowTimeout),e.reflowTimeout=K(function(){e.container&&e.setSize(void 0,void 0,!1)},t?100:0)),e.containerBox=s)}setReflow(){let t=this,e=e=>{t.options?.chart.reflow&&t.hasLoaded&&t.reflow(e)};if("function"==typeof ResizeObserver)new ResizeObserver(e).observe(t.renderTo);else{let t=A(w,"resize",e);A(this,"destroy",t)}}setSize(t,e,i){let s=this,r=s.renderer;s.isResizing+=1,m(i,s);let o=r.globalAnimation;s.oldChartHeight=s.chartHeight,s.oldChartWidth=s.chartWidth,void 0!==t&&(s.options.chart.width=t),void 0!==e&&(s.options.chart.height=e),s.getChartSize();let{chartWidth:n,chartHeight:a,scrollablePixelsX:h=0,scrollablePixelsY:l=0}=s;(s.isDirtyBox||n!==s.oldChartWidth||a!==s.oldChartHeight)&&(s.styledMode||(o?g:O)(s.container,{width:`${n+h}px`,height:`${a+l}px`},o),s.setChartSize(!0),r.setSize(n,a,o),s.axes.forEach(function(t){t.isDirty=!0,t.setScale()}),s.isDirtyLegend=!0,s.isDirtyBox=!0,s.layOutTitles(),s.getMargins(),s.redraw(o),s.oldChartHeight=void 0,N(s,"resize"),setTimeout(()=>{s&&N(s,"endResize")},f(o).duration)),s.isResizing-=1}setChartSize(t){let e,i,s,r;let{chartHeight:o,chartWidth:n,inverted:a,spacing:h,renderer:l}=this,d=this.clipOffset,c=Math[a?"floor":"round"];this.plotLeft=e=Math.round(this.plotLeft),this.plotTop=i=Math.round(this.plotTop),this.plotWidth=s=Math.max(0,Math.round(n-e-this.marginRight)),this.plotHeight=r=Math.max(0,Math.round(o-i-this.marginBottom)),this.plotSizeX=a?r:s,this.plotSizeY=a?s:r,this.spacingBox=l.spacingBox={x:h[3],y:h[0],width:n-h[3]-h[1],height:o-h[0]-h[2]},this.plotBox=l.plotBox={x:e,y:i,width:s,height:r},d&&(this.clipBox={x:c(d[3]),y:c(d[0]),width:c(this.plotSizeX-d[1]-d[3]),height:c(this.plotSizeY-d[0]-d[2])}),t||(this.axes.forEach(function(t){t.setAxisSize(),t.setAxisTranslation()}),l.alignElements()),N(this,"afterSetChartSize",{skipAxes:t})}resetMargins(){N(this,"resetMargins");let t=this,e=t.options.chart,i=e.plotBorderWidth||0,s=i/2;["margin","spacing"].forEach(function(i){let s=e[i],r=X(s)?s:[s,s,s,s];["Top","Right","Bottom","Left"].forEach(function(s,o){t[i][o]=V(e[i+s],r[o])})}),k.forEach(function(e,i){t[e]=V(t.margin[i],t.spacing[i])}),t.axisOffset=[0,0,0,0],t.clipOffset=[s,s,s,s],t.plotBorderWidth=i}drawChartBox(){let t=this.options.chart,e=this.renderer,i=this.chartWidth,s=this.chartHeight,r=this.styledMode,o=this.plotBGImage,n=t.backgroundColor,a=t.plotBackgroundColor,h=t.plotBackgroundImage,l=this.plotLeft,d=this.plotTop,c=this.plotWidth,p=this.plotHeight,u=this.plotBox,g=this.clipRect,f=this.clipBox,m=this.chartBackground,x=this.plotBackground,y=this.plotBorder,b,v,S,C="animate";m||(this.chartBackground=m=e.rect().addClass("highcharts-background").add(),C="attr"),r?b=v=m.strokeWidth():(v=(b=t.borderWidth||0)+(t.shadow?8:0),S={fill:n||"none"},(b||m["stroke-width"])&&(S.stroke=t.borderColor,S["stroke-width"]=b),m.attr(S).shadow(t.shadow)),m[C]({x:v/2,y:v/2,width:i-v-b%2,height:s-v-b%2,r:t.borderRadius}),C="animate",x||(C="attr",this.plotBackground=x=e.rect().addClass("highcharts-plot-background").add()),x[C](u),!r&&(x.attr({fill:a||"none"}).shadow(t.plotShadow),h&&(o?(h!==o.attr("href")&&o.attr("href",h),o.animate(u)):this.plotBGImage=e.image(h,l,d,c,p).add())),g?g.animate({width:f.width,height:f.height}):this.clipRect=e.clipRect(f),C="animate",y||(C="attr",this.plotBorder=y=e.rect().addClass("highcharts-plot-border").attr({zIndex:1}).add()),r||y.attr({stroke:t.plotBorderColor,"stroke-width":t.plotBorderWidth||0,fill:"none"}),y[C](y.crisp({x:l,y:d,width:c,height:p},-y.strokeWidth())),this.isDirtyBox=!1,N(this,"afterDrawChartBox")}propFromSeries(){let t,e,i;let s=this,r=s.options.chart,o=s.options.series;["inverted","angular","polar"].forEach(function(n){for(e=T[r.type],i=r[n]||e&&e.prototype[n],t=o&&o.length;!i&&t--;)(e=T[o[t].type])&&e.prototype[n]&&(i=!0);s[n]=i})}linkSeries(t){let e=this,i=e.series;i.forEach(function(t){t.linkedSeries.length=0}),i.forEach(function(t){let{linkedTo:i}=t.options;if(F(i)){let s;(s=":previous"===i?e.series[t.index-1]:e.get(i))&&s.linkedParent!==t&&(s.linkedSeries.push(t),t.linkedParent=s,s.enabledDataSorting&&t.setDataSortingOptions(),t.visible=V(t.options.visible,s.options.visible,t.visible))}}),N(this,"afterLinkSeries",{isUpdating:t})}renderSeries(){this.series.forEach(function(t){t.translate(),t.render()})}render(){let t=this.axes,e=this.colorAxis,i=this.renderer,s=this.options.chart.axisLayoutRuns||2,r=t=>{t.forEach(t=>{t.visible&&t.render()})},o=0,n=!0,a,h=0;for(let e of(this.setTitle(),N(this,"beforeMargins"),this.getStacks?.(),this.getMargins(!0),this.setChartSize(),t)){let{options:t}=e,{labels:i}=t;if(this.hasCartesianSeries&&e.horiz&&e.visible&&i.enabled&&e.series.length&&"colorAxis"!==e.coll&&!this.polar){o=t.tickLength,e.createGroups();let s=new u(e,0,"",!0),r=s.createLabel("x",i);if(s.destroy(),r&&V(i.reserveSpace,!H(t.crossing))&&(o=r.getBBox().height+i.distance+Math.max(t.offset||0,0)),o){r?.destroy();break}}}for(this.plotHeight=Math.max(this.plotHeight-o,0);(n||a||s>1)&&h<s;){let e=this.plotWidth,i=this.plotHeight;for(let e of t)0===h?e.setScale():(e.horiz&&n||!e.horiz&&a)&&e.setTickInterval(!0);0===h?this.getAxisMargins():this.getMargins(),n=e/this.plotWidth>(h?1:1.1),a=i/this.plotHeight>(h?1:1.05),h++}this.drawChartBox(),this.hasCartesianSeries?r(t):e&&e.length&&r(e),this.seriesGroup||(this.seriesGroup=i.g("series-group").attr({zIndex:3}).shadow(this.options.chart.seriesGroupShadow).add()),this.renderSeries(),this.addCredits(),this.setResponsive&&this.setResponsive(),this.hasRendered=!0}addCredits(t){let e=this,i=Y(!0,this.options.credits,t);i.enabled&&!this.credits&&(this.credits=this.renderer.text(i.text+(this.mapCredits||""),0,0).addClass("highcharts-credits").on("click",function(){i.href&&(w.location.href=i.href)}).attr({align:i.position.align,zIndex:8}),e.styledMode||this.credits.css(i.style),this.credits.add().align(i.position),this.credits.update=function(t){e.credits=e.credits.destroy(),e.addCredits(t)})}destroy(){let t;let e=this,i=e.axes,s=e.series,r=e.container,n=r&&r.parentNode;for(N(e,"destroy"),e.renderer.forExport?j(S,e):S[e.index]=void 0,o.chartCount--,e.renderTo.removeAttribute("data-highcharts-chart"),_(e),t=i.length;t--;)i[t]=i[t].destroy();for(this.scroller&&this.scroller.destroy&&this.scroller.destroy(),t=s.length;t--;)s[t]=s[t].destroy();["title","subtitle","chartBackground","plotBackground","plotBGImage","plotBorder","seriesGroup","clipRect","credits","pointer","rangeSelector","legend","resetZoomButton","tooltip","renderer"].forEach(function(t){let i=e[t];i&&i.destroy&&(e[t]=i.destroy())}),r&&(r.innerHTML=p.emptyHTML,_(r),n&&I(r)),U(e,function(t,i){delete e[i]})}firstRender(){let t=this,e=t.options;t.getContainer(),t.resetMargins(),t.setChartSize(),t.propFromSeries(),t.getAxes();let i=G(e.series)?e.series:[];e.series=[],i.forEach(function(e){t.initSeries(e)}),t.linkSeries(),t.setSortedData(),N(t,"beforeRender"),t.render(),t.pointer?.getChartPosition(),t.renderer.imgCount||t.hasLoaded||t.onload(),t.temporaryDisplay(!0)}onload(){this.callbacks.concat([this.callback]).forEach(function(t){t&&void 0!==this.index&&t.apply(this,[this])},this),N(this,"load"),N(this,"render"),D(this.index)&&this.setReflow(),this.warnIfA11yModuleNotLoaded(),this.hasLoaded=!0}warnIfA11yModuleNotLoaded(){let{options:t,title:e}=this;!t||this.accessibility||(this.renderer.boxWrapper.attr({role:"img","aria-label":(e&&e.element.textContent||"").replace(/</g,"&lt;")}),t.accessibility&&!1===t.accessibility.enabled||B('Highcharts warning: Consider including the "accessibility.js" module to make your chart more usable for people with disabilities. Set the "accessibility.enabled" option to false to remove this warning. See https://www.highcharts.com/docs/accessibility/accessibility-module.',!1,this))}addSeries(t,e,i){let s;let r=this;return t&&(e=V(e,!0),N(r,"addSeries",{options:t},function(){s=r.initSeries(t),r.isDirtyLegend=!0,r.linkSeries(),s.enabledDataSorting&&s.setData(t.data,!1),N(r,"afterAddSeries",{series:s}),e&&r.redraw(i)})),s}addAxis(t,e,i,s){return this.createAxis(e?"xAxis":"yAxis",{axis:t,redraw:i,animation:s})}addColorAxis(t,e,i){return this.createAxis("colorAxis",{axis:t,redraw:e,animation:i})}createAxis(t,i){let s=new e(this,i.axis,t);return V(i.redraw,!0)&&this.redraw(i.animation),s}showLoading(t){let e=this,i=e.options,s=i.loading,r=function(){o&&O(o,{left:e.plotLeft+"px",top:e.plotTop+"px",width:e.plotWidth+"px",height:e.plotHeight+"px"})},o=e.loadingDiv,n=e.loadingSpan;o||(e.loadingDiv=o=L("div",{className:"highcharts-loading highcharts-loading-hidden"},null,e.container)),n||(e.loadingSpan=n=L("span",{className:"highcharts-loading-inner"},null,o),A(e,"redraw",r)),o.className="highcharts-loading",p.setElementHTML(n,V(t,i.lang.loading,"")),e.styledMode||(O(o,R(s.style,{zIndex:10})),O(n,s.labelStyle),e.loadingShown||(O(o,{opacity:0,display:""}),g(o,{opacity:s.style.opacity||.5},{duration:s.showDuration||0}))),e.loadingShown=!0,r()}hideLoading(){let t=this.options,e=this.loadingDiv;e&&(e.className="highcharts-loading highcharts-loading-hidden",this.styledMode||g(e,{opacity:0},{duration:t.loading.hideDuration||100,complete:function(){O(e,{display:"none"})}})),this.loadingShown=!1}update(t,e,i,s){let r,o,n;let a=this,h={credits:"addCredits",title:"setTitle",subtitle:"setSubtitle",caption:"setCaption"},l=t.isResponsiveOptions,c=[];N(a,"update",{options:t}),l||a.setResponsive(!1,!0),t=E(t,a.options),a.userOptions=Y(a.userOptions,t);let p=t.chart;p&&(Y(!0,a.options.chart,p),this.setZoomOptions(),"className"in p&&a.setClassName(p.className),("inverted"in p||"polar"in p||"type"in p)&&(a.propFromSeries(),r=!0),"alignTicks"in p&&(r=!0),"events"in p&&v(this,p),U(p,function(t,e){-1!==a.propsRequireUpdateSeries.indexOf("chart."+e)&&(o=!0),-1!==a.propsRequireDirtyBox.indexOf(e)&&(a.isDirtyBox=!0),-1===a.propsRequireReflow.indexOf(e)||(a.isDirtyBox=!0,l||(n=!0))}),!a.styledMode&&p.style&&a.renderer.setStyle(a.options.chart.style||{})),!a.styledMode&&t.colors&&(this.options.colors=t.colors),t.time&&(this.time===y&&(this.time=new d(t.time)),Y(!0,a.options.time,t.time)),U(t,function(e,i){a[i]&&"function"==typeof a[i].update?a[i].update(e,!1):"function"==typeof a[h[i]]?a[h[i]](e):"colors"!==i&&-1===a.collectionsWithUpdate.indexOf(i)&&Y(!0,a.options[i],t[i]),"chart"!==i&&-1!==a.propsRequireUpdateSeries.indexOf(i)&&(o=!0)}),this.collectionsWithUpdate.forEach(function(e){t[e]&&(q(t[e]).forEach(function(t,s){let r;let o=D(t.id);o&&(r=a.get(t.id)),!r&&a[e]&&(r=a[e][V(t.index,s)])&&(o&&D(r.options.id)||r.options.isInternal)&&(r=void 0),r&&r.coll===e&&(r.update(t,!1),i&&(r.touched=!0)),!r&&i&&a.collectionsWithInit[e]&&(a.collectionsWithInit[e][0].apply(a,[t].concat(a.collectionsWithInit[e][1]||[]).concat([!1])).touched=!0)}),i&&a[e].forEach(function(t){t.touched||t.options.isInternal?delete t.touched:c.push(t)}))}),c.forEach(function(t){t.chart&&t.remove&&t.remove(!1)}),r&&a.axes.forEach(function(t){t.update({},!1)}),o&&a.getSeriesOrderByLinks().forEach(function(t){t.chart&&t.update({},!1)},this);let u=p&&p.width,g=p&&(F(p.height)?Z(p.height,u||a.chartWidth):p.height);n||H(u)&&u!==a.chartWidth||H(g)&&g!==a.chartHeight?a.setSize(u,g,s):V(e,!0)&&a.redraw(s),N(a,"afterUpdate",{options:t,redraw:e,animation:s})}setSubtitle(t,e){this.applyDescription("subtitle",t),this.layOutTitles(e)}setCaption(t,e){this.applyDescription("caption",t),this.layOutTitles(e)}showResetZoom(){let t=this,e=x.lang,i=t.zooming.resetButton,s=i.theme,r="chart"===i.relativeTo||"spacingBox"===i.relativeTo?null:"plotBox";function o(){t.zoomOut()}N(this,"beforeShowResetZoom",null,function(){t.resetZoomButton=t.renderer.button(e.resetZoom,null,null,o,s).attr({align:i.position.align,title:e.resetZoomTitle}).addClass("highcharts-reset-zoom").add().align(i.position,!1,r)}),N(this,"afterShowResetZoom")}zoomOut(){N(this,"selection",{resetSelection:!0},()=>this.transform({reset:!0,trigger:"zoom"}))}pan(t,e){let i=this,s="object"==typeof e?e:{enabled:e,type:"x"},r=s.type,o=r&&i[({x:"xAxis",xy:"axes",y:"yAxis"})[r]].filter(t=>t.options.panningEnabled&&!t.options.isInternal),n=i.options.chart;n?.panning&&(n.panning=s),N(this,"pan",{originalEvent:t},()=>{i.transform({axes:o,event:t,to:{x:t.chartX-(i.mouseDownX||0),y:t.chartY-(i.mouseDownY||0)},trigger:"pan"}),O(i.container,{cursor:"move"})})}transform(t){let{axes:e=this.axes,event:i,from:s={},reset:r,selection:o,to:n={},trigger:a}=t,{inverted:h}=this,l=!1,d,c;for(let t of(this.hoverPoints?.forEach(t=>t.setState()),e)){let{horiz:e,len:p,minPointOffset:u=0,options:g,reversed:f}=t,m=e?"width":"height",x=e?"x":"y",y=V(n[m],t.len),b=V(s[m],t.len),v=10>Math.abs(y)?1:y/b,S=(s[x]||0)+b/2-t.pos,C=S-((n[x]??t.pos)+y/2-t.pos)/v,k=f&&!h||!f&&h?-1:1;if(!r&&(S<0||S>t.len))continue;let M=t.toValue(C,!0)+(o||t.isOrdinal?0:u*k),w=t.toValue(C+p/v,!0)-(o||t.isOrdinal?0:u*k||0),T=t.allExtremes;if(M>w&&([M,w]=[w,M]),1===v&&!r&&"yAxis"===t.coll&&!T){for(let e of t.series){let t=e.getExtremes(e.getProcessedData(!0).yData,!0);T??(T={dataMin:Number.MAX_VALUE,dataMax:-Number.MAX_VALUE}),H(t.dataMin)&&H(t.dataMax)&&(T.dataMin=Math.min(t.dataMin,T.dataMin),T.dataMax=Math.max(t.dataMax,T.dataMax))}t.allExtremes=T}let{dataMin:A,dataMax:P,min:L,max:O}=R(t.getExtremes(),T||{}),E=A??g.min,I=P??g.max,j=w-M,B=t.categories?0:Math.min(j,I-E),z=E-B*(D(g.min)?0:g.minPadding),N=I+B*(D(g.max)?0:g.maxPadding),W=t.allowZoomOutside||1===v||"zoom"!==a&&v>1,G=Math.min(g.min??z,z,W?L:z),X=Math.max(g.max??N,N,W?O:N);(!t.isOrdinal||t.options.overscroll||1!==v||r)&&(M<G&&(M=G,v>=1&&(w=M+j)),w>X&&(w=X,v>=1&&(M=w-j)),(r||t.series.length&&(M!==L||w!==O)&&M>=G&&w<=X)&&(o?o[t.coll].push({axis:t,min:M,max:w}):(t.isPanning="zoom"!==a,t.isPanning&&(c=!0),t.setExtremes(r?void 0:M,r?void 0:w,!1,!1,{move:C,trigger:a,scale:v}),!r&&(M>G||w<X)&&"mousewheel"!==a&&(d=!0)),l=!0),i&&(this[e?"mouseDownX":"mouseDownY"]=i[e?"chartX":"chartY"]))}return l&&(o?N(this,"selection",o,()=>{delete t.selection,t.trigger="zoom",this.transform(t)}):(!d||c||this.resetZoomButton?!d&&this.resetZoomButton&&(this.resetZoomButton=this.resetZoomButton.destroy()):this.showResetZoom(),this.redraw("zoom"===a&&(this.options.chart.animation??this.pointCount<100)))),l}}return R(Q.prototype,{callbacks:[],collectionsWithInit:{xAxis:[Q.prototype.addAxis,[!0]],yAxis:[Q.prototype.addAxis,[!1]],series:[Q.prototype.addSeries]},collectionsWithUpdate:["xAxis","yAxis","series"],propsRequireDirtyBox:["backgroundColor","borderColor","borderWidth","borderRadius","plotBackgroundColor","plotBackgroundImage","plotBorderColor","plotBorderWidth","plotShadow","shadow"],propsRequireReflow:["margin","marginTop","marginRight","marginBottom","marginLeft","spacing","spacingTop","spacingRight","spacingBottom","spacingLeft"],propsRequireUpdateSeries:["chart.inverted","chart.polar","chart.ignoreHiddenSeries","chart.type","colors","plotOptions","time","tooltip"]}),Q}),i(e,"Extensions/ScrollablePlotArea.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Globals.js"],e["Core/Renderer/RendererRegistry.js"],e["Core/Utilities.js"]],function(t,e,i,s){let{stop:r}=t,{composed:o}=e,{addEvent:n,createElement:a,css:h,defined:l,merge:d,pushUnique:c}=s;function p(){let t=this.scrollablePlotArea;(this.scrollablePixelsX||this.scrollablePixelsY)&&!t&&(this.scrollablePlotArea=t=new g(this)),t?.applyFixed()}function u(){this.chart.scrollablePlotArea&&(this.chart.scrollablePlotArea.isDirty=!0)}class g{static compose(t,e,i){c(o,this.compose)&&(n(t,"afterInit",u),n(e,"afterSetChartSize",t=>this.afterSetSize(t.target,t)),n(e,"render",p),n(i,"show",u))}static afterSetSize(t,e){let i,s,r;let{minWidth:o,minHeight:n}=t.options.chart.scrollablePlotArea||{},{clipBox:a,plotBox:h,inverted:c,renderer:p}=t;if(!p.forExport&&(o?(t.scrollablePixelsX=i=Math.max(0,o-t.chartWidth),i&&(t.scrollablePlotBox=d(t.plotBox),h.width=t.plotWidth+=i,a[c?"height":"width"]+=i,r=!0)):n&&(t.scrollablePixelsY=s=Math.max(0,n-t.chartHeight),l(s)&&(t.scrollablePlotBox=d(t.plotBox),h.height=t.plotHeight+=s,a[c?"width":"height"]+=s,r=!1)),l(r)&&!e.skipAxes))for(let e of t.axes)e.horiz===r&&(e.setAxisSize(),e.setAxisTranslation())}constructor(t){let e;let s=t.options.chart,r=i.getRendererType(),o=s.scrollablePlotArea||{},l=this.moveFixedElements.bind(this),d={WebkitOverflowScrolling:"touch",overflowX:"hidden",overflowY:"hidden"};t.scrollablePixelsX&&(d.overflowX="auto"),t.scrollablePixelsY&&(d.overflowY="auto"),this.chart=t;let c=this.parentDiv=a("div",{className:"highcharts-scrolling-parent"},{position:"relative"},t.renderTo),p=this.scrollingContainer=a("div",{className:"highcharts-scrolling"},d,c),u=this.innerContainer=a("div",{className:"highcharts-inner-container"},void 0,p),g=this.fixedDiv=a("div",{className:"highcharts-fixed"},{position:"absolute",overflow:"hidden",pointerEvents:"none",zIndex:(s.style?.zIndex||0)+2,top:0},void 0,!0),f=this.fixedRenderer=new r(g,t.chartWidth,t.chartHeight,s.style);this.mask=f.path().attr({fill:s.backgroundColor||"#fff","fill-opacity":o.opacity??.85,zIndex:-1}).addClass("highcharts-scrollable-mask").add(),p.parentNode.insertBefore(g,p),h(t.renderTo,{overflow:"visible"}),n(t,"afterShowResetZoom",l),n(t,"afterApplyDrilldown",l),n(t,"afterLayOutTitles",l),n(p,"scroll",()=>{let{pointer:i,hoverPoint:s}=t;i&&(delete i.chartPosition,s&&(e=s),i.runPointActions(void 0,e,!0))}),u.appendChild(t.container)}applyFixed(){let{chart:t,fixedRenderer:e,isDirty:i,scrollingContainer:s}=this,{axisOffset:o,chartWidth:n,chartHeight:a,container:d,plotHeight:c,plotLeft:p,plotTop:u,plotWidth:g,scrollablePixelsX:f=0,scrollablePixelsY:m=0}=t,{scrollPositionX:x=0,scrollPositionY:y=0}=t.options.chart.scrollablePlotArea||{},b=n+f,v=a+m;e.setSize(n,a),(i??!0)&&(this.isDirty=!1,this.moveFixedElements()),r(t.container),h(d,{width:`${b}px`,height:`${v}px`}),t.renderer.boxWrapper.attr({width:b,height:v,viewBox:[0,0,b,v].join(" ")}),t.chartBackground?.attr({width:b,height:v}),h(s,{width:`${n}px`,height:`${a}px`}),l(i)||(s.scrollLeft=f*x,s.scrollTop=m*y);let S=u-o[0]-1,C=p-o[3]-1,k=u+c+o[2]+1,M=p+g+o[1]+1,w=p+g-f,T=u+c-m,A=[["M",0,0]];f?A=[["M",0,S],["L",p-1,S],["L",p-1,k],["L",0,k],["Z"],["M",w,S],["L",n,S],["L",n,k],["L",w,k],["Z"]]:m&&(A=[["M",C,0],["L",C,u-1],["L",M,u-1],["L",M,0],["Z"],["M",C,T],["L",C,a],["L",M,a],["L",M,T],["Z"]]),"adjustHeight"!==t.redrawTrigger&&this.mask.attr({d:A})}moveFixedElements(){let t;let{container:e,inverted:i,scrollablePixelsX:s,scrollablePixelsY:r}=this.chart,o=this.fixedRenderer,n=g.fixedSelectors;for(let a of(s&&!i?t=".highcharts-yaxis":s&&i?t=".highcharts-xaxis":r&&!i?t=".highcharts-xaxis":r&&i&&(t=".highcharts-yaxis"),t&&n.push(`${t}:not(.highcharts-radial-axis)`,`${t}-labels:not(.highcharts-radial-axis-labels)`),n))[].forEach.call(e.querySelectorAll(a),t=>{(t.namespaceURI===o.SVG_NS?o.box:o.box.parentNode).appendChild(t),t.style.pointerEvents="auto"})}}return g.fixedSelectors=[".highcharts-breadcrumbs-group",".highcharts-contextbutton",".highcharts-caption",".highcharts-credits",".highcharts-drillup-button",".highcharts-legend",".highcharts-legend-checkbox",".highcharts-navigator-series",".highcharts-navigator-xaxis",".highcharts-navigator-yaxis",".highcharts-navigator",".highcharts-range-selector-group",".highcharts-reset-zoom",".highcharts-scrollbar",".highcharts-subtitle",".highcharts-title"],g}),i(e,"Core/Axis/Stacking/StackItem.js",[e["Core/Templating.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i){let{format:s}=t,{series:r}=e,{destroyObjectProperties:o,fireEvent:n,isNumber:a,pick:h}=i;return class{constructor(t,e,i,s,r){let o=t.chart.inverted,n=t.reversed;this.axis=t;let a=this.isNegative=!!i!=!!n;this.options=e=e||{},this.x=s,this.total=null,this.cumulative=null,this.points={},this.hasValidPoints=!1,this.stack=r,this.leftCliff=0,this.rightCliff=0,this.alignOptions={align:e.align||(o?a?"left":"right":"center"),verticalAlign:e.verticalAlign||(o?"middle":a?"bottom":"top"),y:e.y,x:e.x},this.textAlign=e.textAlign||(o?a?"right":"left":"center")}destroy(){o(this,this.axis)}render(t){let e=this.axis.chart,i=this.options,r=i.format,o=r?s(r,this,e):i.formatter.call(this);if(this.label)this.label.attr({text:o,visibility:"hidden"});else{this.label=e.renderer.label(o,null,void 0,i.shape,void 0,void 0,i.useHTML,!1,"stack-labels");let s={r:i.borderRadius||0,text:o,padding:h(i.padding,5),visibility:"hidden"};e.styledMode||(s.fill=i.backgroundColor,s.stroke=i.borderColor,s["stroke-width"]=i.borderWidth,this.label.css(i.style||{})),this.label.attr(s),this.label.added||this.label.add(t)}this.label.labelrank=e.plotSizeY,n(this,"afterRender")}setOffset(t,e,i,s,o,l){let{alignOptions:d,axis:c,label:p,options:u,textAlign:g}=this,f=c.chart,m=this.getStackBox({xOffset:t,width:e,boxBottom:i,boxTop:s,defaultX:o,xAxis:l}),{verticalAlign:x}=d;if(p&&m){let t=p.getBBox(void 0,0),e=p.padding,i="justify"===h(u.overflow,"justify"),s;d.x=u.x||0,d.y=u.y||0;let{x:o,y:n}=this.adjustStackPosition({labelBox:t,verticalAlign:x,textAlign:g});m.x-=o,m.y-=n,p.align(d,!1,m),(s=f.isInsidePlot(p.alignAttr.x+d.x+o,p.alignAttr.y+d.y+n))||(i=!1),i&&r.prototype.justifyDataLabel.call(c,p,d,p.alignAttr,t,m),p.attr({x:p.alignAttr.x,y:p.alignAttr.y,rotation:u.rotation,rotationOriginX:t.width*({left:0,center:.5,right:1})[u.textAlign||"center"],rotationOriginY:t.height/2}),h(!i&&u.crop,!0)&&(s=a(p.x)&&a(p.y)&&f.isInsidePlot(p.x-e+(p.width||0),p.y)&&f.isInsidePlot(p.x+e,p.y)),p[s?"show":"hide"]()}n(this,"afterSetOffset",{xOffset:t,width:e})}adjustStackPosition({labelBox:t,verticalAlign:e,textAlign:i}){let s={bottom:0,middle:1,top:2,right:1,center:0,left:-1},r=s[e],o=s[i];return{x:t.width/2+t.width/2*o,y:t.height/2*r}}getStackBox(t){let e=this.axis,i=e.chart,{boxTop:s,defaultX:r,xOffset:o,width:n,boxBottom:l}=t,d=e.stacking.usePercentage?100:h(s,this.total,0),c=e.toPixels(d),p=t.xAxis||i.xAxis[0],u=h(r,p.translate(this.x))+o,g=Math.abs(c-e.toPixels(l||a(e.min)&&e.logarithmic&&e.logarithmic.lin2log(e.min)||0)),f=i.inverted,m=this.isNegative;return f?{x:(m?c:c-g)-i.plotLeft,y:p.height-u-n+p.top-i.plotTop,width:g,height:n}:{x:u+p.transB-i.plotLeft,y:(m?c-g:c)-i.plotTop,width:n,height:g}}}}),i(e,"Core/Axis/Stacking/StackingAxis.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Axis/Axis.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Axis/Stacking/StackItem.js"],e["Core/Utilities.js"]],function(t,e,i,s,r){var o;let{getDeferredAnimation:n}=t,{series:{prototype:a}}=i,{addEvent:h,correctFloat:l,defined:d,destroyObjectProperties:c,fireEvent:p,isArray:u,isNumber:g,objectEach:f,pick:m}=r;function x(){let t=this.inverted;this.axes.forEach(t=>{t.stacking&&t.stacking.stacks&&t.hasVisibleSeries&&(t.stacking.oldStacks=t.stacking.stacks)}),this.series.forEach(e=>{let i=e.xAxis&&e.xAxis.options||{};e.options.stacking&&e.reserveSpace()&&(e.stackKey=[e.type,m(e.options.stack,""),t?i.top:i.left,t?i.height:i.width].join(","))})}function y(){let t=this.stacking;if(t){let e=t.stacks;f(e,(t,i)=>{c(t),delete e[i]}),t.stackTotalGroup?.destroy()}}function b(){this.stacking||(this.stacking=new w(this))}function v(t,e,i,s){return!d(t)||t.x!==e||s&&t.stackKey!==s?t={x:e,index:0,key:s,stackKey:s}:t.index++,t.key=[i,e,t.index].join(","),t}function S(){let t;let e=this,i=e.yAxis,s=e.stackKey||"",r=i.stacking.stacks,o=e.processedXData,n=e.options.stacking,a=e[n+"Stacker"];a&&[s,"-"+s].forEach(i=>{let s=o.length,n,h,l;for(;s--;)n=o[s],t=e.getStackIndicator(t,n,e.index,i),h=r[i]?.[n],(l=h?.points[t.key||""])&&a.call(e,l,h,s)})}function C(t,e,i){let s=e.total?100/e.total:0;t[0]=l(t[0]*s),t[1]=l(t[1]*s),this.stackedYData[i]=t[1]}function k(t){(this.is("column")||this.is("columnrange"))&&(this.options.centerInCategory&&!this.options.stacking&&this.chart.series.length>1?a.setStackedPoints.call(this,t,"group"):t.stacking.resetStacks())}function M(t,e){let i,r,o,n,a,h,c,p,g;let f=e||this.options.stacking;if(!f||!this.reserveSpace()||(({group:"xAxis"})[f]||"yAxis")!==t.coll)return;let x=this.processedXData,y=this.processedYData,b=[],v=y.length,S=this.options,C=S.threshold||0,k=S.startFromThreshold?C:0,M=S.stack,w=e?`${this.type},${f}`:this.stackKey||"",T="-"+w,A=this.negStacks,P=t.stacking,L=P.stacks,O=P.oldStacks;for(P.stacksTouched+=1,c=0;c<v;c++){p=x[c],g=y[c],h=(i=this.getStackIndicator(i,p,this.index)).key||"",L[a=(r=A&&g<(k?0:C))?T:w]||(L[a]={}),L[a][p]||(O[a]?.[p]?(L[a][p]=O[a][p],L[a][p].total=null):L[a][p]=new s(t,t.options.stackLabels,!!r,p,M)),o=L[a][p],null!==g?(o.points[h]=o.points[this.index]=[m(o.cumulative,k)],d(o.cumulative)||(o.base=h),o.touched=P.stacksTouched,i.index>0&&!1===this.singleStacks&&(o.points[h][0]=o.points[this.index+","+p+",0"][0])):(delete o.points[h],delete o.points[this.index]);let e=o.total||0;"percent"===f?(n=r?w:T,e=A&&L[n]?.[p]?(n=L[n][p]).total=Math.max(n.total||0,e)+Math.abs(g)||0:l(e+(Math.abs(g)||0))):"group"===f?(u(g)&&(g=g[0]),null!==g&&e++):e=l(e+(g||0)),"group"===f?o.cumulative=(e||1)-1:o.cumulative=l(m(o.cumulative,k)+(g||0)),o.total=e,null!==g&&(o.points[h].push(o.cumulative),b[c]=o.cumulative,o.hasValidPoints=!0)}"percent"===f&&(P.usePercentage=!0),"group"!==f&&(this.stackedYData=b),P.oldStacks={}}class w{constructor(t){this.oldStacks={},this.stacks={},this.stacksTouched=0,this.axis=t}buildStacks(){let t,e;let i=this.axis,s=i.series,r="xAxis"===i.coll,o=i.options.reversedStacks,n=s.length;for(this.resetStacks(),this.usePercentage=!1,e=n;e--;)t=s[o?e:n-e-1],r&&t.setGroupedPoints(i),t.setStackedPoints(i);if(!r)for(e=0;e<n;e++)s[e].modifyStacks();p(i,"afterBuildStacks")}cleanStacks(){this.oldStacks&&(this.stacks=this.oldStacks,f(this.stacks,t=>{f(t,t=>{t.cumulative=t.total})}))}resetStacks(){f(this.stacks,t=>{f(t,(e,i)=>{g(e.touched)&&e.touched<this.stacksTouched?(e.destroy(),delete t[i]):(e.total=null,e.cumulative=null)})})}renderStackTotals(){let t=this.axis,e=t.chart,i=e.renderer,s=this.stacks,r=n(e,t.options.stackLabels?.animation||!1),o=this.stackTotalGroup=this.stackTotalGroup||i.g("stack-labels").attr({zIndex:6,opacity:0}).add();o.translate(e.plotLeft,e.plotTop),f(s,t=>{f(t,t=>{t.render(o)})}),o.animate({opacity:1},r)}}return(o||(o={})).compose=function(t,e,i){let s=e.prototype,r=i.prototype;s.getStacks||(h(t,"init",b),h(t,"destroy",y),s.getStacks=x,r.getStackIndicator=v,r.modifyStacks=S,r.percentStacker=C,r.setGroupedPoints=k,r.setStackedPoints=M)},o}),i(e,"Series/Line/LineSeries.js",[e["Core/Series/Series.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i){let{defined:s,merge:r,isObject:o}=i;class n extends t{drawGraph(){let t=this.options,e=(this.gappedPath||this.getGraphPath).call(this),i=this.chart.styledMode;[this,...this.zones].forEach((s,n)=>{let a,h=s.graph,l=h?"animate":"attr",d=s.dashStyle||t.dashStyle;h?(h.endX=this.preventGraphAnimation?null:e.xMap,h.animate({d:e})):e.length&&(s.graph=h=this.chart.renderer.path(e).addClass("highcharts-graph"+(n?` highcharts-zone-graph-${n-1} `:" ")+(n&&s.className||"")).attr({zIndex:1}).add(this.group)),h&&!i&&(a={stroke:!n&&t.lineColor||s.color||this.color||"#cccccc","stroke-width":t.lineWidth||0,fill:this.fillGraph&&this.color||"none"},d?a.dashstyle=d:"square"!==t.linecap&&(a["stroke-linecap"]=a["stroke-linejoin"]="round"),h[l](a).shadow(n<2&&t.shadow&&r({filterUnits:"userSpaceOnUse"},o(t.shadow)?t.shadow:{}))),h&&(h.startX=e.xMap,h.isArea=e.isArea)})}getGraphPath(t,e,i){let r=this,o=r.options,n=[],a=[],h,l=o.step,d=(t=t||r.points).reversed;return d&&t.reverse(),(l=({right:1,center:2})[l]||l&&3)&&d&&(l=4-l),(t=this.getValidPoints(t,!1,!(o.connectNulls&&!e&&!i))).forEach(function(d,c){let p;let u=d.plotX,g=d.plotY,f=t[c-1],m=d.isNull||"number"!=typeof g;(d.leftCliff||f&&f.rightCliff)&&!i&&(h=!0),m&&!s(e)&&c>0?h=!o.connectNulls:m&&!e?h=!0:(0===c||h?p=[["M",d.plotX,d.plotY]]:r.getPointSpline?p=[r.getPointSpline(t,d,c)]:l?(p=1===l?[["L",f.plotX,g]]:2===l?[["L",(f.plotX+u)/2,f.plotY],["L",(f.plotX+u)/2,g]]:[["L",u,f.plotY]]).push(["L",u,g]):p=[["L",u,g]],a.push(d.x),l&&(a.push(d.x),2===l&&a.push(d.x)),n.push.apply(n,p),h=!1)}),n.xMap=a,r.graphPath=n,n}}return n.defaultOptions=r(t.defaultOptions,{legendSymbol:"lineMarker"}),e.registerSeriesType("line",n),n}),i(e,"Series/Area/AreaSeriesDefaults.js",[],function(){return{threshold:0,legendSymbol:"areaMarker"}}),i(e,"Series/Area/AreaSeries.js",[e["Series/Area/AreaSeriesDefaults.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i){let{seriesTypes:{line:s}}=e,{extend:r,merge:o,objectEach:n,pick:a}=i;class h extends s{drawGraph(){this.areaPath=[],super.drawGraph.apply(this);let{areaPath:t,options:e}=this;[this,...this.zones].forEach((i,s)=>{let r={},o=i.fillColor||e.fillColor,n=i.area,a=n?"animate":"attr";n?(n.endX=this.preventGraphAnimation?null:t.xMap,n.animate({d:t})):(r.zIndex=0,(n=i.area=this.chart.renderer.path(t).addClass("highcharts-area"+(s?` highcharts-zone-area-${s-1} `:" ")+(s&&i.className||"")).add(this.group)).isArea=!0),this.chart.styledMode||(r.fill=o||i.color||this.color,r["fill-opacity"]=o?1:e.fillOpacity??.75,n.css({pointerEvents:this.stickyTracking?"none":"auto"})),n[a](r),n.startX=t.xMap,n.shiftUnit=e.step?2:1})}getGraphPath(t){let e,i,r;let o=s.prototype.getGraphPath,n=this.options,h=n.stacking,l=this.yAxis,d=[],c=[],p=this.index,u=l.stacking.stacks[this.stackKey],g=n.threshold,f=Math.round(l.getThreshold(n.threshold)),m=a(n.connectNulls,"percent"===h),x=function(i,s,r){let o=t[i],n=h&&u[o.x].points[p],a=o[r+"Null"]||0,m=o[r+"Cliff"]||0,x,y,b=!0;m||a?(x=(a?n[0]:n[1])+m,y=n[0]+m,b=!!a):!h&&t[s]&&t[s].isNull&&(x=y=g),void 0!==x&&(c.push({plotX:e,plotY:null===x?f:l.getThreshold(x),isNull:b,isCliff:!0}),d.push({plotX:e,plotY:null===y?f:l.getThreshold(y),doCurve:!1}))};t=t||this.points,h&&(t=this.getStackPoints(t));for(let s=0,o=t.length;s<o;++s)h||(t[s].leftCliff=t[s].rightCliff=t[s].leftNull=t[s].rightNull=void 0),i=t[s].isNull,e=a(t[s].rectPlotX,t[s].plotX),r=h?a(t[s].yBottom,f):f,i&&!m||(m||x(s,s-1,"left"),i&&!h&&m||(c.push(t[s]),d.push({x:s,plotX:e,plotY:r})),m||x(s,s+1,"right"));let y=o.call(this,c,!0,!0);d.reversed=!0;let b=o.call(this,d,!0,!0),v=b[0];v&&"M"===v[0]&&(b[0]=["L",v[1],v[2]]);let S=y.concat(b);S.length&&S.push(["Z"]);let C=o.call(this,c,!1,m);return this.chart.series.length>1&&h&&c.some(t=>t.isCliff)&&(S.hasStackedCliffs=C.hasStackedCliffs=!0),S.xMap=y.xMap,this.areaPath=S,C}getStackPoints(t){let e=this,i=[],s=[],r=this.xAxis,o=this.yAxis,h=o.stacking.stacks[this.stackKey],l={},d=o.series,c=d.length,p=o.options.reversedStacks?1:-1,u=d.indexOf(e);if(t=t||this.points,this.options.stacking){for(let e=0;e<t.length;e++)t[e].leftNull=t[e].rightNull=void 0,l[t[e].x]=t[e];n(h,function(t,e){null!==t.total&&s.push(e)}),s.sort(function(t,e){return t-e});let g=d.map(t=>t.visible);s.forEach(function(t,n){let f=0,m,x;if(l[t]&&!l[t].isNull)i.push(l[t]),[-1,1].forEach(function(i){let r=1===i?"rightNull":"leftNull",o=h[s[n+i]],a=0;if(o){let i=u;for(;i>=0&&i<c;){let s=d[i].index;!(m=o.points[s])&&(s===e.index?l[t][r]=!0:g[i]&&(x=h[t].points[s])&&(a-=x[1]-x[0])),i+=p}}l[t][1===i?"rightCliff":"leftCliff"]=a});else{let e=u;for(;e>=0&&e<c;){let i=d[e].index;if(m=h[t].points[i]){f=m[1];break}e+=p}f=a(f,0),f=o.translate(f,0,1,0,1),i.push({isNull:!0,plotX:r.translate(t,0,0,0,1),x:t,plotY:f,yBottom:f})}})}return i}}return h.defaultOptions=o(s.defaultOptions,t),r(h.prototype,{singleStacks:!1}),e.registerSeriesType("area",h),h}),i(e,"Series/Spline/SplineSeries.js",[e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e){let{line:i}=t.seriesTypes,{merge:s,pick:r}=e;class o extends i{getPointSpline(t,e,i){let s,o,n,a;let h=e.plotX||0,l=e.plotY||0,d=t[i-1],c=t[i+1];function p(t){return t&&!t.isNull&&!1!==t.doCurve&&!e.isCliff}if(p(d)&&p(c)){let t=d.plotX||0,i=d.plotY||0,r=c.plotX||0,p=c.plotY||0,u=0;s=(1.5*h+t)/2.5,o=(1.5*l+i)/2.5,n=(1.5*h+r)/2.5,a=(1.5*l+p)/2.5,n!==s&&(u=(a-o)*(n-h)/(n-s)+l-a),o+=u,a+=u,o>i&&o>l?(o=Math.max(i,l),a=2*l-o):o<i&&o<l&&(o=Math.min(i,l),a=2*l-o),a>p&&a>l?(a=Math.max(p,l),o=2*l-a):a<p&&a<l&&(a=Math.min(p,l),o=2*l-a),e.rightContX=n,e.rightContY=a,e.controlPoints={low:[s,o],high:[n,a]}}let u=["C",r(d.rightContX,d.plotX,0),r(d.rightContY,d.plotY,0),r(s,h,0),r(o,l,0),h,l];return d.rightContX=d.rightContY=void 0,u}}return o.defaultOptions=s(i.defaultOptions),t.registerSeriesType("spline",o),o}),i(e,"Series/AreaSpline/AreaSplineSeries.js",[e["Series/Spline/SplineSeries.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i){let{area:s,area:{prototype:r}}=e.seriesTypes,{extend:o,merge:n}=i;class a extends t{}return a.defaultOptions=n(t.defaultOptions,s.defaultOptions),o(a.prototype,{getGraphPath:r.getGraphPath,getStackPoints:r.getStackPoints,drawGraph:r.drawGraph}),e.registerSeriesType("areaspline",a),a}),i(e,"Series/Column/ColumnSeriesDefaults.js",[],function(){return{borderRadius:3,centerInCategory:!1,groupPadding:.2,marker:null,pointPadding:.1,minPointLength:0,cropThreshold:50,pointRange:null,states:{hover:{halo:!1,brightness:.1},select:{color:"#cccccc",borderColor:"#000000"}},dataLabels:{align:void 0,verticalAlign:void 0,y:void 0},startFromThreshold:!0,stickyTracking:!1,tooltip:{distance:6},threshold:0,borderColor:"#ffffff"}}),i(e,"Series/Column/ColumnSeries.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Color/Color.js"],e["Series/Column/ColumnSeriesDefaults.js"],e["Core/Globals.js"],e["Core/Series/Series.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i,s,r,o,n){let{animObject:a}=t,{parse:h}=e,{noop:l}=s,{clamp:d,crisp:c,defined:p,extend:u,fireEvent:g,isArray:f,isNumber:m,merge:x,pick:y,objectEach:b}=n;class v extends r{animate(t){let e,i;let s=this,r=this.yAxis,o=r.pos,n=r.reversed,h=s.options,{clipOffset:l,inverted:c}=this.chart,p={},g=c?"translateX":"translateY";t&&l?(p.scaleY=.001,i=d(r.toPixels(h.threshold),o,o+r.len),c?(i+=n?-Math.floor(l[0]):Math.ceil(l[2]),p.translateX=i-r.len):(i+=n?Math.ceil(l[0]):-Math.floor(l[2]),p.translateY=i),s.clipBox&&s.setClip(),s.group.attr(p)):(e=Number(s.group.attr(g)),s.group.animate({scaleY:1},u(a(s.options.animation),{step:function(t,i){s.group&&(p[g]=e+i.pos*(o-e),s.group.attr(p))}})))}init(t,e){super.init.apply(this,arguments);let i=this;(t=i.chart).hasRendered&&t.series.forEach(function(t){t.type===i.type&&(t.isDirty=!0)})}getColumnMetrics(){let t=this,e=t.options,i=t.xAxis,s=t.yAxis,r=i.options.reversedStacks,o=i.reversed&&!r||!i.reversed&&r,n={},a,h=0;!1===e.grouping?h=1:t.chart.series.forEach(function(e){let i;let r=e.yAxis,o=e.options;e.type===t.type&&e.reserveSpace()&&s.len===r.len&&s.pos===r.pos&&(o.stacking&&"group"!==o.stacking?(void 0===n[a=e.stackKey]&&(n[a]=h++),i=n[a]):!1!==o.grouping&&(i=h++),e.columnIndex=i)});let l=Math.min(Math.abs(i.transA)*(!i.brokenAxis?.hasBreaks&&i.ordinal?.slope||e.pointRange||i.closestPointRange||i.tickInterval||1),i.len),d=l*e.groupPadding,c=(l-2*d)/(h||1),p=Math.min(e.maxPointWidth||i.len,y(e.pointWidth,c*(1-2*e.pointPadding))),u=(t.columnIndex||0)+(o?1:0);return t.columnMetrics={width:p,offset:(c-p)/2+(d+u*c-l/2)*(o?-1:1),paddedWidth:c,columnCount:h},t.columnMetrics}crispCol(t,e,i,s){let r=this.borderWidth,o=this.chart.inverted;return s=c(e+s,r,o)-(e=c(e,r,o)),this.options.crisp&&(i=c(t+i,r)-(t=c(t,r))),{x:t,y:e,width:i,height:s}}adjustForMissingColumns(t,e,i,s){if(!i.isNull&&s.columnCount>1){let r=this.xAxis.series.filter(t=>t.visible).map(t=>t.index),o=0,n=0;b(this.xAxis.stacking?.stacks,t=>{if("number"==typeof i.x){let e=t[i.x.toString()];if(e&&f(e.points[this.index])){let t=Object.keys(e.points).filter(t=>!t.match(",")&&e.points[t]&&e.points[t].length>1).map(parseFloat).filter(t=>-1!==r.indexOf(t)).sort((t,e)=>e-t);o=t.indexOf(this.index),n=t.length}}}),o=this.xAxis.reversed?n-1-o:o;let a=(n-1)*s.paddedWidth+e;t=(i.plotX||0)+a/2-e-o*s.paddedWidth}return t}translate(){let t=this,e=t.chart,i=t.options,s=t.dense=t.closestPointRange*t.xAxis.transA<2,o=t.borderWidth=y(i.borderWidth,s?0:1),n=t.xAxis,a=t.yAxis,h=i.threshold,l=y(i.minPointLength,5),c=t.getColumnMetrics(),u=c.width,f=t.pointXOffset=c.offset,x=t.dataMin,b=t.dataMax,v=t.translatedThreshold=a.getThreshold(h),S=t.barW=Math.max(u,1+2*o);i.pointPadding&&(S=Math.ceil(S)),r.prototype.translate.apply(t),t.points.forEach(function(s){let r=y(s.yBottom,v),o=999+Math.abs(r),g=s.plotX||0,C=d(s.plotY,-o,a.len+o),k,M=Math.min(C,r),w=Math.max(C,r)-M,T=u,A=g+f,P=S;l&&Math.abs(w)<l&&(w=l,k=!a.reversed&&!s.negative||a.reversed&&s.negative,m(h)&&m(b)&&s.y===h&&b<=h&&(a.min||0)<h&&(x!==b||(a.max||0)<=h)&&(k=!k,s.negative=!s.negative),M=Math.abs(M-v)>l?r-l:v-(k?l:0)),p(s.options.pointWidth)&&(A-=Math.round(((T=P=Math.ceil(s.options.pointWidth))-u)/2)),i.centerInCategory&&!i.stacking&&(A=t.adjustForMissingColumns(A,T,s,c)),s.barX=A,s.pointWidth=T,s.tooltipPos=e.inverted?[d(a.len+a.pos-e.plotLeft-C,a.pos-e.plotLeft,a.len+a.pos-e.plotLeft),n.len+n.pos-e.plotTop-A-P/2,w]:[n.left-e.plotLeft+A+P/2,d(C+a.pos-e.plotTop,a.pos-e.plotTop,a.len+a.pos-e.plotTop),w],s.shapeType=t.pointClass.prototype.shapeType||"roundedRect",s.shapeArgs=t.crispCol(A,s.isNull?v:M,P,s.isNull?0:w)}),g(this,"afterColumnTranslate")}drawGraph(){this.group[this.dense?"addClass":"removeClass"]("highcharts-dense-data")}pointAttribs(t,e){let i=this.options,s=this.pointAttrToOptions||{},r=s.stroke||"borderColor",o=s["stroke-width"]||"borderWidth",n,a,l,d=t&&t.color||this.color,c=t&&t[r]||i[r]||d,p=t&&t.options.dashStyle||i.dashStyle,u=t&&t[o]||i[o]||this[o]||0,g=y(t&&t.opacity,i.opacity,1);t&&this.zones.length&&(a=t.getZone(),d=t.options.color||a&&(a.color||t.nonZonedColor)||this.color,a&&(c=a.borderColor||c,p=a.dashStyle||p,u=a.borderWidth||u)),e&&t&&(l=(n=x(i.states[e],t.options.states&&t.options.states[e]||{})).brightness,d=n.color||void 0!==l&&h(d).brighten(n.brightness).get()||d,c=n[r]||c,u=n[o]||u,p=n.dashStyle||p,g=y(n.opacity,g));let f={fill:d,stroke:c,"stroke-width":u,opacity:g};return p&&(f.dashstyle=p),f}drawPoints(t=this.points){let e;let i=this,s=this.chart,r=i.options,o=s.renderer,n=r.animationLimit||250;t.forEach(function(t){let a=t.plotY,h=t.graphic,l=!!h,d=h&&s.pointCount<n?"animate":"attr";m(a)&&null!==t.y?(e=t.shapeArgs,h&&t.hasNewShapeType()&&(h=h.destroy()),i.enabledDataSorting&&(t.startXPos=i.xAxis.reversed?-(e&&e.width||0):i.xAxis.width),!h&&(t.graphic=h=o[t.shapeType](e).add(t.group||i.group),h&&i.enabledDataSorting&&s.hasRendered&&s.pointCount<n&&(h.attr({x:t.startXPos}),l=!0,d="animate")),h&&l&&h[d](x(e)),s.styledMode||h[d](i.pointAttribs(t,t.selected&&"select")).shadow(!1!==t.allowShadow&&r.shadow),h&&(h.addClass(t.getClassName(),!0),h.attr({visibility:t.visible?"inherit":"hidden"}))):h&&(t.graphic=h.destroy())})}drawTracker(t=this.points){let e;let i=this,s=i.chart,r=s.pointer,o=function(t){let e=r?.getPointFromEvent(t);r&&e&&i.options.enableMouseTracking&&(r.isDirectTouch=!0,e.onMouseOver(t))};t.forEach(function(t){e=f(t.dataLabels)?t.dataLabels:t.dataLabel?[t.dataLabel]:[],t.graphic&&(t.graphic.element.point=t),e.forEach(function(e){(e.div||e.element).point=t})}),i._hasTracking||(i.trackerGroups.forEach(function(t){i[t]&&(i[t].addClass("highcharts-tracker").on("mouseover",o).on("mouseout",function(t){r?.onTrackerMouseOut(t)}).on("touchstart",o),!s.styledMode&&i.options.cursor&&i[t].css({cursor:i.options.cursor}))}),i._hasTracking=!0),g(this,"afterDrawTracker")}remove(){let t=this,e=t.chart;e.hasRendered&&e.series.forEach(function(e){e.type===t.type&&(e.isDirty=!0)}),r.prototype.remove.apply(t,arguments)}}return v.defaultOptions=x(r.defaultOptions,i),u(v.prototype,{directTouch:!0,getSymbol:l,negStacks:!0,trackerGroups:["group","dataLabelsGroup"]}),o.registerSeriesType("column",v),v}),i(e,"Core/Series/DataLabel.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Templating.js"],e["Core/Utilities.js"]],function(t,e,i){var s;let{getDeferredAnimation:r}=t,{format:o}=e,{defined:n,extend:a,fireEvent:h,isArray:l,isString:d,merge:c,objectEach:p,pick:u,pInt:g,splat:f}=i;return function(t){function e(){return v(this).some(t=>t?.enabled)}function i(t,e,i,s,r){let{chart:o,enabledDataSorting:h}=this,l=this.isCartesian&&o.inverted,d=t.plotX,p=t.plotY,g=i.rotation||0,f=n(d)&&n(p)&&o.isInsidePlot(d,Math.round(p),{inverted:l,paneCoordinates:!0,series:this}),m=0===g&&"justify"===u(i.overflow,h?"none":"justify"),x=this.visible&&!1!==t.visible&&n(d)&&(t.series.forceDL||h&&!m||f||u(i.inside,!!this.options.stacking)&&s&&o.isInsidePlot(d,l?s.x+1:s.y+s.height-1,{inverted:l,paneCoordinates:!0,series:this})),y=t.pos();if(x&&y){var b;let n=e.getBBox(),d=e.getBBox(void 0,0),p={right:1,center:.5}[i.align||0]||0,v={bottom:1,middle:.5}[i.verticalAlign||0]||0;if(s=a({x:y[0],y:Math.round(y[1]),width:0,height:0},s||{}),"plotEdges"===i.alignTo&&this.isCartesian&&(s[l?"x":"y"]=0,s[l?"width":"height"]=this.yAxis?.len||0),a(i,{width:n.width,height:n.height}),b=s,h&&this.xAxis&&!m&&this.setDataLabelStartPos(t,e,r,f,b),e.align(c(i,{width:d.width,height:d.height}),!1,s,!1),e.alignAttr.x+=p*(d.width-n.width),e.alignAttr.y+=v*(d.height-n.height),e[e.placed?"animate":"attr"]({x:e.alignAttr.x+(n.width-d.width)/2,y:e.alignAttr.y+(n.height-d.height)/2,rotationOriginX:(e.width||0)/2,rotationOriginY:(e.height||0)/2}),m&&s.height>=0)this.justifyDataLabel(e,i,e.alignAttr,n,s,r);else if(u(i.crop,!0)){let{x:t,y:i}=e.alignAttr;x=o.isInsidePlot(t,i,{paneCoordinates:!0,series:this})&&o.isInsidePlot(t+n.width-1,i+n.height-1,{paneCoordinates:!0,series:this})}i.shape&&!g&&e[r?"attr":"animate"]({anchorX:y[0],anchorY:y[1]})}r&&h&&(e.placed=!1),x||h&&!m?(e.show(),e.placed=!0):(e.hide(),e.placed=!1)}function s(){return this.plotGroup("dataLabelsGroup","data-labels",this.hasRendered?"inherit":"hidden",this.options.dataLabels.zIndex||6)}function m(t){let e=this.hasRendered||0,i=this.initDataLabelsGroup().attr({opacity:+e});return!e&&i&&(this.visible&&i.show(),this.options.animation?i.animate({opacity:1},t):i.attr({opacity:1})),i}function x(t){let e;t=t||this.points;let i=this,s=i.chart,a=i.options,l=s.renderer,{backgroundColor:c,plotBackgroundColor:m}=s.options.chart,x=l.getContrast(d(m)&&m||d(c)&&c||"#000000"),y=v(i),{animation:S,defer:C}=y[0],k=C?r(s,S,i):{defer:0,duration:0};h(this,"drawDataLabels"),i.hasDataLabels?.()&&(e=this.initDataLabels(k),t.forEach(t=>{let r=t.dataLabels||[];f(b(y,t.dlOptions||t.options?.dataLabels)).forEach((c,f)=>{let m=c.enabled&&(t.visible||t.dataLabelOnHidden)&&(!t.isNull||t.dataLabelOnNull)&&function(t,e){let i=e.filter;if(i){let e=i.operator,s=t[i.property],r=i.value;return">"===e&&s>r||"<"===e&&s<r||">="===e&&s>=r||"<="===e&&s<=r||"=="===e&&s==r||"==="===e&&s===r||"!="===e&&s!=r||"!=="===e&&s!==r}return!0}(t,c),{backgroundColor:y,borderColor:b,distance:v,style:S={}}=c,C,k,M,w,T={},A=r[f],P=!A,L;m&&(k=u(c[t.formatPrefix+"Format"],c.format),C=t.getLabelConfig(),M=n(k)?o(k,C,s):(c[t.formatPrefix+"Formatter"]||c.formatter).call(C,c),w=c.rotation,!s.styledMode&&(S.color=u(c.color,S.color,d(i.color)?i.color:void 0,"#000000"),"contrast"===S.color?("none"!==y&&(L=y),t.contrastColor=l.getContrast("auto"!==L&&L||t.color||i.color),S.color=L||!n(v)&&c.inside||0>g(v||0)||a.stacking?t.contrastColor:x):delete t.contrastColor,a.cursor&&(S.cursor=a.cursor)),T={r:c.borderRadius||0,rotation:w,padding:c.padding,zIndex:1},s.styledMode||(T.fill="auto"===y?t.color:y,T.stroke="auto"===b?t.color:b,T["stroke-width"]=c.borderWidth),p(T,(t,e)=>{void 0===t&&delete T[e]})),!A||m&&n(M)&&!!A.div==!!c.useHTML&&(A.rotation&&c.rotation||A.rotation===c.rotation)||(A=void 0,P=!0),m&&n(M)&&(A?T.text=M:(A=l.label(M,0,0,c.shape,void 0,void 0,c.useHTML,void 0,"data-label")).addClass(" highcharts-data-label-color-"+t.colorIndex+" "+(c.className||"")+(c.useHTML?" highcharts-tracker":"")),A&&(A.options=c,A.attr(T),s.styledMode?S.width&&A.css({width:S.width,textOverflow:S.textOverflow}):A.css(S).shadow(c.shadow),h(A,"beforeAddingDataLabel",{labelOptions:c,point:t}),A.added||A.add(e),i.alignDataLabel(t,A,c,void 0,P),A.isActive=!0,r[f]&&r[f]!==A&&r[f].destroy(),r[f]=A))});let c=r.length;for(;c--;)r[c]&&r[c].isActive?r[c].isActive=!1:(r[c]?.destroy(),r.splice(c,1));t.dataLabel=r[0],t.dataLabels=r})),h(this,"afterDrawDataLabels")}function y(t,e,i,s,r,o){let n=this.chart,a=e.align,h=e.verticalAlign,l=t.box?0:t.padding||0,d=n.inverted?this.yAxis:this.xAxis,c=d?d.left-n.plotLeft:0,p=n.inverted?this.xAxis:this.yAxis,u=p?p.top-n.plotTop:0,{x:g=0,y:f=0}=e,m,x;return(m=(i.x||0)+l+c)<0&&("right"===a&&g>=0?(e.align="left",e.inside=!0):g-=m,x=!0),(m=(i.x||0)+s.width-l+c)>n.plotWidth&&("left"===a&&g<=0?(e.align="right",e.inside=!0):g+=n.plotWidth-m,x=!0),(m=i.y+l+u)<0&&("bottom"===h&&f>=0?(e.verticalAlign="top",e.inside=!0):f-=m,x=!0),(m=(i.y||0)+s.height-l+u)>n.plotHeight&&("top"===h&&f<=0?(e.verticalAlign="bottom",e.inside=!0):f+=n.plotHeight-m,x=!0),x&&(e.x=g,e.y=f,t.placed=!o,t.align(e,void 0,r)),x}function b(t,e){let i=[],s;if(l(t)&&!l(e))i=t.map(function(t){return c(t,e)});else if(l(e)&&!l(t))i=e.map(function(e){return c(t,e)});else if(l(t)||l(e)){if(l(t)&&l(e))for(s=Math.max(t.length,e.length);s--;)i[s]=c(t[s],e[s])}else i=c(t,e);return i}function v(t){let e=t.chart.options.plotOptions;return f(b(b(e?.series?.dataLabels,e?.[t.type]?.dataLabels),t.options.dataLabels))}function S(t,e,i,s,r){let o=this.chart,n=o.inverted,a=this.xAxis,h=a.reversed,l=((n?e.height:e.width)||0)/2,d=t.pointWidth,c=d?d/2:0;e.startXPos=n?r.x:h?-l-c:a.width-l+c,e.startYPos=n?h?this.yAxis.height-l+c:-l-c:r.y,s?"hidden"===e.visibility&&(e.show(),e.attr({opacity:0}).animate({opacity:1})):e.attr({opacity:1}).animate({opacity:0},void 0,e.hide),o.hasRendered&&(i&&e.attr({x:e.startXPos,y:e.startYPos}),e.placed=!0)}t.compose=function(t){let r=t.prototype;r.initDataLabels||(r.initDataLabels=m,r.initDataLabelsGroup=s,r.alignDataLabel=i,r.drawDataLabels=x,r.justifyDataLabel=y,r.setDataLabelStartPos=S,r.hasDataLabels=e)}}(s||(s={})),s}),i(e,"Series/Column/ColumnDataLabel.js",[e["Core/Series/DataLabel.js"],e["Core/Globals.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i,s){var r;let{composed:o}=e,{series:n}=i,{merge:a,pick:h,pushUnique:l}=s;return function(e){function i(t,e,i,s,r){let o=this.chart.inverted,l=t.series,d=(l.xAxis?l.xAxis.len:this.chart.plotSizeX)||0,c=(l.yAxis?l.yAxis.len:this.chart.plotSizeY)||0,p=t.dlBox||t.shapeArgs,u=h(t.below,t.plotY>h(this.translatedThreshold,c)),g=h(i.inside,!!this.options.stacking);if(p){if(s=a(p),!("allow"===i.overflow&&!1===i.crop)){s.y<0&&(s.height+=s.y,s.y=0);let t=s.y+s.height-c;t>0&&t<s.height-1&&(s.height-=t)}o&&(s={x:c-s.y-s.height,y:d-s.x-s.width,width:s.height,height:s.width}),g||(o?(s.x+=u?0:s.width,s.width=0):(s.y+=u?s.height:0,s.height=0))}i.align=h(i.align,!o||g?"center":u?"right":"left"),i.verticalAlign=h(i.verticalAlign,o||g?"middle":u?"top":"bottom"),n.prototype.alignDataLabel.call(this,t,e,i,s,r),i.inside&&t.contrastColor&&e.css({color:t.contrastColor})}e.compose=function(e){t.compose(n),l(o,"ColumnDataLabel")&&(e.prototype.alignDataLabel=i)}}(r||(r={})),r}),i(e,"Series/Bar/BarSeries.js",[e["Series/Column/ColumnSeries.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i){let{extend:s,merge:r}=i;class o extends t{}return o.defaultOptions=r(t.defaultOptions,{}),s(o.prototype,{inverted:!0}),e.registerSeriesType("bar",o),o}),i(e,"Series/Scatter/ScatterSeriesDefaults.js",[],function(){return{lineWidth:0,findNearestPointBy:"xy",jitter:{x:0,y:0},marker:{enabled:!0},tooltip:{headerFormat:'<span style="color:{point.color}">●</span> <span style="font-size: 0.8em"> {series.name}</span><br/>',pointFormat:"x: <b>{point.x}</b><br/>y: <b>{point.y}</b><br/>"}}}),i(e,"Series/Scatter/ScatterSeries.js",[e["Series/Scatter/ScatterSeriesDefaults.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i){let{column:s,line:r}=e.seriesTypes,{addEvent:o,extend:n,merge:a}=i;class h extends r{applyJitter(){let t=this,e=this.options.jitter,i=this.points.length;e&&this.points.forEach(function(s,r){["x","y"].forEach(function(o,n){if(e[o]&&!s.isNull){let a=`plot${o.toUpperCase()}`,h=t[`${o}Axis`],l=e[o]*h.transA;if(h&&!h.logarithmic){let t=Math.max(0,(s[a]||0)-l),e=Math.min(h.len,(s[a]||0)+l);s[a]=t+(e-t)*function(t){let e=1e4*Math.sin(t);return e-Math.floor(e)}(r+n*i),"x"===o&&(s.clientX=s.plotX)}}})})}drawGraph(){this.options.lineWidth?super.drawGraph():this.graph&&(this.graph=this.graph.destroy())}}return h.defaultOptions=a(r.defaultOptions,t),n(h.prototype,{drawTracker:s.prototype.drawTracker,sorted:!1,requireSorting:!1,noSharedTooltip:!0,trackerGroups:["group","markerGroup","dataLabelsGroup"]}),o(h,"afterTranslate",function(){this.applyJitter()}),e.registerSeriesType("scatter",h),h}),i(e,"Series/CenteredUtilities.js",[e["Core/Globals.js"],e["Core/Series/Series.js"],e["Core/Utilities.js"]],function(t,e,i){var s,r;let{deg2rad:o}=t,{fireEvent:n,isNumber:a,pick:h,relativeLength:l}=i;return(r=s||(s={})).getCenter=function(){let t=this.options,i=this.chart,s=2*(t.slicedOffset||0),r=i.plotWidth-2*s,o=i.plotHeight-2*s,d=t.center,c=Math.min(r,o),p=t.thickness,u,g=t.size,f=t.innerSize||0,m,x;"string"==typeof g&&(g=parseFloat(g)),"string"==typeof f&&(f=parseFloat(f));let y=[h(d[0],"50%"),h(d[1],"50%"),h(g&&g<0?void 0:t.size,"100%"),h(f&&f<0?void 0:t.innerSize||0,"0%")];for(!i.angular||this instanceof e||(y[3]=0),m=0;m<4;++m)x=y[m],u=m<2||2===m&&/%$/.test(x),y[m]=l(x,[r,o,c,y[2]][m])+(u?s:0);return y[3]>y[2]&&(y[3]=y[2]),a(p)&&2*p<y[2]&&p>0&&(y[3]=y[2]-2*p),n(this,"afterGetCenter",{positions:y}),y},r.getStartAndEndRadians=function(t,e){let i=a(t)?t:0,s=a(e)&&e>i&&e-i<360?e:i+360;return{start:o*(i+-90),end:o*(s+-90)}},s}),i(e,"Series/Pie/PiePoint.js",[e["Core/Animation/AnimationUtilities.js"],e["Core/Series/Point.js"],e["Core/Utilities.js"]],function(t,e,i){let{setAnimation:s}=t,{addEvent:r,defined:o,extend:n,isNumber:a,pick:h,relativeLength:l}=i;class d extends e{getConnectorPath(t){let e=t.dataLabelPosition,i=t.options||{},s=i.connectorShape,r=this.connectorShapes[s]||s;return e&&r.call(this,{...e.computed,alignment:e.alignment},e.connectorPosition,i)||[]}getTranslate(){return this.sliced&&this.slicedTranslation||{translateX:0,translateY:0}}haloPath(t){let e=this.shapeArgs;return this.sliced||!this.visible?[]:this.series.chart.renderer.symbols.arc(e.x,e.y,e.r+t,e.r+t,{innerR:e.r-1,start:e.start,end:e.end,borderRadius:e.borderRadius})}constructor(t,e,i){super(t,e,i),this.half=0,this.name??(this.name="Slice");let s=t=>{this.slice("select"===t.type)};r(this,"select",s),r(this,"unselect",s)}isValid(){return a(this.y)&&this.y>=0}setVisible(t,e=!0){t!==this.visible&&this.update({visible:t??!this.visible},e,void 0,!1)}slice(t,e,i){let r=this.series;s(i,r.chart),e=h(e,!0),this.sliced=this.options.sliced=t=o(t)?t:!this.sliced,r.options.data[r.data.indexOf(this)]=this.options,this.graphic&&this.graphic.animate(this.getTranslate())}}return n(d.prototype,{connectorShapes:{fixedOffset:function(t,e,i){let s=e.breakAt,r=e.touchingSliceAt,o=i.softConnector?["C",t.x+("left"===t.alignment?-5:5),t.y,2*s.x-r.x,2*s.y-r.y,s.x,s.y]:["L",s.x,s.y];return[["M",t.x,t.y],o,["L",r.x,r.y]]},straight:function(t,e){let i=e.touchingSliceAt;return[["M",t.x,t.y],["L",i.x,i.y]]},crookedLine:function(t,e,i){let{breakAt:s,touchingSliceAt:r}=e,{series:o}=this,[n,a,h]=o.center,d=h/2,{plotLeft:c,plotWidth:p}=o.chart,u="left"===t.alignment,{x:g,y:f}=t,m=s.x;if(i.crookDistance){let t=l(i.crookDistance,1);m=u?n+d+(p+c-n-d)*(1-t):c+(n-d)*t}else m=n+(a-f)*Math.tan((this.angle||0)-Math.PI/2);let x=[["M",g,f]];return(u?m<=g&&m>=s.x:m>=g&&m<=s.x)&&x.push(["L",m,f]),x.push(["L",s.x,s.y],["L",r.x,r.y]),x}}}),d}),i(e,"Series/Pie/PieSeriesDefaults.js",[],function(){return{borderRadius:3,center:[null,null],clip:!1,colorByPoint:!0,dataLabels:{connectorPadding:5,connectorShape:"crookedLine",crookDistance:void 0,distance:30,enabled:!0,formatter:function(){return this.point.isNull?void 0:this.point.name},softConnector:!0,x:0},fillColor:void 0,ignoreHiddenPoint:!0,inactiveOtherPoints:!0,legendType:"point",marker:null,size:null,showInLegend:!1,slicedOffset:10,stickyTracking:!1,tooltip:{followPointer:!0},borderColor:"#ffffff",borderWidth:1,lineWidth:void 0,states:{hover:{brightness:.1}}}}),i(e,"Series/Pie/PieSeries.js",[e["Series/CenteredUtilities.js"],e["Series/Column/ColumnSeries.js"],e["Core/Globals.js"],e["Series/Pie/PiePoint.js"],e["Series/Pie/PieSeriesDefaults.js"],e["Core/Series/Series.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Renderer/SVG/Symbols.js"],e["Core/Utilities.js"]],function(t,e,i,s,r,o,n,a,h){let{getStartAndEndRadians:l}=t,{noop:d}=i,{clamp:c,extend:p,fireEvent:u,merge:g,pick:f}=h;class m extends o{animate(t){let e=this,i=e.points,s=e.startAngleRad;t||i.forEach(function(t){let i=t.graphic,r=t.shapeArgs;i&&r&&(i.attr({r:f(t.startR,e.center&&e.center[3]/2),start:s,end:s}),i.animate({r:r.r,start:r.start,end:r.end},e.options.animation))})}drawEmpty(){let t,e;let i=this.startAngleRad,s=this.endAngleRad,r=this.options;0===this.total&&this.center?(t=this.center[0],e=this.center[1],this.graph||(this.graph=this.chart.renderer.arc(t,e,this.center[1]/2,0,i,s).addClass("highcharts-empty-series").add(this.group)),this.graph.attr({d:a.arc(t,e,this.center[2]/2,0,{start:i,end:s,innerR:this.center[3]/2})}),this.chart.styledMode||this.graph.attr({"stroke-width":r.borderWidth,fill:r.fillColor||"none",stroke:r.color||"#cccccc"})):this.graph&&(this.graph=this.graph.destroy())}drawPoints(){let t=this.chart.renderer;this.points.forEach(function(e){e.graphic&&e.hasNewShapeType()&&(e.graphic=e.graphic.destroy()),e.graphic||(e.graphic=t[e.shapeType](e.shapeArgs).add(e.series.group),e.delayedRendering=!0)})}generatePoints(){super.generatePoints(),this.updateTotals()}getX(t,e,i,s){let r=this.center,o=this.radii?this.radii[i.index]||0:r[2]/2,n=s.dataLabelPosition,a=n?.distance||0,h=Math.asin(c((t-r[1])/(o+a),-1,1));return r[0]+Math.cos(h)*(o+a)*(e?-1:1)+(a>0?(e?-1:1)*(s.padding||0):0)}hasData(){return!!this.processedXData.length}redrawPoints(){let t,e,i,s;let r=this,o=r.chart;this.drawEmpty(),r.group&&!o.styledMode&&r.group.shadow(r.options.shadow),r.points.forEach(function(n){let a={};e=n.graphic,!n.isNull&&e?(s=n.shapeArgs,t=n.getTranslate(),o.styledMode||(i=r.pointAttribs(n,n.selected&&"select")),n.delayedRendering?(e.setRadialReference(r.center).attr(s).attr(t),o.styledMode||e.attr(i).attr({"stroke-linejoin":"round"}),n.delayedRendering=!1):(e.setRadialReference(r.center),o.styledMode||g(!0,a,i),g(!0,a,s,t),e.animate(a)),e.attr({visibility:n.visible?"inherit":"hidden"}),e.addClass(n.getClassName(),!0)):e&&(n.graphic=e.destroy())})}sortByAngle(t,e){t.sort(function(t,i){return void 0!==t.angle&&(i.angle-t.angle)*e})}translate(t){u(this,"translate"),this.generatePoints();let e=this.options,i=e.slicedOffset,s=l(e.startAngle,e.endAngle),r=this.startAngleRad=s.start,o=(this.endAngleRad=s.end)-r,n=this.points,a=e.ignoreHiddenPoint,h=n.length,d,c,p,g,f,m,x,y=0;for(t||(this.center=t=this.getCenter()),m=0;m<h;m++){x=n[m],d=r+y*o,x.isValid()&&(!a||x.visible)&&(y+=x.percentage/100),c=r+y*o;let e={x:t[0],y:t[1],r:t[2]/2,innerR:t[3]/2,start:Math.round(1e3*d)/1e3,end:Math.round(1e3*c)/1e3};x.shapeType="arc",x.shapeArgs=e,(p=(c+d)/2)>1.5*Math.PI?p-=2*Math.PI:p<-Math.PI/2&&(p+=2*Math.PI),x.slicedTranslation={translateX:Math.round(Math.cos(p)*i),translateY:Math.round(Math.sin(p)*i)},g=Math.cos(p)*t[2]/2,f=Math.sin(p)*t[2]/2,x.tooltipPos=[t[0]+.7*g,t[1]+.7*f],x.half=p<-Math.PI/2||p>Math.PI/2?1:0,x.angle=p}u(this,"afterTranslate")}updateTotals(){let t=this.points,e=t.length,i=this.options.ignoreHiddenPoint,s,r,o=0;for(s=0;s<e;s++)(r=t[s]).isValid()&&(!i||r.visible)&&(o+=r.y);for(s=0,this.total=o;s<e;s++)(r=t[s]).percentage=o>0&&(r.visible||!i)?r.y/o*100:0,r.total=o}}return m.defaultOptions=g(o.defaultOptions,r),p(m.prototype,{axisTypes:[],directTouch:!0,drawGraph:void 0,drawTracker:e.prototype.drawTracker,getCenter:t.getCenter,getSymbol:d,invertible:!1,isCartesian:!1,noSharedTooltip:!0,pointAttribs:e.prototype.pointAttribs,pointClass:s,requireSorting:!1,searchPoint:d,trackerGroups:["group","dataLabelsGroup"]}),n.registerSeriesType("pie",m),m}),i(e,"Series/Pie/PieDataLabel.js",[e["Core/Series/DataLabel.js"],e["Core/Globals.js"],e["Core/Renderer/RendererUtilities.js"],e["Core/Series/SeriesRegistry.js"],e["Core/Utilities.js"]],function(t,e,i,s,r){var o;let{composed:n,noop:a}=e,{distribute:h}=i,{series:l}=s,{arrayMax:d,clamp:c,defined:p,pick:u,pushUnique:g,relativeLength:f}=r;return function(e){let i={radialDistributionY:function(t,e){return(e.dataLabelPosition?.top||0)+t.distributeBox.pos},radialDistributionX:function(t,e,i,s,r){let o=r.dataLabelPosition;return t.getX(i<(o?.top||0)+2||i>(o?.bottom||0)-2?s:i,e.half,e,r)},justify:function(t,e,i,s){return s[0]+(t.half?-1:1)*(i+(e.dataLabelPosition?.distance||0))},alignToPlotEdges:function(t,e,i,s){let r=t.getBBox().width;return e?r+s:i-r-s},alignToConnectors:function(t,e,i,s){let r=0,o;return t.forEach(function(t){(o=t.dataLabel.getBBox().width)>r&&(r=o)}),e?r+s:i-r-s}};function s(t,e){let{center:i,options:s}=this,r=i[2]/2,o=t.angle||0,n=Math.cos(o),a=Math.sin(o),h=i[0]+n*r,l=i[1]+a*r,d=Math.min((s.slicedOffset||0)+(s.borderWidth||0),e/5);return{natural:{x:h+n*e,y:l+a*e},computed:{},alignment:e<0?"center":t.half?"right":"left",connectorPosition:{breakAt:{x:h+n*d,y:l+a*d},touchingSliceAt:{x:h,y:l}},distance:e}}function r(){let t=this,e=t.points,i=t.chart,s=i.plotWidth,r=i.plotHeight,o=i.plotLeft,n=Math.round(i.chartWidth/3),a=t.center,c=a[2]/2,g=a[1],m=[[],[]],x=[0,0,0,0],y=t.dataLabelPositioners,b,v,S,C=0;t.visible&&t.hasDataLabels?.()&&(e.forEach(t=>{(t.dataLabels||[]).forEach(t=>{t.shortened&&(t.attr({width:"auto"}).css({width:"auto",textOverflow:"clip"}),t.shortened=!1)})}),l.prototype.drawDataLabels.apply(t),e.forEach(t=>{(t.dataLabels||[]).forEach((e,i)=>{let s=a[2]/2,r=e.options,o=f(r?.distance||0,s);0===i&&m[t.half].push(t),!p(r?.style?.width)&&e.getBBox().width>n&&(e.css({width:Math.round(.7*n)+"px"}),e.shortened=!0),e.dataLabelPosition=this.getDataLabelPosition(t,o),C=Math.max(C,o)})}),m.forEach((e,n)=>{let l=e.length,d=[],f,m,b=0,k;l&&(t.sortByAngle(e,n-.5),C>0&&(f=Math.max(0,g-c-C),m=Math.min(g+c+C,i.plotHeight),e.forEach(t=>{(t.dataLabels||[]).forEach(e=>{let s=e.dataLabelPosition;s&&s.distance>0&&(s.top=Math.max(0,g-c-s.distance),s.bottom=Math.min(g+c+s.distance,i.plotHeight),b=e.getBBox().height||21,e.lineHeight=i.renderer.fontMetrics(e.text||e).h+2*e.padding,t.distributeBox={target:(e.dataLabelPosition?.natural.y||0)-s.top+e.lineHeight/2,size:b,rank:t.y},d.push(t.distributeBox))})}),h(d,k=m+b-f,k/5)),e.forEach(i=>{(i.dataLabels||[]).forEach(h=>{let l=h.options||{},g=i.distributeBox,f=h.dataLabelPosition,m=f?.natural.y||0,b=l.connectorPadding||0,C=h.lineHeight||21,k=(C-h.getBBox().height)/2,M=0,w=m,T="inherit";if(f){if(d&&p(g)&&f.distance>0&&(void 0===g.pos?T="hidden":(S=g.size,w=y.radialDistributionY(i,h))),l.justify)M=y.justify(i,h,c,a);else switch(l.alignTo){case"connectors":M=y.alignToConnectors(e,n,s,o);break;case"plotEdges":M=y.alignToPlotEdges(h,n,s,o);break;default:M=y.radialDistributionX(t,i,w-k,m,h)}if(f.attribs={visibility:T,align:f.alignment},f.posAttribs={x:M+(l.x||0)+(({left:b,right:-b})[f.alignment]||0),y:w+(l.y||0)-C/2},f.computed.x=M,f.computed.y=w-k,u(l.crop,!0)){let t;M-(v=h.getBBox().width)<b&&1===n?(t=Math.round(v-M+b),x[3]=Math.max(t,x[3])):M+v>s-b&&0===n&&(t=Math.round(M+v-s+b),x[1]=Math.max(t,x[1])),w-S/2<0?x[0]=Math.max(Math.round(-w+S/2),x[0]):w+S/2>r&&(x[2]=Math.max(Math.round(w+S/2-r),x[2])),f.sideOverflow=t}}})}))}),(0===d(x)||this.verifyDataLabelOverflow(x))&&(this.placeDataLabels(),this.points.forEach(e=>{(e.dataLabels||[]).forEach(s=>{let{connectorColor:r,connectorWidth:o=1}=s.options||{},n=s.dataLabelPosition;if(o){let a;b=s.connector,n&&n.distance>0?(a=!b,b||(s.connector=b=i.renderer.path().addClass("highcharts-data-label-connector  highcharts-color-"+e.colorIndex+(e.className?" "+e.className:"")).add(t.dataLabelsGroup)),i.styledMode||b.attr({"stroke-width":o,stroke:r||e.color||"#666666"}),b[a?"attr":"animate"]({d:e.getConnectorPath(s)}),b.attr({visibility:n.attribs?.visibility})):b&&(s.connector=b.destroy())}})})))}function o(){this.points.forEach(t=>{(t.dataLabels||[]).forEach(t=>{let e=t.dataLabelPosition;e?(e.sideOverflow&&(t.css({width:Math.max(t.getBBox().width-e.sideOverflow,0)+"px",textOverflow:(t.options?.style||{}).textOverflow||"ellipsis"}),t.shortened=!0),t.attr(e.attribs),t[t.moved?"animate":"attr"](e.posAttribs),t.moved=!0):t&&t.attr({y:-9999})}),delete t.distributeBox},this)}function m(t){let e=this.center,i=this.options,s=i.center,r=i.minSize||80,o=r,n=null!==i.size;return!n&&(null!==s[0]?o=Math.max(e[2]-Math.max(t[1],t[3]),r):(o=Math.max(e[2]-t[1]-t[3],r),e[0]+=(t[3]-t[1])/2),null!==s[1]?o=c(o,r,e[2]-Math.max(t[0],t[2])):(o=c(o,r,e[2]-t[0]-t[2]),e[1]+=(t[0]-t[2])/2),o<e[2]?(e[2]=o,e[3]=Math.min(i.thickness?Math.max(0,o-2*i.thickness):Math.max(0,f(i.innerSize||0,o)),o),this.translate(e),this.drawDataLabels&&this.drawDataLabels()):n=!0),n}e.compose=function(e){if(t.compose(l),g(n,"PieDataLabel")){let t=e.prototype;t.dataLabelPositioners=i,t.alignDataLabel=a,t.drawDataLabels=r,t.getDataLabelPosition=s,t.placeDataLabels=o,t.verifyDataLabelOverflow=m}}}(o||(o={})),o}),i(e,"Core/Geometry/GeometryUtilities.js",[],function(){var t,e;return(e=t||(t={})).getCenterOfPoints=function(t){let e=t.reduce((t,e)=>(t.x+=e.x,t.y+=e.y,t),{x:0,y:0});return{x:e.x/t.length,y:e.y/t.length}},e.getDistanceBetweenPoints=function(t,e){return Math.sqrt(Math.pow(e.x-t.x,2)+Math.pow(e.y-t.y,2))},e.getAngleBetweenPoints=function(t,e){return Math.atan2(e.x-t.x,e.y-t.y)},e.pointInPolygon=function({x:t,y:e},i){let s=i.length,r,o,n=!1;for(r=0,o=s-1;r<s;o=r++){let[s,a]=i[r],[h,l]=i[o];a>e!=l>e&&t<(h-s)*(e-a)/(l-a)+s&&(n=!n)}return n},t}),i(e,"Extensions/OverlappingDataLabels.js",[e["Core/Geometry/GeometryUtilities.js"],e["Core/Utilities.js"]],function(t,e){let{pointInPolygon:i}=t,{addEvent:s,fireEvent:r,objectEach:o,pick:n}=e;function a(t){let e=t.length,s=(t,e)=>!(e.x>=t.x+t.width||e.x+e.width<=t.x||e.y>=t.y+t.height||e.y+e.height<=t.y),o=(t,e)=>{for(let s of t)if(i({x:s[0],y:s[1]},e))return!0;return!1},n,a,l,d,c,p=!1;for(let i=0;i<e;i++)(n=t[i])&&(n.oldOpacity=n.opacity,n.newOpacity=1,n.absoluteBox=function(t){if(t&&(!t.alignAttr||t.placed)){let e=t.box?0:t.padding||0,i=t.alignAttr||{x:t.attr("x"),y:t.attr("y")},s=t.getBBox();return t.width=s.width,t.height=s.height,{x:i.x+(t.parentGroup?.translateX||0)+e,y:i.y+(t.parentGroup?.translateY||0)+e,width:(t.width||0)-2*e,height:(t.height||0)-2*e,polygon:s?.polygon}}}(n));t.sort((t,e)=>(e.labelrank||0)-(t.labelrank||0));for(let i=0;i<e;++i){d=(a=t[i])&&a.absoluteBox;let r=d?.polygon;for(let n=i+1;n<e;++n){c=(l=t[n])&&l.absoluteBox;let e=!1;if(d&&c&&a!==l&&0!==a.newOpacity&&0!==l.newOpacity&&"hidden"!==a.visibility&&"hidden"!==l.visibility){let t=c.polygon;if(r&&t&&r!==t?o(r,t)&&(e=!0):s(d,c)&&(e=!0),e){let t=a.labelrank<l.labelrank?a:l,e=t.text;t.newOpacity=0,e?.element.querySelector("textPath")&&e.hide()}}}}for(let e of t)h(e,this)&&(p=!0);p&&r(this,"afterHideAllOverlappingLabels")}function h(t,e){let i,s,o=!1;return t&&(s=t.newOpacity,t.oldOpacity!==s&&(t.hasClass("highcharts-data-label")?(t[s?"removeClass":"addClass"]("highcharts-data-label-hidden"),i=function(){e.styledMode||t.css({pointerEvents:s?"auto":"none"})},o=!0,t[t.isOld?"animate":"attr"]({opacity:s},void 0,i),r(e,"afterHideOverlappingLabel")):t.attr({opacity:s})),t.isOld=!0),o}function l(){let t=this,e=[];for(let i of t.labelCollectors||[])e=e.concat(i());for(let i of t.yAxis||[])i.stacking&&i.options.stackLabels&&!i.options.stackLabels.allowOverlap&&o(i.stacking.stacks,t=>{o(t,t=>{t.label&&e.push(t.label)})});for(let i of t.series||[])if(i.visible&&i.hasDataLabels?.()){let s=i=>{for(let s of i)s.visible&&(s.dataLabels||[]).forEach(i=>{let r=i.options||{};i.labelrank=n(r.labelrank,s.labelrank,s.shapeArgs?.height),r.allowOverlap??Number(r.distance)>0?(i.oldOpacity=i.opacity,i.newOpacity=1,h(i,t)):e.push(i)})};s(i.nodes||[]),s(i.points)}this.hideOverlappingLabels(e)}return{compose:function(t){let e=t.prototype;e.hideOverlappingLabels||(e.hideOverlappingLabels=a,s(t,"render",l))}}}),i(e,"Extensions/BorderRadius.js",[e["Core/Defaults.js"],e["Core/Globals.js"],e["Core/Utilities.js"]],function(t,e,i){let{defaultOptions:s}=t,{noop:r}=e,{addEvent:o,extend:n,isObject:a,merge:h,relativeLength:l}=i,d={radius:0,scope:"stack",where:void 0},c=r,p=r;function u(t,e,i,s,r={}){let o=c(t,e,i,s,r),{innerR:n=0,r:a=i,start:h=0,end:d=0}=r;if(r.open||!r.borderRadius)return o;let p=d-h,g=Math.sin(p/2),f=Math.max(Math.min(l(r.borderRadius||0,a-n),(a-n)/2,a*g/(1+g)),0),m=Math.min(f,p/Math.PI*2*n),x=o.length-1;for(;x--;)!function(t,e,i){let s,r,o;let n=t[e],a=t[e+1];if("Z"===a[0]&&(a=t[0]),("M"===n[0]||"L"===n[0])&&"A"===a[0]?(s=n,r=a,o=!0):"A"===n[0]&&("M"===a[0]||"L"===a[0])&&(s=a,r=n),s&&r&&r.params){let n=r[1],a=r[5],h=r.params,{start:l,end:d,cx:c,cy:p}=h,u=a?n-i:n+i,g=u?Math.asin(i/u):0,f=a?g:-g,m=Math.cos(g)*u;o?(h.start=l+f,s[1]=c+m*Math.cos(l),s[2]=p+m*Math.sin(l),t.splice(e+1,0,["A",i,i,0,0,1,c+n*Math.cos(h.start),p+n*Math.sin(h.start)])):(h.end=d-f,r[6]=c+n*Math.cos(h.end),r[7]=p+n*Math.sin(h.end),t.splice(e+1,0,["A",i,i,0,0,1,c+m*Math.cos(d),p+m*Math.sin(d)])),r[4]=Math.abs(h.end-h.start)<Math.PI?0:1}}(o,x,x>1?m:f);return o}function g(){if(this.options.borderRadius&&!(this.chart.is3d&&this.chart.is3d())){let{options:t,yAxis:e}=this,i="percent"===t.stacking,r=s.plotOptions?.[this.type]?.borderRadius,o=f(t.borderRadius,a(r)?r:{}),h=e.options.reversed;for(let s of this.points){let{shapeArgs:r}=s;if("roundedRect"===s.shapeType&&r){let{width:a=0,height:d=0,y:c=0}=r,p=c,u=d;if("stack"===o.scope&&s.stackTotal){let r=e.translate(i?100:s.stackTotal,!1,!0,!1,!0),o=e.translate(t.threshold||0,!1,!0,!1,!0),n=this.crispCol(0,Math.min(r,o),0,Math.abs(r-o));p=n.y,u=n.height}let g=(s.negative?-1:1)*(h?-1:1)==-1,f=o.where;!f&&this.is("waterfall")&&Math.abs((s.yBottom||0)-(this.translatedThreshold||0))>this.borderWidth&&(f="all"),f||(f="end");let m=Math.min(l(o.radius,a),a/2,"all"===f?d/2:1/0)||0;"end"===f&&(g&&(p-=m),u+=m),n(r,{brBoxHeight:u,brBoxY:p,r:m})}}}}function f(t,e){return a(t)||(t={radius:t||0}),h(d,e,t)}function m(){let t=f(this.options.borderRadius);for(let e of this.points){let i=e.shapeArgs;i&&(i.borderRadius=l(t.radius,(i.r||0)-(i.innerR||0)))}}function x(t,e,i,s,r={}){let o=p(t,e,i,s,r),{r:n=0,brBoxHeight:a=s,brBoxY:h=e}=r,l=e-h,d=h+a-(e+s),c=l-n>-.1?0:n,u=d-n>-.1?0:n,g=Math.max(c&&l,0),f=Math.max(u&&d,0),m=[t+c,e],y=[t+i-c,e],b=[t+i,e+c],v=[t+i,e+s-u],S=[t+i-u,e+s],C=[t+u,e+s],k=[t,e+s-u],M=[t,e+c],w=(t,e)=>Math.sqrt(Math.pow(t,2)-Math.pow(e,2));if(g){let t=w(c,c-g);m[0]-=t,y[0]+=t,b[1]=M[1]=e+c-g}if(s<c-g){let r=w(c,c-g-s);b[0]=v[0]=t+i-c+r,S[0]=Math.min(b[0],S[0]),C[0]=Math.max(v[0],C[0]),k[0]=M[0]=t+c-r,b[1]=M[1]=e+s}if(f){let t=w(u,u-f);S[0]+=t,C[0]-=t,v[1]=k[1]=e+s-u+f}if(s<u-f){let r=w(u,u-f-s);b[0]=v[0]=t+i-u+r,y[0]=Math.min(b[0],y[0]),m[0]=Math.max(v[0],m[0]),k[0]=M[0]=t+u-r,v[1]=k[1]=e}return o.length=0,o.push(["M",...m],["L",...y],["A",c,c,0,0,1,...b],["L",...v],["A",u,u,0,0,1,...S],["L",...C],["A",u,u,0,0,1,...k],["L",...M],["A",c,c,0,0,1,...m],["Z"]),o}return{compose:function(t,e,i){let s=t.types.pie;if(!e.symbolCustomAttribs.includes("borderRadius")){let r=i.prototype.symbols;o(t,"afterColumnTranslate",g,{order:9}),o(s,"afterTranslate",m),e.symbolCustomAttribs.push("borderRadius","brBoxHeight","brBoxY"),c=r.arc,p=r.roundedRect,r.arc=u,r.roundedRect=x}},optionsToObject:f}}),i(e,"Core/Responsive.js",[e["Core/Utilities.js"]],function(t){var e;let{diffObjects:i,extend:s,find:r,merge:o,pick:n,uniqueKey:a}=t;return function(t){function e(t,e){let i=t.condition;(i.callback||function(){return this.chartWidth<=n(i.maxWidth,Number.MAX_VALUE)&&this.chartHeight<=n(i.maxHeight,Number.MAX_VALUE)&&this.chartWidth>=n(i.minWidth,0)&&this.chartHeight>=n(i.minHeight,0)}).call(this)&&e.push(t._id)}function h(t,e){let s=this.options.responsive,n=this.currentResponsive,h=[],l;!e&&s&&s.rules&&s.rules.forEach(t=>{void 0===t._id&&(t._id=a()),this.matchResponsiveRule(t,h)},this);let d=o(...h.map(t=>r((s||{}).rules||[],e=>e._id===t)).map(t=>t&&t.chartOptions));d.isResponsiveOptions=!0,h=h.toString()||void 0;let c=n&&n.ruleIds;h===c||(n&&(this.currentResponsive=void 0,this.updatingResponsive=!0,this.update(n.undoOptions,t,!0),this.updatingResponsive=!1),h?((l=i(d,this.options,!0,this.collectionsWithUpdate)).isResponsiveOptions=!0,this.currentResponsive={ruleIds:h,mergedOptions:d,undoOptions:l},this.updatingResponsive||this.update(d,t,!0)):this.currentResponsive=void 0)}t.compose=function(t){let i=t.prototype;return i.matchResponsiveRule||s(i,{matchResponsiveRule:e,setResponsive:h}),t}}(e||(e={})),e}),i(e,"masters/highcharts.src.js",[e["Core/Globals.js"],e["Core/Utilities.js"],e["Core/Defaults.js"],e["Core/Animation/Fx.js"],e["Core/Animation/AnimationUtilities.js"],e["Core/Renderer/HTML/AST.js"],e["Core/Templating.js"],e["Core/Renderer/RendererRegistry.js"],e["Core/Renderer/RendererUtilities.js"],e["Core/Renderer/SVG/SVGElement.js"],e["Core/Renderer/SVG/SVGRenderer.js"],e["Core/Renderer/HTML/HTMLElement.js"],e["Core/Axis/Axis.js"],e["Core/Axis/DateTimeAxis.js"],e["Core/Axis/LogarithmicAxis.js"],e["Core/Axis/PlotLineOrBand/PlotLineOrBand.js"],e["Core/Axis/Tick.js"],e["Core/Tooltip.js"],e["Core/Series/Point.js"],e["Core/Pointer.js"],e["Core/Legend/Legend.js"],e["Core/Legend/LegendSymbol.js"],e["Core/Chart/Chart.js"],e["Extensions/ScrollablePlotArea.js"],e["Core/Axis/Stacking/StackingAxis.js"],e["Core/Axis/Stacking/StackItem.js"],e["Core/Series/Series.js"],e["Core/Series/SeriesRegistry.js"],e["Series/Column/ColumnDataLabel.js"],e["Series/Pie/PieDataLabel.js"],e["Core/Series/DataLabel.js"],e["Extensions/OverlappingDataLabels.js"],e["Extensions/BorderRadius.js"],e["Core/Responsive.js"],e["Core/Color/Color.js"],e["Core/Time.js"]],function(t,e,i,s,r,o,n,a,h,l,d,c,p,u,g,f,m,x,y,b,v,S,C,k,M,w,T,A,P,L,O,D,E,I,j,B){return t.AST=o,t.Axis=p,t.Chart=C,t.Color=j,t.DataLabel=O,t.Fx=s,t.HTMLElement=c,t.Legend=v,t.LegendSymbol=S,t.OverlappingDataLabels=t.OverlappingDataLabels||D,t.PlotLineOrBand=f,t.Point=y,t.Pointer=b,t.RendererRegistry=a,t.Series=T,t.SeriesRegistry=A,t.StackItem=w,t.SVGElement=l,t.SVGRenderer=d,t.Templating=n,t.Tick=m,t.Time=B,t.Tooltip=x,t.animate=r.animate,t.animObject=r.animObject,t.chart=C.chart,t.color=j.parse,t.dateFormat=n.dateFormat,t.defaultOptions=i.defaultOptions,t.distribute=h.distribute,t.format=n.format,t.getDeferredAnimation=r.getDeferredAnimation,t.getOptions=i.getOptions,t.numberFormat=n.numberFormat,t.seriesType=A.seriesType,t.setAnimation=r.setAnimation,t.setOptions=i.setOptions,t.stop=r.stop,t.time=i.defaultTime,t.timers=s.timers,E.compose(t.Series,t.SVGElement,t.SVGRenderer),P.compose(t.Series.types.column),O.compose(t.Series),u.compose(t.Axis),c.compose(t.SVGRenderer),v.compose(t.Chart),g.compose(t.Axis),D.compose(t.Chart),L.compose(t.Series.types.pie),f.compose(t.Chart,t.Axis),b.compose(t.Chart),I.compose(t.Chart),k.compose(t.Axis,t.Chart,t.Series),M.compose(t.Axis,t.Chart,t.Series),x.compose(t.Pointer),e.extend(t,e),t}),e["masters/highcharts.src.js"]._modules=e,e["masters/highcharts.src.js"]});
+
+/***/ }),
+
+/***/ "./node_modules/highcharts/modules/accessibility.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/highcharts/modules/accessibility.js ***!
+  \**********************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!/**
+ * Highcharts JS v11.4.8 (2024-08-29)
+ *
+ * Accessibility module
+ *
+ * (c) 2010-2024 Highsoft AS
+ * Author: Oystein Moseng
+ *
+ * License: www.highcharts.com/license
+ */function(e){ true&&module.exports?(e.default=e,module.exports=e): true?!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js")], __WEBPACK_AMD_DEFINE_RESULT__ = (function(t){return e(t),e.Highcharts=t,e}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):0}(function(e){"use strict";var t=e?e._modules:{};function i(t,i,s,n){t.hasOwnProperty(i)||(t[i]=n.apply(null,s),"function"==typeof CustomEvent&&e.win.dispatchEvent(new CustomEvent("HighchartsModuleLoaded",{detail:{path:i,module:t[i]}})))}i(t,"Accessibility/Utils/HTMLUtilities.js",[t["Core/Globals.js"],t["Core/Utilities.js"]],function(e,t){let{doc:i,win:s}=e,{css:n}=t,r=s.EventTarget&&new s.EventTarget||"none";function o(e){if("function"==typeof s.MouseEvent)return new s.MouseEvent(e.type,e);if(i.createEvent){let t=i.createEvent("MouseEvent");if(t.initMouseEvent)return t.initMouseEvent(e.type,e.bubbles,e.cancelable,e.view||s,e.detail,e.screenX,e.screenY,e.clientX,e.clientY,e.ctrlKey,e.altKey,e.shiftKey,e.metaKey,e.button,e.relatedTarget),t}return a(e.type)}function a(e,t,n){let o=t||{x:0,y:0};if("function"==typeof s.MouseEvent)return new s.MouseEvent(e,{bubbles:!0,cancelable:!0,composed:!0,button:0,buttons:1,relatedTarget:n||r,view:s,detail:"click"===e?1:0,screenX:o.x,screenY:o.y,clientX:o.x,clientY:o.y});if(i.createEvent){let t=i.createEvent("MouseEvent");if(t.initMouseEvent)return t.initMouseEvent(e,!0,!0,s,"click"===e?1:0,o.x,o.y,o.x,o.y,!1,!1,!1,!1,0,null),t}return{type:e}}return{addClass:function(e,t){e.classList?e.classList.add(t):0>e.className.indexOf(t)&&(e.className+=" "+t)},cloneMouseEvent:o,cloneTouchEvent:function(e){let t=e=>{let t=[];for(let i=0;i<e.length;++i){let s=e.item(i);s&&t.push(s)}return t};if("function"==typeof s.TouchEvent){let i=new s.TouchEvent(e.type,{touches:t(e.touches),targetTouches:t(e.targetTouches),changedTouches:t(e.changedTouches),ctrlKey:e.ctrlKey,shiftKey:e.shiftKey,altKey:e.altKey,metaKey:e.metaKey,bubbles:e.bubbles,cancelable:e.cancelable,composed:e.composed,detail:e.detail,view:e.view});return e.defaultPrevented&&i.preventDefault(),i}let i=o(e);return i.touches=e.touches,i.changedTouches=e.changedTouches,i.targetTouches=e.targetTouches,i},escapeStringForHTML:function(e){return e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#x27;").replace(/\//g,"&#x2F;")},getElement:function(e){return i.getElementById(e)},getFakeMouseEvent:a,getHeadingTagNameForElement:function(e){let t=e=>"h"+Math.min(6,parseInt(e.slice(1),10)+1),i=e=>/^H[1-6]$/i.test(e),s=e=>{let t=e;for(;t=t.previousSibling;){let e=t.tagName||"";if(i(e))return e}return""},n=e=>{let r=s(e);if(r)return t(r);let o=e.parentElement;if(!o)return"p";let a=o.tagName;return i(a)?t(a):n(o)};return n(e)},removeChildNodes:function(e){for(;e.lastChild;)e.removeChild(e.lastChild)},removeClass:function(e,t){e.classList?e.classList.remove(t):e.className=e.className.replace(RegExp(t,"g"),"")},removeElement:function(e){e&&e.parentNode&&e.parentNode.removeChild(e)},reverseChildNodes:function(e){let t=e.childNodes.length;for(;t--;)e.appendChild(e.childNodes[t])},simulatedEventTarget:r,stripHTMLTagsFromString:function(e,t=!1){return"string"==typeof e?t?e.replace(/<\/?[^>]+(>|$)/g,""):e.replace(/<\/?(?!\s)[^>]+(>|$)/g,""):e},visuallyHideElement:function(e){n(e,{position:"absolute",width:"1px",height:"1px",overflow:"hidden",whiteSpace:"nowrap",clip:"rect(1px, 1px, 1px, 1px)",marginTop:"-3px","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)",filter:"alpha(opacity=1)",opacity:.01})}}}),i(t,"Accessibility/A11yI18n.js",[t["Core/Templating.js"],t["Core/Utilities.js"]],function(e,t){var i;let{format:s}=e,{getNestedProperty:n,pick:r}=t;return function(e){function t(e,t,i){let o=(e,t)=>{let i=e.slice(t||0),s=i.indexOf("{"),n=i.indexOf("}");if(s>-1&&n>s)return{statement:i.substring(s+1,n),begin:t+s+1,end:t+n}},a=[],l,h,c=0;do l=o(e,c),(h=e.substring(c,l&&l.begin-1)).length&&a.push({value:h,type:"constant"}),l&&a.push({value:l.statement,type:"statement"}),c=l?l.end+1:c+1;while(l);return a.forEach(e=>{"statement"===e.type&&(e.value=function(e,t){let i,s;let o=e.indexOf("#each("),a=e.indexOf("#plural("),l=e.indexOf("["),h=e.indexOf("]");if(o>-1){let r=e.slice(o).indexOf(")")+o,a=e.substring(0,o),l=e.substring(r+1),h=e.substring(o+6,r).split(","),c=Number(h[1]),d;if(s="",i=n(h[0],t)){d=(c=isNaN(c)?i.length:c)<0?i.length+c:Math.min(c,i.length);for(let e=0;e<d;++e)s+=a+i[e]+l}return s.length?s:""}if(a>-1){var c;let i=e.slice(a).indexOf(")")+a,o=e.substring(a+8,i).split(",");switch(Number(n(o[0],t))){case 0:s=r(o[4],o[1]);break;case 1:s=r(o[2],o[1]);break;case 2:s=r(o[3],o[1]);break;default:s=o[1]}return s?(c=s).trim&&c.trim()||c.replace(/^\s+|\s+$/g,""):""}if(l>-1){let s;let r=e.substring(0,l),o=Number(e.substring(l+1,h));return i=n(r,t),!isNaN(o)&&i&&(o<0?void 0===(s=i[i.length+o])&&(s=i[0]):void 0===(s=i[o])&&(s=i[i.length-1])),void 0!==s?s:""}return"{"+e+"}"}(e.value,t))}),s(a.reduce((e,t)=>e+t.value,""),t,i)}function i(e,i){let s=e.split("."),n=this.options.lang,r=0;for(;r<s.length;++r)n=n&&n[s[r]];return"string"==typeof n?t(n,i,this):""}e.compose=function(e){let t=e.prototype;t.langFormat||(t.langFormat=i)},e.i18nFormat=t}(i||(i={})),i}),i(t,"Accessibility/Utils/ChartUtilities.js",[t["Core/Globals.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Core/Utilities.js"]],function(e,t,i){let{doc:s}=e,{stripHTMLTagsFromString:n}=t,{defined:r,find:o,fireEvent:a}=i;function l(e){if(e.points&&e.points.length){let t=o(e.points,e=>!!e.graphic);return t&&t.graphic&&t.graphic.element}}function h(e){let t=l(e);return t&&t.parentNode||e.graph&&e.graph.element||e.group&&e.group.element}return{fireEventOnWrappedOrUnwrappedElement:function e(t,i){let n=i.type,r=t.hcEvents;s.createEvent&&(t.dispatchEvent||t.fireEvent)?t.dispatchEvent?t.dispatchEvent(i):t.fireEvent(n,i):r&&r[n]?a(t,n,i):t.element&&e(t.element,i)},getChartTitle:function(e){return n(e.options.title.text||e.langFormat("accessibility.defaultChartTitle",{chart:e}),e.renderer.forExport)},getAxisDescription:function(e){return e&&(e.options.accessibility?.description||e.axisTitle?.textStr||e.options.id||e.categories&&"categories"||e.dateTime&&"Time"||"values")},getAxisRangeDescription:function(e){let t=e.options||{};return t.accessibility&&void 0!==t.accessibility.rangeDescription?t.accessibility.rangeDescription:e.categories?function(e){let t=e.chart;return e.dataMax&&e.dataMin?t.langFormat("accessibility.axis.rangeCategories",{chart:t,axis:e,numCategories:e.dataMax-e.dataMin+1}):""}(e):e.dateTime&&(0===e.min||0===e.dataMin)?function(e){let t=e.chart,i={},s=e.dataMin||e.min||0,n=e.dataMax||e.max||0,r="Seconds";i.Seconds=(n-s)/1e3,i.Minutes=i.Seconds/60,i.Hours=i.Minutes/60,i.Days=i.Hours/24,["Minutes","Hours","Days"].forEach(function(e){i[e]>2&&(r=e)});let o=i[r].toFixed("Seconds"!==r&&"Minutes"!==r?1:0);return t.langFormat("accessibility.axis.timeRange"+r,{chart:t,axis:e,range:o.replace(".0","")})}(e):function(e){let t=e.chart,i=t.options,s=i&&i.accessibility&&i.accessibility.screenReaderSection.axisRangeDateFormat||"",n={min:e.dataMin||e.min||0,max:e.dataMax||e.max||0},r=function(i){return e.dateTime?t.time.dateFormat(s,n[i]):n[i].toString()};return t.langFormat("accessibility.axis.rangeFromTo",{chart:t,axis:e,rangeFrom:r("min"),rangeTo:r("max")})}(e)},getPointFromXY:function(e,t,i){let s=e.length,n;for(;s--;)if(n=o(e[s].points||[],function(e){return e.x===t&&e.y===i}))return n},getSeriesFirstPointElement:l,getSeriesFromName:function(e,t){return t?(e.series||[]).filter(function(e){return e.name===t}):e.series},getSeriesA11yElement:h,unhideChartElementFromAT:function e(t,i){i.setAttribute("aria-hidden",!1),i!==t.renderTo&&i.parentNode&&i.parentNode!==s.body&&(Array.prototype.forEach.call(i.parentNode.childNodes,function(e){e.hasAttribute("aria-hidden")||e.setAttribute("aria-hidden",!0)}),e(t,i.parentNode))},hideSeriesFromAT:function(e){let t=h(e);t&&t.setAttribute("aria-hidden",!0)},scrollAxisToPoint:function(e){let t=e.series.xAxis,i=e.series.yAxis,s=t&&t.scrollbar?t:i,n=s&&s.scrollbar;if(n&&r(n.to)&&r(n.from)){let t=n.to-n.from,i=function(e,t){if(!r(e.dataMin)||!r(e.dataMax))return 0;let i=e.toPixels(e.dataMin),s=e.toPixels(e.dataMax),n="xAxis"===e.coll?"x":"y";return(e.toPixels(t[n]||0)-i)/(s-i)}(s,e);n.updatePosition(i-t/2,i+t/2),a(n,"changed",{from:n.from,to:n.to,trigger:"scrollbar",DOMEvent:null})}}}}),i(t,"Accessibility/Utils/DOMElementProvider.js",[t["Core/Globals.js"],t["Accessibility/Utils/HTMLUtilities.js"]],function(e,t){let{doc:i}=e,{removeElement:s}=t;return class{constructor(){this.elements=[]}createElement(){let e=i.createElement.apply(i,arguments);return this.elements.push(e),e}removeElement(e){s(e),this.elements.splice(this.elements.indexOf(e),1)}destroyCreatedElements(){this.elements.forEach(function(e){s(e)}),this.elements=[]}}}),i(t,"Accessibility/Utils/EventProvider.js",[t["Core/Globals.js"],t["Core/Utilities.js"]],function(e,t){let{addEvent:i}=t;return class{constructor(){this.eventRemovers=[]}addEvent(){let t=i.apply(e,arguments);return this.eventRemovers.push({element:arguments[0],remover:t}),t}removeEvent(e){let t=this.eventRemovers.map(e=>e.remover).indexOf(e);this.eventRemovers[t].remover(),this.eventRemovers.splice(t,1)}removeAddedEvents(){this.eventRemovers.map(e=>e.remover).forEach(e=>e()),this.eventRemovers=[]}}}),i(t,"Accessibility/AccessibilityComponent.js",[t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/DOMElementProvider.js"],t["Accessibility/Utils/EventProvider.js"],t["Accessibility/Utils/HTMLUtilities.js"]],function(e,t,i,s){let{fireEventOnWrappedOrUnwrappedElement:n}=e,{getFakeMouseEvent:r}=s;return class{destroy(){}getKeyboardNavigation(){return[]}init(){}onChartRender(){}onChartUpdate(){}initBase(e,s){this.chart=e,this.eventProvider=new i,this.domElementProvider=new t,this.proxyProvider=s,this.keyCodes={left:37,right:39,up:38,down:40,enter:13,space:32,esc:27,tab:9,pageUp:33,pageDown:34,end:35,home:36}}addEvent(e,t,i,s){return this.eventProvider.addEvent(e,t,i,s)}createElement(e,t){return this.domElementProvider.createElement(e,t)}fakeClickEvent(e){n(e,r("click"))}destroyBase(){this.domElementProvider.destroyCreatedElements(),this.eventProvider.removeAddedEvents()}}}),i(t,"Accessibility/KeyboardNavigationHandler.js",[t["Core/Utilities.js"]],function(e){let{find:t}=e;return class{constructor(e,t){this.chart=e,this.keyCodeMap=t.keyCodeMap||[],this.validate=t.validate,this.init=t.init,this.terminate=t.terminate,this.response={success:1,prev:2,next:3,noHandler:4,fail:5}}run(e){let i=e.which||e.keyCode,s=this.response.noHandler,n=t(this.keyCodeMap,function(e){return e[0].indexOf(i)>-1});return n?s=n[1].call(this,i,e):9===i&&(s=this.response[e.shiftKey?"prev":"next"]),s}}}),i(t,"Accessibility/Components/ContainerComponent.js",[t["Accessibility/AccessibilityComponent.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Core/Globals.js"],t["Accessibility/Utils/HTMLUtilities.js"]],function(e,t,i,s,n){let{unhideChartElementFromAT:r,getChartTitle:o}=i,{doc:a}=s,{stripHTMLTagsFromString:l}=n;return class extends e{onChartUpdate(){this.handleSVGTitleElement(),this.setSVGContainerLabel(),this.setGraphicContainerAttrs(),this.setRenderToAttrs(),this.makeCreditsAccessible()}handleSVGTitleElement(){let e=this.chart,t="highcharts-title-"+e.index,i=l(e.langFormat("accessibility.svgContainerTitle",{chartTitle:o(e)}));if(i.length){let s=this.svgTitleElement=this.svgTitleElement||a.createElementNS("http://www.w3.org/2000/svg","title");s.textContent=i,s.id=t,e.renderTo.insertBefore(s,e.renderTo.firstChild)}}setSVGContainerLabel(){let e=this.chart,t=e.langFormat("accessibility.svgContainerLabel",{chartTitle:o(e)});e.renderer.box&&t.length&&e.renderer.box.setAttribute("aria-label",t)}setGraphicContainerAttrs(){let e=this.chart,t=e.langFormat("accessibility.graphicContainerLabel",{chartTitle:o(e)});t.length&&e.container.setAttribute("aria-label",t)}setRenderToAttrs(){let e=this.chart,t="disabled"!==e.options.accessibility.landmarkVerbosity,i=e.langFormat("accessibility.chartContainerLabel",{title:o(e),chart:e});i&&(e.renderTo.setAttribute("role",t?"region":"group"),e.renderTo.setAttribute("aria-label",i))}makeCreditsAccessible(){let e=this.chart,t=e.credits;t&&(t.textStr&&t.element.setAttribute("aria-label",e.langFormat("accessibility.credits",{creditsStr:l(t.textStr,e.renderer.forExport)})),r(e,t.element))}getKeyboardNavigation(){let e=this.chart;return new t(e,{keyCodeMap:[],validate:function(){return!0},init:function(){let t=e.accessibility;t&&t.keyboardNavigation.tabindexContainer.focus()}})}destroy(){this.chart.renderTo.setAttribute("aria-hidden",!0)}}}),i(t,"Accessibility/FocusBorder.js",[t["Core/Utilities.js"]],function(e){var t;let{addEvent:i,pick:s}=e;return function(e){let t=["x","y","transform","width","height","r","d","stroke-width"];function n(){let e=this.focusElement,t=this.options.accessibility.keyboardNavigation.focusBorder;e&&(e.removeFocusBorder(),t.enabled&&e.addFocusBorder(t.margin,{stroke:t.style.color,strokeWidth:t.style.lineWidth,r:t.style.borderRadius}))}function r(e,t){let s=this.options.accessibility.keyboardNavigation.focusBorder,n=t||e.element;n&&n.focus&&(n.hcEvents&&n.hcEvents.focusin||i(n,"focusin",function(){}),n.focus(),s.hideBrowserFocusOutline&&(n.style.outline="none")),this.focusElement&&this.focusElement.removeFocusBorder(),this.focusElement=e,this.renderFocusBorder()}function o(e,i){this.focusBorder&&this.removeFocusBorder();let n=this.getBBox(),r=s(e,3),o=this.parentGroup,a=this.scaleX||o&&o.scaleX,l=this.scaleY||o&&o.scaleY,h=(a?!l:l)?Math.abs(a||l||1):(Math.abs(a||1)+Math.abs(l||1))/2;n.x+=this.translateX?this.translateX:0,n.y+=this.translateY?this.translateY:0;let c=n.x-r,d=n.y-r,u=n.width+2*r,p=n.height+2*r,g=!!this.text;if("text"===this.element.nodeName||g){let e,t;let i=!!this.rotation,s=g?{x:i?1:0,y:0}:(e=0,t=0,"middle"===this.attr("text-anchor")?e=t=.5:this.rotation?e=.25:t=.75,{x:e,y:t}),o=+this.attr("x"),a=+this.attr("y");if(isNaN(o)||(c=o-n.width*s.x-r),isNaN(a)||(d=a-n.height*s.y-r),g&&i){let e=u;u=p,p=e,isNaN(o)||(c=o-n.height*s.x-r),isNaN(a)||(d=a-n.width*s.y-r)}}this.focusBorder=this.renderer.rect(c,d,u,p,parseInt((i&&i.r||0).toString(),10)/h).addClass("highcharts-focus-border").attr({zIndex:99}).add(o),this.renderer.styledMode||this.focusBorder.attr({stroke:i&&i.stroke,"stroke-width":(i&&i.strokeWidth||0)/h}),function(e,...i){e.focusBorderUpdateHooks||(e.focusBorderUpdateHooks={},t.forEach(t=>{let s=t+"Setter",n=e[s]||e._defaultSetter;e.focusBorderUpdateHooks[s]=n,e[s]=function(){let t=n.apply(e,arguments);return e.addFocusBorder.apply(e,i),t}}))}(this,e,i),function(e){if(e.focusBorderDestroyHook)return;let t=e.destroy;e.destroy=function(){return e.focusBorder&&e.focusBorder.destroy&&e.focusBorder.destroy(),t.apply(e,arguments)},e.focusBorderDestroyHook=t}(this)}function a(){var e;e=this,e.focusBorderUpdateHooks&&(Object.keys(e.focusBorderUpdateHooks).forEach(t=>{let i=e.focusBorderUpdateHooks[t];i===e._defaultSetter?delete e[t]:e[t]=i}),delete e.focusBorderUpdateHooks),this.focusBorderDestroyHook&&(this.destroy=this.focusBorderDestroyHook,delete this.focusBorderDestroyHook),this.focusBorder&&(this.focusBorder.destroy(),delete this.focusBorder)}e.compose=function(e,t){let i=e.prototype,s=t.prototype;i.renderFocusBorder||(i.renderFocusBorder=n,i.setFocusToElement=r),s.addFocusBorder||(s.addFocusBorder=o,s.removeFocusBorder=a)}}(t||(t={})),t}),i(t,"Accessibility/Utils/Announcer.js",[t["Core/Renderer/HTML/AST.js"],t["Accessibility/Utils/DOMElementProvider.js"],t["Core/Globals.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Core/Utilities.js"]],function(e,t,i,s,n){let{doc:r}=i,{addClass:o,visuallyHideElement:a}=s,{attr:l}=n;return class{constructor(e,i){this.chart=e,this.domElementProvider=new t,this.announceRegion=this.addAnnounceRegion(i)}destroy(){this.domElementProvider.destroyCreatedElements()}announce(t){e.setElementHTML(this.announceRegion,t),this.clearAnnouncementRegionTimer&&clearTimeout(this.clearAnnouncementRegionTimer),this.clearAnnouncementRegionTimer=setTimeout(()=>{this.announceRegion.innerHTML=e.emptyHTML,delete this.clearAnnouncementRegionTimer},3e3)}addAnnounceRegion(e){let t=this.chart.announcerContainer||this.createAnnouncerContainer(),i=this.domElementProvider.createElement("div");return l(i,{"aria-hidden":!1,"aria-live":e,"aria-atomic":!0}),this.chart.styledMode?o(i,"highcharts-visually-hidden"):a(i),t.appendChild(i),i}createAnnouncerContainer(){let e=this.chart,t=r.createElement("div");return l(t,{"aria-hidden":!1,class:"highcharts-announcer-container"}),t.style.position="relative",e.renderTo.insertBefore(t,e.renderTo.firstChild),e.announcerContainer=t,t}}}),i(t,"Accessibility/Components/AnnotationsA11y.js",[t["Accessibility/Utils/HTMLUtilities.js"]],function(e){let{escapeStringForHTML:t,stripHTMLTagsFromString:i}=e;function s(e){return(e.annotations||[]).reduce((e,t)=>(t.options&&!1!==t.options.visible&&(e=e.concat(t.labels)),e),[])}function n(e){return e.options&&e.options.accessibility&&e.options.accessibility.description||e.graphic&&e.graphic.text&&e.graphic.text.textStr||""}function r(e){let t=e.options&&e.options.accessibility&&e.options.accessibility.description;if(t)return t;let i=e.chart,s=n(e),r=e.points,o=e=>e.graphic&&e.graphic.element&&e.graphic.element.getAttribute("aria-label")||"",a=r.filter(e=>!!e.graphic).map(e=>{let t=e.accessibility&&e.accessibility.valueDescription||o(e),i=e&&e.series.name||"";return(i?i+", ":"")+"data point "+t}).filter(e=>!!e),l=a.length,h=l>1?"MultiplePoints":l?"SinglePoint":"NoPoints",c={annotationText:s,annotation:e,numPoints:l,annotationPoint:a[0],additionalAnnotationPoints:a.slice(1)};return i.langFormat("accessibility.screenReaderSection.annotations.description"+h,c)}function o(e){return s(e).map(s=>{let n=t(i(r(s),e.renderer.forExport));return n?`<li>${n}</li>`:""})}return{getAnnotationsInfoHTML:function(e){let t=e.annotations;if(!(t&&t.length))return"";let i=o(e);return`<ul style="list-style-type: none">${i.join(" ")}</ul>`},getAnnotationLabelDescription:r,getAnnotationListItems:o,getPointAnnotationTexts:function(e){let t=s(e.series.chart).filter(t=>t.points.indexOf(e)>-1);return t.length?t.map(e=>`${n(e)}`):[]}}}),i(t,"Accessibility/Components/InfoRegionsComponent.js",[t["Accessibility/A11yI18n.js"],t["Accessibility/AccessibilityComponent.js"],t["Accessibility/Utils/Announcer.js"],t["Accessibility/Components/AnnotationsA11y.js"],t["Core/Renderer/HTML/AST.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Core/Templating.js"],t["Core/Globals.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Core/Utilities.js"]],function(e,t,i,s,n,r,o,a,l,h){let{getAnnotationsInfoHTML:c}=s,{getAxisDescription:d,getAxisRangeDescription:u,getChartTitle:p,unhideChartElementFromAT:g}=r,{format:m}=o,{doc:b}=a,{addClass:y,getElement:f,getHeadingTagNameForElement:x,stripHTMLTagsFromString:v,visuallyHideElement:A}=l,{attr:C,pick:w,replaceNested:E}=h;function T(e){return E(e,[/<([\w\-.:!]+)\b[^<>]*>\s*<\/\1>/g,""])}return class extends t{constructor(){super(...arguments),this.screenReaderSections={}}init(){let e=this.chart,t=this;this.initRegionsDefinitions(),this.addEvent(e,"aftergetTableAST",function(e){t.onDataTableCreated(e)}),this.addEvent(e,"afterViewData",function(e){e.wasHidden&&(t.dataTableDiv=e.element,setTimeout(function(){t.focusDataTable()},300))}),this.addEvent(e,"afterHideData",function(){t.viewDataTableButton&&t.viewDataTableButton.setAttribute("aria-expanded","false")}),e.exporting&&this.addEvent(e,"afterPrint",function(){t.updateAllScreenReaderSections()}),this.announcer=new i(e,"assertive")}initRegionsDefinitions(){let e=this,t=this.chart.options.accessibility;this.screenReaderSections={before:{element:null,buildContent:function(i){let s=t.screenReaderSection.beforeChartFormatter;return s?s(i):e.defaultBeforeChartFormatter(i)},insertIntoDOM:function(e,t){t.renderTo.insertBefore(e,t.renderTo.firstChild)},afterInserted:function(){void 0!==e.sonifyButtonId&&e.initSonifyButton(e.sonifyButtonId),void 0!==e.dataTableButtonId&&e.initDataTableButton(e.dataTableButtonId)}},after:{element:null,buildContent:function(i){let s=t.screenReaderSection.afterChartFormatter;return s?s(i):e.defaultAfterChartFormatter()},insertIntoDOM:function(e,t){t.renderTo.insertBefore(e,t.container.nextSibling)},afterInserted:function(){e.chart.accessibility&&t.keyboardNavigation.enabled&&e.chart.accessibility.keyboardNavigation.updateExitAnchor()}}}}onChartRender(){this.linkedDescriptionElement=this.getLinkedDescriptionElement(),this.setLinkedDescriptionAttrs(),this.updateAllScreenReaderSections()}updateAllScreenReaderSections(){let e=this;Object.keys(this.screenReaderSections).forEach(function(t){e.updateScreenReaderSection(t)})}getLinkedDescriptionElement(){let e=this.chart.options.accessibility.linkedDescription;if(!e)return;if("string"!=typeof e)return e;let t=m(e,this.chart),i=b.querySelectorAll(t);if(1===i.length)return i[0]}setLinkedDescriptionAttrs(){let e=this.linkedDescriptionElement;e&&(e.setAttribute("aria-hidden","true"),y(e,"highcharts-linked-description"))}updateScreenReaderSection(e){let t=this.chart,i=this.screenReaderSections[e],s=i.buildContent(t),r=i.element=i.element||this.createElement("div"),o=r.firstChild||this.createElement("div");s?(this.setScreenReaderSectionAttribs(r,e),n.setElementHTML(o,s),r.appendChild(o),i.insertIntoDOM(r,t),t.styledMode?y(o,"highcharts-visually-hidden"):A(o),g(t,o),i.afterInserted&&i.afterInserted()):(r.parentNode&&r.parentNode.removeChild(r),i.element=null)}setScreenReaderSectionAttribs(e,t){let i=this.chart,s=i.langFormat("accessibility.screenReaderSection."+t+"RegionLabel",{chart:i,chartTitle:p(i)});C(e,{id:`highcharts-screen-reader-region-${t}-${i.index}`,"aria-label":s||void 0}),e.style.position="relative",s&&e.setAttribute("role","all"===i.options.accessibility.landmarkVerbosity?"region":"group")}defaultBeforeChartFormatter(){let t=this.chart,i=t.options.accessibility.screenReaderSection.beforeChartFormat;if(!i)return"";let s=this.getAxesDescription(),n=t.sonify&&t.options.sonification&&t.options.sonification.enabled,r="highcharts-a11y-sonify-data-btn-"+t.index,o="hc-linkto-highcharts-data-table-"+t.index,a=c(t),l=t.langFormat("accessibility.screenReaderSection.annotations.heading",{chart:t}),h={headingTagName:x(t.renderTo),chartTitle:p(t),typeDescription:this.getTypeDescriptionText(),chartSubtitle:this.getSubtitleText(),chartLongdesc:this.getLongdescText(),xAxisDescription:s.xAxis,yAxisDescription:s.yAxis,playAsSoundButton:n?this.getSonifyButtonText(r):"",viewTableButton:t.getCSV?this.getDataTableButtonText(o):"",annotationsTitle:a?l:"",annotationsList:a},d=e.i18nFormat(i,h,t);return this.dataTableButtonId=o,this.sonifyButtonId=r,T(d)}defaultAfterChartFormatter(){let t=this.chart,i=t.options.accessibility.screenReaderSection.afterChartFormat;if(!i)return"";let s={endOfChartMarker:this.getEndOfChartMarkerText()};return T(e.i18nFormat(i,s,t))}getLinkedDescription(){let e=this.linkedDescriptionElement;return v(e&&e.innerHTML||"",this.chart.renderer.forExport)}getLongdescText(){let e=this.chart.options,t=e.caption,i=t&&t.text,s=this.getLinkedDescription();return e.accessibility.description||s||i||""}getTypeDescriptionText(){let e=this.chart;return e.types?e.options.accessibility.typeDescription||function(e,t){let i=t[0],s=e.series&&e.series[0]||{},n=e.mapView&&e.mapView.geoMap&&e.mapView.geoMap.title,r={numSeries:e.series.length,numPoints:s.points&&s.points.length,chart:e,mapTitle:n};return i?"map"===i||"tiledwebmap"===i?r.mapTitle?e.langFormat("accessibility.chartTypes.mapTypeDescription",r):e.langFormat("accessibility.chartTypes.unknownMap",r):e.types.length>1?e.langFormat("accessibility.chartTypes.combinationChart",r):function(e,t,i){let s=t[0],n=e.langFormat("accessibility.seriesTypeDescriptions."+s,i),r=e.series&&e.series.length<2?"Single":"Multiple";return(e.langFormat("accessibility.chartTypes."+s+r,i)||e.langFormat("accessibility.chartTypes.default"+r,i))+(n?" "+n:"")}(e,t,r):e.langFormat("accessibility.chartTypes.emptyChart",r)}(e,e.types):""}getDataTableButtonText(e){let t=this.chart;return'<button id="'+e+'">'+t.langFormat("accessibility.table.viewAsDataTableButtonText",{chart:t,chartTitle:p(t)})+"</button>"}getSonifyButtonText(e){let t=this.chart;return t.options.sonification&&!1===t.options.sonification.enabled?"":'<button id="'+e+'">'+t.langFormat("accessibility.sonification.playAsSoundButtonText",{chart:t,chartTitle:p(t)})+"</button>"}getSubtitleText(){let e=this.chart.options.subtitle;return v(e&&e.text||"",this.chart.renderer.forExport)}getEndOfChartMarkerText(){let e=f(`highcharts-end-of-chart-marker-${this.chart.index}`);if(e)return e.outerHTML;let t=this.chart,i=t.langFormat("accessibility.screenReaderSection.endOfChartMarker",{chart:t});return'<div id="highcharts-end-of-chart-marker-'+t.index+'">'+i+"</div>"}onDataTableCreated(e){let t=this.chart;if(t.options.accessibility.enabled){this.viewDataTableButton&&this.viewDataTableButton.setAttribute("aria-expanded","true");let i=e.tree.attributes||{};i.tabindex=-1,i.summary=t.langFormat("accessibility.table.tableSummary",{chart:t}),e.tree.attributes=i}}focusDataTable(){let e=this.dataTableDiv,t=e&&e.getElementsByTagName("table")[0];t&&t.focus&&t.focus()}initSonifyButton(e){let t=this.sonifyButton=f(e),i=this.chart,s=e=>{t&&(t.setAttribute("aria-hidden","true"),t.setAttribute("aria-label","")),e.preventDefault(),e.stopPropagation();let s=i.langFormat("accessibility.sonification.playAsSoundClickAnnouncement",{chart:i});this.announcer.announce(s),setTimeout(()=>{t&&(t.removeAttribute("aria-hidden"),t.removeAttribute("aria-label")),i.sonify&&i.sonify()},1e3)};t&&i&&(t.setAttribute("tabindex",-1),t.onclick=function(e){(i.options.accessibility&&i.options.accessibility.screenReaderSection.onPlayAsSoundClick||s).call(this,e,i)})}initDataTableButton(e){let t=this.viewDataTableButton=f(e),i=this.chart,s=e.replace("hc-linkto-","");t&&(C(t,{tabindex:-1,"aria-expanded":!!f(s)}),t.onclick=i.options.accessibility.screenReaderSection.onViewDataTableClick||function(){i.viewData()})}getAxesDescription(){let e=this.chart,t=function(t,i){let s=e[t];return s.length>1||s[0]&&w(s[0].options.accessibility&&s[0].options.accessibility.enabled,i)},i=!!e.types&&0>e.types.indexOf("map")&&0>e.types.indexOf("treemap")&&0>e.types.indexOf("tilemap"),s=!!e.hasCartesianSeries,n=t("xAxis",!e.angular&&s&&i),r=t("yAxis",s&&i),o={};return n&&(o.xAxis=this.getAxisDescriptionText("xAxis")),r&&(o.yAxis=this.getAxisDescriptionText("yAxis")),o}getAxisDescriptionText(e){let t=this.chart,i=t[e];return t.langFormat("accessibility.axis."+e+"Description"+(i.length>1?"Plural":"Singular"),{chart:t,names:i.map(function(e){return d(e)}),ranges:i.map(function(e){return u(e)}),numAxes:i.length})}destroy(){this.announcer&&this.announcer.destroy()}}}),i(t,"Accessibility/Components/MenuComponent.js",[t["Core/Utilities.js"],t["Accessibility/AccessibilityComponent.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/HTMLUtilities.js"]],function(e,t,i,s,n){let{attr:r}=e,{getChartTitle:o,unhideChartElementFromAT:a}=s,{getFakeMouseEvent:l}=n;function h(e){return e.exportSVGElements&&e.exportSVGElements[0]}class c extends t{init(){let e=this.chart,t=this;this.addEvent(e,"exportMenuShown",function(){t.onMenuShown()}),this.addEvent(e,"exportMenuHidden",function(){t.onMenuHidden()}),this.createProxyGroup()}onMenuHidden(){let e=this.chart.exportContextMenu;e&&e.setAttribute("aria-hidden","true"),this.setExportButtonExpandedState("false")}onMenuShown(){let e=this.chart,t=e.exportContextMenu;t&&(this.addAccessibleContextMenuAttribs(),a(e,t)),this.setExportButtonExpandedState("true")}setExportButtonExpandedState(e){this.exportButtonProxy&&this.exportButtonProxy.innerElement.setAttribute("aria-expanded",e)}onChartRender(){let e=this.chart,t=e.focusElement,i=e.accessibility;this.proxyProvider.clearGroup("chartMenu"),this.proxyMenuButton(),this.exportButtonProxy&&t&&t===e.exportingGroup&&(t.focusBorder?e.setFocusToElement(t,this.exportButtonProxy.innerElement):i&&i.keyboardNavigation.tabindexContainer.focus())}proxyMenuButton(){let e=this.chart,t=this.proxyProvider,i=h(e);(function(e){let t=e.options.exporting,i=h(e);return!!(t&&!1!==t.enabled&&t.accessibility&&t.accessibility.enabled&&i&&i.element)})(e)&&i&&(this.exportButtonProxy=t.addProxyElement("chartMenu",{click:i},"button",{"aria-label":e.langFormat("accessibility.exporting.menuButtonLabel",{chart:e,chartTitle:o(e)}),"aria-expanded":!1,title:e.options.lang.contextButtonTitle||null}))}createProxyGroup(){this.chart&&this.proxyProvider&&this.proxyProvider.addGroup("chartMenu")}addAccessibleContextMenuAttribs(){let e=this.chart,t=e.exportDivElements;if(t&&t.length){t.forEach(e=>{e&&("LI"!==e.tagName||e.children&&e.children.length?e.setAttribute("aria-hidden","true"):e.setAttribute("tabindex",-1))});let i=t[0]&&t[0].parentNode;i&&r(i,{"aria-hidden":void 0,"aria-label":e.langFormat("accessibility.exporting.chartMenuLabel",{chart:e}),role:"list"})}}getKeyboardNavigation(){let e=this.keyCodes,t=this.chart,s=this;return new i(t,{keyCodeMap:[[[e.left,e.up],function(){return s.onKbdPrevious(this)}],[[e.right,e.down],function(){return s.onKbdNext(this)}],[[e.enter,e.space],function(){return s.onKbdClick(this)}]],validate:function(){return!!t.exporting&&!1!==t.options.exporting.enabled&&!1!==t.options.exporting.accessibility.enabled},init:function(){let e=s.exportButtonProxy,i=s.chart.exportingGroup;e&&i&&t.setFocusToElement(i,e.innerElement)},terminate:function(){t.hideExportMenu()}})}onKbdPrevious(e){let t=this.chart,i=t.options.accessibility,s=e.response,n=t.highlightedExportItemIx||0;for(;n--;)if(t.highlightExportItem(n))return s.success;return i.keyboardNavigation.wrapAround?(t.highlightLastExportItem(),s.success):s.prev}onKbdNext(e){let t=this.chart,i=t.options.accessibility,s=e.response;for(let e=(t.highlightedExportItemIx||0)+1;e<t.exportDivElements.length;++e)if(t.highlightExportItem(e))return s.success;return i.keyboardNavigation.wrapAround?(t.highlightExportItem(0),s.success):s.next}onKbdClick(e){let t=this.chart,i=t.exportDivElements[t.highlightedExportItemIx],s=h(t).element;return t.openMenu?this.fakeClickEvent(i):(this.fakeClickEvent(s),t.highlightExportItem(0)),e.response.success}}return function(e){function t(){let e=h(this);if(e){let t=e.element;t.onclick&&t.onclick(l("click"))}}function i(){let e=this.exportDivElements;e&&this.exportContextMenu&&this.openMenu&&(e.forEach(e=>{e&&"highcharts-menu-item"===e.className&&e.onmouseout&&e.onmouseout(l("mouseout"))}),this.highlightedExportItemIx=0,this.exportContextMenu.hideMenu(),this.container.focus())}function s(e){let t=this.exportDivElements&&this.exportDivElements[e],i=this.exportDivElements&&this.exportDivElements[this.highlightedExportItemIx];if(t&&"LI"===t.tagName&&!(t.children&&t.children.length)){let s=!!(this.renderTo.getElementsByTagName("g")[0]||{}).focus;return t.focus&&s&&t.focus(),i&&i.onmouseout&&i.onmouseout(l("mouseout")),t.onmouseover&&t.onmouseover(l("mouseover")),this.highlightedExportItemIx=e,!0}return!1}function n(){if(this.exportDivElements){let e=this.exportDivElements.length;for(;e--;)if(this.highlightExportItem(e))return!0}return!1}e.compose=function(e){let r=e.prototype;r.hideExportMenu||(r.hideExportMenu=i,r.highlightExportItem=s,r.highlightLastExportItem=n,r.showExportMenu=t)}}(c||(c={})),c}),i(t,"Accessibility/KeyboardNavigation.js",[t["Core/Globals.js"],t["Accessibility/Components/MenuComponent.js"],t["Core/Utilities.js"],t["Accessibility/Utils/EventProvider.js"],t["Accessibility/Utils/HTMLUtilities.js"]],function(e,t,i,s,n){let{doc:r,win:o}=e,{addEvent:a,defined:l,fireEvent:h}=i,{getElement:c,simulatedEventTarget:d}=n;class u{constructor(e,t){this.currentModuleIx=NaN,this.modules=[],this.init(e,t)}init(e,t){let i=this.eventProvider=new s;this.chart=e,this.components=t,this.modules=[],this.currentModuleIx=0,this.update(),i.addEvent(this.tabindexContainer,"keydown",e=>this.onKeydown(e)),i.addEvent(this.tabindexContainer,"focus",e=>this.onFocus(e)),["mouseup","touchend"].forEach(e=>i.addEvent(r,e,e=>this.onMouseUp(e))),["mousedown","touchstart"].forEach(t=>i.addEvent(e.renderTo,t,()=>{this.isClickingChart=!0}))}update(e){let t=this.chart.options.accessibility,i=t&&t.keyboardNavigation,s=this.components;this.updateContainerTabindex(),i&&i.enabled&&e&&e.length?(this.modules=e.reduce(function(e,t){let i=s[t].getKeyboardNavigation();return e.concat(i)},[]),this.updateExitAnchor()):(this.modules=[],this.currentModuleIx=0,this.removeExitAnchor())}updateExitAnchor(){let e=c(`highcharts-end-of-chart-marker-${this.chart.index}`);this.removeExitAnchor(),e?(this.makeElementAnExitAnchor(e),this.exitAnchor=e):this.createExitAnchor()}move(e){let t=this.modules&&this.modules[this.currentModuleIx];t&&t.terminate&&t.terminate(e),this.chart.focusElement&&this.chart.focusElement.removeFocusBorder(),this.currentModuleIx+=e;let i=this.modules&&this.modules[this.currentModuleIx];if(i){if(i.validate&&!i.validate())return this.move(e);if(i.init)return i.init(e),!0}return this.currentModuleIx=0,this.exiting=!0,e>0?this.exitAnchor&&this.exitAnchor.focus():this.tabindexContainer.focus(),!1}onFocus(e){let t=this.chart,i=e.relatedTarget&&t.container.contains(e.relatedTarget),s=t.options.accessibility,n=s&&s.keyboardNavigation;if(n&&n.enabled&&!this.exiting&&!this.tabbingInBackwards&&!this.isClickingChart&&!i){let e=this.getFirstValidModuleIx();null!==e&&(this.currentModuleIx=e,this.modules[e].init(1))}this.keyboardReset=!1,this.exiting=!1}onMouseUp(e){if(delete this.isClickingChart,!this.keyboardReset&&e.relatedTarget!==d){let t=this.chart;if(!e.target||!t.container.contains(e.target)){let e=this.modules&&this.modules[this.currentModuleIx||0];e&&e.terminate&&e.terminate(),this.currentModuleIx=0}t.focusElement&&(t.focusElement.removeFocusBorder(),delete t.focusElement),this.keyboardReset=!0}}onKeydown(e){let t;let i=e||o.event,s=this.modules&&this.modules.length&&this.modules[this.currentModuleIx],n=i.target;if((!n||"INPUT"!==n.nodeName||n.classList.contains("highcharts-a11y-proxy-element"))&&(this.keyboardReset=!1,this.exiting=!1,s)){let e=s.run(i);e===s.response.success?t=!0:e===s.response.prev?t=this.move(-1):e===s.response.next&&(t=this.move(1)),t&&(i.preventDefault(),i.stopPropagation())}}updateContainerTabindex(){let e;let t=this.chart.options.accessibility,i=t&&t.keyboardNavigation,s=!(i&&!1===i.enabled),n=this.chart,r=n.container;n.renderTo.hasAttribute("tabindex")?(r.removeAttribute("tabindex"),e=n.renderTo):e=r,this.tabindexContainer=e;let o=e.getAttribute("tabindex");s&&!o?e.setAttribute("tabindex","0"):s||n.container.removeAttribute("tabindex")}createExitAnchor(){let e=this.chart,t=this.exitAnchor=r.createElement("div");e.renderTo.appendChild(t),this.makeElementAnExitAnchor(t)}makeElementAnExitAnchor(e){let t=this.tabindexContainer.getAttribute("tabindex")||0;e.setAttribute("class","highcharts-exit-anchor"),e.setAttribute("tabindex",t),e.setAttribute("aria-hidden",!1),this.addExitAnchorEventsToEl(e)}removeExitAnchor(){if(this.exitAnchor){let e=this.eventProvider.eventRemovers.find(e=>e.element===this.exitAnchor);e&&l(e.remover)&&this.eventProvider.removeEvent(e.remover),this.exitAnchor.parentNode&&this.exitAnchor.parentNode.removeChild(this.exitAnchor),delete this.exitAnchor}}addExitAnchorEventsToEl(e){let t=this.chart,i=this;this.eventProvider.addEvent(e,"focus",function(e){let s=e||o.event,n=!(s.relatedTarget&&t.container.contains(s.relatedTarget)||i.exiting);if(t.focusElement&&delete t.focusElement,n){if(i.tabbingInBackwards=!0,i.tabindexContainer.focus(),delete i.tabbingInBackwards,s.preventDefault(),i.modules&&i.modules.length){i.currentModuleIx=i.modules.length-1;let e=i.modules[i.currentModuleIx];e&&e.validate&&!e.validate()?i.move(-1):e&&e.init(-1)}}else i.exiting=!1})}getFirstValidModuleIx(){let e=this.modules.length;for(let t=0;t<e;++t){let e=this.modules[t];if(!e.validate||e.validate())return t}return null}destroy(){this.removeExitAnchor(),this.eventProvider.removeAddedEvents(),this.chart.container.removeAttribute("tabindex")}}return function(i){function s(){let e=this;h(this,"dismissPopupContent",{},function(){e.tooltip&&e.tooltip.hide(0),e.hideExportMenu()})}function n(t){27===(t.which||t.keyCode)&&e.charts&&e.charts.forEach(e=>{e&&e.dismissPopupContent&&e.dismissPopupContent()})}i.compose=function(e){t.compose(e);let i=e.prototype;return i.dismissPopupContent||(i.dismissPopupContent=s,a(r,"keydown",n)),e}}(u||(u={})),u}),i(t,"Accessibility/Components/LegendComponent.js",[t["Core/Animation/AnimationUtilities.js"],t["Core/Globals.js"],t["Core/Legend/Legend.js"],t["Core/Utilities.js"],t["Accessibility/AccessibilityComponent.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/HTMLUtilities.js"]],function(e,t,i,s,n,r,o,a){let{animObject:l}=e,{doc:h}=t,{addEvent:c,fireEvent:d,isNumber:u,pick:p,syncTimeout:g}=s,{getChartTitle:m}=o,{stripHTMLTagsFromString:b,addClass:y,removeClass:f}=a;function x(e){let t=e.legend&&e.legend.allItems,i=e.options.legend.accessibility||{},s=e.colorAxis&&e.colorAxis.some(e=>!e.dataClasses||!e.dataClasses.length);return!!(t&&t.length&&!s&&!1!==i.enabled)}function v(e,t){let i=t.legendItem||{};for(let s of(t.setState(e?"hover":"",!0),["group","label","symbol"])){let t=i[s],n=t&&t.element||t;n&&d(n,e?"mouseover":"mouseout")}}class A extends n{constructor(){super(...arguments),this.highlightedLegendItemIx=NaN,this.proxyGroup=null}init(){let e=this;this.recreateProxies(),this.addEvent(i,"afterScroll",function(){this.chart===e.chart&&(e.proxyProvider.updateGroupProxyElementPositions("legend"),e.updateLegendItemProxyVisibility(),e.highlightedLegendItemIx>-1&&this.chart.highlightLegendItem(e.highlightedLegendItemIx))}),this.addEvent(i,"afterPositionItem",function(t){this.chart===e.chart&&this.chart.renderer&&e.updateProxyPositionForItem(t.item)}),this.addEvent(i,"afterRender",function(){this.chart===e.chart&&this.chart.renderer&&e.recreateProxies()&&g(()=>e.proxyProvider.updateGroupProxyElementPositions("legend"),l(p(this.chart.renderer.globalAnimation,!0)).duration)})}updateLegendItemProxyVisibility(){let e;let t=this.chart,i=t.legend,s=i.allItems||[],n=i.currentPage||1,r=i.clipHeight||0;s.forEach(s=>{if(s.a11yProxyElement){let o=i.pages&&i.pages.length,a=s.a11yProxyElement.element,l=!1;if(e=s.legendItem||{},o){let t=e.pageIx||0;l=(e.y||0)+(e.label?Math.round(e.label.getBBox().height):0)-i.pages[t]>r||t!==n-1}l?t.styledMode?y(a,"highcharts-a11y-invisible"):a.style.visibility="hidden":(f(a,"highcharts-a11y-invisible"),a.style.visibility="")}})}onChartRender(){x(this.chart)||this.removeProxies()}highlightAdjacentLegendPage(e){let t=this.chart,i=t.legend,s=(i.currentPage||1)+e,n=i.pages||[];if(s>0&&s<=n.length){let e=0;for(let n of i.allItems)((n.legendItem||{}).pageIx||0)+1===s&&t.highlightLegendItem(e)&&(this.highlightedLegendItemIx=e),++e}}updateProxyPositionForItem(e){e.a11yProxyElement&&e.a11yProxyElement.refreshPosition()}recreateProxies(){let e=h.activeElement,t=this.proxyGroup,i=e&&t&&t.contains(e);return this.removeProxies(),!!x(this.chart)&&(this.addLegendProxyGroup(),this.proxyLegendItems(),this.updateLegendItemProxyVisibility(),this.updateLegendTitle(),i&&this.chart.highlightLegendItem(this.highlightedLegendItemIx),!0)}removeProxies(){this.proxyProvider.removeGroup("legend")}updateLegendTitle(){let e=this.chart,t=b((e.legend&&e.legend.options.title&&e.legend.options.title.text||"").replace(/<br ?\/?>/g," "),e.renderer.forExport),i=e.langFormat("accessibility.legend.legendLabel"+(t?"":"NoTitle"),{chart:e,legendTitle:t,chartTitle:m(e)});this.proxyProvider.updateGroupAttrs("legend",{"aria-label":i})}addLegendProxyGroup(){let e="all"===this.chart.options.accessibility.landmarkVerbosity?"region":null;this.proxyGroup=this.proxyProvider.addGroup("legend","ul",{"aria-label":"_placeholder_",role:e})}proxyLegendItems(){let e;let t=this;((this.chart.legend||{}).allItems||[]).forEach(i=>{(e=i.legendItem||{}).label&&e.label.element&&t.proxyLegendItem(i)})}proxyLegendItem(e){let t=e.legendItem||{};if(!t.label||!t.group)return;let i=this.chart.langFormat("accessibility.legend.legendItem",{chart:this.chart,itemName:b(e.name,this.chart.renderer.forExport),item:e}),s={tabindex:-1,"aria-pressed":e.visible,"aria-label":i},n=t.group.div?t.label:t.group;e.a11yProxyElement=this.proxyProvider.addProxyElement("legend",{click:t.label,visual:n.element},"button",s)}getKeyboardNavigation(){let e=this.keyCodes,t=this,i=this.chart;return new r(i,{keyCodeMap:[[[e.left,e.right,e.up,e.down],function(e){return t.onKbdArrowKey(this,e)}],[[e.enter,e.space],function(){return t.onKbdClick(this)}],[[e.pageDown,e.pageUp],function(i){let s=i===e.pageDown?1:-1;return t.highlightAdjacentLegendPage(s),this.response.success}]],validate:function(){return t.shouldHaveLegendNavigation()},init:function(){i.highlightLegendItem(0),t.highlightedLegendItemIx=0},terminate:function(){t.highlightedLegendItemIx=-1,i.legend.allItems.forEach(e=>v(!1,e))}})}onKbdArrowKey(e,t){let{keyCodes:{left:i,up:s},highlightedLegendItemIx:n,chart:r}=this,o=r.legend.allItems.length,a=r.options.accessibility.keyboardNavigation.wrapAround,l=t===i||t===s?-1:1;return r.highlightLegendItem(n+l)?this.highlightedLegendItemIx+=l:a&&o>1&&(this.highlightedLegendItemIx=l>0?0:o-1,r.highlightLegendItem(this.highlightedLegendItemIx)),e.response.success}onKbdClick(e){let t=this.chart.legend.allItems[this.highlightedLegendItemIx];return t&&t.a11yProxyElement&&t.a11yProxyElement.click(),e.response.success}shouldHaveLegendNavigation(){if(!x(this.chart))return!1;let e=this.chart,t=(e.options.legend||{}).accessibility||{};return!!(e.legend.display&&t.keyboardNavigation&&t.keyboardNavigation.enabled)}destroy(){this.removeProxies()}}return function(e){function t(e){let t=this.legend.allItems,i=this.accessibility&&this.accessibility.components.legend.highlightedLegendItemIx,s=t[e],n=s?.legendItem||{};if(s){u(i)&&t[i]&&v(!1,t[i]),function(e,t){let i=(e.allItems[t].legendItem||{}).pageIx,s=e.currentPage;void 0!==i&&i+1!==s&&e.scroll(1+i-s)}(this.legend,e);let r=n.label,o=s.a11yProxyElement&&s.a11yProxyElement.innerElement;return r&&r.element&&o&&this.setFocusToElement(r,o),v(!0,s),!0}return!1}function i(e){let t=this.chart.options.accessibility,i=e.item;t.enabled&&i&&i.a11yProxyElement&&i.a11yProxyElement.innerElement.setAttribute("aria-pressed",e.visible?"true":"false")}e.compose=function(e,s){let n=e.prototype;n.highlightLegendItem||(n.highlightLegendItem=t,c(s,"afterColorizeItem",i))}}(A||(A={})),A}),i(t,"Stock/Navigator/ChartNavigatorComposition.js",[t["Core/Globals.js"],t["Core/Utilities.js"]],function(e,t){let i;let{isTouchDevice:s}=e,{addEvent:n,merge:r,pick:o}=t,a=[];function l(){this.navigator&&this.navigator.setBaseSeries(null,!1)}function h(){let e,t,i;let s=this.legend,n=this.navigator;if(n){e=s&&s.options,t=n.xAxis,i=n.yAxis;let{scrollbarHeight:r,scrollButtonSize:a}=n;this.inverted?(n.left=n.opposite?this.chartWidth-r-n.height:this.spacing[3]+r,n.top=this.plotTop+a):(n.left=o(t.left,this.plotLeft+a),n.top=n.navigatorOptions.top||this.chartHeight-n.height-r-(this.scrollbar?.options.margin||0)-this.spacing[2]-(this.rangeSelector&&this.extraBottomMargin?this.rangeSelector.getHeight():0)-(e&&"bottom"===e.verticalAlign&&"proximate"!==e.layout&&e.enabled&&!e.floating?s.legendHeight+o(e.margin,10):0)-(this.titleOffset?this.titleOffset[2]:0)),t&&i&&(this.inverted?t.options.left=i.options.left=n.left:t.options.top=i.options.top=n.top,t.setAxisSize(),i.setAxisSize())}}function c(e){!this.navigator&&!this.scroller&&(this.options.navigator.enabled||this.options.scrollbar.enabled)&&(this.scroller=this.navigator=new i(this),o(e.redraw,!0)&&this.redraw(e.animation))}function d(){let e=this.options;(e.navigator.enabled||e.scrollbar.enabled)&&(this.scroller=this.navigator=new i(this))}function u(){let e=this.options,t=e.navigator,i=e.rangeSelector;if((t&&t.enabled||i&&i.enabled)&&(!s&&"x"===this.zooming.type||s&&"x"===this.zooming.pinchType))return!1}function p(e){let t=e.navigator;if(t&&e.xAxis[0]){let i=e.xAxis[0].getExtremes();t.render(i.min,i.max)}}function g(e){let t=e.options.navigator||{},i=e.options.scrollbar||{};!this.navigator&&!this.scroller&&(t.enabled||i.enabled)&&(r(!0,this.options.navigator,t),r(!0,this.options.scrollbar,i),delete e.options.navigator,delete e.options.scrollbar)}return{compose:function(e,s){if(t.pushUnique(a,e)){let t=e.prototype;i=s,t.callbacks.push(p),n(e,"afterAddSeries",l),n(e,"afterSetChartSize",h),n(e,"afterUpdate",c),n(e,"beforeRender",d),n(e,"beforeShowResetZoom",u),n(e,"update",g)}}}}),i(t,"Core/Axis/NavigatorAxisComposition.js",[t["Core/Globals.js"],t["Core/Utilities.js"]],function(e,t){let{isTouchDevice:i}=e,{addEvent:s,correctFloat:n,defined:r,isNumber:o,pick:a}=t;function l(){this.navigatorAxis||(this.navigatorAxis=new c(this))}function h(e){let t;let s=this.chart,n=s.options,o=n.navigator,a=this.navigatorAxis,l=s.zooming.pinchType,h=n.rangeSelector,c=s.zooming.type;if(this.isXAxis&&(o?.enabled||h?.enabled)){if("y"===c&&"zoom"===e.trigger)t=!1;else if(("zoom"===e.trigger&&"xy"===c||i&&"xy"===l)&&this.options.range){let t=a.previousZoom;r(e.min)?a.previousZoom=[this.min,this.max]:t&&(e.min=t[0],e.max=t[1],a.previousZoom=void 0)}}void 0!==t&&e.preventDefault()}class c{static compose(e){e.keepProps.includes("navigatorAxis")||(e.keepProps.push("navigatorAxis"),s(e,"init",l),s(e,"setExtremes",h))}constructor(e){this.axis=e}destroy(){this.axis=void 0}toFixedRange(e,t,i,s){let l=this.axis,h=(l.pointRange||0)/2,c=a(i,l.translate(e,!0,!l.horiz)),d=a(s,l.translate(t,!0,!l.horiz));return r(i)||(c=n(c+h)),r(s)||(d=n(d-h)),o(c)&&o(d)||(c=d=void 0),{min:c,max:d}}}return c}),i(t,"Stock/Navigator/NavigatorDefaults.js",[t["Core/Color/Color.js"],t["Core/Series/SeriesRegistry.js"]],function(e,t){let{parse:i}=e,{seriesTypes:s}=t;return{height:40,margin:25,maskInside:!0,handles:{width:7,borderRadius:0,height:15,symbols:["navigator-handle","navigator-handle"],enabled:!0,lineWidth:1,backgroundColor:"#f2f2f2",borderColor:"#999999"},maskFill:i("#667aff").setOpacity(.3).get(),outlineColor:"#999999",outlineWidth:1,series:{type:void 0===s.areaspline?"line":"areaspline",fillOpacity:.05,lineWidth:1,compare:null,sonification:{enabled:!1},dataGrouping:{approximation:"average",enabled:!0,groupPixelWidth:2,firstAnchor:"firstPoint",anchor:"middle",lastAnchor:"lastPoint",units:[["millisecond",[1,2,5,10,20,25,50,100,200,500]],["second",[1,2,5,10,15,30]],["minute",[1,2,5,10,15,30]],["hour",[1,2,3,4,6,8,12]],["day",[1,2,3,4]],["week",[1,2,3]],["month",[1,3,6]],["year",null]]},dataLabels:{enabled:!1,zIndex:2},id:"highcharts-navigator-series",className:"highcharts-navigator-series",lineColor:null,marker:{enabled:!1},threshold:null},xAxis:{className:"highcharts-navigator-xaxis",tickLength:0,lineWidth:0,gridLineColor:"#e6e6e6",id:"navigator-x-axis",gridLineWidth:1,tickPixelInterval:200,labels:{align:"left",style:{color:"#000000",fontSize:"0.7em",opacity:.6,textOutline:"2px contrast"},x:3,y:-4},crosshair:!1},yAxis:{className:"highcharts-navigator-yaxis",gridLineWidth:0,startOnTick:!1,endOnTick:!1,minPadding:.1,id:"navigator-y-axis",maxPadding:.1,labels:{enabled:!1},crosshair:!1,title:{text:null},tickLength:0,tickWidth:0}}}),i(t,"Stock/Navigator/NavigatorSymbols.js",[t["Core/Renderer/SVG/Symbols.js"],t["Core/Utilities.js"]],function(e,t){let{relativeLength:i}=t;return{"navigator-handle":function(t,s,n,r,o={}){let a=o.width?o.width/2:n,l=i(o.borderRadius||0,Math.min(2*a,r));return[["M",-1.5,(r=o.height||r)/2-3.5],["L",-1.5,r/2+4.5],["M",.5,r/2-3.5],["L",.5,r/2+4.5],...e.rect(-a-1,.5,2*a+1,r,{r:l})]}}}),i(t,"Stock/Utilities/StockUtilities.js",[t["Core/Utilities.js"]],function(e){let{defined:t}=e;return{setFixedRange:function(e){let i=this.xAxis[0];t(i.dataMax)&&t(i.dataMin)&&e?this.fixedRange=Math.min(e,i.dataMax-i.dataMin):this.fixedRange=e}}}),i(t,"Stock/Navigator/NavigatorComposition.js",[t["Core/Defaults.js"],t["Core/Globals.js"],t["Core/Axis/NavigatorAxisComposition.js"],t["Stock/Navigator/NavigatorDefaults.js"],t["Stock/Navigator/NavigatorSymbols.js"],t["Core/Renderer/RendererRegistry.js"],t["Stock/Utilities/StockUtilities.js"],t["Core/Utilities.js"]],function(e,t,i,s,n,r,o,a){let{setOptions:l}=e,{composed:h}=t,{getRendererType:c}=r,{setFixedRange:d}=o,{addEvent:u,extend:p,pushUnique:g}=a;function m(){this.chart.navigator&&!this.options.isInternal&&this.chart.navigator.setBaseSeries(null,!1)}return{compose:function(e,t,r){i.compose(t),g(h,"Navigator")&&(e.prototype.setFixedRange=d,p(c().prototype.symbols,n),u(r,"afterUpdate",m),l({navigator:s}))}}}),i(t,"Core/Axis/ScrollbarAxis.js",[t["Core/Globals.js"],t["Core/Utilities.js"]],function(e,t){var i;let{composed:s}=e,{addEvent:n,defined:r,pick:o,pushUnique:a}=t;return function(e){let t;function i(e){let t=o(e.options&&e.options.min,e.min),i=o(e.options&&e.options.max,e.max);return{axisMin:t,axisMax:i,scrollMin:r(e.dataMin)?Math.min(t,e.min,e.dataMin,o(e.threshold,1/0)):t,scrollMax:r(e.dataMax)?Math.max(i,e.max,e.dataMax,o(e.threshold,-1/0)):i}}function l(){let e=this.scrollbar,t=e&&!e.options.opposite,i=this.horiz?2:t?3:1;e&&(this.chart.scrollbarsOffsets=[0,0],this.chart.axisOffset[i]+=e.size+(e.options.margin||0))}function h(){let e=this;e.options&&e.options.scrollbar&&e.options.scrollbar.enabled&&(e.options.scrollbar.vertical=!e.horiz,e.options.startOnTick=e.options.endOnTick=!1,e.scrollbar=new t(e.chart.renderer,e.options.scrollbar,e.chart),n(e.scrollbar,"changed",function(t){let s,n;let{axisMin:o,axisMax:a,scrollMin:l,scrollMax:h}=i(e),c=h-l;if(r(o)&&r(a)){if(e.horiz&&!e.reversed||!e.horiz&&e.reversed?(s=l+c*this.to,n=l+c*this.from):(s=l+c*(1-this.from),n=l+c*(1-this.to)),this.shouldUpdateExtremes(t.DOMType)){let i="mousemove"!==t.DOMType&&"touchmove"!==t.DOMType&&void 0;e.setExtremes(n,s,!0,i,t)}else this.setRange(this.from,this.to)}}))}function c(){let e,t,s;let{scrollMin:n,scrollMax:o}=i(this),a=this.scrollbar,l=this.axisTitleMargin+(this.titleOffset||0),h=this.chart.scrollbarsOffsets,c=this.options.margin||0;if(a&&h){if(this.horiz)this.opposite||(h[1]+=l),a.position(this.left,this.top+this.height+2+h[1]-(this.opposite?c:0),this.width,this.height),this.opposite||(h[1]+=c),e=1;else{let t;this.opposite&&(h[0]+=l),t=a.options.opposite?this.left+this.width+2+h[0]-(this.opposite?0:c):this.opposite?0:c,a.position(t,this.top,this.width,this.height),this.opposite&&(h[0]+=c),e=0}if(h[e]+=a.size+(a.options.margin||0),isNaN(n)||isNaN(o)||!r(this.min)||!r(this.max)||this.dataMin===this.dataMax)a.setRange(0,1);else if(this.min===this.max){let e=this.pointRange/(this.dataMax+1);t=e*this.min,s=e*(this.max+1),a.setRange(t,s)}else t=(this.min-n)/(o-n),s=(this.max-n)/(o-n),this.horiz&&!this.reversed||!this.horiz&&this.reversed?a.setRange(t,s):a.setRange(1-s,1-t)}}e.compose=function(e,i){a(s,"Axis.Scrollbar")&&(t=i,n(e,"afterGetOffset",l),n(e,"afterInit",h),n(e,"afterRender",c))}}(i||(i={})),i}),i(t,"Stock/Scrollbar/ScrollbarDefaults.js",[],function(){return{height:10,barBorderRadius:5,buttonBorderRadius:0,buttonsEnabled:!1,liveRedraw:void 0,margin:void 0,minWidth:6,opposite:!0,step:.2,zIndex:3,barBackgroundColor:"#cccccc",barBorderWidth:0,barBorderColor:"#cccccc",buttonArrowColor:"#333333",buttonBackgroundColor:"#e6e6e6",buttonBorderColor:"#cccccc",buttonBorderWidth:1,rifleColor:"none",trackBackgroundColor:"rgba(255, 255, 255, 0.001)",trackBorderColor:"#cccccc",trackBorderRadius:5,trackBorderWidth:1}}),i(t,"Stock/Scrollbar/Scrollbar.js",[t["Core/Defaults.js"],t["Core/Globals.js"],t["Core/Axis/ScrollbarAxis.js"],t["Stock/Scrollbar/ScrollbarDefaults.js"],t["Core/Utilities.js"]],function(e,t,i,s,n){let{defaultOptions:r}=e,{addEvent:o,correctFloat:a,crisp:l,defined:h,destroyObjectProperties:c,fireEvent:d,merge:u,pick:p,removeEvent:g}=n;class m{static compose(e){i.compose(e,m)}static swapXY(e,t){return t&&e.forEach(e=>{let t;let i=e.length;for(let s=0;s<i;s+=2)"number"==typeof(t=e[s+1])&&(e[s+1]=e[s+2],e[s+2]=t)}),e}constructor(e,t,i){this._events=[],this.chartX=0,this.chartY=0,this.from=0,this.scrollbarButtons=[],this.scrollbarLeft=0,this.scrollbarStrokeWidth=1,this.scrollbarTop=0,this.size=0,this.to=0,this.trackBorderWidth=1,this.x=0,this.y=0,this.init(e,t,i)}addEvents(){let e=this.options.inverted?[1,0]:[0,1],t=this.scrollbarButtons,i=this.scrollbarGroup.element,s=this.track.element,n=this.mouseDownHandler.bind(this),r=this.mouseMoveHandler.bind(this),a=this.mouseUpHandler.bind(this),l=[[t[e[0]].element,"click",this.buttonToMinClick.bind(this)],[t[e[1]].element,"click",this.buttonToMaxClick.bind(this)],[s,"click",this.trackClick.bind(this)],[i,"mousedown",n],[i.ownerDocument,"mousemove",r],[i.ownerDocument,"mouseup",a],[i,"touchstart",n],[i.ownerDocument,"touchmove",r],[i.ownerDocument,"touchend",a]];l.forEach(function(e){o.apply(null,e)}),this._events=l}buttonToMaxClick(e){let t=(this.to-this.from)*p(this.options.step,.2);this.updatePosition(this.from+t,this.to+t),d(this,"changed",{from:this.from,to:this.to,trigger:"scrollbar",DOMEvent:e})}buttonToMinClick(e){let t=a(this.to-this.from)*p(this.options.step,.2);this.updatePosition(a(this.from-t),a(this.to-t)),d(this,"changed",{from:this.from,to:this.to,trigger:"scrollbar",DOMEvent:e})}cursorToScrollbarPosition(e){let t=this.options,i=t.minWidth>this.calculatedWidth?t.minWidth:0;return{chartX:(e.chartX-this.x-this.xOffset)/(this.barWidth-i),chartY:(e.chartY-this.y-this.yOffset)/(this.barWidth-i)}}destroy(){let e=this,t=e.chart.scroller;e.removeEvents(),["track","scrollbarRifles","scrollbar","scrollbarGroup","group"].forEach(function(t){e[t]&&e[t].destroy&&(e[t]=e[t].destroy())}),t&&e===t.scrollbar&&(t.scrollbar=null,c(t.scrollbarButtons))}drawScrollbarButton(e){let t=this.renderer,i=this.scrollbarButtons,s=this.options,n=this.size,r=t.g().add(this.group);if(i.push(r),s.buttonsEnabled){let o=t.rect().addClass("highcharts-scrollbar-button").add(r);this.chart.styledMode||o.attr({stroke:s.buttonBorderColor,"stroke-width":s.buttonBorderWidth,fill:s.buttonBackgroundColor}),o.attr(o.crisp({x:-.5,y:-.5,width:n,height:n,r:s.buttonBorderRadius},o.strokeWidth()));let a=t.path(m.swapXY([["M",n/2+(e?-1:1),n/2-3],["L",n/2+(e?-1:1),n/2+3],["L",n/2+(e?2:-2),n/2]],s.vertical)).addClass("highcharts-scrollbar-arrow").add(i[e]);this.chart.styledMode||a.attr({fill:s.buttonArrowColor})}}init(e,t,i){this.scrollbarButtons=[],this.renderer=e,this.userOptions=t,this.options=u(s,r.scrollbar,t),this.options.margin=p(this.options.margin,10),this.chart=i,this.size=p(this.options.size,this.options.height),t.enabled&&(this.render(),this.addEvents())}mouseDownHandler(e){let t=this.chart.pointer?.normalize(e)||e,i=this.cursorToScrollbarPosition(t);this.chartX=i.chartX,this.chartY=i.chartY,this.initPositions=[this.from,this.to],this.grabbedCenter=!0}mouseMoveHandler(e){let t;let i=this.chart.pointer?.normalize(e)||e,s=this.options.vertical?"chartY":"chartX",n=this.initPositions||[];this.grabbedCenter&&(!e.touches||0!==e.touches[0][s])&&(t=this.cursorToScrollbarPosition(i)[s]-this[s],this.hasDragged=!0,this.updatePosition(n[0]+t,n[1]+t),this.hasDragged&&d(this,"changed",{from:this.from,to:this.to,trigger:"scrollbar",DOMType:e.type,DOMEvent:e}))}mouseUpHandler(e){this.hasDragged&&d(this,"changed",{from:this.from,to:this.to,trigger:"scrollbar",DOMType:e.type,DOMEvent:e}),this.grabbedCenter=this.hasDragged=this.chartX=this.chartY=null}position(e,t,i,s){let{buttonsEnabled:n,margin:r=0,vertical:o}=this.options,a=this.rendered?"animate":"attr",l=s,h=0;this.group.show(),this.x=e,this.y=t+this.trackBorderWidth,this.width=i,this.height=s,this.xOffset=l,this.yOffset=h,o?(this.width=this.yOffset=i=h=this.size,this.xOffset=l=0,this.yOffset=h=n?this.size:0,this.barWidth=s-(n?2*i:0),this.x=e+=r):(this.height=s=this.size,this.xOffset=l=n?this.size:0,this.barWidth=i-(n?2*s:0),this.y=this.y+r),this.group[a]({translateX:e,translateY:this.y}),this.track[a]({width:i,height:s}),this.scrollbarButtons[1][a]({translateX:o?0:i-l,translateY:o?s-h:0})}removeEvents(){this._events.forEach(function(e){g.apply(null,e)}),this._events.length=0}render(){let e=this.renderer,t=this.options,i=this.size,s=this.chart.styledMode,n=e.g("scrollbar").attr({zIndex:t.zIndex}).hide().add();this.group=n,this.track=e.rect().addClass("highcharts-scrollbar-track").attr({r:t.trackBorderRadius||0,height:i,width:i}).add(n),s||this.track.attr({fill:t.trackBackgroundColor,stroke:t.trackBorderColor,"stroke-width":t.trackBorderWidth});let r=this.trackBorderWidth=this.track.strokeWidth();this.track.attr({x:-l(0,r),y:-l(0,r)}),this.scrollbarGroup=e.g().add(n),this.scrollbar=e.rect().addClass("highcharts-scrollbar-thumb").attr({height:i-r,width:i-r,r:t.barBorderRadius||0}).add(this.scrollbarGroup),this.scrollbarRifles=e.path(m.swapXY([["M",-3,i/4],["L",-3,2*i/3],["M",0,i/4],["L",0,2*i/3],["M",3,i/4],["L",3,2*i/3]],t.vertical)).addClass("highcharts-scrollbar-rifles").add(this.scrollbarGroup),s||(this.scrollbar.attr({fill:t.barBackgroundColor,stroke:t.barBorderColor,"stroke-width":t.barBorderWidth}),this.scrollbarRifles.attr({stroke:t.rifleColor,"stroke-width":1})),this.scrollbarStrokeWidth=this.scrollbar.strokeWidth(),this.scrollbarGroup.translate(-l(0,this.scrollbarStrokeWidth),-l(0,this.scrollbarStrokeWidth)),this.drawScrollbarButton(0),this.drawScrollbarButton(1)}setRange(e,t){let i,s;let n=this.options,r=n.vertical,o=n.minWidth,l=this.barWidth,c=!this.rendered||this.hasDragged||this.chart.navigator&&this.chart.navigator.hasDragged?"attr":"animate";if(!h(l))return;let d=l*Math.min(t,1);i=Math.ceil(l*(e=Math.max(e,0))),this.calculatedWidth=s=a(d-i),s<o&&(i=(l-o+s)*e,s=o);let u=Math.floor(i+this.xOffset+this.yOffset),p=s/2-.5;this.from=e,this.to=t,r?(this.scrollbarGroup[c]({translateY:u}),this.scrollbar[c]({height:s}),this.scrollbarRifles[c]({translateY:p}),this.scrollbarTop=u,this.scrollbarLeft=0):(this.scrollbarGroup[c]({translateX:u}),this.scrollbar[c]({width:s}),this.scrollbarRifles[c]({translateX:p}),this.scrollbarLeft=u,this.scrollbarTop=0),s<=12?this.scrollbarRifles.hide():this.scrollbarRifles.show(),!1===n.showFull&&(e<=0&&t>=1?this.group.hide():this.group.show()),this.rendered=!0}shouldUpdateExtremes(e){return p(this.options.liveRedraw,t.svg&&!t.isTouchDevice&&!this.chart.boosted)||"mouseup"===e||"touchend"===e||!h(e)}trackClick(e){let t=this.chart.pointer?.normalize(e)||e,i=this.to-this.from,s=this.y+this.scrollbarTop,n=this.x+this.scrollbarLeft;this.options.vertical&&t.chartY>s||!this.options.vertical&&t.chartX>n?this.updatePosition(this.from+i,this.to+i):this.updatePosition(this.from-i,this.to-i),d(this,"changed",{from:this.from,to:this.to,trigger:"scrollbar",DOMEvent:e})}update(e){this.destroy(),this.init(this.chart.renderer,u(!0,this.options,e),this.chart)}updatePosition(e,t){t>1&&(e=a(1-a(t-e)),t=1),e<0&&(t=a(t-e),e=0),this.from=e,this.to=t}}return m.defaultOptions=s,r.scrollbar=u(!0,m.defaultOptions,r.scrollbar),m}),i(t,"Stock/Navigator/Navigator.js",[t["Core/Axis/Axis.js"],t["Stock/Navigator/ChartNavigatorComposition.js"],t["Core/Defaults.js"],t["Core/Globals.js"],t["Core/Axis/NavigatorAxisComposition.js"],t["Stock/Navigator/NavigatorComposition.js"],t["Stock/Scrollbar/Scrollbar.js"],t["Core/Renderer/SVG/SVGRenderer.js"],t["Core/Utilities.js"]],function(e,t,i,s,n,r,o,a,l){let{defaultOptions:h}=i,{isTouchDevice:c}=s,{prototype:{symbols:d}}=a,{addEvent:u,clamp:p,correctFloat:g,defined:m,destroyObjectProperties:b,erase:y,extend:f,find:x,fireEvent:v,isArray:A,isNumber:C,merge:w,pick:E,removeEvent:T,splat:M}=l;function S(e,...t){let i=[].filter.call(t,C);if(i.length)return Math[e].apply(0,i)}class k{static compose(e,i,s){t.compose(e,k),r.compose(e,i,s)}constructor(e){this.isDirty=!1,this.scrollbarHeight=0,this.init(e)}drawHandle(e,t,i,s){let n=this.navigatorOptions.handles.height;this.handles[t][s](i?{translateX:Math.round(this.left+this.height/2),translateY:Math.round(this.top+parseInt(e,10)+.5-n)}:{translateX:Math.round(this.left+parseInt(e,10)),translateY:Math.round(this.top+this.height/2-n/2-1)})}drawOutline(e,t,i,s){let n=this.navigatorOptions.maskInside,r=this.outline.strokeWidth(),o=r/2,a=r%2/2,l=this.scrollButtonSize,h=this.size,c=this.top,d=this.height,u=c-o,p=c+d,g=this.left,m,b;i?(m=c+t+a,t=c+e+a,b=[["M",g+d,c-l-a],["L",g+d,m],["L",g,m],["M",g,t],["L",g+d,t],["L",g+d,c+h+l]],n&&b.push(["M",g+d,m-o],["L",g+d,t+o])):(g-=l,e+=g+l-a,t+=g+l-a,b=[["M",g,u],["L",e,u],["L",e,p],["M",t,p],["L",t,u],["L",g+h+2*l,u]],n&&b.push(["M",e-o,u],["L",t+o,u])),this.outline[s]({d:b})}drawMasks(e,t,i,s){let n,r,o,a;let l=this.left,h=this.top,c=this.height;i?(o=[l,l,l],a=[h,h+e,h+t],r=[c,c,c],n=[e,t-e,this.size-t]):(o=[l,l+e,l+t],a=[h,h,h],r=[e,t-e,this.size-t],n=[c,c,c]),this.shades.forEach((e,t)=>{e[s]({x:o[t],y:a[t],width:r[t],height:n[t]})})}renderElements(){let e=this,t=e.navigatorOptions,i=t.maskInside,s=e.chart,n=s.inverted,r=s.renderer,o={cursor:n?"ns-resize":"ew-resize"},a=e.navigatorGroup??(e.navigatorGroup=r.g("navigator").attr({zIndex:8,visibility:"hidden"}).add());if([!i,i,!i].forEach((i,n)=>{let l=e.shades[n]??(e.shades[n]=r.rect().addClass("highcharts-navigator-mask"+(1===n?"-inside":"-outside")).add(a));s.styledMode||(l.attr({fill:i?t.maskFill:"rgba(0,0,0,0)"}),1===n&&l.css(o))}),e.outline||(e.outline=r.path().addClass("highcharts-navigator-outline").add(a)),s.styledMode||e.outline.attr({"stroke-width":t.outlineWidth,stroke:t.outlineColor}),t.handles?.enabled){let i=t.handles,{height:n,width:l}=i;[0,1].forEach(t=>{let h=i.symbols[t];if(e.handles[t]&&e.handles[t].symbolUrl===h){if(!e.handles[t].isImg&&e.handles[t].symbolName!==h){let i=d[h].call(d,-l/2-1,0,l,n);e.handles[t].attr({d:i}),e.handles[t].symbolName=h}}else e.handles[t]?.destroy(),e.handles[t]=r.symbol(h,-l/2-1,0,l,n,i),e.handles[t].attr({zIndex:7-t}).addClass("highcharts-navigator-handle highcharts-navigator-handle-"+["left","right"][t]).add(a),e.addMouseEvents();s.inverted&&e.handles[t].attr({rotation:90,rotationOriginX:Math.floor(-l/2),rotationOriginY:(n+l)/2}),s.styledMode||e.handles[t].attr({fill:i.backgroundColor,stroke:i.borderColor,"stroke-width":i.lineWidth,width:i.width,height:i.height,x:-l/2-1,y:0}).css(o)})}}update(e,t=!1){let i=this.chart,s=i.options.chart.inverted!==i.scrollbar?.options.vertical;if(w(!0,i.options.navigator,e),this.navigatorOptions=i.options.navigator||{},this.setOpposite(),m(e.enabled)||s)return this.destroy(),this.navigatorEnabled=e.enabled||this.navigatorEnabled,this.init(i);if(this.navigatorEnabled&&(this.isDirty=!0,!1===e.adaptToUpdatedData&&this.baseSeries.forEach(e=>{T(e,"updatedData",this.updatedDataHandler)},this),e.adaptToUpdatedData&&this.baseSeries.forEach(e=>{e.eventsToUnbind.push(u(e,"updatedData",this.updatedDataHandler))},this),(e.series||e.baseSeries)&&this.setBaseSeries(void 0,!1),e.height||e.xAxis||e.yAxis)){this.height=e.height??this.height;let t=this.getXAxisOffsets();this.xAxis.update({...e.xAxis,offsets:t,[i.inverted?"width":"height"]:this.height,[i.inverted?"height":"width"]:void 0},!1),this.yAxis.update({...e.yAxis,[i.inverted?"width":"height"]:this.height},!1)}t&&i.redraw()}render(e,t,i,s){let n=this.chart,r=this.xAxis,o=r.pointRange||0,a=r.navigatorAxis.fake?n.xAxis[0]:r,l=this.navigatorEnabled,h=this.rendered,c=n.inverted,d=n.xAxis[0].minRange,u=n.xAxis[0].options.maxRange,b=this.scrollButtonSize,y,f,x,A=this.scrollbarHeight,w,T;if(this.hasDragged&&!m(i))return;if(this.isDirty&&this.renderElements(),e=g(e-o/2),t=g(t+o/2),!C(e)||!C(t)){if(!h)return;i=0,s=E(r.width,a.width)}this.left=E(r.left,n.plotLeft+b+(c?n.plotWidth:0));let M=this.size=w=E(r.len,(c?n.plotHeight:n.plotWidth)-2*b);y=c?A:w+2*b,i=E(i,r.toPixels(e,!0)),s=E(s,r.toPixels(t,!0)),C(i)&&Math.abs(i)!==1/0||(i=0,s=y);let S=r.toValue(i,!0),k=r.toValue(s,!0),P=Math.abs(g(k-S));P<d?this.grabbedLeft?i=r.toPixels(k-d-o,!0):this.grabbedRight&&(s=r.toPixels(S+d+o,!0)):m(u)&&g(P-o)>u&&(this.grabbedLeft?i=r.toPixels(k-u-o,!0):this.grabbedRight&&(s=r.toPixels(S+u+o,!0))),this.zoomedMax=p(Math.max(i,s),0,M),this.zoomedMin=p(this.fixedWidth?this.zoomedMax-this.fixedWidth:Math.min(i,s),0,M),this.range=this.zoomedMax-this.zoomedMin,M=Math.round(this.zoomedMax);let D=Math.round(this.zoomedMin);l&&(this.navigatorGroup.attr({visibility:"inherit"}),T=h&&!this.hasDragged?"animate":"attr",this.drawMasks(D,M,c,T),this.drawOutline(D,M,c,T),this.navigatorOptions.handles.enabled&&(this.drawHandle(D,0,c,T),this.drawHandle(M,1,c,T))),this.scrollbar&&(c?(x=this.top-b,f=this.left-A+(l||!a.opposite?0:(a.titleOffset||0)+a.axisTitleMargin),A=w+2*b):(x=this.top+(l?this.height:-A),f=this.left-b),this.scrollbar.position(f,x,y,A),this.scrollbar.setRange(this.zoomedMin/(w||1),this.zoomedMax/(w||1))),this.rendered=!0,this.isDirty=!1,v(this,"afterRender")}addMouseEvents(){let e=this,t=e.chart,i=t.container,s=[],n,r;e.mouseMoveHandler=n=function(t){e.onMouseMove(t)},e.mouseUpHandler=r=function(t){e.onMouseUp(t)},(s=e.getPartsEvents("mousedown")).push(u(t.renderTo,"mousemove",n),u(i.ownerDocument,"mouseup",r),u(t.renderTo,"touchmove",n),u(i.ownerDocument,"touchend",r)),s.concat(e.getPartsEvents("touchstart")),e.eventsToUnbind=s,e.series&&e.series[0]&&s.push(u(e.series[0].xAxis,"foundExtremes",function(){t.navigator.modifyNavigatorAxisExtremes()}))}getPartsEvents(e){let t=this,i=[];return["shades","handles"].forEach(function(s){t[s].forEach(function(n,r){i.push(u(n.element,e,function(e){t[s+"Mousedown"](e,r)}))})}),i}shadesMousedown(e,t){e=this.chart.pointer?.normalize(e)||e;let i=this.chart,s=this.xAxis,n=this.zoomedMin,r=this.size,o=this.range,a=this.left,l=e.chartX,h,c,d,u;i.inverted&&(l=e.chartY,a=this.top),1===t?(this.grabbedCenter=l,this.fixedWidth=o,this.dragOffset=l-n):(u=l-a-o/2,0===t?u=Math.max(0,u):2===t&&u+o>=r&&(u=r-o,this.reversedExtremes?(u-=o,c=this.getUnionExtremes().dataMin):h=this.getUnionExtremes().dataMax),u!==n&&(this.fixedWidth=o,m((d=s.navigatorAxis.toFixedRange(u,u+o,c,h)).min)&&v(this,"setRange",{min:Math.min(d.min,d.max),max:Math.max(d.min,d.max),redraw:!0,eventArguments:{trigger:"navigator"}})))}handlesMousedown(e,t){e=this.chart.pointer?.normalize(e)||e;let i=this.chart,s=i.xAxis[0],n=this.reversedExtremes;0===t?(this.grabbedLeft=!0,this.otherHandlePos=this.zoomedMax,this.fixedExtreme=n?s.min:s.max):(this.grabbedRight=!0,this.otherHandlePos=this.zoomedMin,this.fixedExtreme=n?s.max:s.min),i.setFixedRange(void 0)}onMouseMove(e){let t=this,i=t.chart,s=t.navigatorSize,n=t.range,r=t.dragOffset,o=i.inverted,a=t.left,l;(!e.touches||0!==e.touches[0].pageX)&&(l=(e=i.pointer?.normalize(e)||e).chartX,o&&(a=t.top,l=e.chartY),t.grabbedLeft?(t.hasDragged=!0,t.render(0,0,l-a,t.otherHandlePos)):t.grabbedRight?(t.hasDragged=!0,t.render(0,0,t.otherHandlePos,l-a)):t.grabbedCenter&&(t.hasDragged=!0,l<r?l=r:l>s+r-n&&(l=s+r-n),t.render(0,0,l-r,l-r+n)),t.hasDragged&&t.scrollbar&&E(t.scrollbar.options.liveRedraw,!c&&!this.chart.boosted)&&(e.DOMType=e.type,setTimeout(function(){t.onMouseUp(e)},0)))}onMouseUp(e){let t,i,s,n,r,o;let a=this.chart,l=this.xAxis,h=this.scrollbar,c=e.DOMEvent||e,d=a.inverted,u=this.rendered&&!this.hasDragged?"animate":"attr";(this.hasDragged&&(!h||!h.hasDragged)||"scrollbar"===e.trigger)&&(s=this.getUnionExtremes(),this.zoomedMin===this.otherHandlePos?n=this.fixedExtreme:this.zoomedMax===this.otherHandlePos&&(r=this.fixedExtreme),this.zoomedMax===this.size&&(r=this.reversedExtremes?s.dataMin:s.dataMax),0===this.zoomedMin&&(n=this.reversedExtremes?s.dataMax:s.dataMin),m((o=l.navigatorAxis.toFixedRange(this.zoomedMin,this.zoomedMax,n,r)).min)&&v(this,"setRange",{min:Math.min(o.min,o.max),max:Math.max(o.min,o.max),redraw:!0,animation:!this.hasDragged&&null,eventArguments:{trigger:"navigator",triggerOp:"navigator-drag",DOMEvent:c}})),"mousemove"!==e.DOMType&&"touchmove"!==e.DOMType&&(this.grabbedLeft=this.grabbedRight=this.grabbedCenter=this.fixedWidth=this.fixedExtreme=this.otherHandlePos=this.hasDragged=this.dragOffset=null),this.navigatorEnabled&&C(this.zoomedMin)&&C(this.zoomedMax)&&(i=Math.round(this.zoomedMin),t=Math.round(this.zoomedMax),this.shades&&this.drawMasks(i,t,d,u),this.outline&&this.drawOutline(i,t,d,u),this.navigatorOptions.handles.enabled&&Object.keys(this.handles).length===this.handles.length&&(this.drawHandle(i,0,d,u),this.drawHandle(t,1,d,u)))}removeEvents(){this.eventsToUnbind&&(this.eventsToUnbind.forEach(function(e){e()}),this.eventsToUnbind=void 0),this.removeBaseSeriesEvents()}removeBaseSeriesEvents(){let e=this.baseSeries||[];this.navigatorEnabled&&e[0]&&(!1!==this.navigatorOptions.adaptToUpdatedData&&e.forEach(function(e){T(e,"updatedData",this.updatedDataHandler)},this),e[0].xAxis&&T(e[0].xAxis,"foundExtremes",this.modifyBaseAxisExtremes))}getXAxisOffsets(){return this.chart.inverted?[this.scrollButtonSize,0,-this.scrollButtonSize,0]:[0,-this.scrollButtonSize,0,this.scrollButtonSize]}init(t){let i=t.options,s=i.navigator||{},r=s.enabled,a=i.scrollbar||{},l=a.enabled,h=r&&s.height||0,c=l&&a.height||0,d=a.buttonsEnabled&&c||0;this.handles=[],this.shades=[],this.chart=t,this.setBaseSeries(),this.height=h,this.scrollbarHeight=c,this.scrollButtonSize=d,this.scrollbarEnabled=l,this.navigatorEnabled=r,this.navigatorOptions=s,this.scrollbarOptions=a,this.setOpposite();let p=this,g=p.baseSeries,m=t.xAxis.length,b=t.yAxis.length,y=g&&g[0]&&g[0].xAxis||t.xAxis[0]||{options:{}};if(t.isDirtyBox=!0,p.navigatorEnabled){let i=this.getXAxisOffsets();p.xAxis=new e(t,w({breaks:y.options.breaks,ordinal:y.options.ordinal,overscroll:y.options.overscroll},s.xAxis,{type:"datetime",yAxis:s.yAxis?.id,index:m,isInternal:!0,offset:0,keepOrdinalPadding:!0,startOnTick:!1,endOnTick:!1,minPadding:y.options.ordinal?0:y.options.minPadding,maxPadding:y.options.ordinal?0:y.options.maxPadding,zoomEnabled:!1},t.inverted?{offsets:i,width:h}:{offsets:i,height:h}),"xAxis"),p.yAxis=new e(t,w(s.yAxis,{alignTicks:!1,offset:0,index:b,isInternal:!0,reversed:E(s.yAxis&&s.yAxis.reversed,t.yAxis[0]&&t.yAxis[0].reversed,!1),zoomEnabled:!1},t.inverted?{width:h}:{height:h}),"yAxis"),g||s.series.data?p.updateNavigatorSeries(!1):0===t.series.length&&(p.unbindRedraw=u(t,"beforeRedraw",function(){t.series.length>0&&!p.series&&(p.setBaseSeries(),p.unbindRedraw())})),p.reversedExtremes=t.inverted&&!p.xAxis.reversed||!t.inverted&&p.xAxis.reversed,p.renderElements(),p.addMouseEvents()}else p.xAxis={chart:t,navigatorAxis:{fake:!0},translate:function(e,i){let s=t.xAxis[0],n=s.getExtremes(),r=s.len-2*d,o=S("min",s.options.min,n.dataMin),a=S("max",s.options.max,n.dataMax)-o;return i?e*a/r+o:r*(e-o)/a},toPixels:function(e){return this.translate(e)},toValue:function(e){return this.translate(e,!0)}},p.xAxis.navigatorAxis.axis=p.xAxis,p.xAxis.navigatorAxis.toFixedRange=n.prototype.toFixedRange.bind(p.xAxis.navigatorAxis);if(t.options.scrollbar.enabled){let e=w(t.options.scrollbar,{vertical:t.inverted});!C(e.margin)&&p.navigatorEnabled&&(e.margin=t.inverted?-3:3),t.scrollbar=p.scrollbar=new o(t.renderer,e,t),u(p.scrollbar,"changed",function(e){let t=p.size,i=t*this.to,s=t*this.from;p.hasDragged=p.scrollbar.hasDragged,p.render(0,0,s,i),this.shouldUpdateExtremes(e.DOMType)&&setTimeout(function(){p.onMouseUp(e)})})}p.addBaseSeriesEvents(),p.addChartEvents()}setOpposite(){let e=this.navigatorOptions,t=this.navigatorEnabled,i=this.chart;this.opposite=E(e.opposite,!!(!t&&i.inverted))}getUnionExtremes(e){let t;let i=this.chart.xAxis[0],s=this.xAxis,n=s.options,r=i.options;return e&&null===i.dataMin||(t={dataMin:E(n&&n.min,S("min",r.min,i.dataMin,s.dataMin,s.min)),dataMax:E(n&&n.max,S("max",r.max,i.dataMax,s.dataMax,s.max))}),t}setBaseSeries(e,t){let i=this.chart,s=this.baseSeries=[];e=e||i.options&&i.options.navigator.baseSeries||(i.series.length?x(i.series,e=>!e.options.isInternal).index:0),(i.series||[]).forEach((t,i)=>{!t.options.isInternal&&(t.options.showInNavigator||(i===e||t.options.id===e)&&!1!==t.options.showInNavigator)&&s.push(t)}),this.xAxis&&!this.xAxis.navigatorAxis.fake&&this.updateNavigatorSeries(!0,t)}updateNavigatorSeries(e,t){let i=this,s=i.chart,n=i.baseSeries,r={enableMouseTracking:!1,index:null,linkedTo:null,group:"nav",padXAxis:!1,xAxis:this.navigatorOptions.xAxis?.id,yAxis:this.navigatorOptions.yAxis?.id,showInLegend:!1,stacking:void 0,isInternal:!0,states:{inactive:{opacity:1}}},o=i.series=(i.series||[]).filter(e=>{let t=e.baseSeries;return!(0>n.indexOf(t))||(t&&(T(t,"updatedData",i.updatedDataHandler),delete t.navigatorSeries),e.chart&&e.destroy(),!1)}),a,l,c=i.navigatorOptions.series,d;n&&n.length&&n.forEach(e=>{let u=e.navigatorSeries,p=f({color:e.color,visible:e.visible},A(c)?h.navigator.series:c);if(u&&!1===i.navigatorOptions.adaptToUpdatedData)return;r.name="Navigator "+n.length,d=(a=e.options||{}).navigatorOptions||{},p.dataLabels=M(p.dataLabels),(l=w(a,r,p,d)).pointRange=E(p.pointRange,d.pointRange,h.plotOptions[l.type||"line"].pointRange);let g=d.data||p.data;i.hasNavigatorData=i.hasNavigatorData||!!g,l.data=g||a.data&&a.data.slice(0),u&&u.options?u.update(l,t):(e.navigatorSeries=s.initSeries(l),s.setSortedData(),e.navigatorSeries.baseSeries=e,o.push(e.navigatorSeries))}),(c.data&&!(n&&n.length)||A(c))&&(i.hasNavigatorData=!1,(c=M(c)).forEach((e,t)=>{r.name="Navigator "+(o.length+1),(l=w(h.navigator.series,{color:s.series[t]&&!s.series[t].options.isInternal&&s.series[t].color||s.options.colors[t]||s.options.colors[0]},r,e)).data=e.data,l.data&&(i.hasNavigatorData=!0,o.push(s.initSeries(l)))})),e&&this.addBaseSeriesEvents()}addBaseSeriesEvents(){let e=this,t=e.baseSeries||[];t[0]&&t[0].xAxis&&t[0].eventsToUnbind.push(u(t[0].xAxis,"foundExtremes",this.modifyBaseAxisExtremes)),t.forEach(i=>{i.eventsToUnbind.push(u(i,"show",function(){this.navigatorSeries&&this.navigatorSeries.setVisible(!0,!1)})),i.eventsToUnbind.push(u(i,"hide",function(){this.navigatorSeries&&this.navigatorSeries.setVisible(!1,!1)})),!1!==this.navigatorOptions.adaptToUpdatedData&&i.xAxis&&i.eventsToUnbind.push(u(i,"updatedData",this.updatedDataHandler)),i.eventsToUnbind.push(u(i,"remove",function(){t&&y(t,i),this.navigatorSeries&&(y(e.series,this.navigatorSeries),m(this.navigatorSeries.options)&&this.navigatorSeries.remove(!1),delete this.navigatorSeries)}))})}getBaseSeriesMin(e){return this.baseSeries.reduce(function(e,t){return Math.min(e,t.xData&&t.xData.length?t.xData[0]:e)},e)}modifyNavigatorAxisExtremes(){let e=this.xAxis;if(void 0!==e.getExtremes){let t=this.getUnionExtremes(!0);t&&(t.dataMin!==e.min||t.dataMax!==e.max)&&(e.min=t.dataMin,e.max=t.dataMax)}}modifyBaseAxisExtremes(){let e,t;let i=this.chart.navigator,s=this.getExtremes(),n=s.min,r=s.max,o=s.dataMin,a=s.dataMax,l=r-n,h=i.stickToMin,c=i.stickToMax,d=E(this.ordinal?.convertOverscroll(this.options.overscroll),0),u=i.series&&i.series[0],p=!!this.setExtremes;!(this.eventArgs&&"rangeSelectorButton"===this.eventArgs.trigger)&&(h&&(e=(t=o)+l),c&&(e=a+d,h||(t=Math.max(o,e-l,i.getBaseSeriesMin(u&&u.xData?u.xData[0]:-Number.MAX_VALUE)))),p&&(h||c)&&C(t)&&(this.min=this.userMin=t,this.max=this.userMax=e)),i.stickToMin=i.stickToMax=null}updatedDataHandler(){let e=this.chart.navigator,t=this.navigatorSeries,i=e.reversedExtremes?0===Math.round(e.zoomedMin):Math.round(e.zoomedMax)>=Math.round(e.size);e.stickToMax=E(this.chart.options.navigator&&this.chart.options.navigator.stickToMax,i),e.stickToMin=e.shouldStickToMin(this,e),t&&!e.hasNavigatorData&&(t.options.pointStart=this.xData[0],t.setData(this.options.data,!1,null,!1))}shouldStickToMin(e,t){let i=t.getBaseSeriesMin(e.xData[0]),s=e.xAxis,n=s.max,r=s.min,o=s.options.range;return!!(C(n)&&C(r))&&(o&&n-i>0?n-i<o:r<=i)}addChartEvents(){this.eventsToUnbind||(this.eventsToUnbind=[]),this.eventsToUnbind.push(u(this.chart,"redraw",function(){let e=this.navigator,t=e&&(e.baseSeries&&e.baseSeries[0]&&e.baseSeries[0].xAxis||this.xAxis[0]);t&&e.render(t.min,t.max)}),u(this.chart,"getMargins",function(){let e=this.navigator,t=e.opposite?"plotTop":"marginBottom";this.inverted&&(t=e.opposite?"marginRight":"plotLeft"),this[t]=(this[t]||0)+(e.navigatorEnabled||!this.inverted?e.height+e.scrollbarHeight:0)+e.navigatorOptions.margin}),u(k,"setRange",function(e){this.chart.xAxis[0].setExtremes(e.min,e.max,e.redraw,e.animation,e.eventArguments)}))}destroy(){this.removeEvents(),this.xAxis&&(y(this.chart.xAxis,this.xAxis),y(this.chart.axes,this.xAxis)),this.yAxis&&(y(this.chart.yAxis,this.yAxis),y(this.chart.axes,this.yAxis)),(this.series||[]).forEach(e=>{e.destroy&&e.destroy()}),["series","xAxis","yAxis","shades","outline","scrollbarTrack","scrollbarRifles","scrollbarGroup","scrollbar","navigatorGroup","rendered"].forEach(e=>{this[e]&&this[e].destroy&&this[e].destroy(),this[e]=null}),[this.handles].forEach(e=>{b(e)}),this.navigatorEnabled=!1}}return k}),i(t,"Accessibility/Components/NavigatorComponent.js",[t["Accessibility/AccessibilityComponent.js"],t["Accessibility/Utils/Announcer.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Stock/Navigator/Navigator.js"],t["Core/Animation/AnimationUtilities.js"],t["Core/Templating.js"],t["Core/Utilities.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Accessibility/Utils/ChartUtilities.js"]],function(e,t,i,s,n,r,o,a,l){let{animObject:h}=n,{format:c}=r,{clamp:d,pick:u,syncTimeout:p}=o,{getFakeMouseEvent:g}=a,{getAxisRangeDescription:m,fireEventOnWrappedOrUnwrappedElement:b}=l;return class extends e{init(){let e=this.chart,i=this;this.announcer=new t(e,"polite"),this.addEvent(s,"afterRender",function(){this.chart===i.chart&&this.chart.renderer&&p(()=>{i.proxyProvider.updateGroupProxyElementPositions("navigator"),i.updateHandleValues()},h(u(this.chart.renderer.globalAnimation,!0)).duration)})}onChartUpdate(){let e=this.chart,t=e.options,i=t.navigator;if(i.enabled&&i.accessibility?.enabled){let i=t.accessibility.landmarkVerbosity,s=t.lang.accessibility?.navigator.groupLabel;this.proxyProvider.removeGroup("navigator"),this.proxyProvider.addGroup("navigator","div",{role:"all"===i?"region":"group","aria-label":c(s,{chart:e},e)});let n=t.lang.accessibility?.navigator.handleLabel;[0,1].forEach(t=>{let i=this.getHandleByIx(t);if(i){let s=this.proxyProvider.addProxyElement("navigator",{click:i},"input",{type:"range","aria-label":c(n,{handleIx:t,chart:e},e)});this[t?"maxHandleProxy":"minHandleProxy"]=s.innerElement,s.innerElement.style.pointerEvents="none",s.innerElement.oninput=()=>this.updateNavigator()}}),this.updateHandleValues()}else this.proxyProvider.removeGroup("navigator")}getNavigatorHandleNavigation(e){let t=this,s=this.chart,n=e?this.maxHandleProxy:this.minHandleProxy,r=this.keyCodes;return new i(s,{keyCodeMap:[[[r.left,r.right,r.up,r.down],function(i){if(n){let o=i===r.left||i===r.up?-1:1;n.value=""+d(parseFloat(n.value)+o,0,100),t.updateNavigator(()=>{let i=t.getHandleByIx(e);i&&s.setFocusToElement(i,n)})}return this.response.success}]],init:()=>{s.setFocusToElement(this.getHandleByIx(e),n)},validate:()=>!!(this.getHandleByIx(e)&&n&&s.options.navigator.accessibility?.enabled)})}getKeyboardNavigation(){return[this.getNavigatorHandleNavigation(0),this.getNavigatorHandleNavigation(1)]}destroy(){this.updateNavigatorThrottleTimer&&clearTimeout(this.updateNavigatorThrottleTimer),this.proxyProvider.removeGroup("navigator"),this.announcer&&this.announcer.destroy()}updateHandleValues(){let e=this.chart.navigator;if(e&&this.minHandleProxy&&this.maxHandleProxy){let t=e.size;this.minHandleProxy.value=""+Math.round(e.zoomedMin/t*100),this.maxHandleProxy.value=""+Math.round(e.zoomedMax/t*100)}}getHandleByIx(e){let t=this.chart.navigator;return t&&t.handles&&t.handles[e]}updateNavigator(e){this.updateNavigatorThrottleTimer&&clearTimeout(this.updateNavigatorThrottleTimer),this.updateNavigatorThrottleTimer=setTimeout((e=>{let t=this.chart,{navigator:i,pointer:s}=t;if(i&&s&&this.minHandleProxy&&this.maxHandleProxy){let n=s.getChartPosition(),r=parseFloat(this.minHandleProxy.value)/100*i.size,o=parseFloat(this.maxHandleProxy.value)/100*i.size;[[0,"mousedown",i.zoomedMin],[0,"mousemove",r],[0,"mouseup",r],[1,"mousedown",i.zoomedMax],[1,"mousemove",o],[1,"mouseup",o]].forEach(([e,t,s])=>{let r=this.getHandleByIx(e)?.element;r&&b(r,g(t,{x:n.left+i.left+s,y:n.top+i.top},r))}),e&&e();let a=t.options.lang.accessibility?.navigator.changeAnnouncement,l=m(t.xAxis[0]);this.announcer.announce(c(a,{axisRangeDescription:l,chart:t},t))}}).bind(this,e),20)}}}),i(t,"Accessibility/Components/SeriesComponent/SeriesDescriber.js",[t["Accessibility/Components/AnnotationsA11y.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Core/Templating.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Core/Utilities.js"]],function(e,t,i,s,n){let{getPointAnnotationTexts:r}=e,{getAxisDescription:o,getSeriesFirstPointElement:a,getSeriesA11yElement:l,unhideChartElementFromAT:h}=t,{format:c,numberFormat:d}=i,{reverseChildNodes:u,stripHTMLTagsFromString:p}=s,{find:g,isNumber:m,isString:b,pick:y,defined:f}=n;function x(e){let t=e.chart.options.accessibility.series.pointDescriptionEnabledThreshold;return!!(!1!==t&&e.points&&e.points.length>=+t)}function v(e,t){let i=e.series,s=i.chart,n=s.options.accessibility.point||{},r=i.options.accessibility&&i.options.accessibility.point||{},o=i.tooltipOptions||{},a=s.options.lang;return m(t)?d(t,r.valueDecimals||n.valueDecimals||o.valueDecimals||-1,a.decimalPoint,a.accessibility.thousandsSep||a.thousandsSep):t}function A(e,t){let i=e[t];return e.chart.langFormat("accessibility.series."+t+"Description",{name:o(i),series:e})}function C(e){let t=e.series,i=t.chart.series.length>1||t.options.name,s=function(e){let t=e.series,i=t.chart,s=t.options.accessibility,n=s&&s.point&&s.point.valueDescriptionFormat||i.options.accessibility.point.valueDescriptionFormat,r=y(t.xAxis&&t.xAxis.options.accessibility&&t.xAxis.options.accessibility.enabled,!i.angular&&"flowmap"!==t.type),o=r?function(e){let t=function(e){let t=e.series,i=t.chart,s=t.options.accessibility&&t.options.accessibility.point||{},n=i.options.accessibility.point||{},r=t.xAxis&&t.xAxis.dateTime;if(r){let t=r.getXDateFormat(e.x||0,i.options.tooltip.dateTimeLabelFormats),o=s.dateFormatter&&s.dateFormatter(e)||n.dateFormatter&&n.dateFormatter(e)||s.dateFormat||n.dateFormat||t;return i.time.dateFormat(o,e.x||0,void 0)}}(e),i=(e.series.xAxis||{}).categories&&f(e.category)&&(""+e.category).replace("<br/>"," "),s=f(e.id)&&0>(""+e.id).indexOf("highcharts-"),n="x, "+e.x;return e.name||t||i||(s?e.id:n)}(e):"";return c(n,{point:e,index:f(e.index)?e.index+1:"",xDescription:o,value:function(e){let t=e.series,i=t.chart.options.accessibility.point||{},s=t.chart.options.accessibility&&t.chart.options.accessibility.point||{},n=t.tooltipOptions||{},r=s.valuePrefix||i.valuePrefix||n.valuePrefix||"",o=s.valueSuffix||i.valueSuffix||n.valueSuffix||"",a=void 0!==e.value?"value":"y",l=v(e,e[a]);return e.isNull?t.chart.langFormat("accessibility.series.nullPointValue",{point:e}):t.pointArrayMap?function(e,t,i){let s=t||"",n=i||"",r=function(t){let i=v(e,y(e[t],e.options[t]));return void 0!==i?t+": "+s+i+n:i};return e.series.pointArrayMap.reduce(function(e,t){let i=r(t);return i?e+(e.length?", ":"")+i:e},"")}(e,r,o):r+l+o}(e),separator:r?", ":""},i)}(e),n=e.options&&e.options.accessibility&&e.options.accessibility.description,o=i?" "+t.name+".":"",a=function(e){let t=e.series.chart,i=r(e);return i.length?t.langFormat("accessibility.series.pointAnnotationsDescription",{point:e,annotations:i}):""}(e);return e.accessibility=e.accessibility||{},e.accessibility.valueDescription=s,s+(n?" "+n:"")+o+(a?" "+a:"")}function w(e){let t=e.chart,i=t.types||[],s=function(e){let t=(e.options.accessibility||{}).description;return t&&e.chart.langFormat("accessibility.series.description",{description:t,series:e})||""}(e),n=function(i){return t[i]&&t[i].length>1&&e[i]},r=e.index+1,o=A(e,"xAxis"),a=A(e,"yAxis"),l={seriesNumber:r,series:e,chart:t},h=i.length>1?"Combination":"",d=t.langFormat("accessibility.series.summary."+e.type+h,l)||t.langFormat("accessibility.series.summary.default"+h,l),u=(n("yAxis")?" "+a+".":"")+(n("xAxis")?" "+o+".":"");return c(y(e.options.accessibility&&e.options.accessibility.descriptionFormat,t.options.accessibility.series.descriptionFormat,""),{seriesDescription:d,authorDescription:s?" "+s:"",axisDescription:u,series:e,chart:t,seriesNumber:r},void 0)}return{defaultPointDescriptionFormatter:C,defaultSeriesDescriptionFormatter:w,describeSeries:function(e){let t=e.chart,i=a(e),s=l(e),n=t.is3d&&t.is3d();s&&(s.lastChild!==i||n||u(s),function(e){let t=function(e){let t=e.options.accessibility||{};return!x(e)&&!t.exposeAsGroupOnly}(e),i=function(e){let t=e.chart.options.accessibility.keyboardNavigation.seriesNavigation;return!!(e.points&&(e.points.length<+t.pointNavigationEnabledThreshold||!1===t.pointNavigationEnabledThreshold))}(e),s=e.chart.options.accessibility.point.describeNull;(t||i)&&e.points.forEach(i=>{let n=i.graphic&&i.graphic.element||function(e){let t=e.series,i=t&&t.chart,s=t&&t.is("sunburst"),n=e.isNull,r=i&&i.options.accessibility.point.describeNull;return n&&!s&&r}(i)&&function(e){let t=e.series,i=function(e){let t=e.index;return e.series&&e.series.data&&f(t)&&g(e.series.data,function(e){return!!(e&&void 0!==e.index&&e.index>t&&e.graphic&&e.graphic.element)})||null}(e),s=i&&i.graphic,n=s?s.parentGroup:t.graph||t.group,r=i?{x:y(e.plotX,i.plotX,0),y:y(e.plotY,i.plotY,0)}:{x:y(e.plotX,0),y:y(e.plotY,0)},o=function(e,t){let i=e.series.chart.renderer.rect(t.x,t.y,1,1);return i.attr({class:"highcharts-a11y-mock-point",fill:"none",opacity:0,"fill-opacity":0,"stroke-opacity":0}),i}(e,r);if(n&&n.element)return e.graphic=o,e.hasMockGraphic=!0,o.add(n),n.element.insertBefore(o.element,s?s.element:null),o.element}(i),r=i.options&&i.options.accessibility&&!1===i.options.accessibility.enabled;if(n){if(i.isNull&&!s){n.setAttribute("aria-hidden",!0);return}n.setAttribute("tabindex","-1"),e.chart.styledMode||(n.style.outline="none"),t&&!r?function(e,t){let i=e.series,s=i.options.accessibility?.point||{},n=i.chart.options.accessibility.point||{},r=p(b(s.descriptionFormat)&&c(s.descriptionFormat,e,i.chart)||s.descriptionFormatter?.(e)||b(n.descriptionFormat)&&c(n.descriptionFormat,e,i.chart)||n.descriptionFormatter?.(e)||C(e),i.chart.renderer.forExport);t.setAttribute("role","img"),t.setAttribute("aria-label",r)}(i,n):n.setAttribute("aria-hidden",!0)}})}(e),h(t,s),function(e){let t=e.chart,i=t.options.chart,s=i.options3d&&i.options3d.enabled,n=t.series.length>1,r=t.options.accessibility.series.describeSingleSeries,o=(e.options.accessibility||{}).exposeAsGroupOnly;return!(s&&n)&&(n||r||o||x(e))}(e)?function(e,t){let i=e.options.accessibility||{},s=e.chart.options.accessibility,n=s.landmarkVerbosity;i.exposeAsGroupOnly?t.setAttribute("role","img"):"all"===n?t.setAttribute("role","region"):t.setAttribute("role","group"),t.setAttribute("tabindex","-1"),e.chart.styledMode||(t.style.outline="none"),t.setAttribute("aria-label",p(s.series.descriptionFormatter&&s.series.descriptionFormatter(e)||w(e),e.chart.renderer.forExport))}(e,s):s.removeAttribute("aria-label"))}}}),i(t,"Accessibility/Components/SeriesComponent/NewDataAnnouncer.js",[t["Core/Globals.js"],t["Core/Utilities.js"],t["Accessibility/Utils/Announcer.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/EventProvider.js"],t["Accessibility/Components/SeriesComponent/SeriesDescriber.js"]],function(e,t,i,s,n,r){let{composed:o}=e,{addEvent:a,defined:l,pushUnique:h}=t,{getChartTitle:c}=s,{defaultPointDescriptionFormatter:d,defaultSeriesDescriptionFormatter:u}=r;function p(e){return!!e.options.accessibility.announceNewData.enabled}class g{constructor(e){this.dirty={allSeries:{}},this.lastAnnouncementTime=0,this.chart=e}init(){let e=this.chart,t=e.options.accessibility.announceNewData.interruptUser?"assertive":"polite";this.lastAnnouncementTime=0,this.dirty={allSeries:{}},this.eventProvider=new n,this.announcer=new i(e,t),this.addEventListeners()}destroy(){this.eventProvider.removeAddedEvents(),this.announcer.destroy()}addEventListeners(){let e=this,t=this.chart,i=this.eventProvider;i.addEvent(t,"afterApplyDrilldown",function(){e.lastAnnouncementTime=0}),i.addEvent(t,"afterAddSeries",function(t){e.onSeriesAdded(t.series)}),i.addEvent(t,"redraw",function(){e.announceDirtyData()})}onSeriesAdded(e){p(this.chart)&&(this.dirty.hasDirty=!0,this.dirty.allSeries[e.name+e.index]=e,this.dirty.newSeries=l(this.dirty.newSeries)?void 0:e)}announceDirtyData(){let e=this.chart,t=this;if(e.options.accessibility.announceNewData&&this.dirty.hasDirty){let e=this.dirty.newPoint;e&&(e=function(e){let t=e.series.data.filter(t=>e.x===t.x&&e.y===t.y);return 1===t.length?t[0]:e}(e)),this.queueAnnouncement(Object.keys(this.dirty.allSeries).map(e=>t.dirty.allSeries[e]),this.dirty.newSeries,e),this.dirty={allSeries:{}}}}queueAnnouncement(e,t,i){let s=this.chart.options.accessibility.announceNewData;if(s.enabled){let n=+new Date,r=n-this.lastAnnouncementTime,o=Math.max(0,s.minAnnounceInterval-r),a=function(e,t){let i=(e||[]).concat(t||[]).reduce((e,t)=>(e[t.name+t.index]=t,e),{});return Object.keys(i).map(e=>i[e])}(this.queuedAnnouncement&&this.queuedAnnouncement.series,e),l=this.buildAnnouncementMessage(a,t,i);l&&(this.queuedAnnouncement&&clearTimeout(this.queuedAnnouncementTimer),this.queuedAnnouncement={time:n,message:l,series:a},this.queuedAnnouncementTimer=setTimeout(()=>{this&&this.announcer&&(this.lastAnnouncementTime=+new Date,this.announcer.announce(this.queuedAnnouncement.message),delete this.queuedAnnouncement,delete this.queuedAnnouncementTimer)},o))}}buildAnnouncementMessage(t,i,s){let n=this.chart,r=n.options.accessibility.announceNewData;if(r.announcementFormatter){let e=r.announcementFormatter(t,i,s);if(!1!==e)return e.length?e:null}let o=e.charts&&e.charts.length>1?"Multiple":"Single",a=i?"newSeriesAnnounce"+o:s?"newPointAnnounce"+o:"newDataAnnounce",l=c(n);return n.langFormat("accessibility.announceNewData."+a,{chartTitle:l,seriesDesc:i?u(i):null,pointDesc:s?d(s):null,point:s,series:i})}}return function(e){function t(e){let t=this.chart,i=t.accessibility?.components.series.newDataAnnouncer;i&&i.chart===t&&p(t)&&(i.dirty.newPoint=l(i.dirty.newPoint)?void 0:e.point)}function i(){let e=this.chart,t=e.accessibility?.components.series.newDataAnnouncer;t&&t.chart===e&&p(e)&&(t.dirty.hasDirty=!0,t.dirty.allSeries[this.name+this.index]=this)}e.compose=function(e){h(o,"A11y.NDA")&&(a(e,"addPoint",t),a(e,"updatedData",i))}}(g||(g={})),g}),i(t,"Accessibility/ProxyElement.js",[t["Core/Globals.js"],t["Core/Utilities.js"],t["Accessibility/Utils/EventProvider.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/HTMLUtilities.js"]],function(e,t,i,s,n){let{doc:r}=e,{attr:o,css:a,merge:l}=t,{fireEventOnWrappedOrUnwrappedElement:h}=s,{cloneMouseEvent:c,cloneTouchEvent:d,getFakeMouseEvent:u,removeElement:p}=n;return class{constructor(e,t,s="button",n,o){this.chart=e,this.target=t,this.eventProvider=new i;let a=this.innerElement=r.createElement(s),l=this.element=n?r.createElement(n):a;e.styledMode||this.hideElementVisually(a),n&&("li"!==n||e.styledMode||(l.style.listStyle="none"),l.appendChild(a),this.element=l),this.updateTarget(t,o)}click(){let e=this.getTargetPosition();e.x+=e.width/2,e.y+=e.height/2;let t=u("click",e);h(this.target.click,t)}updateTarget(e,t){this.target=e,this.updateCSSClassName();let i=t||{};Object.keys(i).forEach(e=>{null===i[e]&&delete i[e]});let s=this.getTargetAttr(e.click,"aria-label");o(this.innerElement,l(s?{"aria-label":s}:{},i)),this.eventProvider.removeAddedEvents(),this.addProxyEventsToElement(this.innerElement,e.click),this.refreshPosition()}refreshPosition(){let e=this.getTargetPosition();a(this.innerElement,{width:(e.width||1)+"px",height:(e.height||1)+"px",left:(Math.round(e.x)||0)+"px",top:(Math.round(e.y)||0)+"px"})}remove(){this.eventProvider.removeAddedEvents(),p(this.element)}updateCSSClassName(){let e=e=>e.indexOf("highcharts-no-tooltip")>-1,t=this.chart.legend,i=t.group&&t.group.div,s=e(i&&i.className||""),n=e(this.getTargetAttr(this.target.click,"class")||"");this.innerElement.className=s||n?"highcharts-a11y-proxy-element highcharts-no-tooltip":"highcharts-a11y-proxy-element"}addProxyEventsToElement(e,t){["click","touchstart","touchend","touchcancel","touchmove","mouseover","mouseenter","mouseleave","mouseout"].forEach(i=>{let s=0===i.indexOf("touch");this.eventProvider.addEvent(e,i,e=>{let i=s?d(e):c(e);t&&h(t,i),e.stopPropagation(),s||e.preventDefault()},{passive:!1})})}hideElementVisually(e){a(e,{borderWidth:0,backgroundColor:"transparent",cursor:"pointer",outline:"none",opacity:.001,filter:"alpha(opacity=1)",zIndex:999,overflow:"hidden",padding:0,margin:0,display:"block",position:"absolute","-ms-filter":"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)"})}getTargetPosition(){let e=this.target.click,t=e.element?e.element:e,i=this.target.visual||t,s=this.chart.renderTo,n=this.chart.pointer;if(s&&i?.getBoundingClientRect&&n){let e=i.getBoundingClientRect(),t=n.getChartPosition();return{x:(e.left-t.left)/t.scaleX,y:(e.top-t.top)/t.scaleY,width:e.right/t.scaleX-e.left/t.scaleX,height:e.bottom/t.scaleY-e.top/t.scaleY}}return{x:0,y:0,width:1,height:1}}getTargetAttr(e,t){return e.element?e.element.getAttribute(t):e.getAttribute(t)}}}),i(t,"Accessibility/ProxyProvider.js",[t["Core/Globals.js"],t["Core/Utilities.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/DOMElementProvider.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Accessibility/ProxyElement.js"]],function(e,t,i,s,n,r){let{doc:o}=e,{attr:a,css:l}=t,{unhideChartElementFromAT:h}=i,{removeChildNodes:c}=n;return class{constructor(e){this.chart=e,this.domElementProvider=new s,this.groups={},this.groupOrder=[],this.beforeChartProxyPosContainer=this.createProxyPosContainer("before"),this.afterChartProxyPosContainer=this.createProxyPosContainer("after"),this.update()}addProxyElement(e,t,i="button",s){let n=this.groups[e];if(!n)throw Error("ProxyProvider.addProxyElement: Invalid group key "+e);let o="ul"===n.type||"ol"===n.type?"li":void 0,a=new r(this.chart,t,i,o,s);return n.proxyContainerElement.appendChild(a.element),n.proxyElements.push(a),a}addGroup(e,t="div",i){let s;let n=this.groups[e];if(n)return n.groupElement;let r=this.domElementProvider.createElement(t);return i&&i.role&&"div"!==t?(s=this.domElementProvider.createElement("div")).appendChild(r):s=r,s.className="highcharts-a11y-proxy-group highcharts-a11y-proxy-group-"+e.replace(/\W/g,"-"),this.groups[e]={proxyContainerElement:r,groupElement:s,type:t,proxyElements:[]},a(s,i||{}),"ul"===t&&r.setAttribute("role","list"),this.afterChartProxyPosContainer.appendChild(s),this.updateGroupOrder(this.groupOrder),s}updateGroupAttrs(e,t){let i=this.groups[e];if(!i)throw Error("ProxyProvider.updateGroupAttrs: Invalid group key "+e);a(i.groupElement,t)}updateGroupOrder(e){if(this.groupOrder=e.slice(),this.isDOMOrderGroupOrder())return;let t=e.indexOf("series"),i=t>-1?e.slice(0,t):e,s=t>-1?e.slice(t+1):[],n=o.activeElement;["before","after"].forEach(e=>{let t=this["before"===e?"beforeChartProxyPosContainer":"afterChartProxyPosContainer"];c(t),("before"===e?i:s).forEach(e=>{let i=this.groups[e];i&&t.appendChild(i.groupElement)})}),(this.beforeChartProxyPosContainer.contains(n)||this.afterChartProxyPosContainer.contains(n))&&n&&n.focus&&n.focus()}clearGroup(e){let t=this.groups[e];if(!t)throw Error("ProxyProvider.clearGroup: Invalid group key "+e);c(t.proxyContainerElement)}removeGroup(e){let t=this.groups[e];t&&(this.domElementProvider.removeElement(t.groupElement),t.groupElement!==t.proxyContainerElement&&this.domElementProvider.removeElement(t.proxyContainerElement),delete this.groups[e])}update(){this.updatePosContainerPositions(),this.updateGroupOrder(this.groupOrder),this.updateProxyElementPositions()}updateProxyElementPositions(){Object.keys(this.groups).forEach(this.updateGroupProxyElementPositions.bind(this))}updateGroupProxyElementPositions(e){let t=this.groups[e];t&&t.proxyElements.forEach(e=>e.refreshPosition())}destroy(){this.domElementProvider.destroyCreatedElements()}createProxyPosContainer(e){let t=this.domElementProvider.createElement("div");return t.setAttribute("aria-hidden","false"),t.className="highcharts-a11y-proxy-container"+(e?"-"+e:""),l(t,{top:"0",left:"0"}),this.chart.styledMode||(t.style.whiteSpace="nowrap",t.style.position="absolute"),t}getCurrentGroupOrderInDOM(){let e=e=>{let t=Object.keys(this.groups),i=t.length;for(;i--;){let s=t[i],n=this.groups[s];if(n&&e===n.groupElement)return s}},t=t=>{let i=[],s=t.children;for(let t=0;t<s.length;++t){let n=e(s[t]);n&&i.push(n)}return i},i=t(this.beforeChartProxyPosContainer),s=t(this.afterChartProxyPosContainer);return i.push("series"),i.concat(s)}isDOMOrderGroupOrder(){let e=this.getCurrentGroupOrderInDOM(),t=this.groupOrder.filter(e=>"series"===e||!!this.groups[e]),i=e.length;if(i!==t.length)return!1;for(;i--;)if(e[i]!==t[i])return!1;return!0}updatePosContainerPositions(){let e=this.chart;if(e.renderer.forExport)return;let t=e.renderer.box;e.container.insertBefore(this.afterChartProxyPosContainer,t.nextSibling),e.container.insertBefore(this.beforeChartProxyPosContainer,t),h(this.chart,this.afterChartProxyPosContainer),h(this.chart,this.beforeChartProxyPosContainer)}}}),i(t,"Accessibility/Components/RangeSelectorComponent.js",[t["Accessibility/AccessibilityComponent.js"],t["Accessibility/Utils/Announcer.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Core/Utilities.js"]],function(e,t,i,s,n){let{unhideChartElementFromAT:r,getAxisRangeDescription:o}=i,{addEvent:a,attr:l}=n;class h extends e{init(){let e=this.chart;this.announcer=new t(e,"polite")}onChartUpdate(){let e=this.chart,t=this,i=e.rangeSelector;i&&(this.updateSelectorVisibility(),this.setDropdownAttrs(),i.buttons&&i.buttons.length&&i.buttons.forEach(e=>{t.setRangeButtonAttrs(e)}),i.maxInput&&i.minInput&&["minInput","maxInput"].forEach(function(s,n){let o=i[s];o&&(r(e,o),t.setRangeInputAttrs(o,"accessibility.rangeSelector."+(n?"max":"min")+"InputLabel"))}))}updateSelectorVisibility(){let e=this.chart,t=e.rangeSelector,i=t&&t.dropdown,s=t&&t.buttons||[],n=e=>e.setAttribute("aria-hidden",!0);t&&t.hasVisibleDropdown&&i?(r(e,i),s.forEach(e=>n(e.element))):(i&&n(i),s.forEach(t=>r(e,t.element)))}setDropdownAttrs(){let e=this.chart,t=e.rangeSelector&&e.rangeSelector.dropdown;if(t){let i=e.langFormat("accessibility.rangeSelector.dropdownLabel",{rangeTitle:e.options.lang.rangeSelectorZoom});t.setAttribute("aria-label",i),t.setAttribute("tabindex",-1)}}setRangeButtonAttrs(e){l(e.element,{tabindex:-1,role:"button"})}setRangeInputAttrs(e,t){let i=this.chart;l(e,{tabindex:-1,"aria-label":i.langFormat(t,{chart:i})})}onButtonNavKbdArrowKey(e,t){let i=e.response,s=this.keyCodes,n=this.chart,r=n.options.accessibility.keyboardNavigation.wrapAround,o=t===s.left||t===s.up?-1:1;return n.highlightRangeSelectorButton(n.highlightedRangeSelectorItemIx+o)?i.success:r?(e.init(o),i.success):i[o>0?"next":"prev"]}onButtonNavKbdClick(e){let t=e.response,i=this.chart;return 3!==i.oldRangeSelectorItemState&&this.fakeClickEvent(i.rangeSelector.buttons[i.highlightedRangeSelectorItemIx].element),t.success}onAfterBtnClick(){let e=this.chart,t=o(e.xAxis[0]),i=e.langFormat("accessibility.rangeSelector.clickButtonAnnouncement",{chart:e,axisRangeDescription:t});i&&this.announcer.announce(i)}onInputKbdMove(e){let t=this.chart,i=t.rangeSelector,s=t.highlightedInputRangeIx=(t.highlightedInputRangeIx||0)+e;if(s>1||s<0){if(t.accessibility)return t.accessibility.keyboardNavigation.exiting=!0,t.accessibility.keyboardNavigation.tabindexContainer.focus(),t.accessibility.keyboardNavigation.move(e)}else if(i){let e=i[s?"maxDateBox":"minDateBox"],n=i[s?"maxInput":"minInput"];e&&n&&t.setFocusToElement(e,n)}return!0}onInputNavInit(e){let t=this,i=this.chart,s=e>0?0:1,n=i.rangeSelector,r=n&&n[s?"maxDateBox":"minDateBox"],o=n&&n.minInput,l=n&&n.maxInput;if(i.highlightedInputRangeIx=s,r&&o&&l){i.setFocusToElement(r,s?l:o),this.removeInputKeydownHandler&&this.removeInputKeydownHandler();let e=e=>{(e.which||e.keyCode)===this.keyCodes.tab&&t.onInputKbdMove(e.shiftKey?-1:1)&&(e.preventDefault(),e.stopPropagation())},n=a(o,"keydown",e),h=a(l,"keydown",e);this.removeInputKeydownHandler=()=>{n(),h()}}}onInputNavTerminate(){let e=this.chart.rangeSelector||{};e.maxInput&&e.hideInput("max"),e.minInput&&e.hideInput("min"),this.removeInputKeydownHandler&&(this.removeInputKeydownHandler(),delete this.removeInputKeydownHandler)}initDropdownNav(){let e=this.chart,t=e.rangeSelector,i=t&&t.dropdown;t&&i&&(e.setFocusToElement(t.buttonGroup,i),this.removeDropdownKeydownHandler&&this.removeDropdownKeydownHandler(),this.removeDropdownKeydownHandler=a(i,"keydown",t=>{let i=(t.which||t.keyCode)===this.keyCodes.tab,s=e.accessibility;i&&(t.preventDefault(),t.stopPropagation(),s&&(s.keyboardNavigation.tabindexContainer.focus(),s.keyboardNavigation.move(t.shiftKey?-1:1)))}))}getRangeSelectorButtonNavigation(){let e=this.chart,t=this.keyCodes,i=this;return new s(e,{keyCodeMap:[[[t.left,t.right,t.up,t.down],function(e){return i.onButtonNavKbdArrowKey(this,e)}],[[t.enter,t.space],function(){return i.onButtonNavKbdClick(this)}]],validate:function(){return!!(e.rangeSelector&&e.rangeSelector.buttons&&e.rangeSelector.buttons.length)},init:function(t){let s=e.rangeSelector;if(s&&s.hasVisibleDropdown)i.initDropdownNav();else if(s){let i=s.buttons.length-1;e.highlightRangeSelectorButton(t>0?0:i)}},terminate:function(){i.removeDropdownKeydownHandler&&(i.removeDropdownKeydownHandler(),delete i.removeDropdownKeydownHandler)}})}getRangeSelectorInputNavigation(){let e=this.chart,t=this;return new s(e,{keyCodeMap:[],validate:function(){return!!(e.rangeSelector&&e.rangeSelector.inputGroup&&"hidden"!==e.rangeSelector.inputGroup.element.style.visibility&&!1!==e.options.rangeSelector.inputEnabled&&e.rangeSelector.minInput&&e.rangeSelector.maxInput)},init:function(e){t.onInputNavInit(e)},terminate:function(){t.onInputNavTerminate()}})}getKeyboardNavigation(){return[this.getRangeSelectorButtonNavigation(),this.getRangeSelectorInputNavigation()]}destroy(){this.removeDropdownKeydownHandler&&this.removeDropdownKeydownHandler(),this.removeInputKeydownHandler&&this.removeInputKeydownHandler(),this.announcer&&this.announcer.destroy()}}return function(e){function t(e){let t=this.rangeSelector&&this.rangeSelector.buttons||[],i=this.highlightedRangeSelectorItemIx,s=this.rangeSelector&&this.rangeSelector.selected;return void 0!==i&&t[i]&&i!==s&&t[i].setState(this.oldRangeSelectorItemState||0),this.highlightedRangeSelectorItemIx=e,!!t[e]&&(this.setFocusToElement(t[e].box,t[e].element),e!==s&&(this.oldRangeSelectorItemState=t[e].state,t[e].setState(1)),!0)}function i(){let e=this.chart.accessibility;if(e&&e.components.rangeSelector)return e.components.rangeSelector.onAfterBtnClick()}e.compose=function(e,s){let n=e.prototype;n.highlightRangeSelectorButton||(n.highlightRangeSelectorButton=t,a(s,"afterBtnClick",i))}}(h||(h={})),h}),i(t,"Accessibility/Components/SeriesComponent/ForcedMarkers.js",[t["Core/Globals.js"],t["Core/Utilities.js"]],function(e,t){var i;let{composed:s}=e,{addEvent:n,merge:r,pushUnique:o}=t;return function(e){function t(e){r(!0,e,{marker:{enabled:!0,states:{normal:{opacity:0}}}})}function i(e){return e.marker.states&&e.marker.states.normal&&e.marker.states.normal.opacity}function a(e){return!!(e._hasPointMarkers&&e.points&&e.points.length)}function l(){this.chart.styledMode&&(this.markerGroup&&this.markerGroup[this.a11yMarkersForced?"addClass":"removeClass"]("highcharts-a11y-markers-hidden"),a(this)&&this.points.forEach(e=>{e.graphic&&(e.graphic[e.hasForcedA11yMarker?"addClass":"removeClass"]("highcharts-a11y-marker-hidden"),e.graphic[!1===e.hasForcedA11yMarker?"addClass":"removeClass"]("highcharts-a11y-marker-visible"))}))}function h(e){this.resetA11yMarkerOptions=r(e.options.marker||{},this.userOptions.marker||{})}function c(){let e=this.options;(function(e){let t=e.chart.options.accessibility.enabled,i=!1!==(e.options.accessibility&&e.options.accessibility.enabled);return t&&i&&function(e){let t=e.chart.options.accessibility;return e.points.length<t.series.pointDescriptionEnabledThreshold||!1===t.series.pointDescriptionEnabledThreshold}(e)})(this)?(e.marker&&!1===e.marker.enabled&&(this.a11yMarkersForced=!0,t(this.options)),a(this)&&function(e){let s=e.points.length;for(;s--;){let n=e.points[s],o=n.options,a=n.hasForcedA11yMarker;if(delete n.hasForcedA11yMarker,o.marker){let e=a&&0===i(o);o.marker.enabled&&!e?(r(!0,o.marker,{states:{normal:{opacity:i(o)||1}}}),n.hasForcedA11yMarker=!1):!1===o.marker.enabled&&(t(o),n.hasForcedA11yMarker=!0)}}}(this)):this.a11yMarkersForced&&(delete this.a11yMarkersForced,function(e){let t=e.resetA11yMarkerOptions;if(t){let i=t.states&&t.states.normal&&t.states.normal.opacity;e.userOptions&&e.userOptions.marker&&(e.userOptions.marker.enabled=!0),e.update({marker:{enabled:t.enabled,states:{normal:{opacity:i}}}})}}(this),delete this.resetA11yMarkerOptions)}function d(){this.boosted&&this.a11yMarkersForced&&(r(!0,this.options,{marker:{enabled:!1}}),delete this.a11yMarkersForced)}e.compose=function(e){o(s,"A11y.FM")&&(n(e,"afterSetOptions",h),n(e,"render",c),n(e,"afterRender",l),n(e,"renderCanvas",d))}}(i||(i={})),i}),i(t,"Accessibility/Components/SeriesComponent/SeriesKeyboardNavigation.js",[t["Core/Series/Point.js"],t["Core/Series/Series.js"],t["Core/Series/SeriesRegistry.js"],t["Core/Globals.js"],t["Core/Utilities.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Accessibility/Utils/EventProvider.js"],t["Accessibility/Utils/ChartUtilities.js"]],function(e,t,i,s,n,r,o,a){let{seriesTypes:l}=i,{doc:h}=s,{defined:c,fireEvent:d}=n,{getPointFromXY:u,getSeriesFromName:p,scrollAxisToPoint:g}=a;function m(e){let t=e.index,i=e.series.points,s=i.length;if(i[t]===e)return t;for(;s--;)if(i[s]===e)return s}function b(e){let t=e.chart.options.accessibility.keyboardNavigation.seriesNavigation,i=e.options.accessibility||{},s=i.keyboardNavigation;return s&&!1===s.enabled||!1===i.enabled||!1===e.options.enableMouseTracking||!e.visible||t.pointNavigationEnabledThreshold&&+t.pointNavigationEnabledThreshold<=e.points.length}function y(e){let t=e.series.chart.options.accessibility,i=e.options.accessibility&&!1===e.options.accessibility.enabled;return e.isNull&&t.keyboardNavigation.seriesNavigation.skipNullPoints||!1===e.visible||!1===e.isInside||i||b(e.series)}function f(e){let t=e.series||[],i=t.length;for(let e=0;e<i;++e)if(!b(t[e])){let i=function(e){let t=e.points||[],i=t.length;for(let e=0;e<i;++e)if(!y(t[e]))return t[e];return null}(t[e]);if(i)return i}return null}function x(e){let t=e.series.length,i=!1;for(;t--&&(e.highlightedPoint=e.series[t].points[e.series[t].points.length-1],!(i=e.series[t].highlightNextValidPoint())););return i}function v(e){delete e.highlightedPoint;let t=f(e);return!!t&&t.highlight()}class A{constructor(e,t){this.keyCodes=t,this.chart=e}init(){let i=this,s=this.chart,n=this.eventProvider=new o;n.addEvent(t,"destroy",function(){return i.onSeriesDestroy(this)}),n.addEvent(s,"afterApplyDrilldown",function(){!function(e){let t=f(e);t&&t.highlight(!1)}(this)}),n.addEvent(s,"drilldown",function(e){let t=e.point,s=t.series;i.lastDrilledDownPoint={x:t.x,y:t.y,seriesName:s?s.name:""}}),n.addEvent(s,"drillupall",function(){setTimeout(function(){i.onDrillupAll()},10)}),n.addEvent(e,"afterSetState",function(){let e=this.graphic&&this.graphic.element,t=h.activeElement,i=t&&t.getAttribute("class"),n=i&&i.indexOf("highcharts-a11y-proxy-element")>-1;s.highlightedPoint===this&&t!==e&&!n&&e&&e.focus&&e.focus()})}onDrillupAll(){let e;let t=this.lastDrilledDownPoint,i=this.chart,s=t&&p(i,t.seriesName);t&&s&&c(t.x)&&c(t.y)&&(e=u(s,t.x,t.y)),e=e||f(i),i.container&&i.container.focus(),e&&e.highlight&&e.highlight(!1)}getKeyboardNavigationHandler(){let e=this,t=this.keyCodes,i=this.chart,s=i.inverted;return new r(i,{keyCodeMap:[[s?[t.up,t.down]:[t.left,t.right],function(t){return e.onKbdSideways(this,t)}],[s?[t.left,t.right]:[t.up,t.down],function(t){return e.onKbdVertical(this,t)}],[[t.enter,t.space],function(e,t){let s=i.highlightedPoint;if(s){let{plotLeft:e,plotTop:i}=this.chart,{plotX:n=0,plotY:r=0}=s;t={...t,chartX:e+n,chartY:i+r,point:s,target:s.graphic?.element||t.target},d(s.series,"click",t),s.firePointEvent("click",t)}return this.response.success}],[[t.home],function(){return v(i),this.response.success}],[[t.end],function(){return x(i),this.response.success}],[[t.pageDown,t.pageUp],function(e){return i.highlightAdjacentSeries(e===t.pageDown),this.response.success}]],init:function(){return e.onHandlerInit(this)},validate:function(){return!!f(i)},terminate:function(){return e.onHandlerTerminate()}})}onKbdSideways(e,t){let i=this.keyCodes,s=t===i.right||t===i.down;return this.attemptHighlightAdjacentPoint(e,s)}onHandlerInit(e){let t=this.chart;return t.options.accessibility.keyboardNavigation.seriesNavigation.rememberPointFocus&&t.highlightedPoint?t.highlightedPoint.highlight():v(t),e.response.success}onKbdVertical(e,t){let i=this.chart,s=this.keyCodes,n=t===s.down||t===s.right,r=i.options.accessibility.keyboardNavigation.seriesNavigation;if(r.mode&&"serialize"===r.mode)return this.attemptHighlightAdjacentPoint(e,n);let o=i.highlightedPoint&&i.highlightedPoint.series.keyboardMoveVertical?"highlightAdjacentPointVertical":"highlightAdjacentSeries";return i[o](n),e.response.success}onHandlerTerminate(){let e=this.chart,t=e.options.accessibility.keyboardNavigation;e.tooltip&&e.tooltip.hide(0);let i=e.highlightedPoint&&e.highlightedPoint.series;i&&i.onMouseOut&&i.onMouseOut(),e.highlightedPoint&&e.highlightedPoint.onMouseOut&&e.highlightedPoint.onMouseOut(),t.seriesNavigation.rememberPointFocus||delete e.highlightedPoint}attemptHighlightAdjacentPoint(e,t){let i=this.chart,s=i.options.accessibility.keyboardNavigation.wrapAround;return i.highlightAdjacentPoint(t)?e.response.success:s&&(t?v(i):x(i))?e.response.success:e.response[t?"next":"prev"]}onSeriesDestroy(e){let t=this.chart;t.highlightedPoint&&t.highlightedPoint.series===e&&(delete t.highlightedPoint,t.focusElement&&t.focusElement.removeFocusBorder())}destroy(){this.eventProvider.removeAddedEvents()}}return function(e){function t(e){let t,i;let s=this.series,n=this.highlightedPoint,r=n&&m(n)||0,o=n&&n.series.points||[],a=this.series&&this.series[this.series.length-1],l=a&&a.points&&a.points[a.points.length-1];if(!s[0]||!s[0].points)return!1;if(n){if(t=s[n.series.index+(e?1:-1)],(i=o[r+(e?1:-1)])||!t||(i=t.points[e?0:t.points.length-1]),!i)return!1}else i=e?s[0].points[0]:l;return y(i)?(b(t=i.series)?this.highlightedPoint=e?t.points[t.points.length-1]:t.points[0]:this.highlightedPoint=i,this.highlightAdjacentPoint(e)):i.highlight()}function i(e){let t=this.highlightedPoint,i=1/0,s;return!!(c(t.plotX)&&c(t.plotY))&&(this.series.forEach(n=>{b(n)||n.points.forEach(r=>{if(!c(r.plotY)||!c(r.plotX)||r===t)return;let o=r.plotY-t.plotY,a=Math.abs(r.plotX-t.plotX),l=Math.abs(o)*Math.abs(o)+a*a*4;n.yAxis&&n.yAxis.reversed&&(o*=-1),!(o<=0&&e||o>=0&&!e||l<5||y(r))&&l<i&&(i=l,s=r)})}),!!s&&s.highlight())}function s(e){let t,i,s;let n=this.highlightedPoint,r=this.series&&this.series[this.series.length-1],o=r&&r.points&&r.points[r.points.length-1];return this.highlightedPoint?!!((t=this.series[n.series.index+(e?-1:1)])&&(i=function(e,t,i,s){let n=1/0,r,o,a,l=t.points.length,h=e=>!(c(e.plotX)&&c(e.plotY));if(!h(e)){for(;l--;)!h(r=t.points[l])&&(a=(e.plotX-r.plotX)*(e.plotX-r.plotX)*4+(e.plotY-r.plotY)*(e.plotY-r.plotY)*1)<n&&(n=a,o=l);return c(o)?t.points[o]:void 0}}(n,t,0)))&&(b(t)?(i.highlight(),s=this.highlightAdjacentSeries(e))?s:(n.highlight(),!1):(i.highlight(),i.series.highlightNextValidPoint())):(t=e?this.series&&this.series[0]:r,!!(i=e?t&&t.points&&t.points[0]:o)&&i.highlight())}function n(e=!0){let t=this.series.chart,i=t.tooltip?.label?.element;!this.isNull&&e?this.onMouseOver():t.tooltip&&t.tooltip.hide(0),g(this),this.graphic&&(t.setFocusToElement(this.graphic),!e&&t.focusElement&&t.focusElement.removeFocusBorder()),t.highlightedPoint=this;let s=i?.getBoundingClientRect().top;if(i&&s&&s<0){let e=window.scrollY;window.scrollTo({behavior:"smooth",top:e+s})}return this}function r(){let e=this.chart.highlightedPoint,t=(e&&e.series)===this?m(e):0,i=this.points,s=i.length;if(i&&s){for(let e=t;e<s;++e)if(!y(i[e]))return i[e].highlight();for(let e=t;e>=0;--e)if(!y(i[e]))return i[e].highlight()}return!1}e.compose=function(e,o,a){let h=e.prototype,c=o.prototype,d=a.prototype;h.highlightAdjacentPoint||(h.highlightAdjacentPoint=t,h.highlightAdjacentPointVertical=i,h.highlightAdjacentSeries=s,c.highlight=n,d.keyboardMoveVertical=!0,["column","gantt","pie"].forEach(e=>{l[e]&&(l[e].prototype.keyboardMoveVertical=!1)}),d.highlightNextValidPoint=r)}}(A||(A={})),A}),i(t,"Accessibility/Components/SeriesComponent/SeriesComponent.js",[t["Accessibility/AccessibilityComponent.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Components/SeriesComponent/ForcedMarkers.js"],t["Accessibility/Components/SeriesComponent/NewDataAnnouncer.js"],t["Accessibility/Components/SeriesComponent/SeriesDescriber.js"],t["Accessibility/Components/SeriesComponent/SeriesKeyboardNavigation.js"]],function(e,t,i,s,n,r){let{hideSeriesFromAT:o}=t,{describeSeries:a}=n;return class extends e{static compose(e,t,n){s.compose(n),i.compose(n),r.compose(e,t,n)}init(){this.newDataAnnouncer=new s(this.chart),this.newDataAnnouncer.init(),this.keyboardNavigation=new r(this.chart,this.keyCodes),this.keyboardNavigation.init(),this.hideTooltipFromATWhenShown(),this.hideSeriesLabelsFromATWhenShown()}hideTooltipFromATWhenShown(){let e=this;this.chart.tooltip&&this.addEvent(this.chart.tooltip.constructor,"refresh",function(){this.chart===e.chart&&this.label&&this.label.element&&this.label.element.setAttribute("aria-hidden",!0)})}hideSeriesLabelsFromATWhenShown(){this.addEvent(this.chart,"afterDrawSeriesLabels",function(){this.series.forEach(function(e){e.labelBySeries&&e.labelBySeries.attr("aria-hidden",!0)})})}onChartRender(){this.chart.series.forEach(function(e){!1!==(e.options.accessibility&&e.options.accessibility.enabled)&&e.visible&&0!==e.getPointsCollection().length?a(e):o(e)})}getKeyboardNavigation(){return this.keyboardNavigation.getKeyboardNavigationHandler()}destroy(){this.newDataAnnouncer.destroy(),this.keyboardNavigation.destroy()}}}),i(t,"Accessibility/Components/ZoomComponent.js",[t["Accessibility/AccessibilityComponent.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Core/Utilities.js"]],function(e,t,i,s,n){let{unhideChartElementFromAT:r}=t,{getFakeMouseEvent:o}=i,{attr:a,pick:l}=n;return class extends e{constructor(){super(...arguments),this.focusedMapNavButtonIx=-1}init(){let e=this,t=this.chart;this.proxyProvider.addGroup("zoom","div"),["afterShowResetZoom","afterApplyDrilldown","drillupall"].forEach(i=>{e.addEvent(t,i,function(){e.updateProxyOverlays()})})}onChartUpdate(){let e=this.chart,t=this;e.mapNavigation&&e.mapNavigation.navButtons.forEach((i,s)=>{r(e,i.element),t.setMapNavButtonAttrs(i.element,"accessibility.zoom.mapZoom"+(s?"Out":"In"))})}setMapNavButtonAttrs(e,t){let i=this.chart;a(e,{tabindex:-1,role:"button","aria-label":i.langFormat(t,{chart:i})})}onChartRender(){this.updateProxyOverlays()}updateProxyOverlays(){let e=this.chart;if(this.proxyProvider.clearGroup("zoom"),e.resetZoomButton&&this.createZoomProxyButton(e.resetZoomButton,"resetZoomProxyButton",e.langFormat("accessibility.zoom.resetZoomButton",{chart:e})),e.drillUpButton&&e.breadcrumbs&&e.breadcrumbs.list){let t=e.breadcrumbs.list[e.breadcrumbs.list.length-1];this.createZoomProxyButton(e.drillUpButton,"drillUpProxyButton",e.langFormat("accessibility.drillUpButton",{chart:e,buttonText:e.breadcrumbs.getButtonText(t)}))}}createZoomProxyButton(e,t,i){this[t]=this.proxyProvider.addProxyElement("zoom",{click:e},"button",{"aria-label":i,tabindex:-1})}getMapZoomNavigation(){let e=this.keyCodes,t=this.chart,i=this;return new s(t,{keyCodeMap:[[[e.up,e.down,e.left,e.right],function(e){return i.onMapKbdArrow(this,e)}],[[e.tab],function(e,t){return i.onMapKbdTab(this,t)}],[[e.space,e.enter],function(){return i.onMapKbdClick(this)}]],validate:function(){return!!(t.mapView&&t.mapNavigation&&t.mapNavigation.navButtons.length)},init:function(e){return i.onMapNavInit(e)}})}onMapKbdArrow(e,t){let i=this.chart,s=this.keyCodes,n=i.container,r=t===s.up||t===s.down,a=t===s.left||t===s.up?1:-1,l=(r?i.plotHeight:i.plotWidth)/10*a,h=10*Math.random(),c={x:n.offsetLeft+i.plotLeft+i.plotWidth/2+h,y:n.offsetTop+i.plotTop+i.plotHeight/2+h},d=r?{x:c.x,y:c.y+l}:{x:c.x+l,y:c.y};return[o("mousedown",c),o("mousemove",d),o("mouseup",d)].forEach(e=>n.dispatchEvent(e)),e.response.success}onMapKbdTab(e,t){let i=this.chart,s=e.response,n=t.shiftKey,r=n&&!this.focusedMapNavButtonIx||!n&&this.focusedMapNavButtonIx;if(i.mapNavigation.navButtons[this.focusedMapNavButtonIx].setState(0),r)return i.mapView&&i.mapView.zoomBy(),s[n?"prev":"next"];this.focusedMapNavButtonIx+=n?-1:1;let o=i.mapNavigation.navButtons[this.focusedMapNavButtonIx];return i.setFocusToElement(o.box,o.element),o.setState(2),s.success}onMapKbdClick(e){let t=this.chart.mapNavigation.navButtons[this.focusedMapNavButtonIx].element;return this.fakeClickEvent(t),e.response.success}onMapNavInit(e){let t=this.chart,i=t.mapNavigation.navButtons[0],s=t.mapNavigation.navButtons[1],n=e>0?i:s;t.setFocusToElement(n.box,n.element),n.setState(2),this.focusedMapNavButtonIx=e>0?0:1}simpleButtonNavigation(e,t,i){let n=this.keyCodes,r=this,o=this.chart;return new s(o,{keyCodeMap:[[[n.tab,n.up,n.down,n.left,n.right],function(e,t){let i=e===n.tab&&t.shiftKey||e===n.left||e===n.up;return this.response[i?"prev":"next"]}],[[n.space,n.enter],function(){return l(i(this,o),this.response.success)}]],validate:function(){return o[e]&&o[e].box&&r[t].innerElement},init:function(){o.setFocusToElement(o[e].box,r[t].innerElement)}})}getKeyboardNavigation(){return[this.simpleButtonNavigation("resetZoomButton","resetZoomProxyButton",function(e,t){t.zoomOut()}),this.simpleButtonNavigation("drillUpButton","drillUpProxyButton",function(e,t){return t.drillUp(),e.response.prev}),this.getMapZoomNavigation()]}}}),i(t,"Accessibility/HighContrastMode.js",[t["Core/Globals.js"]],function(e){let{doc:t,isMS:i,win:s}=e;return{isHighContrastModeActive:function(){let e=/(Edg)/.test(s.navigator.userAgent);if(s.matchMedia&&e)return s.matchMedia("(-ms-high-contrast: active)").matches;if(i&&s.getComputedStyle){let e=t.createElement("div");e.style.backgroundImage="url(data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)",t.body.appendChild(e);let i=(e.currentStyle||s.getComputedStyle(e)).backgroundImage;return t.body.removeChild(e),"none"===i}return s.matchMedia&&s.matchMedia("(forced-colors: active)").matches},setHighContrastTheme:function(e){e.highContrastModeActive=!0;let t=e.options.accessibility.highContrastTheme;e.update(t,!1);let i=t.colors?.length>1;e.series.forEach(function(e){let s=t.plotOptions[e.type]||{},n=i&&void 0!==e.colorIndex?t.colors[e.colorIndex]:s.color||"window",r={color:s.color||"windowText",colors:i?t.colors:[s.color||"windowText"],borderColor:s.borderColor||"window",fillColor:n};e.update(r,!1),e.points&&e.points.forEach(function(e){e.options&&e.options.color&&e.update({color:s.color||"windowText",borderColor:s.borderColor||"window"},!1)})}),e.redraw()}}}),i(t,"Accessibility/HighContrastTheme.js",[],function(){return{chart:{backgroundColor:"window"},title:{style:{color:"windowText"}},subtitle:{style:{color:"windowText"}},colorAxis:{minColor:"windowText",maxColor:"windowText",stops:[],dataClasses:[]},colors:["windowText"],xAxis:{gridLineColor:"windowText",labels:{style:{color:"windowText"}},lineColor:"windowText",minorGridLineColor:"windowText",tickColor:"windowText",title:{style:{color:"windowText"}}},yAxis:{gridLineColor:"windowText",labels:{style:{color:"windowText"}},lineColor:"windowText",minorGridLineColor:"windowText",tickColor:"windowText",title:{style:{color:"windowText"}}},tooltip:{backgroundColor:"window",borderColor:"windowText",style:{color:"windowText"}},plotOptions:{series:{lineColor:"windowText",fillColor:"window",borderColor:"windowText",edgeColor:"windowText",borderWidth:1,dataLabels:{connectorColor:"windowText",color:"windowText",style:{color:"windowText",textOutline:"none"}},marker:{lineColor:"windowText",fillColor:"windowText"}},pie:{color:"window",colors:["window"],borderColor:"windowText",borderWidth:1},boxplot:{fillColor:"window"},candlestick:{lineColor:"windowText",fillColor:"window"},errorbar:{fillColor:"window"}},legend:{backgroundColor:"window",itemStyle:{color:"windowText"},itemHoverStyle:{color:"windowText"},itemHiddenStyle:{color:"#555"},title:{style:{color:"windowText"}}},credits:{style:{color:"windowText"}},drilldown:{activeAxisLabelStyle:{color:"windowText"},activeDataLabelStyle:{color:"windowText"}},navigation:{buttonOptions:{symbolStroke:"windowText",theme:{fill:"window"}}},rangeSelector:{buttonTheme:{fill:"window",stroke:"windowText",style:{color:"windowText"},states:{hover:{fill:"window",stroke:"windowText",style:{color:"windowText"}},select:{fill:"#444",stroke:"windowText",style:{color:"windowText"}}}},inputBoxBorderColor:"windowText",inputStyle:{backgroundColor:"window",color:"windowText"},labelStyle:{color:"windowText"}},navigator:{handles:{backgroundColor:"window",borderColor:"windowText"},outlineColor:"windowText",maskFill:"transparent",series:{color:"windowText",lineColor:"windowText"},xAxis:{gridLineColor:"windowText"}},scrollbar:{barBackgroundColor:"#444",barBorderColor:"windowText",buttonArrowColor:"windowText",buttonBackgroundColor:"window",buttonBorderColor:"windowText",rifleColor:"windowText",trackBackgroundColor:"window",trackBorderColor:"windowText"}}}),i(t,"Accessibility/Options/A11yDefaults.js",[],function(){return{accessibility:{enabled:!0,screenReaderSection:{beforeChartFormat:"<{headingTagName}>{chartTitle}</{headingTagName}><div>{typeDescription}</div><div>{chartSubtitle}</div><div>{chartLongdesc}</div><div>{playAsSoundButton}</div><div>{viewTableButton}</div><div>{xAxisDescription}</div><div>{yAxisDescription}</div><div>{annotationsTitle}{annotationsList}</div>",afterChartFormat:"{endOfChartMarker}",axisRangeDateFormat:"%Y-%m-%d %H:%M:%S"},series:{descriptionFormat:"{seriesDescription}{authorDescription}{axisDescription}",describeSingleSeries:!1,pointDescriptionEnabledThreshold:200},point:{valueDescriptionFormat:"{xDescription}{separator}{value}.",describeNull:!0},landmarkVerbosity:"all",linkedDescription:'*[data-highcharts-chart="{index}"] + .highcharts-description',highContrastMode:"auto",keyboardNavigation:{enabled:!0,focusBorder:{enabled:!0,hideBrowserFocusOutline:!0,style:{color:"#334eff",lineWidth:2,borderRadius:3},margin:2},order:["series","zoom","rangeSelector","navigator","legend","chartMenu"],wrapAround:!0,seriesNavigation:{skipNullPoints:!0,pointNavigationEnabledThreshold:!1,rememberPointFocus:!1}},announceNewData:{enabled:!1,minAnnounceInterval:5e3,interruptUser:!1}},legend:{accessibility:{enabled:!0,keyboardNavigation:{enabled:!0}}},exporting:{accessibility:{enabled:!0}},navigator:{accessibility:{enabled:!0}}}}),i(t,"Accessibility/Options/LangDefaults.js",[],function(){return{accessibility:{defaultChartTitle:"Chart",chartContainerLabel:"{title}. Highcharts interactive chart.",svgContainerLabel:"Interactive chart",drillUpButton:"{buttonText}",credits:"Chart credits: {creditsStr}",thousandsSep:",",svgContainerTitle:"",graphicContainerLabel:"",screenReaderSection:{beforeRegionLabel:"",afterRegionLabel:"",annotations:{heading:"Chart annotations summary",descriptionSinglePoint:"{annotationText}. Related to {annotationPoint}",descriptionMultiplePoints:"{annotationText}. Related to {annotationPoint}{#each additionalAnnotationPoints}, also related to {this}{/each}",descriptionNoPoints:"{annotationText}"},endOfChartMarker:"End of interactive chart."},sonification:{playAsSoundButtonText:"Play as sound, {chartTitle}",playAsSoundClickAnnouncement:"Play"},legend:{legendLabelNoTitle:"Toggle series visibility, {chartTitle}",legendLabel:"Chart legend: {legendTitle}",legendItem:"Show {itemName}"},zoom:{mapZoomIn:"Zoom chart",mapZoomOut:"Zoom out chart",resetZoomButton:"Reset zoom"},rangeSelector:{dropdownLabel:"{rangeTitle}",minInputLabel:"Select start date.",maxInputLabel:"Select end date.",clickButtonAnnouncement:"Viewing {axisRangeDescription}"},navigator:{handleLabel:"{#eq handleIx 0}Start, percent{else}End, percent{/eq}",groupLabel:"Axis zoom",changeAnnouncement:"{axisRangeDescription}"},table:{viewAsDataTableButtonText:"View as data table, {chartTitle}",tableSummary:"Table representation of chart."},announceNewData:{newDataAnnounce:"Updated data for chart {chartTitle}",newSeriesAnnounceSingle:"New data series: {seriesDesc}",newPointAnnounceSingle:"New data point: {pointDesc}",newSeriesAnnounceMultiple:"New data series in chart {chartTitle}: {seriesDesc}",newPointAnnounceMultiple:"New data point in chart {chartTitle}: {pointDesc}"},seriesTypeDescriptions:{boxplot:"Box plot charts are typically used to display groups of statistical data. Each data point in the chart can have up to 5 values: minimum, lower quartile, median, upper quartile, and maximum.",arearange:"Arearange charts are line charts displaying a range between a lower and higher value for each point.",areasplinerange:"These charts are line charts displaying a range between a lower and higher value for each point.",bubble:"Bubble charts are scatter charts where each data point also has a size value.",columnrange:"Columnrange charts are column charts displaying a range between a lower and higher value for each point.",errorbar:"Errorbar series are used to display the variability of the data.",funnel:"Funnel charts are used to display reduction of data in stages.",pyramid:"Pyramid charts consist of a single pyramid with item heights corresponding to each point value.",waterfall:"A waterfall chart is a column chart where each column contributes towards a total end value."},chartTypes:{emptyChart:"Empty chart",mapTypeDescription:"Map of {mapTitle} with {numSeries} data series.",unknownMap:"Map of unspecified region with {numSeries} data series.",combinationChart:"Combination chart with {numSeries} data series.",defaultSingle:"Chart with {numPoints} data {#eq numPoints 1}point{else}points{/eq}.",defaultMultiple:"Chart with {numSeries} data series.",splineSingle:"Line chart with {numPoints} data {#eq numPoints 1}point{else}points{/eq}.",splineMultiple:"Line chart with {numSeries} lines.",lineSingle:"Line chart with {numPoints} data {#eq numPoints 1}point{else}points{/eq}.",lineMultiple:"Line chart with {numSeries} lines.",columnSingle:"Bar chart with {numPoints} {#eq numPoints 1}bar{else}bars{/eq}.",columnMultiple:"Bar chart with {numSeries} data series.",barSingle:"Bar chart with {numPoints} {#eq numPoints 1}bar{else}bars{/eq}.",barMultiple:"Bar chart with {numSeries} data series.",pieSingle:"Pie chart with {numPoints} {#eq numPoints 1}slice{else}slices{/eq}.",pieMultiple:"Pie chart with {numSeries} pies.",scatterSingle:"Scatter chart with {numPoints} {#eq numPoints 1}point{else}points{/eq}.",scatterMultiple:"Scatter chart with {numSeries} data series.",boxplotSingle:"Boxplot with {numPoints} {#eq numPoints 1}box{else}boxes{/eq}.",boxplotMultiple:"Boxplot with {numSeries} data series.",bubbleSingle:"Bubble chart with {numPoints} {#eq numPoints 1}bubbles{else}bubble{/eq}.",bubbleMultiple:"Bubble chart with {numSeries} data series."},axis:{xAxisDescriptionSingular:"The chart has 1 X axis displaying {names[0]}. {ranges[0]}",xAxisDescriptionPlural:"The chart has {numAxes} X axes displaying {#each names}{#unless @first},{/unless}{#if @last} and{/if} {this}{/each}.",yAxisDescriptionSingular:"The chart has 1 Y axis displaying {names[0]}. {ranges[0]}",yAxisDescriptionPlural:"The chart has {numAxes} Y axes displaying {#each names}{#unless @first},{/unless}{#if @last} and{/if} {this}{/each}.",timeRangeDays:"Data range: {range} days.",timeRangeHours:"Data range: {range} hours.",timeRangeMinutes:"Data range: {range} minutes.",timeRangeSeconds:"Data range: {range} seconds.",rangeFromTo:"Data ranges from {rangeFrom} to {rangeTo}.",rangeCategories:"Data range: {numCategories} categories."},exporting:{chartMenuLabel:"Chart menu",menuButtonLabel:"View chart menu, {chartTitle}"},series:{summary:{default:"{series.name}, series {seriesNumber} of {chart.series.length} with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",defaultCombination:"{series.name}, series {seriesNumber} of {chart.series.length} with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",line:"{series.name}, line {seriesNumber} of {chart.series.length} with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",lineCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Line with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",spline:"{series.name}, line {seriesNumber} of {chart.series.length} with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",splineCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Line with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",column:"{series.name}, bar series {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}bar{else}bars{/eq}.",columnCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Bar series with {series.points.length} {#eq series.points.length 1}bar{else}bars{/eq}.",bar:"{series.name}, bar series {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}bar{else}bars{/eq}.",barCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Bar series with {series.points.length} {#eq series.points.length 1}bar{else}bars{/eq}.",pie:"{series.name}, pie {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}slice{else}slices{/eq}.",pieCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Pie with {series.points.length} {#eq series.points.length 1}slice{else}slices{/eq}.",scatter:"{series.name}, scatter plot {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}point{else}points{/eq}.",scatterCombination:"{series.name}, series {seriesNumber} of {chart.series.length}, scatter plot with {series.points.length} {#eq series.points.length 1}point{else}points{/eq}.",boxplot:"{series.name}, boxplot {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}box{else}boxes{/eq}.",boxplotCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Boxplot with {series.points.length} {#eq series.points.length 1}box{else}boxes{/eq}.",bubble:"{series.name}, bubble series {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}bubble{else}bubbles{/eq}.",bubbleCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Bubble series with {series.points.length} {#eq series.points.length 1}bubble{else}bubbles{/eq}.",map:"{series.name}, map {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}area{else}areas{/eq}.",mapCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Map with {series.points.length} {#eq series.points.length 1}area{else}areas{/eq}.",mapline:"{series.name}, line {seriesNumber} of {chart.series.length} with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",maplineCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Line with {series.points.length} data {#eq series.points.length 1}point{else}points{/eq}.",mapbubble:"{series.name}, bubble series {seriesNumber} of {chart.series.length} with {series.points.length} {#eq series.points.length 1}bubble{else}bubbles{/eq}.",mapbubbleCombination:"{series.name}, series {seriesNumber} of {chart.series.length}. Bubble series with {series.points.length} {#eq series.points.length 1}bubble{else}bubbles{/eq}."},description:"{description}",xAxisDescription:"X axis, {name}",yAxisDescription:"Y axis, {name}",nullPointValue:"No value",pointAnnotationsDescription:"{#each annotations}Annotation: {this}{/each}"}}}}),i(t,"Accessibility/Options/DeprecatedOptions.js",[t["Core/Utilities.js"]],function(e){let{error:t,pick:i}=e;function s(e,t,s){let n=e,r,o=0;for(;o<t.length-1;++o)n=n[r=t[o]]=i(n[r],{});n[t[t.length-1]]=s}function n(e,i,n,r){function o(e,t){return t.reduce(function(e,t){return e[t]},e)}let a=o(e.options,i),l=o(e.options,n);Object.keys(r).forEach(function(o){let h=a[o];void 0!==h&&(s(l,r[o],h),t(32,!1,e,{[i.join(".")+"."+o]:n.join(".")+"."+r[o].join(".")}))})}return function(e){(function(e){let i=e.options.chart,s=e.options.accessibility||{};["description","typeDescription"].forEach(function(n){i[n]&&(s[n]=i[n],t(32,!1,e,{[`chart.${n}`]:`use accessibility.${n}`}))})})(e),function(e){e.axes.forEach(function(i){let s=i.options;s&&s.description&&(s.accessibility=s.accessibility||{},s.accessibility.description=s.description,t(32,!1,e,{"axis.description":"use axis.accessibility.description"}))})}(e),e.series&&function(e){let i={description:["accessibility","description"],exposeElementToA11y:["accessibility","exposeAsGroupOnly"],pointDescriptionFormatter:["accessibility","point","descriptionFormatter"],skipKeyboardNavigation:["accessibility","keyboardNavigation","enabled"],"accessibility.pointDescriptionFormatter":["accessibility","point","descriptionFormatter"]};e.series.forEach(function(n){Object.keys(i).forEach(function(r){let o=n.options[r];"accessibility.pointDescriptionFormatter"===r&&(o=n.options.accessibility&&n.options.accessibility.pointDescriptionFormatter),void 0!==o&&(s(n.options,i[r],"skipKeyboardNavigation"===r?!o:o),t(32,!1,e,{[`series.${r}`]:"series."+i[r].join(".")}))})})}(e),n(e,["accessibility"],["accessibility"],{pointDateFormat:["point","dateFormat"],pointDateFormatter:["point","dateFormatter"],pointDescriptionFormatter:["point","descriptionFormatter"],pointDescriptionThreshold:["series","pointDescriptionEnabledThreshold"],pointNavigationThreshold:["keyboardNavigation","seriesNavigation","pointNavigationEnabledThreshold"],pointValueDecimals:["point","valueDecimals"],pointValuePrefix:["point","valuePrefix"],pointValueSuffix:["point","valueSuffix"],screenReaderSectionFormatter:["screenReaderSection","beforeChartFormatter"],describeSingleSeries:["series","describeSingleSeries"],seriesDescriptionFormatter:["series","descriptionFormatter"],onTableAnchorClick:["screenReaderSection","onViewDataTableClick"],axisRangeDateFormat:["screenReaderSection","axisRangeDateFormat"]}),n(e,["accessibility","keyboardNavigation"],["accessibility","keyboardNavigation","seriesNavigation"],{skipNullPoints:["skipNullPoints"],mode:["mode"]}),n(e,["lang","accessibility"],["lang","accessibility"],{legendItem:["legend","legendItem"],legendLabel:["legend","legendLabel"],mapZoomIn:["zoom","mapZoomIn"],mapZoomOut:["zoom","mapZoomOut"],resetZoomButton:["zoom","resetZoomButton"],screenReaderRegionLabel:["screenReaderSection","beforeRegionLabel"],rangeSelectorButton:["rangeSelector","buttonText"],rangeSelectorMaxInput:["rangeSelector","maxInputLabel"],rangeSelectorMinInput:["rangeSelector","minInputLabel"],svgContainerEnd:["screenReaderSection","endOfChartMarker"],viewAsDataTable:["table","viewAsDataTableButtonText"],tableSummary:["table","tableSummary"]})}}),i(t,"Accessibility/Accessibility.js",[t["Core/Defaults.js"],t["Core/Globals.js"],t["Core/Utilities.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Accessibility/A11yI18n.js"],t["Accessibility/Components/ContainerComponent.js"],t["Accessibility/FocusBorder.js"],t["Accessibility/Components/InfoRegionsComponent.js"],t["Accessibility/KeyboardNavigation.js"],t["Accessibility/Components/LegendComponent.js"],t["Accessibility/Components/MenuComponent.js"],t["Accessibility/Components/NavigatorComponent.js"],t["Accessibility/Components/SeriesComponent/NewDataAnnouncer.js"],t["Accessibility/ProxyProvider.js"],t["Accessibility/Components/RangeSelectorComponent.js"],t["Accessibility/Components/SeriesComponent/SeriesComponent.js"],t["Accessibility/Components/ZoomComponent.js"],t["Accessibility/HighContrastMode.js"],t["Accessibility/HighContrastTheme.js"],t["Accessibility/Options/A11yDefaults.js"],t["Accessibility/Options/LangDefaults.js"],t["Accessibility/Options/DeprecatedOptions.js"]],function(e,t,i,s,n,r,o,a,l,h,c,d,u,p,g,m,b,y,f,x,v,A){let{defaultOptions:C}=e,{doc:w}=t,{addEvent:E,extend:T,fireEvent:M,merge:S}=i,{removeElement:k}=s;class P{constructor(e){this.init(e)}init(e){if(this.chart=e,!w.addEventListener){this.zombie=!0,this.components={},e.renderTo.setAttribute("aria-hidden",!0);return}A(e),this.proxyProvider=new p(this.chart),this.initComponents(),this.keyboardNavigation=new l(e,this.components)}initComponents(){let e=this.chart,t=this.proxyProvider,i=e.options.accessibility;this.components={container:new r,infoRegions:new a,legend:new h,chartMenu:new c,rangeSelector:new g,series:new m,zoom:new b,navigator:new d},i.customComponents&&T(this.components,i.customComponents);let s=this.components;this.getComponentOrder().forEach(function(i){s[i].initBase(e,t),s[i].init()})}getComponentOrder(){return this.components?this.components.series?["series"].concat(Object.keys(this.components).filter(e=>"series"!==e)):Object.keys(this.components):[]}update(){let e=this.components,t=this.chart,i=t.options.accessibility;M(t,"beforeA11yUpdate"),t.types=this.getChartTypes();let s=i.keyboardNavigation.order;this.proxyProvider.updateGroupOrder(s),this.getComponentOrder().forEach(function(i){e[i].onChartUpdate(),M(t,"afterA11yComponentUpdate",{name:i,component:e[i]})}),this.keyboardNavigation.update(s),!t.highContrastModeActive&&!1!==i.highContrastMode&&(y.isHighContrastModeActive()||!0===i.highContrastMode)&&y.setHighContrastTheme(t),M(t,"afterA11yUpdate",{accessibility:this})}destroy(){let e=this.chart||{},t=this.components;Object.keys(t).forEach(function(e){t[e].destroy(),t[e].destroyBase()}),this.proxyProvider&&this.proxyProvider.destroy(),e.announcerContainer&&k(e.announcerContainer),this.keyboardNavigation&&this.keyboardNavigation.destroy(),e.renderTo&&e.renderTo.setAttribute("aria-hidden",!0),e.focusElement&&e.focusElement.removeFocusBorder()}getChartTypes(){let e={};return this.chart.series.forEach(function(t){e[t.type]=1}),Object.keys(e)}}return function(e){function t(){this.accessibility&&this.accessibility.destroy()}function i(){this.a11yDirty&&this.renderTo&&(delete this.a11yDirty,this.updateA11yEnabled());let e=this.accessibility;e&&!e.zombie&&(e.proxyProvider.updateProxyElementPositions(),e.getComponentOrder().forEach(function(t){e.components[t].onChartRender()}))}function s(e){let t=e.options.accessibility;t&&(t.customComponents&&(this.options.accessibility.customComponents=t.customComponents,delete t.customComponents),S(!0,this.options.accessibility,t),this.accessibility&&this.accessibility.destroy&&(this.accessibility.destroy(),delete this.accessibility)),this.a11yDirty=!0}function r(){let t=this.accessibility,i=this.options.accessibility,s=this.renderer.boxWrapper.element,n=this.title;if(i&&i.enabled)t&&!t.zombie?t.update():(this.accessibility=t=new e(this),t&&!t.zombie&&t.update(),"img"===s.getAttribute("role")&&s.removeAttribute("role"));else if(t)t.destroy&&t.destroy(),delete this.accessibility;else{this.renderTo.setAttribute("role","img"),this.renderTo.setAttribute("aria-hidden",!1),this.renderTo.setAttribute("aria-label",(n&&n.element.textContent||"").replace(/</g,"&lt;")),s.setAttribute("aria-hidden",!0);let e=document.getElementsByClassName("highcharts-description")[0];e&&(e.setAttribute("aria-hidden",!1),e.classList.remove("highcharts-linked-description"))}}function a(){this.series.chart.accessibility&&(this.series.chart.a11yDirty=!0)}e.i18nFormat=n.i18nFormat,e.compose=function(e,d,p,b,y,f){l.compose(e),u.compose(b),h.compose(e,d),c.compose(e),m.compose(e,p,b),n.compose(e),o.compose(e,y),f&&g.compose(e,f);let x=e.prototype;x.updateA11yEnabled||(x.updateA11yEnabled=r,E(e,"destroy",t),E(e,"render",i),E(e,"update",s),["addSeries","init"].forEach(t=>{E(e,t,function(){this.a11yDirty=!0})}),["afterApplyDrilldown","drillupall"].forEach(t=>{E(e,t,function(){let e=this.accessibility;e&&!e.zombie&&e.update()})}),E(p,"update",a),["update","updatedData","remove"].forEach(e=>{E(b,e,function(){this.chart.accessibility&&(this.chart.a11yDirty=!0)})}))}}(P||(P={})),S(!0,C,x,{accessibility:{highContrastTheme:f},lang:v}),P}),i(t,"masters/modules/accessibility.src.js",[t["Core/Globals.js"],t["Accessibility/Accessibility.js"],t["Accessibility/AccessibilityComponent.js"],t["Accessibility/Utils/ChartUtilities.js"],t["Accessibility/Utils/HTMLUtilities.js"],t["Accessibility/KeyboardNavigationHandler.js"],t["Accessibility/Components/SeriesComponent/SeriesDescriber.js"]],function(e,t,i,s,n,r,o){return e.i18nFormat=t.i18nFormat,e.A11yChartUtilities=s,e.A11yHTMLUtilities=n,e.AccessibilityComponent=i,e.KeyboardNavigationHandler=r,e.SeriesAccessibilityDescriber=o,t.compose(e.Chart,e.Legend,e.Point,e.Series,e.SVGElement,e.RangeSelector),e})});
 
 /***/ }),
 
@@ -10515,6 +10535,1418 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/components/business-level-carbon-emissions-overview.tsx":
+/*!*********************************************************************!*\
+  !*** ./src/components/business-level-carbon-emissions-overview.tsx ***!
+  \*********************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
+const recharts_1 = __webpack_require__(/*! recharts */ "recharts");
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const highcharts_1 = __importDefault(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
+const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
+const Business_Level_Carbon_Emissions_Overview = (props) => {
+    let toast = (0, components_1.useToast)();
+    let [ClientFilter, setClientFilter] = react_1.default.useState('0');
+    let [MainUnitFilter, setMainUnitFilter] = react_1.default.useState('0');
+    let [SubUnitFilter, setSubUnitFilter] = react_1.default.useState('0');
+    let [ClientFilterList, setClientFilterList] = react_1.default.useState([]);
+    let [MainUnitFilterList, setMainUnitFilterList] = react_1.default.useState([]);
+    let [SubUnitFilterList, setSubUnitFilterList] = react_1.default.useState([]);
+    react_1.default.useEffect(() => {
+        getClientListFilter();
+    }, []);
+    function getClientListFilter() {
+        var _a;
+        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true }).then(res => {
+            let result = res;
+            //debugger
+            setClientFilterList(result);
+            setClientFilter(result[0].ClientKey);
+        }).catch(e => {
+            console.log("except: ", e);
+            toast.error("Something went wrong" + e);
+        });
+    }
+    react_1.default.useEffect(() => {
+        if (ClientFilter != '0') {
+            getBusinessUnitsFilter();
+        }
+    }, [ClientFilter]);
+    function getBusinessUnitsFilter() {
+        var _a;
+        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: '0' }, { json: true }).then(res => {
+            let result = res;
+            var filteredArray = result.filter(function (itm) {
+                return itm.ParentKey == '';
+            });
+            setMainUnitFilterList(filteredArray);
+            setMainUnitFilter(filteredArray[0].BusinessUnitKey);
+            //debugger
+        }).catch(e => {
+            console.log("except: ", e);
+            toast.error("Something went wrong" + e);
+        });
+    }
+    react_1.default.useEffect(() => {
+        if (MainUnitFilter != '0') {
+            getSubBusinessUnitsFilter();
+        }
+    }, [MainUnitFilter]);
+    function getSubBusinessUnitsFilter() {
+        var _a;
+        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: MainUnitFilter }, { json: true }).then(res => {
+            let result = res;
+            if (result.length > 0) {
+                setSubUnitFilterList(result);
+                setSubUnitFilter(result[0].BusinessUnitKey);
+            }
+            else {
+                setSubUnitFilterList([]);
+                setSubUnitFilter("0");
+            }
+        }).catch(e => {
+            console.log("except: ", e);
+            toast.error("Something went wrong" + e);
+        });
+    }
+    const [startYear, setStartYear] = (0, react_1.useState)(2024);
+    const [startMonth, setStartMonth] = (0, react_1.useState)(7);
+    const [endYear, setEndYear] = (0, react_1.useState)(2024);
+    const [endMonth, setEndMonth] = (0, react_1.useState)(12);
+    const Years = GetYears();
+    function GetYears() {
+        const currentYear = new Date().getFullYear();
+        const yearList = [];
+        for (let year = currentYear - 5; year <= currentYear + 5; year++) {
+            yearList.push({ Label: year, Value: year });
+        }
+        return yearList;
+    }
+    ;
+    const months = [
+        { Value: '1', Label: 'January' },
+        { Value: '2', Label: 'February' },
+        { Value: '3', Label: 'March' },
+        { Value: '4', Label: 'April' },
+        { Value: '5', Label: 'May' },
+        { Value: '6', Label: 'June' },
+        { Value: '7', Label: 'July' },
+        { Value: '8', Label: 'August' },
+        { Value: '9', Label: 'September' },
+        { Value: '10', Label: 'October' },
+        { Value: '11', Label: 'November' },
+        { Value: '12', Label: 'December' }
+    ];
+    let [scopedata, setScopeData] = (0, react_1.useState)([]);
+    (0, react_1.useEffect)(() => {
+        getScopeData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
+        getScopeEmissionBreakdownData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
+        getScopewisePopUpData(SubUnitFilter !== '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
+        getCategorywiseEmissionOverview(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
+        getcategorywisePopUpData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
+    }, [startYear, startMonth, endYear, endMonth, SubUnitFilter, MainUnitFilter]);
+    const colorMap = {
+        'Scope 1': '#537453',
+        'Scope 2': '#486e76',
+        'Scope 3': '#b98056',
+    };
+    function getScopeData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseOverview", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
+            .then((res) => {
+            console.log("response", res);
+            setScopeData(res);
+        })
+            .catch((e) => {
+            console.error("Error fetching scope data", e);
+        });
+    }
+    const getClassName = (scopeKey) => {
+        switch (scopeKey) {
+            case "1":
+                return "green-scope-box";
+            case "2":
+                return "blue-scope-box";
+            case "3":
+                return "orange-scope-box";
+            case "4":
+                return "green_blue-scope-box";
+            case "5":
+                return "green_blue_orange-scope-box";
+            default:
+                return "scope-box";
+        }
+    };
+    let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = (0, react_1.useState)([]);
+    function getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
+            .then((res) => {
+            console.log("response", res);
+            setScopeEmissionBreakdowndata(res);
+        })
+            .catch((e) => {
+            console.error("Error fetching scope data", e);
+        });
+    }
+    const groupedScopeEmissionBreakdowndata = (0, react_1.useMemo)(() => {
+        const groupedData = scopeEmissionBreakdowndata.reduce((acc, item) => {
+            const scopeKey = item.ScopeKey;
+            const carbonEmission = parseFloat(item.CarbonEmission) || 0;
+            if (scopeKey && carbonEmission > 0) {
+                if (acc[scopeKey]) {
+                    acc[scopeKey] += carbonEmission;
+                }
+                else {
+                    acc[scopeKey] = carbonEmission;
+                }
+            }
+            return acc;
+        }, {});
+        return Object.keys(groupedData).map(scopeKey => ({
+            name: `Scope ${scopeKey}`,
+            y: parseFloat(groupedData[scopeKey].toFixed(2)),
+            color: colorMap[`Scope ${scopeKey}`]
+        }));
+    }, [scopeEmissionBreakdowndata]);
+    const chartData = groupedScopeEmissionBreakdowndata;
+    const scope_options = {
+        chart: {
+            type: "pie",
+            height: "80%",
+            margin: [20, 10, 0, 10],
+        },
+        title: {
+            text: "",
+        },
+        tooltip: {
+            pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e"
+        },
+        plotOptions: {
+            pie: {
+                innerSize: '60%',
+                depth: 40,
+                dataLabels: {
+                    enabled: true,
+                    format: "{point.name}: {point.y:.2f} kgCO2e",
+                },
+                showInLegend: true
+            }
+        },
+        legend: {
+            enabled: true,
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            itemMarginTop: 1,
+        },
+        credits: {
+            enabled: false,
+        },
+        series: [{
+                name: 'Emissions',
+                colorByPoint: true,
+                data: chartData
+            }]
+    };
+    let [showModal, setShowModal] = react_1.default.useState(false);
+    let [modelData, setModelData] = react_1.default.useState(null);
+    function handleClick() {
+        console.log("Button clicked");
+        setShowModal(true);
+        setModelData({});
+    }
+    const handleCloseModal = () => {
+        setShowModal(false);
+        setModelData(null);
+    };
+    const [scopewisePopUpData, setScopewisePopUpData] = (0, react_1.useState)([]);
+    const getScopewisePopUpData = (BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) => {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdownPopup", {
+            BusinessUnitKey,
+            StartYear,
+            StartMonth,
+            EndYear,
+            EndMonth
+        }, { json: true }).then(res => {
+            setScopewisePopUpData(processScopeData(res));
+        }).catch(e => {
+            console.error("Error fetching data", e);
+        });
+    };
+    const processScopeData = (data) => {
+        const groupedData = {};
+        data.forEach(item => {
+            const month = item.MonthString;
+            if (!groupedData[month]) {
+                groupedData[month] = { Scope1: 0, Scope2: 0, Scope3: 0 };
+            }
+            const emission = parseFloat(item.CarbonEmission);
+            if (item.ScopeKey === "1") {
+                groupedData[month].Scope1 += emission;
+            }
+            else if (item.ScopeKey === "2") {
+                groupedData[month].Scope2 += emission;
+            }
+            else if (item.ScopeKey === "3") {
+                groupedData[month].Scope3 += emission;
+            }
+        });
+        return Object.keys(groupedData).map(month => ({
+            Year: "",
+            Month: "",
+            MonthString: month,
+            ScopeKey: "",
+            ScopeName: "",
+            CarbonEmission: (groupedData[month].Scope1 +
+                groupedData[month].Scope2 +
+                groupedData[month].Scope3).toFixed(2),
+            Scope1: groupedData[month].Scope1.toFixed(2),
+            Scope2: groupedData[month].Scope2.toFixed(2),
+            Scope3: groupedData[month].Scope3.toFixed(2)
+        })).filter(item => {
+            return parseFloat(item.CarbonEmission) > 0;
+        });
+    };
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const filteredData = scopewisePopUpData.filter(data => parseFloat(data.CarbonEmission) > 0);
+    const categories = monthNames.filter((_, index) => filteredData.some(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index));
+    const scope1Data = monthNames.map((_, index) => {
+        const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+        return dataForMonth ? parseFloat(dataForMonth.Scope1) : 0;
+    }).filter(value => value > 0);
+    const scope2Data = monthNames.map((_, index) => {
+        const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+        return dataForMonth ? parseFloat(dataForMonth.Scope2) : 0;
+    }).filter(value => value > 0);
+    const scope3Data = monthNames.map((_, index) => {
+        const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+        return dataForMonth ? parseFloat(dataForMonth.Scope3) : 0;
+    }).filter(value => value > 0);
+    const chartScopeBarOptions = {
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Carbon Emissions by Scope'
+        },
+        xAxis: {
+            categories: categories.length > 0 ? categories : ['No Data'],
+            title: {
+                text: ""
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Carbon Emissions (kgCO2e)',
+                align: 'high'
+            },
+            labels: {
+                overflow: 'justify'
+            }
+        },
+        tooltip: {
+            pointFormat: "<b>{series.name}</b>: {point.y:.2f} kgCO2e<br/>Total: {point.stackTotal:.2f} kgCO2e"
+        },
+        credits: {
+            enabled: false,
+        },
+        plotOptions: {
+            column: {
+                stacking: 'normal',
+                dataLabels: {
+                    enabled: true,
+                    format: "{point.y:.2f} kgCO2e"
+                }
+            }
+        },
+        series: [
+            {
+                name: 'Scope 1',
+                data: scope1Data,
+                color: '#4c6a48'
+            },
+            {
+                name: 'Scope 2',
+                data: scope2Data,
+                color: '#466f81'
+            },
+            {
+                name: 'Scope 3',
+                data: scope3Data,
+                color: '#b97244'
+            }
+        ]
+    };
+    let [selected, setSelected] = react_1.default.useState("op-1");
+    let [selected1, setSelected1] = react_1.default.useState("op-1");
+    let [selected2, setSelected2] = react_1.default.useState("op-1");
+    let [showModal1, setShowModal1] = react_1.default.useState(false);
+    let [modelData1, setModelData1] = react_1.default.useState(null);
+    function handleClick1() {
+        console.log("Button clicked");
+        setShowModal1(true);
+        setModelData1({});
+    }
+    const handleCloseModal1 = () => {
+        setShowModal1(false);
+        setModelData1(null);
+    };
+    let [categorywiseEmissionOverviewdata, setCategorywiseEmissionOverviewdata] = (0, react_1.useState)([]);
+    function getCategorywiseEmissionOverview(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
+        var _a;
+        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true }).then((res) => {
+            console.log("response", res);
+            setCategorywiseEmissionOverviewdata(res);
+        }).catch((e) => {
+            console.error("Error fetching scope data", e);
+        });
+    }
+    const lightenColor = (hex, percent) => {
+        let r = parseInt(hex.slice(1, 3), 16);
+        let g = parseInt(hex.slice(3, 5), 16);
+        let b = parseInt(hex.slice(5, 7), 16);
+        r = Math.min(255, Math.floor(r + (255 - r) * percent));
+        g = Math.min(255, Math.floor(g + (255 - g) * percent));
+        b = Math.min(255, Math.floor(b + (255 - b) * percent));
+        return `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
+    };
+    const groupedData = categorywiseEmissionOverviewdata.reduce((acc, item) => {
+        const scopeIndex = acc.findIndex((scope) => scope.name === item.ScopeName);
+        const emissionValue = Number(item.CarbonEmission) > 0 ? Number(item.CarbonEmission) : 0;
+        if (scopeIndex !== -1) {
+            acc[scopeIndex].children.push({
+                name: item.ActivityCategorytableName,
+                value: emissionValue,
+                color: colorMap[item.ScopeName],
+            });
+        }
+        else {
+            acc.push({
+                name: item.ScopeName,
+                ScopeKey: item.ScopeKey,
+                children: [
+                    {
+                        name: item.ActivityCategorytableName,
+                        value: emissionValue,
+                        color: lightenColor(colorMap[item.ScopeName], 0.3),
+                    },
+                ],
+            });
+        }
+        return acc;
+    }, []);
+    const innerSeriesData = groupedData.map((scope) => ({
+        name: scope.name,
+        y: scope.children.reduce((acc, child) => acc + child.value, 0),
+        color: colorMap[scope.name],
+    }));
+    const outerSeriesData = groupedData.reduce((acc, scope) => {
+        const childrenCount = scope.children.length;
+        return acc.concat(scope.children.map((child, index) => {
+            const lighteningFactor = (index / (childrenCount - 1)) * 0.5;
+            const childColor = lightenColor(colorMap[scope.name], lighteningFactor);
+            return {
+                name: child.name,
+                y: child.value,
+                color: childColor,
+            };
+        }));
+    }, []);
+    const CategorywiseValueZero = groupedData.every((scope) => scope.children.every((child) => child.value === 0));
+    const options = {
+        chart: {
+            type: "pie",
+            height: "50%",
+            margin: [10, 10, 0, 10],
+        },
+        title: {
+            text: "",
+        },
+        plotOptions: {
+            pie: {
+                innerSize: "40%",
+                dataLabels: {
+                    enabled: true,
+                    format: "{point.name}: {point.y:.2f} kgCO2e",
+                    filter: {
+                        property: 'y',
+                        operator: '>',
+                        value: 0,
+                    },
+                },
+            },
+        },
+        series: [
+            {
+                name: "Scopes",
+                colorByPoint: false,
+                size: '60%',
+                data: innerSeriesData,
+                dataLabels: {
+                    distance: -30,
+                },
+            },
+            {
+                name: "Subcategories",
+                colorByPoint: false,
+                innerSize: '60%',
+                size: '95%',
+                data: outerSeriesData,
+                dataLabels: {
+                    distance: 10,
+                    filter: {
+                        property: 'y',
+                        operator: '>',
+                        value: 0,
+                    },
+                },
+            },
+        ],
+        tooltip: {
+            pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e"
+        },
+        credits: {
+            enabled: false,
+        },
+    };
+    let [categorywisePopUpData, setCategorywisePopUpData] = react_1.default.useState([]);
+    function getcategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionOverview", { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth }, { json: true }).then(res => {
+            console.log("data", res);
+            setCategorywisePopUpData(res);
+        }).catch(e => {
+            // console.log("hi", e);
+        });
+    }
+    const categorytableName = categorywisePopUpData.map((item) => item.ActivityCategorytableName);
+    const seriesData = categorywisePopUpData.map((item) => parseFloat(item.CarbonEmission));
+    const chartCategorywiseOptions = {
+        chart: {
+            type: "column",
+        },
+        title: {
+            text: "",
+        },
+        xAxis: {
+            categories: categorytableName,
+            title: {
+                text: "",
+            },
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: "Carbon Emissions (kgCO2e)",
+            },
+            labels: {
+                format: "{value} kgCO2e",
+            },
+        },
+        tooltip: {
+            pointFormat: "<b>{point.y:.2f} kgCO2e</b>",
+        },
+        series: [
+            {
+                name: "Carbon Emissions",
+                data: seriesData,
+                color: "#4c6a48", // Color for the columns
+            },
+        ],
+        plotOptions: {
+            column: {
+                dataLabels: {
+                    enabled: true,
+                    format: "{point.y:.2f} kgCO2e",
+                },
+            },
+        },
+        legend: {
+            enabled: false,
+        },
+        credits: {
+            enabled: false,
+        },
+    };
+    return (react_1.default.createElement(components_1.WidgetWrapper, null,
+        react_1.default.createElement(components_1.TitleBar, { title: 'Business-Level Carbon Emissions Overview', icon: "https://static.iviva.com/images/Udhayimages/alert-trends.png" },
+            react_1.default.createElement("div", { className: "top-filter" },
+                react_1.default.createElement("div", { className: "select-filter" },
+                    react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
+                        react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                            react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                            react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
+                        react_1.default.createElement("label", null, "To"),
+                        react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                            react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                            react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
+                react_1.default.createElement(components_1.FilterPanel, null,
+                    react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                    react_1.default.createElement("br", null),
+                    react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
+                    react_1.default.createElement("br", null),
+                    react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null })))),
+        react_1.default.createElement("div", { className: "scope-overall" }, scopedata.length > 0 ? (react_1.default.createElement(react_1.default.Fragment, null, scopedata.map((scope, index) => (react_1.default.createElement("div", { key: index, className: `scope-box ${getClassName(scope.ScopeKey)}` },
+            react_1.default.createElement("h4", null, scope.ScopeName),
+            react_1.default.createElement("h3", null,
+                Number(scope.CurrentEmission || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+                " ",
+                react_1.default.createElement("span", null,
+                    "tCO",
+                    react_1.default.createElement("em", null, "2"),
+                    "e")),
+            react_1.default.createElement("div", { className: "scope-bottom" },
+                react_1.default.createElement("em", null, scope.PrevEmission ? `${Number(scope.PrevEmission).toFixed(2)} %` : "0%"),
+                react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` }))))))) : (react_1.default.createElement("p", null, "Loading data..."))),
+        react_1.default.createElement("div", { style: { display: "inline-flex", padding: "3em 3em" } },
+            react_1.default.createElement("div", { className: "emi-breakdown", style: { display: "inline-block", width: "40%", height: "38em", margin: "0 1.5em 0 0" } },
+                react_1.default.createElement(components_1.WidgetWrapper, null,
+                    react_1.default.createElement(components_1.TitleBar, { title: 'Scope-wise Total Emission Breakdown' }),
+                    react_1.default.createElement("div", { className: "scopewise-chart" },
+                        react_1.default.createElement("div", { className: "chart" },
+                            react_1.default.createElement(react_1.default.Fragment, null, groupedScopeEmissionBreakdowndata.length === 0 || groupedScopeEmissionBreakdowndata.every(item => item.y === 0) ? (react_1.default.createElement("div", { style: { textAlign: "center", padding: "30% 0" } },
+                                react_1.default.createElement("h3", null, "No Data Available"))) : (react_1.default.createElement(react_1.default.Fragment, null,
+                                react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: scope_options }),
+                                react_1.default.createElement("div", { className: "view-more" },
+                                    react_1.default.createElement(components_1.Button, { title: "View More", onClick: handleClick })))))),
+                        react_1.default.createElement(components_1.Modal, { className: "popup", title: "Scope-Wise Operational Carbon Emissions Overview", show: showModal, onClose: handleCloseModal },
+                            react_1.default.createElement("div", { id: "my_Popup" },
+                                react_1.default.createElement("div", { className: "top-filter" },
+                                    react_1.default.createElement("div", { className: "select-filter" },
+                                        react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
+                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                                                react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                                react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
+                                            react_1.default.createElement("label", null, "To"),
+                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                                                react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                                react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
+                                    react_1.default.createElement(components_1.FilterPanel, null,
+                                        react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                        react_1.default.createElement("br", null),
+                                        react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
+                                        react_1.default.createElement("br", null),
+                                        react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null }))),
+                                react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 400 },
+                                    react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: chartScopeBarOptions }))))))),
+            react_1.default.createElement("div", { className: "emi-breakdown", style: { display: "inline-block", width: "60%", height: "38em", margin: "0 0 0 1.5em" } },
+                react_1.default.createElement(components_1.WidgetWrapper, null,
+                    react_1.default.createElement(components_1.TitleBar, { title: 'Category-wise Total Emission Breakdown' }),
+                    react_1.default.createElement("div", { className: "scopewise-chart" },
+                        react_1.default.createElement("div", { className: "chart" }, CategorywiseValueZero ? (react_1.default.createElement("h3", { style: { textAlign: "center", padding: "23% 0px" } }, "No Data Available")) : (react_1.default.createElement(react_1.default.Fragment, null,
+                            react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: options }),
+                            react_1.default.createElement("div", { className: "view-more" },
+                                react_1.default.createElement(components_1.Button, { title: "View More", onClick: handleClick1 }))))),
+                        react_1.default.createElement(components_1.Modal, { className: "popup", title: "Scope-Wise Operational Carbon Emissions Overview", show: showModal1, onClose: handleCloseModal1 },
+                            react_1.default.createElement("div", { id: "my_Popup" },
+                                react_1.default.createElement("div", { className: "top-filter" },
+                                    react_1.default.createElement("div", { className: "select-filter" },
+                                        react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
+                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                                                react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                                react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
+                                            react_1.default.createElement("label", null, "To"),
+                                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                                                react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                                react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
+                                    react_1.default.createElement(components_1.FilterPanel, null,
+                                        react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                        react_1.default.createElement("br", null),
+                                        react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
+                                        react_1.default.createElement("br", null),
+                                        react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null }))),
+                                react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%" },
+                                    react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: chartCategorywiseOptions }))))))))));
+};
+exports["default"] = Business_Level_Carbon_Emissions_Overview;
+// import React, { useEffect, useState, useMemo  } from "react"; 
+// import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';  
+// import {  AreaChart, Area, ResponsiveContainer,  LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,  } from 'recharts';
+// import { useToast, DataList, WidgetWrapper, Button, DynamicSelect, SearchBox, Modal, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
+// import { ResponsivePie } from '@nivo/pie';   
+// import Highcharts from "highcharts";
+// import HighchartsReact from "highcharts-react-official"; 
+// interface IWidgetProps {
+//     uxpContext?: IContextProvider,
+//     instanceId?: string
+// }   
+// interface EmissionData {
+//     Year: string;
+//     Month: string;
+//     MonthString: string;
+//     ScopeKey: string;
+//     ScopeName: string;
+//     CarbonEmission: string;
+// } 
+// interface ScopePopupData {
+//     MonthString: string;
+//     Scope1: number;
+//     Scope2: number;
+//     Scope3: number;
+// } 
+// interface IDataItem {
+//     name: string;
+//     value: number;
+//     color?: string;  
+//   }
+// const Business_Level_Carbon_Emissions_Overview  : React.FunctionComponent<IWidgetProps> = (props) => { 
+// let toast = useToast();
+//     let [ClientFilter,setClientFilter] =  React.useState<string>('0');
+//     let [MainUnitFilter,setMainUnitFilter] =  React.useState<string>('0');
+//     let [SubUnitFilter,setSubUnitFilter] =  React.useState<string>('0');
+// let [ClientFilterList,setClientFilterList] =  React.useState<any[]>([]);
+//     let [MainUnitFilterList,setMainUnitFilterList] =  React.useState<any[]>([]);
+//     let [SubUnitFilterList,setSubUnitFilterList] =  React.useState<any[]>([]); 
+//     React.useEffect(()=>{
+//         getClientListFilter();
+//     },[])
+// function getClientListFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             //debugger
+//             setClientFilterList(result)
+//             setClientFilter(result[0].ClientKey)
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }
+//     React.useEffect(()=>{
+//         if(ClientFilter!='0'){
+//             getBusinessUnitsFilter()
+//         }
+//     },[ClientFilter])
+//     function getBusinessUnitsFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:'0'}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             var filteredArray = result.filter(function(itm:any){
+//                 return itm.ParentKey=='';
+//               });
+//             setMainUnitFilterList(filteredArray);
+//             setMainUnitFilter(filteredArray[0].BusinessUnitKey);
+//             //debugger
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }
+//     React.useEffect(()=>{
+//         if(MainUnitFilter!='0'){
+//             getSubBusinessUnitsFilter();
+//         }
+//     },[MainUnitFilter])
+//     function getSubBusinessUnitsFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:MainUnitFilter}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             if(result.length>0){
+//                 setSubUnitFilterList(result);
+//                 setSubUnitFilter(result[0].BusinessUnitKey);
+//             }else{
+//                 setSubUnitFilterList([]);
+//                 setSubUnitFilter("0");
+//             } 
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     } 
+//     const [startYear, setStartYear] = useState(2024);
+//     const [startMonth, setStartMonth] = useState(7);
+//     const [endYear, setEndYear] = useState(2024);
+//     const [endMonth, setEndMonth] = useState(12);
+//     const Years = GetYears();
+//     function GetYears(){
+//         const currentYear = new Date().getFullYear();
+//         const yearList = [];
+//         for (let year = currentYear - 5; year <= currentYear + 5; year++) {
+//             yearList.push({ Label: year, Value: year });
+//         }
+//         return yearList;
+//      }; 
+//     const months=[
+//         {Value:'1',Label:'January'},
+//         {Value:'2',Label:'February'},
+//         {Value:'3',Label:'March'},
+//         {Value:'4',Label:'April'},
+//         {Value:'5',Label:'May'},
+//         {Value:'6',Label:'June'},
+//         {Value:'7',Label:'July'},
+//         {Value:'8',Label:'August'},
+//         {Value:'9',Label:'September'},
+//         {Value:'10',Label:'October'},
+//         {Value:'11',Label:'November'},
+//         {Value:'12',Label:'December'}
+//      ]
+//     let [scopedata, setScopeData] = useState<any[]>([]);  
+//     useEffect(() => {
+//         getScopeData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//         getScopeEmissionBreakdownData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//         getScopewisePopUpData(SubUnitFilter !== '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth); 
+//         getCategorywiseEmissionOverview(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//         getcategorywisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//     },[startYear,startMonth,endYear,endMonth,SubUnitFilter,MainUnitFilter ])  
+//   function getScopeData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//     props.uxpContext.executeAction(
+//       "OrganizationalEmissionOverview-Dataprovider",
+//       "GetScopewiseOverview",
+//       { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
+//       { json: true }
+//     )
+//     .then((res: any) => {
+//       console.log("response", res);
+//       setScopeData(res);  
+//     })
+//     .catch((e: any) => {
+//       console.error("Error fetching scope data", e);
+//     });
+//   } 
+//   const getClassName = (scopeKey: string) => {
+//     switch (scopeKey) {
+//       case "1":
+//         return "green-scope-box";
+//       case "2":
+//         return "blue-scope-box";
+//       case "3":
+//         return "orange-scope-box";
+//      case "4":
+//         return "green_blue-scope-box";
+//      case "5":
+//         return "green_blue_orange-scope-box";
+//       default:
+//         return "scope-box"; 
+//     }
+//   }; 
+//   let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
+//   function getScopeEmissionBreakdownData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//     props.uxpContext.executeAction(
+//       "OrganizationalEmissionOverview-Dataprovider",
+//       "GetScopewiseEmissionBreakdown",
+//       { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
+//       { json: true }
+//     )
+//     .then((res: any) => {
+//       console.log("response", res);
+//       setScopeEmissionBreakdowndata(res);  
+//     })
+//     .catch((e: any) => {
+//       console.error("Error fetching scope data", e);
+//     });
+//   }  
+// const groupedScopeEmissionBreakdowndata = useMemo(() => { 
+//     const groupedData = scopeEmissionBreakdowndata.reduce((acc, item) => {
+//         if (item.CarbonEmission && Number(item.CarbonEmission) > 0) { // Skip empty or zero values
+//             if (acc[item.ScopeName]) {
+//                 acc[item.ScopeName] += Number(item.CarbonEmission); // Add to existing scope
+//             } else {
+//                 acc[item.ScopeName] = Number(item.CarbonEmission); // Initialize new scope
+//             }
+//         }
+//         return acc;
+//     }, {}); 
+//     return Object.keys(groupedData).map(scope => ({
+//         id: scope,
+//         value: groupedData[scope],
+//         label: scope
+//     }));
+// }, [scopeEmissionBreakdowndata]);    
+//     let [showModal, setShowModal] = React.useState(false);
+//     let [modelData, setModelData] = React.useState<any>(null); 
+//     function handleClick() {
+//         console.log("Button clicked");  
+//         setShowModal(true);  
+//         setModelData({}); 
+//     } 
+//     const handleCloseModal = () => {
+//         setShowModal(false);  
+//         setModelData(null);  
+//     };  
+//  const [scopewisePopUpData, setScopewisePopUpData] = useState<ScopePopupData[]>([]); 
+// const getScopewisePopUpData = (BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) => {
+//     props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdownPopup", {
+//         BusinessUnitKey,
+//         StartYear,
+//         StartMonth,
+//         EndYear,
+//         EndMonth
+//     }, { json: true }).then(res => {
+//         console.log("data", res);
+//         setScopewisePopUpData(processScopeData(res)); // Process the data after fetching
+//     }).catch(e => {
+//         console.error("Error fetching data", e);
+//     });
+// };
+//  // Process the fetched data
+//  const processScopeData = (data: any[]): ScopePopupData[] => {
+//     const groupedScopePopupData: Record<string, ScopePopupData> = {};
+//     data.forEach(item => {
+//         const month = item.MonthString;
+//         if (!groupedScopePopupData[month]) {
+//             groupedScopePopupData[month] = { MonthString: month, Scope1: 0, Scope2: 0, Scope3: 0 };
+//         }
+//         const emission = parseFloat(item.CarbonEmission);
+//         if (item.ScopeKey === "1") {
+//             groupedScopePopupData[month].Scope1 += emission;
+//         } else if (item.ScopeKey === "2") {
+//             groupedScopePopupData[month].Scope2 += emission;
+//         } else if (item.ScopeKey === "3") {
+//             groupedScopePopupData[month].Scope3 += emission;
+//         }
+//     });
+//     return Object.values(groupedScopePopupData);
+// }; 
+//     let [selected, setSelected] = React.useState<string | null>("op-1");
+//     let [selected1, setSelected1] = React.useState<string | null>("op-1");
+//     let [selected2, setSelected2] = React.useState<string | null>("op-1");  
+// // categorywisedata//
+// let [showModal1, setShowModal1] = React.useState(false);
+// let [modelData1, setModelData1] = React.useState<any>(null); 
+// function handleClick1() {
+//     console.log("Button clicked");  
+//     setShowModal1(true);  
+//     setModelData1({}); 
+// }
+// const handleCloseModal1 = () => {
+//     setShowModal1(false);  
+//     setModelData1(null);  
+// };
+// let [categorywiseEmissionOverviewdata, setCategorywiseEmissionOverviewdata] = useState<any[]>([]);
+// // Fetch category-wise emission data
+// function getCategorywiseEmissionOverview(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//   props.uxpContext?.executeAction(
+//     "OrganizationalEmissionOverview-Dataprovider",
+//     "GetCategorywiseEmissionBreakdown",
+//     { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
+//     { json: true }
+//   )
+//   .then((res: any) => {
+//     console.log("response", res);
+//     setCategorywiseEmissionOverviewdata(res);
+//   })
+//   .catch((e: any) => {
+//     console.error("Error fetching scope data", e);
+//   });
+// }
+// // Define color map for ScopeKey to ensure consistency across inner and outer series
+// const colorMap: { [key: string]: string } = {
+//     'Scope 1': '#4c6a48',
+//     'Scope 2': '#466f81',
+//     'Scope 3': '#b97244',
+//   };
+//   // Group data by scope and subcategories
+//   const groupedData = categorywiseEmissionOverviewdata.reduce((acc: any, item: any) => {
+//     const scopeIndex = acc.findIndex((scope: any) => scope.name === item.ScopeName);
+//     const emissionValue = Number(item.CarbonEmission) > 0 ? Number(item.CarbonEmission) : 0;
+//     if (scopeIndex !== -1) {
+//       // Add to existing scope
+//       acc[scopeIndex].children.push({
+//         name: item.ActivityCategorytableName,
+//         value: emissionValue,
+//         color: colorMap[item.ScopeName],  // Assign color based on ScopeName
+//       });
+//     } else {
+//       // Create new scope group
+//       acc.push({
+//         name: item.ScopeName,
+//         ScopeKey: item.ScopeKey,
+//         children: [
+//           {
+//             name: item.ActivityCategorytableName,
+//             value: emissionValue,
+//             color: colorMap[item.ScopeName],  // Assign color based on ScopeName
+//           },
+//         ],
+//       });
+//     }
+//     return acc;
+//   }, []);
+//   // Check if all values are zero
+//   const CategorywiseValueZero = groupedData.every((scope: any) => 
+//     scope.children.every((child: any) => child.value === 0)
+//   );
+//   // Prepare inner and outer series data with colors matching ScopeKey
+//   const innerSeriesData = groupedData.map((scope: any) => ({
+//     name: scope.name,
+//     y: scope.children.reduce((acc: any, child: any) => acc + child.value, 0),
+//     color: colorMap[scope.name], // Use the same color for inner part
+//   }));
+//   const outerSeriesData = groupedData.reduce((acc: any, scope: any) => {
+//     return acc.concat(
+//       scope.children.map((child: any) => ({
+//         name: child.name,
+//         y: child.value,
+//         color: colorMap[scope.name], // Use the same color for outer part
+//       }))
+//     );
+//   }, []);
+//   // Highcharts options for donut chart with color matching
+//   const options = {
+//     chart: {
+//       type: "pie",
+//       height: "50%",
+//       margin: [0, 0, 0, 0],
+//     },
+//     title: {
+//       text: "",
+//     },
+//     plotOptions: {
+//       pie: {
+//         innerSize: "40%", // Create the donut shape
+//         dataLabels: {
+//           enabled: true,
+//           format: "{point.name}: {point.y:.1f}", // Show name and value
+//           filter: {
+//             property: 'y',
+//             operator: '>',
+//             value: 0, // Show labels only if value > 0
+//           },
+//         },
+//       },
+//     },
+//     series: [
+//       {
+//         name: "Scopes",
+//         colorByPoint: false, // Use color from data instead of generating random colors
+//         size: '60%', // Inner radius size
+//         data: innerSeriesData,
+//         dataLabels: {
+//           distance: -30, // Position inside the donut
+//         },
+//       },
+//       {
+//         name: "Subcategories",
+//         colorByPoint: false, // Use color from data instead of generating random colors
+//         innerSize: '60%', // Outer radius size starts here
+//         size: '95%', // Outer ring size
+//         data: outerSeriesData,
+//         dataLabels: {
+//           distance: 10, // Position outside the donut
+//           filter: {
+//             property: 'y',
+//             operator: '>',
+//             value: 0, // Show labels only if value > 0
+//           },
+//         },
+//       },
+//     ],
+//     tooltip: {
+//       pointFormat: "<b>{point.name}</b>: {point.y}",
+//     },
+//     credits: {
+//       enabled: false,
+//     },
+//   };
+// let [categorywisePopUpData,setCategorywisePopUpData] = React.useState<any>([]) 
+// function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,StartMonth:number,EndYear:number,EndMonth:number) {  
+//     props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider","GetCategorywiseEmissionBreakdown",{BusinessUnitKey:BusinessUnitKey,StartYear:StartYear,StartMonth:StartMonth,EndYear:EndYear,EndMonth:EndMonth},{json:true}).then(res=>{ 
+//         console.log("data",res);
+//         setCategorywisePopUpData(res);
+//     }).catch(e=>{
+//         // console.log("hi", e);
+//     }); 
+// }  
+//     return (
+//         <WidgetWrapper>
+//             <TitleBar title='Business-Level Carbon Emissions Overview' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
+//                             <div className="top-filter">
+//                                 <div className="select-filter">  
+//                                         <div className="uxp-emi-dropdown"> 
+//                                             <div className="uxp-emi-select-sec no-padding mb-only">
+//                                                     <Select
+//                                                         selected={startYear.toString()}
+//                                                         options={Years}
+//                                                         labelField="Label"
+//                                                         valueField="Value"
+//                                                         onChange={(value) => { setStartYear(Number(value)) }}
+//                                                         placeholder=" -- select --"
+//                                                         isValid={selected ? selected?.length > 0 : null}
+//                                                     /> 
+//                                                     <Select
+//                                                         selected={startMonth.toString()}
+//                                                         options={months}
+//                                                         labelField="Label"
+//                                                         valueField="Value"
+//                                                         onChange={(value) => { setStartMonth(Number(value)) }}
+//                                                         placeholder=" -- select --"
+//                                                         isValid={selected ? selected?.length > 0 : null}
+//                                                     />  
+//                                             </div> 
+//                                             <label>To</label>
+//                                             <div className="uxp-emi-select-sec no-padding mb-only"> 
+//                                             <Select
+//                                                 selected={endYear.toString()}
+//                                                 options={Years}
+//                                                 labelField="Label"
+//                                                 valueField="Value"
+//                                                 onChange={(value) => { setEndYear(Number(value)) }}
+//                                                 placeholder=" -- select --"
+//                                                 isValid={selected ? selected?.length > 0 : null}
+//                                             /> 
+//                                             <Select
+//                                                 selected={endMonth.toString()}
+//                                                 options={months}
+//                                                 labelField="Label"
+//                                                 valueField="Value"
+//                                                 onChange={(value) => { setEndMonth(Number(value)) }}
+//                                                 placeholder=" -- select --"
+//                                                 isValid={selected ? selected?.length > 0 : null}
+//                                             />   
+//                                            </div>  
+//                                         </div> 
+//                                 </div> 
+//                             <FilterPanel>
+//                                     <Select
+//                                         selected={ClientFilter}
+//                                         options={ClientFilterList}
+//                                         labelField="ClientID"
+//                                         valueField="ClientKey"
+//                                         onChange={(value) => { setClientFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected ? selected?.length > 0 : null}
+//                                     /> 
+//                                     <br/>
+//                                     <Select
+//                                         selected={MainUnitFilter}
+//                                         options={MainUnitFilterList}
+//                                         labelField="BusinessUnitName"
+//                                         valueField="BusinessUnitKey"
+//                                         onChange={(value) => { setMainUnitFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected1 ? selected1?.length > 0 : null}
+//                                     />    
+//                                     <br/>
+//                                     <Select
+//                                             selected={SubUnitFilter}
+//                                             options={SubUnitFilterList}
+//                                              labelField="BusinessUnitName"
+//                                             valueField="BusinessUnitKey"
+//                                             onChange={(value) => { setSubUnitFilter(value) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected2 ? selected2?.length > 0 : null}
+//                                         /> 
+//                             </FilterPanel>
+//                         </div>
+//             </TitleBar> 
+//                     <div className="scope-overall">    
+//                             {scopedata.length > 0 ? (
+//                                 scopedata.map((scope, index) => (   
+//                                      <div key={index} className={`scope-box ${getClassName(scope.ScopeKey)}`}>
+//                                     <h4> {scope.ScopeName} </h4>
+//                                     {/* <h3>{scope.CurrentEmission} tCO<em>2</em>e</h3> */}
+//                                     <h3>{Number(scope.CurrentEmission).toFixed(2)} tCO<em>2</em>e</h3>
+//                                     <div className="scope-bottom">
+//                                     <em>{Number(scope.PrevEmission).toFixed(2) ? `${Number(scope.PrevEmission).toFixed(2)} %` : 0}</em>
+//                                     <span className={`arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}`}></span>
+//                                     </div>
+//                                 </div>
+//                                 ))
+//                             ) : (
+//                                 <p>Loading data...</p> 
+//                             )}  
+//                     </div>    
+//                 <div style={{display:"inline-flex", padding:"3em 3em"}}>
+//                     <div className="emi-breakdown" style={{display:"inline-block", width:"40%", height: "38em", margin:"0 1.5em 0 0"}}>  
+//                         {/* <Scopewise_Breakdown/> */}
+//                 <WidgetWrapper>
+//                         <TitleBar title='Scope-wise Total Emission Breakdown'/> 
+//                         <div className="scopewise-chart">
+//                             <div className="chart">  
+//                                 <ResponsiveContainer>   
+//                                 {groupedScopeEmissionBreakdowndata.length === 0 || groupedScopeEmissionBreakdowndata.every(item => item.value === 0) ? (
+//                                     <div style={{ textAlign: "center", padding: "30% 0" }}>
+//                                         <h3>No Data Available</h3>
+//                                     </div>
+//                                 ) : (
+//                                     <>
+//                                     <ResponsivePie
+//                                         data={groupedScopeEmissionBreakdowndata}
+//                                         margin={{ top: 5, right: 20, bottom: 20, left: 20 }}
+//                                         innerRadius={0.75}
+//                                         padAngle={0}
+//                                         cornerRadius={3}
+//                                         colors={["#466f81", "#b97244", "#4c6a48"]}
+//                                         borderWidth={1}
+//                                         borderColor={{ from: "color", modifiers: [["darker", 0.2]] }}
+//                                         animate={false}
+//                                         value="value"
+//                                         activeOuterRadiusOffset={8}
+//                                         arcLinkLabelsSkipAngle={10}
+//                                         arcLinkLabelsTextColor="#333333"
+//                                         arcLinkLabelsThickness={2}
+//                                         arcLinkLabelsColor={{ from: 'color' }}
+//                                         arcLabelsSkipAngle={1}
+//                                         arcLabelsTextColor="#ffffff"
+//                                         arcLabelsRadiusOffset={0.5}
+//                                         arcLabel={d => `${d.value.toFixed(2)}%`} 
+//                                     />
+//                                     <div className="view-more"> 
+//                                         <Button title="View More" onClick={handleClick} />
+//                                     </div>
+//                                     </>
+//                                 )}
+//                                 </ResponsiveContainer>      
+//                             </div>  
+//                 <Modal className="popup" title="Scope-Wise Operational Carbon Emissions Overview" show={showModal} onClose={handleCloseModal}>
+//                     <div id="my_Popup">  
+//                         <div className="top-filter">  
+//                             <div className="select-filter">  
+//                             <div className="uxp-emi-dropdown"> 
+//                                         <div className="uxp-emi-select-sec no-padding mb-only">
+//                                                 <Select
+//                                                     selected={startYear.toString()}
+//                                                     options={Years}
+//                                                     labelField="Label"
+//                                                     valueField="Value"
+//                                                     onChange={(value) => { setStartYear(Number(value)) }}
+//                                                     placeholder=" -- select --"
+//                                                     isValid={selected ? selected?.length > 0 : null}
+//                                                 /> 
+//                                                 <Select
+//                                                     selected={startMonth.toString()}
+//                                                     options={months}
+//                                                     labelField="Label"
+//                                                     valueField="Value"
+//                                                     onChange={(value) => { setStartMonth(Number(value)) }}
+//                                                     placeholder=" -- select --"
+//                                                     isValid={selected ? selected?.length > 0 : null}
+//                                                 />  
+//                                         </div> 
+//                                         <label>To</label>
+//                                         <div className="uxp-emi-select-sec no-padding mb-only"> 
+//                                         <Select
+//                                             selected={endYear.toString()}
+//                                             options={Years}
+//                                             labelField="Label"
+//                                             valueField="Value"
+//                                             onChange={(value) => { setEndYear(Number(value)) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected ? selected?.length > 0 : null}
+//                                         /> 
+//                                         <Select
+//                                             selected={endMonth.toString()}
+//                                             options={months}
+//                                             labelField="Label"
+//                                             valueField="Value"
+//                                             onChange={(value) => { setEndMonth(Number(value)) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected ? selected?.length > 0 : null}
+//                                         />  
+//                                         </div>  
+//                                     </div>
+//                                 </div>
+//                                 <FilterPanel>
+//                                     <Select
+//                                         selected={ClientFilter}
+//                                         options={ClientFilterList}
+//                                         labelField="ClientID"
+//                                         valueField="ClientKey"
+//                                         onChange={(value) => { setClientFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected ? selected?.length > 0 : null}
+//                                     /> 
+//                                     <br/>
+//                                     <Select
+//                                         selected={MainUnitFilter}
+//                                         options={MainUnitFilterList}
+//                                         labelField="BusinessUnitName"
+//                                         valueField="BusinessUnitKey"
+//                                         onChange={(value) => { setMainUnitFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected1 ? selected1?.length > 0 : null}
+//                                     />    
+//                                     <br/>
+//                                     <Select
+//                                             selected={SubUnitFilter}
+//                                             options={SubUnitFilterList}
+//                                             labelField="BusinessUnitName"
+//                                             valueField="BusinessUnitKey"
+//                                             onChange={(value) => { setSubUnitFilter(value) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected2 ? selected2?.length > 0 : null}
+//                                         /> 
+//                                     </FilterPanel>
+//                         </div>   
+//                                     <ResponsiveContainer width="100%" height={400}>
+//                                     <BarChart data={scopewisePopUpData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+//                                         <CartesianGrid strokeDasharray="3 3" />
+//                                         <XAxis dataKey="MonthString" />
+//                                         <YAxis />
+//                                         <Tooltip />
+//                                         <Legend />
+//                                         <Bar barSize={10} dataKey="Scope1" stackId="a" fill="#4c6a48" />
+//                                         <Bar barSize={10} dataKey="Scope2" stackId="a" fill="#466f81" />
+//                                         <Bar barSize={10} dataKey="Scope3" stackId="a" fill="#b97244" />
+//                                     </BarChart>
+//                                     </ResponsiveContainer>
+//                                 </div>
+//                             </Modal>
+//                         </div>
+//                     </WidgetWrapper>
+//                      </div>
+//                     <div className="emi-breakdown" style={{display:"inline-block", width:"60%", height: "38em", margin:"0 0 0 1.5em"}}>  
+//                         {/* <Categorywise_Breakdown/> */}  
+//                    <WidgetWrapper>
+//                     <TitleBar title='Category-wise Total Emission Breakdown'  /> 
+//                     <div className="scopewise-chart">
+//                         <div className="chart">  
+//                         {CategorywiseValueZero ? (
+//                             <h3 style={{textAlign:"center"}}>No Data Available</h3>
+//                         ) : (
+//                         <>
+//                             <HighchartsReact highcharts={Highcharts} options={options} />
+//                             <div className="view-more"> 
+//                                 <Button title="View More" onClick={handleClick1} />
+//                             </div>
+//                          </>
+//                         )} 
+//                         </div>   
+//                         <Modal className="popup"  title="Scope-Wise Operational Carbon Emissions Overview" show={showModal1} onClose={handleCloseModal1}>
+//                             <div id="my_Popup"> 
+//                                     <div className="top-filter"> 
+//                                     <div className="select-filter">  
+//                                                 <div className="uxp-emi-dropdown"> 
+//                                                         <div className="uxp-emi-select-sec no-padding mb-only">
+//                                                                 <Select
+//                                                                     selected={startYear.toString()}
+//                                                                     options={Years}
+//                                                                     labelField="Label"
+//                                                                     valueField="Value"
+//                                                                     onChange={(value) => { setStartYear(Number(value)) }}
+//                                                                     placeholder=" -- select --"
+//                                                                     isValid={selected ? selected?.length > 0 : null}
+//                                                                 /> 
+//                                                                 <Select
+//                                                                     selected={startMonth.toString()}
+//                                                                     options={months}
+//                                                                     labelField="Label"
+//                                                                     valueField="Value"
+//                                                                     onChange={(value) => { setStartMonth(Number(value)) }}
+//                                                                     placeholder=" -- select --"
+//                                                                     isValid={selected ? selected?.length > 0 : null}
+//                                                                 />  
+//                                                         </div> 
+//                                                         <label>To</label>
+//                                                         <div className="uxp-emi-select-sec no-padding mb-only"> 
+//                                                         <Select
+//                                                             selected={endYear.toString()}
+//                                                             options={Years}
+//                                                             labelField="Label"
+//                                                             valueField="Value"
+//                                                             onChange={(value) => { setEndYear(Number(value)) }}
+//                                                             placeholder=" -- select --"
+//                                                             isValid={selected ? selected?.length > 0 : null}
+//                                                         /> 
+//                                                         <Select
+//                                                             selected={endMonth.toString()}
+//                                                             options={months}
+//                                                             labelField="Label"
+//                                                             valueField="Value"
+//                                                             onChange={(value) => { setEndMonth(Number(value)) }}
+//                                                             placeholder=" -- select --"
+//                                                             isValid={selected ? selected?.length > 0 : null}
+//                                                         />   
+//                                                         </div>  
+//                                                     </div>
+//                                         </div>
+//                                     <FilterPanel>
+//                                         <Select
+//                                             selected={ClientFilter}
+//                                             options={ClientFilterList}
+//                                             labelField="ClientID"
+//                                             valueField="ClientKey"
+//                                             onChange={(value) => { setClientFilter(value) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected ? selected?.length > 0 : null}
+//                                         /> 
+//                                         <br/>
+//                                         <Select
+//                                             selected={MainUnitFilter}
+//                                             options={MainUnitFilterList}
+//                                             labelField="BusinessUnitName"
+//                                             valueField="BusinessUnitKey"
+//                                             onChange={(value) => { setMainUnitFilter(value) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected1 ? selected1?.length > 0 : null}
+//                                         />    
+//                                         <br/>
+//                                         <Select
+//                                                 selected={SubUnitFilter}
+//                                                 options={SubUnitFilterList}
+//                                                 labelField="BusinessUnitName"
+//                                                 valueField="BusinessUnitKey"
+//                                                 onChange={(value) => { setSubUnitFilter(value) }}
+//                                                 placeholder=" -- select --"
+//                                                 isValid={selected2 ? selected2?.length > 0 : null}
+//                                             /> 
+//                                         </FilterPanel>
+//                                     </div> 
+//                                     <ResponsiveContainer width="100%" height={400}>
+//                                 <BarChart 
+//                                     data={categorywisePopUpData}  
+//                                     margin={{ top: 20, right: 30, left: 0, bottom: 0 }}
+//                                 >
+//                                     <CartesianGrid strokeDasharray="3 3" />
+//                                     <XAxis  dataKey="ActivityCategorytableName"/>  
+//                                     <YAxis />
+//                                     <Tooltip />
+//                                     <Legend />
+//                                     <Bar 
+//                                     barSize={10} 
+//                                     dataKey="CarbonEmission"  
+//                                     stackId="a" 
+//                                     fill="#4c6a48" 
+//                                     />
+//                                 </BarChart>
+//                             </ResponsiveContainer> 
+//                             </div>
+//                         </Modal> 
+//                     </div>
+//                 </WidgetWrapper>  
+//                   </div>  
+//                 </div> 
+//         </WidgetWrapper>
+//     )
+// }; 
+// export default Business_Level_Carbon_Emissions_Overview;
+
+
+/***/ }),
+
 /***/ "./src/components/business-level-carbon-trends-overview.tsx":
 /*!******************************************************************!*\
   !*** ./src/components/business-level-carbon-trends-overview.tsx ***!
@@ -10828,12 +12260,12 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
     }, []);
     function getClientListFilter() {
         var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true }).then(res => {
+        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalDetailedEmissionOverview-Dataprovider", "GetClientList", {}, { json: true }).then((res) => {
             let result = res;
             //debugger
             setClientFilterList(result);
             setClientFilter(result[0].ClientKey);
-        }).catch(e => {
+        }).catch((e) => {
             console.log("except: ", e);
             toast.error("Something went wrong" + e);
         });
@@ -10845,7 +12277,7 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
     }, [ClientFilter]);
     function getBusinessUnitsFilter() {
         var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: '0' }, { json: true }).then(res => {
+        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalDetailedEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: '0' }, { json: true }).then((res) => {
             let result = res;
             var filteredArray = result.filter(function (itm) {
                 return itm.ParentKey == '';
@@ -10853,7 +12285,7 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
             setMainUnitFilterList(filteredArray);
             setMainUnitFilter(filteredArray[0].BusinessUnitKey);
             //debugger
-        }).catch(e => {
+        }).catch((e) => {
             console.log("except: ", e);
             toast.error("Something went wrong" + e);
         });
@@ -10865,7 +12297,7 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
     }, [MainUnitFilter]);
     function getSubBusinessUnitsFilter() {
         var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: MainUnitFilter }, { json: true }).then(res => {
+        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("OrganizationalDetailedEmissionOverview-Dataprovider", "GetBusinessUnits", { ClientKey: ClientFilter, ParentKey: MainUnitFilter }, { json: true }).then((res) => {
             let result = res;
             if (result.length > 0) {
                 setSubUnitFilterList(result);
@@ -10875,7 +12307,7 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
                 setSubUnitFilterList([]);
                 setSubUnitFilter("0");
             }
-        }).catch(e => {
+        }).catch((e) => {
             console.log("except: ", e);
             toast.error("Something went wrong" + e);
         });
@@ -10911,8 +12343,10 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
     ];
     let [scopedata, setScopeData] = (0, react_1.useState)([]);
     (0, react_1.useEffect)(() => {
-        getScopeData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
-        getCategorywiseEmissionData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth, scopeKey);
+        if (startYear && startMonth && endYear && endMonth && SubUnitFilter && MainUnitFilter) {
+            getScopeData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
+            getCategorywiseEmissionData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth, scopeKey);
+        }
     }, [startYear, startMonth, endYear, endMonth, SubUnitFilter, MainUnitFilter]);
     function getScopeData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
         props.uxpContext.executeAction("OrganizationalCategorywiseEmissionOverview-Dataprovider", "GetScopewiseOverview", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth, scopeKey }, { json: true })
@@ -10943,100 +12377,574 @@ const Organizational_Carbon_Detailed_Analysis = (props) => {
     let [selected, setSelected] = react_1.default.useState("op-1");
     let [selected1, setSelected1] = react_1.default.useState("op-1");
     let [selected2, setSelected2] = react_1.default.useState("op-1");
-    let Detailed_Analysis_Green_Data = [
-        { "AnalysisName": "Stationary Combustion", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Fugitive Emission-Refrigerant", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Fugitive Emission-Fire Suppressant", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_greenbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Fugitive Emission-Electrical Insulating Gas", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Fugitive Emission-Anesthetic Gas", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_yellowbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Fugitive Emission-Waste Water Treatment", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 }
-    ];
-    let Detailed_Analysis_Blue_Data = [
-        { "AnalysisName": "Electricity Purchased - Location based", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Electricity Purchased - Market based", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Electricity Solid", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_greenbtn", "AnalysisValue": 23.1 }
-    ];
-    let Detailed_Analysis_Orange_Data = [
-        { "AnalysisName": "Category 1 - Purchased Goods & Services", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Category 2 - Capital Goods", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Category 3 - Fuel & Energy Related Emissions", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_greenbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Category 4 - Upstream Transportation", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Category 5 - Waste Generated in Operations", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_yellowbtn", "AnalysisValue": 23.1 },
-        { "AnalysisName": "Category 6 - Business Travels", "AnalysisScope": "25 tCO2e", "AnalysisBtnClass": "analysis_redbtn", "AnalysisValue": 23.1 }
-    ];
-    let [categorywiseEmissionData, setCategorywiseEmissionData] = react_1.default.useState([]);
+    let [Scope1_Data, setScope1_Data] = react_1.default.useState([]);
+    let [Scope2_Data, setScope2_Data] = react_1.default.useState([]);
+    let [Scope3_Data, setScope3_Data] = react_1.default.useState([]);
+    //let [categorywiseEmissionData,setCategorywiseEmissionData] = React.useState<any>([]) 
     function getCategorywiseEmissionData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth, ScopeKey) {
-        props.uxpContext.executeAction("OrganizationalCategorywiseEmissionOverview-Dataprovider", "GetCategorywiseEmissionBreakdownByScope", { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth }, { json: true }).then(res => {
+        props.uxpContext.executeAction("OrganizationalDetailedEmissionOverview-Dataprovider", "GetCategorywiseEmissionSummary", {
+            BusinessUnitKey: BusinessUnitKey,
+            StartYear: StartYear,
+            StartMonth: StartMonth,
+            EndYear: EndYear,
+            EndMonth: EndMonth
+        }, { json: true }).then((res) => {
             console.log("data", res);
-            setCategorywiseEmissionData(res);
-        }).catch(e => {
+            if (res.length > 0) {
+                let result = res;
+                let scope1 = result.filter((item) => item.ScopeKey == '1');
+                let scope2 = result.filter((item) => item.ScopeKey == '2');
+                let scope3 = result.filter((item) => item.ScopeKey == '3');
+                //debugger
+                setScope1_Data(scope1);
+                setScope2_Data(scope2);
+                setScope3_Data(scope3);
+            }
+            //setCategorywiseEmissionData(res);
+        }).catch((e) => {
             // console.log("hi", e);
         });
     }
+    function CalPercentage(CurrEm, PrevEm) {
+        if (PrevEm === 0) {
+            // Prevent division by zero
+            throw new Error("Previous number of employees cannot be zero.");
+        }
+        // Calculate the absolute percentage change
+        let change = Math.abs(((CurrEm - PrevEm) / PrevEm) * 100) ? Math.abs(((CurrEm - PrevEm) / PrevEm) * 100) : 0;
+        return change;
+    }
+    function CalRealPercentage(CurrEm, PrevEm) {
+        if (PrevEm === 0) {
+            // Prevent division by zero
+            throw new Error("Previous number of employees cannot be zero.");
+        }
+        // Calculate the absolute percentage change
+        let change = Math.abs(((CurrEm - PrevEm) / PrevEm) * 100) ? Math.abs(((CurrEm - PrevEm) / PrevEm) * 100) : 0;
+        return change;
+    }
+    function getbutnclass(CurrEm, PrevEm) {
+        if (PrevEm === 0) {
+            // Prevent division by zero
+            throw new Error("Previous number of employees cannot be zero.");
+        }
+        let cls = 'analysis_graybtn';
+        let change = ((CurrEm - PrevEm) / PrevEm) * 100 ? ((CurrEm - PrevEm) / PrevEm) * 100 : 0;
+        if (change <= 0) {
+            cls = 'analysis_greenbtn';
+        }
+        else if (0 < change && change <= 5) {
+            cls = 'analysis_yellowbtn';
+        }
+        else if (5 < change) {
+            cls = 'analysis_redbtn';
+        }
+        return cls;
+    }
+    let [FilterOptions, setFilterOptions] = react_1.default.useState([{ label: 'All', value: 'all' }, { label: 'Show Only Items', value: 'item' }]);
+    let [DaviationFilters, setDaviationFilters] = react_1.default.useState([{ label: 'Increased', value: 'increased' }, { label: 'Decreased', value: 'decreased' }]);
+    let [DaviationOptionFilters, setDaviationOptionFilters] = react_1.default.useState([{ label: 'Greater Than', value: 'greater_than' }, { label: 'Less Than', value: 'less_than' }]);
+    let [PercentageFilters, setPercentageFilters] = react_1.default.useState([{ label: '5%', value: '5' }, { label: '10%', value: '10' }, { label: '25%', value: '25' }, { label: '50%', value: '50' }]);
+    let [SelectedFilterOption, setSelectedFilterOption] = react_1.default.useState('all');
+    let [SelectedDaviationFilter, setSelectedDaviationFilter] = react_1.default.useState('increased');
+    let [SelectedDaviationOptionFilter, setSelectedDaviationOptionFilter] = react_1.default.useState('greater_than');
+    let [SelectedPercentageFilter, setSelectedPercentageFilter] = react_1.default.useState('5');
+    react_1.default.useEffect(() => {
+        if (SelectedFilterOption == 'all') {
+            getCategorywiseEmissionData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth, scopeKey);
+        }
+        else {
+            FilterEmissionData();
+        }
+    }, [SelectedFilterOption, SelectedDaviationFilter, SelectedDaviationOptionFilter, SelectedPercentageFilter]);
+    function FilterEmissionData() {
+        let sc1, sc2, sc3 = [];
+        sc1 = Scope1_Data.filter(function (item) {
+            let real = CalRealPercentage(item.CurrentEmission, item.PrevEmission);
+            let fl;
+            let filter = SelectedPercentageFilter == '5' ? 5 : SelectedPercentageFilter == '10' ? 10 : SelectedPercentageFilter == '25' ? 25 : SelectedPercentageFilter == '50' ? 50 : 0;
+            if (SelectedDaviationFilter == 'decreased' && SelectedDaviationOptionFilter == 'greater_than') {
+                fl = filter * (-1);
+                return fl <= real;
+            }
+            else if (SelectedDaviationFilter == 'decreased' && SelectedDaviationOptionFilter == 'less_than') {
+                fl = filter * (-1);
+                return fl >= real;
+            }
+            else if (SelectedDaviationFilter == 'increased' && SelectedDaviationOptionFilter == 'greater_than') {
+                fl = filter * (1);
+                return fl <= real;
+            }
+            else if (SelectedDaviationFilter == 'increased' && SelectedDaviationOptionFilter == 'less_than') {
+                fl = filter * (1);
+                return fl >= real;
+            }
+        });
+        sc2 = Scope2_Data.filter(function (item) {
+            let real = CalRealPercentage(item.CurrentEmission, item.PrevEmission);
+            let fl;
+            let filter = SelectedPercentageFilter == '5' ? 5 : SelectedPercentageFilter == '10' ? 10 : SelectedPercentageFilter == '25' ? 25 : SelectedPercentageFilter == '50' ? 50 : 0;
+            if (SelectedDaviationFilter == 'decreased' && SelectedDaviationOptionFilter == 'greater_than') {
+                fl = filter * (-1);
+                return fl <= real;
+            }
+            else if (SelectedDaviationFilter == 'decreased' && SelectedDaviationOptionFilter == 'less_than') {
+                fl = filter * (-1);
+                return fl >= real;
+            }
+            else if (SelectedDaviationFilter == 'increased' && SelectedDaviationOptionFilter == 'greater_than') {
+                fl = filter * (1);
+                return fl <= real;
+            }
+            else if (SelectedDaviationFilter == 'increased' && SelectedDaviationOptionFilter == 'less_than') {
+                fl = filter * (1);
+                return fl >= real;
+            }
+        });
+        sc3 = Scope3_Data.filter(function (item) {
+            let real = CalRealPercentage(item.CurrentEmission, item.PrevEmission);
+            let fl;
+            let filter = SelectedPercentageFilter == '5' ? 5 : SelectedPercentageFilter == '10' ? 10 : SelectedPercentageFilter == '25' ? 25 : SelectedPercentageFilter == '50' ? 50 : 0;
+            if (SelectedDaviationFilter == 'decreased' && SelectedDaviationOptionFilter == 'greater_than') {
+                fl = filter * (-1);
+                return fl <= real;
+            }
+            else if (SelectedDaviationFilter == 'decreased' && SelectedDaviationOptionFilter == 'less_than') {
+                fl = filter * (-1);
+                return fl >= real;
+            }
+            else if (SelectedDaviationFilter == 'increased' && SelectedDaviationOptionFilter == 'greater_than') {
+                fl = filter * (1);
+                return fl <= real;
+            }
+            else if (SelectedDaviationFilter == 'increased' && SelectedDaviationOptionFilter == 'less_than') {
+                fl = filter * (1);
+                return fl >= real;
+            }
+        });
+        debugger;
+        setScope1_Data(sc1);
+        setScope2_Data(sc2);
+        setScope3_Data(sc3);
+    }
     return (react_1.default.createElement(components_1.WidgetWrapper, null,
-        react_1.default.createElement(components_1.TitleBar, { title: 'Organizational Carbon Detailed Analysis', icon: "https://static.iviva.com/images/Udhayimages/alert-trends.png" },
-            react_1.default.createElement("div", { className: "top-filter" },
-                react_1.default.createElement("div", { className: "select-filter" },
-                    react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
-                        react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                            react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                            react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
-                        react_1.default.createElement("label", null, "To"),
-                        react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
-                            react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                            react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
-                react_1.default.createElement(components_1.FilterPanel, null,
-                    react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
-                    react_1.default.createElement("br", null),
-                    react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
-                    react_1.default.createElement("br", null),
-                    react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null })))),
-        react_1.default.createElement("div", { className: "scope-overall" }, scopedata.length > 0 ? (scopedata.map((scope, index) => (react_1.default.createElement("div", { key: index, className: `scope-box ${getClassName(scope.ScopeKey)}` },
-            react_1.default.createElement("h4", null,
-                " ",
-                scope.ScopeName,
-                " "),
-            react_1.default.createElement("h3", null,
-                Number(scope.CurrentEmission).toFixed(2),
-                " tCO",
-                react_1.default.createElement("em", null, "2"),
-                "e"),
-            react_1.default.createElement("div", { className: "scope-bottom" },
-                react_1.default.createElement("em", null, Number(scope.PrevEmission).toFixed(2) ? `${Number(scope.PrevEmission).toFixed(2)} %` : 0),
-                react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` })))))) : (react_1.default.createElement("p", null, "Loading data..."))),
-        react_1.default.createElement("div", { className: "assets-widget-list" },
-            react_1.default.createElement("div", { className: "list-top-filter" },
-                react_1.default.createElement(components_1.FilterPanel, null,
-                    react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }))),
-            react_1.default.createElement("div", { className: "item-list green-item-list" },
-                react_1.default.createElement("ul", null, Detailed_Analysis_Green_Data.map((item) => (react_1.default.createElement("li", { key: item.AssetID },
-                    react_1.default.createElement("div", { className: "list_category" },
-                        react_1.default.createElement("label", null, item.AnalysisName),
-                        react_1.default.createElement("button", { className: `uxp-button ${item.AnalysisBtnClass}` }, item.AnalysisScope),
-                        react_1.default.createElement("span", null,
-                            item.AnalysisValue,
-                            " % ",
-                            react_1.default.createElement("em", { className: "arrow up-arrow" })))))))),
-            react_1.default.createElement("div", { className: "item-list blue-item-list" },
-                react_1.default.createElement("ul", null, Detailed_Analysis_Blue_Data.map((item) => (react_1.default.createElement("li", { key: item.AssetID },
-                    react_1.default.createElement("div", { className: "list_category" },
-                        react_1.default.createElement("label", null, item.AnalysisName),
-                        react_1.default.createElement("button", { className: `uxp-button ${item.AnalysisBtnClass}` }, item.AnalysisScope),
-                        react_1.default.createElement("span", null,
-                            item.AnalysisValue,
-                            " % ",
-                            react_1.default.createElement("em", { className: "arrow up-arrow" })))))))),
-            react_1.default.createElement("div", { className: "item-list orange-item-list" },
-                react_1.default.createElement("ul", null, Detailed_Analysis_Orange_Data.map((item) => (react_1.default.createElement("li", { key: item.AssetID },
-                    react_1.default.createElement("div", { className: "list_category" },
-                        react_1.default.createElement("label", null, item.AnalysisName),
-                        react_1.default.createElement("button", { className: `uxp-button ${item.AnalysisBtnClass}` }, item.AnalysisScope),
-                        react_1.default.createElement("span", null,
-                            item.AnalysisValue,
-                            " % ",
-                            react_1.default.createElement("em", { className: "arrow up-arrow" })))))))))));
+        react_1.default.createElement("div", { id: "organizational-carbon-detailed-analysis" },
+            react_1.default.createElement(components_1.TitleBar, { title: 'Organizational Carbon Detailed Analysis', icon: "https://static.iviva.com/images/Udhayimages/alert-trends.png" },
+                react_1.default.createElement("div", { className: "top-filter" },
+                    react_1.default.createElement("div", { className: "select-filter" },
+                        react_1.default.createElement("div", { className: "uxp-emi-dropdown" },
+                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                                react_1.default.createElement(components_1.Select, { selected: startYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setStartYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                react_1.default.createElement(components_1.Select, { selected: startMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setStartMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })),
+                            react_1.default.createElement("label", null, "To"),
+                            react_1.default.createElement("div", { className: "uxp-emi-select-sec no-padding mb-only" },
+                                react_1.default.createElement(components_1.Select, { selected: endYear.toString(), options: Years, labelField: "Label", valueField: "Value", onChange: (value) => { setEndYear(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                react_1.default.createElement(components_1.Select, { selected: endMonth.toString(), options: months, labelField: "Label", valueField: "Value", onChange: (value) => { setEndMonth(Number(value)); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
+                    react_1.default.createElement(components_1.FilterPanel, null,
+                        react_1.default.createElement(components_1.Select, { selected: ClientFilter, options: ClientFilterList, labelField: "ClientID", valueField: "ClientKey", onChange: (value) => { setClientFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                        react_1.default.createElement("br", null),
+                        react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
+                        react_1.default.createElement("br", null),
+                        react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null })))),
+            react_1.default.createElement("div", { className: "scope-overall" }, scopedata.map((scope, index) => (react_1.default.createElement("div", { key: index, className: `scope-box ${getClassName(scope.ScopeKey)}` },
+                react_1.default.createElement("h4", null, scope.ScopeName),
+                react_1.default.createElement("h3", null,
+                    Number(scope.CurrentEmission || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+                    " ",
+                    react_1.default.createElement("span", null,
+                        "tCO",
+                        react_1.default.createElement("em", null, "2"),
+                        "e")),
+                react_1.default.createElement("div", { className: "scope-bottom" },
+                    react_1.default.createElement("em", null, scope.PrevEmission ? `${Number(scope.PrevEmission).toFixed(2)} %` : "0%"),
+                    react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` })))))),
+            react_1.default.createElement("div", { className: "assets-widget-list" },
+                react_1.default.createElement("div", { className: "list-top-filter" },
+                    react_1.default.createElement(components_1.FilterPanel, null,
+                        react_1.default.createElement(components_1.Select, { selected: SelectedFilterOption, options: FilterOptions, labelField: "label", valueField: "value", onChange: (value) => { setSelectedFilterOption(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                        react_1.default.createElement("br", null),
+                        SelectedFilterOption == 'item' &&
+                            react_1.default.createElement(react_1.default.Fragment, null,
+                                react_1.default.createElement(components_1.Select, { selected: SelectedDaviationFilter, options: DaviationFilters, labelField: "label", valueField: "value", onChange: (value) => { setSelectedDaviationFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                react_1.default.createElement("br", null),
+                                react_1.default.createElement(components_1.Select, { selected: SelectedDaviationOptionFilter, options: DaviationOptionFilters, labelField: "label", valueField: "value", onChange: (value) => { setSelectedDaviationOptionFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null }),
+                                react_1.default.createElement("br", null),
+                                react_1.default.createElement(components_1.Select, { selected: SelectedPercentageFilter, options: PercentageFilters, labelField: "label", valueField: "value", onChange: (value) => { setSelectedPercentageFilter(value); }, placeholder: " -- select --", isValid: selected ? (selected === null || selected === void 0 ? void 0 : selected.length) > 0 : null })))),
+                react_1.default.createElement("div", { className: "item-list green-item-list" },
+                    react_1.default.createElement("ul", { style: { scrollBehavior: 'smooth', height: '550px' } }, Scope1_Data.map((item) => (react_1.default.createElement("li", null,
+                        react_1.default.createElement("a", { className: "carbon-emission-item" },
+                            react_1.default.createElement("label", null, item.ActivityCategorytableName),
+                            react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                            react_1.default.createElement("span", null,
+                                Number(item.PrevEmission).toFixed(2) ?
+                                    `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, {
+                                        minimumFractionDigits: 2,
+                                        maximumFractionDigits: 2
+                                    })} `
+                                    : 0,
+                                " %",
+                                react_1.default.createElement("em", { className: `arrow ${Number(item.PrevEmission) < Number(item.CurrentEmission) ? 'up-arrow' : 'down-arrow'}` })))))))),
+                react_1.default.createElement("div", { className: "item-list blue-item-list" },
+                    react_1.default.createElement("ul", { style: { scrollBehavior: 'smooth', height: '550px' } }, Scope2_Data.map((item) => (react_1.default.createElement("li", null,
+                        react_1.default.createElement("a", { className: "carbon-emission-item" },
+                            react_1.default.createElement("label", null, item.ActivityCategorytableName),
+                            react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                            react_1.default.createElement("span", null,
+                                Number(item.PrevEmission).toFixed(2) ?
+                                    `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, {
+                                        minimumFractionDigits: 2,
+                                        maximumFractionDigits: 2
+                                    })} `
+                                    : 0,
+                                " %",
+                                react_1.default.createElement("em", { className: `arrow ${Number(item.PrevEmission) < Number(item.CurrentEmission) ? 'up-arrow' : 'down-arrow'}` })))))))),
+                react_1.default.createElement("div", { className: "item-list orange-item-list" },
+                    react_1.default.createElement("ul", { style: { scrollBehavior: 'smooth', height: '550px' } }, Scope3_Data.map((item) => (react_1.default.createElement("li", null,
+                        react_1.default.createElement("a", { className: "carbon-emission-item" },
+                            react_1.default.createElement("label", null, item.ActivityCategorytableName),
+                            react_1.default.createElement("button", { className: `uxp-button ${getbutnclass(item.CurrentEmission, item.PrevEmission)}` }, Number(item.CurrentEmission).toFixed(2)),
+                            react_1.default.createElement("span", null,
+                                Number(item.PrevEmission).toFixed(2) ?
+                                    `${CalPercentage(item.CurrentEmission, item.PrevEmission).toLocaleString(undefined, {
+                                        minimumFractionDigits: 2,
+                                        maximumFractionDigits: 2
+                                    })} `
+                                    : 0,
+                                " %",
+                                react_1.default.createElement("em", { className: `arrow ${Number(item.PrevEmission) < Number(item.CurrentEmission) ? 'up-arrow' : 'down-arrow'}` }))))))))))));
 };
 exports["default"] = Organizational_Carbon_Detailed_Analysis;
+// import React, { useEffect, useState, useMemo  } from "react"; 
+// import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';  
+// import { AreaChart, Area, ResponsiveContainer,  LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,  } from 'recharts';
+// import { useToast, DataList, WidgetWrapper, DynamicSelect, SearchBox, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
+// interface IWidgetProps {
+//     uxpContext?: IContextProvider,
+//     instanceId?: string
+// }
+// const Organizational_Carbon_Detailed_Analysis: React.FunctionComponent<IWidgetProps> = (props) => {  
+// let toast = useToast();
+// let [ClientFilter,setClientFilter] =  React.useState<string>('0');
+// let [MainUnitFilter,setMainUnitFilter] =  React.useState<string>('0');
+// let [SubUnitFilter,setSubUnitFilter] =  React.useState<string>('0');
+// let [ClientFilterList,setClientFilterList] =  React.useState<any[]>([]);
+// let [MainUnitFilterList,setMainUnitFilterList] =  React.useState<any[]>([]);
+// let [SubUnitFilterList,setSubUnitFilterList] =  React.useState<any[]>([]); 
+// React.useEffect(()=>{
+//     getClientListFilter();
+// },[])
+// function getClientListFilter(){
+//     props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true })
+//     .then(res => {
+//         let result = res;
+//         //debugger
+//         setClientFilterList(result)
+//         setClientFilter(result[0].ClientKey)
+//     })
+//     .catch(e => {
+//         console.log("except: ", e);
+//         toast.error("Something went wrong" + e);
+//     });
+// }
+// React.useEffect(()=>{
+//     if(ClientFilter!='0'){
+//         getBusinessUnitsFilter()
+//     }
+// },[ClientFilter])
+// function getBusinessUnitsFilter(){
+//     props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:'0'}, { json: true })
+//     .then(res => {
+//         let result = res;
+//         var filteredArray = result.filter(function(itm:any){
+//             return itm.ParentKey=='';
+//           });
+//         setMainUnitFilterList(filteredArray);
+//         setMainUnitFilter(filteredArray[0].BusinessUnitKey);
+//         //debugger
+//     })
+//     .catch(e => {
+//         console.log("except: ", e);
+//         toast.error("Something went wrong" + e);
+//     });
+// }
+// React.useEffect(()=>{
+//     if(MainUnitFilter!='0'){
+//         getSubBusinessUnitsFilter();
+//     }
+// },[MainUnitFilter])
+// function getSubBusinessUnitsFilter(){
+//     props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:MainUnitFilter}, { json: true })
+//     .then(res => {
+//         let result = res;
+//         if(result.length>0){
+//             setSubUnitFilterList(result);
+//             setSubUnitFilter(result[0].BusinessUnitKey);
+//         }else{
+//             setSubUnitFilterList([]);
+//             setSubUnitFilter("0");
+//         } 
+//     })
+//     .catch(e => {
+//         console.log("except: ", e);
+//         toast.error("Something went wrong" + e);
+//     });
+// }  
+// const [startYear, setStartYear] = useState(2024);
+// const [startMonth, setStartMonth] = useState(7);
+// const [endYear, setEndYear] = useState(2024);
+// const [endMonth, setEndMonth] = useState(12);
+// const [scopeKey, setScopeKey] = useState(1); 
+// const Years = GetYears();
+// function GetYears(){
+//     const currentYear = new Date().getFullYear();
+//     const yearList = [];
+//     for (let year = currentYear - 5; year <= currentYear + 5; year++) {
+//         yearList.push({ Label: year, Value: year });
+//     }
+//     return yearList;
+//  }; 
+// const months=[
+//     {Value:'1',Label:'January'},
+//     {Value:'2',Label:'February'},
+//     {Value:'3',Label:'March'},
+//     {Value:'4',Label:'April'},
+//     {Value:'5',Label:'May'},
+//     {Value:'6',Label:'June'},
+//     {Value:'7',Label:'July'},
+//     {Value:'8',Label:'August'},
+//     {Value:'9',Label:'September'},
+//     {Value:'10',Label:'October'},
+//     {Value:'11',Label:'November'},
+//     {Value:'12',Label:'December'}
+//  ]
+// let [scopedata, setScopeData] = useState<any[]>([]);  
+// useEffect(() => {
+//     getScopeData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//     getCategorywiseEmissionData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth, scopeKey);
+// },[startYear,startMonth,endYear,endMonth,SubUnitFilter,MainUnitFilter ]) 
+// function getScopeData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+// props.uxpContext.executeAction(
+//   "OrganizationalCategorywiseEmissionOverview-Dataprovider",
+//   "GetScopewiseOverview",
+//   { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth, scopeKey },
+//   { json: true }
+// )
+// .then((res: any) => {
+//   console.log("response", res);
+//   setScopeData(res);  
+// })
+// .catch((e: any) => {
+//   console.error("Error fetching scope data", e);
+// });
+// } 
+// const getClassName = (scopeKey: string) => {
+// switch (scopeKey) {
+//   case "1":
+//     return "green-scope-box";
+//   case "2":
+//     return "blue-scope-box";
+//   case "3":
+//     return "orange-scope-box";
+//  case "4":
+//     return "green_blue-scope-box";
+//  case "5":
+//     return "green_blue_orange-scope-box";
+//   default:
+//     return "scope-box"; 
+// }
+// }; 
+//     let [selected, setSelected] = React.useState<string | null>("op-1");
+//     let [selected1, setSelected1] = React.useState<string | null>("op-1");
+//     let [selected2, setSelected2] = React.useState<string | null>("op-1"); 
+//     let Detailed_Analysis_Green_Data =  [
+//         {"AnalysisName":"Stationary Combustion", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn", "AnalysisValue":23.1},
+//         {"AnalysisName":"Fugitive Emission-Refrigerant", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Fugitive Emission-Fire Suppressant", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_greenbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Fugitive Emission-Electrical Insulating Gas", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Fugitive Emission-Anesthetic Gas", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_yellowbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Fugitive Emission-Waste Water Treatment", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn","AnalysisValue":23.1}
+//     ];
+//     let Detailed_Analysis_Blue_Data =  [
+//         {"AnalysisName":"Electricity Purchased - Location based", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn", "AnalysisValue":23.1},
+//         {"AnalysisName":"Electricity Purchased - Market based", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Electricity Solid", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_greenbtn","AnalysisValue":23.1} 
+//     ] 
+//     let Detailed_Analysis_Orange_Data =  [
+//         {"AnalysisName":"Category 1 - Purchased Goods & Services", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn", "AnalysisValue":23.1},
+//         {"AnalysisName":"Category 2 - Capital Goods", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Category 3 - Fuel & Energy Related Emissions", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_greenbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Category 4 - Upstream Transportation", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Category 5 - Waste Generated in Operations", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_yellowbtn","AnalysisValue":23.1},
+//         {"AnalysisName":"Category 6 - Business Travels", "AnalysisScope":"25 tCO2e", "AnalysisBtnClass":"analysis_redbtn","AnalysisValue":23.1}
+//     ];  
+// let [categorywiseEmissionData,setCategorywiseEmissionData] = React.useState<any>([]) 
+// function getCategorywiseEmissionData (BusinessUnitKey:string,StartYear:number,StartMonth:number,EndYear:number,EndMonth:number, ScopeKey:number) {  
+//     props.uxpContext.executeAction("OrganizationalCategorywiseEmissionOverview-Dataprovider","GetCategorywiseEmissionBreakdownByScope",{BusinessUnitKey:BusinessUnitKey,StartYear:StartYear,StartMonth:StartMonth,EndYear:EndYear,EndMonth:EndMonth},{json:true}).then(res=>{ 
+//         console.log("data",res);
+//         setCategorywiseEmissionData(res);
+//     }).catch(e=>{
+//         // console.log("hi", e);
+//     }); 
+// }  
+//     return (
+//         <WidgetWrapper>
+//             <TitleBar title='Organizational Carbon Detailed Analysisss' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
+//                         <div className="top-filter">
+//                                 <div className="select-filter">  
+//                                         <div className="uxp-emi-dropdown"> 
+//                                             <div className="uxp-emi-select-sec no-padding mb-only">
+//                                                     <Select
+//                                                         selected={startYear.toString()}
+//                                                         options={Years}
+//                                                         labelField="Label"
+//                                                         valueField="Value"
+//                                                         onChange={(value) => { setStartYear(Number(value)) }}
+//                                                         placeholder=" -- select --"
+//                                                         isValid={selected ? selected?.length > 0 : null}
+//                                                     /> 
+//                                                     <Select
+//                                                         selected={startMonth.toString()}
+//                                                         options={months}
+//                                                         labelField="Label"
+//                                                         valueField="Value"
+//                                                         onChange={(value) => { setStartMonth(Number(value)) }}
+//                                                         placeholder=" -- select --"
+//                                                         isValid={selected ? selected?.length > 0 : null}
+//                                                     />  
+//                                             </div> 
+//                                             <label>To</label>
+//                                             <div className="uxp-emi-select-sec no-padding mb-only">  
+//                                                 <Select
+//                                                     selected={endYear.toString()}
+//                                                     options={Years}
+//                                                     labelField="Label"
+//                                                     valueField="Value"
+//                                                     onChange={(value) => { setEndYear(Number(value)) }}
+//                                                     placeholder=" -- select --"
+//                                                     isValid={selected ? selected?.length > 0 : null}
+//                                                 /> 
+//                                                 <Select
+//                                                     selected={endMonth.toString()}
+//                                                     options={months}
+//                                                     labelField="Label"
+//                                                     valueField="Value"
+//                                                     onChange={(value) => { setEndMonth(Number(value)) }}
+//                                                     placeholder=" -- select --"
+//                                                     isValid={selected ? selected?.length > 0 : null}
+//                                                 />    
+//                                            </div>   
+//                                         </div>  
+//                                 </div> 
+//                             <FilterPanel>
+//                                     <Select
+//                                         selected={ClientFilter}
+//                                         options={ClientFilterList}
+//                                         labelField="ClientID"
+//                                         valueField="ClientKey"
+//                                         onChange={(value) => { setClientFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected ? selected?.length > 0 : null}
+//                                     /> 
+//                                     <br/>
+//                                     <Select
+//                                         selected={MainUnitFilter}
+//                                         options={MainUnitFilterList}
+//                                         labelField="BusinessUnitName"
+//                                         valueField="BusinessUnitKey"
+//                                         onChange={(value) => { setMainUnitFilter(value) }}
+//                                         placeholder=" -- select --"
+//                                         isValid={selected1 ? selected1?.length > 0 : null}
+//                                     />    
+//                                     <br/>
+//                                     <Select
+//                                             selected={SubUnitFilter}
+//                                             options={SubUnitFilterList}
+//                                              labelField="BusinessUnitName"
+//                                             valueField="BusinessUnitKey"
+//                                             onChange={(value) => { setSubUnitFilter(value) }}
+//                                             placeholder=" -- select --"
+//                                             isValid={selected2 ? selected2?.length > 0 : null}
+//                                         /> 
+//                             </FilterPanel>
+//                         </div>
+//             </TitleBar> 
+//                     <div className="scope-overall">
+//                         {scopedata.length > 0 ? (
+//                             <>
+//                                 {scopedata.map((scope, index) => (
+//                                     <div key={index} className={`scope-box ${getClassName(scope.ScopeKey)}`}>
+//                                         <h4>{scope.ScopeName}</h4>
+//                                         {/* <h3>{Number(scope.CurrentEmission || 0).toFixed(2)} <span>tCO<em>2</em>e</span></h3> */}
+//                                     <h3>{Number(scope.CurrentEmission || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} <span>tCO<em>2</em>e</span></h3>  
+//                                         <div className="scope-bottom">
+//                                             <em>{scope.PrevEmission ? `${Number(scope.PrevEmission).toFixed(2)} %` : "0%"}</em>
+//                                             <span className={`arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}`}></span>
+//                                         </div>
+//                                     </div>
+//                                 ))} 
+//                             </>
+//                         ) : (
+//                             <p>Loading data...</p>
+//                         )}
+//                     </div> 
+//                 <div className="assets-widget-list">
+//                     <div className="list-top-filter"> 
+//                         <FilterPanel> 
+//                             <Select
+//                                 selected={ClientFilter}
+//                                 options={ClientFilterList}
+//                                 labelField="ClientID"
+//                                 valueField="ClientKey"
+//                                 onChange={(value) => { setClientFilter(value) }}
+//                                 placeholder=" -- select --"
+//                                 isValid={selected ? selected?.length > 0 : null}
+//                             /> 
+//                         </FilterPanel>
+//                     </div> 
+//                     <div className="item-list green-item-list">  
+//                         <ul>
+//                             {Detailed_Analysis_Green_Data.map((item:any) => (  
+//                                 <li key={item.AssetID}> 
+//                                 <div className="list_category">
+//                                         <label>{item.AnalysisName}</label>  
+//                                         <button className={`uxp-button ${item.AnalysisBtnClass}`}>{item.AnalysisScope}</button>
+//                                         <span>{item.AnalysisValue} % <em className="arrow up-arrow"></em></span> 
+//                                     </div>  
+//                                 </li>
+//                             ))}
+//                         </ul> 
+//                     </div>  
+//                     <div className="item-list blue-item-list">  
+//                         <ul>
+//                             {Detailed_Analysis_Blue_Data.map((item:any) => (  
+//                                 <li key={item.AssetID}> 
+//                                 <div className="list_category">
+//                                         <label>{item.AnalysisName}</label>  
+//                                         <button className={`uxp-button ${item.AnalysisBtnClass}`}>{item.AnalysisScope}</button>
+//                                         <span>{item.AnalysisValue} % <em className="arrow up-arrow"></em></span> 
+//                                     </div>  
+//                                 </li>
+//                             ))}
+//                         </ul> 
+//                     </div>
+//                     <div className="item-list orange-item-list">  
+//                         <ul>
+//                             {Detailed_Analysis_Orange_Data.map((item:any) => (  
+//                                 <li key={item.AssetID}> 
+//                                <div className="list_category">
+//                                         <label>{item.AnalysisName}</label>  
+//                                         <button className={`uxp-button ${item.AnalysisBtnClass}`}>{item.AnalysisScope}</button>
+//                                         <span>{item.AnalysisValue} % <em className="arrow up-arrow"></em></span> 
+//                                     </div>  
+//                                 </li>
+//                             ))}
+//                         </ul> 
+//                     </div>  
+//                 </div> 
+//         </WidgetWrapper>
+//     )
+// }; 
+// export default Organizational_Carbon_Detailed_Analysis;
 
 
 /***/ }),
@@ -11072,11 +12980,15 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
 const recharts_1 = __webpack_require__(/*! recharts */ "recharts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
-const pie_1 = __webpack_require__(/*! @nivo/pie */ "./node_modules/@nivo/pie/dist/nivo-pie.es.js");
+const highcharts_1 = __importDefault(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
+const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
 const Emissions_Category_Breakdown = (props) => {
     let toast = (0, components_1.useToast)();
     let [ClientFilter, setClientFilter] = react_1.default.useState('0');
@@ -11209,22 +13121,38 @@ const Emissions_Category_Breakdown = (props) => {
     let [selected1, setSelected1] = react_1.default.useState("op-1");
     let [selected2, setSelected2] = react_1.default.useState("op-1");
     const [toggleFilterValue, setToggleFilterValue] = (0, react_1.useState)("Scope 1");
+    const pieColors = {
+        "Scope 1": ["#8bc34a", "#6c9646", "#5c8a43", "#4e7945", "#4c6a48", "#3e5a3f", "#2e4a35", "#244a31", "#1a3a2d", "#144a29", "#0a3a25", "#033a22"],
+        // "Scope 2": ["#87a2b5", "#6495a3", "#56a3c9", "#4f7f8f", "#466f81", "#3a5f6f", "#2f4f5f", "#244f5f", "#1a3f4f", "#144f5f", "#0a3f4f", "#033f4f"], 
+        // "Scope 3": ["#FFC499", "#FFA07A", "#FF8C69", "#FF7F50", "#CC5500", "#B35A3F", "#964B3D", "#7A3F3F", "#663300", "#5C2E2E", "#4C2323", "#3B1B1B"]
+        // "Scope 2": ["#466f81", "#4a7385", "#4e7889", "#527c8d", "#567f91", "#5a8395", "#5e8899", "#628d9d", "#6691a1", "#6a95a5", "#6e99a9", "#729dae"], 
+        //   "Scope 3": ["#b97244", "#c07a4e", "#c58458", "#c98c62", "#d0946c", "#d29c76", "#d4a280", "#d6a98a", "#d8b194", "#dab99e", "#dcc3a8", "#ded7b2"]
+        // "Scope 2": ["#244f5f", "#2f4f5f", "#3a5f6f", "#466f81", "#4f7f8f", "#56a3c9", "#6495a3", "#87a2b5", "#a2b5c9", "#b5c9d5", "#c9d5e1", "#d5e1ec"],
+        "Scope 2": ["#033f4f", "#0a3f4f", "#144f5f", "#1a3f4f", "#244f5f", "#2f4f5f", "#3a5f6f", "#466f81", "#4f7f8f", "#56a3c9", "#6495a3", "#87a2b5"],
+        "Scope 3": ["#b97244", "#c07a4e", "#c58458", "#c98c62", "#d0946c", "#d29c76", "#d4a280", "#d6a98a", "#d8b194", "#dab99e", "#dcc3a8", "#ded7b2"]
+    };
+    const barChartColors = {
+        "Scope 1": "#4c6a48",
+        "Scope 2": "#466f81",
+        "Scope 3": "#b97244"
+    };
     const [categorywiseEmissionSummaryData, setCategorywiseEmissionSummaryData] = (0, react_1.useState)([]);
     const getCategorywiseEmissionSummaryData = (BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth, ScopeKey) => {
         props.uxpContext
             .executeAction('OrganizationalCategorywiseEmissionOverview-Dataprovider', 'GetCategorywiseEmissionBreakdownByScope', { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth, ScopeKey }, { json: true })
             .then((res) => {
-            const transformedData = res.map((item) => ({
-                name: item.ActivityCategorytableName,
-                value: item.CarbonEmission,
-                label: `${item.CarbonEmission} tCO2e (${((item.CarbonEmission / res.reduce((acc, curr) => acc + curr.CarbonEmission, 0)) * 100).toFixed(2)}%)`,
-            }));
-            if (transformedData.every((item) => item.value === 0)) {
-                setCategorywiseEmissionSummaryData([]);
-            }
-            else {
-                setCategorywiseEmissionSummaryData(transformedData);
-            }
+            console.log('Raw data:', res); // Log the raw response for debugging
+            const transformedData = res.map((item, index) => {
+                const emissionValue = Number(item.CarbonEmission); // Ensure CarbonEmission is a number
+                const totalEmission = res.reduce((acc, curr) => acc + Number(curr.CarbonEmission), 0); // Sum of emissions for percentage calculation
+                return {
+                    name: item.ActivityCategorytableName,
+                    value: emissionValue,
+                    label: `${emissionValue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} tCO2e (${((emissionValue / totalEmission) * 100).toFixed(2)}%)`,
+                    color: pieColors[toggleFilterValue][index % 12] // Assign colors based on scope and index
+                };
+            });
+            setCategorywiseEmissionSummaryData(transformedData);
         })
             .catch((e) => {
             console.error('Error fetching data', e);
@@ -11246,15 +13174,58 @@ const Emissions_Category_Breakdown = (props) => {
                 setScopeKey(1);
         }
     };
-    const transformedData = categorywiseEmissionSummaryData.map((entry, index) => ({
-        id: entry.name,
-        label: entry.label,
-        value: entry.value,
-        // color: ['#4f805d', '#82ca9d', '#8884d8', '#ffc658', '#ff7300', '#00c49f', '#4c99a2'][index % 7], 
-        color: ["#466f81", "#b97244", "#4c6a48"][index % 7],
-    }));
-    // const hasData = categorywiseEmissionSummaryData.some((item) => item.value !== 0);
     const hasData = categorywiseEmissionSummaryData.some((item) => item.value > 0);
+    const piechartoptions = {
+        chart: {
+            type: 'pie',
+            options3d: {
+                enabled: true,
+                alpha: 10,
+                beta: 0
+            }
+        },
+        title: {
+            text: ''
+        },
+        tooltip: {
+            formatter: function () {
+                return `<b>${this.point.name}</b>: ${(this.y || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                })} kgCO2e`;
+            }
+        },
+        credits: {
+            enabled: false,
+        },
+        plotOptions: {
+            pie: {
+                innerSize: '50%',
+                depth: 45,
+                dataLabels: {
+                    enabled: true,
+                    style: {
+                        fontSize: '11px',
+                        fontWeight: 'normal' // Set font weight to normal  
+                    },
+                    formatter: function () {
+                        return `${this.point.name}: ${(this.y || 0).toLocaleString(undefined, {
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2
+                        })} kgCO2e`; // Using toLocaleString for data labels  
+                    }
+                }
+            }
+        },
+        series: [{
+                name: 'Emissions',
+                data: categorywiseEmissionSummaryData.map((item) => ({
+                    name: item.name,
+                    y: item.value,
+                    color: pieColors[toggleFilterValue][categorywiseEmissionSummaryData.indexOf(item) % pieColors[toggleFilterValue].length]
+                }))
+            }]
+    };
     return (react_1.default.createElement(components_1.WidgetWrapper, null,
         react_1.default.createElement(components_1.TitleBar, { title: 'Organizational Carbon Emissions Category Breakdown', icon: "https://static.iviva.com/images/Udhayimages/alert-trends.png" },
             react_1.default.createElement("div", { className: "top-filter" },
@@ -11279,10 +13250,12 @@ const Emissions_Category_Breakdown = (props) => {
                 scope.ScopeName,
                 " "),
             react_1.default.createElement("h3", null,
-                Number(scope.CurrentEmission).toFixed(2),
-                " tCO",
-                react_1.default.createElement("em", null, "2"),
-                "e"),
+                Number(scope.CurrentEmission || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+                " ",
+                react_1.default.createElement("span", null,
+                    "tCO",
+                    react_1.default.createElement("em", null, "2"),
+                    "e")),
             react_1.default.createElement("div", { className: "scope-bottom" },
                 react_1.default.createElement("em", null, Number(scope.PrevEmission).toFixed(2) ? `${Number(scope.PrevEmission).toFixed(2)} %` : 0),
                 react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` })))))) : (react_1.default.createElement("p", null, "Loading data..."))),
@@ -11301,394 +13274,48 @@ const Emissions_Category_Breakdown = (props) => {
                                 { label: 'Scope 2', value: 'Scope 2' },
                                 { label: 'Scope 3', value: 'Scope 3' },
                             ], value: toggleFilterValue, onChange: handleFilterChange }))),
-                react_1.default.createElement("div", { className: "scopewise-chart", style: { height: "400px" } },
-                    react_1.default.createElement("div", { className: "chart" }, hasData ? (react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 380 }, isPieChart ? (react_1.default.createElement(pie_1.ResponsivePie, { data: transformedData, id: "id", margin: { top: 30, right: 30, bottom: 30, left: 30 }, innerRadius: 0.75, padAngle: 0, cornerRadius: 3, colors: transformedData.map((item) => item.color), borderWidth: 1, borderColor: { from: 'color', modifiers: [['darker', 0.2]] }, animate: true, value: "value", activeOuterRadiusOffset: 8, arcLinkLabelsSkipAngle: 10, arcLinkLabelsTextColor: "#333333", arcLinkLabelsThickness: 2, arcLinkLabelsColor: { from: 'color' }, arcLabelsSkipAngle: 1, arcLabelsTextColor: "#000000", arcLabelsRadiusOffset: 0.5, arcLabel: (d) => `${d.value}%` })) : (react_1.default.createElement(recharts_1.BarChart, { data: categorywiseEmissionSummaryData, layout: "vertical", margin: { top: 20, right: 20, bottom: 20, left: 20 } },
+                react_1.default.createElement("div", { className: "scopewise-chart", style: { height: "500px" } },
+                    react_1.default.createElement("div", { className: "chart" }, hasData ? (react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "98%", height: 500 }, isPieChart ? (react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: piechartoptions })) : (react_1.default.createElement(recharts_1.BarChart, { data: categorywiseEmissionSummaryData, layout: "vertical", margin: { top: 20, right: 20, bottom: 20, left: 20 } },
                         react_1.default.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3" }),
-                        react_1.default.createElement(recharts_1.XAxis, { type: "number" }),
-                        react_1.default.createElement(recharts_1.YAxis, { type: "category", dataKey: "name", width: 280 }),
-                        react_1.default.createElement(recharts_1.YAxis, { type: "category", yAxisId: "right", orientation: "right", dataKey: "label", width: 100 }),
-                        react_1.default.createElement(recharts_1.Tooltip, null),
-                        react_1.default.createElement(recharts_1.Legend, null),
-                        react_1.default.createElement(recharts_1.Bar, { dataKey: "value", fill: "#4f805d", barSize: 20, label: (props) => (react_1.default.createElement("text", { x: props.x + props.width + 10, y: props.y + props.height / 2, textAnchor: "end", dominantBaseline: "middle", fontSize: "12", fill: "#f00" }, props.label)) }))))) : (react_1.default.createElement("div", { className: "no-data-available", style: { textAlign: 'center', padding: '20px' } },
+                        react_1.default.createElement(recharts_1.XAxis, { type: "number", domain: [0, 'auto'], tickFormatter: (value) => value.toFixed(2), label: {
+                                value: "Emission",
+                                position: "insideBottom",
+                                offset: -5,
+                                style: {
+                                    textAnchor: 'middle',
+                                    fontSize: 14,
+                                },
+                            } }),
+                        react_1.default.createElement(recharts_1.YAxis, { type: "category", dataKey: "name", width: 180, tick: { angle: 0, fontSize: 12 }, label: {
+                                value: "Emission Category",
+                                angle: -90,
+                                position: "insideLeft",
+                                style: { textAnchor: 'middle' } // Y-axis label
+                            } }),
+                        react_1.default.createElement(recharts_1.YAxis, { type: "category", yAxisId: "right", orientation: "right", dataKey: "label", width: 180, tick: {
+                                fontSize: 12,
+                                formatter: (value) => {
+                                    return value; // Format as required
+                                },
+                            } }),
+                        react_1.default.createElement(recharts_1.Tooltip, { content: ({ active, payload }) => {
+                                if (active && payload && payload.length) {
+                                    const { name, value } = payload[0].payload; // Access name and value from the payload
+                                    return (react_1.default.createElement("div", { className: "custom-tooltip" },
+                                        react_1.default.createElement("b", null, name),
+                                        ": ",
+                                        value.toLocaleString(undefined, {
+                                            minimumFractionDigits: 2,
+                                            maximumFractionDigits: 2
+                                        }),
+                                        " kgCO2e"));
+                                }
+                                return null;
+                            } }),
+                        react_1.default.createElement(recharts_1.Bar, { dataKey: "value", fill: barChartColors[toggleFilterValue], barSize: 15 }))))) : (react_1.default.createElement("div", { className: "no-data-available", style: { textAlign: 'center', padding: '20px' } },
                         react_1.default.createElement("h3", null, "No data available")))))))));
 };
 exports["default"] = Emissions_Category_Breakdown;
-// import React, { useEffect, useState, useMemo  } from "react"; 
-// import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';   
-// import { AreaChart, Area, ResponsiveContainer,  LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,  } from 'recharts';
-// import { useToast, DataList, WidgetWrapper, DynamicSelect, SearchBox, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
-// import { PieChart, Pie, Cell } from 'recharts';
-// import { ResponsivePie } from '@nivo/pie';
-// interface IWidgetProps {
-//     uxpContext?: IContextProvider,
-//     instanceId?: string
-// }
-// interface EmissionData {
-//     Year: string;
-//     Month: string;
-//     MonthString: string;
-//     ScopeKey: string;
-//     ScopeName: string;
-//     CarbonEmission: string;
-// } 
-//  const Emissions_Category_Breakdown: React.FunctionComponent<IWidgetProps> = (props) => { 
-//     let toast = useToast();
-//     let [ClientFilter,setClientFilter] =  React.useState<string>('0');
-//     let [MainUnitFilter,setMainUnitFilter] =  React.useState<string>('0');
-//     let [SubUnitFilter,setSubUnitFilter] =  React.useState<string>('0');
-// let [ClientFilterList,setClientFilterList] =  React.useState<any[]>([]);
-//     let [MainUnitFilterList,setMainUnitFilterList] =  React.useState<any[]>([]);
-//     let [SubUnitFilterList,setSubUnitFilterList] =  React.useState<any[]>([]); 
-//     React.useEffect(()=>{
-//         getClientListFilter();
-//     },[])
-// function getClientListFilter(){
-//         props.uxpContext?.executeAction("OrganizationalDetailedEmissionOverview-Dataprovider", "GetClientList", {}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             //debugger
-//             setClientFilterList(result)
-//             setClientFilter(result[0].ClientKey)
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     }
-//     React.useEffect(()=>{
-//         if(ClientFilter!='0'){
-//             getBusinessUnitsFilter()
-//         }
-//     },[ClientFilter])
-//     function getBusinessUnitsFilter(){
-//         props.uxpContext?.executeAction("OrganizationalDetailedEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:'0'}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             var filteredArray = result.filter(function(itm:any){
-//                 return itm.ParentKey=='';
-//               });
-//             setMainUnitFilterList(filteredArray);
-//             setMainUnitFilter(filteredArray[0].BusinessUnitKey);
-//             //debugger
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     }
-//     React.useEffect(()=>{
-//         if(MainUnitFilter!='0'){
-//             getSubBusinessUnitsFilter();
-//         }
-//     },[MainUnitFilter])
-//     function getSubBusinessUnitsFilter(){
-//         props.uxpContext?.executeAction("OrganizationalDetailedEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:MainUnitFilter}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             if(result.length>0){
-//                 setSubUnitFilterList(result);
-//                 setSubUnitFilter(result[0].BusinessUnitKey);
-//             }else{
-//                 setSubUnitFilterList([]);
-//                 setSubUnitFilter("0");
-//             } 
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     } 
-//     const [startYear, setStartYear] = useState(2024);
-//     const [startMonth, setStartMonth] = useState(7);
-//     const [endYear, setEndYear] = useState(2024);
-//     const [endMonth, setEndMonth] = useState(12);
-//     const Years = GetYears();
-//     function GetYears(){
-//         const currentYear = new Date().getFullYear();
-//         const yearList = [];
-//         for (let year = currentYear - 5; year <= currentYear + 5; year++) {
-//             yearList.push({ Label: year, Value: year });
-//         }
-//         return yearList;
-//      }; 
-//     const months=[
-//         {Value:'1',Label:'January'},
-//         {Value:'2',Label:'February'},
-//         {Value:'3',Label:'March'},
-//         {Value:'4',Label:'April'},
-//         {Value:'5',Label:'May'},
-//         {Value:'6',Label:'June'},
-//         {Value:'7',Label:'July'},
-//         {Value:'8',Label:'August'},
-//         {Value:'9',Label:'September'},
-//         {Value:'10',Label:'October'},
-//         {Value:'11',Label:'November'},
-//         {Value:'12',Label:'December'}
-//      ]
-//     let [scopedata, setScopeData] = useState<any[]>([]);  
-//     useEffect(() => {
-//         getScopeData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
-//         getCategorywiseEmissionSummaryData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
-//     },[startYear,startMonth,endYear,endMonth,SubUnitFilter,MainUnitFilter ]) 
-//   function getScopeData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
-//     props.uxpContext.executeAction(
-//       "OrganizationalDetailedEmissionOverview-Dataprovider",
-//       "GetScopewiseOverview",
-//       { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
-//       { json: true }
-//     )
-//     .then((res: any) => {
-//       console.log("response", res);
-//       setScopeData(res);  
-//     })
-//     .catch((e: any) => {
-//       console.error("Error fetching scope data", e);
-//     });
-//   } 
-//   const getClassName = (scopeKey: string) => {
-//     switch (scopeKey) {
-//       case "1":
-//         return "green-scope-box";
-//       case "2":
-//         return "blue-scope-box";
-//       case "3":
-//         return "orange-scope-box";
-//      case "4":
-//         return "green_blue-scope-box";
-//      case "5":
-//         return "green_blue_orange-scope-box";
-//       default:
-//         return "scope-box"; 
-//     }
-//   }; 
-//   const [toggleFilterValue, setToggleFilterValue] = useState<"Scope 1" | "Scope 2" | "Scope 3">("Scope 1"); 
-//   const [isPieChart, setIsPieChart] = useState(false);
-//      let [selected, setSelected] = React.useState<string | null>("op-1");
-//     let [selected1, setSelected1] = React.useState<string | null>("op-1");
-//     let [selected2, setSelected2] = React.useState<string | null>("op-1");
-//     let [selected3, setSelected3] = React.useState<string | null>("op-1");
-// const [categorywiseEmissionSummaryData, setCategorywiseEmissionSummaryData] = useState([]);
-// const getCategorywiseEmissionSummaryData = (BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) => {
-//     props.uxpContext
-//       .executeAction(
-//         'OrganizationalDetailedEmissionOverview-Dataprovider',
-//         'GetCategorywiseEmissionSummary',
-//         { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
-//         { json: true }
-//       )
-//       .then((res) => {
-//         const transformedData = res.map((item: { ActivityCategorytableName: any; CarbonEmission: number; }) => ({
-//           name: item.ActivityCategorytableName,
-//           value: item.CarbonEmission,
-//           label: `${item.CarbonEmission} tCO2e (${((item.CarbonEmission / res.reduce((acc: any, curr: { CarbonEmission: any; }) => acc + curr.CarbonEmission, 0)) * 100).toFixed(2)}%)`,
-//         }));
-//         setCategorywiseEmissionSummaryData(transformedData);
-//       })
-//       .catch((e) => {
-//         console.error('Error fetching data', e);
-//       });
-//   };
-//   const transformedData = categorywiseEmissionSummaryData.map((entry, index) => ({
-//     id: entry.name,
-//     label: entry.label,
-//     value: entry.value,
-//     color: ['#4f805d', '#82ca9d', '#8884d8', '#ffc658', '#ff7300', '#00c49f', '#4c99a2'][index % 7],
-//   }));
-//   const handleFilterChange = (value: "Scope 1" | "Scope 2" | "Scope 3") => {
-//     setToggleFilterValue(value);
-//   };
-//   return (
-//     <WidgetWrapper>
-//                     <TitleBar title='Organizational Carbon Emissions Category Breakdown' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
-//                     <div className="top-filter">
-//                                 <div className="select-filter">  
-//                                         <div className="uxp-emi-dropdown"> 
-//                                             <div className="uxp-emi-select-sec no-padding mb-only">
-//                                                     <Select
-//                                                         selected={startYear.toString()}
-//                                                         options={Years}
-//                                                         labelField="Label"
-//                                                         valueField="Value"
-//                                                         onChange={(value) => { setStartYear(Number(value)) }}
-//                                                         placeholder=" -- select --"
-//                                                         isValid={selected ? selected?.length > 0 : null}
-//                                                     /> 
-//                                                     <Select
-//                                                         selected={startMonth.toString()}
-//                                                         options={months}
-//                                                         labelField="Label"
-//                                                         valueField="Value"
-//                                                         onChange={(value) => { setStartMonth(Number(value)) }}
-//                                                         placeholder=" -- select --"
-//                                                         isValid={selected ? selected?.length > 0 : null}
-//                                                     />  
-//                                             </div> 
-//                                             <label>To</label>
-//                                             <div className="uxp-emi-select-sec no-padding mb-only">  
-//                                                 <Select
-//                                                     selected={endYear.toString()}
-//                                                     options={Years}
-//                                                     labelField="Label"
-//                                                     valueField="Value"
-//                                                     onChange={(value) => { setEndYear(Number(value)) }}
-//                                                     placeholder=" -- select --"
-//                                                     isValid={selected ? selected?.length > 0 : null}
-//                                                 /> 
-//                                                 <Select
-//                                                     selected={endMonth.toString()}
-//                                                     options={months}
-//                                                     labelField="Label"
-//                                                     valueField="Value"
-//                                                     onChange={(value) => { setEndMonth(Number(value)) }}
-//                                                     placeholder=" -- select --"
-//                                                     isValid={selected ? selected?.length > 0 : null}
-//                                                 />   
-//                                            </div>  
-//                                         </div> 
-//                                 </div> 
-//                             <FilterPanel>
-//                                     <Select
-//                                         selected={ClientFilter}
-//                                         options={ClientFilterList}
-//                                         labelField="ClientID"
-//                                         valueField="ClientKey"
-//                                         onChange={(value) => { setClientFilter(value) }}
-//                                         placeholder=" -- select --"
-//                                         isValid={selected ? selected?.length > 0 : null}
-//                                     /> 
-//                                     <br/>
-//                                     <Select
-//                                         selected={MainUnitFilter}
-//                                         options={MainUnitFilterList}
-//                                         labelField="BusinessUnitName"
-//                                         valueField="BusinessUnitKey"
-//                                         onChange={(value) => { setMainUnitFilter(value) }}
-//                                         placeholder=" -- select --"
-//                                         isValid={selected1 ? selected1?.length > 0 : null}
-//                                     />    
-//                                     <br/>
-//                                     <Select
-//                                             selected={SubUnitFilter}
-//                                             options={SubUnitFilterList}
-//                                              labelField="BusinessUnitName"
-//                                             valueField="BusinessUnitKey"
-//                                             onChange={(value) => { setSubUnitFilter(value) }}
-//                                             placeholder=" -- select --"
-//                                             isValid={selected2 ? selected2?.length > 0 : null}
-//                                         /> 
-//                             </FilterPanel>
-//                         </div>
-//              </TitleBar> 
-//              <div className="scope-overall">    
-//                             {scopedata.length > 0 ? (
-//                                 scopedata.map((scope, index) => (   
-//                                      <div key={index} className={`scope-box ${getClassName(scope.ScopeKey)}`}>
-//                                     <h4> {scope.ScopeName} </h4>
-//                                     {/* <h3>{scope.CurrentEmission} tCO<em>2</em>e</h3> */}
-//                                     <h3>{Number(scope.CurrentEmission).toFixed(2)} tCO<em>2</em>e</h3>
-//                                     <div className="scope-bottom">
-//                                     <em>{Number(scope.PrevEmission).toFixed(2) ? `${Number(scope.PrevEmission).toFixed(2)} %` : 0}</em>
-//                                     <span className={`arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}`}></span>
-//                                     </div>
-//                                 </div>
-//                                 ))
-//                             ) : (
-//                                 <p>Loading data...</p> 
-//                             )}  
-//                     </div>    
-//            <div className="scope1_breakdown_widget"> 
-//                <WidgetWrapper>
-//                <TitleBar title={`${toggleFilterValue} BreakDown`}>
-//         <div className="top-filter">
-//           <div className="toggle-btn">
-//             <em className="chart_label barchart_label">Bar Chart </em>
-//             <label className="switch">
-//               <input
-//                 type="checkbox"
-//                 checked={isPieChart}
-//                 onChange={() => setIsPieChart(!isPieChart)} // Toggle on change
-//               />
-//               <span className="slider"></span>
-//             </label>
-//             <em className="chart_label piechart_label">Pie Chart </em>
-//           </div>
-//           <ToggleFilter
-//             options={[
-//               { label: 'Scope 1', value: 'Scope 1' },
-//               { label: 'Scope 2', value: 'Scope 2' },
-//               { label: 'Scope 3', value: 'Scope 3' },
-//             ]}
-//             value={toggleFilterValue}
-//             onChange={handleFilterChange}
-//           /> 
-//         </div>
-//       </TitleBar>
-//       <div className="scopewise-chart">
-//         <div className="chart">
-//           <ResponsiveContainer width="100%" height={400}>
-//             {isPieChart ? (
-//               <ResponsivePie
-//                 data={transformedData}
-//                 id="id"
-//                 margin={{ top: 30, right: 30, bottom: 30, left: 30 }}
-//                 innerRadius={0.75}
-//                 padAngle={0}
-//                 cornerRadius={3}
-//                 colors={transformedData.map((item) => item.color)}
-//                 borderWidth={1}
-//                 borderColor={{ from: 'color', modifiers: [['darker', 0.2]] }}
-//                 animate={true}
-//                 value="value"
-//                 activeOuterRadiusOffset={8}
-//                 arcLinkLabelsSkipAngle={10}
-//                 arcLinkLabelsTextColor="#333333"
-//                 arcLinkLabelsThickness={2}
-//                 arcLinkLabelsColor={{ from: 'color' }}
-//                 arcLabelsSkipAngle={1}
-//                 arcLabelsTextColor="#000000"
-//                 arcLabelsRadiusOffset={0.5}
-//                 arcLabel={(d) => `${d.value}%`}
-//               />
-//             ) : (
-//               <BarChart
-//                 data={categorywiseEmissionSummaryData}
-//                 layout="vertical"
-//                 margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
-//               >
-//                 <CartesianGrid strokeDasharray="3 3" />
-//                 <XAxis type="number" />
-//                 <YAxis type="category" dataKey="name" width={280} />
-//                 <YAxis type="category" yAxisId="right" orientation="right" dataKey="label" width={100} />
-//                 <Tooltip />
-//                 <Legend />
-//                 <Bar
-//                   dataKey="value"
-//                   fill="#4f805d"
-//                   barSize={20}
-//                   label={(props: { x: any; width: any; y: number; height: number; label: boolean | React.ReactChild | React.ReactFragment | React.ReactPortal; }) => (
-//                     <text
-//                       x={props.x + props.width + 10}
-//                       y={props.y + props.height / 2}
-//                       textAnchor="end"
-//                       dominantBaseline="middle"
-//                       fontSize="12"
-//                       fill="#f00"
-//                     >
-//                       {props.label}
-//                     </text>
-//                   )}
-//                 />
-//               </BarChart>
-//             )}
-//           </ResponsiveContainer>
-//         </div>
-//       </div> 
-//             </WidgetWrapper>
-//          </div>
-//     </WidgetWrapper>
-//   );
-// };
-// export default Emissions_Category_Breakdown;
 
 
 /***/ }),
@@ -12064,10 +13691,6 @@ const Carbon_Trends_Overview = (props) => {
             "Trend Forecast": 784
         }
     ];
-    // let [checkedCheckState, setCheckedCheckState] = React.useState<boolean>(true); 
-    // const onChangeCheckbox = (checked: boolean) => {
-    //     setCheckedCheckState(checked)
-    // }  
     const initialCheckStates = [true, false, false, true, false, true, false, false, true];
     const [checkedCheckStates, setCheckedCheckStates] = react_1.default.useState(initialCheckStates);
     const onChangeCheckbox = (index, checked) => {
@@ -12088,63 +13711,62 @@ const Carbon_Trends_Overview = (props) => {
                     react_1.default.createElement("div", { className: "trends-overall" },
                         react_1.default.createElement("div", { className: "trends-box white-box" },
                             react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(0, checked), checked: checkedCheckStates[0], label: "Current Emission", isValid: true }),
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(1, checked), checked: checkedCheckStates[1], label: "Trend Forecast", isValid: true })),
-                            react_1.default.createElement("div", { className: "trends-box-cont" },
+                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(7, checked), checked: checkedCheckStates[7], label: 'Use Business As Usual (2024)', isValid: true }),
+                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(5, checked), checked: checkedCheckStates[5], label: "Baseline (2022)", isValid: true }),
+                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(6, checked), checked: checkedCheckStates[6], label: "Carbon Goals (2030)", isValid: true })),
+                            react_1.default.createElement("div", { className: "trends-box-cont green-trends-box-cont" },
+                                react_1.default.createElement("p", null, "CURRENT EMISSION"),
+                                react_1.default.createElement("span", null, "BASELINE (2022)"),
                                 react_1.default.createElement("h5", null,
                                     "100 tCO",
                                     react_1.default.createElement("sub", null, "2"),
-                                    "e"),
-                                react_1.default.createElement("p", null, "CURRENT EMISSION"))),
-                        react_1.default.createElement("div", { className: "trends-box white-box" },
-                            react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(2, checked), checked: checkedCheckStates[2], label: 'Business as Usual', isValid: true }),
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(3, checked), checked: checkedCheckStates[3], label: 'Baseline (2022)', isValid: true }),
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(4, checked), checked: checkedCheckStates[4], label: 'Carbon Goals (2030)', isValid: true })),
-                            react_1.default.createElement("div", { className: "trends-box-cont" },
-                                react_1.default.createElement("h5", null,
-                                    "120  tCO",
-                                    react_1.default.createElement("sub", null, "2"),
-                                    "e"),
-                                react_1.default.createElement("p", null, "BASELINE (2022)"))),
+                                    "e"))),
                         react_1.default.createElement("div", { className: "trends-box light-red-box" },
                             react_1.default.createElement("div", { className: "trends-box-cont" },
                                 react_1.default.createElement("h5", null,
                                     "20 tCO",
                                     react_1.default.createElement("sub", null, "2"),
-                                    "e"),
-                                react_1.default.createElement("p", null, "DEVIATION")))))),
+                                    "e"))),
+                        react_1.default.createElement("div", { className: "trends-box white-box" },
+                            react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
+                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(8, checked), checked: checkedCheckStates[8], label: 'Use Business As Usual (2050)', isValid: true })),
+                            react_1.default.createElement("div", { className: "trends-box-cont purple-trends-box-cont" },
+                                react_1.default.createElement("p", null, "ACTUAL EMISSION"),
+                                react_1.default.createElement("span", null, "current"),
+                                react_1.default.createElement("h5", null,
+                                    "120  tCO",
+                                    react_1.default.createElement("sub", null, "2"),
+                                    "e")))))),
             react_1.default.createElement("div", { className: "emi-breakdown" },
                 react_1.default.createElement(components_1.WidgetWrapper, null,
                     react_1.default.createElement(components_1.TitleBar, { title: 'CURRENT OFFSET REQUIREMENT' }),
                     react_1.default.createElement("div", { className: "trends-overall" },
                         react_1.default.createElement("div", { className: "trends-box white-box" },
                             react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(5, checked), checked: checkedCheckStates[5], label: "Current Emission", isValid: true }),
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(6, checked), checked: checkedCheckStates[6], label: "Trend Forecast", isValid: true })),
-                            react_1.default.createElement("div", { className: "trends-box-cont" },
+                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(7, checked), checked: checkedCheckStates[7], label: 'Use Business As Usual (2050)', isValid: true })),
+                            react_1.default.createElement("div", { className: "trends-box-cont green-trends-box-cont" },
+                                react_1.default.createElement("p", null, "PLANNED EMISSION"),
+                                react_1.default.createElement("span", null, "2050"),
                                 react_1.default.createElement("h5", null,
-                                    "100 tCO",
+                                    "120  tCO",
                                     react_1.default.createElement("sub", null, "2"),
-                                    "e"),
-                                react_1.default.createElement("p", null, "CURRENT EMISSION"))),
-                        react_1.default.createElement("div", { className: "trends-box white-box" },
-                            react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(7, checked), checked: checkedCheckStates[7], label: 'Business as Usual', isValid: true }),
-                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(8, checked), checked: checkedCheckStates[8], label: 'Carbon Goals (2050)', isValid: true })),
-                            react_1.default.createElement("div", { className: "trends-box-cont" },
-                                react_1.default.createElement("h5", null,
-                                    "0  tCO",
-                                    react_1.default.createElement("sub", null, "2"),
-                                    "e"),
-                                react_1.default.createElement("p", null, "CARBON GOALS (2050)"))),
+                                    "e"))),
                         react_1.default.createElement("div", { className: "trends-box light-red-box" },
                             react_1.default.createElement("div", { className: "trends-box-cont" },
                                 react_1.default.createElement("h5", null,
                                     "20 tCO",
                                     react_1.default.createElement("sub", null, "2"),
-                                    "e"),
-                                react_1.default.createElement("p", null, "REQUIRED OFFSET"))))))),
+                                    "e"))),
+                        react_1.default.createElement("div", { className: "trends-box white-box" },
+                            react_1.default.createElement(components_1.FormField, { inline: true, className: "showcase-checkbox" },
+                                react_1.default.createElement(components_1.Checkbox, { onChange: (checked) => onChangeCheckbox(8, checked), checked: checkedCheckStates[8], label: 'Use Predicted Emission for the period', isValid: true })),
+                            react_1.default.createElement("div", { className: "trends-box-cont purple-trends-box-cont" },
+                                react_1.default.createElement("p", null, "ACTUAL EMISSION"),
+                                react_1.default.createElement("span", null, "current"),
+                                react_1.default.createElement("h5", null,
+                                    "120  tCO",
+                                    react_1.default.createElement("sub", null, "2"),
+                                    "e"))))))),
         "\"           ",
         react_1.default.createElement("div", { className: "resource_consumption_overview" },
             react_1.default.createElement("div", { className: "consuption_composition" },
@@ -12167,6 +13789,475 @@ const Carbon_Trends_Overview = (props) => {
                                 react_1.default.createElement(recharts_1.Line, { type: "monotone", dataKey: "Business as usual", stroke: "#424242", strokeDasharray: "3 3", dot: true, name: "Business as usual" })))))))));
 };
 exports["default"] = Carbon_Trends_Overview;
+// import React, { useEffect, useState, useMemo  } from "react"; 
+// import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';  
+// import {  AreaChart, Area, ResponsiveContainer,Scatter, LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,PieChart, Pie  } from 'recharts';
+// import { useToast, DataList, WidgetWrapper, Button, DynamicSelect, SearchBox, Modal, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
+// import { ResponsivePie } from '@nivo/pie';  
+// interface IWidgetProps {
+//     uxpContext?: IContextProvider,
+//     instanceId?: string
+// }    
+// interface ScopePopupData {
+//     MonthString: string;
+//     Scope1: number;
+//     Scope2: number;
+//     Scope3: number;
+// }  
+// const Carbon_Trends_Overview: React.FunctionComponent<IWidgetProps> = (props) => { 
+// let toast = useToast();
+//     let [ClientFilter,setClientFilter] =  React.useState<string>('0');
+//     let [MainUnitFilter,setMainUnitFilter] =  React.useState<string>('0');
+//     let [SubUnitFilter,setSubUnitFilter] =  React.useState<string>('0');
+// let [ClientFilterList,setClientFilterList] =  React.useState<any[]>([]);
+//     let [MainUnitFilterList,setMainUnitFilterList] =  React.useState<any[]>([]);
+//     let [SubUnitFilterList,setSubUnitFilterList] =  React.useState<any[]>([]); 
+//     let [autoClose, setAutoClose] = React.useState(true);
+//     React.useEffect(()=>{
+//         getClientListFilter();
+//     },[])
+// function getClientListFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             //debugger
+//             setClientFilterList(result)
+//             setClientFilter(result[0].ClientKey)
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }
+//     React.useEffect(()=>{
+//         if(ClientFilter!='0'){
+//             getBusinessUnitsFilter()
+//         }
+//     },[ClientFilter])
+//     function getBusinessUnitsFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:'0'}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             var filteredArray = result.filter(function(itm:any){
+//                 return itm.ParentKey=='';
+//               });
+//             setMainUnitFilterList(filteredArray);
+//             setMainUnitFilter(filteredArray[0].BusinessUnitKey);
+//             //debugger
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }
+//     React.useEffect(()=>{
+//         if(MainUnitFilter!='0'){
+//             getSubBusinessUnitsFilter();
+//         }
+//     },[MainUnitFilter])
+//     function getSubBusinessUnitsFilter(){
+//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:MainUnitFilter}, { json: true })
+//         .then(res => {
+//             let result = res;
+//             if(result.length>0){
+//                 setSubUnitFilterList(result);
+//                 setSubUnitFilter(result[0].BusinessUnitKey);
+//             }else{
+//                 setSubUnitFilterList([]);
+//                 setSubUnitFilter("0");
+//             } 
+//         })
+//         .catch(e => {
+//             console.log("except: ", e);
+//             toast.error("Something went wrong" + e);
+//         });
+//     }  
+//     useEffect(() => { 
+//        // getScopeEmissionBreakdownData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter);
+//        // getScopewisePopUpData(SubUnitFilter !== '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth); // Correct function call
+//        // scopewisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//        // getCategorywiseEmissionOverview(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//        // getcategorywisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+//     },[SubUnitFilter,MainUnitFilter ]) 
+//   let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
+//   function getScopeEmissionBreakdownData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//     props.uxpContext.executeAction(
+//       "OrganizationalEmissionOverview-Dataprovider",
+//       "GetScopewiseEmissionBreakdown",
+//       { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
+//       { json: true }
+//     )
+//     .then((res: any) => {
+//       console.log("response", res);
+//       setScopeEmissionBreakdowndata(res);  
+//     })
+//     .catch((e: any) => {
+//       console.error("Error fetching scope data", e);
+//     });
+//   }   
+//     let [selected, setSelected] = React.useState<string | null>("op-1"); 
+// let [categorywisePopUpData,setCategorywisePopUpData] = React.useState<any>([]) 
+// function getcategorywisePopUpData (BusinessUnitKey:string,StartYear:number,StartMonth:number,EndYear:number,EndMonth:number) {  
+//     props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider","GetCategorywiseEmissionBreakdown",{BusinessUnitKey:BusinessUnitKey,StartYear:StartYear,StartMonth:StartMonth,EndYear:EndYear,EndMonth:EndMonth},{json:true}).then(res=>{ 
+//         console.log("data",res);
+//         setCategorywisePopUpData(res);
+//     }).catch(e=>{
+//         // console.log("hi", e);
+//     }); 
+// } 
+// const consumptionCompositionData = [
+//     { 
+//       "years": 2021,
+//       "Scope 1": 4000,
+//       "Scope 2": 2400,
+//       "Scope 3": 2400,
+//       "Baseline": 587,
+//       "Carbon Reduction Goals": 758,
+//       "Trend Forecast": 368
+//     },
+//     { 
+//       "years": 2022,
+//       "Scope 1": 3000,
+//       "Scope 2": 1398,
+//       "Scope 3": 2210,
+//       "Baseline": 2543,
+//       "Carbon Reduction Goals": 254,
+//       "Trend Forecast": 457
+//     },
+//     { 
+//       "years": 2023,
+//       "Scope 1": 2000,
+//       "Scope 2": 9800,
+//       "Scope 3": 2290,
+//       "Baseline": 1570,
+//       "Carbon Reduction Goals": 758,
+//       "Trend Forecast": 498
+//     },
+//     { 
+//       "years": 2024,
+//       "Scope 1": 2780,
+//       "Scope 2": 3908,
+//       "Scope 3": 2000,
+//       "Baseline": 1690,
+//       "Carbon Reduction Goals": 657,
+//       "Trend Forecast": 462
+//     },
+//     { 
+//       "years": 2025,
+//       "Scope 1": 1890,
+//       "Scope 2": 4800,
+//       "Scope 3": 2181,
+//       "Baseline": 1247,
+//       "Carbon Reduction Goals": 854,
+//       "Trend Forecast": 357
+//     },
+//     { 
+//       "years": 2026,
+//       "Scope 1": 2390,
+//       "Scope 2": 3800,
+//       "Scope 3": 2500,
+//       "Baseline": 1658,
+//       "Carbon Reduction Goals": 654,
+//       "Trend Forecast": 124
+//     },
+//     { 
+//       "years": 2027,
+//       "Scope 1": 3490,
+//       "Scope 2": 4300,
+//       "Scope 3": 2100,
+//       "Baseline": 1520,
+//       "Carbon Reduction Goals": 365,
+//       "Trend Forecast": 784
+//     }
+//   ]; 
+//     const initialCheckStates = [true, false, false, true, false, true, false, false, true];
+//     const [checkedCheckStates, setCheckedCheckStates] = React.useState<boolean[]>(initialCheckStates);
+//     const onChangeCheckbox = (index: number, checked: boolean) => {
+//         const updatedCheckStates = [...checkedCheckStates];
+//         updatedCheckStates[index] = checked;
+//         setCheckedCheckStates(updatedCheckStates);
+//     };
+//     return (
+//         <WidgetWrapper className="carbon-trends-overview">
+//             <TitleBar title='ORGANIZATIONAL CARBON TRENDS OVERVIEW' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
+//                             <div className="top-filter">
+//                                 <div className="select-filter">  
+//                                         <div className="uxp-emi-dropdown">  
+//                                            <Select
+//                                                 selected={ClientFilter}
+//                                                 options={ClientFilterList}
+//                                                 labelField="ClientID"
+//                                                 valueField="ClientKey"
+//                                                 onChange={(value) => { setClientFilter(value) }}
+//                                                 placeholder=" -- select --"
+//                                                 isValid={selected ? selected?.length > 0 : null}
+//                                             />  
+//                                         </div> 
+//                                 </div>  
+//                         </div> 
+//             </TitleBar>  
+//                 {/* <div className="resource_consumption_overview">  
+//                     <div className="emi-breakdown">  
+//                         <WidgetWrapper>
+//                             <TitleBar title='CURRENT EMISSION DEVIATION'/> 
+//                             <div className="trends-overall">
+//                                 <div className="trends-box white-box">  
+//                                     <FormField inline className="showcase-checkbox">
+//                                     <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(0, checked)}  
+//                                             checked={checkedCheckStates[0]}
+//                                             label="Current Emission"
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(1, checked)}
+//                                             checked={checkedCheckStates[1]}
+//                                             label="Trend Forecast"
+//                                             isValid
+//                                         />
+//                                     </FormField>  
+//                                     <div className="trends-box-cont">
+//                                         <h5>100 tCO<sub>2</sub>e</h5>
+//                                         <p>CURRENT EMISSION</p>
+//                                     </div>
+//                                 </div>
+//                                   <div className="trends-box white-box">  
+//                                     <FormField inline className="showcase-checkbox">
+//                                     <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(2, checked)}   
+//                                             checked={checkedCheckStates[2]}
+//                                             label='Business as Usual'
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(3, checked)}
+//                                             checked={checkedCheckStates[3]}
+//                                            label='Baseline (2022)'
+//                                             isValid
+//                                         />
+//                                          <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(4, checked)}
+//                                             checked={checkedCheckStates[4]}
+//                                             label='Carbon Goals (2030)'
+//                                             isValid
+//                                         /> 
+//                                     </FormField>  
+//                                     <div className="trends-box-cont">
+//                                         <h5>120  tCO<sub>2</sub>e</h5>
+//                                         <p>BASELINE (2022)</p>
+//                                     </div>
+//                                 </div>  
+//                                 <div className="trends-box light-red-box">  
+//                                     <div className="trends-box-cont">
+//                                         <h5>20 tCO<sub>2</sub>e</h5>
+//                                         <p>DEVIATION</p>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                          </WidgetWrapper>
+//                      </div> 
+//                        <div className="emi-breakdown">  
+//                          <WidgetWrapper>
+//                              <TitleBar title='CURRENT OFFSET REQUIREMENT'/> 
+//                              <div className="trends-overall">
+//                                  <div className="trends-box white-box">  
+//                                      <FormField inline className="showcase-checkbox">
+//                                      <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(5, checked)}   
+//                                             checked={checkedCheckStates[5]}
+//                                             label="Current Emission"
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(6, checked)}
+//                                             checked={checkedCheckStates[6]}
+//                                             label="Trend Forecast"
+//                                             isValid
+//                                         /> 
+//                                      </FormField>  
+//                                      <div className="trends-box-cont">
+//                                          <h5>100 tCO<sub>2</sub>e</h5>
+//                                          <p>CURRENT EMISSION</p>
+//                                      </div>
+//                                  </div>
+//                                  <div className="trends-box white-box">  
+//                                      <FormField inline className="showcase-checkbox">
+//                                      <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(7, checked)}  
+//                                             checked={checkedCheckStates[7]}
+//                                            label='Business as Usual'
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(8, checked)}
+//                                             checked={checkedCheckStates[8]}
+//                                             label='Carbon Goals (2050)'
+//                                             isValid
+//                                         />
+//                                      </FormField>  
+//                                      <div className="trends-box-cont">
+//                                          <h5>0  tCO<sub>2</sub>e</h5>
+//                                          <p>CARBON GOALS (2050)</p>
+//                                      </div>
+//                                  </div>
+//                                  <div className="trends-box light-red-box">  
+//                                      <div className="trends-box-cont">
+//                                      <h5>20 tCO<sub>2</sub>e</h5>
+//                                          <p>REQUIRED OFFSET</p>
+//                                      </div>
+//                                  </div>
+//                              </div>
+//                           </WidgetWrapper>
+//                       </div>  
+//                 </div> */}
+//                     <div className="resource_consumption_overview">  
+//                     <div className="emi-breakdown">  
+//                         <WidgetWrapper>
+//                             <TitleBar title='CURRENT EMISSION DEVIATION'/> 
+//                             <div className="trends-overall">
+//                                 <div className="trends-box white-box">  
+//                                     <FormField inline className="showcase-checkbox">
+//                                     <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(0, checked)}  
+//                                             checked={checkedCheckStates[0]}
+//                                             label="Current Emission"
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(1, checked)}
+//                                             checked={checkedCheckStates[1]}
+//                                             label="Trend Forecast"
+//                                             isValid
+//                                         />
+//                                     </FormField>  
+//                                     <div className="trends-box-cont">
+//                                         <h5>100 tCO<sub>2</sub>e</h5>
+//                                         <p>CURRENT EMISSION</p>
+//                                     </div>
+//                                 </div>
+//                                 <div className="trends-box white-box">  
+//                                     <FormField inline className="showcase-checkbox">
+//                                     <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(2, checked)}   
+//                                             checked={checkedCheckStates[2]}
+//                                             label='Business as Usual'
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(3, checked)}
+//                                             checked={checkedCheckStates[3]}
+//                                         label='Baseline (2022)'
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(4, checked)}
+//                                             checked={checkedCheckStates[4]}
+//                                             label='Carbon Goals (2030)'
+//                                             isValid
+//                                         /> 
+//                                     </FormField>  
+//                                     <div className="trends-box-cont">
+//                                         <h5>120  tCO<sub>2</sub>e</h5>
+//                                         <p>BASELINE (2022)</p>
+//                                     </div>
+//                                 </div>  
+//                                 <div className="trends-box light-red-box">  
+//                                     <div className="trends-box-cont">
+//                                         <h5>20 tCO<sub>2</sub>e</h5>
+//                                         <p>DEVIATION</p>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </WidgetWrapper>
+//                     </div> 
+//                     <div className="emi-breakdown">  
+//                         <WidgetWrapper>
+//                             <TitleBar title='CURRENT OFFSET REQUIREMENT'/> 
+//                             <div className="trends-overall">
+//                                 <div className="trends-box white-box">  
+//                                     <FormField inline className="showcase-checkbox">
+//                                     <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(5, checked)}   
+//                                             checked={checkedCheckStates[5]}
+//                                             label="Current Emission"
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(6, checked)}
+//                                             checked={checkedCheckStates[6]}
+//                                             label="Trend Forecast"
+//                                             isValid
+//                                         /> 
+//                                     </FormField>  
+//                                     <div className="trends-box-cont">
+//                                         <h5>100 tCO<sub>2</sub>e</h5>
+//                                         <p>CURRENT EMISSION</p>
+//                                     </div>
+//                                 </div>
+//                                 <div className="trends-box white-box">  
+//                                     <FormField inline className="showcase-checkbox">
+//                                     <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(7, checked)}  
+//                                             checked={checkedCheckStates[7]}
+//                                         label='Business as Usual'
+//                                             isValid
+//                                         />
+//                                         <Checkbox
+//                                             onChange={(checked) => onChangeCheckbox(8, checked)}
+//                                             checked={checkedCheckStates[8]}
+//                                             label='Carbon Goals (2050)'
+//                                             isValid
+//                                         />
+//                                     </FormField>  
+//                                     <div className="trends-box-cont">
+//                                         <h5>0  tCO<sub>2</sub>e</h5>
+//                                         <p>CARBON GOALS (2050)</p>
+//                                     </div>
+//                                 </div>
+//                                 <div className="trends-box light-red-box">  
+//                                     <div className="trends-box-cont">
+//                                     <h5>20 tCO<sub>2</sub>e</h5>
+//                                         <p>REQUIRED OFFSET</p>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </WidgetWrapper>
+//                     </div>  
+//                     </div>
+// "           <div className="resource_consumption_overview"> 
+//                 <div  className="consuption_composition" >
+//                     <WidgetWrapper>
+//                             <TitleBar title='CARBON TREND'/> 
+//                             <div className="scopewise-chart">  
+//                                 <ResponsiveContainer width="100%" height={400}> 
+//                                     <ComposedChart 
+//                                     data={consumptionCompositionData.map((entry) => ({
+//                                         ...entry,
+//                                         "Business as usual": (entry["Scope 1"] + entry["Scope 2"] + entry["Scope 3"]) / 3, // Calculating average inline
+//                                     }))} 
+//                                     margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+//                                     <CartesianGrid strokeDasharray="3 3" />
+//                                     <XAxis dataKey="years" />
+//                                     <YAxis />
+//                                     <Tooltip />
+//                                     <Legend />
+//                                     <Bar barSize={10} dataKey="Scope 1" stackId="a" fill="#4c6a48" />
+//                                     <Bar barSize={10} dataKey="Scope 2" stackId="a" fill="#466f81" />
+//                                     <Bar barSize={10} dataKey="Scope 3" stackId="a" fill="#b97244" />
+//                                     <Line type="monotone" dataKey="Baseline" stroke="#4c6a48" />
+//                                     <Line type="monotone" dataKey="Carbon Reduction Goals" stroke="#ff7300" />
+//                                     <Line type="monotone" dataKey="Trend Forecast" stroke="#b97244" />
+//                                     <Line type="monotone" dataKey="Business as usual" stroke="#424242" strokeDasharray="3 3" dot={true} name="Business as usual" />
+//                                     </ComposedChart> 
+//                                 </ResponsiveContainer> 
+//                             </div>
+//                          </WidgetWrapper>
+//                 </div> 
+//             </div>
+//         </WidgetWrapper>
+//     )
+// }; 
+// export default Carbon_Trends_Overview;
 
 
 /***/ }),
@@ -12211,6 +14302,8 @@ const recharts_1 = __webpack_require__(/*! recharts */ "recharts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 const highcharts_1 = __importDefault(__webpack_require__(/*! highcharts */ "./node_modules/highcharts/highcharts.js"));
 const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
+const accessibility_1 = __importDefault(__webpack_require__(/*! highcharts/modules/accessibility */ "./node_modules/highcharts/modules/accessibility.js"));
+(0, accessibility_1.default)(highcharts_1.default); // Initialize the accessibility module
 const Emission_Overview = (props) => {
     var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
     let toast = (0, components_1.useToast)();
@@ -12312,7 +14405,8 @@ const Emission_Overview = (props) => {
         getScopewisePopUpData(SubUnitFilter !== '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth); // Correct function call
         // scopewisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
         getCategorywiseEmissionOverview(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
-        getcategorywisePopUpData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
+        // getcategorywisePopUpData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
+        getCategorywisePopUpData(SubUnitFilter != '0' ? SubUnitFilter : MainUnitFilter, startYear, startMonth, endYear, endMonth);
     }, [startYear, startMonth, endYear, endMonth, SubUnitFilter, MainUnitFilter]);
     const colorMap = {
         'Scope 1': '#537453',
@@ -12346,7 +14440,6 @@ const Emission_Overview = (props) => {
         }
     };
     let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = (0, react_1.useState)([]);
-    //let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
     function getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
         props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
             .then((res) => {
@@ -12380,26 +14473,29 @@ const Emission_Overview = (props) => {
         }));
     }, [scopeEmissionBreakdowndata]);
     const chartData = groupedScopeEmissionBreakdowndata;
+    const formatCO2e = function () {
+        return `${this.point.name}: ${(this.y || 0).toLocaleString(undefined, {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        })} kgCO2e`;
+    };
     const scope_options = {
-        // chart: {
-        //     type: 'pie',
-        //     options3d: {
-        //         enabled: true,
-        //         alpha: 40,
-        //         beta: 0
-        //     }
-        // },
         chart: {
             type: "pie",
-            height: "80%",
+            height: "78%",
             margin: [20, 10, 0, 10],
         },
         title: {
             text: "",
         },
         tooltip: {
-            //   pointFormat: "<b>{point.name}</b>: {point.y}",
-            pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e"
+            //   formatter: function () {
+            //     return `<b>${this.point.name}</b>: ${(this.y || 0).toLocaleString(undefined, {
+            //       minimumFractionDigits: 2,
+            //       maximumFractionDigits: 2
+            //     })} kgCO2e`;   
+            //   }
+            formatter: formatCO2e, // Reuse the formatter function
         },
         plotOptions: {
             pie: {
@@ -12407,8 +14503,13 @@ const Emission_Overview = (props) => {
                 depth: 40,
                 dataLabels: {
                     enabled: true,
-                    // format: '{point.name}: <b>{point.y:.1f}</b>',
-                    format: "{point.name}: {point.y:.2f} kgCO2e",
+                    //   formatter: function () {
+                    //     return `${this.point.name}: ${(this.y || 0).toLocaleString(undefined, {
+                    //       minimumFractionDigits: 2,
+                    //       maximumFractionDigits: 2
+                    //     })} kgCO2e`;   
+                    //   },
+                    formatter: formatCO2e, // Reuse the formatter function 
                 },
                 showInLegend: true
             }
@@ -12426,7 +14527,7 @@ const Emission_Overview = (props) => {
         series: [{
                 name: 'Emissions',
                 colorByPoint: true,
-                data: chartData // Use the grouped data for chart
+                data: chartData
             }]
     };
     let [showModal, setShowModal] = react_1.default.useState(false);
@@ -12449,32 +14550,131 @@ const Emission_Overview = (props) => {
             EndYear,
             EndMonth
         }, { json: true }).then(res => {
-            console.log("data", res);
-            setScopewisePopUpData(processScopeData(res)); // Process the data after fetching
+            setScopewisePopUpData(processScopeData(res));
         }).catch(e => {
             console.error("Error fetching data", e);
         });
     };
-    // Process the fetched data
     const processScopeData = (data) => {
-        const groupedScopePopupData = {};
+        const groupedData = {};
         data.forEach(item => {
             const month = item.MonthString;
-            if (!groupedScopePopupData[month]) {
-                groupedScopePopupData[month] = { MonthString: month, Scope1: 0, Scope2: 0, Scope3: 0 };
+            if (!groupedData[month]) {
+                groupedData[month] = { Scope1: 0, Scope2: 0, Scope3: 0 };
             }
             const emission = parseFloat(item.CarbonEmission);
             if (item.ScopeKey === "1") {
-                groupedScopePopupData[month].Scope1 += emission;
+                groupedData[month].Scope1 += emission;
             }
             else if (item.ScopeKey === "2") {
-                groupedScopePopupData[month].Scope2 += emission;
+                groupedData[month].Scope2 += emission;
             }
             else if (item.ScopeKey === "3") {
-                groupedScopePopupData[month].Scope3 += emission;
+                groupedData[month].Scope3 += emission;
             }
         });
-        return Object.values(groupedScopePopupData);
+        // Convert the grouped data back into an array of EmissionData
+        return Object.keys(groupedData).map(month => ({
+            Year: "",
+            Month: "",
+            MonthString: month,
+            ScopeKey: "",
+            ScopeName: "",
+            CarbonEmission: (groupedData[month].Scope1 +
+                groupedData[month].Scope2 +
+                groupedData[month].Scope3).toFixed(2),
+            Scope1: groupedData[month].Scope1.toFixed(2),
+            Scope2: groupedData[month].Scope2.toFixed(2),
+            Scope3: groupedData[month].Scope3.toFixed(2) // Store Scope 3
+        })).filter(item => {
+            // Filter out items with total emissions of 0
+            return parseFloat(item.CarbonEmission) > 0;
+        });
+    };
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    // Prepare categories and scope data, ensuring to filter out zero emissions
+    const filteredData = scopewisePopUpData.filter(data => parseFloat(data.CarbonEmission) > 0);
+    const categories = monthNames.filter((_, index) => filteredData.some(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index)); // Get month names for only those months that have data
+    const scope1Data = monthNames.map((_, index) => {
+        const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+        return dataForMonth ? parseFloat(dataForMonth.Scope1) : 0;
+    }).filter(value => value > 0); // Filter out zero values
+    const scope2Data = monthNames.map((_, index) => {
+        const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+        return dataForMonth ? parseFloat(dataForMonth.Scope2) : 0;
+    }).filter(value => value > 0); // Filter out zero values
+    const scope3Data = monthNames.map((_, index) => {
+        const dataForMonth = filteredData.find(data => new Date(Date.parse(data.MonthString + " 1")).getMonth() === index);
+        return dataForMonth ? parseFloat(dataForMonth.Scope3) : 0;
+    }).filter(value => value > 0); // Filter out zero values
+    const chartScopeBarOptions = {
+        chart: {
+            type: 'column' // Use 'column' for vertical stacked bars
+        },
+        title: {
+            text: 'Carbon Emissions by Scope'
+        },
+        xAxis: {
+            categories: categories.length > 0 ? categories : ['No Data'],
+            title: {
+                text: ""
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '',
+                align: 'high'
+            },
+            labels: {
+                overflow: 'justify'
+            }
+        },
+        // tooltip: {
+        //   pointFormat: "<b>{series.name}</b>: {point.y:.2f} kgCO2e<br/>Total: {point.stackTotal:.2f} kgCO2e"
+        // },
+        tooltip: {
+            formatter: function () {
+                return `<b>${this.series.name}</b>: ${(this.y || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                })} kgCO2e`; // Formatting tooltip value
+            }
+        },
+        credits: {
+            enabled: false,
+        },
+        plotOptions: {
+            column: {
+                stacking: 'normal',
+                dataLabels: {
+                    enabled: true,
+                    formatter: function () {
+                        return `${this.series.name}: ${(this.y || 0).toLocaleString(undefined, {
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2
+                        })} kgCO2e`; // Using toLocaleString for data labels
+                    }
+                }
+            }
+        },
+        series: [
+            {
+                name: 'Scope 1',
+                data: scope1Data,
+                color: '#4c6a48' // Color for Scope 1
+            },
+            {
+                name: 'Scope 2',
+                data: scope2Data,
+                color: '#466f81' // Color for Scope 2
+            },
+            {
+                name: 'Scope 3',
+                data: scope3Data,
+                color: '#b97244' // Color for Scope 3
+            }
+        ]
     };
     let [selected, setSelected] = react_1.default.useState("op-1");
     let [selected1, setSelected1] = react_1.default.useState("op-1");
@@ -12502,7 +14702,6 @@ const Emission_Overview = (props) => {
             console.error("Error fetching scope data", e);
         });
     }
-    // Define color map for ScopeKey to ensure consistency across inner and outer series
     // Function to lighten a given color
     const lightenColor = (hex, percent) => {
         let r = parseInt(hex.slice(1, 3), 16);
@@ -12541,28 +14740,25 @@ const Emission_Overview = (props) => {
         }
         return acc;
     }, []);
-    // Prepare inner and outer series data with colors matching ScopeKey
     const innerSeriesData = groupedData.map((scope) => ({
         name: scope.name,
         y: scope.children.reduce((acc, child) => acc + child.value, 0),
-        color: colorMap[scope.name], // Use the same color for inner part
+        color: colorMap[scope.name],
     }));
     const outerSeriesData = groupedData.reduce((acc, scope) => {
-        const childrenCount = scope.children.length; // Total number of children for this scope
+        const childrenCount = scope.children.length;
         return acc.concat(scope.children.map((child, index) => {
-            const lighteningFactor = (index / (childrenCount - 1)) * 0.5; // Adjust lightening factor (0 to 0.5)
-            const childColor = lightenColor(colorMap[scope.name], lighteningFactor); // Lighten based on index
+            const lighteningFactor = (index / (childrenCount - 1)) * 0.5;
+            const childColor = lightenColor(colorMap[scope.name], lighteningFactor);
             return {
                 name: child.name,
                 y: child.value,
-                color: childColor, // Use the lightened color for outer part
+                color: childColor,
             };
         }));
     }, []);
-    // Check if all values are zero
     const CategorywiseValueZero = groupedData.every((scope) => scope.children.every((child) => child.value === 0));
-    // Highcharts options for donut chart with color matching
-    const options = {
+    const cateMainOptions = {
         chart: {
             type: "pie",
             height: "50%",
@@ -12576,12 +14772,11 @@ const Emission_Overview = (props) => {
                 innerSize: "40%",
                 dataLabels: {
                     enabled: true,
-                    //format: "{point.name}: {point.y:.1f}", // Show name and value
-                    format: "{point.name}: {point.y:.2f} kgCO2e",
+                    formatter: formatCO2e,
                     filter: {
                         property: 'y',
                         operator: '>',
-                        value: 0, // Show labels only if value > 0
+                        value: 0,
                     },
                 },
             },
@@ -12593,7 +14788,8 @@ const Emission_Overview = (props) => {
                 size: '60%',
                 data: innerSeriesData,
                 dataLabels: {
-                    distance: -30, // Position inside the donut
+                    distance: -30,
+                    formatter: formatCO2e, // Reuse the formatter function
                 },
             },
             {
@@ -12604,29 +14800,226 @@ const Emission_Overview = (props) => {
                 data: outerSeriesData,
                 dataLabels: {
                     distance: 10,
+                    formatter: formatCO2e,
                     filter: {
                         property: 'y',
                         operator: '>',
-                        value: 0, // Show labels only if value > 0
+                        value: 0,
                     },
                 },
             },
         ],
         tooltip: {
-            //   pointFormat: "<b>{point.name}</b>: {point.y}",
-            pointFormat: "<b>{point.name}</b>: {point.y:.2f} kgCO2e" // Format y value to 2 decimal places
+            formatter: function () {
+                return `<b>${this.point.name}</b>: ${(this.y || 0).toLocaleString(undefined, {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                })} kgCO2e`;
+            },
         },
         credits: {
             enabled: false,
         },
     };
-    let [categorywisePopUpData, setCategorywisePopUpData] = react_1.default.useState([]);
-    function getcategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
-        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionOverview", { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth }, { json: true }).then(res => {
-            console.log("data", res);
-            setCategorywisePopUpData(res);
-        }).catch(e => {
-            // console.log("hi", e);
+    /********************  Uk  *********************/
+    //  const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData[]>([]);
+    // function getcategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+    //     props.uxpContext.executeAction(
+    //         "OrganizationalEmissionOverview-Dataprovider",
+    //         "GetCategorywiseEmissionOverview",
+    //         { BusinessUnitKey: BusinessUnitKey, StartYear: StartYear, StartMonth: StartMonth, EndYear: EndYear, EndMonth: EndMonth },
+    //         { json: true }
+    //     ).then(res => {
+    //         console.log("data", res);
+    //         setCategorywisePopUpData(res);
+    //     }).catch(e => {
+    //         // console.log("error", e);
+    //     });
+    // }   
+    // const groupedCategoryData = categorywisePopUpData.reduce<Record<string, { categories: string[], data: number[], name: string }>>((acc, item) => {
+    //     const scopeKey = item.ScopeKey;
+    //     const emissionValue = parseFloat(item.CarbonEmission); 
+    //     if (emissionValue !== 0) {  
+    //         if (!acc[scopeKey]) {
+    //             acc[scopeKey] = {
+    //                 name: item.ScopeName,
+    //                 categories: [],
+    //                 data: []
+    //             };
+    //         }
+    //         acc[scopeKey].categories.push(item.ActivityCategorytableName);
+    //         acc[scopeKey].data.push(emissionValue);
+    //     }
+    //     return acc;
+    // }, {});
+    // const filteredCategories = Object.values(groupedCategoryData).flatMap(scope => scope.categories); 
+    // const uniqueCategories = [...new Set(filteredCategories)]; 
+    // const seriesData = Object.values(groupedCategoryData).map(scope => {
+    //     const emissionsData = uniqueCategories.map(category => {
+    //         const index = scope.categories.indexOf(category);
+    //         return index !== -1 ? scope.data[index] : 0; // Include categories, use 0 if no data
+    //     });
+    //     return {
+    //         name: scope.name,
+    //         data: emissionsData,  
+    //         color: scope.name === "Scope 1" ? "#4c6a48" : scope.name === "Scope 2" ? "#466f81" : "#b97244"
+    //     };
+    // });
+    // const chartCategorywiseOptions = {
+    //     chart: {
+    //         type: "column"
+    //     },
+    //     title: {
+    //         text: ""
+    //     },
+    //     xAxis: {
+    //         min: 0,
+    //         categories: uniqueCategories, // Only categories with non-zero emissions
+    //         title: {
+    //               text: ""
+    //         }
+    //     },
+    //     yAxis: {
+    //          min: 0,
+    //         title: {
+    //             text: "Carbon Emissions (kgCO2e)"
+    //         },
+    //         labels: {
+    //             format: "{value} kgCO2e"
+    //         }
+    //     },
+    //     tooltip: {
+    //         formatter: function () {
+    //             // Show tooltip only for non-zero values
+    //             if (this.y > 0) {
+    //                 return `<b>${this.series.name}</b>: ${this.y.toLocaleString(undefined, {
+    //                     minimumFractionDigits: 2,
+    //                     maximumFractionDigits: 2
+    //                 })} kgCO2e`;  // Formatting tooltip value
+    //             } 
+    //             return false; // Do not display tooltip for zero values
+    //         }
+    //     },
+    //     series: seriesData, // Only non-zero emissions data
+    //     plotOptions: {
+    //         column: {
+    //             dataLabels: {
+    //                 enabled: true,
+    //                 formatter: function () {
+    //                     // Show data label only for values greater than 0
+    //                     if (this.y > 0) {
+    //                         return `${this.y.toLocaleString(undefined, {
+    //                             minimumFractionDigits: 2,
+    //                             maximumFractionDigits: 2
+    //                         })} kgCO2e`;  // Using toLocaleString for data labels
+    //                     }
+    //                     return null; // Do not display label for zero values
+    //                 }
+    //             }
+    //         }
+    //     },
+    //     legend: {
+    //         enabled: true
+    //     }, 
+    //     credits: {
+    //         enabled: false
+    //     }
+    // };
+    // Example hardcoded data for testing 
+    // Set this as the categorywisePopUpData for testing
+    const [chartCategorywiseOptions, setChartCategorywiseOptions] = (0, react_1.useState)({});
+    const [categorywisePopUpData, setCategorywisePopUpData] = (0, react_1.useState)([]); // State for fetched data
+    // useEffect(() => {
+    //   const BusinessUnitKey = "5";
+    //   const StartYear = 2019;
+    //   const StartMonth = 1;
+    //   const EndYear = 2024;
+    //   const EndMonth = 12;
+    //   getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
+    // }, []);
+    function getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionOverview", {
+            BusinessUnitKey,
+            StartYear,
+            StartMonth,
+            EndYear,
+            EndMonth
+        }, { json: true })
+            .then((res) => {
+            setCategorywisePopUpData(res); // Store fetched data in state
+            updateChart(res); // Update the chart with fetched data
+        })
+            .catch(e => {
+            console.error("Error fetching data:", e);
+        });
+    }
+    function updateChart(data) {
+        const scopeData = data.reduce((acc, current) => {
+            const carbonEmissionValue = parseFloat(current.CarbonEmission);
+            // Filter out values less than or equal to 0.01
+            if (carbonEmissionValue > 0.01) {
+                if (!acc[current.ScopeKey]) {
+                    acc[current.ScopeKey] = {
+                        name: current.ScopeName,
+                        data: []
+                    };
+                }
+                acc[current.ScopeKey].data.push({
+                    name: current.ActivityCategorytableName,
+                    y: carbonEmissionValue
+                });
+            }
+            return acc;
+        }, {});
+        const seriesData = Object.values(scopeData).map(scope => ({
+            name: scope.name,
+            data: scope.data,
+            color: getScopeColor(scope.name)
+        }));
+        function getScopeColor(scopeName) {
+            switch (scopeName) {
+                case 'Scope 1':
+                    return '#4c6a48';
+                case 'Scope 2':
+                    return '#466f81';
+                case 'Scope 3':
+                    return '#b97244';
+                default:
+                    return 'gray';
+            }
+        }
+        setChartCategorywiseOptions({
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: ''
+            },
+            xAxis: {
+                type: 'category',
+                title: {
+                    text: ''
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Carbon Emissions (kgCO2e)'
+                }
+            },
+            series: seriesData.map(scope => (Object.assign(Object.assign({}, scope), { data: scope.data.map((point) => ({
+                    name: point.name,
+                    y: point.y,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:,.2f} kgCO2e' // Format for data labels with commas and two decimal points
+                    }
+                })), tooltip: {
+                    pointFormat: '<b>{point.y:,.2f} kgCO2e</b>' // Format for tooltip with commas and two decimal points
+                } }))),
+            legend: {
+                enabled: true
+            },
+            credits: { enabled: false },
         });
     }
     return (react_1.default.createElement(components_1.WidgetWrapper, null,
@@ -12651,20 +15044,24 @@ const Emission_Overview = (props) => {
             scopedata.map((scope, index) => (react_1.default.createElement("div", { key: index, className: `scope-box ${getClassName(scope.ScopeKey)}` },
                 react_1.default.createElement("h4", null, scope.ScopeName),
                 react_1.default.createElement("h3", null,
-                    Number(scope.CurrentEmission || 0).toFixed(2),
-                    " tCO",
-                    react_1.default.createElement("em", null, "2"),
-                    "e"),
+                    Number(scope.CurrentEmission || 0).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+                    " ",
+                    react_1.default.createElement("span", null,
+                        "tCO",
+                        react_1.default.createElement("em", null, "2"),
+                        "e")),
                 react_1.default.createElement("div", { className: "scope-bottom" },
                     react_1.default.createElement("em", null, scope.PrevEmission ? `${Number(scope.PrevEmission).toFixed(2)} %` : "0%"),
                     react_1.default.createElement("span", { className: `arrow ${scope.PrevEmission && parseFloat(scope.PrevEmission) > 0 ? 'up-arrow' : 'down-arrow'}` }))))),
             react_1.default.createElement("div", { className: "scope-box green_blue-scope-box" },
                 react_1.default.createElement("h4", null, "Scope 1 + 2"),
                 react_1.default.createElement("h3", null,
-                    (Number(((_a = scopedata[0]) === null || _a === void 0 ? void 0 : _a.CurrentEmission) || 0) + Number(((_b = scopedata[1]) === null || _b === void 0 ? void 0 : _b.CurrentEmission) || 0)).toFixed(2),
-                    " tCO",
-                    react_1.default.createElement("em", null, "2"),
-                    "e"),
+                    (Number(((_a = scopedata[0]) === null || _a === void 0 ? void 0 : _a.CurrentEmission) || 0) + Number(((_b = scopedata[1]) === null || _b === void 0 ? void 0 : _b.CurrentEmission) || 0))
+                        .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+                    react_1.default.createElement("span", null,
+                        " tCO",
+                        react_1.default.createElement("em", null, "2"),
+                        "e")),
                 react_1.default.createElement("div", { className: "scope-bottom" },
                     react_1.default.createElement("em", null,
                         ((Number(((_c = scopedata[0]) === null || _c === void 0 ? void 0 : _c.PrevEmission) || 0) + Number(((_d = scopedata[1]) === null || _d === void 0 ? void 0 : _d.PrevEmission) || 0)) || 0).toFixed(2),
@@ -12673,10 +15070,12 @@ const Emission_Overview = (props) => {
             react_1.default.createElement("div", { className: "scope-box green_blue_orange-scope-box" },
                 react_1.default.createElement("h4", null, "Scope 1 + 2 + 3"),
                 react_1.default.createElement("h3", null,
-                    (Number(((_g = scopedata[0]) === null || _g === void 0 ? void 0 : _g.CurrentEmission) || 0) + Number(((_h = scopedata[1]) === null || _h === void 0 ? void 0 : _h.CurrentEmission) || 0) + Number(((_j = scopedata[2]) === null || _j === void 0 ? void 0 : _j.CurrentEmission) || 0)).toFixed(2),
-                    " tCO",
-                    react_1.default.createElement("em", null, "2"),
-                    "e"),
+                    (Number(((_g = scopedata[0]) === null || _g === void 0 ? void 0 : _g.CurrentEmission) || 0) + Number(((_h = scopedata[1]) === null || _h === void 0 ? void 0 : _h.CurrentEmission) || 0) + Number(((_j = scopedata[2]) === null || _j === void 0 ? void 0 : _j.CurrentEmission) || 0))
+                        .toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }),
+                    react_1.default.createElement("span", null,
+                        " tCO",
+                        react_1.default.createElement("em", null, "2"),
+                        "e")),
                 react_1.default.createElement("div", { className: "scope-bottom" },
                     react_1.default.createElement("em", null,
                         ((Number(((_k = scopedata[0]) === null || _k === void 0 ? void 0 : _k.PrevEmission) || 0) + Number(((_l = scopedata[1]) === null || _l === void 0 ? void 0 : _l.PrevEmission) || 0) + Number(((_m = scopedata[2]) === null || _m === void 0 ? void 0 : _m.PrevEmission) || 0)) || 0).toFixed(2),
@@ -12712,24 +15111,16 @@ const Emission_Overview = (props) => {
                                         react_1.default.createElement("br", null),
                                         react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null }))),
                                 react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 400 },
-                                    react_1.default.createElement(recharts_1.BarChart, { data: scopewisePopUpData, margin: { top: 20, right: 30, left: 0, bottom: 0 } },
-                                        react_1.default.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3" }),
-                                        react_1.default.createElement(recharts_1.XAxis, { dataKey: "MonthString" }),
-                                        react_1.default.createElement(recharts_1.YAxis, null),
-                                        react_1.default.createElement(recharts_1.Tooltip, null),
-                                        react_1.default.createElement(recharts_1.Legend, null),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "Scope1", stackId: "a", fill: "#4c6a48" }),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "Scope2", stackId: "a", fill: "#466f81" }),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "Scope3", stackId: "a", fill: "#b97244" })))))))),
+                                    react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: chartScopeBarOptions }))))))),
             react_1.default.createElement("div", { className: "emi-breakdown", style: { display: "inline-block", width: "60%", height: "38em", margin: "0 0 0 1.5em" } },
                 react_1.default.createElement(components_1.WidgetWrapper, null,
                     react_1.default.createElement(components_1.TitleBar, { title: 'Category-wise Total Emission Breakdown' }),
                     react_1.default.createElement("div", { className: "scopewise-chart" },
                         react_1.default.createElement("div", { className: "chart" }, CategorywiseValueZero ? (react_1.default.createElement("h3", { style: { textAlign: "center", padding: "23% 0px" } }, "No Data Available")) : (react_1.default.createElement(react_1.default.Fragment, null,
-                            react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: options }),
+                            react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: cateMainOptions }),
                             react_1.default.createElement("div", { className: "view-more" },
                                 react_1.default.createElement(components_1.Button, { title: "View More", onClick: handleClick1 }))))),
-                        react_1.default.createElement(components_1.Modal, { className: "popup", title: "Scope-Wise Operational Carbon Emissions Overview", show: showModal1, onClose: handleCloseModal1 },
+                        react_1.default.createElement(components_1.Modal, { className: "popup", title: "Category-wise  operational carbon emissions overview", show: showModal1, onClose: handleCloseModal1 },
                             react_1.default.createElement("div", { id: "my_Popup" },
                                 react_1.default.createElement("div", { className: "top-filter" },
                                     react_1.default.createElement("div", { className: "select-filter" },
@@ -12747,14 +15138,8 @@ const Emission_Overview = (props) => {
                                         react_1.default.createElement(components_1.Select, { selected: MainUnitFilter, options: MainUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setMainUnitFilter(value); }, placeholder: " -- select --", isValid: selected1 ? (selected1 === null || selected1 === void 0 ? void 0 : selected1.length) > 0 : null }),
                                         react_1.default.createElement("br", null),
                                         react_1.default.createElement(components_1.Select, { selected: SubUnitFilter, options: SubUnitFilterList, labelField: "BusinessUnitName", valueField: "BusinessUnitKey", onChange: (value) => { setSubUnitFilter(value); }, placeholder: " -- select --", isValid: selected2 ? (selected2 === null || selected2 === void 0 ? void 0 : selected2.length) > 0 : null }))),
-                                react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 400 },
-                                    react_1.default.createElement(recharts_1.BarChart, { data: categorywisePopUpData, margin: { top: 20, right: 30, left: 0, bottom: 0 } },
-                                        react_1.default.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3" }),
-                                        react_1.default.createElement(recharts_1.XAxis, { dataKey: "ActivityCategorytableName" }),
-                                        react_1.default.createElement(recharts_1.YAxis, null),
-                                        react_1.default.createElement(recharts_1.Tooltip, null),
-                                        react_1.default.createElement(recharts_1.Legend, null),
-                                        react_1.default.createElement(recharts_1.Bar, { barSize: 10, dataKey: "CarbonEmission", stackId: "a", fill: "#4c6a48" })))))))))));
+                                react_1.default.createElement(recharts_1.ResponsiveContainer, { width: "100%" },
+                                    react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: chartCategorywiseOptions }))))))))));
 };
 exports["default"] = Emission_Overview;
 
@@ -13193,400 +15578,566 @@ const highcharts_1 = __importDefault(__webpack_require__(/*! highcharts */ "./no
 const highcharts_react_official_1 = __importDefault(__webpack_require__(/*! highcharts-react-official */ "./node_modules/highcharts-react-official/dist/highcharts-react.min.js"));
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 const Test_Emission = (props) => {
-    // State to store the emission breakdown data
-    let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = (0, react_1.useState)([]);
-    // Function to get scope emission breakdown data
-    function getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
-        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetScopewiseEmissionBreakdown", { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth }, { json: true })
+    const [chartCategorywiseOptions, setChartCategorywiseOptions] = (0, react_1.useState)({});
+    const [categorywisePopUpData, setCategorywisePopUpData] = (0, react_1.useState)([]); // State for fetched data
+    (0, react_1.useEffect)(() => {
+        const BusinessUnitKey = "5";
+        const StartYear = 2019;
+        const StartMonth = 1;
+        const EndYear = 2024;
+        const EndMonth = 12;
+        getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
+    }, []);
+    function getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth) {
+        props.uxpContext.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetCategorywiseEmissionOverview", {
+            BusinessUnitKey,
+            StartYear,
+            StartMonth,
+            EndYear,
+            EndMonth
+        }, { json: true })
             .then((res) => {
-            console.log("response", res);
-            setScopeEmissionBreakdowndata(res);
+            setCategorywisePopUpData(res); // Store fetched data in state
+            updateChart(res); // Update the chart with fetched data
         })
-            .catch((e) => {
-            console.error("Error fetching scope data", e);
+            .catch(e => {
+            console.error("Error fetching data:", e);
         });
     }
-    // Effect to call the data fetching function when the component mounts
-    (0, react_1.useEffect)(() => {
-        // Example parameters for BusinessUnitKey and dates
-        const BusinessUnitKey = "5";
-        const StartYear = 2023;
-        const StartMonth = 1;
-        const EndYear = 2023;
-        const EndMonth = 12;
-        // Call the function to get data
-        getScopeEmissionBreakdownData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
-    }, []); // Empty dependency array means it only runs once when the component mounts
-    // Aggregate the data for the chart
-    const aggregateData = (data) => {
-        const aggregated = {}; // Use a record type to specify the key as a string and value as a number
-        data.forEach(item => {
-            const scopeName = item.ScopeName;
-            const carbonEmission = parseFloat(item.CarbonEmission) || 0;
-            if (aggregated[scopeName]) {
-                aggregated[scopeName] += carbonEmission;
+    function updateChart(data) {
+        const scopeData = data.reduce((acc, current) => {
+            const carbonEmissionValue = parseFloat(current.CarbonEmission);
+            // Filter out values less than or equal to 0.01
+            if (carbonEmissionValue > 0.01) {
+                if (!acc[current.ScopeKey]) {
+                    acc[current.ScopeKey] = {
+                        name: current.ScopeName,
+                        data: []
+                    };
+                }
+                acc[current.ScopeKey].data.push({
+                    name: current.ActivityCategorytableName,
+                    y: carbonEmissionValue
+                });
             }
-            else {
-                aggregated[scopeName] = carbonEmission;
-            }
-        });
-        return Object.entries(aggregated).map(([name, value]) => ({
-            name,
-            y: value,
+            return acc;
+        }, {});
+        const seriesData = Object.values(scopeData).map(scope => ({
+            name: scope.name,
+            data: scope.data,
+            color: getScopeColor(scope.name)
         }));
-    };
-    // Prepare the chart data
-    const chartData = aggregateData(scopeEmissionBreakdowndata);
-    const options = {
-        chart: {
-            type: 'pie',
-            options3d: {
-                enabled: true,
-                alpha: 45,
-                beta: 0,
+        function getScopeColor(scopeName) {
+            switch (scopeName) {
+                case 'Scope 1':
+                    return '#4c6a48';
+                case 'Scope 2':
+                    return '#466f81';
+                case 'Scope 3':
+                    return '#b97244';
+                default:
+                    return 'gray';
+            }
+        }
+        setChartCategorywiseOptions({
+            chart: {
+                type: 'column'
             },
-        },
-        title: {
-            text: 'Carbon Emissions by Scope',
-        },
-        plotOptions: {
-            pie: {
-                innerSize: '50%',
-                depth: 45,
-                dataLabels: {
-                    enabled: true,
-                    format: '{point.name}: <b>{point.y:.1f}</b>',
-                },
-                showInLegend: true,
+            title: {
+                text: ''
             },
-        },
-        legend: {
-            enabled: true,
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'middle',
-            itemMarginTop: 5,
-        },
-        series: [{
-                name: 'Carbon Emissions',
-                data: chartData,
-                showInLegend: true,
-            }],
-    };
+            xAxis: {
+                type: 'category',
+                title: {
+                    text: ''
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Carbon Emissions (kgCO2e)'
+                }
+            },
+            series: seriesData.map(scope => (Object.assign(Object.assign({}, scope), { data: scope.data.map((point) => ({
+                    name: point.name,
+                    y: point.y,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:,.2f} kgCO2e' // Format for data labels with commas and two decimal points
+                    }
+                })), tooltip: {
+                    pointFormat: '<b>{point.y:,.2f} kgCO2e</b>' // Format for tooltip with commas and two decimal points
+                } }))),
+            legend: {
+                align: 'left',
+                verticalAlign: 'bottom',
+                layout: 'horizontal',
+                x: 0,
+                y: 0
+            },
+            credits: { enabled: false },
+        });
+    }
     return (react_1.default.createElement(components_1.WidgetWrapper, null,
-        react_1.default.createElement(components_1.TitleBar, { title: 'Test Emissions', icon: "https://static.iviva.com/images/Udhayimages/alert-trends.png" }),
-        react_1.default.createElement("div", { style: { display: "inline-flex", padding: "3em 3em" } },
-            react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: options }))));
+        react_1.default.createElement(components_1.TitleBar, { title: 'Test Emissions' }),
+        react_1.default.createElement("div", { style: { width: "96%", padding: "2em 2%" } },
+            react_1.default.createElement(highcharts_react_official_1.default, { highcharts: highcharts_1.default, options: chartCategorywiseOptions }))));
 };
 exports["default"] = Test_Emission;
-// import React, { useEffect, useState, useMemo  } from "react";
-// import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';  
-// import {  AreaChart, Area, ResponsiveContainer,  LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ComposedChart,  } from 'recharts';
-// import { useToast, DataList, WidgetWrapper, Button, DynamicSelect, SearchBox, Modal, DataTable, MapComponent, TitleBar, ItemListCard, FilterPanel, DataGrid, ItemCard, FormField, Label, Select, Input, DateRangePicker, DatePicker, Checkbox, ProfileImage, Popover, TrendChartComponent, ToggleFilter } from "uxp/components";
-// import { ResponsivePie } from '@nivo/pie'; 
-// import { ResponsiveSunburst } from "@nivo/sunburst";  
+// import React, { useEffect, useState } from "react";
+// import { IContextProvider } from '../uxp';
 // import Highcharts from "highcharts";
 // import HighchartsReact from "highcharts-react-official";
-// import Sunburst from "highcharts/modules/sunburst";
+// import { WidgetWrapper, TitleBar } from "uxp/components";
 // interface IWidgetProps {
-//     uxpContext?: IContextProvider,
-//     instanceId?: string
-// }   
-// interface EmissionData {
-//     Year: string;
-//     Month: string;
-//     MonthString: string;
-//     ScopeKey: string;
-//     ScopeName: string;
-//     CarbonEmission: string;
-// } 
-// interface ScopePopupData {
-//     MonthString: string;
-//     Scope1: number;
-//     Scope2: number;
-//     Scope3: number;
-// } 
-// interface IDataItem {
-//     name: string;
-//     value: number;
-//     color?: string;  
-//   }
-// const Test_Emission: React.FunctionComponent<IWidgetProps> = (props) => { 
-// let toast = useToast();
-//     let [ClientFilter,setClientFilter] =  React.useState<string>('0');
-//     let [MainUnitFilter,setMainUnitFilter] =  React.useState<string>('0');
-//     let [SubUnitFilter,setSubUnitFilter] =  React.useState<string>('0');
-// let [ClientFilterList,setClientFilterList] =  React.useState<any[]>([]);
-//     let [MainUnitFilterList,setMainUnitFilterList] =  React.useState<any[]>([]);
-//     let [SubUnitFilterList,setSubUnitFilterList] =  React.useState<any[]>([]); 
-//     React.useEffect(()=>{
-//         getClientListFilter();
-//     },[])
-// function getClientListFilter(){
-//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetClientList", {}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             //debugger
-//             setClientFilterList(result)
-//             setClientFilter(result[0].ClientKey)
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     }
-//     React.useEffect(()=>{
-//         if(ClientFilter!='0'){
-//             getBusinessUnitsFilter()
-//         }
-//     },[ClientFilter])
-//     function getBusinessUnitsFilter(){
-//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:'0'}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             var filteredArray = result.filter(function(itm:any){
-//                 return itm.ParentKey=='';
-//               });
-//             setMainUnitFilterList(filteredArray);
-//             setMainUnitFilter(filteredArray[0].BusinessUnitKey);
-//             //debugger
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     }
-//     React.useEffect(()=>{
-//         if(MainUnitFilter!='0'){
-//             getSubBusinessUnitsFilter();
-//         }
-//     },[MainUnitFilter])
-//     function getSubBusinessUnitsFilter(){
-//         props.uxpContext?.executeAction("OrganizationalEmissionOverview-Dataprovider", "GetBusinessUnits", {ClientKey:ClientFilter,ParentKey:MainUnitFilter}, { json: true })
-//         .then(res => {
-//             let result = res;
-//             if(result.length>0){
-//                 setSubUnitFilterList(result);
-//                 setSubUnitFilter(result[0].BusinessUnitKey);
-//             }else{
-//                 setSubUnitFilterList([]);
-//                 setSubUnitFilter("0");
-//             } 
-//         })
-//         .catch(e => {
-//             console.log("except: ", e);
-//             toast.error("Something went wrong" + e);
-//         });
-//     }  
-//     const [startYear, setStartYear] = useState(2024);
-//     const [startMonth, setStartMonth] = useState(7);
-//     const [endYear, setEndYear] = useState(2024);
-//     const [endMonth, setEndMonth] = useState(12);
-//     const Years = GetYears();
-//     function GetYears(){
-//         const currentYear = new Date().getFullYear();
-//         const yearList = [];
-//         for (let year = currentYear - 5; year <= currentYear + 5; year++) {
-//             yearList.push({ Label: year, Value: year });
-//         }
-//         return yearList;
-//      }; 
-//     const months=[
-//         {Value:'1',Label:'January'},
-//         {Value:'2',Label:'February'},
-//         {Value:'3',Label:'March'},
-//         {Value:'4',Label:'April'},
-//         {Value:'5',Label:'May'},
-//         {Value:'6',Label:'June'},
-//         {Value:'7',Label:'July'},
-//         {Value:'8',Label:'August'},
-//         {Value:'9',Label:'September'},
-//         {Value:'10',Label:'October'},
-//         {Value:'11',Label:'November'},
-//         {Value:'12',Label:'December'}
-//      ]
-//     useEffect(() => { 
-//         getScopeEmissionBreakdownData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth); 
-//     },[startYear,startMonth,endYear,endMonth,SubUnitFilter,MainUnitFilter ]) 
-//   let [scopeEmissionBreakdowndata, setScopeEmissionBreakdowndata] = useState<any[]>([]); // Initialized as an empty array since the data is an array
-//   function getScopeEmissionBreakdownData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//   uxpContext?: IContextProvider;
+// }
+// interface EmissionData1 {
+//   ActivityCategorytableName: string;
+//   ScopeKey: string;
+//   ScopeName: string;
+//   CarbonEmission: string;
+// }
+// const Test_Emission: React.FunctionComponent<IWidgetProps> = (props) => {
+//   const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData1[]>([]);
+//   const [selectedScope, setSelectedScope] = useState<string>("all");
+//   useEffect(() => {
+//     const BusinessUnitKey = "5";
+//     const StartYear = 2019;
+//     const StartMonth = 1;
+//     const EndYear = 2024;
+//     const EndMonth = 12;
+//     getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
+//   }, []);
+//   function getCategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
 //     props.uxpContext.executeAction(
 //       "OrganizationalEmissionOverview-Dataprovider",
-//       "GetScopewiseEmissionBreakdown",
-//       { BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth },
+//       "GetCategorywiseEmissionOverview",
+//       {
+//         BusinessUnitKey,
+//         StartYear,
+//         StartMonth,
+//         EndYear,
+//         EndMonth
+//       },
 //       { json: true }
 //     )
-//     .then((res: any) => {
-//       console.log("response", res);
-//       setScopeEmissionBreakdowndata(res);  
-//     })
-//     .catch((e: any) => {
-//       console.error("Error fetching scope data", e);
-//     });
-//   }  
-// const groupedScopeEmissionBreakdowndata = useMemo(() => { 
-//     const groupedData = scopeEmissionBreakdowndata.reduce((acc, item) => {
-//         if (item.CarbonEmission && Number(item.CarbonEmission) > 0) { // Skip empty or zero values
-//             if (acc[item.ScopeName]) {
-//                 acc[item.ScopeName] += Number(item.CarbonEmission); // Add to existing scope
-//             } else {
-//                 acc[item.ScopeName] = Number(item.CarbonEmission); // Initialize new scope
-//             }
-//         }
-//         return acc;
-//     }, {}); 
-//     return Object.keys(groupedData).map(scope => ({
-//         id: scope,
-//         value: groupedData[scope],
-//         label: scope
-//     }));
-// }, [scopeEmissionBreakdowndata]);    
-//     let [showModal, setShowModal] = React.useState(false);
-//     let [modelData, setModelData] = React.useState<any>(null); 
-//     function handleClick() {
-//         console.log("Button clicked");  
-//         setShowModal(true);  
-//         setModelData({}); 
-//     } 
-//     const handleCloseModal = () => {
-//         setShowModal(false);  
-//         setModelData(null);  
-//     };  
-//     let [selected, setSelected] = React.useState<string | null>("op-1");
-//     let [selected1, setSelected1] = React.useState<string | null>("op-1");
-//     let [selected2, setSelected2] = React.useState<string | null>("op-1");  
-//     return (
-//         <WidgetWrapper>
-//             <TitleBar title='Test Emission' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png">
-//                             <div className="top-filter">
-//                                 <div className="select-filter">  
-//                                         <div className="uxp-emi-dropdown"> 
-//                                             <div className="uxp-emi-select-sec no-padding mb-only">
-//                                                     <Select
-//                                                         selected={startYear.toString()}
-//                                                         options={Years}
-//                                                         labelField="Label"
-//                                                         valueField="Value"
-//                                                         onChange={(value) => { setStartYear(Number(value)) }}
-//                                                         placeholder=" -- select --"
-//                                                         isValid={selected ? selected?.length > 0 : null}
-//                                                     /> 
-//                                                     <Select
-//                                                         selected={startMonth.toString()}
-//                                                         options={months}
-//                                                         labelField="Label"
-//                                                         valueField="Value"
-//                                                         onChange={(value) => { setStartMonth(Number(value)) }}
-//                                                         placeholder=" -- select --"
-//                                                         isValid={selected ? selected?.length > 0 : null}
-//                                                     />  
-//                                             </div> 
-//                                             <label>To</label>
-//                                             <div className="uxp-emi-select-sec no-padding mb-only"> 
-//                                             <Select
-//                                                 selected={endYear.toString()}
-//                                                 options={Years}
-//                                                 labelField="Label"
-//                                                 valueField="Value"
-//                                                 onChange={(value) => { setEndYear(Number(value)) }}
-//                                                 placeholder=" -- select --"
-//                                                 isValid={selected ? selected?.length > 0 : null}
-//                                             /> 
-//                                             <Select
-//                                                 selected={endMonth.toString()}
-//                                                 options={months}
-//                                                 labelField="Label"
-//                                                 valueField="Value"
-//                                                 onChange={(value) => { setEndMonth(Number(value)) }}
-//                                                 placeholder=" -- select --"
-//                                                 isValid={selected ? selected?.length > 0 : null}
-//                                             />   
-//                                            </div>  
-//                                         </div> 
-//                                 </div> 
-//                             <FilterPanel>
-//                                     <Select
-//                                         selected={ClientFilter}
-//                                         options={ClientFilterList}
-//                                         labelField="ClientID"
-//                                         valueField="ClientKey"
-//                                         onChange={(value) => { setClientFilter(value) }}
-//                                         placeholder=" -- select --"
-//                                         isValid={selected ? selected?.length > 0 : null}
-//                                     /> 
-//                                     <br/>
-//                                     <Select
-//                                         selected={MainUnitFilter}
-//                                         options={MainUnitFilterList}
-//                                         labelField="BusinessUnitName"
-//                                         valueField="BusinessUnitKey"
-//                                         onChange={(value) => { setMainUnitFilter(value) }}
-//                                         placeholder=" -- select --"
-//                                         isValid={selected1 ? selected1?.length > 0 : null}
-//                                     />    
-//                                     <br/>
-//                                     <Select
-//                                             selected={SubUnitFilter}
-//                                             options={SubUnitFilterList}
-//                                              labelField="BusinessUnitName"
-//                                             valueField="BusinessUnitKey"
-//                                             onChange={(value) => { setSubUnitFilter(value) }}
-//                                             placeholder=" -- select --"
-//                                             isValid={selected2 ? selected2?.length > 0 : null}
-//                                         /> 
-//                             </FilterPanel>
-//                         </div>
-//             </TitleBar> 
-//                 <div style={{display:"inline-flex", padding:"3em 3em"}}>
-//                     <div className="emi-breakdown" style={{display:"inline-block", width:"40%", height: "38em", margin:"0 1.5em 0 0"}}>  
-//                         {/* <Scopewise_Breakdown/> */}
-//                 <WidgetWrapper>
-//                         <TitleBar title='Scope-wise Total Emission Breakdown'>  
-//                         </TitleBar>
-//                         <div className="scopewise-chart">
-//                             <div className="chart">  
-//                                 <ResponsiveContainer>   
-//                                 {groupedScopeEmissionBreakdowndata.length === 0 || groupedScopeEmissionBreakdowndata.every(item => item.value === 0) ? (
-//                                     <div style={{ textAlign: "center", padding: "30% 0" }}>
-//                                         <h3>No Data Available</h3>
-//                                     </div>
-//                                 ) : (
-//                                     <>
-//                                      <ResponsivePie
-//                                         data={groupedScopeEmissionBreakdowndata}
-//                                         margin={{ top: 5, right: 20, bottom: 20, left: 20 }}
-//                                         innerRadius={0.75}
-//                                         padAngle={0}
-//                                         cornerRadius={3}
-//                                         colors={["#537453", "#486e76", "#b98056"]}
-//                                         borderWidth={1}
-//                                         borderColor={{ from: "color", modifiers: [["darker", 0.2]] }}
-//                                         animate={false}
-//                                         value="value"
-//                                         activeOuterRadiusOffset={8}
-//                                         arcLinkLabelsSkipAngle={10}
-//                                         arcLinkLabelsTextColor="#333333"
-//                                         arcLinkLabelsThickness={2}
-//                                         arcLinkLabelsColor={{ from: 'color' }}
-//                                         arcLabelsSkipAngle={1}
-//                                         arcLabelsTextColor="#ffffff"
-//                                         arcLabelsRadiusOffset={0.5}
-//                                         arcLabel={d => `${d.value.toFixed(2)}%`} 
-//                                     />  
-//                                     <div className="view-more"> 
-//                                         <Button title="View More" onClick={handleClick} />
-//                                     </div>
-//                                     </>
-//                                 )}
-//                                 </ResponsiveContainer>      
-//                             </div>   
-//                         </div>
-//                     </WidgetWrapper>
-//                      </div>
-//                 </div> 
-//         </WidgetWrapper>
+//       .then((res: EmissionData1[]) => {
+//         setCategorywisePopUpData(res);
+//       })
+//       .catch(e => {
+//         console.error("Error fetching data:", e);
+//       });
+//   }
+//   // Filter data based on selected scope
+//   const filteredData = selectedScope === "all" 
+//     ? categorywisePopUpData 
+//     : categorywisePopUpData.filter(item => item.ScopeKey === selectedScope);
+//   // Group emissions by Activity Category
+//   const groupedCategoryData = filteredData.reduce<Record<string, { categories: string[], data: number[] }>>((acc, item) => {
+//     const emissionValue = parseFloat(item.CarbonEmission);
+//     if (emissionValue > 0.01) {
+//       if (!acc[item.ActivityCategorytableName]) {
+//         acc[item.ActivityCategorytableName] = { categories: [], data: [] };
+//       }
+//       acc[item.ActivityCategorytableName].categories.push(item.ScopeName);
+//       acc[item.ActivityCategorytableName].data.push(emissionValue);
+//     }
+//     return acc;
+//   }, {});
+//   // Prepare series data for the chart
+//   const seriesData = Object.entries(groupedCategoryData).map(([category, values]) => {
+//     return {
+//       name: category,
+//       data: values.data,
+//       color: '#7cb5ec', // You can adjust the color based on your needs
+//       visible: true // Always visible, or conditionally based on selectedScope
+//     };
+//   });
+//   // Chart options
+//   const chartOptions = {
+//     chart: {
+//       type: 'column'
+//     }, 
+//     title: {
+//       text: 'Carbon Emissions by Activity Category'
+//     },
+//     xAxis: {
+//       categories: Object.keys(groupedCategoryData), // Activity Categories
+//       title: { text: 'Activity Category' },
+//       crosshair: true,
+//     },
+//     yAxis: {
+//       min: 0,
+//       title: { text: 'Carbon Emissions (kgCO2e)' },
+//       labels: { format: '{value} kgCO2e' }
+//     },
+//     series: seriesData,
+//     plotOptions: {
+//       column: {
+//           dataLabels: {
+//               enabled: true,
+//               formatter: function () {
+//                   if (this.y > 0) {
+//                       return `${this.y.toLocaleString(undefined, {
+//                           minimumFractionDigits: 2,
+//                           maximumFractionDigits: 2
+//                       })} kgCO2e`;
+//                   }
+//                   return null;
+//               }
+//           },
+//           pointPadding: 0.2,
+//           borderWidth: 0
+//       }
+//     },
+//     tooltip: {
+//       shared: true, // Enables scope-wise display
+//       formatter: function () {
+//         let tooltipText = `<b>${this.x}</b><br/>`; // X-axis category (activity category)
+//         this.points.forEach(function (point:any) {
+//           if (point.y > 0) {
+//             tooltipText += `<b>${point.series.name}</b>: ${point.y.toFixed(2)} kgCO2e<br/>`; // Each scope's emission value
+//           }
+//         });
+//         return tooltipText;
+//       }
+//     },
+//     legend: {
+//       align: 'left',
+//       verticalAlign: 'bottom',
+//       layout: 'horizontal',
+//       x: 0,
+//       y: 0
+//     },
+//     credits: { enabled: false }
+//   };
+//   return (
+//     <WidgetWrapper>
+//       <TitleBar title='Test Emissions' />
+//       <div style={{ width: "96%", padding: "2em 2%" }}>
+//         <HighchartsReact highcharts={Highcharts} options={chartOptions} />
+//       </div>
+//     </WidgetWrapper>
+//   );
+// };
+// export default Test_Emission;
+// import React, { useEffect, useState } from "react";
+// import { IContextProvider } from '../uxp';
+// import Highcharts from "highcharts";
+// import HighchartsReact from "highcharts-react-official";
+// import { WidgetWrapper, TitleBar, Select } from "uxp/components";
+// interface IWidgetProps {
+//   uxpContext?: IContextProvider,
+//   instanceId?: string
+// }
+// interface EmissionData1 {
+//   ActivityCategoryTableKey: string;
+//   ActivityCategorytableName: string;
+//   ScopeKey: string;
+//   ScopeName: string;
+//   CarbonEmission: string;
+// }
+// const Test_Emission: React.FunctionComponent<IWidgetProps> = (props) => {
+//   const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData1[]>([]);
+//   const [selectedScope, setSelectedScope] = useState<string>("1");
+//   useEffect(() => {
+//     const BusinessUnitKey = "5";
+//     const StartYear = 2019;
+//     const StartMonth = 1;
+//     const EndYear = 2024;
+//     const EndMonth = 12;
+//     getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
+//   }, []);
+//   function getCategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//     props.uxpContext.executeAction(
+//       "OrganizationalEmissionOverview-Dataprovider",
+//       "GetCategorywiseEmissionOverview",
+//       {
+//         BusinessUnitKey,
+//         StartYear,
+//         StartMonth,
+//         EndYear,
+//         EndMonth
+//       },
+//       { json: true }
 //     )
-// }; 
+//       .then((res: EmissionData1[]) => {
+//         console.log("data", res);
+//         setCategorywisePopUpData(res);
+//       })
+//       .catch(e => {
+//         console.log("error", e);
+//       });
+//   }
+//   // Filter data based on selected scope
+//   const filteredData = categorywisePopUpData.filter(item => item.ScopeKey === selectedScope);
+//   const groupedCategoryData = filteredData.reduce<Record<string, { categories: string[], data: number[], name: string }>>((acc, item) => {
+//     const scopeKey = item.ScopeKey;
+//     const emissionValue = parseFloat(item.CarbonEmission);
+//     if (emissionValue > 0.01) { // Only include values greater than 0.00
+//       if (!acc[scopeKey]) {
+//         acc[scopeKey] = {
+//           name: item.ScopeName,
+//           categories: [],
+//           data: []
+//         };
+//       }
+//       acc[scopeKey].categories.push(item.ActivityCategorytableName);
+//       acc[scopeKey].data.push(emissionValue);
+//     }
+//     return acc;
+//   }, {});
+//   const filteredCategories = Object.values(groupedCategoryData).flatMap(scope => scope.categories);
+//   const uniqueCategories = [...new Set(filteredCategories)];
+//   const seriesData = Object.values(groupedCategoryData).map(scope => {
+//     const emissionsData = uniqueCategories.map(category => {
+//       const index = scope.categories.indexOf(category);
+//       return index !== -1 ? scope.data[index] : null; // Only include categories with non-zero data
+//     }).filter(val => val !== null); // Remove null values (i.e., 0 values)
+//     return {
+//       name: scope.name,
+//       data: emissionsData,
+//       color: scope.name === "Scope 1" ? "#4c6a48" : scope.name === "Scope 2" ? "#466f81" : "#b97244"
+//     };
+//   });
+//   const chartCategorywiseOptions = {
+//     chart: {
+//       type: 'column'
+//     },
+//     title: {
+//       text: ''
+//     },
+//     xAxis: {
+//       categories: uniqueCategories,
+//       title: {
+//         text: 'Emissions'
+//       },
+//       accessibility: {
+//         description: 'Emissions'
+//       },
+//       crosshair: true,
+//     },
+//     yAxis: {
+//       min: 0,
+//       title: {
+//         text: 'Carbon Emissions (kgCO2e)'
+//       },
+//       labels: {
+//         format: '{value} kgCO2e'
+//       }
+//     },
+//     series: seriesData,
+//     legend: {
+//       enabled: true
+//     },
+//     plotOptions: {
+//       column: {
+//         dataLabels: {
+//           enabled: true,
+//           formatter: function () {
+//             if (this.y > 0) {
+//               return `${this.y.toLocaleString(undefined, {
+//                 minimumFractionDigits: 2,
+//                 maximumFractionDigits: 2
+//               })} kgCO2e`;
+//             }
+//             return null;
+//           }
+//         },
+//         pointPadding: 0.2,
+//         borderWidth: 0
+//       }
+//     },
+//     tooltip: {
+//       formatter: function () {
+//         if (this.y > 0) {
+//           return `<b>${this.series.name}</b>: ${this.y.toLocaleString(undefined, {
+//             minimumFractionDigits: 2,
+//             maximumFractionDigits: 2
+//           })} kgCO2e`;
+//         }
+//         return false;
+//       }
+//     },
+//     credits: {
+//       enabled: false
+//     }
+//   };
+//   return (
+//     <WidgetWrapper>
+//             <TitleBar title='Test Emissions'>
+//                   <div className="top-filter">
+//                     <select value={selectedScope} onChange={(e) => setSelectedScope(e.target.value)}>
+//                         <option value="1">Scope 1</option>
+//                         <option value="2">Scope 2</option>
+//                         <option value="3">Scope 3</option>
+//                     </select> 
+//                 </div>
+//             </TitleBar> 
+//               <div style={{ display: "inline-block", width: "96%", padding: "2em 2%" }}>
+//                     <HighchartsReact highcharts={Highcharts} options={chartCategorywiseOptions} />
+//               </div>
+//      </WidgetWrapper>
+//   );
+// };
+// export default Test_Emission;
+// import React, { useEffect, useState } from "react";
+// import { IContextProvider } from '../uxp';
+// import Highcharts from "highcharts";
+// import HighchartsReact from "highcharts-react-official";
+// import { WidgetWrapper, TitleBar } from "uxp/components";
+// interface IWidgetProps {
+//   uxpContext?: IContextProvider,
+//   instanceId?: string
+// }
+// interface EmissionData1 {
+//   ActivityCategoryTableKey: string;
+//   ActivityCategorytableName: string;
+//   ScopeKey: string;
+//   ScopeName: string;
+//   CarbonEmission: string;
+// }
+// const Test_Emission: React.FunctionComponent<IWidgetProps> = (props) => {
+//   const [categorywisePopUpData, setCategorywisePopUpData] = useState<EmissionData1[]>([]);
+//   useEffect(() => {
+//     const BusinessUnitKey = "5";
+//     const StartYear = 2019;
+//     const StartMonth = 1;
+//     const EndYear = 2024;
+//     const EndMonth = 12;
+//     getCategorywisePopUpData(BusinessUnitKey, StartYear, StartMonth, EndYear, EndMonth);
+//   }, []);
+//   function getCategorywisePopUpData(BusinessUnitKey: string, StartYear: number, StartMonth: number, EndYear: number, EndMonth: number) {
+//     props.uxpContext.executeAction(
+//       "OrganizationalEmissionOverview-Dataprovider",
+//       "GetCategorywiseEmissionOverview",
+//       {
+//         BusinessUnitKey,
+//         StartYear,
+//         StartMonth,
+//         EndYear,
+//         EndMonth
+//       },
+//       { json: true }
+//     )
+//       .then((res: EmissionData1[]) => {
+//         console.log("data", res);
+//         setCategorywisePopUpData(res);
+//       })
+//       .catch(e => {
+//         console.log("error", e);
+//       });
+//   }
+//   const groupedCategoryData = categorywisePopUpData.reduce<Record<string, { categories: string[], data: number[], name: string }>>((acc, item) => {
+//     const scopeKey = item.ScopeKey;
+//     const emissionValue = parseFloat(item.CarbonEmission);
+//     if (emissionValue !== 0) {
+//       if (!acc[scopeKey]) {
+//         acc[scopeKey] = {
+//           name: item.ScopeName,
+//           categories: [],
+//           data: []
+//         };
+//       }
+//       acc[scopeKey].categories.push(item.ActivityCategorytableName);
+//       acc[scopeKey].data.push(emissionValue);
+//     }
+//     return acc;
+//   }, {});
+//   const filteredCategories = Object.values(groupedCategoryData).flatMap(scope => scope.categories);
+//   const uniqueCategories = [...new Set(filteredCategories)];
+//   const seriesData = Object.values(groupedCategoryData).map(scope => {
+//     const emissionsData = uniqueCategories.map(category => {
+//       const index = scope.categories.indexOf(category);
+//       return index !== -1 ? scope.data[index] : 0; // Include categories, use 0 if no data
+//     });
+//     return {
+//       name: scope.name,
+//       data: emissionsData,
+//       color: scope.name === "Scope 1" ? "#4c6a48" : scope.name === "Scope 2" ? "#466f81" : "#b97244"
+//     };
+//   });
+//   const chartCategorywiseOptions = {
+//     chart: {
+//       type: 'column'
+//     },
+//     title: {
+//       text: 'Carbon Emissions by Category'
+//     },
+//     xAxis: {
+//       categories: uniqueCategories,
+//       title: {
+//         text: 'Emissions'
+//       },
+//       accessibility: {
+//         description: 'Emissions'
+//       },
+//       crosshair: true,
+//     },
+//     yAxis: {
+//       min: 0,
+//       title: {
+//         text: 'Carbon Emissions (kgCO2e)'
+//       },
+//       labels: {
+//         format: '{value} kgCO2e'
+//       }
+//     },
+//     series: seriesData, // Initially show all data
+//     legend: {
+//       enabled: true,
+//       itemClick: function (event: any) {
+//         const series = event.target;
+//         if (series.visible) {
+//           series.hide(); // Hide the series if it is currently visible
+//         } else {
+//           series.show(); // Show the series if it is currently hidden
+//         }
+//         return false; // Prevent default legend click behavior
+//       }
+//     },
+//     plotOptions: {
+//       column: {
+//         dataLabels: {
+//           enabled: true,
+//           formatter: function () {
+//             if (this.y > 0) {
+//               return `${this.y.toLocaleString(undefined, {
+//                 minimumFractionDigits: 2,
+//                 maximumFractionDigits: 2
+//               })} kgCO2e`;
+//             }
+//             return null;
+//           }
+//         },
+//         pointPadding: 0.2,
+//         borderWidth: 0
+//       }
+//     },
+//     tooltip: {
+//       formatter: function () {
+//         if (this.y > 0) {
+//           return `<b>${this.series.name}</b>: ${this.y.toLocaleString(undefined, {
+//             minimumFractionDigits: 2,
+//             maximumFractionDigits: 2
+//           })} kgCO2e`;
+//         }
+//         return false;
+//       }
+//     },
+//     credits: {
+//       enabled: false
+//     }
+//   };
+//   return (
+//     <WidgetWrapper>
+//       <TitleBar title='Test Emissions' icon="https://static.iviva.com/images/Udhayimages/alert-trends.png" />
+//       <div style={{ display: "inline-block", width: "96%", padding: "2em 2%" }}>
+//         <HighchartsReact highcharts={Highcharts} options={chartCategorywiseOptions} />
+//       </div>
+//     </WidgetWrapper>
+//   );
+// };
 // export default Test_Emission;
 
 
@@ -13614,6 +16165,7 @@ const carbon_emissions_ranking_1 = __importDefault(__webpack_require__(/*! ./com
 const resource_consumption_overview_1 = __importDefault(__webpack_require__(/*! ./components/resource_consumption_overview */ "./src/components/resource_consumption_overview.tsx"));
 const carbon_trends_overview_1 = __importDefault(__webpack_require__(/*! ./components/carbon_trends_overview */ "./src/components/carbon_trends_overview.tsx"));
 const business_level_carbon_trends_overview_1 = __importDefault(__webpack_require__(/*! ./components/business-level-carbon-trends-overview */ "./src/components/business-level-carbon-trends-overview.tsx"));
+const business_level_carbon_emissions_overview_1 = __importDefault(__webpack_require__(/*! ./components/business-level-carbon-emissions-overview */ "./src/components/business-level-carbon-emissions-overview.tsx"));
 const test_emission_1 = __importDefault(__webpack_require__(/*! ./components/test_emission */ "./src/components/test_emission.tsx"));
 //Test
 // import Test from './components/test'
@@ -13689,6 +16241,18 @@ const test_emission_1 = __importDefault(__webpack_require__(/*! ./components/tes
             h: 18,
             // minH: 12,
             // minW: 12
+        }
+    }
+});
+(0, uxp_1.registerWidget)({
+    id: "business_Level_Carbon_Emissions_Overview",
+    widget: business_level_carbon_emissions_overview_1.default,
+    configs: {
+        layout: {
+            w: 26,
+            h: 18,
+            minH: 12,
+            minW: 12
         }
     }
 });

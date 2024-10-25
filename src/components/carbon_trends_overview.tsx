@@ -1,4 +1,5 @@
 
+
 import React, { useEffect, useState, useMemo  } from "react"; 
 
 import { registerWidget, registerLink, registerUI, IContextProvider, } from '../uxp';  
@@ -206,14 +207,7 @@ const consumptionCompositionData = [
       "Trend Forecast": 784
     }
   ]; 
-
-   
-    // let [checkedCheckState, setCheckedCheckState] = React.useState<boolean>(true); 
-
-    // const onChangeCheckbox = (checked: boolean) => {
-    //     setCheckedCheckState(checked)
-    // }  
-
+ 
 
     const initialCheckStates = [true, false, false, true, false, true, false, false, true];
     const [checkedCheckStates, setCheckedCheckStates] = React.useState<boolean[]>(initialCheckStates);
@@ -251,7 +245,7 @@ const consumptionCompositionData = [
             </TitleBar>  
 
  
-                <div className="resource_consumption_overview">  
+                {/* <div className="resource_consumption_overview">  
 
                     <div className="emi-breakdown">  
                          
@@ -264,16 +258,10 @@ const consumptionCompositionData = [
                                 <div className="trends-box white-box">  
 
                                     <FormField inline className="showcase-checkbox">
-
-                                    {/* <Checkbox
-                                            onChange={onChangeCheckbox2}
-                                            checked={checkedCheckState2}
-                                            label='Business as Usual'
-                                            isValid
-                                        />  */}
+ 
                                         
                                     <Checkbox
-                                            onChange={(checked) => onChangeCheckbox(0, checked)}  // Directly pass the checked value
+                                            onChange={(checked) => onChangeCheckbox(0, checked)}  
                                             checked={checkedCheckStates[0]}
                                             label="Current Emission"
                                             isValid
@@ -302,7 +290,7 @@ const consumptionCompositionData = [
                                     <FormField inline className="showcase-checkbox">
 
                                     <Checkbox
-                                            onChange={(checked) => onChangeCheckbox(2, checked)}  // Directly pass the checked value
+                                            onChange={(checked) => onChangeCheckbox(2, checked)}   
                                             checked={checkedCheckStates[2]}
                                             label='Business as Usual'
                                             isValid
@@ -361,7 +349,7 @@ const consumptionCompositionData = [
                                          
 
                                      <Checkbox
-                                            onChange={(checked) => onChangeCheckbox(5, checked)}  // Directly pass the checked value
+                                            onChange={(checked) => onChangeCheckbox(5, checked)}   
                                             checked={checkedCheckStates[5]}
                                             label="Current Emission"
                                             isValid
@@ -390,7 +378,7 @@ const consumptionCompositionData = [
 
 
                                      <Checkbox
-                                            onChange={(checked) => onChangeCheckbox(7, checked)}  // Directly pass the checked value
+                                            onChange={(checked) => onChangeCheckbox(7, checked)}  
                                             checked={checkedCheckStates[7]}
                                            label='Business as Usual'
                                             isValid
@@ -428,7 +416,168 @@ const consumptionCompositionData = [
                           </WidgetWrapper>
                          
                       </div>  
-                </div>
+                </div> */}
+
+
+                    <div className="resource_consumption_overview">  
+
+                    <div className="emi-breakdown">  
+                        
+                        <WidgetWrapper>
+
+                            <TitleBar title='CURRENT EMISSION DEVIATION'/> 
+
+                            <div className="trends-overall">
+
+                                <div className="trends-box white-box">  
+
+                                    <FormField inline className="showcase-checkbox"> 
+                                   
+                                        <Checkbox
+                                                onChange={(checked) => onChangeCheckbox(7, checked)}  
+                                                checked={checkedCheckStates[7]}
+                                            label='Use Business As Usual (2024)'
+                                                isValid
+                                            />
+                                        <Checkbox
+                                                onChange={(checked) => onChangeCheckbox(5, checked)}   
+                                                checked={checkedCheckStates[5]}
+                                                label="Baseline (2022)"
+                                                isValid
+                                            />
+
+                                            <Checkbox
+                                                onChange={(checked) => onChangeCheckbox(6, checked)}
+                                                checked={checkedCheckStates[6]}
+                                                label="Carbon Goals (2030)"
+                                                isValid
+                                            />  
+
+                                    </FormField>  
+
+                                    <div className="trends-box-cont green-trends-box-cont"> 
+                                        <p>CURRENT EMISSION</p>
+                                        <span>BASELINE (2022)</span>
+                                        <h5>100 tCO<sub>2</sub>e</h5>
+                                    </div>
+
+                                </div>
+
+
+                                <div className="trends-box light-red-box">  
+
+                                <div className="trends-box-cont">
+                                    <h5>20 tCO<sub>2</sub>e</h5> 
+                                </div>
+
+                                </div>
+
+
+                                <div className="trends-box white-box">  
+
+                                    <FormField inline className="showcase-checkbox">
+
+                                    <Checkbox
+                                            onChange={(checked) => onChangeCheckbox(8, checked)}
+                                            checked={checkedCheckStates[8]}
+                                            label='Use Business As Usual (2050)'
+                                            isValid
+                                        />
+
+                                    </FormField>  
+
+                                    <div className="trends-box-cont purple-trends-box-cont">
+                                        <p>ACTUAL EMISSION</p>
+                                        <span>current</span>
+                                        <h5>120  tCO<sub>2</sub>e</h5> 
+              
+                                    </div>
+
+                                </div>  
+
+
+                              
+
+                            </div>
+
+                        </WidgetWrapper>
+                        
+                    </div> 
+
+                    <div className="emi-breakdown">  
+                        
+                        <WidgetWrapper>
+
+                            <TitleBar title='CURRENT OFFSET REQUIREMENT'/> 
+
+                            <div className="trends-overall">
+
+                                <div className="trends-box white-box">  
+
+                                    <FormField inline className="showcase-checkbox">
+                                        
+
+                                    <Checkbox
+                                            onChange={(checked) => onChangeCheckbox(7, checked)}  
+                                            checked={checkedCheckStates[7]}
+                                        label='Use Business As Usual (2050)'
+                                            isValid
+                                        /> 
+
+                                    </FormField>  
+
+                                    <div className="trends-box-cont green-trends-box-cont">
+                                        {/* <p>CURRENT EMISSION</p>
+                                       
+                                        <h5>100 tCO<sub>2</sub>e</h5>  */}
+
+                                        <p>PLANNED EMISSION</p>
+                                        <span>2050</span>
+                                        <h5>120  tCO<sub>2</sub>e</h5>
+
+                                    </div>
+
+                                </div>
+
+                                <div className="trends-box light-red-box">  
+
+                                    <div className="trends-box-cont">
+                                        <h5>20 tCO<sub>2</sub>e</h5> 
+                                    </div>
+                                </div>
+
+
+                                <div className="trends-box white-box">  
+
+                                    <FormField inline className="showcase-checkbox"> 
+
+                                        <Checkbox
+                                            onChange={(checked) => onChangeCheckbox(8, checked)}
+                                            checked={checkedCheckStates[8]}
+                                            label='Use Predicted Emission for the period'
+                                            isValid
+                                        />
+
+
+                                    </FormField>  
+
+                                    <div className="trends-box-cont purple-trends-box-cont">
+                                        <p>ACTUAL EMISSION</p>
+                                        <span>current</span>
+                                        <h5>120  tCO<sub>2</sub>e</h5> 
+                                    </div>
+
+                                </div>
+
+
+                               
+
+                            </div>
+
+                        </WidgetWrapper>
+                        
+                    </div>  
+                    </div>
 
 "           <div className="resource_consumption_overview"> 
                 <div  className="consuption_composition" >
@@ -438,64 +587,32 @@ const consumptionCompositionData = [
 
                             <div className="scopewise-chart">  
                                 <ResponsiveContainer width="100%" height={400}> 
+ 
 
-                                    {/* <ComposedChart data={consumptionCompositionData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
-                                        <CartesianGrid strokeDasharray="3 3" />
-                                        <XAxis dataKey="years" />
-                                        <YAxis />
-                                        <Tooltip />
-                                        <Legend />
-                                        <Line type="monotone" dataKey="Baseline" stroke="#4c6a48" />   
-                                        <Line type="monotone" dataKey="Carbon Reduction Goals" stroke="#ff7300" />   
-                                        <Line type="monotone" dataKey="Trend Forecast" stroke="#b97244" />   
+                                    <ComposedChart 
+                                    data={consumptionCompositionData.map((entry) => ({
+                                        ...entry,
+                                        "Business as usual": (entry["Scope 1"] + entry["Scope 2"] + entry["Scope 3"]) / 3, // Calculating average inline
+                                    }))} 
+                                    margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+                                    
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis dataKey="years" />
+                                    <YAxis />
+                                    <Tooltip />
+                                    <Legend />
+                                    
+                                    <Bar barSize={10} dataKey="Scope 1" stackId="a" fill="#4c6a48" />
+                                    <Bar barSize={10} dataKey="Scope 2" stackId="a" fill="#466f81" />
+                                    <Bar barSize={10} dataKey="Scope 3" stackId="a" fill="#b97244" />
+
+                                    <Line type="monotone" dataKey="Baseline" stroke="#4c6a48" />
+                                    <Line type="monotone" dataKey="Carbon Reduction Goals" stroke="#ff7300" />
+                                    <Line type="monotone" dataKey="Trend Forecast" stroke="#b97244" />
                                         
-                                        <Bar barSize={10} dataKey="Scope 1" stackId="a" fill="#4c6a48" />
-                                        <Bar barSize={10} dataKey="Scope 2" stackId="a" fill="#466f81" /> 
-                                        <Bar barSize={10} dataKey="Scope 3" stackId="a" fill="#b97244" /> 
-                                    </ComposedChart>   */}
+                                    <Line type="monotone" dataKey="Business as usual" stroke="#424242" strokeDasharray="3 3" dot={true} name="Business as usual" />
 
-<ComposedChart 
-  data={consumptionCompositionData.map((entry) => ({
-    ...entry,
-    "Business as usual": (entry["Scope 1"] + entry["Scope 2"] + entry["Scope 3"]) / 3, // Calculating average inline
-  }))} 
-  margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
-  
-  <CartesianGrid strokeDasharray="3 3" />
-  <XAxis dataKey="years" />
-  <YAxis />
-  <Tooltip />
-  <Legend />
-  
-  <Bar barSize={10} dataKey="Scope 1" stackId="a" fill="#4c6a48" />
-  <Bar barSize={10} dataKey="Scope 2" stackId="a" fill="#466f81" />
-  <Bar barSize={10} dataKey="Scope 3" stackId="a" fill="#b97244" />
-
-  <Line type="monotone" dataKey="Baseline" stroke="#4c6a48" />
-  <Line type="monotone" dataKey="Carbon Reduction Goals" stroke="#ff7300" />
-  <Line type="monotone" dataKey="Trend Forecast" stroke="#b97244" />
-   
-  {/* <Line type="monotone" dataKey="Avg" stroke="#ff0000" dot={true} name="Avg" /> */}
-  <Line type="monotone" dataKey="Business as usual" stroke="#424242" strokeDasharray="3 3" dot={true} name="Business as usual" />
-
-</ComposedChart>
-
-
-
-{/* <ComposedChart data={consumptionCompositionData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
-    <CartesianGrid strokeDasharray="3 3" />
-    <XAxis dataKey="years" />
-    <YAxis />
-    <Tooltip />
-    <Legend /> 
-    <Scatter name="Baseline" dataKey="Baseline" fill="blue" />
-    <Scatter name="Carbon Reduction Goals" dataKey="Carbon Reduction Goals" fill="green" />
-    <Scatter name="Trend Forecast" dataKey="Trend Forecast" fill="red" /> 
-   
-    <Bar barSize={10} dataKey="Scope 1" stackId="a" fill="#4c6a48" />
-    <Bar barSize={10} dataKey="Scope 2" stackId="a" fill="#466f81" /> 
-    <Bar barSize={10} dataKey="Scope 3" stackId="a" fill="#b97244" />
-</ComposedChart> */}
+                                    </ComposedChart> 
 
 
                                 </ResponsiveContainer> 
@@ -510,15 +627,6 @@ const consumptionCompositionData = [
 }; 
 
 export default Carbon_Trends_Overview;
-
-
- 
-
-
-
-
-
-
 
 
  
