@@ -134,8 +134,7 @@ useEffect(() => {
     if(startYear && startMonth && endYear && endMonth && SubUnitFilter && MainUnitFilter){
         getScopeData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth);
         getCategorywiseEmissionData(SubUnitFilter!='0'?SubUnitFilter:MainUnitFilter,startYear,startMonth,endYear,endMonth, scopeKey);
-    }
-    
+    } 
    
 },[startYear,startMonth,endYear,endMonth,SubUnitFilter,MainUnitFilter ]) 
 

@@ -843,6 +843,32 @@
         height: 100%;
         background: rgb(196 222 230 / 89%);
 
+        .bu-content{ 
+            margin-top: 2em;
+            position: relative;
+            width: 100%;
+            display: inline-block;
+
+            .add-icon{
+                right: 5px;
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background-image: url(https://static.iviva.com/images/add-icon.svg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                cursor: pointer;
+                position: absolute;
+                top: 0;
+                }
+            }
+
+        .data-list-container{
+            overflow: hidden;
+            border-radius: 15px;
+        }
+
         .uxp-button{
             background-color: #104657;
             color: #ffffff;
@@ -863,7 +889,7 @@
                     .data-list-item{
                         td{
                             .item-card{
-                                padding: 0px 0px;
+                                padding: 0px 8px;
                                 min-height: 50px;
                                 .content{
                                     background: transparent;
@@ -878,6 +904,17 @@
                                 background-repeat: no-repeat;
                                 background-size: auto 100%;
                                 cursor: pointer;
+                            }
+                            .delete-icon{
+                                display: inline-block;
+                                width: 18px;
+                                height: 18px;
+                                background-image: url(https://static.iviva.com/images/delete.png);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: auto 100%;
+                                cursor: pointer; 
+                                margin-left: 1em;
                             }
                         }
                     }
